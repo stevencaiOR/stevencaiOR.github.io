@@ -47,7 +47,7 @@
   --main-color-inverted: rgb(var(--main-color-inverted-numerical));
 
   /* STATUS COLORS */
-  --online-color-numerical: 236, 168, 109;/*default: 67, 181, 129*/
+  --online-color-numerical: 36, 168, 109;/*default: 67, 181, 129*/
   --online-color: rgb(var(--online-color-numerical));
   --idle-color-numerical: 250, 198, 25; /*230, 182, 25*/
   --idle-color: rgb(var(--idle-color-numerical));
