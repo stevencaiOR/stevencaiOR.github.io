@@ -38,3 +38,74 @@ div[class^="userPopout"][style="width: 300px;"] .popoutBanner-3cqRD9{
 [class^="userPopout"] [class*="popoutBanner"]{
     -webkit-mask: linear-gradient(to bottom, #000, transparent 100%);
 }
+/* PROFILE PIC SIZE */
+div[class^="userPopout"][style="width: 300px;"] > [class^="headerWrapper"] {
+    background: var(--user-popout-overlay);
+    /*consistent background color throughout profile popout*/
+    height: var(--profile-popout-picture-size, 80px);
+    /*adjusts popout height for profile picture size*/
+}
+#account{
+    background: rgb(0,0,0,0.9);
+}
+#account-info > .headerTop-3GPUSF{
+    padding-top: 44px;
+}
+#account-avatar{
+    height: var(--profile-popout-picture-size, 80px);
+}
+#account-avatar > .popoutBanner-3cqRD9{
+    height: 90px;
+}
+[class^="avatarHoverTarget"] > [class^="avatar"], /*.avatarHoverTarget-1zzfRL > .avatar-2Vndt_, .avatarHoverTarget-1zzfRL+svg.avatarHint-k7pYop */
+[class^="avatarHoverTarget"]+svg[class^="avatarHint-"]{
+    height: var(--profile-popout-picture-size, 80px) !important;
+    width: var(--profile-popout-picture-size, 80px) !important;
+    /*makes profile picture & hover filter a custom size*/
+    /*1st selector is profile picture, 2nd selector is opacity filter*/
+}
+div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremium"]{
+    top: 16px !important;
+    /*corrects avatar positioning*/
+}
+/* LONG USERNAME/NICKNAME SUPPORT */
+.profileBannerPreview-3mLIdO > .headerTop-3GPUSF h3,
+.userPopout-2j1gM4 > .headerTop-3GPUSF h3 {
+    --h3-font-size: 14px;
+    font-size: var(--h3-font-size, 20px);
+
+    --h3-height: calc(2.5*var(--h3-font-size, 20px));
+    line-height: var(--h3-height, 50px);
+
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+.profileBannerPreview-3mLIdO > .headerTop-3GPUSF .headerTagWithNickname-1U8zZH > span,
+.userPopout-2j1gM4 > .headerTop-3GPUSF .headerTagWithNickname-1U8zZH > span{
+    --span-font-size: 10px;
+    font-size: var(--span-font-size, 14px);
+
+    --span-height: calc(2.5*var(--span-font-size, 14px));
+    line-height: var(--span-height, 35px);
+}
+.profileBannerPreview-3mLIdO > .headerTop-3GPUSF .username-3JLfHz,
+.userPopout-2j1gM4 > .headerTop-3GPUSF .username-3JLfHz{  
+    white-space: nowrap;
+    max-width: 65%;
+    overflow: hidden;
+    display: inline-block;
+
+    text-overflow: ellipsis;
+}
+/* User Area Popout */
+#account-info .clickTarget-2uXro4 span.username-3JLfHz {
+    white-space: nowrap;
+    max-width: 14.8%;
+    overflow: hidden;
+    display: inline-block;
+
+    text-overflow: ellipsis;
+}
