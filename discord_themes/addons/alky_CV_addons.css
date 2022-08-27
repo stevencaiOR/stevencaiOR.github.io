@@ -109,3 +109,71 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
 
     text-overflow: ellipsis;
 }
+/*-----PROFILE MODALS-----*/
+#app-mount [aria-label="User Profile Modal"] .topSection-13QKHs header .button-f2h6uQ{
+    border-radius: 7px;
+    /*rounds edges of the "Send Message/Friend Request" Box*/ 
+}
+#app-mount [aria-label="User Profile Modal"] [class*="nameTag-"] [class*="username-"]{
+    max-width: 75%;
+    white-space: nowrap;
+}
+/*-----CHANNEL COLUMN-----*/
+.sidebar-1tnWFu > nav[aria-label*=" (server)"] .header-3OsQeK h1{
+    text-align: center;
+    /*centers server name*/
+}
+.wrapper-NhbLHG:hover > .content-1gYQeQ:before{
+    background: rgb(var(--main-color-numerical),0.2);
+    border-radius: 5px;
+    margin-left: 3px;
+    /*channel name highlight on hover*/
+}
+#channels {
+    padding-right: 6px !important;
+}
+#channels li > [class*="wrapper-"][class*="modeMuted-"]:hover a[class^="mainContent-"]:before{
+    background: transparent;
+}
+/*-----CHANNEL HEADER-----*/
+/* GROUP DM NAME */
+section[aria-label="Channel header"] [class^="outer-"]:hover input[name="channel_name"]+div{
+    box-shadow: inset 0 0 0 1px rgb(var(--main-color-numerical), 0.7);
+    /*box-shadow on hover*/
+}
+section[aria-label="Channel header"] [class^="outer-"]{
+    margin-left: -2px;
+}
+section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"]:focus{
+    box-shadow: inset 0 0 0 1.5px var(--main-color);
+    background-color: rgb(var(--main-color-numerical),0.2);
+    /*on select*/
+}
+/*-----TOOLBAR-----*/
+/* SEARCH BAR */
+div[class^="toolbar-"] div[class^="search-"] > div[class^="searchBar-"]  {
+    border-radius: 8px;
+    width: 320px;
+    /*stylizes search bar*/
+    transition: 300ms;
+    /*transition time for expanding search bar*/
+}
+div[class^="toolbar-"] div[class^="search-"] > div[class^="searchBar-"]:hover{
+    width: 470px;
+    /*search bar on size hover*/
+}
+/*-----WINDOWS BUTTONS-----*/
+div[class^="winButton"] {
+    color:var(--main-color);
+    /*sets default color of icons. default: var(--interactive-normal)*/
+    background: transparent;
+    transition: background-color 250ms linear !important;
+    /*sets default background color and transition for windows buttons*/
+}
+/*-----SERVER FOLDERS-----*/
+[aria-label$=", folder "][data-list-item-id^="guildsnav"] [class^="folderIconWrapper"] svg{
+    color: var(--main-color) !important;
+  }
+  [aria-label$=", folder "][data-list-item-id^="guildsnav"][aria-expanded="false"] [class^="folderIconWrapper"]{
+    background-color: rgb(var(--main-color-numerical), 0.4) !important;
+  }
