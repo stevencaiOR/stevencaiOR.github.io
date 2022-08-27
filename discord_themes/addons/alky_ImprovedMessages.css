@@ -1,0 +1,10 @@
+[class*="mentioned-"][aria-roledescription="Message"]:before{
+    border-radius: 0;
+}
+.replying-eZ7p5z:before,
+.groupStart-3Mlgv1[class*="mentioned-"][aria-roledescription="Message"]:before{
+    top: 5%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    height: 90%;
+}

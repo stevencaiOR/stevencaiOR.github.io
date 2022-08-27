@@ -173,7 +173,32 @@ div[class^="winButton"] {
 /*-----SERVER FOLDERS-----*/
 [aria-label$=", folder "][data-list-item-id^="guildsnav"] [class^="folderIconWrapper"] svg{
     color: var(--main-color) !important;
-  }
-  [aria-label$=", folder "][data-list-item-id^="guildsnav"][aria-expanded="false"] [class^="folderIconWrapper"]{
+}
+[aria-label$=", folder "][data-list-item-id^="guildsnav"][aria-expanded="false"] [class^="folderIconWrapper"]{
     background-color: rgb(var(--main-color-numerical), 0.4) !important;
-  }
+}
+/*-----PING TEXT-----*/
+div[id^="message-content"] > span.mention{
+    background: rgb(var(--main-color-numerical), 0.2);
+    /*highlight box around pings*/
+    color:var(--main-color);
+    /*text color of pings*/
+    padding: 1px 4px;
+    /*extra vertical padding in ping box*/
+}
+/* MENTIONED HIGHLIGHT BOX */
+[class*="mentioned-"][aria-roledescription="Message"]{
+    background: rgb(var(--main-color-numerical), 0.15); 
+    /*main highlight box*/
+}
+[class*="mentioned-"][aria-roledescription="Message"]:hover{
+    background: rgb(var(--main-color-numerical), 0.25) !important; 
+}
+[class*="mentioned-"][aria-roledescription="Message"]:before,
+.replying-eZ7p5z:before {
+    background: var(--main-color);
+    width: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /*far left vertical line*/
+}
