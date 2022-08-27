@@ -202,3 +202,79 @@ div[id^="message-content"] > span.mention{
     border-bottom-left-radius: 5px;
     /*far left vertical line*/
 }
+/*-----CUSTOM STATUS MODAL-----*/
+.art-2Y6Pk3{
+    display: none;
+}
+[class^="focusLock"][aria-label="Set a custom status"]{
+    background: #000;
+    border-radius: 20px;
+}
+[class^="focusLock"][aria-label="Set a custom status"] > div{
+    background: transparent;
+}
+/* EMOJI */
+[aria-label="Set a custom status"] [class^="sprite"] {
+    background-position: 0px -22px !important;
+    /*default emoji is custom emoji*/
+    filter: grayscale(100%) !important;
+    /*emoji gray unless select*/
+}
+/* CLEAR AFTER & STATUS */
+.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn:focus{
+    background-color: initial;
+    border: transparent;
+}
+.layer-2aCOJ3 > .popout-1KHNAq {
+    background: rgb(0,0,0,0.9);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /*dropdown menu*/
+}
+.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn:hover,
+.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn[aria-selected="true"]{
+    border: solid 2px var(--main-color);
+    border-radius: 3px;
+    /*border when hover or select*/
+    /*this part actually affects a lot of code so um yeah*/
+}
+.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn:hover{
+    background: rgb(var(--hover-color-numerical), 0.4);
+    /*background highlight when hover option*/
+}
+.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn[data-list-item-id$="invisible"]:hover,
+.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn[data-list-item-id$="null"]:hover{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    bottom: 2px;
+}
+.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn[aria-selected="true"] > .selectedIcon-19TbzU{
+    display: none;
+    /*removes check circle for selected option*/
+}
+/*-----BOTTOM LEFT PROFILE TAB-----*/
+section[aria-label="User area" i] > .container-YkUktl {
+    --avatar-change: 8;
+  
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /*Adds spacing upwards and downwards*/
+}
+section[aria-label="User area" i] .wrapper-1VLyxH{
+    width: calc(32px + var(--avatar-change, 0) * 1px) !important; /*default: 32px*/
+    height: calc(32px + var(--avatar-change, 0) * 1px) !important;
+    /*Increased avatar size*/
+}
+section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="Online" i]{
+    box-shadow: 0 0 calc(var(--glow-intensity, 0) * 12px * calc(1 + var(--avatar-change)/32)) var(--rs-online-color, #43b581);
+}
+section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="idle" i]{
+    box-shadow: 0 0 calc(var(--glow-intensity, 0) * 12px * calc(1 + var(--avatar-change)/32)) var(--rs-idle-color, #faa61a);
+}
+section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="do not disturb" i]{
+    box-shadow: 0 0 calc(var(--glow-intensity, 0) * 12px * calc(1 + var(--avatar-change)/32)) var(--rs-dnd-color, #982929);
+}
+section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
+    box-shadow: 0 0 calc(var(--glow-intensity, 0) * 12px * calc(1 + var(--avatar-change)/32)) var(--rs-invisible-color, #808080);
+}
