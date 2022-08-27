@@ -1,7 +1,7 @@
 /*-----TRIBUTE TO AUTHOR-----*/
 /*Note: by author, I mean the author of this specific custom CV preset.
   There are already name tags for actual CV developers.*/
-  .contents-2MsGLg>img[src*="947934356880629760"]~.header-2jRmjb>.headerText-2z4IhQ>.username-h_Y3Us::after{
+.contents-2MsGLg>img[src*="947934356880629760"]~.header-2jRmjb>.headerText-2z4IhQ>.username-h_Y3Us::after{
     content: "Nanosuit 2.0";
     color: currentColor;
     text-shadow: 0 0 2px currentColor;
@@ -11,4 +11,30 @@
     background-color: rgba(255,255,255,.07);
     font-size: 10px;
     padding: 0 5px;
-  }
+}
+/*-----PROFILE POPOUT-----*/
+/*profile popout applies to the popout when clicking on user area*/
+svg[class^="avatarHint"][width="80"] {
+    transition-duration: 200ms;
+    /*transition time when hover over profile pic*/
+}
+span[class^="avatarHintInnerText"]{
+    font-size: 80%;
+}
+.userInfoSection-3her-v .userInfoBody-1zgAd0.clamped-2ZePhX{
+    -webkit-line-clamp: 4;
+    /*shorter about-me section*/
+}
+div[class^="userPopout"][style="width: 300px;"],
+div[class^="userPopout"][style="width: 300px;"] .popoutBanner-3cqRD9{
+    width: var(--profile-popout-width, 300px) !important;
+    /*adjusts profile popout width*/
+}
+/* PROFILE BANNER */
+[class^="userPopout"] [class^="headerNormal"]{
+    background: transparent !important;
+    /*creates transparency near bottom of banner*/
+}
+[class^="userPopout"] [class*="popoutBanner"]{
+    -webkit-mask: linear-gradient(to bottom, #000, transparent 100%);
+}
