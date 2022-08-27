@@ -1,3 +1,12 @@
+/*
+:root{
+    You must define these variables in your theme
+    if you are using this as an add-on
+    
+    --message-bg: rgb(0,0,0,0.4);
+    --main-color-numerical: 39, 128, 230;
+}
+*/
 [class*="mentioned-"][aria-roledescription="Message"]:before{
     border-radius: 0;
 }
@@ -14,3 +23,36 @@
 .message-2CShn3.cozy-VmLDNB{
     padding-bottom: 0.4rem;
 }
+
+
+/* IMPROVED CHAT MESSAGES */
+[class*="group-spacing-"] .divider-IqmEqJ{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  li[id^="chat-messages"] > div{
+    background: var(--message-bg, rgb(0,0,0,0.4));
+    border: 2px solid rgb(var(--main-color-numerical),0.7);
+    border-top: none;
+    border-bottom: none;
+    margin-left: 15px;
+    margin-right: 6px;
+  }
+  .container-2gUZhU{
+    top: 0px;
+  }
+  li[id^="chat-messages"] .timestampVisibleOnHover-9PEuZS{
+    top: 0.4rem;
+  }
+  li[id^="chat-messages"] > .groupStart-3Mlgv1,
+  .divider-IqmEqJ+li[id^="chat-messages"] > div{
+    margin-top: 0.45rem;
+    border-top: 2px solid rgb(var(--main-color-numerical),0.7) !important; /*not sure if I actually need this but whatever*/
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  ol > li[id^="chat-messages"]:last-of-type > div{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom: 2px solid rgb(var(--main-color-numerical),0.7);
+  }

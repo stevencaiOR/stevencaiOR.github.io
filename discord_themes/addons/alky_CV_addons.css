@@ -339,3 +339,36 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
 [data-list-id="chat-messages"] button[class*="lookFilled"][class*="colorGreen"]:hover{
     background: var(--main-color) !important;
 }
+/* LARGER PROFILE PIC IN CHAT BOX */
+.message-2CShn3.cozy-VmLDNB{
+    --chat-avatar-change: 1rem;
+}
+.message-2CShn3.cozy-VmLDNB .contents-2MsGLg img.avatar-2e8lTP{
+    width: calc(2.5rem + var(--chat-avatar-change)); /*default: 2.5rem when scaled down, otherwise 40px*/
+    height: calc(2.5rem + var(--chat-avatar-change));
+    left: calc(0.2*var(--chat-avatar-change) + 0.6rem); /*better than the default postioning*/
+    top: 0.375rem; /*I don't know why this is here but I think it's important*/
+    margin-top: 0;
+}
+.message-2CShn3.cozy-VmLDNB.hasReply-2Cr4KE .contents-2MsGLg img.avatar-2e8lTP{
+    top: 1.5rem;
+}
+/* ADJUSTED PADDING TO FIT LARGER PICS */
+.message-2CShn3.groupStart-3Mlgv1.cozy-VmLDNB.wrapper-30-Nkg{
+    padding-top: calc(0.3rem + var(--chat-avatar-change));
+}
+.message-2CShn3.cozy-VmLDNB.wrapper-30-Nkg{
+    --text-size-adjust: calc(1rem - 18px);
+    padding-left: calc(72px + 1.25*var(--chat-avatar-change) + 3.5*var(--text-size-adjust)); /*default: 72px*/
+}
+.message-2CShn3.cozy-VmLDNB [id^="message-reply-context-"]{ 
+    bottom: calc(var(--chat-avatar-change) - 0.05rem);
+    right: calc(var(--chat-avatar-change)*0.55 + 0.1rem + 1.5*var(--text-size-adjust)); /*0.1rem is important, otherwise is off center*/
+}
+/* MINIMIZE LONG USERNAME */
+.contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
+    display: inline-block;
+    text-overflow: ellipsis;
+    max-width: 30%;
+    white-space: nowrap;
+}
