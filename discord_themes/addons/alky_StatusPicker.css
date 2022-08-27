@@ -1,0 +1,46 @@
+/*  Note: the original creator of this feature is not me. However, 
+    once Discord made significant changes to the user area, I adapted
+    the CSS code well enough tothe point where I think I can call
+    it my own.*/
+#account-status-picker+.layer-2aCOJ3 .submenu-1apzyU{
+    min-width: 0px;
+    width: 100px;
+  }
+  #account-status-picker--online+div,
+  #account-status-picker--online > div > div,
+  #account-status-picker--idle > div > div,
+  #account-status-picker--dnd > div > div,
+  #account-status-picker--invisible > div > div{
+    display: none;
+  }
+  #account-status-picker--online > div,
+  #account-status-picker--idle > div,
+  #account-status-picker--dnd > div,
+  #account-status-picker--invisible > div{
+    display: flex;
+    justify-content: center;
+  }
+  #account-status-picker--online.focused-3qFvc8  .status-2DiCMd,
+  #account-status-picker--idle.focused-3qFvc8  .status-2DiCMd,
+  #account-status-picker--dnd.focused-3qFvc8  .status-2DiCMd,
+  #account-status-picker--invisible.focused-3qFvc8  .status-2DiCMd {
+    background-color: #000 !important;
+  }
+  #account-status-picker--online,
+  #account-status-picker--idle,
+  #account-status-picker--dnd,
+  #account-status-picker--invisible{
+    height: 35px;
+  }
+  #account-status-picker--online.focused-3qFvc8 {
+    background: var(--online-color, #43b581);
+  }
+  #account-status-picker--idle.focused-3qFvc8{
+    background: var(--idle-color, #faa61a);
+  }
+  #account-status-picker--dnd.focused-3qFvc8{
+    background: var(--dnd-color, #982929);
+  }
+  #account-status-picker--invisible.focused-3qFvc8{
+    background: var(--offline-color, #808080);
+  }
