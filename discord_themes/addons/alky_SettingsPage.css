@@ -471,3 +471,40 @@ nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"]{
 #billing-tab .codeRedemptionRedirect-2hYMSQ > a:after{
     content: ".";
 }
+/* APPEARANCE */
+#appearance-tab .marginTop8-24uXGp:nth-child(3) .item-2idW98:first-child .text-md-medium-2avxhQ,
+.marginTop8-24uXGp:nth-child(3) .item-2idW98:nth-child(2) .text-md-medium-2avxhQ{
+    text-indent: -9999px;
+    line-height: 0px;
+}
+#appearance-tab .marginTop8-24uXGp:nth-child(3) .item-2idW98:first-child .text-md-medium-2avxhQ:after{
+    text-indent: 0px;
+    line-height: initial;
+    display: block;
+    content: "Default: avatar shown; username above messages.";
+}
+.marginTop8-24uXGp:nth-child(3) .item-2idW98:nth-child(2) .text-md-medium-2avxhQ:after{
+    text-indent: 0px;
+    line-height: initial;
+    display: block;
+    content: "Compact: no avatar shown; username adjacent to messages.";
+}
+/* Improved Radiogroups */
+#appearance-tab .children-1xdcWE{
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    --radio-spacing: 100px;
+}
+#appearance-tab .children-1xdcWE > :not(.marginTop8-24uXGp){
+    width: 100%;
+}
+#appearance-tab .children-1xdcWE .marginTop8-24uXGp {
+    width: calc(50% - 0.5*var(--radio-spacing, 100px));
+}
+#appearance-tab .children-1xdcWE .marginTop8-24uXGp:nth-child(3) {
+    margin-left: var(--radio-spacing,  100px);
+}
+#appearance-tab .children-1xdcWE .marginTop8-24uXGp .divider-_0um2u{
+    display: none;
+}
