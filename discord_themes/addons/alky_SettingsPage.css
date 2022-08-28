@@ -201,3 +201,117 @@ nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"]{
 #discord-nitro-tab svg.heroIcon-3kmupU{
     color: transparent 
 }
+#discord-nitro-tab .hero-1aNo0v h3{
+    margin-top: 80px;
+}
+/* Discord Nitro header in first box */
+#discord-nitro-tab .heroHeader-1A0uOZ{
+    font-size: 34px;
+    background: rgb(0,0,0,0.9);
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(var(--main-color-numerical),0.8);
+  
+    text-indent: -9999px;
+    line-height: 0;
+}
+#discord-nitro-tab .heroHeader-1A0uOZ:after{
+    text-indent: 0px;
+    content: "Discord Nitro";
+    display: block;
+    line-height: 30px; /*initial won't always revert back to the original*/
+}
+/* Short description of Discord Nitro */
+#discord-nitro-tab .hero-1aNo0v h3+div,
+/* Images above benefits descriptions */
+#discord-nitro-tab .featureImageWrapper-2ndc8N,
+/* Discord Nitro image */
+#discord-nitro-tab .marketingRefreshTier1Graphic-1mUnMb,
+/* Utterly unnecesasry text that we have seen before*/
+#discord-nitro-tab .marketingRefreshTier2Cta-2dN2zP{
+    display: none;
+}
+/* Listed Benefits */
+#discord-nitro-tab .content-374sTA div:nth-child(2) h3{
+    text-align: center;
+}
+#discord-nitro-tab li{
+    justify-content: space-evenly;
+    background: rgb(0,0,0,0.6);
+}
+#discord-nitro-tab li h3{
+    color: rgb(var(--main-color-numerical),0.8);
+    font-size: 24px;
+}
+#discord-nitro-tab li .featureDescription-3U0QB3{
+    font-size: 16px;
+}
+#discord-nitro-tab .featureBadge-1FNGAH > h3,
+#discord-nitro-tab .featureUploadSize-3k1zif > h3,
+#discord-nitro-tab li:not(.stickers-2JFQr2, .featurePremiumGuild-2uV6-N) > .featureDescription-3U0QB3,
+#discord-nitro-tab p.marketingRefreshDescription-2_tCTt{
+    text-indent: -9999px;
+    line-height: 0;
+}
+#discord-nitro-tab .featureBadge-1FNGAH > h3:after,
+#discord-nitro-tab .featureUploadSize-3k1zif > h3:after{
+    text-indent: 0px;
+    display: block;
+    line-height: 24px;
+}
+#discord-nitro-tab .featureDescription-3U0QB3:after{
+    text-indent: 0px;
+    display: block;
+    line-height: 18px;
+}
+/* Multiple Profiles */
+#discord-nitro-tab .featurePerGuildProfile-3nTrFP > .featureDescription-3U0QB3:after{
+    content: "Use different avatars, banners and bio sections in each server.";
+}
+/* More backgrounds */
+#discord-nitro-tab .featureVideoBackgrounds-3-ItPq > .featureDescription-3U0QB3:after{
+    content: "Display custom backgrounds during video calls.";
+}
+/* Style Your Profile */
+#discord-nitro-tab .featureProfile-2h92hd > .featureDescription-3U0QB3:after{
+    content: "Use animated avatars, profile banners and a custom tag.";
+}
+/* More Emoji Power */
+#discord-nitro-tab .featureEmoji-cnSD0D > .featureDescription-3U0QB3:after{
+    content: "Use custom or animated emojis globally.";
+}
+/* Rep Your Status */
+#discord-nitro-tab .featureBadge-1FNGAH > h3:after{
+    content: "Custom Profile Badge";
+}
+  #discord-nitro-tab .featureBadge-1FNGAH > .featureDescription-3U0QB3:after{
+    content: "Nitro badge will be visible on profile popouts and modals.";
+}
+/* Bigger Uploads */
+#discord-nitro-tab .featureUploadSize-3k1zif > h3:after{
+    content: "Larger Uploads";
+}
+#discord-nitro-tab .featureUploadSize-3k1zif > .featureDescription-3U0QB3:after{
+    content:"Increased upload size to 100 MB.";
+}
+/* Longer Messages */
+#discord-nitro-tab .featureLongerMessageContent-4BIM8v > .featureDescription-3U0QB3:after{
+    content:"The character limit for each message you send will increase significantly.";
+}
+/* HD Video */
+#discord-nitro-tab .featureGoLive-15Pf6l > .featureDescription-3U0QB3:after{
+    content: "Improved video resolutions when screen-sharing.";
+}
+/* More Servers */
+#discord-nitro-tab .featureMoreServers-3eY3SW > .featureDescription-3U0QB3:after{
+    content: "You can have access to upwards of 200 servers at any given moment.";
+}
+/* Nitro Classic */
+#discord-nitro-tab p.marketingRefreshDescription-2_tCTt:after{
+    text-indent: 0px;
+    display: block;
+    line-height: 20px;
+}
+#discord-nitro-tab p.marketingRefreshDescription-2_tCTt:after{
+    content: "Nitro Classic contains fewer perks than standard Nitro at a discounted price. You may choose between $4.99 per month or $49.99 per year."
+}
