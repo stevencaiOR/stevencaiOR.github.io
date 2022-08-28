@@ -169,7 +169,7 @@ div[class^="toolbar-"] div[class^="search-"] > div[class^="searchBar-"]:hover{
 }
 /*-----WINDOWS BUTTONS-----*/
 div[class^="winButton"] {
-    color:var(--main-color);
+    color: var(--main-color);
     /*sets default color of icons. default: var(--interactive-normal)*/
     background: transparent;
     transition: background-color 250ms linear !important;
