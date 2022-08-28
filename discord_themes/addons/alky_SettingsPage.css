@@ -530,3 +530,26 @@ div[class*="auditLog-"] > div[class^="headerClickable-"],
 div[class*="auditLog-"] > div[class^="headerDefault-"]{
     background-color: rgb(0,0,0,0.9);
 }
+/* SERVER TEMPLATE */
+#guild_templates-tab [class^="inputDefault-"]{
+    /*background: rgb(130,130,130,0.2);*/
+    background: rgb(255,255,255,0.1);
+    box-shadow: none;
+    border-radius: 7px;
+}
+/* LANGUAGE */
+#language-tab [role="radiogroup"]{
+    display: grid;
+    grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+}
+#language-tab .item-2idW98 {
+    margin-right: 18px;
+}
+#language-tab .item-2idW98 .info-2FZci4{
+    --line-height: 18px;
+    height: calc(2 * var(--line-height, 20px));
+}
+#language-tab .item-2idW98 .text-md-medium-2avxhQ,
+#language-tab .item-2idW98 .localizedName-wPJ5qZ{
+    line-height: var(--line-height, 20px);
+}
