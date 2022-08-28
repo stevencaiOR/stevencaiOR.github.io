@@ -1,3 +1,12 @@
+/*
+:root{
+    You must define these variables in your theme
+    if you are using this as an add-on
+    
+    --nitro-bg-image: url(my_link);
+    --nitro-bg-pos: left/right/center;
+}
+*/
 .sidebar-nqHbhN .header-2Kx1US{
     padding-top: 6px !important;
     /*minimizes gaps between sections*/
@@ -122,4 +131,73 @@ nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"]{
 #profile-customization-tab .channelTextArea-1VQBuV {
     background: rgb(0,0,0,0.4);
     border: 2px solid var(--main-color);
+}
+/* SAFE DIRECT MESSAGING & VERIFICATION LEVEL */
+#moderation-tab div[class*="children-"] > div:first-child > div[class*="children-"] div[role="radio"] > div {
+    border-left: 5px solid var(--radio-bar-accent-color);
+}
+[class*="radioBar-"][style*="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%)"]{
+    --radio-bar-accent-color: var(--online-color) !important;
+}
+[class*="radioBar-"][style*="--radio-bar-accent-color:hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"]{
+    --radio-bar-accent-color: var(--idle-color) !important;
+}
+[class*="radioBar-"][style*="--radio-bar-accent-color:hsl(21, calc(var(--saturation-factor, 1) * 90.7%), 57.6%)"]{
+    --radio-bar-accent-color: var(--some-orange) !important;
+}
+[class*="radioBar-"][style*="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"]{
+    --radio-bar-accent-color: var(--dnd-color) !important;
+}
+#privacy-\&-safety-tab h5+div+div[role="radiogroup"] div[class^="text-md-medium-"]
+,#privacy-\&-safety-tab h5+div+div[role="radiogroup"] > div div[class^="text-sm-normal-"]{
+  color: transparent;
+  margin-bottom: 2px;
+}
+#privacy-\&-safety-tab h5+div+div[role="radiogroup"] div[class^="text-sm-normal-"]:after{
+  font-size: 16px;
+}
+#privacy-\&-safety-tab h5+div+div[role="radiogroup"] div[class^="text-md-medium-"]:after{
+  font-weight: 600;
+}
+#privacy-\&-safety-tab h5+div+div[role="radiogroup"] div[class^="text-md-medium-"]:after,
+#privacy-\&-safety-tab h5+div+div[role="radiogroup"] div[class^="text-sm-normal-"]:after{
+  color: #fff;
+  position: absolute;
+  left: 86px;
+  margin-left: 7px;
+}
+#privacy-\&-safety-tab h5+div+div[role="radiogroup"] > div:first-child div[class^="text-md-medium-"]:after{
+    content: "Security Level  - 2";
+}
+#privacy-\&-safety-tab h5+div+div[role="radiogroup"] > div:nth-child(2) div[class^="text-md-medium-"]:after{
+    content: "Security Level - 1";
+}
+#privacy-\&-safety-tab h5+div+div[role="radiogroup"] > div:nth-child(3) div[class^="text-md-medium-"]:after{
+    content: "Security Level - 0";
+}
+#privacy-\&-safety-tab h5+div+div[role="radiogroup"] > div:first-child div[class^="text-sm-normal-"]:after{
+    content: "Scan all direct messages.";
+}
+#privacy-\&-safety-tab h5+div+div[role="radiogroup"] > div:nth-child(2) div[class^="text-sm-normal-"]::after{
+    content: "Scan direct messages from everyone but friends.";
+}
+#privacy-\&-safety-tab h5+div+div[role="radiogroup"] > div:nth-child(3) div[class^="text-sm-normal-"]::after{
+    content: "Do not scan direct messages."
+}
+/* NITRO */
+.premiumTab-39eQzY.item-3XjbnG.themed-2-lozF > div.premiumLabel-3HPvdB > svg{
+    display: none;
+    /*removes Nitro icon in user settings sidebar*/
+}
+/* Modified background image */
+#discord-nitro-tab .container-LUKdw8,
+#discord-nitro-tab .hero-1aNo0v{
+    max-width: 100%;
+}
+#discord-nitro-tab .hero-1aNo0v{
+    background: var(--nitro-bg-image, url(https://i.gyazo.com/2476b02172cbe8abf983110120745998.png)) var(--nitro-bg-pos) no-repeat;
+    background-size: cover;
+}
+#discord-nitro-tab svg.heroIcon-3kmupU{
+    color: transparent 
 }
