@@ -508,3 +508,25 @@ nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"]{
 #appearance-tab .children-1xdcWE .marginTop8-24uXGp .divider-_0um2u{
     display: none;
 }
+/* VOICE & VIDEO */
+/* Input Sensitivity */
+#voice-\&-video-tab [style*="background: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"]{
+    background: var(--main-color) !important;
+}
+#voice-\&-video-tab [style*="background: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"]{
+    background: rgb(160,160,160) !important;
+}
+/* KEYBINDS */
+#keybinds-tab .image-20MDYu{
+    display: none;
+}
+/* REGISTERED GAMES */
+[class^="layer"][id^="popout_"] > [class^="popout"] > div[class^="content-"][role="listbox"] > li[class^="option"]:last-child:hover{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/* AUDIT LOG */
+div[class*="auditLog-"] > div[class^="headerClickable-"],
+div[class*="auditLog-"] > div[class^="headerDefault-"]{
+    background-color: rgb(0,0,0,0.9);
+}
