@@ -391,3 +391,15 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
     border: 2px solid rgb(var(--main-color-numerical),0.8);
     margin-bottom: 1px;
 }
+/*-----SPOILED IMAGE-----*/
+.spoilerContainer-3wsC0k .hiddenSpoilers-19m4Pg,
+.spoilerContainer-3wsC0k .hiddenSpoiler-3pPzRF>.grid-1aWVsE{
+    filter: blur(30px);
+}
+.spoilerContainer-3wsC0k .spoiler-3aUoEX,
+.spoilerContainer-3wsC0k .spoilerEmbed-1LYr3G>.grid-1aWVsE{
+    transition-duration: 250ms;
+}
+.spoilerContainer-3wsC0k:hover .hiddenSpoilers-19m4Pg{
+    filter: blur(20px); 
+}
