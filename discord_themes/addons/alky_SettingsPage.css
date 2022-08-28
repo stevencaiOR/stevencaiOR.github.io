@@ -1,0 +1,18 @@
+.sidebar-nqHbhN .header-2Kx1US{
+    padding-top: 6px !important;
+    /*minimizes gaps between sections*/
+}
+/* IMPROVED WHITESPACE USAGE */
+#app-mount .standardSidebarView-E9Pc3j{
+    --setting-sidebar-width: 260px;
+}
+#app-mount .sidebarRegion-1VBisG{
+    flex-grow: 0;
+    min-width: var(--setting-sidebar-width, 268px);
+}
+#app-mount .sidebarRegion-1VBisG .sidebarRegionScroller-FXiQOh {
+    max-width: 100%;
+}
+#app-mount .contentRegion-3HkfJJ{
+    max-width: calc(100% - var(--setting-sidebar-width, 268px));
+}
