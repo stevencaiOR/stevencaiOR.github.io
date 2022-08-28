@@ -392,7 +392,8 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
     border: 2px solid rgb(var(--main-color-numerical),0.8);
     margin-bottom: 1px;
 }
-/*-----SPOILED IMAGE-----*/
+/*-----SPOILERS-----*/
+/* IMAGES */
 .spoilerContainer-3wsC0k .hiddenSpoilers-19m4Pg,
 .spoilerContainer-3wsC0k .hiddenSpoiler-3pPzRF>.grid-1aWVsE{
     filter: blur(30px);
@@ -403,6 +404,18 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
 }
 .spoilerContainer-3wsC0k:hover .hiddenSpoilers-19m4Pg{
     filter: blur(20px); 
+}
+/* TEXT */
+[class*="messageContent-"] > span[class*="spoilerText-"]{
+    background:rgb(130,130,130,0.1) !important;
+    border-radius: 6px;
+}
+[class*="messageContent-"] > span[class*="spoilerText-"] > [class*="inlineContent-"][aria-hidden="true"]{
+    filter: blur(4px);
+    opacity: 1;
+}
+[class*="messageContent-"] > span[class*="spoilerText-"]:hover > [class*="inlineContent-"][aria-hidden="true"]{
+    filter: none;
 }
 /*-----DM LIST-----*/
 /* FRIEND ICON */
@@ -432,4 +445,56 @@ nav[aria-label="Private channels"] h2~li [class^="interactive-"]:hover > div{
 }
 nav[aria-label="Private channels"] h2~li [class^="interactive-"]:before{
     border-radius: 10px !important;
+}
+/* HOVER USER */
+nav[aria-label="Private channels"] h2~li [class^="interactive-"]:hover:before{
+    background: rgb(var(--main-color-numerical), 0.3) !important;
+    width: calc(100% - 15px);
+}
+/*-----SELECTED CHANNEL/DM/SUBSETTING-----*/
+ul[aria-label="Channels"] > li > [class*="wrapper-"][class*="modeSelected-"] > div:after,
+nav[aria-label="Private channels"] li [class*="interactiveSelected-"]:after,
+nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"][class*="selected-"]:after{
+    border:2px solid rgba(var(--main-color-numerical),0.9);
+    animation:cv-channel-select none !important;
+    -webkit-transition: none !important;
+}
+/* CHANNELs */
+ul[aria-label="Channels"] > li > [class*="wrapper-"][class*="modeSelected-"]:not(:hover) > div:before{
+    background: transparent;
+}
+ul[aria-label="Channels"] > li > [class*="wrapper-"][class*="modeSelected-"] > div:after{
+    background:rgba(var(--main-color-numerical),0.3);
+    border-radius: 8px;
+}
+/* DM'S */
+nav[aria-label="Private channels"] li [class*="interactiveSelected-"]:after,
+/* SUBSETTINGS */
+nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"][aria-selected="true"]:after{
+    background:rgba(var(--main-color-numerical),0.3) !important;
+    border-radius: 10px !important; /*!important for DM's*/
+}
+/*-----HOME BUTTON-----*/
+ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][class*="wrapper-"]{
+    display:none;
+    /*removes left bar*/
+}
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub{
+    background: transparent;
+    /*Removes any existing background color on select*/
+}
+.wrapper-3kah-n:hover .childWrapper-1j_1ub{
+    background: var(--main-color);
+    /*re-adds background color on hover*/
+}
+/*-----FRIENDS TABS-----*/
+#add_friend-tab .description-30xx7u{
+    text-indent: -9999px;
+    line-height: 0;
+}
+#add_friend-tab .description-30xx7u:after{
+    display: block;
+    text-indent: 0px;
+    line-height: 20px;
+    content:"Note: usernames are case-sensitive."
 }
