@@ -498,3 +498,114 @@ ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][clas
     line-height: 20px;
     content:"Note: usernames are case-sensitive."
 }
+/* EFFICIENT SPACE UTILIZATION */
+[class*="peopleList-"] > div:first-child {
+    background: rgb(0,0,0,0.4);
+    border-radius: 20px;
+    border: 2px solid var(--main-color);
+    display: grid;
+    grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+}
+[class^="peopleColumn-"] [class^="peopleListItem-"]{
+    margin: 0px;
+    padding: 16px 10px;
+    border: none;
+}
+[class^="peopleColumn-"] [class^="peopleListItem-"]:hover{
+    background: rgb(var(--main-color-numerical),0.4);
+    /*default border-radius is 8px*/
+}
+/* Border radius of highlight upon hover */
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3),
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1),
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2){
+    border-top-left-radius: 0px;
+}
+[class^="peopleColumn-"] [class^="peopleListItem-"]:first-child{
+    border-top-left-radius: 18px;
+}
+[class^="peopleColumn-"] [class^="peopleListItem-"]:first-child,
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2),
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n){
+    border-top-right-radius: 0px;
+}
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3){
+    border-top-right-radius: 18px;
+}
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n),
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+2):last-child,
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+2):nth-last-child(2),
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1):last-child,
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1):nth-last-child(2),
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1):nth-last-child(3){
+    border-bottom-right-radius: 0px;
+}
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n):last-child{
+    border-bottom-right-radius: 18px;
+}
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1),
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+2):last-child,
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+2):nth-last-child(2),
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n):last-child{
+    border-bottom-left-radius: 0px;
+}
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1):last-child,
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1):nth-last-child(2),
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1):nth-last-child(3){
+    border-bottom-left-radius: 18px;
+}
+/* ACTIVE NOW COLUMN */
+[class*="nowPlayingColumn-"] {
+    min-width: 200px; /*default: 360px*/
+    max-width: 360px; /*default: 420px*/
+}
+/* HIGHLIGHT SELECTED TAB */
+.container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt{
+    background-color: rgb(var(--main-color-numerical), 0.3) !important;
+    border: 2px solid rgb(var(--main-color-numerical),0.7);
+    /*transition here is actually nice. use it for selected dm/channel/subsetting thingy*/
+}
+[class^="tabBar-"][aria-label="Friends"] > [aria-selected="true"]:not(.addFriend-emTWY1){
+    background-color: rgb(var(--main-color-numerical), 0.3) !important;
+    border: 2px solid var(--main-color);
+}
+/* FUCK WUMPUS */
+[class^="peopleColumn-"] > [class^="emptyStateContainer-"] [class^="image-"]{
+    display: none !important;
+}
+#add_friend-tab .image-20MDYu,
+#add_friend-tab .image-20MDYu+div{
+    display: none;
+}
+/* EMPTY CONTAINER TEXT */
+[class^="peopleColumn-"] > [class^="emptyStateContainer-"] [class^="text-"]{
+    font-size: 0; /*default: 16px*/
+    /*removes original text*/
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    padding: 10px 10px;
+    background: rgb(0,0,0,0.4);
+    margin-top: 98px;
+}
+[class^="peopleColumn-"] > [class^="emptyStateContainer-"] [class^="text-"]:after{
+    font-size: 16px;
+}
+[class^="peopleColumn-"] > [class^="emptyStateContainer-"] > div > div {
+    display: block;
+}
+/* Online */
+#online-tab > [class^="emptyStateContainer-"] [class^="text-"]:after{
+    content:"No friends currently online";
+}
+/* All */
+#all-tab > [class^="emptyStateContainer-"] [class^="text-"]:after{
+    content:"No friends added";
+}
+/* Pending */
+#pending-tab > [class^="emptyStateContainer-"] [class^="text-"]:after{
+    content:"No outgoing/incoming friend requests";
+}
+/* Blocked */
+#blocked-tab > [class^="emptyStateContainer-"] [class^="text-"]:after{
+    content:"No blocked users";
+}
