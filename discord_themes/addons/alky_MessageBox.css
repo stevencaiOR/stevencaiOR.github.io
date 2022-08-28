@@ -3,8 +3,8 @@
     You must define these variables in your theme
     if you are using this as an add-on
     
-    --messagebox-placeholder-1
-    --messagebox-placeholder-2
+    --mb-placeholder-1
+    --mb-placeholder-2
 }
 */
 .channelTextArea-1FufC0.channelTextArea-1VQBuV{
@@ -24,4 +24,50 @@
 .channelTextArea-1VQBuV .scrollableContainer-15eg7h:focus-within {
     border-color: var(--main-color);
     /*no change in background-color because it looks better when it stays the same*/
+}
+/* PLACEHOLDER TEXT */
+.channelTextArea-1VQBuV .scrollableContainer-15eg7h .placeholder-1rCBhr{
+    color: var(--mb-placeholder-1, var(--text-muted));
+    /*default color*/
+}
+.channelTextArea-1VQBuV .scrollableContainer-15eg7h:focus-within .placeholder-1rCBhr{
+    color: var(--mb-placeholder-2, var(--text-muted));
+    /*color upon select*/
+}
+/* MARKUP TEXT */
+.channelTextArea-1VQBuV .scrollableContainer-15eg7h .markup-eYLPri{
+    color: rgb(var(--text-normal-numerical),0.8);
+    /*markup text when message box not selected*/
+}
+.channelTextArea-1VQBuV .scrollableContainer-15eg7h:focus-within .markup-eYLPri{
+    color: var(--text-normal);
+    /*markup text when message box selected*/
+}
+/* BUTTONS */
+button[aria-label="Open GIF picker"] {
+    display: none;
+    /*removes GIF button*/
+}
+main[class^="chatContent"] [class^="sprite"]{
+    background-position: 0px -22px !important;
+    /*default emoji is custom emoji*/
+    filter: grayscale(0) !important;
+    /*adds color to the emoji picker but only in the message box*/
+}
+button[aria-label^="Upload a file"] path,
+button[aria-label="Open sticker picker"] path{
+    fill: var(--main-color);
+    /*adds color to plus and sticker icons*/
+}
+button[aria-label^="Upload a file"] path[class*="attachButtonPlay-"]{
+    fill: var(--spotify-color);
+    /*makes spotify invite button green*/
+}
+/* Send Message Button*/
+#children.buttonChild-33lB5F,
+.button-y6hemj[disabled] > .innerButton-1aF_E_ > #children.buttonChild-33lB5F{
+    color: rgb(var(--main-color-numerical),0.7)
+}
+#children.activeButtonChild-2hgLAO{
+    color: var(--main-color);
 }
