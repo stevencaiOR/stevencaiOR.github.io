@@ -404,3 +404,32 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
 .spoilerContainer-3wsC0k:hover .hiddenSpoilers-19m4Pg{
     filter: blur(20px); 
 }
+/*-----DM LIST-----*/
+/* FRIEND ICON */
+ul[aria-label="Direct Messages"] [class*="selected-"] > a[data-list-item-id$="friends"] svg[class^="linkButtonIcon-"]{
+    color: var(--main-color) !important;
+}
+/*REDUCED SPACE BETWEEN FRIENDS AND DIRECT MESSAGES*/
+nav[aria-label="Private channels"] ul > h2{
+    padding-top: 10px ; /*default: 18px*/
+    height: 32px ; /*default: 40px*/
+    /*both value change equal amount from default*/
+}
+/* RIGHT SHIFT UPON HOVER*/
+nav[aria-label="Private channels"] h2~li [class^="interactive-"]{
+    transition: all 200ms ease-in-out ;
+}
+nav[aria-label="Private channels"] h2~li [class^="interactive-"]:hover{
+    margin-left: 15px;
+}
+nav[aria-label="Private channels"] h2~li:hover [class^="interactive-"] > div{
+    display: none;
+}
+nav[aria-label="Private channels"] h2~li [class^="interactive-"]:hover > div{
+    display: block;
+    position: relative;
+    right: 15px;
+}
+nav[aria-label="Private channels"] h2~li [class^="interactive-"]:before{
+    border-radius: 10px !important;
+}

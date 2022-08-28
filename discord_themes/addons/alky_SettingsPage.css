@@ -575,3 +575,14 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 #hypesquad-online-tab .features-6z-RVS > div:nth-child(5) .marginBottom8-emkd0_.title-2pQsrN:after{
     content:"Unique Challenges";
 }
+/* SOCIAL LINKS */
+#app-mount div[class^="socialLinks-"] > a[title="Twitter"] path{
+    fill: var(--twitter-color);
+}
+#app-mount div[class^="socialLinks-"] > a[title="Facebook"] path{
+    fill:var(--facebook-color); 
+}
+#app-mount div[class^="socialLinks-"] > a[title="Instagram"] svg  {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    border-radius: 4.5px;
+}
