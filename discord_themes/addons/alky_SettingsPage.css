@@ -553,3 +553,25 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 #language-tab .item-2idW98 .localizedName-wPJ5qZ{
     line-height: var(--line-height, 20px);
 }
+/* HYPESQUAD */
+#hypesquad-online-tab .icon-2g_pHb{
+    display: none;
+}
+#hypesquad-online-tab .features-6z-RVS .marginBottom8-emkd0_.title-2pQsrN{
+    color: transparent;
+}
+#hypesquad-online-tab .features-6z-RVS .marginBottom8-emkd0_.title-2pQsrN:after{
+    white-space: nowrap;
+    color: var(--header-primary);
+    position: absolute;
+    left: 40px;
+}
+#hypesquad-online-tab .features-6z-RVS > div:nth-child(3) .marginBottom8-emkd0_.title-2pQsrN:after{
+    content:"Exclusive Newsletter";
+}
+#hypesquad-online-tab .features-6z-RVS > div:nth-child(4) .marginBottom8-emkd0_.title-2pQsrN:after{
+    content:"Specialized Profile Badge";
+}
+#hypesquad-online-tab .features-6z-RVS > div:nth-child(5) .marginBottom8-emkd0_.title-2pQsrN:after{
+    content:"Unique Challenges";
+}
