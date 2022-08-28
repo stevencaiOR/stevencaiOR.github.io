@@ -408,3 +408,41 @@ nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"]{
     border: 2px solid var(--main-color);
     border-radius: 15px;
 }
+/* GIFT INVENTORY */
+#library-inventory-tab .inputDefault-3FGxgL.input-2g-os5::placeholder{
+    color: transparent;
+    background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><text x='0' y='15' fill='rgb(255,255,255,0.3)' font-size='16'>****-*****-*****-*****</text></svg>") no-repeat;
+}
+/* Enter code prompt */
+#library-inventory-tab .h5-2RwDNl{
+    text-indent: -9999px;
+    line-height: 0;
+}
+#library-inventory-tab .h5-2RwDNl:after{
+    text-indent: 0px;
+    line-height: 16px;
+    display: block;
+    content: "Enter Nitro or game code below:";
+}
+#library-inventory-tab .emptyState-2cl8KX {
+    background: rgb(0,0,0,0.8);
+    border-radius: 12px;
+    /*easier background to read on*/
+    border: 2px solid var(--main-color);
+}
+#library-inventory-tab .emptyState-2cl8KX  > :not(h2){
+    display: none;
+    /*fuck wumpus and fuck gifting nitro*/
+}
+#library-inventory-tab .emptyState-2cl8KX > h2{
+    text-indent: -9999px;
+    line-height: 0;
+  
+    margin-bottom: 20px;
+}
+#library-inventory-tab .emptyState-2cl8KX  > h2:after{
+    text-indent: 0px;
+    line-height: 1.17;
+    display: block;
+    content: "You have no gifts in your inventory.";
+}
