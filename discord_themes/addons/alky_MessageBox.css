@@ -1,0 +1,27 @@
+/*
+:root{
+    You must define these variables in your theme
+    if you are using this as an add-on
+    
+    --messagebox-placeholder-1
+    --messagebox-placeholder-2
+}
+*/
+.channelTextArea-1FufC0.channelTextArea-1VQBuV{
+    background: transparent; /*default: rgb(0,0,0,0.6)*/
+    /*prevents background from seep outside the border*/
+}
+[class^="channelTextArea-"]:focus-within{
+    box-shadow: none;
+    /*removes box-shadow aka a second border*/
+}
+[class^="channelTextArea-"] > [class^="scrollableContainer-"]{
+    background: rgb(0,0,0,0.8); /*default: transparent*/
+    transition-duration: 250ms;
+    border-radius: 12px; /*default: 8px*/
+    border-color: rgb(var(--main-color-numerical),0.6); /*default: transparent*/
+}
+.channelTextArea-1VQBuV .scrollableContainer-15eg7h:focus-within {
+    border-color: var(--main-color);
+    /*no change in background-color because it looks better when it stays the same*/
+}

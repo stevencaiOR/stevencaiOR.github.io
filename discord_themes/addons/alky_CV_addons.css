@@ -372,3 +372,21 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
     max-width: 30%;
     white-space: nowrap;
 }
+/*-----ABOVE MESSAGE BOX-----*/
+/* AUTOCOMPLETE BOX */
+.autocomplete-3NRXG8 .autocompleteInner-y1mjDl{ /*not sure if works*/
+    background: rgb(0,0,0,0.9);
+    border-radius: 15px;
+}
+/* JUMP TO PRESENT BAR */
+.jumpToPresentBar-1cEnH0{
+    border-radius: 6px;
+    background: rgb(0,0,0,0.9);
+}
+/* REPLYING TO BAR */
+.attachedBars-2BCP3l{
+    background: rgb(0,0,0,0.6);
+    border-radius: 12px;
+    border: 2px solid rgb(var(--main-color-numerical),0.8);
+    margin-bottom: 1px;
+}
