@@ -7,9 +7,30 @@
     --nitro-bg-pos: left/right/center;
 }
 */
+/* Minimizes gaps between sections */
 .sidebar-nqHbhN .header-2Kx1US{
     padding-top: 6px !important;
-    /*minimizes gaps between sections*/
+}
+/* Decreases padding on each sidebar option */
+.sidebar-nqHbhN .item-3XjbnG{
+    padding-left: 10px !important;
+}
+/* Moves sidebar header and increase it font size*/
+.sidebar-nqHbhN .header-2Kx1US{
+    font-size: 15px;
+    position: relative;
+    left: -3px;
+}
+/* Removes lines in sidebar headers */
+.sidebar-nqHbhN .header-2Kx1US:before{
+    max-width: 0px;
+}
+.sidebar-nqHbhN .header-2Kx1US:after{
+    background: transparent;
+}
+/* Removes separator lines between sections */
+#app-mount .sidebarRegion-1VBisG .separator-2wx7h6{
+    height: 0;
 }
 /* IMPROVED WHITESPACE USAGE */
 #app-mount .standardSidebarView-E9Pc3j{
