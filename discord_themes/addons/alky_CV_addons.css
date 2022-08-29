@@ -26,7 +26,7 @@ svg[class^="avatarHint"][width="80"] {
 span[class^="avatarHintInnerText"]{
     font-size: 80%;
 }
-.userInfoSection-3her-v .userInfoBody-1zgAd0.clamped-2ZePhX{
+.lineClamp2Plus-2RYGV2{
     -webkit-line-clamp: 4;
     /*shorter about-me section*/
 }
@@ -122,6 +122,29 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
 #app-mount [aria-label="User Profile Modal"] [class*="nameTag-"] [class*="username-"]{
     max-width: 75%;
     white-space: nowrap;
+}
+/* Removes Mutual Server/Friends graphic */
+.emptyIconFriends-2LNxTX,
+.emptyIconGuilds-2NNSTU{
+    display: none;
+}
+/* No friends/servers in common -> No mutual friends/servers */
+.emptyIconFriends-2LNxTX+.emptyText-mZZyQk,
+.emptyIconGuilds-2NNSTU+.emptyText-mZZyQk{
+    text-indent: -9999px;
+    line-height: 0;
+}
+.emptyIconFriends-2LNxTX+.emptyText-mZZyQk:after{
+    text-indent: 0px;
+    line-height: 16px;
+    display: block;
+    content: "No mutual friends";
+}
+.emptyIconGuilds-2NNSTU+.emptyText-mZZyQk:after{
+    text-indent: 0px;
+    line-height: 16px;
+    display: block;
+    content: "No mutual servers";
 }
 /*-----CHANNEL COLUMN-----*/
 .sidebar-1tnWFu > nav[aria-label*=" (server)"] .header-3OsQeK h1{
@@ -734,4 +757,8 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     /*changes background of buttons on hover to --hover color
     why the fuck this isn't a thing, I do not know
     */
+}
+/*-----VOICE CALL GRAPHICS REMOVAL-----*/
+.callContainer-HtHELf .art-3XrHCd{
+    display: none;
 }

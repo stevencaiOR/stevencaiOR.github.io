@@ -20,6 +20,9 @@
     font-size: 15px;
     position: relative;
     left: -3px;
+
+    /*removes weird text overflow*/
+    display: block;
 }
 /* Removes lines in sidebar headers */
 .sidebar-nqHbhN .header-2Kx1US:before{
