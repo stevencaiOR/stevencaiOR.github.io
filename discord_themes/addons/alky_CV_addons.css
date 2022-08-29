@@ -298,18 +298,6 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     height: calc(32px + var(--avatar-change, 0) * 1px) !important;
     /*Increased avatar size*/
 }
-section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="Online" i]{
-    box-shadow: 0 0 calc(var(--glow-intensity, 0) * 12px * calc(1 + var(--avatar-change)/32)) var(--rs-online-color, #43b581);
-}
-section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="idle" i]{
-    box-shadow: 0 0 calc(var(--glow-intensity, 0) * 12px * calc(1 + var(--avatar-change)/32)) var(--rs-idle-color, #faa61a);
-}
-section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="do not disturb" i]{
-    box-shadow: 0 0 calc(var(--glow-intensity, 0) * 12px * calc(1 + var(--avatar-change)/32)) var(--rs-dnd-color, #982929);
-}
-section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
-    box-shadow: 0 0 calc(var(--glow-intensity, 0) * 12px * calc(1 + var(--avatar-change)/32)) var(--rs-invisible-color, #808080);
-}
 /* Keeps avatar same upon hover */
 .container-YkUktl .avatar-1EWyVD:after {
     display: none;
