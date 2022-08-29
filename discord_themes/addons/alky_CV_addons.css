@@ -724,3 +724,7 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .username-i5-wv->span{
     text-shadow: none;
 }
+/*-----DM VOICE CALL-----*/
+.callAvatarMask-fiNMWy foreignObject .status-1ZXjSF{
+    background: var(--main-color);
+}
