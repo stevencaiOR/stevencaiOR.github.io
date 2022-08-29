@@ -551,6 +551,39 @@ div[class*="auditLog-"] > div[class^="headerClickable-"],
 div[class*="auditLog-"] > div[class^="headerDefault-"]{
     background-color: rgb(0,0,0,0.9);
 }
+/* EMOJI */
+#emoji-tab .emojiUploadUploadRequirementsList-1loAvP li:nth-child(2) div{
+    height: 8px;
+}
+#emoji-tab .emojiUploadUploadRequirementsList-1loAvP li:nth-child(2) div,
+#emoji-tab .emojiSettings-3OOCRk .image-20MDYu+.flexChild-3PzYmX h4,
+#emoji-tab .emojiSettings-3OOCRk .image-20MDYu+.flexChild-3PzYmX .text-27cdrj{
+    text-indent: -9999px;
+    line-height: 0;
+}
+#emoji-tab .emojiUploadUploadRequirementsList-1loAvP li:nth-child(2) div:after,
+#emoji-tab .emojiSettings-3OOCRk .image-20MDYu+.flexChild-3PzYmX h4:after,
+#emoji-tab .emojiSettings-3OOCRk .image-20MDYu+.flexChild-3PzYmX .text-27cdrj:after{
+    display: block;
+    text-indent: 0px;
+}
+#emoji-tab .emojiUploadUploadRequirementsList-1loAvP li:nth-child(2) div:after{
+    line-height: 20px;
+    content: "Recommended file size: 256 KB";
+    position: relative;
+    bottom: 10px;
+}
+#emoji-tab .emojiSettings-3OOCRk .image-20MDYu{
+    display: none;
+}
+#emoji-tab .emojiSettings-3OOCRk .image-20MDYu+.flexChild-3PzYmX h4:after{
+    line-height: 22px;
+    content: "No Emojis";
+}
+#emoji-tab .emojiSettings-3OOCRk .image-20MDYu+.flexChild-3PzYmX .text-27cdrj:after{
+    line-height: 20px;
+    content: "Any added emojis will be shown here.";
+}
 /* SERVER TEMPLATE */
 #guild_templates-tab [class^="inputDefault-"]{
     /*background: rgb(130,130,130,0.2);*/
