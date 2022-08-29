@@ -8,16 +8,27 @@
  * @invite dHaSxn3
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@100;300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Consolas:wght@100;300;400;500;700&display=swap');
-@import url('https://clearvision.github.io/ClearVision-v6/main.css');
-@import url(https://discordstyles.github.io/SoftX/RadialGlow.css);
+@import url(https://clearvision.github.io/ClearVision-v6/main.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@100;300;400;500;700&display=swap);
+@import url(https://discordstyles.github.io/SoftX/RadialGlow.css);
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_addons.css);
 
 :root {
   --custom-mark: "StarCraft II";
   --custom-mark-2: "StarCraft II";
+
+  /* ALKY SETTINGS PAGE */
+  --nitro-bg-image: var(--background-image);
+  --nitro-bg-pos: 0% 17.5%;
+
+  /* ALKY MESSAGE BOX */
+  --mb-placeholder-1: rgb(var(--text-muted-numerical), 0.7);
+  --mb-placeholder-2: var(--text-muted);
+
+  /* ALKY CV ADDONS */
+  --profile-popout-width: 19.55vw;
+  --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6);
 
   /* RADIAL GLOW */
   --glow-intensity: 1;
@@ -47,10 +58,10 @@
   --success-color: rgb(var(--success-color-numerical));
   --danger-color-numerical: 152, 41, 41;
   --danger-color: rgb(var(--danger-color-numerical));
-
+  --button-danger-background-hover: rgb(161, 47, 45);
 
   /* STATUS COLORS */
-  --online-color-numerical:36, 168, 109;
+  --online-color-numerical: 36, 168, 109; /*default: 67, 181, 129*/
   --online-color: rgb(var(--online-color-numerical));
   --idle-color-numerical: 250, 198, 25; /*230, 182, 25*/
   --idle-color: rgb(var(--idle-color-numerical));
@@ -81,6 +92,8 @@
   --main-font: Orbitron, system-ui;
   --font-primary: var(--main-font);
   --code-font: Consolas, monospace;
+  --text-muted-numerical: var(--main-color-numerical);
+  --text-muted: rgb(var(--text-muted-numerical));
   --channels-width: 230px; /*default: 220px*/
   --members-width: 230px; /*default: 240px*/
 
@@ -153,23 +166,8 @@
   /* TEXT COLORS */
   --text-normal-numerical: 221, 221, 221; /*default: 220, 221, 222*/
   --text-normal: rgb(var(--text-normal-numerical));
-
-  /* PERSONAL SETTINGS STORAGE */
-  --chat-font-scaling: 18px;
-  --zoom-level: 90;
-
-  /* PROFILE POPOUT */
-  --profile-popout-width-actual: 300px; /*default: 300px*/
-  /*Actual width of the popout*/
-  --profile-popout-width: calc(var(--profile-popout-width-actual)/(var(--zoom-level)/100));
-  /*Standardized popout width based on selected zoom level*/
-  --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6); /*default: 80px*/
-  /*size of profile picture*/
 }
-
-
-
-/* DISPLAY LINKS */
+/*-----DISPLAY LINKS-----*/
 #app-mount [aria-label="User Profile Modal"] .connectedAccountContainer-SlCC-S{
   background: rgb(var(--main-color-numerical), 0.3);
 }
@@ -199,9 +197,6 @@
   width: 100%;
   white-space: nowrap;
 }
-
-
-
 /*-----VOICE CALL-----*/
 /* CALL DOCK */
 /*Call Dock: thingy w/ 4 buttons*/
@@ -213,38 +208,34 @@ div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv {
   /*call dock background and shape*/
 }
 div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv button{
-background: transparent;
-/*sets default background of each button to be transparent*/
+  background: transparent;
+  /*sets default background of each button to be transparent*/
 }
 div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv button:hover{
-background-color: rgb(var(--main-color-numerical), 0.5);
-/*adjusts background of each button upon hover*/
+  background: rgb(var(--main-color-numerical), 0.5);
+  /*adjusts background of buttons upon hover*/
 }
 div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv button[aria-label="Disconnect"]:hover{
-background-color: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%); /*wtf is saturation factor*/
-/*adjusts disconnect button background upon hover separately*/
+  background: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%); /*wtf is saturation factor*/
+  /*adjusts disconnect button background upon hover separately*/
 }
 /* OPTIMIZED RTC CONNECTION POPOUT */
-div[class^="container"] section {
-background-color: var(--deprecated-panel-background) !important;
+.container-1ILvLB .section-2zQkYM {
+  background: var(--deprecated-panel-background) !important;
 }
-div[class^="container"] section strong {
-white-space: pre;
-font-weight: normal;
+.container-1ILvLB .section-2zQkYM strong {
+  white-space: pre;
+  font-weight: normal;
 }
-div[class^="container"] section[class^="section"] div div[class^="popoutText-"]:nth-of-type(2) strong::before {
-content: 'Server: ';
+.container-1ILvLB .section-2zQkYM div div[class^="popoutText-"]:nth-of-type(2) strong::before {
+  content: 'Server: ';
 }
-
 /*-----WINDOWS BUTTONS-----*/
-div[class^="winButton"][aria-label="Minimize"]:hover {
-  background-color: var(--hover-color);
+.winButtonMinMax-3RsPUg:hover {
+  background-color: var(--hover-color) !important;
 }
-div[class^="winButton"][aria-label="Maximize"]:hover {
-  background-color: var(--hover-color);
-}
-div[class^="winButton"][aria-label="Close"]:hover {
-  background-color: var(--main-color);
+.winButtonClose-3Q8ZH5:hover {
+  background-color: var(--main-color) !important;
 }
 /*sets background color upon hover of windows buttons*/
 /*-----DENITROFY DISCORD-----*/
@@ -258,4 +249,14 @@ div[class^="winButton"][aria-label="Close"]:hover {
 }
 [data-list-item-id^="guildsnav___"][role="listitem"]:hover{
   color: #fff;
+}
+/*-----MUTE/DEAFEN/USER SETTINGS-----*/
+[aria-label="User area"] [aria-label="Set Status"]+div button:hover path{
+  fill: #fff;
+}
+/*-----SEARCH BOX-----*/
+#uid_33 {
+  position: fixed;
+  right: 3.8vw;
+  /*aligns position w/ search bar*/
 }

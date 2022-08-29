@@ -27,6 +27,10 @@
   --mb-placeholder-1: rgb(var(--text-muted-numerical), 0.6);
   --mb-placeholder-2: rgb(var(--text-muted-numerical), 0.8);
 
+  /* ALKY CV ADDONS */
+  --profile-popout-width: 19.55vw;
+  --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6);
+  
   /* RADIAL GLOW */
   --glow-intensity: 1;
   --rs-online-color: var(--online-color);
@@ -174,19 +178,6 @@
   --interactive-active-numerical: 255, 255, 255; /*default: 255, 255, 255*/
   --interactive-active: rgb(var(--interactive-active-numerical));
   /*For channel-text-selected, interactive-active and maybe other vars, DON'T CHANGE IF YOU NEED TO CHANGE, CHANGE SOMETHING ELSE THAT USES THIS OR CREATE NEW VAR*/
-  
-
-  /* PERSONAL SETTINGS STORAGE */
-  --chat-font-scaling: 15px;
-  --zoom-level: 80;
-
-  /* PROFILE POPOUT */
-  --profile-popout-width-actual: 200px; /*default: 300px*/
-  /*Actual width of the popout*/
-  --profile-popout-width: calc(var(--profile-popout-width-actual)/(var(--zoom-level)/100));
-  /*Standardized popout width based on selected zoom level*/
-  --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6); /*default: 80px*/
-  /*size of profile picture*/
 }
 /*-----CRYSIS 2 HUD THEME ONLY-----*/
 #app-mount > div[class^="appDevToolsWrapper"] > div[class^="notDevTools"] > div[class^="app"] > div[class^="app"] > div[class^="layers"] > div[class^="layer"],
@@ -417,6 +408,36 @@ button[class*="lookFilled-"][class*="colorRed-"]:hover,
 .container-ZMc96U .akaBadge-3i7V3p{
   color: #000;
 }
+/*I don't know what this does*/
+.wrapper-3kah-n .childWrapper-1j_1ub{
+  border-radius: 50%;
+  /*background color is circular*/
+}
+/*I don't know what this does either*/
+[class^="layer"][id^="popout_"] > [class^="popout"] [class^="option"][aria-selected="true"]{
+  background: rgb(var(--main-color-numerical), 0.8) !important;
+  /*background highlight when select option*/
+}
+/* AUTOCOMPLETE BOX */
+[class^="autocomplete-"]{
+  max-height: 25vh;
+  overflow-y: scroll !important;
+  /*minimizes height to fit comfortably within the HUD*/
+}
+/*on hover and select*/
+.autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .text-xs-normal-3SiVjE,
+.autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .text-md-normal-304U3g,
+.autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .text-xs-normal-3SiVjE,
+.autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .text-md-normal-304U3g
+{
+  color: #000 !important;
+}
+.autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .autocompleteRowIcon-Br97vl svg,
+.autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .autocompleteRowIcon-Br97vl svg,
+.autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .text-xs-normal-3SiVjE > span,
+.autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .text-xs-normal-3SiVjE > span{
+  color: #000;
+}
 /*-----DISPLAY LINKS-----*/
 #app-mount [aria-label="User Profile Modal"] .connectedAccountContainer-SlCC-S{
   background: rgb(var(--main-color-numerical), 0.1);
@@ -561,45 +582,4 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
 }
 #app-mount .wrapper-1VLyxH foreignObject[mask*=mobile]:after{
   display: none;
-}
-
-
-
-
-
-/*-----ABOVE MESSAGE BOX-----*/
-/* AUTOCOMPLETE BOX */
-[class^="autocomplete-"]{
-  max-height: 25vh;
-  overflow-y: scroll !important;
-  /*minimizes height to fit comfortably within the HUD*/
-}
-/*on hover and select*/
-[id^="autocomplete-"][aria-selected="true"] [class^="base-"] [class^="text-xs-normal-"],
-[id^="autocomplete-"][aria-selected="true"] [class^="base-"] [class^="text-md-normal-"],
-[id^="autocomplete-"] [class^="base-"]:hover [class^="text-md-normal-"],
-[id^="autocomplete-"] [class^="base-"]:hover [class^="text-xs-normal-"]{
-  color: #000 !important;
-}
-
-[id^="autocomplete-"][aria-selected="true"] [class^="base-"] [class^="autocompleteRowIcon-"] svg,
-[id^="autocomplete-"] [class^="base-"]:hover [class^="autocompleteRowIcon-"] svg,
-[id^="autocomplete-"][aria-selected="true"] [class^="base-"] [class^="text-xs-normal-"] > span,
-[id^="autocomplete-"] [class^="base-"]:hover [class^="text-xs-normal-"] > span{
-  color: #000;
-}
-
-
-
-.wrapper-3kah-n .childWrapper-1j_1ub{
-  border-radius: 50%;
-  /*background color is circular*/
-}
-
-
-
-/*what?*/
-[class^="layer"][id^="popout_"] > [class^="popout"] [class^="option"][aria-selected="true"]{
-  background: rgb(var(--main-color-numerical), 0.8) !important;
-  /*background highlight when select option*/
 }

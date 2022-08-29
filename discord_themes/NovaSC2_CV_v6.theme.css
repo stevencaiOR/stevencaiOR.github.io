@@ -31,8 +31,9 @@
   --mb-placeholder-1: rgb(var(--text-muted-numerical), 0.7);
   --mb-placeholder-2: var(--text-muted);
 
-  /* Alky IMPROVED MESSAGES */
-  --message-bg: rgb(var(--main-color-numerical),0.15);
+  /* ALKY CV ADDONS */
+  --profile-popout-width: 19.55vw;
+  --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6);
 
   /* RADIAL GLOW */
   --glow-intensity: 1;
@@ -52,7 +53,6 @@
   /* SERVER COLUMNS SETTINGS */
   --columns: 3;
   --guildgap: 3;
-  --aligndms: 0;
 
   /* ACCENT COLORS */
   --main-color-numerical: 39, 128, 230;
@@ -172,18 +172,6 @@
   /* TEXT COLORS */
   --text-normal-numerical: 221, 221, 221; /*default: 220, 221, 222*/
   --text-normal: rgb(var(--text-normal-numerical));
-
-  /* PERSONAL SETTINGS STORAGE */
-  --chat-font-scaling: 18px;
-  --zoom-level: 90;
-
-  /* PROFILE POPOUT */
-  --profile-popout-width-actual: 300px; /*default: 300px*/
-  /*Actual width of the popout*/
-  --profile-popout-width: calc(var(--profile-popout-width-actual)/(var(--zoom-level)/100));
-  /*Standardized popout width based on selected zoom level*/
-  --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6); /*default: 80px*/
-  /*size of profile picture*/
 }
 /*-----LEOZARD'S SPEECH BUBBLES -----*/
 /* Credits go to Leozard for making the original */
@@ -285,13 +273,13 @@ div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv butt
 }
 /*-----WINDOWS BUTTONS-----*/
 .winButton-3UMjdg[aria-label="Minimize"]:hover {
-  background: var(--danger-color);
+  background: var(--danger-color) ;
 }
 .winButton-3UMjdg[aria-label="Maximize"]:hover {
   background: var(--hover-color);
 }
 .winButtonClose-3Q8ZH5:hover {
-  background: var(--main-color);
+  background: var(--main-color)!important;
 }
 /*sets background color upon hover of windows buttons*/
 /*-----DENITROFY DISCORD-----*/

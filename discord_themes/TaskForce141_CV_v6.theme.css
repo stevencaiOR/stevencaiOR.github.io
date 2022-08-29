@@ -31,8 +31,9 @@
   --mb-placeholder-1: rgb(var(--text-muted-numerical), 0.7);
   --mb-placeholder-2: var(--text-muted);
 
-  /* ALKY IMPROVED MESSAGES */
-  --message-bg: rgb(0,0,0,0.4);
+  /* ALKY CV ADDONS */
+  --profile-popout-width: 19.55vw;
+  --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6);
 
   /* RADIAL GLOW */
   --glow-intensity: 1;
@@ -183,18 +184,6 @@
   /* TEXT COLORS */
   --text-normal-numerical: 221, 221, 221; /*default: 220, 221, 222*/
   --text-normal: rgb(var(--text-normal-numerical));
-
-  /* PERSONAL SETTINGS STORAGE */
-  --chat-font-scaling: 18px;
-  --zoom-level: 90;
-
-  /* PROFILE POPOUT */
-  --profile-popout-width-actual: 300px; /*default: 300px*/
-  /*Actual width of the popout*/
-  --profile-popout-width: calc(var(--profile-popout-width-actual)/(var(--zoom-level)/100));
-  /*Standardized popout width based on selected zoom level*/
-  --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6); /*default: 80px*/
-  /*size of profile picture*/
 }
 /*-----LEOZARD'S SPEECH BUBBLES -----*/
 /* Credits go to Leozard for making the original */
@@ -302,7 +291,7 @@ div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv butt
   background-color: var(--hover-color);
 }
 .winButtonClose-3Q8ZH5:hover {
-  background-color: var(--main-color);
+  background-color: var(--main-color) !important;
 }
 /*sets background color upon hover of windows buttons*/
 /*-----DENITROFY DISCORD-----*/
@@ -374,24 +363,4 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
 }
 #app-mount .wrapper-1VLyxH foreignObject[mask*=mobile]:after{
   display: none;
-}
-
-
-/*------------------------------------------------------*/
-.root-1gCeng .container-1CE3eW .content-1LAB8Z.templatesList-2E6rTe.thin-1ybCId.scrollerBase-289Jih .container-UC8Ug1 {
-  background-color: rgb(var(--main-color-numerical), 0.5);
-  border-color: var(--main-color);
-  border-width: 3px;
-  /*create a server buttons customization. finalized btw*/
-}
-.group-spacing-0 .divider-3_HH5L {
-  margin-top: 8px;
-}
-
-
-
-
-/* Private call avatar muted badge color */
-input.input-2g-os5{
-  color: var(--main-color);
 }
