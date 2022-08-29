@@ -425,6 +425,9 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     position: relative;
     bottom: calc(1.25*var(--chat-box-username-height, 1.375rem) - 2rem);
 }
+.cozyMessage-1DWF9U:not(.systemMessage-1H1Z20) .messageContent-2t3eCI{
+    bottom: 1rem;
+}
 /*-----ABOVE MESSAGE BOX-----*/
 /* AUTOCOMPLETE BOX */
 .autocomplete-3NRXG8 .autocompleteInner-y1mjDl{ /*not sure if works*/
