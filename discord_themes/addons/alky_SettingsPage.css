@@ -73,7 +73,7 @@ nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"]{
 /* MY ACCOUNT */
 #my-account-tab .accountProfileCard-lbN7n-{
     --avatar-change: 8.2vw;
-    --adaptive-height: max(0vw, calc(var(--avatar-change) - 5.4vw));
+    --adaptive-height: max(0vw, calc(var(--avatar-change) - 4.5vw));
     --avatar-size: calc(min(4.17vw, 80px) + var(--avatar-change,0px));
 }
 #my-account-tab .userInfo-regn9W{
