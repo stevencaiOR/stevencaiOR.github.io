@@ -728,3 +728,10 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .callAvatarMask-fiNMWy foreignObject .status-1ZXjSF{
     background: var(--main-color);
 }
+/*-----BUTTON FIXING-----*/
+.button-3Vyz67:hover{
+    background-color: var(--hover-color);
+    /*changes background of buttons on hover to --hover color
+    why the fuck this isn't a thing, I do not know
+    */
+}
