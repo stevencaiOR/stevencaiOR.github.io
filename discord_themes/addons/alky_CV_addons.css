@@ -313,6 +313,10 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
 .container-YkUktl .avatar-1EWyVD:hover foreignObject{
     opacity: 1;
 }
+/* Readable RTC connection text*/
+.container-1zzFcN .rtcConnectionStatus-c5A6Av+a .channel-3prF2u{
+    color: rgb(255,255,255,0.5);
+}
 /* MUTE/DEAFEN/SETTINGS BUTTONS */
 /* Unhovered buttons */
 [aria-label="User area"] [aria-label="Set Status"]+div{
