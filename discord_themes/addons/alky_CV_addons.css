@@ -459,7 +459,7 @@ nav[aria-label="Private channels"] h2~li [class^="interactive-"]:hover:before{
     width: calc(100% - 15px);
 }
 /*-----SELECTED CHANNEL/DM/SUBSETTING-----*/
-ul[aria-label="Channels"] > li > .wrapper-NhbLHG.modeSelected-3DmyhH > div:after,
+ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after,
 nav[aria-label="Private channels"] li [class*="interactiveSelected-"]:after,
 nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"][class*="selected-"]:after{
     border: 2px solid rgba(var(--main-color-numerical),0.9);
@@ -467,10 +467,10 @@ nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"][class*="selected-
     -webkit-transition: none !important;
 }
 /* CHANNELs */
-ul[aria-label="Channels"] > li > .wrapper-NhbLHG.modeSelected-3DmyhH:not(:hover) > div:before{
+ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH:not(:hover) > div:before{
     background: transparent;
 }
-ul[aria-label="Channels"] > li > .wrapper-NhbLHG.modeSelected-3DmyhH > div:after{
+ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after{
     background:rgba(var(--main-color-numerical),0.3);
     border-radius: 8px;
 }
