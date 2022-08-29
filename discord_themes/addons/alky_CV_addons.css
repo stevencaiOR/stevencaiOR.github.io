@@ -230,6 +230,10 @@ div[id^="message-content"] > span.mention{
     border-bottom-left-radius: 5px;
     /*far left vertical line*/
 }
+.message-2CShn3.mentioned-Tre-dv{
+    border-radius: 5px;
+    /*border-radius of highlight box on right*/
+}
 /*-----CUSTOM STATUS MODAL-----*/
 .art-2Y6Pk3{
     display: none;
