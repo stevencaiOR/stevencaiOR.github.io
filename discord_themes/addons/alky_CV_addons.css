@@ -18,37 +18,38 @@
     padding: 0 5px;
 }
 /*-----PROFILE POPOUT-----*/
+.userPopout-3fydSP{
+    width: var(--profile-popout-width);
+    /*width of profile popout*/
+}
+.avatarHintInner-3gk_Yx{
+    font-size: 8.25px;
+}
 /*profile popout applies to the popout when clicking on user area*/
-svg[class^="avatarHint"][width="80"] {
+svg.avatarHint-2g3Mcd[width="80"] {
     transition-duration: 200ms;
     /*transition time when hover over profile pic*/
-}
-span[class^="avatarHintInnerText"]{
-    font-size: 80%;
 }
 .lineClamp2Plus-2RYGV2{
     -webkit-line-clamp: 4;
     /*shorter about-me section*/
 }
-div[class^="userPopout"][style="width: 300px;"],
-div[class^="userPopout"][style="width: 300px;"] .popoutBanner-3cqRD9{
-    width: var(--profile-popout-width, 300px) !important;
-    /*adjusts profile popout width*/
-}
-/* PROFILE BANNER */
-[class^="userPopout"] [class^="headerNormal"]{
-    background: transparent !important;
-    /*creates transparency near bottom of banner*/
-}
-[class^="userPopout"] [class*="popoutBanner"]{
-    -webkit-mask: linear-gradient(to bottom, #000, transparent 100%);
-}
 /* PROFILE PIC SIZE */
+[class^="avatarHoverTarget"] > [class^="avatar"], /*.avatarHoverTarget-1zzfRL > .avatar-2Vndt_, .avatarHoverTarget-1zzfRL+svg.avatarHint-k7pYop */
+[class^="avatarHoverTarget"]+svg[class^="avatarHint-"]{
+    height: var(--profile-popout-picture-size, 80px) !important;
+    width: var(--profile-popout-picture-size, 80px) !important;
+    /*makes profile picture & hover filter a custom size*/
+    /*1st selector is profile picture, 2nd selector is opacity filter*/
+}
+.userPopout-3fydSP .popoutBanner-16rVDY{
+    -webkit-mask: none;
+    height: calc(var(--profile-popout-picture-size, 80px) - 20px);
+    /*adjust banner based on profile picture size*/
+}
 div[class^="userPopout"][style="width: 300px;"] > [class^="headerWrapper"] {
     background: var(--user-popout-overlay);
     /*consistent background color throughout profile popout*/
-    height: var(--profile-popout-picture-size, 80px);
-    /*adjusts popout height for profile picture size*/
 }
 #account{
     background: rgb(0,0,0,0.9);
@@ -62,25 +63,17 @@ div[class^="userPopout"][style="width: 300px;"] > [class^="headerWrapper"] {
 #account-avatar > .popoutBanner-3cqRD9{
     height: 90px;
 }
-[class^="avatarHoverTarget"] > [class^="avatar"], /*.avatarHoverTarget-1zzfRL > .avatar-2Vndt_, .avatarHoverTarget-1zzfRL+svg.avatarHint-k7pYop */
-[class^="avatarHoverTarget"]+svg[class^="avatarHint-"]{
-    height: var(--profile-popout-picture-size, 80px) !important;
-    width: var(--profile-popout-picture-size, 80px) !important;
-    /*makes profile picture & hover filter a custom size*/
-    /*1st selector is profile picture, 2nd selector is opacity filter*/
-}
 div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremium"]{
     top: 16px !important;
     /*corrects avatar positioning*/
 }
 /* LONG USERNAME/NICKNAME SUPPORT */
-.profileBannerPreview-3mLIdO > .headerTop-3GPUSF h3,
-.userPopout-2j1gM4 > .headerTop-3GPUSF h3 {
-    --h3-font-size: 14px;
-    font-size: var(--h3-font-size, 20px);
+.userPopoutInner-PA9zkU .overlayBackground-arbZMT h3.nickname-2rimyL{
+    --span-font-size: 15px;
+    font-size: var(--span-font-size, 20px);
 
-    --h3-height: calc(2.5*var(--h3-font-size, 20px));
-    line-height: var(--h3-height, 50px);
+    --span-height: calc(2.5*var(--span-font-size, 20px));
+    line-height: var(--span-height, 50px);
 
     white-space: nowrap;
     max-width: 100%;
@@ -88,20 +81,15 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
 
     text-overflow: ellipsis;
 }
-.profileBannerPreview-3mLIdO > .headerTop-3GPUSF .headerTagWithNickname-1U8zZH > span,
-.userPopout-2j1gM4 > .headerTop-3GPUSF .headerTagWithNickname-1U8zZH > span{
-    --span-font-size: 10px;
+.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagWithNickname-3-znkC .username-3JLfHz{
     font-size: var(--span-font-size, 14px);
 
     --span-height: calc(2.5*var(--span-font-size, 14px));
     line-height: var(--span-height, 35px);
-}
-.profileBannerPreview-3mLIdO > .headerTop-3GPUSF .username-3JLfHz,
-.userPopout-2j1gM4 > .headerTop-3GPUSF .username-3JLfHz{  
+
+    display: block;
     white-space: nowrap;
-    max-width: 65%;
     overflow: hidden;
-    display: inline-block;
 
     text-overflow: ellipsis;
 }
