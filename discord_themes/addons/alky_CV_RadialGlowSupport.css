@@ -65,3 +65,17 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
 #app-mount .wrapper-1VLyxH foreignObject[mask*=mobile]:after{
     display: none;
 }
+
+/* Scuffed fix for hover on avatar in profile popout */
+.avatarWrapperNormal-1tQ3Je .avatarHint-2g3Mcd foreignObject{
+    mask: none;
+}
+.avatarWrapperNormal-1tQ3Je .avatarHint-2g3Mcd{
+    border-radius: 50%;
+    top: calc(3.5*(var(--rs-medium-width) + var(--rs-medium-spacing)));
+    left: calc(3.5*(var(--rs-medium-width) + var(--rs-medium-spacing)));
+}
+[class^="avatarHoverTarget"]+svg[class^="avatarHint-"]{
+    height: calc(var(--profile-popout-picture-size, 80px) - 1.75*(var(--rs-medium-width) + var(--rs-medium-spacing))) !important;
+    width: calc(var(--profile-popout-picture-size, 80px) - 1.75*(var(--rs-medium-width) + var(--rs-medium-spacing))) !important;
+}
