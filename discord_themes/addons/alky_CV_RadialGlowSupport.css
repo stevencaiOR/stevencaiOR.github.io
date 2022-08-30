@@ -25,22 +25,23 @@ It is primarily compatible with my Clearvision theme presets I created
     filter: none;
 }
 #my-account-tab .avatar-3mTjvZ.wrapper-1VLyxH[aria-label*="Online" i],
-.userPopout-2j1gM4 .wrapper-1VLyxH[aria-label*="Online" i],
+.userPopout-3fydSP .wrapper-1VLyxH[aria-label*="Online" i],
 #account-avatar .wrapper-1VLyxH[aria-label*="Online" i]{
     box-shadow: 0 0 calc(var(--glow-intensity) * 25px) var(--rs-online-color);
 }
 #my-account-tab .avatar-3mTjvZ.wrapper-1VLyxH[aria-label*="Idle" i],
-.userPopout-2j1gM4 .wrapper-1VLyxH[aria-label*="Idle" i],
+.userPopout-3fydSP .wrapper-1VLyxH[aria-label*="Idle" i],
 #account-avatar .wrapper-1VLyxH[aria-label*="Idle" i]{
     box-shadow: 0 0 calc(var(--glow-intensity) * 25px) var(--rs-idle-color);
 }
 #my-account-tab .avatar-3mTjvZ.wrapper-1VLyxH[aria-label*="Do not disturb" i],
-.userPopout-2j1gM4 .wrapper-1VLyxH[aria-label*="Do not disturb" i],
+.userPopout-3fydSP .wrapper-1VLyxH[aria-label*="Do not disturb" i],
 #account-avatar .wrapper-1VLyxH[aria-label*="Do not disturb" i]{
     box-shadow: 0 0 calc(var(--glow-intensity) * 25px) var(--rs-dnd-color);
 }
 #my-account-tab .avatar-3mTjvZ.wrapper-1VLyxH[aria-label*="invisible" i],
-.userPopout-2j1gM4 .wrapper-1VLyxH[aria-label*="invisible" i],
+.userPopout-3fydSP .wrapper-1VLyxH[aria-label*="invisible" i],
+.userPopout-3fydSP .wrapper-1VLyxH[aria-label*="offline" i],
 #account-avatar .wrapper-1VLyxH[aria-label*="invisible" i]{
     box-shadow: 0 0 calc(var(--glow-intensity) * 25px) var(--rs-invisible-color);
 }
