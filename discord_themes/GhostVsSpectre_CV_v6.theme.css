@@ -28,7 +28,7 @@
   --mb-placeholder-2: var(--text-muted);
 
   /* ALKY CV ADDONS */
-  --profile-popout-width: 19.55vw;
+  --profile-popout-width: 16vw;
   --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6);
 
   /* SERVER COLUMNS */

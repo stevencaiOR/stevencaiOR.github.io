@@ -18,9 +18,10 @@
     padding: 0 5px;
 }
 /*-----PROFILE POPOUT-----*/
+#account,
+#account .popoutBanner-3cqRD9,
 .userPopout-3fydSP{
-    width: var(--profile-popout-width);
-    /*width of profile popout*/
+    width: var(--profile-popout-width, 16vw);
 }
 .avatarHintInner-3gk_Yx{
     font-size: 8.25px;
@@ -96,11 +97,20 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
 /* User Area Popout */
 #account-info .clickTarget-2uXro4 span.username-3JLfHz {
     white-space: nowrap;
-    max-width: 14.8%;
+    max-width: 100%;
     overflow: hidden;
     display: inline-block;
 
     text-overflow: ellipsis;
+}
+#account .headerTagNoNickname-3tGHj6{
+    font-size: 18px;
+}
+#account .copiableWrapper-2IFENG{
+    display: block;
+}
+#account .copiableWrapper-2IFENG > div:nth-child(2){
+    max-height: 15px;
 }
 /*-----PROFILE MODALS-----*/
 #app-mount [aria-label="User Profile Modal"] .topSection-13QKHs header .button-f2h6uQ{
