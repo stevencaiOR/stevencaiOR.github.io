@@ -141,6 +141,15 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
     max-width: 75%;
     white-space: nowrap;
 }
+.profileBanner-1owKI5{
+    mask: none;
+    -webkit-mask: none;
+    /*removes banner gradient*/
+}
+.profileBannerPremium-KD60EB{
+    height: 120px;
+    /*no special treatment for nitro users*/
+}
 /* Removes Mutual Server/Friends graphic */
 .emptyIconFriends-2LNxTX,
 .emptyIconGuilds-2NNSTU{
