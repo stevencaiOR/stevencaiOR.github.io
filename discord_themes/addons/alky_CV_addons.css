@@ -68,6 +68,7 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
     /*corrects avatar positioning*/
 }
 /* LONG USERNAME/NICKNAME SUPPORT */
+/* Popout w/ nickname*/
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT h3.nickname-2rimyL{
     --span-font-size: 15px;
     font-size: var(--span-font-size, 20px);
@@ -92,6 +93,26 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
     overflow: hidden;
 
     text-overflow: ellipsis;
+}
+/* Popout w/o nickname*/
+.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .username-3JLfHz,
+.userTagDiscriminatorNoNickname-2HLaIE {
+    font-size: var(--span-font-size, 18px);
+
+    --span-height: calc(2.5*var(--span-font-size, 18px));
+    line-height: var(--span-height, 45px);
+}
+.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .username-3JLfHz{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .PI-indicatorContainer{
+    bottom: 8px;
+    left: 5px;
+    position: relative;
 }
 /* User Area Popout */
 #account-info .clickTarget-2uXro4 span.username-3JLfHz {
