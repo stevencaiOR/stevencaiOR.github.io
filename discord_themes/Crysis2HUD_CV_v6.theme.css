@@ -32,7 +32,7 @@
   --profile-popout-width: 16vw;
   --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6);
   --chat-box-username-height: 2.5rem;
-  --chat-box-avatar-change: min(calc(var(--chat-box-username-height, 1.375rem) - 0.625rem),1rem);
+  --chat-box-avatar-change: min(calc(var(--chat-box-username-height, 1.375rem) - 0.625rem),1.5rem);
 
   /* ACCENT COLORS */
   --main-color-numerical: 143, 232, 255;
