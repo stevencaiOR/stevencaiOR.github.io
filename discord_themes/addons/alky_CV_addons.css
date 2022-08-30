@@ -356,7 +356,7 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     /*includes #status-picker, submenus among other things*/
 }
 /*-----CHAT BOX-----*/
-/* Adjusted message spacing and increased message line height*/ 
+/* Adjusted message spacing and increased message line height 
 .message-2CShn3:not(.systemMessage-1H1Z20):not(.groupStart-3Mlgv1) .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB){
     margin-top: 0.75rem;
 }
