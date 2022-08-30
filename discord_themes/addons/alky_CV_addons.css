@@ -32,7 +32,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
     /*transition time when hover over profile pic*/
 }
 .lineClamp2Plus-2RYGV2{
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 4 !important;
     /*shorter about-me section*/
 }
 /* PROFILE PIC SIZE */
@@ -43,14 +43,13 @@ svg.avatarHint-2g3Mcd[width="80"] {
     /*makes profile picture & hover filter a custom size*/
     /*1st selector is profile picture, 2nd selector is opacity filter*/
 }
-.userPopout-3fydSP .popoutBanner-16rVDY{
-    -webkit-mask: none;
+.userPopout-3fydSP .banner-2boKnS{
     height: calc(var(--profile-popout-picture-size, 80px) - 20px);
-    /*adjust banner based on profile picture size*/
+    /*adjust banner based on avatar size*/
 }
-div[class^="userPopout"][style="width: 300px;"] > [class^="headerWrapper"] {
-    background: var(--user-popout-overlay);
-    /*consistent background color throughout profile popout*/
+.avatarPositionPremiumBanner-2nq2Fy{
+    top: 14px;
+    /*adjust avatar position*/
 }
 #account{
     background: rgb(0,0,0,0.9);
