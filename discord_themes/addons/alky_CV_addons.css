@@ -356,12 +356,9 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     /*includes #status-picker, submenus among other things*/
 }
 /*-----CHAT BOX-----*/
-/* Adjusted message spacing and increased message line height 
-.message-2CShn3:not(.systemMessage-1H1Z20):not(.groupStart-3Mlgv1) .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB){
-    margin-top: 0.75rem;
-}
 .markup-eYLPri.messageContent-2t3eCI{
-    line-height: 1.5rem;
+    line-height: 1.875rem;
+    /*line height of messages*/
 }
 /* JOIN BUTTON */
 /*ex. the join button when receive server invite*/
@@ -373,21 +370,20 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     background: var(--main-color) !important;
 }
 /* LARGER PROFILE PIC IN CHAT BOX */
-.message-2CShn3.cozy-VmLDNB{
-    --chat-avatar-change: 1rem;
-}
 .message-2CShn3.cozy-VmLDNB .contents-2MsGLg img.avatar-2e8lTP,
 .message-2CShn3.cozy-VmLDNB > .repliedMessage-3Z6XBG{
-    top: calc(0.2rem - max(0rem, calc(var(--chat-avatar-change) - 1rem)));  
+    top: 0.375rem;
+    /*avatar (w/o reply context) and reply context position*/
 }
 .message-2CShn3.cozy-VmLDNB .contents-2MsGLg img.avatar-2e8lTP{
-    width: calc(2.5rem + var(--chat-avatar-change)); /*default: 2.5rem when scaled down, otherwise 40px*/
-    height: calc(2.5rem + var(--chat-avatar-change));
-    left: calc(0.2*var(--chat-avatar-change) + 0.6rem); /*better than the default postioning*/
+    width: calc(2.5rem + var(--chat-box-avatar-change, 0rem)); /*default: 2.5rem when scaled down, otherwise 40px*/
+    height: calc(2.5rem + var(--chat-box-avatar-change, 0rem));
+    left: calc(0.2*var(--chat-box-avatar-change, 0rem) + 0.6rem); /*better than the default postioning*/
     margin-top: 0;
 }
 .message-2CShn3.cozy-VmLDNB.hasReply-2Cr4KE .contents-2MsGLg img.avatar-2e8lTP{
     top: 1.5rem;
+    /*avatar position with replied context message*/
 }
 /* ADJUSTED PADDING TO FIT LARGER PICS */
 .message-2CShn3.groupStart-3Mlgv1.cozy-VmLDNB.wrapper-30-Nkg{
@@ -395,11 +391,11 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
 }
 .message-2CShn3.cozy-VmLDNB.wrapper-30-Nkg{
     --text-size-adjust: calc(1rem - 18px);
-    padding-left: calc(72px + 1.25*var(--chat-avatar-change) + 3.5*var(--text-size-adjust)); /*default: 72px*/
+    padding-left: calc(72px + 1.25*var(--chat-box-avatar-change, 0rem) + 3.5*var(--text-size-adjust)); /*default: 72px*/
 }
 .message-2CShn3.cozy-VmLDNB [id^="message-reply-context-"]{ 
-    bottom: calc(var(--chat-avatar-change) - 0.05rem);
-    right: calc(var(--chat-avatar-change)*0.55 + 0.1rem + 1.5*var(--text-size-adjust)); /*0.1rem is important, otherwise is off center*/
+    bottom: calc(var(--chat-box-avatar-change, 0rem) - 0.05rem);
+    right: calc(var(--chat-box-avatar-change, 0rem)*0.55 + 0.1rem + 1.5*var(--text-size-adjust)); /*0.1rem is important, otherwise is off center*/
 }
 /* MINIMIZE LONG USERNAME */
 .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
@@ -422,24 +418,23 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     text-indent: 0px;
 }
 /* TALL USERNAME ADJUSTMENT (e.g. special characters) */
-.message-2CShn3 .contents-2MsGLg > .header-2jRmjb,
-.markup-eYLPri.messageContent-2t3eCI .container-x059i8 .content-vSHmMD{
-    --chat-box-username-height: 2.5rem;
-}
 .message-2CShn3 .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us,
 .markup-eYLPri.messageContent-2t3eCI .container-x059i8 .content-vSHmMD{
     line-height: var(--chat-box-username-height, 1.375rem);
+    /*line height of username*/
 }
 .message-2CShn3 .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
-    bottom: calc(var(--chat-box-username-height, 1.375rem) - 2rem);
+    bottom: 0;
 }
 .message-2CShn3.cozy-VmLDNB .contents-2MsGLg > .header-2jRmjb .timestamp-p1Df1m{
     position: relative;
-    bottom: calc(1.375*var(--chat-box-username-height, 1.375rem) - 2rem);
+    bottom: calc(0.375*var(--chat-box-username-height, 1.375rem));
+    /*reposition timestamp based on username height*/
 }
 .message-2CShn3:not(.systemMessage-1H1Z20) .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB){
     position: relative;
-    bottom: 0.875rem;
+    bottom: calc(0.125*(var(--chat-box-username-height, 1.375rem) - 1.375rem));
+    /*reposition messages based on username height*/
 }
 /*-----ABOVE MESSAGE BOX-----*/
 /* AUTOCOMPLETE BOX */
