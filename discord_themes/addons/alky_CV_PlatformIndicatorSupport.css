@@ -1,0 +1,9 @@
+.PI-indicatorContainer > div[aria-label$="Online"] > svg {
+  color: var(--online-color, #43b581) !important;
+}
+.PI-indicatorContainer > [aria-label$="Idle"] > svg {
+  color: var(--idle-color, #faa61a) !important;
+}
+.PI-indicatorContainer > [aria-label$="Do Not Disturb"] > svg {
+  color: var(--dnd-color, #982929) !important;
+}
