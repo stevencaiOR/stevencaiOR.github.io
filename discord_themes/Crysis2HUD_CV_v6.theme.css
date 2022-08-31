@@ -15,6 +15,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap);
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_addons.css);
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_RadialGlowSupport.css); /*Remove if you want normal statuses*/
+@import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_BetterAccentContrast.css); /*Remove for worse contrast with --main-color*/
 
 :root {
   --custom-mark: "CRYNET SYSTEMS";
@@ -199,110 +200,10 @@
   /*aligns border radius of close button with window*/
 }
 /* channel column */
-ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH:hover a svg,
-ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH:hover a .name-28HaxV,
 [class^="channelNotice"] button,
-/* DM column*/
-.interactiveSelected-29CP8y > .link-39sEB3 .name-2m3Cms,
-.interactiveSelected-29CP8y > .link-39sEB3 .activityText-ev7Z1T strong,
-/* user settings column*/
-.side-2ur1Qk[aria-label="User Settings"] .selected-g-kMVV ,
 /* "offer" when selecting nitro tab in user settings sidebar*/
 [aria-controls="discord-nitro-tab"] h3[class*="isSelected-"]{
   color: var(--channel-text-selected) !important;
-}
-/* channel column */
-ul[aria-label="Channels"] [class*="wrapper-"][class*="modeSelected-"]:hover svg,
-ul[aria-label="Channels"] [class*="wrapper-"][class*="modeSelected-"] svg,
-/* DM column*/
-[class*="interactiveSelected-"] > [data-list-item-id^="private-channels"] [class^="subText-"] div
-{
-  color: var(--channel-text-selected);
-}
-/* buttons */
-button[class*="lookFilled-"][class*="colorRed-"],
-button[class*="lookFilled-"][class*="colorGrey-"],
-button[class*="lookFilled-"][class*="colorBrand-"],
-button[class*="lookFilled-"][class*="colorGreen-"],
-button[class*="lookFilled-"][class*="colorBrandNew-"],
-button[class*="lookFilled-"][class*="colorPrimary-"],
-/* new message bar in chat box */
-#---new-messages-bar span.unreadPill-3nEWYM,
-[class^="newMessagesBar-"] button,
-/* search bar */
-.search-2Mwzzq .searchFilter-2UfsDk,
-.search-2Mwzzq .searchAnswer-23w-CH,
-/* search box*/
-#uid_33--1 > [class^="queryText-"],
-#uid_33--1 > [class^="queryText-"] strong,
-/* unread channel bar */
-.mention-3XBnnZ, 
-.bar-2eAyLE.unread-2wipsx,
-/* text selection */
-::selection,
-/* thingies when selecting options (like in create new channel modal) */
-[class^="item-"][aria-checked="true"] > [class^="radioBar-"] circle[class^="radioIconForeground"],
-[class^="item-"][aria-checked="true"] > [class^="radioBar-"] [class*="defaultColor-"],
-/* number and text badges */
-.numberBadge-37OJ3S,
-.textBadge-1fdDPJ,
-/* BetterDiscord text buttons*/
-.bd-button,
-/* hovering on text options (e.g. dark theme option in appearance settings)*/
-.item-2idW98:hover,
-/* "new" bar in server bar*/
-nav[aria-label="Servers sidebar"] [class^="unreadMentionsIndicatorTop-"] div span,
-/* NEW OLD and RELEVANT buttons on hover in search box */
-.themed-2-lozF.item-3XjbnG:hover,
-/*hover upon options with colored text*/
-.colorDefault-CDqZdO.focused-3qFvc8 .subtext-2GlkbE,
-/*dumb check boxes*/
-.menu-1QACrS .item-1OdjEX.focused-3qFvc8 .checkbox-hADx5o,
-.colorDefault-CDqZdO .check-3HZJs4,
-/*clicking on context menu options and maybe more options*/
-.menu-1QACrS .item-1OdjEX.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
-/*hover or select server*/
-.wrapper-3kah-n:hover .childWrapper-1j_1ub,
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
-/*text buttons in emoji picker and maybe more*/
-.navButtonActive-1EqC5l, .navButtonActive-1EqC5l:hover,
-/*switch accounts context menu item on hover*/
-.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
-.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuText-2e3Dry,
-/* replace all necessary instances var(--interactive-active) with black (#000) right here */
-/* NEW button in search results box*/
-.selected-g-kMVV.item-3XjbnG,
-.selected-g-kMVV.item-3XjbnG:hover,
-/* context menu item hover*/
-.menu-1QACrS .item-1OdjEX.focused-3qFvc8,
-/*not sure*/
-.item-2idW98[aria-checked=true],
-/* jump to present bar above message box*/
-.jumpToPresentBar-1cEnH0:hover>button,
-/* show all participants button when joining a voice call, and maybe other buttons as well*/
-.button-3Vyz67,
-/* highlighted keywords in search results*/
-.searchResultsWrap-5RVOkx .highlight,
-/*containers, including certain buttons*/
-.container-3EtAkD,
-.container-3EtAkD:hover
-{
-  color: #000;
-}
-
-/*fixes people icon in default permission button in roles tab*/
-#roles-tab .container-3EtAkD > div.icon-2DGsye{
-  background: transparent;
-}
-/*removes text shadow in highlighted search results*/
-.searchResultsWrap-5RVOkx .highlight{
-  text-shadow: none;
-}
-
-/*channel icon at top of channel*/
-.emptyChannelIcon-1YdEz2.locked-29sj8C{
-  filter: invert(100);
-  background-color: var(--main-color-inverted);
 }
 
 /* User Settings -> Profiles tab bars */
@@ -311,13 +212,13 @@ nav[aria-label="Servers sidebar"] [class^="unreadMentionsIndicatorTop-"] div spa
   border-radius: 10px 10px 3px 3px;
   border: none;
 }
-.top-K_jibn .brand-3g5E0C.item-3XjbnG:active{
-  color: #000
-}
 .top-K_jibn .brand-3g5E0C.item-3XjbnG{
   padding: 10px;
 }
-/*upload image icon when changing pfp*/
+.top-K_jibn .brand-3g5E0C.item-3XjbnG:active{
+  color: #000
+}
+/*upload image icon when changing avatar*/
 .imageUploaderIcon-2OHmFu:after{
   filter: brightness(0) invert(0) !important;
 }
