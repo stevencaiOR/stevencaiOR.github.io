@@ -428,6 +428,10 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     /*includes #status-picker, submenus among other things*/
 }
 /*-----CHAT BOX-----*/
+.username-h_Y3Us{
+    color: var(--main-color);
+    /*chat username color (doesn't override role colors)*/
+}
 .markup-eYLPri.messageContent-2t3eCI{
     line-height: 1.875rem;
     /*line height of messages*/
