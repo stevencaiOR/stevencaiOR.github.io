@@ -199,15 +199,15 @@
   /*aligns border radius of close button with window*/
 }
 /* channel column */
-ul[aria-label="Channels"] [class*="wrapper-"][class*="modeSelected-"]:hover a svg,
-ul[aria-label="Channels"] [class*="wrapper-"][class*="modeSelected-"]:hover a [class*="name-"],
+ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH:hover a svg,
+ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH:hover a .name-28HaxV,
 [class^="channelNotice"] button,
 /* DM column*/
-[class*="interactiveSelected-"] > [data-list-item-id^="private-channels"] [class^="name-"],
-[class*="interactiveSelected-"] > [aria-label$=" (direct message)"] [class^="activityText-"] strong,
+.interactiveSelected-29CP8y > .link-39sEB3 .name-2m3Cms,
+.interactiveSelected-29CP8y > .link-39sEB3 .activityText-ev7Z1T strong,
 /* user settings column*/
-[aria-label="User Settings"] [class*="selected-"],
-/* "offer" when selecting nitro section of user settings*/
+.side-2ur1Qk[aria-label="User Settings"] .selected-g-kMVV ,
+/* "offer" when selecting nitro tab in user settings sidebar*/
 [aria-controls="discord-nitro-tab"] h3[class*="isSelected-"]{
   color: var(--channel-text-selected) !important;
 }
