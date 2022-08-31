@@ -506,7 +506,7 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     bottom: 0;
 }
 .message-2CShn3.cozy-VmLDNB .contents-2MsGLg > .header-2jRmjb .timestamp-p1Df1m,
-.message-2CShn3 .svg-1OUcya.roleDot-PzIfeF{
+.message-2CShn3 .contents-2MsGLg .svg-1OUcya.roleDot-PzIfeF{
     position: relative;
     bottom: calc(0.375*var(--chat-box-username-height, 1.375rem));
     /*reposition timestamp and role dot based on username height*/
