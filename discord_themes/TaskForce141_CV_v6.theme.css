@@ -58,7 +58,7 @@
   --online-color:rgb(var(--online-color-numerical));
   --idle-color-numerical: 250, 198, 25; /*230, 182, 25*/
   --idle-color: rgb(var(--idle-color-numerical));
-  --dnd-color-numerical: 236, 19, 19; 
+  --dnd-color-numerical: 195, 34, 34; 
   --dnd-color:rgb(var(--dnd-color-numerical));
   --streaming-color-numerical: 145, 71, 255;
   --streaming-color:rgb(var(--streaming-color-numerical));
