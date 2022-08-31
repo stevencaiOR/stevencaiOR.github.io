@@ -70,11 +70,11 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
 /* LONG USERNAME/NICKNAME SUPPORT */
 /* Popout w/ nickname*/
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT h3.nickname-2rimyL{
-    --span-font-size: 15px;
-    font-size: var(--span-font-size, 20px);
+    --nickname-font-size: 15px;
+    font-size: var(--nickname-font-size, 20px);
 
-    --span-height: calc(2.5*var(--span-font-size, 20px));
-    line-height: var(--span-height, 50px);
+    --nickname-line-height: calc(2.5*var(--nickname-font-size, 20px));
+    line-height: var(--nickname-line-height, 50px);
 
     white-space: nowrap;
     max-width: 100%;
@@ -83,10 +83,10 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
     text-overflow: ellipsis;
 }
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagWithNickname-3-znkC .username-3JLfHz{
-    font-size: var(--span-font-size, 14px);
+    font-size: var(--username-font-size, 14px);
 
-    --span-height: calc(2.5*var(--span-font-size, 14px));
-    line-height: var(--span-height, 35px);
+    --username-line-height: calc(2.5*var(--username-font-size, 14px));
+    line-height: var(--username-line-height, 35px);
 
     display: block;
     white-space: nowrap;
@@ -97,10 +97,10 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
 /* Popout w/o nickname*/
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .username-3JLfHz,
 #profile-customization-tab .headerTagNoNickname-3tGHj6 .username-3JLfHz {
-    font-size: var(--span-font-size, 18px);
+    font-size: var(--username-font-size, 18px);
 
-    --span-height: calc(2.5*var(--span-font-size, 18px));
-    line-height: var(--span-height, 45px);
+    --username-line-height: calc(2.5*var(--username-font-size, 18px));
+    line-height: var(--username-line-height, 45px);
 }
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .username-3JLfHz,
 #profile-customization-tab .headerTagNoNickname-3tGHj6 .username-3JLfHz{
@@ -120,7 +120,7 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
 }
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .userTagDiscriminatorNoNickname-2HLaIE{
     font-size: var(--discriminator-font-size, 20px);
-    line-height: calc(2.5*var(--discriminator-font-size, 20px));
+    line-height: var(--discriminator-line-height);
 }
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .PI-indicatorContainer{
     bottom: calc(0.5*(var(--discriminator-line-height, 50px) - 29px));
