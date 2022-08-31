@@ -98,7 +98,7 @@ button[class*="lookFilled-"][class*="colorGreen-"],
   color: #000;
 }
 
-.emptyChannelIcon-1YdEz2.locked-29sj8C{
+.emptyChannelIcon-1YdEz2{
   filter: invert(100);
   background-color: var(--main-color-inverted);
   /*hashtag at top of chat box in server channel*/
