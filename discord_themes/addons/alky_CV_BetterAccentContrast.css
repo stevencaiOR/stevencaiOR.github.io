@@ -1,24 +1,19 @@
-/*
-    This is intended to be an add-on for ClearVision themes with very
-    bright --main-color. I would recommend against using it since it's
-    mainly for personal use and therefore very poorly documented.
-    However, feel free to use it, especially if you think it may improve
-    the look if your theme.
-*/
-/* channel column */
-ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH:hover a svg,
-ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH:hover a .name-28HaxV,
-[class^="channelNotice"] button,
-/* DM column*/
-.interactiveSelected-29CP8y > .link-39sEB3 .name-2m3Cms,
-.interactiveSelected-29CP8y > .link-39sEB3 .activityText-ev7Z1T strong,
-/* user settings column*/
-.side-2ur1Qk[aria-label="User Settings"] .selected-g-kMVV ,
-/* "offer" when selecting nitro tab in user settings sidebar*/
-[aria-controls="discord-nitro-tab"] h3[class*="isSelected-"]{
-  color: var(--channel-text-selected) !important;
-}
+/**
+ * @description This is intended to be an add-on for ClearVision themes with very
+ * bright --main-color. I would recommend against using it since it's mainly for
+ * personal use and therefore very poorly documented. However, feel free to use it,
+ * especially if you think it may improve the look if your theme.
+ */
 
+/*
+:root{
+
+  optional section of code. If you don't use this, then these variables must be
+  defined in root element
+
+  --main-color-inverted:; this should contain the inverted version of your accent color
+}
+*/
 
 /* buttons */
 button[class*="lookFilled-"][class*="colorRed-"],
@@ -89,4 +84,10 @@ nav[aria-label="Servers sidebar"] [class^="unreadMentionsIndicatorTop-"] div spa
 .container-3EtAkD:hover
 {
   color: #000;
+}
+
+.emptyChannelIcon-1YdEz2.locked-29sj8C{
+  filter: invert(100);
+  background-color: var(--main-color-inverted);
+  /*hashtag at top of chat box in server channel*/
 }
