@@ -233,63 +233,15 @@
 .bd-addon-views .bd-view-button.selected svg,
 .bd-switch-handle,
 /* theme/plugin edit and setting buttons */
-.bd-controls>.bd-addon-button:not(.bd-button-danger) svg{
+.bd-controls > .bd-addon-button:not(.bd-button-danger) svg{
   fill: #000;
 }
-/* off button background */
-.bd-switch-body{
-  background: var(--danger-color) !important;
-}
-[class^="control-"] > [class^="container-"]:before{
-  background: var(--danger-color);
-}
-/* off button x mark */
-.bd-switch .bd-switch-symbol > path{
-  fill: currentColor;
-}
-/* on button background */
-[class^="control-"] > [class^="container-"][class*="checked-"]:before{
-  background: var(--main-color);
-}
-/* other thingies when selecting options */
-[class^="item-"][aria-checked="true"] > [class^="radioBar-"] [class*="radioLabelDescription-"]{
-  color: #000 !important;
-}
-[class^="item-"][aria-checked="true"] > [class^="radioBar-"] > [class^="radioBarIcon-"]+div svg {
-  opacity: 1;
-} 
-/*subscribe and gift buttons in nitro section of user settings*/
-[class*="lookInverted-"][class*="colorBrand-"] {
-  background: rgb(0,0,0);
-  border: 2px solid;
-}
-[class*="lookInverted-"][class*="colorBrand-"]:hover {
-  background: rgb(0,0,0,0.85);
-}
-/* button fixing because was messed with earlier*/
-button[class*="lookFilled-"][class*="colorRed-"]:hover,
-/* colored text options on select (e.g. Safe Direct Messaging in Privacy & Safety of User Settings */
-.itemFilled-1cPbtg[aria-checked=true] > div.radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%);"],
-.itemFilled-1cPbtg[aria-checked=true] > div.radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],
-.itemFilled-1cPbtg[aria-checked=true] > div.radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"],
-.itemFilled-1cPbtg[aria-checked=true] > div.radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%);"] circle,
-.itemFilled-1cPbtg[aria-checked=true] > div.radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] circle,
-.itemFilled-1cPbtg[aria-checked=true] > div.radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"] circle
-{
-  color:#fff;
-}
+
 
 #account {
   max-height: 47.7vh;
   border: 3px solid rgb(var(--main-color-numerical),0.8);
   border-radius: 15px;
-}
-/*hover over ping*/
-.theme-dark .mentioned-Tre-dv .mention.interactive:hover{
-  color: #222;
-}
-.container-ZMc96U .akaBadge-3i7V3p{
-  color: #000;
 }
 /*I don't know what this does*/
 .wrapper-3kah-n .childWrapper-1j_1ub{
@@ -306,20 +258,6 @@ button[class*="lookFilled-"][class*="colorRed-"]:hover,
   max-height: 25vh;
   overflow-y: scroll !important;
   /*minimizes height to fit comfortably within the HUD*/
-}
-/*on hover and select*/
-.autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .text-xs-normal-3SiVjE,
-.autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .text-md-normal-304U3g,
-.autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .text-xs-normal-3SiVjE,
-.autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .text-md-normal-304U3g
-{
-  color: #000 !important;
-}
-.autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .autocompleteRowIcon-Br97vl svg,
-.autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .autocompleteRowIcon-Br97vl svg,
-.autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .text-xs-normal-3SiVjE > span,
-.autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .text-xs-normal-3SiVjE > span{
-  color: #000;
 }
 /*-----DISPLAY LINKS-----*/
 #app-mount [aria-label="User Profile Modal"] .connectedAccountContainer-SlCC-S{
