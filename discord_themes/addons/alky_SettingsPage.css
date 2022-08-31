@@ -245,6 +245,14 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     display: block;
     line-height: 30px; /*initial won't always revert back to the original*/
 }
+/* Subscribe & Gift buttons in first box */
+.lookInverted-2mDUMi.colorBrand-I6CyqQ {
+    background: rgb(0,0,0);
+    border: 2px solid;
+}
+.lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
+    background: rgb(0,0,0,0.85);
+}
 /* Short description of Discord Nitro */
 #discord-nitro-tab .hero-1aNo0v h3+div,
 /* Images above benefits descriptions */
