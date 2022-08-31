@@ -21,8 +21,8 @@
   --custom-mark-2: "Covert Ops";
 
   /* LEOZARD'S SPEECH BUBBLES */
-  --bubble-color: rgb(var(--main-color-numerical),0.6);
-  --bubble-hover-color: rgb(77, 150, 234,0.6);
+  --bubble-color: rgb(0,0,0,0.7);
+  --bubble-hover-color: rgb(20,20,20,0.7);
 
   /* ALKY SETTINGS PAGE */
   --nitro-bg-image: url(https://bnetcmsus-a.akamaihd.net/cms/blog_header/vj/VJ6G9MK9A8HJ1476222888871.jpg);
