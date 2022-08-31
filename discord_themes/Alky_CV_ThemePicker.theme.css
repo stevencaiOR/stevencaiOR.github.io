@@ -1,0 +1,30 @@
+/**
+ * @name Alky ClearVision Theme Picker
+ * @author Alcatraz
+ * @description All my theme presets are listed below. Uncomment the one you
+                want to use (remove /* in front of import) and comment out
+                the ones you don't want to use (add /* in front of import).
+                Do the same for any of the add ons. By default, the theme
+                being used is the Task Force 141 theme with 
+ * @version 0.0.1
+ */
+
+/*-----THEMES-----*/
+/* Crysis 2 HUD */
+/* @import url(https://stevencaior.github.io/discord_themes/Crysis2HUD_CV_v6.theme.css);/**/
+
+/* Ghost Vs Spectre */
+/* @import url(https://stevencaior.github.io/discord_themes/GhostVsSpectre_CV_v6.theme.css);/**/
+
+/* SC2/HOTS Nova */
+/* @import url(https://stevencaior.github.io/discord_themes/NovaSC2_CV_v6.theme.css);/**/
+
+/* Task Force 141 */
+ @import url(https://stevencaior.github.io/discord_themes/TaskForce141_CV_v6.theme.css);/**/
+
+/*-----ADD ONS-----*/
+/* Plaform Indicator Support */
+/* @import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_PlatformIndicatorSupport.css);/**/
+
+/* Radial Glow Support */
+@import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_RadialGlowSupport.css);/**/
