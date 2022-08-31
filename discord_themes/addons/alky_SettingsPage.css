@@ -606,6 +606,10 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
 .contentRegion-3HkfJJ .content-28mbXd{
     max-width: 100%;
 }
+/* ROLES */
+#roles-tab .container-3EtAkD > div.icon-2DGsye{
+    background: transparent;
+}
 /* EMOJI */
 #emoji-tab .emojiUploadUploadRequirementsList-1loAvP li:nth-child(2) div{
     height: 8px;
