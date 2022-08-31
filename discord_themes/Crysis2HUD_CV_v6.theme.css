@@ -14,7 +14,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@100;300;400;500;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap);
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_addons.css);
-@import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_RadialGlowSupport.css); /*Remove if you want normal statuses*/
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_BetterAccentContrast.css); /*Remove for worse contrast with --main-color*/
 
 :root {
