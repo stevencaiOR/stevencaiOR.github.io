@@ -249,7 +249,7 @@ div[id^="message-content"] > span.mention{
 
     
     text-overflow: ellipsis;
-    top: 3px;
+    top: 4px;
 }
 /* MENTIONED HIGHLIGHT BOX */
 [class*="mentioned-"][aria-roledescription="Message"]{
@@ -882,4 +882,10 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     border-radius: 7.5px;
     width: 95%;
     margin: auto;
+}
+.upsellContainer-22N_CL{
+    background: rgb(0,0,0,0.6);
+    border: 2px solid var(--main-color);
+    border-radius: 12px;
+    /*affects stickers tab in server settings. not sure what else*/
 }
