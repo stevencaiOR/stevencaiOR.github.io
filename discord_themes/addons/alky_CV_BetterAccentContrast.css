@@ -27,8 +27,8 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 #---new-messages-bar .unreadPill-3nEWYM,
 [class^="newMessagesBar-"] button,
 /* search bar */
-.searchFilter-2UfsDk,
-.searchAnswer-23w-CH,
+.search-2Mwzzq .searchFilter-2UfsDk,
+.search-2Mwzzq .searchAnswer-23w-CH,
 /* search box*/
 #uid_33--1 > [class^="queryText-"],
 #uid_33--1 > [class^="queryText-"] strong,
