@@ -574,7 +574,8 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     line-height: var(--line-height, 20px);
 }
 /* SETTINGS, PLUGINS & THEMES*/
-/*Toggle buttons*/
+/* Toggle buttons */
+/* Off */
 .bd-switch-body{
     background: var(--hover-color) !important;
 }
