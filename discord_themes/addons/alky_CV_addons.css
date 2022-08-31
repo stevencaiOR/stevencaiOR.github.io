@@ -452,6 +452,10 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     line-height: var(--chat-box-username-height, 1.375rem);
     /*line height of username*/
 }
+.message-2CShn3:not(.systemMessage-1H1Z20) .contents-2MsGLg .header-2jRmjb{
+    top: 0.15rem;
+    /*adjust position of element containing username + timestamp*/
+}
 .message-2CShn3 .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
     bottom: 0;
 }
