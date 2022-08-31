@@ -57,20 +57,20 @@
 #app-mount .contentColumn-1C7as6{
   padding: 60px 60px 80px 20px;
 }
-/* OPTION BOXES */
-nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"]:hover{
+/* SIDEBAR TABS */
+nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:hover{
     background: rgb(var(--main-color-numerical),0.3) !important;
     border-radius: 6px;
 }
-nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"]{
+nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG{
     border-radius: 10px; /*default: 4px*/
     /*option box corners*/
 }
-nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"]:before{
+nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:before{
     opacity: 0.6 !important;
     /*Icons pop out more*/
 }
-nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"]{
+nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     color: var(--interactive-normal) !important;
 }
 /* MY ACCOUNT */
