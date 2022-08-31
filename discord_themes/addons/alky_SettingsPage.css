@@ -573,6 +573,11 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
 #language-tab .item-2idW98 .localizedName-wPJ5qZ{
     line-height: var(--line-height, 20px);
 }
+/* SETTINGS, PLUGINS & THEMES*/
+.bd-switch .bd-switch-symbol > path{
+    fill: currentColor;
+    /*fills x in switch button with the currentColor*/
+}
 /* HYPESQUAD */
 #hypesquad-online-tab .icon-2g_pHb{
     display: none;
