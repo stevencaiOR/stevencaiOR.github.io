@@ -198,12 +198,6 @@
   border-top-right-radius: 5px;
   /*aligns border radius of close button with window*/
 }
-/* COLOR CORRECTION BECAUSE --MAIN-COLOR MAKES EVERYTHING LOOK LIKE SHIT */
-ul[aria-label="Channels"] [class*="wrapper-"]:not([class*="modeSelected-"]):hover a svg,
-ul[aria-label="Channels"] [class*="wrapper-"]:not([class*="modeSelected-"]):hover a [class*="name-"],
-ul[aria-label="Channels"] [class*="wrapper-"]:not([class*="modeSelected-"]):hover svg{
-  color: var(--main-color) !important;
-} 
 /* channel column */
 ul[aria-label="Channels"] [class*="wrapper-"][class*="modeSelected-"]:hover a svg,
 ul[aria-label="Channels"] [class*="wrapper-"][class*="modeSelected-"]:hover a [class*="name-"],
