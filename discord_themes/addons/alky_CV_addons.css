@@ -205,6 +205,11 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
 #channels li > [class*="wrapper-"][class*="modeMuted-"]:hover a[class^="mainContent-"]:before{
     background: transparent;
 }
+/* Channel upon hover */
+ul[aria-label="Channels"] .wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover a .name-28HaxV,
+ul[aria-label="Channels"] .wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover svg{
+  color: var(--main-color) !important;
+} 
 /*-----CHANNEL HEADER-----*/
 /* GROUP DM NAME */
 section[aria-label="Channel header"] [class^="outer-"]:hover input[name="channel_name"]+div{
