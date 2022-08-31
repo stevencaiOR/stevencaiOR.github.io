@@ -205,11 +205,20 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
 #channels li > [class*="wrapper-"][class*="modeMuted-"]:hover a[class^="mainContent-"]:before{
     background: transparent;
 }
+ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH .actionIcon-2sw4Sl{
+    color: var(--channel-text-selected);
+    /*sets action icon color to match rest of element*/
+}
 /* Channel upon hover */
 ul[aria-label="Channels"] .wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover a .name-28HaxV,
 ul[aria-label="Channels"] .wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover svg{
   color: var(--main-color) !important;
-} 
+}
+ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH:hover .icon-2W8DHg,
+ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH:hover .channelName-3KPsGw,
+ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH:hover .actionIcon-2sw4Sl{
+    color: rgb(255,255,255,0.8) !important;
+}
 /*-----CHANNEL HEADER-----*/
 /* GROUP DM NAME */
 section[aria-label="Channel header"] [class^="outer-"]:hover input[name="channel_name"]+div{
@@ -575,6 +584,10 @@ nav[aria-label="Private channels"] h2~li [class^="interactive-"]:before{
 nav[aria-label="Private channels"] h2~li [class^="interactive-"]:hover:before{
     background: rgb(var(--main-color-numerical), 0.3) !important;
     width: calc(100% - 15px);
+}
+/* SELECTED DM SUBTEXT */
+.interactiveSelected-29CP8y > .link-39sEB3 .subText-3Sk0zy div{
+    color: #fff;
 }
 /*-----SELECTED CHANNEL/DM/SUBSETTING-----*/
 ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after,
