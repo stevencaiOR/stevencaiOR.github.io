@@ -96,13 +96,14 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
 }
 /* Popout w/o nickname*/
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .username-3JLfHz,
-.userTagDiscriminatorNoNickname-2HLaIE {
+#profile-customization-tab .headerTagNoNickname-3tGHj6 .username-3JLfHz {
     font-size: var(--span-font-size, 18px);
 
     --span-height: calc(2.5*var(--span-font-size, 18px));
     line-height: var(--span-height, 45px);
 }
-.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .username-3JLfHz{
+.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .username-3JLfHz,
+#profile-customization-tab .headerTagNoNickname-3tGHj6 .username-3JLfHz{
     display: block;
     white-space: nowrap;
     overflow: hidden;
@@ -111,6 +112,18 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
 }
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .PI-indicatorContainer{
     bottom: 8px;
+    left: 5px;
+    position: relative;
+}
+.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD {
+    --discriminator-line-height: calc(2.5*var(--discriminator-font-size, 20px));
+}
+.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .userTagDiscriminatorNoNickname-2HLaIE{
+    font-size: var(--discriminator-font-size, 20px);
+    line-height: calc(2.5*var(--discriminator-font-size, 20px));
+}
+.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .PI-indicatorContainer{
+    bottom: calc(0.5*(var(--discriminator-line-height, 50px) - 29px));
     left: 5px;
     position: relative;
 }
