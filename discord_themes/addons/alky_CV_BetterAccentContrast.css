@@ -24,11 +24,11 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 button[class*="lookFilled-"][class*="colorBrandNew-"],
 button[class*="lookFilled-"][class*="colorPrimary-"],
 /* new message bar in chat box */
-#---new-messages-bar span.unreadPill-3nEWYM,
+#---new-messages-bar .unreadPill-3nEWYM,
 [class^="newMessagesBar-"] button,
 /* search bar */
-.search-2Mwzzq .searchFilter-2UfsDk,
-.search-2Mwzzq .searchAnswer-23w-CH,
+.searchFilter-2UfsDk,
+.searchAnswer-23w-CH,
 /* search box*/
 #uid_33--1 > [class^="queryText-"],
 #uid_33--1 > [class^="queryText-"] strong,
@@ -48,21 +48,22 @@ button[class*="lookFilled-"][class*="colorPrimary-"],
 /* hovering on text options (e.g. dark theme option in appearance settings)*/
 .item-2idW98:hover,
 /* "new" bar in server bar*/
-nav[aria-label="Servers sidebar"] [class^="unreadMentionsIndicatorTop-"] div span,
+.unreadMentionsIndicatorTop-2bTgUU div span,
 /* NEW OLD and RELEVANT buttons on hover in search box */
 .themed-2-lozF.item-3XjbnG:hover,
 /*hover upon options with colored text*/
 .colorDefault-CDqZdO.focused-3qFvc8 .subtext-2GlkbE,
 /*dumb check boxes*/
-.menu-1QACrS .item-1OdjEX.focused-3qFvc8 .checkbox-hADx5o,
+.item-1OdjEX.focused-3qFvc8 .checkbox-hADx5o,
 .colorDefault-CDqZdO .check-3HZJs4,
 /*clicking on context menu options and maybe more options*/
 .menu-1QACrS .item-1OdjEX.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
 /*hover or select server*/
 .wrapper-3kah-n:hover .childWrapper-1j_1ub,
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
-/*text buttons in emoji picker and maybe more*/
-.navButtonActive-1EqC5l, .navButtonActive-1EqC5l:hover,
+/*text buttons in gif sticker emoji (and add reaction)*/
+.navButtonActive-1EqC5l,
+.navButtonActive-1EqC5l:hover,
 /*switch accounts context menu item on hover*/
 .focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
 .focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuText-2e3Dry,
@@ -72,17 +73,24 @@ nav[aria-label="Servers sidebar"] [class^="unreadMentionsIndicatorTop-"] div spa
 .selected-g-kMVV.item-3XjbnG:hover,
 /* context menu item hover*/
 .menu-1QACrS .item-1OdjEX.focused-3qFvc8,
-/*not sure*/
+/* selected radioGroupItem */
 .item-2idW98[aria-checked=true],
-/* jump to present bar above message box*/
+/* jumpToPresentBar (above message box) */
 .jumpToPresentBar-1cEnH0:hover>button,
 /* show all participants button when joining a voice call, and maybe other buttons as well*/
 .button-3Vyz67,
 /* highlighted keywords in search results*/
 .searchResultsWrap-5RVOkx .highlight,
-/*containers, including certain buttons*/
+/* roleEveryoneContainer in server settings */
 .container-3EtAkD,
-.container-3EtAkD:hover
+.container-3EtAkD:hover,
+/* akaBadge in header */
+.akaBadge-3i7V3p,
+/* Auto Complete Box (on hover & select) */
+.autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .autocompleteRowIcon-Br97vl svg,
+.autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .autocompleteRowIcon-Br97vl svg,
+.autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .text-xs-normal-3SiVjE > span,
+.autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .text-xs-normal-3SiVjE > span
 {
   color: #000;
 }
@@ -91,4 +99,13 @@ nav[aria-label="Servers sidebar"] [class^="unreadMentionsIndicatorTop-"] div spa
   filter: invert(100);
   background-color: var(--main-color-inverted);
   /*hashtag at top of chat box in server channel*/
+}
+
+/* More Auto Complete Box (on hover & select) */
+.autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .text-xs-normal-3SiVjE,
+.autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .text-md-normal-304U3g,
+.autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .text-xs-normal-3SiVjE,
+.autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .text-md-normal-304U3g
+{
+  color: #000 !important;
 }
