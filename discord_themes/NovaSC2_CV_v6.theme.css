@@ -173,6 +173,9 @@
   margin-top: 2px;
   margin-left: 0px;
 }
+.wrapper-1ZcZW-.mention.interactive{
+  max-width: 100%;
+}
 .cozyMessage-1DWF9U:not(.systemMessage-1H1Z20):hover .messageContent-2t3eCI,
 .cozyMessage-1DWF9U:not(.systemMessage-1H1Z20):hover .container-2sjPya {
   background-color: var(--bubble-hover-color, hsla(0, 0%, 100%, 0.15));
