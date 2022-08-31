@@ -246,6 +246,10 @@ div[class^="toolbar-"] div[class^="search-"] > div[class^="searchBar-"]:hover{
     width: 470px;
     /*search bar on size hover*/
 }
+.searchResultsWrap-5RVOkx .highlight{
+    text-shadow: none;
+    /*removes text shadow of highlighted text in search results*/
+}
 /*-----WINDOWS BUTTONS-----*/
 div[class^="winButton"] {
     color: var(--main-color);
