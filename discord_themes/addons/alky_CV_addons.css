@@ -594,10 +594,6 @@ nav[aria-label="Private channels"] h2~li [class^="interactive-"]:hover:before{
     background: rgb(var(--main-color-numerical), 0.3) !important;
     width: calc(100% - 15px);
 }
-/* SELECTED DM SUBTEXT */
-.interactiveSelected-29CP8y > .link-39sEB3 .subText-3Sk0zy div{
-    color: #fff;
-}
 /*-----SELECTED CHANNEL/DM/SUBSETTING-----*/
 ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after,
 nav[aria-label="Private channels"] li [class*="interactiveSelected-"]:after,
