@@ -2,7 +2,26 @@
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_StatusPicker.css);
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_MessageBox.css);
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_SettingsPage.css);
+/*-----VARIABLES-----*/
+:root{
+    
+    /* Redefine any of these variables in :root{} if you don't like them */
+    --profile-popout-width: 19vw;
+    --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6);
+    --chat-box-username-height: 2.5rem;
+    --chat-box-avatar-change: min(calc(var(--chat-box-username-height, 1.375rem) - 0.625rem),1.25rem);
 
+    --online-color: #43b581;
+    --idle-color: #faa61a;
+    --dnd-color: #982929;
+    --offline-color: #808080;
+    --streaming-color: #9147ff;
+
+    /*
+    --main-color-numerical: ; <--- put the rgb value of your accent color here
+    --main-color: rgb(var(--main-color-numerical));
+    */
+}
 /*-----TRIBUTE TO AUTHOR-----*/
 /*Note: by author, I mean the author of this specific custom CV preset.
   There are already name tags for actual CV developers.*/
@@ -47,9 +66,10 @@ svg.avatarHint-2g3Mcd[width="80"] {
     height: calc(var(--profile-popout-picture-size, 80px) - 20px);
     /*adjust banner based on avatar size*/
 }
-.avatarPositionPremiumBanner-2nq2Fy{
-    top: 14px;
-    /*adjust avatar position*/
+.avatarPositionPremiumBanner-2nq2Fy,
+.avatarPositionPremiumNoBanner-nWzERs{
+    top: 16px;
+    /*adjust avatar position for nitro profile popout*/
 }
 #account{
     background: rgb(0,0,0,0.9);
@@ -508,6 +528,13 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     display: block;
     white-space: nowrap;
 }
+/* Minimize in reply context message */
+.repliedMessage-3Z6XBG .username-h_Y3Us{
+    max-width: 30%;
+    display: inline-block;
+    
+    text-overflow: ellipsis;
+}
 /* COMPACT USERNAME FIX */
 .compact-2Nkcau .contents-2MsGLg .username-h_Y3Us{
     text-indent: 0px;
@@ -535,6 +562,10 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     position: relative;
     bottom: calc(0.125*(var(--chat-box-username-height, 1.375rem) - 1.375rem));
     /*reposition messages based on username height*/
+}
+.newMemberBadge-3PdStX{
+    top: calc(0.5*(var(--chat-box-username-height, 1.375rem) - 1.375rem));
+    /*reposition new member badge based on username height*/
 }
 /*-----ABOVE MESSAGE BOX-----*/
 /* AUTOCOMPLETE BOX */
@@ -839,14 +870,14 @@ foreignObject[mask="url(#svg-mask-status-online)"] div,
 foreignObject[mask="url(#svg-mask-status-online-mobile)"] div{
     background: var(--online-color) !important;
 }
-foreignObject[mask="url(#svg-mask-status-offline)"] div{
-    background: var(--offline-color) !important;
-}
 foreignObject[mask="url(#svg-mask-status-idle)"] div{
     background: var(--idle-color) !important;
 }
 foreignObject[mask="url(#svg-mask-status-dnd)"] div{
     background: var(--dnd-color) !important;
+}
+foreignObject[mask="url(#svg-mask-status-offline)"] div{
+    background: var(--offline-color) !important;
 }
 foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     background: var(--streaming-color) !important;
