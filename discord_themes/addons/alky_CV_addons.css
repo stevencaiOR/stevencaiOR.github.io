@@ -959,12 +959,14 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     display: none;
 }
 /*-----STATUS PICKER-----*/
-#account-status-picker.focused-3qFvc8 .mainStatusIcon-25wiNY .status-2DiCMd{
+#account-status-picker.focused-3qFvc8 .mainStatusIcon-25wiNY .status-2DiCMd,
+#account-status-picker--online.focused-3qFvc8  .status-2DiCMd,
+#account-status-picker--idle.focused-3qFvc8  .status-2DiCMd,
+#account-status-picker--dnd.focused-3qFvc8  .status-2DiCMd,
+#account-status-picker--invisible.focused-3qFvc8  .status-2DiCMd{
     background: #fff !important;
-    /*removes status color upon hover on status picker menu item*/
+    /*removes status color upon hover on menu items in drop-down menu and popout*/
 }
-
-
 
 /*edited Discord marketing shit to be less stupid*/
 .colorPremiumTier2-3R4qYN{
