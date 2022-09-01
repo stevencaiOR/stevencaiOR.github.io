@@ -138,7 +138,11 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 }
 
 /* STATUS PICKER */
-#account-status-picker.focused-3qFvc8 .mainStatusIcon-25wiNY .status-2DiCMd{
+#account-status-picker.focused-3qFvc8 .mainStatusIcon-25wiNY .status-2DiCMd,
+#account-status-picker--online.focused-3qFvc8  .status-2DiCMd,
+#account-status-picker--idle.focused-3qFvc8  .status-2DiCMd,
+#account-status-picker--dnd.focused-3qFvc8  .status-2DiCMd,
+#account-status-picker--invisible.focused-3qFvc8  .status-2DiCMd{
   background: #000 !important;
   /*removes status color upon hover on status picker menu item*/
 }
