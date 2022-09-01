@@ -136,3 +136,9 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 {
   color:#fff;
 }
+
+/* STATUS PICKER */
+#account-status-picker.focused-3qFvc8 .mainStatusIcon-25wiNY .status-2DiCMd{
+  background: #000 !important;
+  /*removes status color upon hover on status picker menu item*/
+}
