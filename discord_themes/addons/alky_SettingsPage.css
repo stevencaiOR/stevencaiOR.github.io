@@ -74,26 +74,30 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     color: var(--interactive-normal) !important;
 }
 /* MY ACCOUNT */
-#my-account-tab .accountProfileCard-lbN7n-{
+.accountProfileCard-lbN7n-{
     --avatar-change: 8.2vw;
     --avatar-size-default: min(4.17vw, 80px);
     --adaptive-height: max(0vw, calc(var(--avatar-change) - var(--avatar-size-default, min(4.17vw, 80px)) - 25px));
     --avatar-size: calc(var(--avatar-size-default, min(4.17vw, 80px)) + var(--avatar-change, 0px));
 }
-#my-account-tab .userInfo-regn9W{
+.accountProfileCard-lbN7n- .userInfo-regn9W .button-f2h6uQ{
+    width: 9.3vw; /*default: 158px?*/
+    /*width of "Edit User Profile" button*/
+}
+.accountProfileCard-lbN7n- .userInfo-regn9W{
     height: var(--adaptive-height);
 }
-  #my-account-tab .avatar-3mTjvZ{
+#my-account-tab .avatar-3mTjvZ{
     height: var(--avatar-size, 80px) !important; /*default: 80px*/
     width: var(--avatar-size, 80px) !important;
     top:  calc(100% - 100px - 2*var(--rs-medium-width) - 2*var(--rs-medium-spacing) - var(--avatar-change,0px)); /*default is 76px; value of x such that as --avatar-change increase, x decrease*/
 }
-#my-account-tab .userInfo-regn9W > button,
+.accountProfileCard-lbN7n- .userInfo-regn9W > button,
 #my-account-tab .avatar-3mTjvZ+div{
     position: absolute;
     left: calc(var(--avatar-size, 80px) + 50px);
 }
-#my-account-tab .userInfo-regn9W > button{
+.accountProfileCard-lbN7n- .userInfo-regn9W > button{
     bottom: calc(10px + 0.5*var(--avatar-change,0px));
 }
 #my-account-tab .avatar-3mTjvZ+div{
@@ -103,7 +107,7 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     max-width: 20%;
     /*width of username next to avatar*/
 }
-#my-account-tab .accountProfileCard-lbN7n- .background-3d_SjE{
+.accountProfileCard-lbN7n- .background-3d_SjE{
     width: 40%;
     margin-left: 60%;
     margin-top: 16px;
