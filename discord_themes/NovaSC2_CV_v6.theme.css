@@ -80,8 +80,8 @@
   --code-font: Consolas, monospace;
   --text-muted-numerical: var(--main-color-numerical);
   --text-muted: rgb(var(--text-muted-numerical));
-  --channels-width: 230px; /*default: 220px*/
-  --members-width: 230px; /*default: 240px*/
+  --channels-width: max(13.4vw, 185px);   /*default: 220px*/
+  --members-width: max(14vw, 185px);      /*default: 240px*/
 
   /* APP BACKGROUND */
   --background-image: url('https://i.imgur.com/uz3JyNi.png');

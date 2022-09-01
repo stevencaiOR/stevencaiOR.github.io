@@ -88,8 +88,8 @@
   --text-muted: rgb(var(--text-muted-numerical));
   /*Miscellaneous text, such as dates, search bar 'search' and reactions*/
   --server-columns: 1;
-  --channels-width: 230px; /*default: 220px*/
-  --members-width: 230px; /*default: 240px*/
+  --channels-width: max(13.4vw, 185px);   /*default: 220px*/
+  --members-width: max(14vw, 185px);      /*default: 240px*/
 
 	/* APP BACKGROUND */
   --background-shading: 0%;
