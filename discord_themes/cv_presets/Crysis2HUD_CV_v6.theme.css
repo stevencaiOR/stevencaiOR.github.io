@@ -1,0 +1,351 @@
+/**
+ * @name Crysis 2 HUD
+ * @author ClearVision Team & Alcatraz
+ * @version 6.3.0
+ * @description Highly customizable theme for BetterDiscord made for people who are fans of
+    Crysis 2 and want something very unique (and jank). Recommended appearance settings is
+    dark theme, 15px chat font scaling (18 px with Titillium Web), and 80% zoom level.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.github.io
+ * @invite dHaSxn3
+ * @updateUrl https://stevencaior.github.io/discord_themes/Crysis2HUD_CV_v6.theme.css
+*/
+@import url(https://clearvision.github.io/ClearVision-v6/main.css);
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@100;300;400;500;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap);
+@import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_addons.css);
+@import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_BetterAccentContrast.css); /*Remove for worse contrast with --main-color*/
+
+:root {
+  --custom-mark: "CRYNET SYSTEMS";
+  --custom-mark-2: var(--custom-mark);
+
+  /* ALKY SETTINGS PAGE */
+  --nitro-bg-image: url(https://cdn.uc.assets.prezly.com/915ca5cf-962e-41b0-9d11-76ba4da91ab7/-/resize/1108x/-/quality/best/-/format/auto/);
+  --nitro-bg-pos: center;
+
+  /* ALKY MESSAGE BOX */
+  --mb-placeholder-1: rgb(var(--text-muted-numerical), 0.6);
+  --mb-placeholder-2: rgb(var(--text-muted-numerical), 0.8);
+
+  /* ACCENT COLORS */
+  --main-color-numerical: 143, 232, 255;
+  --main-color: rgb(var(--main-color-numerical));
+  --hover-color-numerical: 115, 184, 201;
+  --hover-color: rgb(var(--hover-color-numerical));
+  --success-color-numerical: 67, 181, 129; /*default: 67, 181, 129*/
+  --success-color: rgb(var(--success-color-numerical));
+  --danger-color-numerical: 118, 166, 179;
+  --danger-color: rgb(var(--danger-color-numerical));
+  --button-danger-background-hover: rgb(161, 47, 45);
+  --main-color-inverted-numerical: 112, 23, 0;
+  --main-color-inverted: rgb(var(--main-color-inverted-numerical));
+
+  /* STATUS COLORS */
+  --online-color-numerical: 36, 168, 109;/*default: 67, 181, 129*/
+  --online-color: rgb(var(--online-color-numerical));
+  --idle-color-numerical: 250, 198, 25; /*230, 182, 25*/
+  --idle-color: rgb(var(--idle-color-numerical));
+  --dnd-color-numerical: 195, 34, 34; /*default: 152, 41, 41*/
+  --dnd-color: rgb(var(--dnd-color-numerical));
+  --streaming-color-numerical: 145, 71, 255;
+  --streaming-color: rgb(var(--streaming-color-numerical));
+  --offline-color-numerical: 127,127,127; /*default: 116, 127, 141*/
+  --offline-color: rgb(var(--offline-color-numerical));
+  --some-orange-numerical: 249, 107, 6;
+  --some-orange:rgb(var(--some-orange-numerical));
+
+  /* CUSTOMIZATION PATCH */
+  --url-color: var(--main-color);
+  --channel-unread: rgb(var(--main-color-numerical));
+  --channel-color: rgba(var(--main-color-numerical),0.7);
+  --muted-color: rgba(var(--main-color-numerical),0.3);
+
+  /*
+  If you don't like colored channel names, you can use these settings. Personally, I think
+  it looks better *with* colored channel names, at least with this theme
+  --channel-unread: rgb(var(--main-color-numerical), 0.8);
+  --channel-color:  rgba(255,255,255,0.7);
+  --muted-color: rgba(255,255,255,0.3);
+  */
+
+  /* THIRD PARTY THEME COLOURS */
+  --spotify-color-numerical: 30,215,96;
+  --spotify-color: rgb(var(--spotify-color-numerical));
+  --twitter-color-numerical: 29, 161, 242;
+  --twitter-color: rgb(var(--twitter-color-numerical));
+  --facebook-color-numerical: 66, 103, 178;
+  --facebook-color: rgb(var(--facebook-color-numerical));
+  
+  /* GENERAL */
+  --main-font: Orbitron, Titillium Web, system-ui; /*Alternate font: Titillium Web*/
+  --font-primary: var(--main-font);
+  --code-font: Consolas, monospace;
+  --text-muted-numerical: var(--main-color-numerical);
+  --text-muted: rgb(var(--text-muted-numerical), 0.7);
+  --channels-width: max(13.4vw, 160px);   /*default: 220px*/
+  --members-width: max(14vw, 185px);      /*default: 240px*/
+
+  /* APP BACKGROUND*/
+  --background-image: url('https://i.imgur.com/74rXxhn.png');
+  --background-shading: 100%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 100%;
+  --background-contrast: 100%;
+  --background-saturation: 100%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 0px;
+  --background-overlay: rgba(0,0,0,0.6);
+
+  /* HOME BUTTON ICON */
+  --home-icon: url('https://i.imgur.com/3KHlCMw.png');
+  --home-position: center;
+  --home-size: 40px;
+
+  /* MODAL BACKDROP */
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+
+  /* USER POPOUT BACKGROUND */
+  --user-popout-image: var(--background-image);
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 3px;
+
+  /* USER MODAL BACKGROUND */
+  --user-modal-image: var(--background-image);
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 3px;
+
+  /* THEME BD COLORS */
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+
+  /* TEXT COLORS */
+  --text-normal-numerical: 221, 221, 221; /*default: 220, 221, 222*/
+  --text-normal: rgb(var(--text-normal-numerical));
+  --channel-text-selected-numerical: 255, 255, 255; /*default: 255, 255, 255*/
+  --channel-text-selected: rgb(var(--channel-text-selected-numerical));
+  --interactive-active-numerical: 255, 255, 255; /*default: 255, 255, 255*/
+  --interactive-active: rgb(var(--interactive-active-numerical));
+  /*For channel-text-selected, interactive-active and maybe other vars, DON'T CHANGE IF YOU NEED TO CHANGE, CHANGE SOMETHING ELSE THAT USES THIS OR CREATE NEW VAR*/
+}
+/*-----CRYSIS 2 HUD THEME ONLY-----*/
+#app-mount > div[class^="appDevToolsWrapper"] > div[class^="notDevTools"] > div[class^="app"] > div[class^="app"] > div[class^="layers"] > div[class^="layer"],
+#app-mount > div[class*="titleBar"]{
+  width: 90vw;
+  margin-right: auto;
+  margin-left: auto;
+  /*first selector is main window*/
+  /*second selector is title bar that contains windows button*/
+}
+#app-mount > div[class^="appDevToolsWrapper"] > div[class^="notDevTools"] > div[class^="app"] > div[class^="app"] > div[class^="layers"] > div[class^="layer"] {
+  height: 55vh;
+  border-radius: 10px;
+  border: 3px solid var(--main-color);
+  
+  position: fixed;
+  top: 16.2vh;
+  /*position: absolute; (default)
+  top: 14.5vh; when position is absolute*/
+}
+#app-mount > div[class*="titleBar"] > div{
+  margin-top: 16.3vh;
+  width: 25%;
+}
+#app-mount > div[class*="titleBar"] > div:first-child{
+  margin-top: 16.8vh;
+}
+/*any change in top, margin-top and margin-top in last 3 selectors MUST be equal*/
+#app-mount > div[class*="titleBar"] > div[aria-label="Close"]{
+  border-top-right-radius: 5px;
+  /*aligns border radius of close button with window*/
+}
+/* channel column */
+[class^="channelNotice"] button,
+/* "offer" when selecting nitro tab in user settings sidebar*/
+[aria-controls="discord-nitro-tab"] h3[class*="isSelected-"]{
+  color: var(--channel-text-selected) !important;
+}
+
+/* User Settings -> Profiles tab bars */
+.top-K_jibn .brand-3g5E0C.item-3XjbnG.selected-g-kMVV, .top-K_jibn .brand-3g5E0C.item-3XjbnG:active{
+  background: var(--main-color);
+  border-radius: 10px 10px 3px 3px;
+  border: none;
+}
+.top-K_jibn .brand-3g5E0C.item-3XjbnG{
+  padding: 10px;
+}
+.top-K_jibn .brand-3g5E0C.item-3XjbnG:active{
+  color: #000
+}
+/*upload image icon when changing avatar*/
+.imageUploaderIcon-2OHmFu:after{
+  filter: brightness(0) invert(0) !important;
+}
+
+/*hover on switch account in user profile context menu*/
+.focused-3qFvc8 .switchAccountsIcon-36imMT path,
+/*switch accounts context menu on hover*/
+.focused-3RdCfX .userMenuUsername-2xdVcJ+svg g path,
+/* toggle buttons that appear in settings */
+[class^="control-"] > [class^="container-"] svg[class^="slider-"] rect,
+/* BetterDiscord buttons*/
+.bd-addon-views .bd-view-button.selected svg,
+.bd-switch-handle,
+/* theme/plugin edit and setting buttons */
+.bd-controls > .bd-addon-button:not(.bd-button-danger) svg{
+  fill: #000;
+}
+
+
+#account {
+  max-height: 47.7vh;
+  border: 3px solid rgb(var(--main-color-numerical),0.8);
+  border-radius: 15px;
+}
+/*I don't know what this does*/
+.wrapper-3kah-n .childWrapper-1j_1ub{
+  border-radius: 50%;
+  /*background color is circular*/
+}
+/*I don't know what this does either*/
+[class^="layer"][id^="popout_"] > [class^="popout"] [class^="option"][aria-selected="true"]{
+  background: rgb(var(--main-color-numerical), 0.8) !important;
+  /*background highlight when select option*/
+}
+/* AUTOCOMPLETE BOX */
+[class^="autocomplete-"]{
+  max-height: 25vh;
+  overflow-y: scroll !important;
+  /*minimizes height to fit comfortably within the HUD*/
+}
+/*-----DISPLAY LINKS-----*/
+#app-mount [aria-label="User Profile Modal"] .connectedAccountContainer-SlCC-S{
+  background: rgb(var(--main-color-numerical), 0.1);
+}
+.connectedAccount-2PrNaX{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+.connectedAccount-2PrNaX img[class^="connectedAccountIcon"]{
+  width: 24px;
+  height: 24px;
+}
+.connectedAccount-2PrNaX a[class^="anchor-"]{
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: normal;
+  padding-top: 3px;
+}
+.connectedAccount-2PrNaX a[class^="anchor-"] svg {
+  display: none;
+}
+.connectedAccount-2PrNaX a[class^="anchor-"]:after {
+  content: attr(href);
+  width: 100%;
+  white-space: nowrap;
+}
+/*-----VOICE CALL-----*/
+/* CALL DOCK */
+/*Call Dock: thingy w/ 4 buttons*/
+/*Make selectors more specific if causing issues*/
+div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv {
+  background: rgb(var(--main-color-numerical), 0.25);
+  border-radius: 25px;
+  padding: 5px;
+  /*call dock background and shape*/
+}
+div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv button{
+  background: transparent;
+  /*sets default background of each button to be transparent*/
+}
+div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv button:hover{
+  background: rgb(var(--main-color-numerical), 0.5);
+  /*adjusts background of buttons upon hover*/
+}
+div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv button[aria-label="Disconnect"]:hover{
+  background: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+  /*adjusts disconnect button background upon hover separately*/
+}
+/* OPTIMIZED RTC CONNECTION POPOUT */
+.container-1ILvLB .section-2zQkYM {
+  background: var(--deprecated-panel-background) !important;
+}
+.container-1ILvLB .section-2zQkYM strong {
+  white-space: pre;
+  font-weight: normal;
+}
+.container-1ILvLB .section-2zQkYM div div[class^="popoutText-"]:nth-of-type(2) strong::before {
+  content: 'Server: ';
+}
+/*-----WINDOWS BUTTONS-----*/
+/*NOTE: this part is done slightly differently than my other previous themes*/
+.winButton-3UMjdg:hover{
+  background: var(--main-color) !important;
+  /*sets background color upon hover of windows buttons*/
+  color: #000;
+}
+/*-----DENITROFY DISCORD-----*/
+[href="/store"], div[class^="buttons"] > button[class^=button][aria-label="Send a gift"] {
+  display: none;
+}
+/*-----SERVER BAR-----*/
+/* ADD/EXPLORE BUTTON ICONS */
+[data-list-item-id^="guildsnav___"][role="listitem"]{
+  color: var(--main-color);
+}
+[data-list-item-id^="guildsnav___"][role="listitem"]:hover{
+  color: #000;
+}
+/*-----MUTE/DEAFEN/USER SETTINGS-----*/
+[aria-label="User area"] [aria-label="Set Status"]+div button:hover path{
+  fill: #000; /*change depending on theme*/
+}
+/*-----SEARCH BOX-----*/
+#uid_33 {
+  position: fixed;
+  right: 9.2vw;
+  /*aligns position w/ search bar*/
+  height: 47vh;
+  /*adjust height to fit in HUD*/
+}
+#uid_33--1 > [class^="queryText-"] strong{
+  font-weight: 500;
+}
