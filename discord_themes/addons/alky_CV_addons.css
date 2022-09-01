@@ -306,15 +306,32 @@ div[id^="message-content"] > span.mention{
 .art-2Y6Pk3{
     display: none;
 }
-[class^="focusLock"][aria-label="Set a custom status"]{
+.focusLock-2tveLW[aria-label="Set a custom status"]{
     background: #000;
     border-radius: 20px;
 }
-[class^="focusLock"][aria-label="Set a custom status"] > div{
+.focusLock-2tveLW[aria-label="Set a custom status"] > .modalRoot-1uudbL{
     background: transparent;
 }
+.focusLock-2tveLW[aria-label="Set a custom status"] .sectionTitle-3j2YI1 .h5-2RwDNl{
+    white-space: nowrap;
+}
+.focusLock-2tveLW[aria-label="Set a custom status"] .sectionTitle-3j2YI1 .h5-2RwDNl{
+    line-height: 30px;/*2.5x font-size*/
+
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+    /*improved readability of section title if username too long*/
+}
+.focusLock-2tveLW[aria-label="Set a custom status"] .sectionTitle-3j2YI1 .h5-2RwDNl.defaultMarginh5-3Jxf6f{
+    margin-bottom: 10px;
+    /*separate block of code in case margin class changes due to some random setting*/
+}
 /* EMOJI */
-[aria-label="Set a custom status"] [class^="sprite"] {
+.focusLock-2tveLW[aria-label="Set a custom status"] .sprite-2lxwfc {
     background-position: 0px -22px !important;
     /*default emoji is custom emoji*/
     filter: grayscale(100%) !important;
@@ -423,7 +440,6 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
 #status-picker [aria-activedescendant^="status-picker"] {
     background: #000;
     border-radius: 15px;
-    /*includes #status-picker, submenus among other things*/
 }
 /*-----CHAT BOX-----*/
 .username-h_Y3Us{
@@ -907,6 +923,11 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 }
 .focusLock-2tveLW[aria-labelledby="sticker-pack-sku-preview-modal"] .scroller-2M3eAB .description-2Rwq0z{
     display: none;
+}
+/*-----STATUS PICKER-----*/
+#account-status-picker.focused-3qFvc8 .mainStatusIcon-25wiNY .status-2DiCMd{
+    background: #fff !important;
+    /*removes status color upon hover on status picker menu item*/
 }
 
 
