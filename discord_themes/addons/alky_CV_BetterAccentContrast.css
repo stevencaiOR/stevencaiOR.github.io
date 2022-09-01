@@ -126,12 +126,12 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .lookFilled-yCfaCM.colorRed-rQXKgM:hover,
 /* Colored text of selected radio bar */
 /* safe direct messaging only */
-[aria-checked=true] > .radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%);"] circle,
+[aria-checked=true] > .radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%);"] circle.radioIconForeground-2BMavi,
 [aria-checked=true] > .radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%);"],
 /* safe direct messaging + server safety*/
-[aria-checked=true] > .radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] circle,
+[aria-checked=true] > .radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"] circle.radioIconForeground-2BMavi,
 [aria-checked=true] > .radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],
-[aria-checked=true] > .radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"] circle,
+[aria-checked=true] > .radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"] circle.radioIconForeground-2BMavi,
 [aria-checked=true] > .radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);"]
 {
   color:#fff;
