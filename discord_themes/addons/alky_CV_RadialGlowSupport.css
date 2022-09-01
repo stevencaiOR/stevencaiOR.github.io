@@ -80,3 +80,15 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
     height: calc(var(--profile-popout-picture-size, 80px) - 1.75*(var(--rs-medium-width) + var(--rs-medium-spacing))) !important;
     width: calc(var(--profile-popout-picture-size, 80px) - 1.75*(var(--rs-medium-width) + var(--rs-medium-spacing))) !important;
 }
+
+/* Removes blocky-ness of glow in friends tab panels*/
+.peopleListItem-u6dGxF .userInfo-2WpsYG {
+    overflow: visible;
+    max-width: calc(100% - 90px); /*100% - .actions-YHvpIT width*/
+
+}
+.peopleListItem-u6dGxF .userInfo-2WpsYG .text-3j8t_e{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
