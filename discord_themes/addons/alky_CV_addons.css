@@ -383,6 +383,10 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     height: calc(32px + var(--avatar-change, 0) * 1px) !important;
     /*Increased avatar size*/
 }
+/* Improved readability of discriminator + custom status */
+.container-YkUktl .subtext-2HDqJ7{
+    color: rgb(255,255,255,0.5);
+}
 /* Keeps avatar same upon hover */
 .container-YkUktl .avatar-1EWyVD:after {
     display: none;
