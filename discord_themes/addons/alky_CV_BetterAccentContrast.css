@@ -49,8 +49,6 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .item-2idW98:hover,
 /* "new" bar in server bar*/
 .unreadMentionsIndicatorTop-2bTgUU div span,
-/* NEW OLD and RELEVANT buttons on hover in search results header */
-.themed-2-lozF.item-3XjbnG:hover,
 /*hover upon options with colored text*/
 .colorDefault-CDqZdO.focused-3qFvc8 .subtext-2GlkbE,
 /*dumb check boxes*/
@@ -68,9 +66,12 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
 .focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuText-2e3Dry,
 /* replace all necessary instances var(--interactive-active) with black (#000) right here */
-/* NEW OLD and RELEVANT buttons on select in search results header */
+/* NEW OLD and RELEVANT buttons in search results header */
+/* on select */
 .searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .selected-g-kMVV.item-3XjbnG,
 .searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .selected-g-kMVV.item-3XjbnG:hover,
+/* on hover */
+.searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .item-3XjbnG:hover,
 /* context menu item hover*/
 .menu-1QACrS .item-1OdjEX.focused-3qFvc8,
 /* selected radioGroupItem */
