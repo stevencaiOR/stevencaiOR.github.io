@@ -1,12 +1,15 @@
-/*
+
 :root{
+    /*
     You must define these variables in your theme
     if you are using this as an add-on
     
     --nitro-bg-image: url(my_link);
     --nitro-bg-pos: left/right/center;
+    */
+
+    --message-content-line-height: 1.375rem; /*line height of messages*/
 }
-*/
 /* Minimizes gaps between sections */
 .sidebar-nqHbhN .header-2Kx1US{
     padding-top: 6px !important;
@@ -530,6 +533,40 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     display: block;
     content: "Compact: no avatar shown; username adjacent to messages.";
 }
+/* Message Display Preview */
+#message-content-0,
+#message-content-1,
+#message-content-2,
+#message-content-3,
+#message-content-4{
+    text-indent: -9999px;
+    line-height: 0px;
+    display: inline-block;
+}
+#message-content-0:after,
+#message-content-1:after,
+#message-content-2:after,
+#message-content-3:after,
+#message-content-4:after{
+    text-indent: 0px;
+    line-height: var(--message-content-line-height);
+    display: block;
+}
+#message-content-0:after{
+    content: "Alpha bravo charlie delta echo foxtrot";
+}
+#message-content-1:after{
+    content: "Golf hotel india juliet kilo lima mike";
+}
+#message-content-2:after{
+    content: "November oscar papa quebec romeo";
+}
+#message-content-3:after{
+    content: "Sierra tango uniform victor whiskey";
+}  
+#message-content-4:after{
+    content: "X-ray yankee zulu";
+}  
 /* Improved Radiogroups */
 #appearance-tab .children-1xdcWE{
     flex-direction: row;
