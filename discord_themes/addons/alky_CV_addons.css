@@ -6,9 +6,9 @@
 
     /* Redefine any of these variables in :root{} if you don't like them */
     --profile-popout-width: 19vw;
-    --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6);
-    --chat-box-username-height: 2.5rem;
-    --chat-box-avatar-change: min(calc(var(--chat-box-username-height, 1.375rem) - 0.625rem),1.25rem);
+    --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6);                               /*default: 80px*/
+    --chat-box-username-height: 2.5rem;                                                                 /*default: 1.375rem*/
+    --chat-box-avatar-change: min(calc(var(--chat-box-username-height, 1.375rem) - 0.625rem),1.25rem);  /*default: 0*/
 
     --online-color: #43b581;
     --idle-color: #faa61a;
@@ -39,7 +39,7 @@
 #account,
 #account .popoutBanner-3cqRD9,
 .userPopout-3fydSP{
-    width: var(--profile-popout-width, 16vw);
+    width: var(--profile-popout-width);
 }
 .avatarHintInner-3gk_Yx{
     font-size: 8.25px;
@@ -968,16 +968,16 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     /*removes status color upon hover on menu items in drop-down menu and popout*/
 }
 #account-status-picker--online.focused-3qFvc8 {
-    background: var(--online-color, #43b581);
+    background: var(--online-color);
 }
 #account-status-picker--idle.focused-3qFvc8{
-    background: var(--idle-color, #faa61a);
+    background: var(--idle-color);
 }
 #account-status-picker--dnd.focused-3qFvc8{
-    background: var(--dnd-color, #982929);
+    background: var(--dnd-color);
 }
 #account-status-picker--invisible.focused-3qFvc8{
-    background: var(--offline-color, #808080);
+    background: var(--offline-color);
 }
 
 /*edited Discord marketing shit to be less stupid*/
