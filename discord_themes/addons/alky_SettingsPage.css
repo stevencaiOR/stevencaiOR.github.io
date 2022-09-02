@@ -582,10 +582,10 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
 /* Toggle buttons */
 /* Off */
 .bd-switch-body{
-    background: var(--hover-color) !important;
+    background: rgb(var(--main-color-numerical),0.625) !important;
 }
 .control-1fl03- > .container-2nx-BQ:not(.checked-25WXMf):before{
-    background: var(--hover-color);
+    background: rgb(var(--main-color-numerical),0.625);
 }
 .bd-switch .bd-switch-symbol > path{
     fill: currentColor;
