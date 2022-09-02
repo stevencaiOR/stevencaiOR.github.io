@@ -90,7 +90,7 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
 #my-account-tab .avatar-3mTjvZ{
     height: var(--avatar-size, 80px) !important; /*default: 80px*/
     width: var(--avatar-size, 80px) !important;
-    top:  calc(100% - 100px - 2*var(--rs-medium-width) - 2*var(--rs-medium-spacing) - var(--avatar-change,0px)); /*default is 76px; value of x such that as --avatar-change increase, x decrease*/
+    top:  calc(100% - 100px - 2*var(--rs-medium-width, 0px) - 2*var(--rs-medium-spacing, 0px) - var(--avatar-change,0px)); /*default is 76px; value of x such that as --avatar-change increase, x decrease*/
 }
 .accountProfileCard-lbN7n- .userInfo-regn9W > button,
 #my-account-tab .avatar-3mTjvZ+div{
