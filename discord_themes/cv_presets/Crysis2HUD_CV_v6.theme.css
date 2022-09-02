@@ -200,16 +200,8 @@
 }
 
 /* User Settings -> Profiles tab bars */
-.top-K_jibn .brand-3g5E0C.item-3XjbnG.selected-g-kMVV, .top-K_jibn .brand-3g5E0C.item-3XjbnG:active{
-  background: var(--main-color);
-  border-radius: 10px 10px 3px 3px;
-  border: none;
-}
 .top-K_jibn .brand-3g5E0C.item-3XjbnG{
   padding: 10px;
-}
-.top-K_jibn .brand-3g5E0C.item-3XjbnG:active{
-  color: #000
 }
 /*upload image icon when changing avatar*/
 .imageUploaderIcon-2OHmFu:after{
