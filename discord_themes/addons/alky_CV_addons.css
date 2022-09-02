@@ -16,6 +16,8 @@
     --offline-color: #808080;
     --streaming-color: #9147ff;
 
+
+    --message-content-line-height: max(25px, 1.625rem);                                                 /*default: 1.375rem*/
     /*
     --main-color-numerical: ; <--- put the rgb value of your accent color here
     --main-color: rgb(var(--main-color-numerical));
@@ -470,7 +472,7 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     /*chat username color (doesn't override role colors)*/
 }
 .markup-eYLPri.messageContent-2t3eCI{
-    line-height: max(25px, 1.625rem); /*previously 1.875rem*/
+    line-height: var(--message-content-line-height);
     /*line height of messages*/
 }
 /* JOIN BUTTON */
