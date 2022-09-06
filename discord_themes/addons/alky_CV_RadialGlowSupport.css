@@ -73,12 +73,8 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
 }
 .avatarWrapperNormal-1tQ3Je .avatarHint-2g3Mcd{
     border-radius: 50%;
-    top: calc(3.5*(var(--rs-medium-width) + var(--rs-medium-spacing)));
-    left: calc(3.5*(var(--rs-medium-width) + var(--rs-medium-spacing)));
-}
-[class^="avatarHoverTarget"]+svg[class^="avatarHint-"]{
-    height: calc(var(--profile-popout-picture-size, 80px) - 1.75*(var(--rs-medium-width) + var(--rs-medium-spacing))) !important;
-    width: calc(var(--profile-popout-picture-size, 80px) - 1.75*(var(--rs-medium-width) + var(--rs-medium-spacing))) !important;
+    top: 7.5px;
+    left: 7.5px;
 }
 
 /* Removes blocky-ness of glow in friends tab panels*/
