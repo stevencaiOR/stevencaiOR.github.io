@@ -67,7 +67,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
     /*1st selector is profile picture, 2nd selector is opacity filter*/
 }
 .userPopout-3fydSP .popoutBanner-16rVDY{
-    height: calc(var(--profile-popout-picture-size, 80px) - 20px);
+    height: calc(var(--profile-popout-picture-size, 80px) - 40px);
     /*adjust banner based on avatar size*/
     -webkit-mask: none;
     /*remove banner gradient*/
