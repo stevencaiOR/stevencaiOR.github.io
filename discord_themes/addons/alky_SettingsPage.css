@@ -50,7 +50,7 @@
     max-width: 100%;
 }
 #app-mount .contentRegion-3HkfJJ{
-    max-width: calc(100% - var(--setting-sidebar-width, 268px));
+    max-width: 100%;
 }
 #app-mount .contentRegion-3HkfJJ .contentTransitionWrap-1YD530,
 #app-mount .contentRegion-3HkfJJ .contentTransitionWrap-1YD530 .contentRegionScroller-2_GT_N,
