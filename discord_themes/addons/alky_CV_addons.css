@@ -66,7 +66,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
     /*makes profile picture & hover filter a custom size*/
     /*1st selector is profile picture, 2nd selector is opacity filter*/
 }
-.userPopout-2j1gM4 .banner-1YaD3N{
+.userPopout-3fydSP .popoutBanner-16rVDY{
     height: calc(var(--profile-popout-picture-size, 80px) - 20px);
     /*adjust banner based on avatar size*/
     -webkit-mask: none;
