@@ -46,6 +46,9 @@
 .avatarHintInner-3gk_Yx{
     font-size: 8.25px;
 }
+.avatarHintInnerText-9TQf9n {
+    font-size: 80%;
+}
 /*profile popout applies to the popout when clicking on user area*/
 svg.avatarHint-2g3Mcd[width="80"] {
     transition-duration: 200ms;
@@ -63,9 +66,11 @@ svg.avatarHint-2g3Mcd[width="80"] {
     /*makes profile picture & hover filter a custom size*/
     /*1st selector is profile picture, 2nd selector is opacity filter*/
 }
-.userPopout-3fydSP .banner-2boKnS{
+.userPopout-2j1gM4 .banner-1YaD3N{
     height: calc(var(--profile-popout-picture-size, 80px) - 20px);
     /*adjust banner based on avatar size*/
+    -webkit-mask: none;
+    /*remove banner gradient*/
 }
 .avatarPositionPremiumBanner-2nq2Fy,
 .avatarPositionPremiumNoBanner-nWzERs{
