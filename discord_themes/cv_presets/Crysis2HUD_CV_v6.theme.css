@@ -192,8 +192,7 @@
   border-top-right-radius: 5px;
   /*aligns border radius of close button with window*/
 }
-/* channel column */
-[class^="channelNotice"] button,
+
 /* "offer" when selecting nitro tab in user settings sidebar*/
 [aria-controls="discord-nitro-tab"] h3[class*="isSelected-"]{
   color: var(--channel-text-selected) !important;
