@@ -534,7 +534,7 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     content: "Compact: no avatar shown; username adjacent to messages.";
 }
 /* Message Display Preview */
-#message-content-0,
+#appearance-tab #message-content-0,
 #message-content-1,
 #message-content-2,
 #message-content-3,
@@ -543,7 +543,7 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     line-height: 0px;
     display: inline-block;
 }
-#message-content-0:after,
+#appearance-tab #message-content-0:after,
 #message-content-1:after,
 #message-content-2:after,
 #message-content-3:after,
@@ -552,7 +552,7 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     line-height: var(--message-content-line-height);
     display: block;
 }
-#message-content-0:after{
+#appearance-tab #message-content-0:after{
     content: "Alpha bravo charlie delta echo foxtrot";
 }
 #message-content-1:after{
