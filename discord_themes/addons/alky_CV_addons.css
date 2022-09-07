@@ -662,10 +662,14 @@ nav[aria-label="Private channels"] h2~li [class^="interactive-"]:before{
     border-radius: 10px !important;
 }
 /* HOVER USER */
-.privateChannels-oVe7HL[aria-label="Private channels"] h2~.channel-1Shao0 .interactive-1vLZ_I:hover:before{
-    background: rgb(var(--main-color-numerical), 0.3);
+.privateChannels-oVe7HL[aria-label="Private channels"] h2~.channel-1Shao0 .interactive-1vLZ_I:hover{
     width: calc(100% - 15px);
 }
+.privateChannels-oVe7HL[aria-label="Private channels"] h2~.channel-1Shao0 .interactive-1vLZ_I:hover:before{
+    background: rgb(var(--main-color-numerical), 0.3);
+}
+/* SELECT USER */
+.privateChannels-oVe7HL[aria-label="Private channels"] h2~.channel-1Shao0 .interactive-1vLZ_I.interactiveSelected-29CP8y:before,
 .privateChannels-oVe7HL[aria-label="Private channels"] h2~.channel-1Shao0 .interactive-1vLZ_I.interactiveSelected-29CP8y:hover:before{
     background: transparent;
 }
