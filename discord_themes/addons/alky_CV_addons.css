@@ -496,7 +496,11 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
 [data-list-id="chat-messages"] button[class*="lookFilled"][class*="colorGreen"]:hover{
     background: var(--main-color) !important;
 }
-/* SYSTME MESSAGES */
+/* SYSTEM MESSAGES */
+.systemMessage-1H1Z20 .container-x059i8 .iconContainer-2rPbqG{
+    top: calc(var(--chat-box-username-height, 1.375rem) - 1.375rem);
+    /* adjust arrow positioning */
+}
 .systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .content-vSHmMD > .anchorUnderlineOnHover-2qPutX,
 .systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .anchorUnderlineOnHover-2qPutX .svg-1OUcya.roleDotLeft-1EL7tW{
     position: relative;
