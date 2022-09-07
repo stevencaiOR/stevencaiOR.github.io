@@ -84,7 +84,7 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     --avatar-size: calc(var(--avatar-size-default, min(4.17vw, 80px)) + var(--avatar-change, 0px));
 }
 .accountProfileCard-lbN7n- .userInfo-regn9W .button-f2h6uQ{
-    width: 9.3vw; /*default: 158px?*/
+    width: 9.345vw; /*default: 158px?*/
     /*width of "Edit User Profile" button*/
 }
 .accountProfileCard-lbN7n- .userInfo-regn9W{
