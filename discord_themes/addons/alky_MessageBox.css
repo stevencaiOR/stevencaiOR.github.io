@@ -56,18 +56,21 @@ main[class^="chatContent"] [class^="sprite"]{
 }
 button[aria-label^="Upload a file"] path,
 button[aria-label="Open sticker picker"] path{
+    fill: rgb(var(--main-color-numerical),0.7);
+}
+.scrollableContainer-15eg7h:focus-within button[aria-label^="Upload a file"] path,
+.scrollableContainer-15eg7h:focus-within button[aria-label="Open sticker picker"] path{
     fill: var(--main-color);
-    /*adds color to plus and sticker icons*/
 }
 button[aria-label^="Upload a file"] path[class*="attachButtonPlay-"]{
     fill: var(--spotify-color);
     /*makes spotify invite button green*/
 }
 /* Send Message Button*/
-#children.buttonChild-33lB5F,
-.button-y6hemj[disabled] > .innerButton-1aF_E_ > #children.buttonChild-33lB5F{
-    color: rgb(var(--main-color-numerical),0.7)
+.channelTextArea-1VQBuV button[aria-label="Send Message"] .button-2fCJ0o .buttonChild-33lB5F.disabled-3wvGkX{
+    color: rgb(var(--main-color-numerical),0.7);
 }
-#children.activeButtonChild-2hgLAO{
+.channelTextArea-1VQBuV .scrollableContainer-15eg7h:focus-within button[aria-label="Send Message"] .button-2fCJ0o .buttonChild-33lB5F.disabled-3wvGkX,
+.channelTextArea-1VQBuV button[aria-label="Send Message"] .button-2fCJ0o .buttonChild-33lB5F.activeButtonChild-2hgLAO{
     color: var(--main-color);
 }
