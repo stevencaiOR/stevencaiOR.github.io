@@ -607,6 +607,14 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     border: 2px solid rgb(var(--main-color-numerical),0.8);
     margin-bottom: 1px;
 }
+/* Username length in bar */
+.attachedBars-2BCP3l .replyBar-1oi75v .name-3DDHNY{
+    display: inline-block;
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+}
 /*-----SPOILERS-----*/
 /* IMAGES */
 .spoilerContainer-3wsC0k .hiddenSpoilers-19m4Pg,
