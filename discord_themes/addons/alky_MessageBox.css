@@ -48,8 +48,8 @@ button[aria-label="Open GIF picker"] {
     display: none;
     /*removes GIF button*/
 }
-main[class^="chatContent"] [class^="sprite"]{
-    background-position: 0px -22px !important;
+.channelTextArea-1FufC0 .sprite-2lxwfc{
+    background-position: -44px -22px !important;
     /*default emoji is custom emoji*/
     filter: grayscale(0) !important;
     /*adds color to the emoji picker but only in the message box*/
