@@ -22,7 +22,7 @@
 
   /* ALKY SETTINGS PAGE */
   --nitro-bg-image: url(https://i.imgur.com/Ah87iJZ.jpg);
-  --nitro-bg-pos: center;
+  --nitro-bg-pos: 0% 2.5%;
 
   /* ALKY MESSAGE BOX */
   --mb-placeholder-1: rgb(var(--text-muted-numerical), 0.7);
