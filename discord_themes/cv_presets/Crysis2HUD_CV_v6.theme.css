@@ -193,7 +193,15 @@
   /*aligns border radius of close button with window*/
 }
 
-/* "offer" when selecting nitro tab in user settings sidebar*/
+/* scuffed fix for windows button + watermark appearing over popouts and images */
+.notDevTools-1zkgfK > .layerContainer-2v_Sit {
+  z-index: 99999;
+}
+.notDevTools-1zkgfK > .layerContainer-2v_Sit~.layerContainer-2v_Sit{
+  z-index: 1002;
+}
+
+/* "offer" when selecting nitro tab in user settings sidebar */
 [aria-controls="discord-nitro-tab"] h3[class*="isSelected-"]{
   color: var(--channel-text-selected) !important;
 }
