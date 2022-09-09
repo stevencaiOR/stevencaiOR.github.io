@@ -163,6 +163,14 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     background: linear-gradient(var(--background-primary),var(--background-primary)) padding-box,
     linear-gradient(45deg,var(--main-color), var(--main-color)) border-box;
 }
+/* Adjusted content positioning to improve white space usage */
+.customizationSection-IGy2fS+div .baseLayoutProfileThemes-1Jj-oN{
+    justify-content: space-around;
+}
+.customizationSection-IGy2fS+div .profileCustomizationSection-53kreU .customizationSection-IGy2fS > *{
+    justify-content: center;
+    text-align: center;
+}
 /* Improved background of text box */
 #profile-customization-tab .channelTextArea-1VQBuV {
     background: rgb(0,0,0,0.4);
