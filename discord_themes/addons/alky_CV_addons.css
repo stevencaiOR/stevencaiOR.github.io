@@ -1104,3 +1104,8 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     display: none;
     /*removes tutorial arrow thingies when searching for server, channels or dm*/
 }
+
+.wumpusWrapper-3jyMw-{
+    display: none;
+    /*die wumpus*/
+}
