@@ -1,0 +1,240 @@
+/**
+ * @name Crysis 2 Time Square Pinger
+ * @author ClearVision Team
+ * @version 6.3.0
+ * @description Theme with epic fight in the background between Alcatraz and a Pinger.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.github.io
+ * @invite dHaSxn3
+*/
+
+@import url(https://clearvision.github.io/ClearVision-v6/main.css);
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@100;300;400;500;700&display=swap);
+@import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_addons.css);/*
+@import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_BetterAccentContrast.css); /*Remove for worse contrast with --main-color*/
+
+:root {
+  --custom-mark: "Crysis 2";
+  --custom-mark-2: "Crysis 2";
+
+  /* ALKY SETTINGS PAGE */
+  --nitro-bg-image: url(https://cdn.uc.assets.prezly.com/915ca5cf-962e-41b0-9d11-76ba4da91ab7/-/resize/1108x/-/quality/best/-/format/auto/);
+  --nitro-bg-pos: center;
+
+  /* ALKY MESSAGE BOX */
+  --mb-placeholder-1: rgb(var(--text-muted-numerical), 0.7);
+  --mb-placeholder-2: var(--text-muted);
+
+  /* ACCENT COLORS */
+  --main-color-numerical: 21, 41, 50; /*alternate: 26, 52, 62?*/
+  --main-color: rgb(var(--main-color-numerical));
+  --hover-color-numerical: 19, 31, 37;
+  --hover-color: rgb(var(--hover-color-numerical));
+  --success-color-numerical: 36, 168, 109;
+  --success-color: rgb(var(--success-color-numerical));
+  --danger-color-numerical: 152, 41, 41;
+  --danger-color: rgb(var(--danger-color-numerical));
+  --button-danger-background-hover: rgb(161, 47, 45);
+  --main-color-inverted-numerical: 141, 60, 131;
+  --main-color-inverted: rgb(var(--main-color-inverted-numerical));
+
+  /* STATUS COLORS */
+  --online-color-numerical: 36, 168, 109; /*default: 67, 181, 129*/
+  --online-color: rgb(var(--online-color-numerical));
+  --idle-color-numerical: 225, 180, 5; /*230, 182, 25*/
+  --idle-color: rgb(var(--idle-color-numerical));
+  --dnd-color-numerical: 195, 34, 34; 
+  --dnd-color:rgb(var(--dnd-color-numerical));
+  --streaming-color-numerical: 145, 71, 255;
+  --streaming-color:rgb(var(--streaming-color-numerical));
+  --offline-color-numerical: 127,127,127; /*default: 116, 127, 141*/
+  --offline-color:rgb(var(--offline-color-numerical));
+  --some-orange-numerical: 249, 107, 6;
+  --some-orange:rgb(var(--some-orange-numerical));
+
+  /* CUSTOMIZATION PATCH */
+  --url-color: var(--main-color);
+  --channel-unread: var(--main-color);
+  --channel-color: rgba(var(--main-color-numerical),0.9);
+  --muted-color: rgba(var(--main-color-numerical),0.5);
+
+  /* THIRD PARTY THEME COLOURS */
+  --spotify-color-numerical: 30,215,96;
+  --spotify-color: rgb(var(--spotify-color-numerical));
+  --twitter-color-numerical: 29, 161, 242;
+  --twitter-color: rgb(var(--twitter-color-numerical));
+  --facebook-color-numerical: 66, 103, 178;
+  --facebook-color: rgb(var(--facebook-color-numerical));
+
+  /* GENERAL */
+  --main-font: Orbitron, system-ui;
+  --font-primary: var(--main-font);
+  --code-font: Consolas, monospace;
+  --text-muted-numerical: var(--main-color-numerical);
+  --text-muted: rgb(var(--text-muted-numerical));
+  --channels-width: max(13.4vw, 185px);   /*default: 220px*/
+  --members-width: max(14vw, 185px);      /*default: 240px*/
+
+  /* APP BACKGROUND */
+  --background-image: url(https://i.imgur.com/PJDaWyB.jpg);
+  --background-shading: 10%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 100%;
+  --background-contrast: 100%;
+  --background-saturation: 125%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 0px;
+  --background-overlay: rgba(0,0,0,0.6);
+
+  /* HOME BUTTON ICON */
+  --home-icon: url('https://i.imgur.com/3KHlCMw.png');
+  --home-position: center;
+  --home-size: 40px;
+
+  /* MODAL BACKDROP */
+  --backdrop-overlay: var(--background-overlay);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+
+  /* USER POPOUT BACKGROUND */
+  --user-popout-image: var(--background-image);
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 2px;
+
+  /* USER MODAL BACKGROUND */
+  --user-modal-image: var(--background-image);
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 3px;
+
+  /* THEME BD COLORS */
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+
+  /* TEXT COLORS */
+  --text-normal-numerical: 221, 221, 221; /*default: 220, 221, 222*/
+  --text-normal: rgb(var(--text-normal-numerical));
+}
+/*-----DISPLAY LINKS-----*/
+#app-mount [aria-label="User Profile Modal"] .connectedAccountContainer-SlCC-S{
+  background: rgb(var(--main-color-numerical), 0.3);
+}
+.connectedAccount-2PrNaX{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+.connectedAccount-2PrNaX img[class^="connectedAccountIcon"]{
+  width: 24px;
+  height: 24px;
+}
+.connectedAccount-2PrNaX a[class^="anchor-"]{
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: normal;
+  padding-top: 3px;
+}
+.connectedAccount-2PrNaX a[class^="anchor-"] svg {
+  display: none;
+}
+.connectedAccount-2PrNaX a[class^="anchor-"]:after {
+  content: attr(href);
+  width: 100%;
+  white-space: nowrap;
+}
+/*-----VOICE CALL-----*/
+/* CALL DOCK */
+/*Call Dock: thingy w/ 4 buttons*/
+/*Make selectors more specific if causing issues*/
+div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv {
+  background: rgb(var(--main-color-numerical), 0.25);
+  border-radius: 25px;
+  padding: 5px;
+  /*call dock background and shape*/
+}
+div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv button{
+  background: transparent;
+  /*sets default background of each button to be transparent*/
+}
+div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv button:hover{
+  background: rgb(var(--main-color-numerical), 0.5);
+  /*adjusts background of buttons upon hover*/
+}
+div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv button[aria-label="Disconnect"]:hover{
+  background: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%); /*wtf is saturation factor*/
+  /*adjusts disconnect button background upon hover separately*/
+}
+/* OPTIMIZED RTC CONNECTION POPOUT */
+.container-1ILvLB .section-2zQkYM {
+  background: var(--deprecated-panel-background) !important;
+}
+.container-1ILvLB .section-2zQkYM strong {
+  white-space: pre;
+  font-weight: normal;
+}
+.container-1ILvLB .section-2zQkYM div div[class^="popoutText-"]:nth-of-type(2) strong::before {
+  content: 'Server: ';
+}
+/*-----WINDOWS BUTTONS-----*/
+.winButtonMinMax-3RsPUg:hover {
+  background-color: var(--hover-color) !important;
+}
+.winButtonClose-3Q8ZH5:hover {
+  background-color: var(--main-color) !important;
+}
+/*sets background color upon hover of windows buttons*/
+/*-----DENITROFY DISCORD-----*/
+[href="/store"], div[class^="buttons"] > button[class^=button][aria-label="Send a gift"] {
+  display: none;
+}
+/*-----SERVER BAR-----*/
+/* ADD/EXPLORE BUTTON ICONS */
+[data-list-item-id^="guildsnav___"][role="listitem"]{
+  color: var(--main-color);
+}
+[data-list-item-id^="guildsnav___"][role="listitem"]:hover{
+  color: #fff;
+}
+/*-----MUTE/DEAFEN/USER SETTINGS-----*/
+[aria-label="User area"] [aria-label="Set Status"]+div button:hover path{
+  fill: #fff;
+}
+/*-----SEARCH BOX-----*/
+#uid_33 {
+  position: fixed;
+  right: 3.8vw;
+  /*aligns position w/ search bar*/
+}
