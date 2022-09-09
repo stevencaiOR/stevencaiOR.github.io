@@ -56,7 +56,7 @@
   --url-color: var(--main-color);
   --channel-unread: var(--main-color);
   --channel-color: rgba(var(--main-color-numerical),0.9);
-  --muted-color: rgba(var(--main-color-numerical),0.5);
+  --muted-color: rgba(var(--main-color-numerical),0.55);
 
   /* THIRD PARTY THEME COLOURS */
   --spotify-color-numerical: 30,215,96;
@@ -91,7 +91,7 @@
   --background-overlay: rgba(0,0,0,0.6);
 
   /* HOME BUTTON ICON */
-  --home-icon: url('https://i.imgur.com/3KHlCMw.png');
+  --home-icon:url(https://i.imgur.com/updWE6y.png);
   --home-position: center;
   --home-size: 40px;
 
@@ -116,7 +116,7 @@
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
-  --user-popout-brightness: 100%;
+  --user-popout-brightness: 75%;
   --user-popout-contrast: 100%;
   --user-popout-saturation: 100%;
   --user-popout-grayscale: 0%;
