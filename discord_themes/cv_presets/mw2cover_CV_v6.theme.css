@@ -156,45 +156,6 @@
   --text-normal-numerical: 221, 221, 221; /*default: 220, 221, 222*/
   --text-normal: rgb(var(--text-normal-numerical));
 }
-/*-----LEOZARD'S SPEECH BUBBLES -----*/
-/* Credits go to Leozard for making the original */
-.cozyMessage-1DWF9U:not(.systemMessage-1H1Z20) .messageContent-2t3eCI,
-.cozyMessage-1DWF9U:not(.systemMessage-1H1Z20) .container-2sjPya {
-  width: fit-content;
-  max-width: 90%;
-  background-color: var(--bubble-color,hsla(0, 0%, 100%, 0.1));
-  padding: 7px;
-  border-radius: 10px;
-  margin-top: 2px;
-  margin-left: 0px;
-}
-.repliedTextPreview-1bvxun{
-  width: calc(70% - 16px - 0.5rem);
-  /*adjusted width of replied context message*/
-}
-.wrapper-1ZcZW-.mention.interactive{
-  max-width: 100%;
-}
-.cozyMessage-1DWF9U:not(.systemMessage-1H1Z20):hover .messageContent-2t3eCI,
-.cozyMessage-1DWF9U:not(.systemMessage-1H1Z20):hover .container-2sjPya {
-  background-color: var(--bubble-hover-color, hsla(0, 0%, 100%, 0.15));
-}
-.cozyMessage-1DWF9U:not(.systemMessage-1H1Z20) .buttonContainer-1502pf {
-  top: 24px
-}
-.cozyMessage-1DWF9U:not(.systemMessage-1H1Z20).groupStart-3Mlgv1 .buttonContainer-1502pf {
-  top: 48px
-}
-.embedSuppressButton-1rZHq6 {
-  right: 0;
-}
-.markup-eYLPri blockquote,
-.markup-eYLPri pre {
-  max-width: 100%;
-}
-.message-2CShn3.cozy-VmLDNB.hasReply-2Cr4KE .contents-2MsGLg img.avatar-2e8lTP{
-  top: 2.625rem;
-}
 /*-----DISPLAY LINKS-----*/
 #app-mount [aria-label="User Profile Modal"] .connectedAccountContainer-SlCC-S{
   background: rgb(var(--main-color-numerical), 0.1);
