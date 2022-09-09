@@ -510,7 +510,7 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     position: relative;
 }
 /* Adjust position of role dot and username */
-.systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .content-vSHmMD > .anchorUnderlineOnHover-2qPutX{
+.systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .container-x059i8:not(.channelNameChange-3n17Mf) .content-vSHmMD > .anchorUnderlineOnHover-2qPutX{
     bottom: 0.4375rem;
 }
 .systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .anchorUnderlineOnHover-2qPutX .svg-1OUcya.roleDotLeft-1EL7tW{
