@@ -193,12 +193,9 @@
   /*aligns border radius of close button with window*/
 }
 
-/* scuffed fix for windows button + watermark appearing over popouts and images */
-.notDevTools-1zkgfK > .layerContainer-2v_Sit {
-  z-index: 99999;
-}
-.notDevTools-1zkgfK > .layerContainer-2v_Sit~.layerContainer-2v_Sit{
-  z-index: 1002;
+/* fix for windows button + watermark appearing over popouts and images */
+.titleBar-1it3bQ{
+  z-index: 1001;
 }
 
 /* "offer" when selecting nitro tab in user settings sidebar */
