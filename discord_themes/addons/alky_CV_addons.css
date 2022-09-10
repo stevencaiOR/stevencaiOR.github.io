@@ -440,10 +440,12 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     /*opacity for all the button icons*/
 }
 [aria-label="User area"] [aria-label="Set Status"]+div button path{
-    fill: var(--main-color);
-    /*adds color for all the button icons when not on hover*/
     transition: all 350ms ease-in-out;
     /*specifically stabilizes transition when hovering off icon*/
+}
+[aria-label="User area"] [aria-label="Set Status"]+div button:not(:hover) path{
+    fill: var(--main-color);
+    /*adds color for all the button icons when not on hover*/
 }
 /* Hovered buttons */
 [aria-label="User area"] [aria-label="Set Status"]+div button:hover{
