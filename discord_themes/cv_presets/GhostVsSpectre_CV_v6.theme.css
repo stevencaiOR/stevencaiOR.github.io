@@ -221,18 +221,6 @@ div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv butt
 [href="/store"], div[class^="buttons"] > button[class^=button][aria-label="Send a gift"] {
   display: none;
 }
-/*-----SERVER BAR-----*/
-/* ADD/EXPLORE BUTTON ICONS */
-[data-list-item-id^="guildsnav___"][role="listitem"]{
-  color: var(--main-color);
-}
-[data-list-item-id^="guildsnav___"][role="listitem"]:hover{
-  color: #fff;
-}
-/*-----MUTE/DEAFEN/USER SETTINGS-----*/
-[aria-label="User area"] [aria-label="Set Status"]+div button:hover path{
-  fill: #fff;
-}
 /*-----SEARCH BOX-----*/
 #uid_33 {
   position: fixed;
