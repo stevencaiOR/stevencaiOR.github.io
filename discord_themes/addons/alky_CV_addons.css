@@ -1091,6 +1091,12 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .layer-1Ixpg3 .imageWrapper-oMkQl4.image-36HiZc img{
     border-radius: 8px;
 }
+/*-----SERVER BAR-----*/
+/* ADD/EXPLORE BUTTON ICONS */
+.circleIconButton-1VxDrg{
+    color: var(--main-color);
+}
+
 /*edited Discord marketing shit to be less stupid*/
 .colorPremiumTier2-3R4qYN{
     background-color: rgb(0,0,0,0.4);
