@@ -146,3 +146,16 @@ button[class*="lookFilled-"][class*="colorGreen-"],
   background: #000 !important;
   /*removes status color upon hover on status picker menu item*/
 }
+
+/*-----SERVER BAR-----*/
+/* ADD/EXPLORE BUTTON ICONS */
+[data-list-item-id^="guildsnav___"][role="listitem"]{
+  color: var(--main-color);
+}
+[data-list-item-id^="guildsnav___"][role="listitem"]:hover{
+  color: #000;
+}
+/*-----MUTE/DEAFEN/USER SETTINGS-----*/
+[aria-label="User area"] [aria-label="Set Status"]+div button:hover path{
+  fill: #000; /*change depending on theme*/
+}
