@@ -149,10 +149,7 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 
 /*-----SERVER BAR-----*/
 /* ADD/EXPLORE BUTTON ICONS */
-[data-list-item-id^="guildsnav___"][role="listitem"]{
-  color: var(--main-color);
-}
-[data-list-item-id^="guildsnav___"][role="listitem"]:hover{
+.circleIconButton-1VxDrg:hover{
   color: #000;
 }
 /*-----MUTE/DEAFEN/USER SETTINGS-----*/
