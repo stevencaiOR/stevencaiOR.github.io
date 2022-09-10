@@ -493,6 +493,11 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     align-items: flex-end;
     /*consistent height of reply context message*/
 }
+.clickableSticker-3FN2_L .assetWrapper-2hzITV {
+    height: 5rem !important; 
+    width: 5rem !important;
+    /*smaller stickers*/
+}
 /* JOIN BUTTON */
 /*ex. the join button when receive server invite*/
 [data-list-id="chat-messages"] button[class*="lookFilled"][class*="colorGreen"]{
