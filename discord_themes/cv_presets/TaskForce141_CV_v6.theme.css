@@ -73,13 +73,6 @@
   --facebook-color-numerical: 66, 103, 178;
   --facebook-color: rgb(var(--facebook-color-numerical));
 
-  /* HORIZONTAL SERVER LIST */
-  --HSL-server-icon-size: 55px;
-  /*Actual size of server icons*/
-  --HSL-size: calc(var(--HSL-size-actual)/(var(--zoom-level)/100));
-  /*Standardizes the size of server icons depending on Zoom Levels in Appearance*/
-  --HSL-server-spacing: 10px;  
-
 	/* GENERAL */
   --main-font: Orbitron, system-ui;
   --font-primary: var(--main-font);
