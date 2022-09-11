@@ -1140,6 +1140,10 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .circleIconButton-1VxDrg{
     color: var(--main-color);
 }
+.wrapper-3kah-n:not(:hover) .childWrapper-1j_1ub.acronym-2zrAHN {
+    background: rgb(var(--main-color-numerical),0.35);
+    /*bg color of avatar-less server*/
+}
 /*-----SERVER LIMIT MODAL-----*/
 .focusLock-2tveLW[aria-label="Wanna join more servers?"] .text-md-normal-304U3g p:first-child{
     text-indent: -99999px;
