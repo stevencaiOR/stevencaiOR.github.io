@@ -156,3 +156,8 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 [aria-label="User area"] [aria-label="Set Status"]+div button:hover path{
   fill: #000; /*change depending on theme*/
 }
+/*-----BD GUILD BUTTON-----*/
+#bd-pub-button:hover{
+  color: #000;
+  /*text color black when hover*/
+}
