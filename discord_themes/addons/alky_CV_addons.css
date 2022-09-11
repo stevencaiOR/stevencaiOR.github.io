@@ -1123,6 +1123,16 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .layer-1Ixpg3 .imageWrapper-oMkQl4.image-36HiZc img{
     border-radius: 8px;
 }
+/*-----BD GUILD BUTTON-----*/
+#bd-pub-button{
+    font-weight: 500;
+}
+#bd-pub-button:hover{
+    background-color: var(--main-color);
+    /**
+    color: #000;
+    /**/
+}
 /*-----SERVER BAR-----*/
 /* ADD/EXPLORE BUTTON ICONS */
 .circleIconButton-1VxDrg{
