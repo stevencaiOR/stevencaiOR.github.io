@@ -532,11 +532,13 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     position: relative;
 }
 /* Adjust position of role dot and username */
-.systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .container-x059i8:not(.channelNameChange-3n17Mf) .content-vSHmMD > .anchorUnderlineOnHover-2qPutX{
-    bottom: 0.4375rem;
+.systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .container-x059i8 .content-vSHmMD > .anchorUnderlineOnHover-2qPutX > span > span{
+    height: 1.3rem;
+    width: 1.3rem;
 }
 .systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .anchorUnderlineOnHover-2qPutX .svg-1OUcya.roleDotLeft-1EL7tW{
-    top: 0.625rem;
+    position: absolute;
+    top: 0.375rem;
 }
 /* LARGER PROFILE PIC IN CHAT BOX */
 .message-2CShn3.cozy-VmLDNB .contents-2MsGLg img.avatar-2e8lTP,
