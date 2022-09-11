@@ -509,6 +509,18 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     width: 5rem !important;
     /*smaller stickers*/
 }
+/* CHANNEL NAME */
+.container-1yy5xN .heading-xxl-medium-1hl0GL {
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+.container-1yy5xN .heading-xxl-medium-1hl0GL p:last-child{
+    overflow: hidden;
+    max-width: 750px;
+
+    text-overflow: ellipsis;
+    margin: auto;
+}
 /* JOIN BUTTON */
 /*ex. the join button when receive server invite*/
 [data-list-id="chat-messages"] button[class*="lookFilled"][class*="colorGreen"]{
