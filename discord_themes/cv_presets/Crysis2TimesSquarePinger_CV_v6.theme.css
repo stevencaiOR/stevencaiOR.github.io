@@ -228,5 +228,5 @@ div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv butt
 
 /*Channel heading in chat content*/
 .container-1yy5xN .heading-xxl-medium-1hl0GL{
-  color: var(--main-color);
+  text-shadow: 0 0 20px var(--main-color);
 }
