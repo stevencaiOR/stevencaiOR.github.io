@@ -225,3 +225,8 @@ div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv butt
   right: 3.8vw;
   /*aligns position w/ search bar*/
 }
+
+/*Channel heading in chat content*/
+.container-1yy5xN .heading-xxl-medium-1hl0GL{
+  color: var(--main-color);
+}
