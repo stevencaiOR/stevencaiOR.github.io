@@ -44,22 +44,26 @@
     /*markup text when message box selected*/
 }
 /* BUTTONS */
-button[aria-label="Open GIF picker"] {
+.channelTextArea-1VQBuV .button-f2h6uQ:not([aria-label="Send Message"]) .contents-3ca1mk > div{
     display: none;
-    /*removes GIF button*/
 }
-.channelTextArea-1FufC0 .sprite-2lxwfc{
-    background-position: -44px -22px !important;
-    /*default emoji is custom emoji*/
-    filter: grayscale(0) !important;
-    /*adds color to the emoji picker but only in the message box*/
+.channelTextArea-1VQBuV .button-f2h6uQ .contents-3ca1mk:after{
+    line-height: 1.375rem;
+    color: var(--main-color);
 }
-button[aria-label^="Upload a file"] path,
-button[aria-label="Open sticker picker"] path{
+.channelTextArea-1VQBuV .button-f2h6uQ[aria-label="Open GIF picker"] .contents-3ca1mk:after{
+    content: "[GIF]";
+}
+.channelTextArea-1VQBuV .button-f2h6uQ[aria-label="Open sticker picker"] .contents-3ca1mk:after{
+    content: "[Sticker]";
+}
+.channelTextArea-1VQBuV .button-f2h6uQ[aria-label="Select emoji"] .contents-3ca1mk:after{
+    content: "[Emoji]";
+}
+button[aria-label^="Upload a file"] path{
     fill: rgb(var(--main-color-numerical),0.7);
 }
-.scrollableContainer-15eg7h:focus-within button[aria-label^="Upload a file"] path,
-.scrollableContainer-15eg7h:focus-within button[aria-label="Open sticker picker"] path{
+.scrollableContainer-15eg7h:focus-within button[aria-label^="Upload a file"] path{
     fill: var(--main-color);
 }
 button[aria-label^="Upload a file"] path[class*="attachButtonPlay-"]{
