@@ -514,12 +514,18 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     line-height: 50px;
     margin-bottom: 40px;
 }
-.container-1yy5xN .heading-xxl-medium-1hl0GL p:last-child{
-    overflow: hidden;
+.container-1yy5xN .heading-xxl-medium-1hl0GL{
     max-width: 750px;
-
+    overflow: hidden;
     text-overflow: ellipsis;
-    margin: auto;
+}
+.container-1yy5xN .heading-xxl-medium-1hl0GL p:last-child{
+    overflow: inherit;
+    max-width: inherit;
+    text-overflow: inherit;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 /* JOIN BUTTON */
 /*ex. the join button when receive server invite*/
