@@ -766,7 +766,7 @@ ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][clas
     display:none;
     /*removes left bar*/
 }
-.wrapper-3kah-n.selected-1Drb7Z:not(:hover) .childWrapper-1j_1ub{
+.wrapper-3kah-n.selected-1Drb7Z[data-list-item-id="guildsnav___home"]:not(:hover) .childWrapper-1j_1ub{
     background: transparent;
     /*Removes any existing background color on select*/
 }
