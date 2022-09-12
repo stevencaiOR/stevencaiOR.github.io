@@ -164,6 +164,8 @@
 .repliedTextPreview-1bvxun{
   width: calc(70% - 16px - 0.5rem);
   /*adjusted width of replied context message*/
+  position: relative;
+  top: 0.5rem;
 }
 .wrapper-1ZcZW-.mention.interactive{
   max-width: 100%;
