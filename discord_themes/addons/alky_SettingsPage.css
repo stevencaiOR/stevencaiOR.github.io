@@ -602,6 +602,15 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
 #voice-\&-video-tab [style*="background: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"]{
     background: rgb(160,160,160) !important;
 }
+/* Video Settings */
+.cameraWrapper-3a7Ngv{
+    background: rgb(var(--main-color-numerical),0.2);
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+}
+.cameraWrapper-3a7Ngv .previewImage-2SFTiM{
+    background: url(https://freesvg.org/img/noun-project-476.png) center/contain no-repeat;
+}
 /* KEYBINDS */
 #keybinds-tab .image-20MDYu{
     display: none;
