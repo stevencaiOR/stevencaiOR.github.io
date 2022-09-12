@@ -616,6 +616,13 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     display: grid;
     grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
 }
+@media only screen and (max-width: 1500px) {
+    #language-tab [role="radiogroup"]{
+        display: grid;
+        grid-template-columns: calc(100%/2) calc(100%/2);
+    }
+    /*radiogroup widths on smaller windows*/
+}
 #language-tab .item-2idW98 {
     margin-right: 18px;
 }
