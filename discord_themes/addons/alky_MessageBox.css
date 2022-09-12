@@ -51,6 +51,9 @@
     line-height: 1.375rem;
     color: var(--main-color);
 }
+.channelTextArea-1VQBuV .button-f2h6uQ:hover .contents-3ca1mk:after{
+    color: var(--hover-color);
+}
 .channelTextArea-1VQBuV .button-f2h6uQ[aria-label="Open GIF picker"] .contents-3ca1mk:after{
     content: "[GIF]";
 }
