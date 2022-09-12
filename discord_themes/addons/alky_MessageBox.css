@@ -81,3 +81,7 @@ button[aria-label^="Upload a file"] path[class*="attachButtonPlay-"]{
 .channelTextArea-1VQBuV button[aria-label="Send Message"] .button-2fCJ0o .buttonChild-33lB5F.activeButtonChild-2hgLAO{
     color: var(--main-color);
 }
+.channelTextArea-1VQBuV .separator-3ng7S5:before{
+    border-color: var(--main-color);
+    /*separator color*/
+}
