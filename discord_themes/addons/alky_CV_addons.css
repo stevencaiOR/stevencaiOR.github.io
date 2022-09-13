@@ -1189,3 +1189,7 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     background-color: rgb(var(--main-color-numerical),0.25) !important;
     /*sets purple icon badge when too many servers to be correct color*/
 }
+.ownerIcon-255uKo.icon-1dGlZy{
+    top: -2.5px;
+    /*owner icon in member list*/
+}
