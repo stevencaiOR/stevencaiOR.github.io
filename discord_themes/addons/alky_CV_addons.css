@@ -1184,3 +1184,8 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     min-height: 40px;
     /*adjustment for removing discord art crap*/
 }
+
+.iconBadge-1D5-9X.baseShapeRound-3epLEv[style*="background-color: hsl(270, calc(var(--saturation-factor, 1) * 86.7%), 70.6%)"]{
+    background-color: rgb(var(--main-color-numerical),0.25) !important;
+    /*sets purple icon badge when too many servers to be correct color*/
+}
