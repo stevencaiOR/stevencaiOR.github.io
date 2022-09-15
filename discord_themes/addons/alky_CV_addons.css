@@ -1178,6 +1178,14 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .art-9T0Zyd.connectArt-W4JF0C{
     height: 0;
 }
+.artContainer--HGfkf.connectArtContainer-2azUUc~div button:first-child .contents-3ca1mk,
+.artContainer--HGfkf.reconnectArtContainer-PgMt-F~div button:first-child .contents-3ca1mk{
+    text-indent: -83px;
+}
+.artContainer--HGfkf.connectArtContainer-2azUUc~div button:first-child .contents-3ca1mk:after,
+.artContainer--HGfkf.reconnectArtContainer-PgMt-F~div button:first-child .contents-3ca1mk:after{
+    content: "Do not connect";
+}
 .upsellTooltipWrapper-1wqikQ.caretBottomCenter-4XccL3:after{
     border-top-color: var(--main-color);
 }
