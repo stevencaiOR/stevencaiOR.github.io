@@ -98,7 +98,9 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .selected-3B2w1z .icon-1kx1ir,
 .selected-3B2w1z:hover .icon-1kx1ir,
 /*create channel tag*/
-.tag-15zcD_
+.tag-15zcD_,
+/*add server button text*/
+.container-x8Y1ix .text-PdAsFQ
 {
   color: #000;
 }
