@@ -105,6 +105,11 @@ button[class*="lookFilled-"][class*="colorGreen-"],
   color: #000;
 }
 
+/*add server button arrow*/
+.container-x8Y1ix .arrow-2yY1Tm{
+  filter: brightness(0) invert(0);
+}
+
 .emptyChannelIcon-1YdEz2{
   filter: invert(100);
   background-color: var(--main-color-inverted);
