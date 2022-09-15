@@ -100,7 +100,10 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 /*create channel tag*/
 .tag-15zcD_,
 /*add server button text*/
-.container-x8Y1ix .text-PdAsFQ
+.container-x8Y1ix .text-PdAsFQ,
+/*search results jump button*/
+.searchResultsWrap-5RVOkx .button-cfOvv-,
+.searchResultsWrap-5RVOkx .button-cfOvv-:hover
 {
   color: #000;
 }
