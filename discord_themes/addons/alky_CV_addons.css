@@ -297,6 +297,21 @@ div[class^="toolbar-"] div[class^="search-"] > div[class^="searchBar-"]:hover{
 .searchResultsWrap-5RVOkx .highlight{
     text-shadow: none;
     /*removes text shadow of highlighted text in search results*/
+    background-color: var(--main-color);
+    /*better bg color*/
+}
+.searchResultsWrap-5RVOkx .button-cfOvv-{
+    font-weight: 700;
+}
+.searchResultsWrap-5RVOkx .button-cfOvv-{
+    background-color: var(--main-color);
+}
+.searchResultsWrap-5RVOkx .button-cfOvv-:hover{
+    background-color: var(--hover-color);
+}
+.searchResultsWrap-5RVOkx .container-rZM65Y .buttonsContainer-Nmgy7x{
+    display: flex;
+    /*always show jump button*/
 }
 /*-----WINDOWS BUTTONS-----*/
 div[class^="winButton"] {
