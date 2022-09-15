@@ -96,7 +96,9 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .text-xs-normal-3SiVjE > span,
 /* Auto complete selected category icon */
 .selected-3B2w1z .icon-1kx1ir,
-.selected-3B2w1z:hover .icon-1kx1ir
+.selected-3B2w1z:hover .icon-1kx1ir,
+/*create channel tag*/
+.tag-15zcD_
 {
   color: #000;
 }
