@@ -106,8 +106,16 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 }
 
 /*add server button arrow*/
-.container-x8Y1ix .arrow-2yY1Tm{
+.container-x8Y1ix .arrow-2yY1Tm,
+/* "Don't have an invite?" button arrow*/
+.rowContainer-3t7486 .rowArrow-TIwwIc{
   filter: brightness(0) invert(0);
+}
+
+/* "Don't have an invite?" text */
+.rowContainer-3t7486 h3.defaultColor-HXu-5n,
+.rowContainer-3t7486 h3+div{
+    filter: invert(1);
 }
 
 .emptyChannelIcon-1YdEz2{
