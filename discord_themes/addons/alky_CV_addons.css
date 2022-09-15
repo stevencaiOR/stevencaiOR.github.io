@@ -1171,6 +1171,16 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     left: 0.25rem;
     bottom: calc(0.125rem - 1.5px);
 }
+/*-----CONNECT XBOX POPOUT-----*/
+.artContainer--HGfkf.reconnectArtContainer-PgMt-F,
+.art-9T0Zyd.reconnectArt-IKJMqx,
+.artContainer--HGfkf.connectArtContainer-2azUUc,
+.art-9T0Zyd.connectArt-W4JF0C{
+    height: 0;
+}
+.upsellTooltipWrapper-1wqikQ.caretBottomCenter-4XccL3:after{
+    border-top-color: var(--main-color);
+}
 
 /*edited Discord marketing shit to be less stupid*/
 .colorPremiumTier2-3R4qYN{
