@@ -1093,6 +1093,17 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .embedImage-2Ynqkh .imageError-dy476I{
     display: none;
 }
+/*-----CREATE SERVER MODAL-----*/
+.container-x8Y1ix img.icon-AynerZ{
+    display: none;
+}
+.container-x8Y1ix {
+    height: 64px;
+}
+.container-x8Y1ix .text-PdAsFQ {
+    position: relative;
+    left: 20px
+}
 /*-----JOINING SERVER MODAL-----*/
 .joiningAs-1Huczh{
     flex-direction: column;
