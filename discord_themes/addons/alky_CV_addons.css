@@ -514,6 +514,13 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     width: 5rem !important;
     /*smaller stickers*/
 }
+/* COMPACT MODE */
+.compact-2Nkcau .markup-eYLPri.messageContent-2t3eCI{
+    line-height: calc(var(--message-content-line-height) + 0.25rem);
+}
+.message-2CShn3.compact-2Nkcau:not(.systemMessage-1H1Z20) .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB){
+    bottom: calc(0.75*(var(--chat-box-username-height, 1.375rem) - 1.375rem));
+}
 /* CHANNEL NAME */
 .container-1yy5xN .heading-xxl-medium-1hl0GL {
     line-height: 50px;
