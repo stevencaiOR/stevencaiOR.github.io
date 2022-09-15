@@ -114,7 +114,10 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 
 /* "Don't have an invite?" text */
 .rowContainer-3t7486 h3.defaultColor-HXu-5n,
-.rowContainer-3t7486 h3+div{
+.rowContainer-3t7486 h3+div,
+/* Welcome to server option box text*/
+.optionContainer-yOpaLq .channelDescription-3n9Tua,
+.optionContainer-yOpaLq .text-xs-normal-3SiVjE{
     filter: invert(1);
 }
 
