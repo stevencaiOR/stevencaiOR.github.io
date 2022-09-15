@@ -1127,6 +1127,10 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     text-overflow: ellipsis;
     /*in case username too long*/
 }
+.optionContainer-yOpaLq > :first-child:not(div){
+    display: none;
+    /*removes icon in welcome modal*/
+}
 /*-----IMPROVED IMAGE MODALS-----*/
 .layer-1Ixpg3 .imageWrapper-oMkQl4.image-36HiZc {
     border: 4px solid var(--main-color);
