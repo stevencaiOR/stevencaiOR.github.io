@@ -679,15 +679,52 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     content:"Unique Challenges";
 }
 /* SOCIAL LINKS */
-#app-mount div[class^="socialLinks-"] > a[title="Twitter"] path{
+.socialLinks-3ywLUf{
+    display: flex;
+    flex-direction: column;
+}
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX{
+    padding-left: 0;
+}
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX svg{
+    width: 16px;
+    height: 16px;
+}
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Twitter"] path{
     fill: var(--twitter-color);
 }
-#app-mount div[class^="socialLinks-"] > a[title="Facebook"] path{
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Facebook"] path{
     fill:var(--facebook-color); 
 }
-#app-mount div[class^="socialLinks-"] > a[title="Instagram"] svg  {
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Facebook"]:hover path,
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Twitter"]:hover path{
+    filter: brightness(1.375);
+}
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Instagram"] svg  {
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     border-radius: 4.5px;
+}
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX:after{
+    color: var(--main-color);
+    margin-left: 5px;
+}
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX:hover{
+    text-decoration-color: var(--hover-color);
+}
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX:hover:after{
+    color: var(--hover-color);
+}
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Twitter"]:after{
+    content: "[ Twitter ]";
+}
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Facebook"]:after{
+    content: "[ Facebook ]";
+}
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Instagram"]:after{
+    content: "[ Instagram ]";
+}
+.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="BetterDiscord"]:after{
+    content: "[ BetterDiscord ]";
 }
 /* SERVER SETTINGS TAB ADJUSTMENTS*/
 .contentRegion-3HkfJJ{
