@@ -20,6 +20,9 @@
   --custom-mark: "CRYNET SYSTEMS";
   --custom-mark-2: var(--custom-mark);
 
+  /* ALKY CV ADDONS */
+  --profile-popout-picture-size: max(calc(var(--profile-popout-width)*0.4),80px);
+
   /* ALKY SETTINGS PAGE */
   --nitro-bg-image: url(https://cdn.uc.assets.prezly.com/915ca5cf-962e-41b0-9d11-76ba4da91ab7/-/resize/1108x/-/quality/best/-/format/auto/);
   --nitro-bg-pos: center;
