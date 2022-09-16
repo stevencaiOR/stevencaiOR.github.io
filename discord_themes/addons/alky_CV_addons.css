@@ -1303,7 +1303,13 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     /*die wumpus*/
 }
 /*stupid discord art removal*/
-.art-3-BV8m{
+.art-3-BV8m,
+/*Screen Share modal*/
+.art-1TvEXv,
+/*stupid xbox marketing crap*/
+.art-1HoEkU,
+/*NEW! Text chat in voice! art thingy*/
+.fullWidthImage-pvnyWO{
     display: none;
 }
 .artContainer-1yaXct.artContainerBoxShadow-2PjEg_{
@@ -1319,3 +1325,9 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     top: -2.5px;
     /*owner icon in member list*/
 }
+
+/*improved bg of thing in screen share modal*/
+.gradientBackground-MytxDL{
+    background-image: none;
+    background-color: rgb(var(--main-color-numerical),0.7);
+} 
