@@ -105,7 +105,12 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .searchResultsWrap-5RVOkx .button-cfOvv-,
 .searchResultsWrap-5RVOkx .button-cfOvv-:hover,
 /*some button thing*/
-.theme-dark .selectorButton-3fWZ0_.selectorButtonSelected-3cQUnj:not(.selectorButtonPremiumRequired-IZXhgV) .selectorTextSelected-2zup8I
+.theme-dark .selectorButton-3fWZ0_.selectorButtonSelected-3cQUnj:not(.selectorButtonPremiumRequired-IZXhgV) .selectorTextSelected-2zup8I,
+/*inbox drop down*/
+.theme-dark .header-1w9Q93 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy,
+.jumpButton-1ITAeq .text-2ifC_x,
+.jumpButton-1ITAeq:hover .text-2ifC_x,
+.tutorialIcon-25VF3Q
 {
   color: #000;
 }
