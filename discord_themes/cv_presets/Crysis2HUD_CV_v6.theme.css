@@ -31,7 +31,7 @@
   /* ACCENT COLORS */
   --main-color-numerical: 143, 232, 255;
   --main-color: rgb(var(--main-color-numerical));
-  --hover-color-numerical: 105, 170, 186;
+  --hover-color-numerical: 112, 177, 194;
   --hover-color: rgb(var(--hover-color-numerical));
   --success-color-numerical: 67, 181, 129; /*default: 67, 181, 129*/
   --success-color: rgb(var(--success-color-numerical));
