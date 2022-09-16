@@ -103,7 +103,9 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .container-x8Y1ix .text-PdAsFQ,
 /*search results jump button*/
 .searchResultsWrap-5RVOkx .button-cfOvv-,
-.searchResultsWrap-5RVOkx .button-cfOvv-:hover
+.searchResultsWrap-5RVOkx .button-cfOvv-:hover,
+/*some button thing*/
+.theme-dark .selectorButton-3fWZ0_.selectorButtonSelected-3cQUnj:not(.selectorButtonPremiumRequired-IZXhgV) .selectorTextSelected-2zup8I
 {
   color: #000;
 }
