@@ -185,3 +185,9 @@ button[class*="lookFilled-"][class*="colorGreen-"],
   color: #000;
   /*text color black when hover*/
 }
+/*-----BD TOASTS-----*/
+.bd-toast,
+.bd-toast.toast-info,
+.bd-toast.toast-success{
+    color: #000;
+}

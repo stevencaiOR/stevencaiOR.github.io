@@ -1331,3 +1331,10 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     background-image: none;
     background-color: rgb(var(--main-color-numerical),0.7);
 } 
+/*voice connection popout*/
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx{
+    background: #000;
+}
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover{
+    background-color: rgba(0,0,0,.95);
+}
