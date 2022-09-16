@@ -707,6 +707,8 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
 .socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX:after{
     color: var(--main-color);
     margin-left: 5px;
+    vertical-align: top;
+    line-height: 18px;
 }
 .socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX:hover{
     text-decoration-color: var(--hover-color);
