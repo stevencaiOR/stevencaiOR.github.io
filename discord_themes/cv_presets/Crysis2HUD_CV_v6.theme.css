@@ -333,3 +333,11 @@ div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv butt
 #uid_33--1 > [class^="queryText-"] strong{
   font-weight: 500;
 }
+/*-----LANGUAGE TAB-----*/
+@media only screen and (max-width: 1660px) {
+  #language-tab [role="radiogroup"]{
+      display: grid;
+      grid-template-columns: calc(100%/2) calc(100%/2);
+  }
+  /*radiogroup widths on smaller windows*/
+}
