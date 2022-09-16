@@ -726,6 +726,10 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
 .socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="BetterDiscord"]:after{
     content: "[ BetterDiscord ]";
 }
+#app-mount .info-3pQQBb .line-18uChy:first-child::before{
+    content: var(--custom-mark-2, " ");
+    display: block;
+}
 /* SERVER SETTINGS TAB ADJUSTMENTS*/
 .contentRegion-3HkfJJ{
     justify-content: space-between;
