@@ -1338,3 +1338,9 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover{
     background-color: rgba(0,0,0,.95);
 }
+
+.gameVerifiedIcon-1YMUdQ svg{
+    background: var(--main-color);
+    border-radius: 50%;
+    /*verified game icon*/
+}
