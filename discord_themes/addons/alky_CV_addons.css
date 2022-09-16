@@ -1208,6 +1208,55 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     left: 0.25rem;
     bottom: calc(0.125rem - 1.5px);
 }
+/*-----CALL RATING MODAL-----*/
+.horizontal-112GEH>.flex-2S1XBF.ratingsSelector-1RciCi:last-child{
+    margin-left: 0;
+}
+.ratingsSelector-1RciCi{
+    width: 80%;
+}
+[aria-label="bad"],
+[aria-label="neutral"],
+[aria-label="good"]{
+    width: calc(100%/3.5);
+    height: 100%;
+}
+[aria-label="bad"] .emojiSad-3LNJSS,
+[aria-label="neutral"] .emojiNeutral-2bmgFi,
+[aria-label="good"] .emojiHappy-1XST7V {
+    background-image: none;
+    width: 100%;
+    text-align: center;
+    filter: none;
+    opacity: 1;
+    color: var(--main-color);
+    padding-top: 4px;
+    line-height: 1.5;
+    border: 2px solid var(--main-color);
+    height: 100%;
+    border-radius: 8px;
+}
+[aria-label="bad"] .emojiSad-3LNJSS:hover,
+[aria-label="neutral"] .emojiNeutral-2bmgFi:hover,
+[aria-label="good"] .emojiHappy-1XST7V:hover{
+    transform: none;
+}
+[aria-label="bad"] .emojiSad-3LNJSS:hover:after,
+[aria-label="neutral"] .emojiNeutral-2bmgFi:hover:after,
+[aria-label="good"] .emojiHappy-1XST7V:hover:after{
+    color: var(--hover-color);
+}
+[aria-label="bad"] .emojiSad-3LNJSS:after{
+    content: "Below Average";
+}
+[aria-label="neutral"] .emojiNeutral-2bmgFi:after{
+    content: "Average";
+    position: relative;
+    top: 10px;
+}
+[aria-label="good"] .emojiHappy-1XST7V:after{
+    content: "Above Average";
+}
 /*-----CONNECT XBOX POPOUT-----*/
 .artContainer--HGfkf.reconnectArtContainer-PgMt-F,
 .art-9T0Zyd.reconnectArt-IKJMqx,
