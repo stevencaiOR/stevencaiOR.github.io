@@ -110,7 +110,9 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .theme-dark .header-1w9Q93 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy,
 .jumpButton-1ITAeq .text-2ifC_x,
 .jumpButton-1ITAeq:hover .text-2ifC_x,
-.tutorialIcon-25VF3Q
+.tutorialIcon-25VF3Q,
+/*problem info option*/
+.option-1O-Hwt
 {
   color: #000;
 }
