@@ -110,6 +110,11 @@ button[class*="lookFilled-"][class*="colorGreen-"],
   color: #000;
 }
 
+/*verified game icon*/
+.gameVerifiedIcon-1YMUdQ .childContainer-U_a6Yh>svg>path{
+  fill: #000;
+}
+
 /*add server button arrow*/
 .container-x8Y1ix .arrow-2yY1Tm,
 /* "Don't have an invite?" button arrow*/
