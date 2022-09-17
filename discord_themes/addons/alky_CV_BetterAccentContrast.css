@@ -149,6 +149,10 @@ button[class*="lookFilled-"][class*="colorGreen-"],
   /*hashtag at top of chat box in server channel*/
 }
 
+.unicodeShortcut-3N8oDe svg{
+  color: rgba(0,0,0,.9);
+}
+
 /* More Auto Complete Box (on hover & select) */
 .autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .text-xs-normal-3SiVjE,
 .autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .text-md-normal-304U3g,
