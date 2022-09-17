@@ -661,13 +661,28 @@ section[aria-label="User area" i] .wrapper-1VLyxH{
     bottom: calc(0.125*(var(--chat-box-username-height, 1.375rem) - 1.375rem));
     /*reposition messages based on username height*/
 }
-.newMemberBadge-3PdStX{
-    top: calc(0.5*(var(--chat-box-username-height, 1.375rem) - 1.375rem));
-    /*reposition new member badge based on username height*/
-}
 .systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .anchorUnderlineOnHover-2qPutX span[aria-label][aria-hidden]{
     display: inline-block;
     /*adjust display of role dot in system messages*/
+}
+/* NEW MEMBER BADGE*/
+.newMemberBadge-3PdStX{
+    line-height: var(--chat-box-username-height, 1.375rem);
+    height: var(--chat-box-username-height, 1.375rem);
+    /*adjust new member badge based on username height*/
+    width: fit-content;
+}
+.newMemberBadge-3PdStX svg{
+    display: none;
+}
+.newMemberBadge-3PdStX:before{
+    content: "New";
+    text-shadow:0 0 2px currentcolor;
+    border:1px solid;
+    border-radius:6px;
+    margin-left:8px;    
+    background-color:rgba(255,255,255,.07);
+    padding:0 5px;
 }
 /*-----ABOVE MESSAGE BOX-----*/
 /* AUTOCOMPLETE BOX */
@@ -1189,24 +1204,6 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 }
 .focusLock-2tveLW[aria-label="Wanna join more servers?"] .text-md-normal-304U3g:before{
     content: "You have reached the 100 server limit.";
-}
-/*-----NEW MEMBER BADGE-----*/
-.newMemberBadge-3PdStX svg{
-    display: none;
-}
-.newMemberBadge-3PdStX{
-    width: calc(3rem);
-    background-color: rgb(0,0,0,0.5);
-    box-shadow: 0 0 2.5px var(--main-color);
-    border: 1px solid var(--main-color);
-    border-radius: 6px;
-}
-.newMemberBadge-3PdStX::before{
-    content: "New";
-    color: var(--main-color);
-    position: relative;
-    left: 0.25rem;
-    bottom: calc(0.125rem - 1.5px);
 }
 /*-----CALL RATING MODAL-----*/
 .horizontal-112GEH>.flex-2S1XBF.ratingsSelector-1RciCi:last-child{
