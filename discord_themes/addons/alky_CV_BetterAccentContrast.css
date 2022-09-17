@@ -114,7 +114,10 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 /*problem info option*/
 .option-1O-Hwt,
 /*thread icon wrapper*/
-.iconWrapper-3plkqh .icon-382itv
+.iconWrapper-3plkqh .icon-382itv,
+/*flower star container*/
+.flowerStarContainer-1QeD-L .childContainer-U_a6Yh>svg,
+.container-1NXEtd .container-1-ERn5 .flowerStarContainer-1QeD-L .childContainer-U_a6Yh>svg
 {
   color: #000;
 }
