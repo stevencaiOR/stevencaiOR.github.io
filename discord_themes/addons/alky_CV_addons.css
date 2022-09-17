@@ -1337,6 +1337,11 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     background-color: rgba(0,0,0,.95);
 }
 
+/*thread dropdown body stars*/
+.stars-3UP9-A{
+    display: none;
+}
+
 /*flower things*/
 .gameVerifiedIcon-1YMUdQ svg{
     background: var(--main-color);
