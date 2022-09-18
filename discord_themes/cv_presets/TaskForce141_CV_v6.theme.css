@@ -173,6 +173,13 @@
   position: relative;
   top: 0.5rem;
 }
+.repliedMessage-3Z6XBG .repliedTextPreview-1bvxun {
+  overflow: visible;
+}
+.repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextPlaceholder-1Njd47{
+  bottom: 0.5rem;
+  position: relative;
+}
 .wrapper-1ZcZW-.mention.interactive{
   max-width: 100%;
 }
