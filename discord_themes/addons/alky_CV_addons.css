@@ -118,6 +118,32 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
     top: 16px !important;
     /*corrects avatar positioning*/
 }
+/* ROLES */
+.roles-3zC7MX .roleRemoveIcon-387wKV,
+.rolesList-3uZoaa .roleRemoveIcon-387wKV,
+.roleWrapper-2IhvNd .roleRemoveIcon-387wKV{
+    left: calc(100% - 14px);
+}
+.roles-3zC7MX div[style].role-2TIOKu:not(:hover),
+.roles-3zC7MX div[style].role-2TIOKu:hover,
+.rolesList-3uZoaa div[style].role-2TIOKu:not(:hover),
+.rolesList-3uZoaa div[style].role-2TIOKu:hover,
+.roleWrapper-2IhvNd div[style].role-2TIOKu:not(:hover),
+.roleWrapper-2IhvNd div[style].role-2TIOKu:hover{
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 4px;
+}
+.roles-3zC7MX div[style].role-2TIOKu:not(:hover),
+.rolesList-3uZoaa div[style].role-2TIOKu:not(:hover),
+.roleWrapper-2IhvNd div[style].role-2TIOKu:not(:hover){
+    border-color: rgb(255,255,255,0.25) !important;
+}
+.roles-3zC7MX div[style].role-2TIOKu:hover,
+.rolesList-3uZoaa div[style].role-2TIOKu:hover,
+.roleWrapper-2IhvNd div[style].role-2TIOKu:hover{
+    border-color: rgb(255,255,255,0.45) !important;
+}
 /* LONG USERNAME/NICKNAME SUPPORT */
 /* Popout w/ nickname*/
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT h3.nickname-2rimyL,
