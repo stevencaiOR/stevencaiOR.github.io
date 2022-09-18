@@ -61,6 +61,9 @@
 .avatarHintInnerText-9TQf9n {
     font-size: 80%;
 }
+.headerTop-3GPUSF{
+    padding-top: 80px;
+}
 /*user popout applies to the popout when clicking on user area*/
 svg.avatarHint-2g3Mcd[width="80"] {
     transition-duration: 200ms;
