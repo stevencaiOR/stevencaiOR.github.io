@@ -130,7 +130,7 @@ div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremiu
 .rolesList-3uZoaa div[style].role-2TIOKu:hover,
 .roleWrapper-2IhvNd div[style].role-2TIOKu:not(:hover),
 .roleWrapper-2IhvNd div[style].role-2TIOKu:hover{
-    border-width: 2px;
+    border-width: 2.5px;
     border-style: solid;
     padding: 10px 4px;
 }
