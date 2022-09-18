@@ -81,7 +81,7 @@
   --facebook-color: rgb(var(--facebook-color-numerical));
   
   /* GENERAL */
-  --main-font: Orbitron, Titillium Web, system-ui; /*Alternate font: Titillium Web*/
+  --main-font: Orbitron, Titillium Web; /*Alternate font: Titillium Web*/
   --font-primary: var(--main-font);
   --code-font: Consolas, monospace;
   --text-muted-numerical: var(--main-color-numerical);
