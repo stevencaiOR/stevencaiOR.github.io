@@ -5,7 +5,7 @@
 :root{
 
     /* Redefine any of these variables in :root{} if you don't like them */
-    --profile-popout-width: 19vw;
+    --profile-popout-width: 14.5vw;
     --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6);                               /*default: 80px*/
     --chat-box-username-height: 2.5rem;                                                                 /*default: 1.375rem*/
     --chat-box-avatar-change: min(calc(var(--chat-box-username-height, 1.375rem) - 0.625rem),1.25rem);  /*default: 0*/
