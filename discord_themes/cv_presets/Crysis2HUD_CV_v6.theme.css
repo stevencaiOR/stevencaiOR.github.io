@@ -20,6 +20,10 @@
   --custom-mark: "CRYNET SYSTEMS";
   --custom-mark-2: var(--custom-mark);
 
+  /* RADIAL GLOW */
+  --rs-medium-spacing: 2px;
+  --rs-medium-width: 1.75px; 
+
   /* ALKY CV ADDONS */
   --profile-popout-picture-size: max(calc(var(--profile-popout-width)*0.4),80px);
 
