@@ -120,7 +120,13 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .flowerStarContainer-1QeD-L .childContainer-U_a6Yh>svg,
 .container-1NXEtd .container-1-ERn5 .flowerStarContainer-1QeD-L .childContainer-U_a6Yh>svg,
 /*thread dropdown body icon*/
-.icon-mJhEWn
+.icon-mJhEWn,
+.iconBadge-32fMme.participating-2Z81oO .icon-2Ug6UV,
+/*popout call text badge*/
+.textBadge-1fdDPJ .qualityIndicatorFullQuality-3Onyt5,
+.textBadge-1fdDPJ .premiumStreamIcon-1ei2nF,
+/*context menu checkbox hover*/
+.menu-1QACrS .item-1OdjEX.focused-3qFvc8 .checkbox-hADx5o
 {
   color: #000;
 }
