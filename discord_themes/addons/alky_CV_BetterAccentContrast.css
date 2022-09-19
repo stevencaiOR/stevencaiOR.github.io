@@ -142,7 +142,9 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .rowContainer-3t7486 h3+div,
 /* Welcome to server option box text*/
 .optionContainer-yOpaLq .channelDescription-3n9Tua,
-.optionContainer-yOpaLq .text-xs-normal-3SiVjE{
+.optionContainer-yOpaLq .text-xs-normal-3SiVjE,
+/*send wave sticker text*/
+.compactButton-3hG-bs .defaultColor-24IHKz{
     filter: invert(1);
 }
 
