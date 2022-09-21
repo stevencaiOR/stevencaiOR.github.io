@@ -57,6 +57,36 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="do not disturb" i
 section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
     box-shadow: 0 0 calc(var(--glow-intensity, 0) * 12px * calc(1 + var(--avatar-change)/32)) var(--rs-invisible-color, #808080);
 }
+/*wrapper with 120px is for user modal*/
+.wrapper-1VLyxH[aria-label*="Do Not disturb" i][style*="120px"],
+.wrapper-1VLyxH[aria-label*="Vil ikke forstyrres" i][style*="120px"],
+.wrapper-1VLyxH[aria-label*="Bitte nicht stören" i][style*="120px"],
+.wrapper-1VLyxH[aria-label*="No molestar" i][style*="120px"],
+.wrapper-1VLyxH[aria-label*="Ne pas déranger" i][style*="120px"],
+.wrapper-1VLyxH[aria-label*="Ne uznemiravaj" i][style*="120px"]{
+    box-shadow: 0 0 calc(var(--glow-intensity) * 18px) var(--rs-dnd-color);
+}
+.wrapper-1VLyxH[aria-label*=Offline i][style*="120px"],
+.wrapper-1VLyxH[aria-label*=Desconectado i][style*="120px"],
+.wrapper-1VLyxH[aria-label*="Hors ligne" i][style*="120px"],
+.wrapper-1VLyxH[aria-label*="Izvan mreže" i][style*="120px"]{
+    box-shadow: 0 0 calc(var(--glow-intensity) * 18px) var(--rs-offline-color);
+}
+.wrapper-1VLyxH[aria-label*=Idle i][style*="120px"],
+.wrapper-1VLyxH[aria-label*=Inaktiv i][style*="120px"],
+.wrapper-1VLyxH[aria-label*=Abwesend i][style*="120px"],
+.wrapper-1VLyxH[aria-label*=Ausente i][style*="120px"],
+.wrapper-1VLyxH[aria-label*=Inactif i][style*="120px"],
+.wrapper-1VLyxH[aria-label*="U mirovanju" i][style*="120px"]{
+    box-shadow: 0 0 calc(var(--glow-intensity) * 18px) var(--rs-idle-color);
+}
+.wrapper-1VLyxH[aria-label*=online i][style*="120px"],
+.wrapper-1VLyxH[aria-label*=Conectado i][style*="120px"],
+.wrapper-1VLyxH[aria-label*="En línea con móvil" i][style*="120px"],
+.wrapper-1VLyxH[aria-label*="En ligne" i][style*="120px"],
+.wrapper-1VLyxH[aria-label*="Na mreži" i][style*="120px"]{
+    box-shadow: 0 0 calc(var(--glow-intensity) * 18px) var(--rs-online-color);
+}
 .avatar-2Vndt_ {
     background-color: var(--background-floating) !important;
 }
