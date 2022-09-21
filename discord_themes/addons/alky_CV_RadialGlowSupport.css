@@ -87,6 +87,10 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
 .wrapper-1VLyxH[aria-label*="Na mreži" i][style*="120px"]{
     box-shadow: 0 0 calc(var(--glow-intensity) * 18px) var(--rs-online-color);
 }
+.wrapper-1VLyxH[style*="120px"]{
+    margin:0;
+}
+
 .avatar-2Vndt_ {
     background-color: var(--background-floating) !important;
 }
