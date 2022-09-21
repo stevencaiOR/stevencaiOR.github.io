@@ -1382,6 +1382,9 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     border-radius: 50%;
     background-color: var(--main-color);
 }
+.flowerStar-2tNFCR[aria-label="verified" i]{
+    stroke: none;
+}
 
 /*failed friend req modal*/
 .focusLock-2tveLW[aria-label="Friend request failed"] .text-md-normal-304U3g{
@@ -1390,4 +1393,17 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .focusLock-2tveLW[aria-label="Friend request failed"] .text-md-normal-304U3g:before{
     content: "User not found. If spelling, capitalization, and discriminator is correct, it is probable that the user has blocked you or has prevented certain friend requests in settings.";
     color: var(--text-normal);
+}
+
+.shelfTopBackground-R55ED9[alt="characters playing a game"]{
+    display: none;
+}
+.activityItem-1Z9CTr:hover .activitySubtitleText-r0WHTk{
+    filter: invert(1);
+}
+.bar-2qGj24{
+    background: transparent;
+}
+.bar-2qGj24 > svg{
+    width: 0;
 }
