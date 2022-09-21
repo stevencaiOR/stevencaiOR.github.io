@@ -77,9 +77,10 @@ svg.avatarHint-2g3Mcd[width="80"] {
     /*shorter about-me section*/
 }
 /* AVATAR SIZE */
-.userPopoutInner-PA9zkU .wrapper-1VLyxH:not(.avatar-2OC07D),
-.userPopoutInner-PA9zkU .wrapper-1VLyxH:not(.avatar-2OC07D) foreignObject,
-.userPopoutInner-PA9zkU .wrapper-1VLyxH:not(.avatar-2OC07D) rect {
+.userPopoutInner-PA9zkU .avatarHint-2g3Mcd,
+.userPopoutInner-PA9zkU .wrapper-1VLyxH,
+.userPopoutInner-PA9zkU .wrapper-1VLyxH foreignObject,
+.userPopoutInner-PA9zkU .wrapper-1VLyxH rect {
     height: var(--profile-popout-picture-size) !important;
     width: var(--profile-popout-picture-size) !important;
 }
