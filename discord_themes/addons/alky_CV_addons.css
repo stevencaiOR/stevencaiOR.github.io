@@ -10,6 +10,9 @@
     --chat-box-username-height: 2.5rem;                                                                 /*default: 1.375rem*/
     --chat-box-avatar-change: min(calc(var(--chat-box-username-height, 1.375rem) - 0.625rem),1.25rem);  /*default: 0*/
 
+    --popout-avatar-margin-top: 10px;
+    --popout-avatar-margin-top-premium: 70px;
+
     --online-color: #43b581;
     --idle-color: #faa61a;
     --dnd-color: #982929;
@@ -74,12 +77,11 @@ svg.avatarHint-2g3Mcd[width="80"] {
     /*shorter about-me section*/
 }
 /* AVATAR SIZE */
-[class^="avatarHoverTarget"] > [class^="avatar"], /*.avatarHoverTarget-1zzfRL > .avatar-2Vndt_, .avatarHoverTarget-1zzfRL+svg.avatarHint-k7pYop */
-[class^="avatarHoverTarget"]+svg[class^="avatarHint-"]{
-    height: var(--profile-popout-picture-size, 80px) !important;
-    width: var(--profile-popout-picture-size, 80px) !important;
-    /*makes profile picture & hover filter a custom size*/
-    /*1st selector is profile picture, 2nd selector is opacity filter*/
+.userPopoutInner-PA9zkU .wrapper-1VLyxH:not(.avatar-2OC07D),
+.userPopoutInner-PA9zkU .wrapper-1VLyxH:not(.avatar-2OC07D) foreignObject,
+.userPopoutInner-PA9zkU .wrapper-1VLyxH:not(.avatar-2OC07D) rect {
+    height: var(--profile-popout-picture-size) !important;
+    width: var(--profile-popout-picture-size) !important;
 }
 /*old popout banner selectors*/
 .userPopout-2j1gM4 .popoutBannerPremium-3i5EEI,
@@ -88,19 +90,27 @@ svg.avatarHint-2g3Mcd[width="80"] {
 .userPopout-3fydSP .popoutNoBannerPremium-2TQa6P,
 .userPopout-3fydSP .popoutBannerPremium-2RvDNZ,
 .userPopout-3fydSP .popoutBanner-16rVDY{
-    height: calc(var(--profile-popout-picture-size, 80px) - 40px);
-    /*adjust banner based on avatar size*/
     -webkit-mask: none;
     /*remove banner gradient*/
 }
-.avatarPositionPremiumBanner-2nq2Fy,
-.avatarPositionPremiumNoBanner-nWzERs{
-    top: 16px;
-    /*adjust avatar position for nitro user popout*/
+.avatarPositionNormal-V4Mjtq{
+    top: var(--popout-avatar-margin-top);
 }
-.overlayBackground-arbZMT{
-    margin: calc(0.3*var(--profile-popout-picture-size)) 16px 16px;
-    /*adjust position of other elements based on avatar size*/
+.avatarPositionPremiumBanner-2nq2Fy{
+    top: var(--popout-avatar-margin-top-premium);
+}
+.overlayBackground-arbZMT {
+    margin: calc(var(--profile-popout-picture-size) - 50px) 16px 16px;
+}
+.userPopoutInner-PA9zkU .bannerSVGWrapper-qc0szY circle{
+    r: calc(0.5*var(--profile-popout-picture-size) + 2*(var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)) + 5px);
+    cx: calc(0.5*var(--profile-popout-picture-size) + 29px);
+}
+.userPopoutInner-PA9zkU:not(.userPopoutInnerWithBanner-wsoegj) .bannerSVGWrapper-qc0szY circle{
+    cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top) + 10px);
+}
+.userPopoutInner-PA9zkU.userPopoutInnerWithBanner-wsoegj .bannerSVGWrapper-qc0szY circle{
+    cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top-premium) + 10px);
 }
 #account{
     background: rgb(0,0,0,0.9);
@@ -113,10 +123,6 @@ svg.avatarHint-2g3Mcd[width="80"] {
 }
 #account-avatar > .popoutBanner-3cqRD9{
     height: 90px;
-}
-div[class^="userPopout"][style="width: 300px;"] div[class*="avatarPositionPremium"]{
-    top: 16px !important;
-    /*corrects avatar positioning*/
 }
 /* ROLES */
 .roles-3zC7MX .roleRemoveIcon-387wKV,
