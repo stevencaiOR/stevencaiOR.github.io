@@ -113,6 +113,9 @@ svg.avatarHint-2g3Mcd[width="80"] {
 .userPopoutInner-PA9zkU.userPopoutInnerWithBanner-wsoegj .bannerSVGWrapper-qc0szY circle{
     cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top-premium) + 10px);
 }
+.wrapper-1VLyxH[style*="80px"]{
+    margin: 0;
+}
 #account{
     background: rgb(0,0,0,0.9);
 }
