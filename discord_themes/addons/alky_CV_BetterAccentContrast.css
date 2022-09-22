@@ -126,7 +126,11 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .textBadge-1fdDPJ .qualityIndicatorFullQuality-3Onyt5,
 .textBadge-1fdDPJ .premiumStreamIcon-1ei2nF,
 /*context menu checkbox hover*/
-.menu-1QACrS .item-1OdjEX.focused-3qFvc8 .checkbox-hADx5o
+.menu-1QACrS .item-1OdjEX.focused-3qFvc8 .checkbox-hADx5o,
+/*SAVE 16%*/
+.planOptionDiscount-2nex9n,
+/*selected payment otion*/
+.option-2eIyOn[aria-selected=true]:not(.option-2eIyOn.multi-1HXDiv) .paymentSourceLabel-1z_EVr
 {
   color: #000;
 }
