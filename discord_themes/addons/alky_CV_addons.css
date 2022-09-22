@@ -1433,3 +1433,14 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .bar-2qGj24 > svg{
     width: 0;
 }
+
+/*buying nitro plan modal*/
+.tier2HeaderBackground-2XINxm{
+    background-image: none;
+    min-height: 0;
+    height: 20px;
+}
+.tier2HeaderBackground-2XINxm .panningAnimationInner-1Bmv00,
+.tier2HeaderBackground-2XINxm .sequencedAnimation-f_FX_M svg{
+    display: none;
+}
