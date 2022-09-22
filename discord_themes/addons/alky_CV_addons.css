@@ -94,7 +94,8 @@ svg.avatarHint-2g3Mcd[width="80"] {
     -webkit-mask: none;
     /*remove banner gradient*/
 }
-.avatarPositionNormal-V4Mjtq{
+.avatarPositionNormal-V4Mjtq,
+.avatarPositionPremiumNoBanner-nWzERs{
     top: var(--popout-avatar-margin-top);
 }
 .avatarPositionPremiumBanner-2nq2Fy{
