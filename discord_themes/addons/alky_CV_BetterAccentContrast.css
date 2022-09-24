@@ -157,7 +157,9 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .optionContainer-yOpaLq .channelDescription-3n9Tua,
 .optionContainer-yOpaLq .text-xs-normal-3SiVjE,
 /*send wave sticker text*/
-.compactButton-3hG-bs .defaultColor-24IHKz{
+.compactButton-3hG-bs .defaultColor-24IHKz,
+/*checked radio bar text*/
+[aria-checked=true].item-2idW98 .radioBar-3w9XY- [style*="color: var(--header-secondary)"]{
     filter: invert(1);
 }
 
