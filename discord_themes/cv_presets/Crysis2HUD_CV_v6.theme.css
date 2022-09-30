@@ -234,11 +234,6 @@
 }
 
 
-#account {
-  max-height: 47.7vh;
-  border: 3px solid rgb(var(--main-color-numerical),0.8);
-  border-radius: 15px;
-}
 /*I don't know what this does*/
 .wrapper-3kah-n .childWrapper-1j_1ub{
   border-radius: 50%;
