@@ -117,7 +117,8 @@ svg.avatarHint-2g3Mcd[width="80"] {
     margin: 0;
 }
 #account{
-    background: rgb(0,0,0,0.9);
+    margin-left: 0;
+    background: none;
 }
 #account-info > .headerTop-3GPUSF{
     padding-top: 44px;
