@@ -53,7 +53,6 @@
     padding: 0 5px;
 }
 /*-----USER POPOUT-----*/
-#account,
 #account .popoutBanner-3cqRD9,
 .userPopout-3fydSP{
     width: var(--profile-popout-width);
@@ -108,10 +107,10 @@ svg.avatarHint-2g3Mcd[width="80"] {
     r: calc(0.5*var(--profile-popout-picture-size) + 2*(var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)) + 5px);
     cx: calc(0.5*var(--profile-popout-picture-size) + 29px);
 }
-[class*="userPopoutInner-"]:not([class*="userPopoutInnerWithBanner-"]) [class*="bannerSVGWrapper-"] circle{
+[class*="userPopoutInner-"]:not([class*="userProfileInnerWithBanner-"]) [class*="bannerSVGWrapper-"] circle{
     cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top) + 10px);
 }
-[class*="userPopoutInner-"][class*="userPopoutInnerWithBanner-"] [class*="bannerSVGWrapper-"] circle{
+[class*="userPopoutInner-"][class*="userProfileInnerWithBanner-"] [class*="bannerSVGWrapper-"] circle{
     cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top-premium) + 10px);
 }
 .wrapper-1VLyxH[style*="80px"]{
