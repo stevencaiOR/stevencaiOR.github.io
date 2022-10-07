@@ -90,6 +90,21 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
 .accountProfileCard-lbN7n- .userInfo-regn9W{
     height: var(--adaptive-height);
 }
+#my-account-tab .avatar-3mTjvZ svg{
+    height: 100%;
+    width: 100%;
+}
+#my-account-tab .avatar-3mTjvZ svg foreignObject{
+    height: 92px;
+    width: 92px;
+}
+#app-mount #my-account-tab .wrapper-1VLyxH[style*="80px"] .avatarStack-3vfSFa{
+    bottom: 0;
+    right: 0;
+}
+#app-mount #my-account-tab .wrapper-1VLyxH[style*="80px"]{
+    border-width: 0;
+}
 #my-account-tab .avatar-3mTjvZ{
     height: var(--avatar-size, 80px) !important; /*default: 80px*/
     width: var(--avatar-size, 80px) !important;
