@@ -83,6 +83,9 @@ svg.avatarHint-2g3Mcd[width="80"] {
     height: var(--profile-popout-picture-size) !important;
     width: var(--profile-popout-picture-size) !important;
 }
+#app-mount .wrapper-1VLyxH[style*="80px"] foreignObject{
+    overflow: visible;
+}
 /*old popout banner selectors*/
 .userPopout-2j1gM4 .popoutBannerPremium-3i5EEI,
 .userPopout-2j1gM4 .popoutBanner-3cqRD9,
@@ -103,15 +106,33 @@ svg.avatarHint-2g3Mcd[width="80"] {
 [class*="userPopoutInner-"] [class*="overlayBackground-"]{
     margin: calc(var(--profile-popout-picture-size) - 50px) 16px 16px;
 }
+[class*="userPopoutInner-"]:not([class*="userProfileInnerWithBanner-"]) [class*="bannerSVGWrapper-"]{
+    --user-popout-banner-height: 80px;
+    min-height: var(--user-popout-banner-height) !important;
+    /*adjust height for non premium banner*/
+}
+[class*="userPopoutInner-"]:not([class*="userProfileInnerWithBanner-"]) [class*="bannerSVGWrapper-"] [class*="popoutBanner-"]{
+    height: var(--user-popout-banner-height);
+    bottom: calc(var(--user-popout-banner-height) - 60px);
+    position: relative;
+    /*position for non premium banner*/
+}
+#app-mount [class*="userPopout"] .wrapper-1VLyxH[style*="80px"] .avatarStack-3vfSFa{
+    background-color: #292b2f;
+    /*bg color for user popout avatar*/
+    position: relative;
+    bottom: var(--user-popout-avatar-border-width);
+    right: var(--user-popout-avatar-border-width);
+}
 [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
     r: calc(0.5*var(--profile-popout-picture-size) + 2*(var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)) + 5px);
-    cx: calc(0.5*var(--profile-popout-picture-size) + 29px);
-}
-[class*="userPopoutInner-"]:not([class*="userProfileInnerWithBanner-"]) [class*="bannerSVGWrapper-"] circle{
-    cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top) + 10px);
+    cx:calc(0.5*var(--profile-popout-picture-size) + 22px);
 }
 [class*="userPopoutInner-"][class*="userProfileInnerWithBanner-"] [class*="bannerSVGWrapper-"] circle{
-    cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top-premium) + 10px);
+    cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top-premium));
+}
+[class*="userPopoutInner-"]:not([class*="userProfileInnerWithBanner-"]) [class*="bannerSVGWrapper-"] circle{
+    cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top) - 10px);
 }
 .wrapper-1VLyxH[style*="80px"]{
     margin: 0;
@@ -570,6 +591,17 @@ section[aria-label="User area" i] .wrapper-1VLyxH [viewBox$="40"] rect{
     height: 5rem !important; 
     width: 5rem !important;
     /*smaller stickers*/
+}
+/*fix for reply context messages with mentions*/
+.repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextContent-2hOYMB{
+    height: 1.125rem;
+}
+.repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextContent-2hOYMB .mention{
+    line-height: 1rem;
+    max-width: 15ch;
+}
+.repliedTextContent-2hOYMB .wrapper-1ZcZW-.mention.interactive{
+    top: 0;
 }
 /* COMPACT MODE */
 .compact-2Nkcau .markup-eYLPri.messageContent-2t3eCI{
