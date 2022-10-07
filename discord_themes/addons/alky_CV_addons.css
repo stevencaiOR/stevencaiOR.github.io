@@ -613,6 +613,12 @@ section[aria-label="User area" i] .wrapper-1VLyxH [viewBox$="40"] rect{
 .systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .content-vSHmMD > .anchorUnderlineOnHover-2qPutX{
     position: relative;
 }
+.systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .anchorUnderlineOnHover-2qPutX span[aria-label][aria-hidden]{
+    margin-right: 1.5rem;
+}
+.systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .container-x059i8 .content-vSHmMD .anchorUnderlineOnHover-2qPutX{
+    height: var(--chat-box-username-height, 1.375rem)
+}
 /* Adjust position of role dot and username */
 .systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .container-x059i8 .content-vSHmMD > .anchorUnderlineOnHover-2qPutX > span > span{
     height: 1.3rem;
@@ -1449,4 +1455,18 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 /*random confetti stuff*/
 .cannonWrapper-2iHppQ {
     display: none;
+}
+
+
+.confirmImage-e5jLwI{
+    background-image: none !important;
+    height: 20px;
+}
+
+
+.guildWrapper-DAbXP2.confirmationAnimation-2CEvGX{
+    display: none;
+}
+.confirmationUpgradedBanner-1qqQLz rect{
+    stroke: var(--main-color);
 }
