@@ -83,9 +83,6 @@ svg.avatarHint-2g3Mcd[width="80"] {
     height: var(--profile-popout-picture-size) !important;
     width: var(--profile-popout-picture-size) !important;
 }
-#app-mount .wrapper-1VLyxH[style*="80px"] foreignObject{
-    overflow: visible;
-}
 /*old popout banner selectors*/
 .userPopout-2j1gM4 .popoutBannerPremium-3i5EEI,
 .userPopout-2j1gM4 .popoutBanner-3cqRD9,
