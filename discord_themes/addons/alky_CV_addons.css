@@ -83,16 +83,6 @@ svg.avatarHint-2g3Mcd[width="80"] {
     height: var(--profile-popout-picture-size) !important;
     width: var(--profile-popout-picture-size) !important;
 }
-/*old popout banner selectors*/
-.userPopout-2j1gM4 .popoutBannerPremium-3i5EEI,
-.userPopout-2j1gM4 .popoutBanner-3cqRD9,
-/*new popout banner selectors*/
-.userPopout-3fydSP .popoutNoBannerPremium-2TQa6P,
-.userPopout-3fydSP .popoutBannerPremium-2RvDNZ,
-.userPopout-3fydSP .popoutBanner-16rVDY{
-    -webkit-mask: none;
-    /*remove banner gradient*/
-}
 .avatarPositionNormal-V4Mjtq,
 .avatarPositionPremiumNoBanner-nWzERs{
     top: var(--popout-avatar-margin-top);
@@ -127,10 +117,10 @@ svg.avatarHint-2g3Mcd[width="80"] {
 }
 [class*="userPopoutInner-"][class*="userProfileInnerWithBanner-"] [class*="bannerSVGWrapper-"] circle{
     cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top-premium));
-}
+}/*
 [class*="userPopoutInner-"]:not([class*="userProfileInnerWithBanner-"]) [class*="bannerSVGWrapper-"] circle{
-    cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top) - 10px);
-}
+    cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top));
+}*/
 .wrapper-1VLyxH[style*="80px"]{
     margin: 0;
 }
