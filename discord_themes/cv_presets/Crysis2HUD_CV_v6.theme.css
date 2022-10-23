@@ -87,6 +87,7 @@
   /* GENERAL */
   --main-font: Orbitron, Titillium Web; /*Alternate font: Titillium Web*/
   --font-primary: var(--main-font);
+  --font-headline: var(--main-font);
   --code-font: Consolas, monospace;
   --text-muted-numerical: var(--main-color-numerical);
   --text-muted: rgb(var(--text-muted-numerical), 0.7);

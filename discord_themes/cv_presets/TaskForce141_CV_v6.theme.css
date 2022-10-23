@@ -73,6 +73,7 @@
 	/* GENERAL */
   --main-font: Jura, Orbitron;
   --font-primary: var(--main-font);
+  --font-headline: var(--main-font);
   --code-font: Consolas, monospace;
   --text-muted-numerical: var(--main-color-numerical);
   --text-muted: rgb(var(--text-muted-numerical));
