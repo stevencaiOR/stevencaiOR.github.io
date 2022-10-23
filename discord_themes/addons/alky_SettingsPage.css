@@ -162,6 +162,20 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
 .top-K_jibn .brand-3g5E0C.item-3XjbnG{
     padding: 10px;
 }
+/*User popout things*/
+#profile-customization-tab .imageUploaderInner-IIRaFr.avatarUploaderInner-1dBiHs{
+    height: var(--profile-popout-picture-size);
+    width: var(--profile-popout-picture-size);
+    left: 5px;
+}
+#profile-customization-tab .imageUploaderInner-IIRaFr.avatarUploaderInner-1dBiHs .imageUploaderIcon-2OHmFu{
+    position: absolute;
+    top: calc(100% - 20px);
+    left: calc(100% - 20px);
+}
+#profile-customization-tab .avatarUploader-CHGwK7 .imageUploader-1X7wVc+.status-b9jLr4{
+    display: none;
+}
 /* Removes Discord marketing crap */
 #profile-customization-tab .upsellOverlay-3sCO8V > img,
 #profile-customization-tab .upsellOverlay-3sCO8V > img+div,
