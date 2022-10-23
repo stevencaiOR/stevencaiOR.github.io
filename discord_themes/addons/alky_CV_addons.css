@@ -1475,6 +1475,8 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     display: none;
 }
 
+/*some wumpus thing*/
+.wumpusImageContainer-ZGD_8q,
 /*random confetti stuff*/
 .cannonWrapper-2iHppQ {
     display: none;
@@ -1496,4 +1498,7 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 
 .upsellOverlayContainer-3NMgTS{
     border-color: var(--main-color);
+}
+.sparkleStar-J6zUP3{
+    display: none;
 }
