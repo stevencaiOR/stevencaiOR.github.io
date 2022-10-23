@@ -135,7 +135,9 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .contentCircle-15IFyT .uploadIcon-2zMtOT,
 .checkmark-bW9BK8,
 
-.theme-dark .tierPill-l7DvKo
+.theme-dark .tierPill-l7DvKo,
+/*session icons in devices tab*/
+.sessionIcon-2fwSzb
 {
   color: #000;
 }
