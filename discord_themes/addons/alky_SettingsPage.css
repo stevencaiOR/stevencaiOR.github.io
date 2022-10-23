@@ -240,27 +240,14 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     content: "Do not scan direct messages."
 }
 /* NITRO */
-.premiumTab-39eQzY.item-3XjbnG.themed-2-lozF > div.premiumLabel-3HPvdB > svg{
-    display: none;
-    /*removes Nitro icon in user settings sidebar*/
-}
 /* Modified background image */
-#discord-nitro-tab .container-LUKdw8,
-#discord-nitro-tab .hero-1aNo0v{
-    max-width: 100%;
-}
-#discord-nitro-tab .hero-1aNo0v{
+#discord-nitro-tab [class*="settingsContainer"]{
+    width: 70%;
     background: var(--nitro-bg-image, url(https://i.gyazo.com/2476b02172cbe8abf983110120745998.png)) var(--nitro-bg-pos) no-repeat;
     background-size: cover;
 }
-#discord-nitro-tab svg.heroIcon-3kmupU{
-    color: transparent 
-}
-#discord-nitro-tab .hero-1aNo0v h3{
-    margin-top: 80px;
-}
 /* Discord Nitro header in first box */
-#discord-nitro-tab .heroHeader-1A0uOZ{
+#discord-nitro-tab [class*="settingsTextContainer-"] h2{
     font-size: 34px;
     background: rgb(0,0,0,0.9);
     padding: 10px;
@@ -270,113 +257,115 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     text-indent: -9999px;
     line-height: 0;
 }
-#discord-nitro-tab .heroHeader-1A0uOZ:after{
+#discord-nitro-tab [class*="settingsTextContainer-"] h2:after{
     text-indent: 0px;
     content: "Discord Nitro";
     display: block;
     line-height: 30px; /*initial won't always revert back to the original*/
 }
 /* Subscribe & Gift buttons in first box */
-.lookInverted-2mDUMi.colorBrand-I6CyqQ {
+#discord-nitro-tab [class*="settingsHero-"] [class*="buttonContainer-"] > button{
     background: rgb(0,0,0);
     border: 2px solid;
 }
-.lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
+#discord-nitro-tab [class*="settingsHero-"] [class*="buttonContainer-"] > button:hover{
     background: rgb(0,0,0,0.85);
 }
-/* Short description of Discord Nitro */
-#discord-nitro-tab .hero-1aNo0v h3+div,
-/* Images above benefits descriptions */
-#discord-nitro-tab .featureImageWrapper-2ndc8N,
-/* Discord Nitro image */
-#discord-nitro-tab .marketingRefreshTier1Graphic-1mUnMb,
-/* Utterly unnecesasry text that we have seen before*/
-#discord-nitro-tab .marketingRefreshTier2Cta-2dN2zP{
+.appMount-2yBXZl .lookOutlined-3yKVGo.colorWhite-1H92hK.buttonWhite-hd8TaT{
+    border-color: var(--main-color) !important;
+    color: var(--main-color) !important;
+}
+/*Nitro Basic vs Nitro*/
+#discord-nitro-tab [class*="premiumCards-"] > [class*="card-"]{
+    background: #000;
+    border: 2px solid var(--main-color);
+}
+#discord-nitro-tab [class*="premiumCards-"] > [class*="card-"] [class*="item-"] [class*="icon-"] path{
     display: none;
 }
-/* Listed Benefits */
-#discord-nitro-tab .content-374sTA div:nth-child(2) h3{
-    text-align: center;
+#discord-nitro-tab [class*="premiumCards-"] > [class*="card-"] [class*="item-"] [class*="icon-"] {
+    background-color: white;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
 }
-#discord-nitro-tab li{
+/* Nitro Perks */
+#discord-nitro-tab [class*="PerkCard-"]{
     justify-content: space-evenly;
     background: rgb(0,0,0,0.6);
+    border: 3px var(--main-color) solid;
 }
-#discord-nitro-tab li h3{
-    color: rgb(var(--main-color-numerical),0.8);
-    font-size: 24px;
+#discord-nitro-tab [class*="PerkCard-"] img{
+    display: none;
 }
-#discord-nitro-tab li .featureDescription-3U0QB3{
-    font-size: 16px;
+#discord-nitro-tab [class*="bigPerkCard-"] {
+    padding: 0;
 }
-#discord-nitro-tab .featureBadge-1FNGAH > h3,
-#discord-nitro-tab .featureUploadSize-3k1zif > h3,
-#discord-nitro-tab li:not(.stickers-2JFQr2, .featurePremiumGuild-2uV6-N) > .featureDescription-3U0QB3,
-#discord-nitro-tab p.marketingRefreshDescription-2_tCTt{
-    text-indent: -9999px;
-    line-height: 0;
+/*Nitro Perks Text Adjustments*/
+#discord-nitro-tab [class*="bigPerkCard-"] [class*="bigPerkCardHeading-"],
+#discord-nitro-tab [class*="perksTitle-"],
+#discord-nitro-tab img:not([class*="stickersImage-"])+div [class*="smallPerkCardDescription-"]{
+    text-indent: -99999px;
 }
-#discord-nitro-tab .featureBadge-1FNGAH > h3:after,
-#discord-nitro-tab .featureUploadSize-3k1zif > h3:after{
-    text-indent: 0px;
+#discord-nitro-tab [class*="bigPerkCard-"] [class*="bigPerkCardHeading-"]:after,
+#discord-nitro-tab [class*="perksTitle-"]:after,
+#discord-nitro-tab img:not([class*="stickersImage-"])+div [class*="smallPerkCardDescription-"]:after{
+    text-indent: 0;
     display: block;
-    line-height: 24px;
 }
-#discord-nitro-tab .featureDescription-3U0QB3:after{
-    text-indent: 0px;
-    display: block;
-    line-height: 18px;
+/*Nitro Perks*/
+#discord-nitro-tab [class*="perksTitle-"]:after{
+    content: "Nitro Perks";
 }
-/* Multiple Profiles */
-#discord-nitro-tab .featurePerGuildProfile-3nTrFP > .featureDescription-3U0QB3:after{
-    content: "Use different avatars, banners and bio sections in each server.";
+/*Larger File Uploads*/
+#discord-nitro-tab [class*="bigPerkCard-"]:nth-child(1) [class*="bigPerkCardHeading-"]:after{
+    content: "Larger file uploads";
 }
-/* More backgrounds */
-#discord-nitro-tab .featureVideoBackgrounds-3-ItPq > .featureDescription-3U0QB3:after{
+/*HD Streaming*/
+#discord-nitro-tab [class*="bigPerkCard-"]:nth-child(2) [class*="bigPerkCardHeading-"]:after{
+    content: "HD streaming";
+}
+/*Custom Emojis*/
+#discord-nitro-tab [class*="bigPerkCard-"]:nth-child(3) [class*="bigPerkCardHeading-"]:after{
+    content: "Custom emojis anywhere";
+}
+/*Server Boosts*/
+#discord-nitro-tab [class*="bigPerkCard-"]:nth-child(4) [class*="bigPerkCardHeading-"]:after{
+    content: "Server boosts";
+}
+/*Activities*/
+#discord-nitro-tab [class*="activitiesImages-"]+div [class*="smallPerkCardDescription-"]:after{
+    content: "Start a casual game or watch party with activities.";
+}
+/*Custom Profiles*/
+#discord-nitro-tab [class*="perGuildProfilesImage-"]+div [class*="smallPerkCardDescription-"]:after{
+    content: "Use a different avatar, banner and bio in each server.";
+}
+/*Video Backgrounds*/
+#discord-nitro-tab [class*="videoBackgroundImage-"]+div [class*="smallPerkCardDescription-"]:after{
     content: "Display custom backgrounds during video calls.";
 }
-/* Style Your Profile */
-#discord-nitro-tab .featureProfile-2h92hd > .featureDescription-3U0QB3:after{
-    content: "Use animated avatars, profile banners and a custom tag.";
+/*Nitro Badge*/
+#discord-nitro-tab [class*="badgeImage-"]+div [class*="smallPerkCardDescription-"]:after{
+    content: "Display Nitro badge on your user popout";
 }
-/* More Emoji Power */
-#discord-nitro-tab .featureEmoji-cnSD0D > .featureDescription-3U0QB3:after{
-    content: "Use custom or animated emojis globally.";
+/*Longer Messages*/
+#discord-nitro-tab [class*="longerMessagesImage-"]+div [class*="smallPerkCardDescription-"]:after{
+    content: "Increased character count for each message.";
 }
-/* Rep Your Status */
-#discord-nitro-tab .featureBadge-1FNGAH > h3:after{
-    content: "Custom Profile Badge";
+/* Nitro Plans */
+#discord-nitro-tab [class*="planComparisonTable-"] h2{
+    text-indent: -99999px;
+    /*gets rid of "most popular" as well*/
 }
-  #discord-nitro-tab .featureBadge-1FNGAH > .featureDescription-3U0QB3:after{
-    content: "Nitro badge will be visible on profile popouts and modals.";
-}
-/* Bigger Uploads */
-#discord-nitro-tab .featureUploadSize-3k1zif > h3:after{
-    content: "Larger Uploads";
-}
-#discord-nitro-tab .featureUploadSize-3k1zif > .featureDescription-3U0QB3:after{
-    content:"Increased upload size to 100 MB.";
-}
-/* Longer Messages */
-#discord-nitro-tab .featureLongerMessageContent-4BIM8v > .featureDescription-3U0QB3:after{
-    content:"The character limit for each message you send will increase significantly.";
-}
-/* HD Video */
-#discord-nitro-tab .featureGoLive-15Pf6l > .featureDescription-3U0QB3:after{
-    content: "Improved video resolutions when screen-sharing.";
-}
-/* More Servers */
-#discord-nitro-tab .featureMoreServers-3eY3SW > .featureDescription-3U0QB3:after{
-    content: "You can have access to upwards of 200 servers at any given moment.";
-}
-/* Nitro Classic */
-#discord-nitro-tab p.marketingRefreshDescription-2_tCTt:after{
-    text-indent: 0px;
+#discord-nitro-tab [class*="planComparisonTable-"] > h2:after{
+    text-indent: 0;
     display: block;
-    line-height: 20px;
+    content: "Nitro Plans";
 }
-#discord-nitro-tab p.marketingRefreshDescription-2_tCTt:after{
-    content: "Nitro Classic contains fewer perks than standard Nitro at a discounted price. You may choose between $4.99 per month or $49.99 per year."
+/*removes marketing crap over "better" nitro*/
+#discord-nitro-tab [class*="tier2ColumnOuter-"]{
+    display: none;
 }
 /* SERVER BOOST */
 /* Pink diamond with wings or hands */
