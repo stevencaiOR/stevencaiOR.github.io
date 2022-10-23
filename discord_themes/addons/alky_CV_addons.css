@@ -52,6 +52,10 @@
     font-size: 10px;
     padding: 0 5px;
 }
+[aria-label="Alcatraz"] [class*="banner"]{
+    background-image: url(https://cdn.uc.assets.prezly.com/915ca5cf-962e-41b0-9d11-76ba4da91ab7/-/resize/1108x/-/quality/best/-/format/auto/) ;
+    background-position: 55% 15%;
+}
 /*-----USER POPOUT-----*/
 #account .popoutBanner-3cqRD9,
 .userPopout-3fydSP{
