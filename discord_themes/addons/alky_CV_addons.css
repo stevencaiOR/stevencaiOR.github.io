@@ -1471,34 +1471,25 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     height: 20px;
 }
 .tier2HeaderBackground-2XINxm .panningAnimationInner-1Bmv00,
-.tier2HeaderBackground-2XINxm .sequencedAnimation-f_FX_M svg{
-    display: none;
-}
+.tier2HeaderBackground-2XINxm .sequencedAnimation-f_FX_M svg,
 
+.guildWrapper-DAbXP2.confirmationAnimation-2CEvGX,
 /*some wumpus thing*/
 .wumpusImageContainer-ZGD_8q,
 /*random confetti stuff*/
-.cannonWrapper-2iHppQ {
+.cannonWrapper-2iHppQ,
+/*sparkle shit*/
+.sparkleStar-J6zUP3,
+.sparkle-20-Tko{
     display: none;
 }
-
-
 .confirmImage-e5jLwI{
     background-image: none !important;
     height: 20px;
 }
-
-
-.guildWrapper-DAbXP2.confirmationAnimation-2CEvGX{
-    display: none;
-}
 .confirmationUpgradedBanner-1qqQLz rect{
     stroke: var(--main-color);
 }
-
 .upsellOverlayContainer-3NMgTS{
     border-color: var(--main-color);
-}
-.sparkleStar-J6zUP3{
-    display: none;
 }
