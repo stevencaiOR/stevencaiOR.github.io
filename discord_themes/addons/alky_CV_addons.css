@@ -1489,3 +1489,7 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .confirmationUpgradedBanner-1qqQLz rect{
     stroke: var(--main-color);
 }
+
+.upsellOverlayContainer-3NMgTS{
+    border-color: var(--main-color);
+}

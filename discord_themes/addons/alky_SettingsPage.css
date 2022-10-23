@@ -178,7 +178,7 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
 .customizationSection-IGy2fS+div .baseLayoutProfileThemes-1Jj-oN{
     justify-content: space-around;
 }
-.customizationSection-IGy2fS+div .profileCustomizationSection-53kreU .customizationSection-IGy2fS > *{
+.customizationSection-IGy2fS+div .profileCustomizationSection-53kreU .customizationSection-IGy2fS > *:not([class*="userPopout"]) {
     justify-content: center;
     text-align: center;
 }
