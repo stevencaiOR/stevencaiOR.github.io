@@ -1276,6 +1276,28 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .focusLock-2tveLW[aria-label="Wanna join more servers?"] .text-md-normal-304U3g:before{
     content: "You have reached the 100 server limit.";
 }
+/*-----PROFILE THEME POPOUT-----*/
+.contentPremium-_Y0-cX{
+    background: #000;
+}
+.profileThemesFeatureEducationArt-M4gj2m{
+    display: none;
+}
+.profileThemesFeatureEducationArt-M4gj2m+[class*="text-md-normal-"],
+.profileThemesFeatureEducationArt-M4gj2m~[class*="bodyContainer-"] div{
+    text-indent: -99999px;
+}
+.profileThemesFeatureEducationArt-M4gj2m+[class*="text-md-normal-"]:after,
+.profileThemesFeatureEducationArt-M4gj2m~[class*="bodyContainer-"] div:after{
+    text-indent: 0;
+    display: block;
+}
+.profileThemesFeatureEducationArt-M4gj2m+[class*="text-md-normal-"]:after{
+    content: "Profile Themes";
+}
+.profileThemesFeatureEducationArt-M4gj2m~[class*="bodyContainer-"] div:after{
+    content: "Personalize your profile with custom colors.";
+}
 /*-----CALL RATING MODAL-----*/
 .horizontal-112GEH>.flex-2S1XBF.ratingsSelector-1RciCi:last-child{
     margin-left: 0;
