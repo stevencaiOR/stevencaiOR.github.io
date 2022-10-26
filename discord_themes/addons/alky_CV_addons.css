@@ -53,7 +53,7 @@
     padding: 0 5px;
 }
 [class*="banner"][style*="rgb(69, 69, 69);"]{
-    background-image: url(https://cdn.uc.assets.prezly.com/915ca5cf-962e-41b0-9d11-76ba4da91ab7/-/resize/1108x/-/quality/best/-/format/auto/) ;
+    background-image: url(https://cdn.uc.assets.prezly.com/915ca5cf-962e-41b0-9d11-76ba4da91ab7/-/resize/1108x/-/quality/best/-/format/auto/);
     background-position: 55% 15%;
 }
 /*-----USER POPOUT-----*/
@@ -108,9 +108,12 @@ svg.avatarHint-2g3Mcd[width="80"] {
     position: relative;
     /*position for non premium banner*/
 }
-#app-mount [class*="userPopout"] .wrapper-1VLyxH[style*="80px"] .avatarStack-3vfSFa{
+#app-mount .wrapper-1VLyxH .avatarStack-3vfSFa{
     background-color: #292b2f;
-    /*bg color for user popout avatar*/
+    border-radius: 50%;
+    /*bg color between avatar and status*/
+}
+#app-mount [class*="userPopout"] .wrapper-1VLyxH[style*="80px"] .avatarStack-3vfSFa{
     position: relative;
     bottom: var(--user-popout-avatar-border-width);
     right: var(--user-popout-avatar-border-width);
