@@ -53,7 +53,7 @@
     padding: 0 5px;
 }
 [class*="banner"][style*="rgb(69, 69, 69);"]{
-    background-image: url(https://cdn.uc.assets.prezly.com/915ca5cf-962e-41b0-9d11-76ba4da91ab7/-/resize/1108x/-/quality/best/-/format/auto/);
+    background-image: url(https://cdn.uc.assets.prezly.com/915ca5cf-962e-41b0-9d11-76ba4da91ab7/-/resize/1108x/-/quality/best/-/format/auto/) !important;
     background-position: 55% 15%;
 }
 /*-----USER POPOUT-----*/
@@ -108,16 +108,22 @@ svg.avatarHint-2g3Mcd[width="80"] {
     position: relative;
     /*position for non premium banner*/
 }
-[class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
-    r: calc(0.5*var(--profile-popout-picture-size) + 2*(var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)) + 5px);
-    cx:calc(0.5*var(--profile-popout-picture-size) + 22px);
+.avatarUploaderNormal-1h8g3f{
+    top: 25px
 }
-[class*="userPopoutInner-"][class*="userProfileInnerWithBanner-"] [class*="bannerSVGWrapper-"] circle{
-    cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top-premium));
-}/*
-[class*="userPopoutInner-"]:not([class*="userProfileInnerWithBanner-"]) [class*="bannerSVGWrapper-"] circle{
-    cy: calc(0.5*var(--profile-popout-picture-size) + var(--popout-avatar-margin-top));
-}*/
+[class*="baseLayoutProfileThemes-"] [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
+    r: calc(0.5*var(--profile-popout-picture-size) + 2*(var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)) + 5px);
+    /*in profile tab*/    
+}
+[class*="baseLayoutProfileThemes-"]:not([class*="tryItOutLayout-"]) [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
+    cx: calc(0.5*var(--profile-popout-picture-size) + 27px);
+    cy: calc(0.5*var(--profile-popout-picture-size) + 15px);
+    /*in profile tab*/
+}
+[class*="baseLayoutProfileThemes-"][class*="tryItOutLayout-"] [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
+    cy: var(--profile-popout-picture-size);
+    /*in profile tab*/
+}
 .wrapper-1VLyxH[style*="80px"]{
     margin: 0;
 }
@@ -1495,7 +1501,10 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .cannonWrapper-2iHppQ,
 /*sparkle shit*/
 .sparkleStar-J6zUP3,
-.sparkle-20-Tko{
+.sparkle-20-Tko,
+/*some image thing*/
+.footerImage-2WsqiE
+{
     display: none;
 }
 .confirmImage-e5jLwI{
