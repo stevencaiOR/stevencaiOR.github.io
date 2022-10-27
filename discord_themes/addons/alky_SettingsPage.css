@@ -260,14 +260,16 @@ nav.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
     background: var(--nitro-bg-image, url(https://i.gyazo.com/2476b02172cbe8abf983110120745998.png)) var(--nitro-bg-pos) no-repeat;
     background-size: cover;
 }
-/* Discord Nitro header in first box */
-#discord-nitro-tab [class*="settingsTextContainer-"] h2{
-    font-size: 34px;
+/* Discord Nitro header in first box + the description box below it */
+#discord-nitro-tab [class*="settingsTextContainer-"] h2,
+#discord-nitro-tab [class*="settingsTextContainer-"] .text-lg-normal-1s-VnS{
     background: rgb(0,0,0,0.9);
     padding: 10px;
     border-radius: 10px;
     border: 3px solid rgb(var(--main-color-numerical),0.8);
-  
+}
+#discord-nitro-tab [class*="settingsTextContainer-"] h2{
+    font-size: 34px;  
     text-indent: -9999px;
     line-height: 0;
 }
