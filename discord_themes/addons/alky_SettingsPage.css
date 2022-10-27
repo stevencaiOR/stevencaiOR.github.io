@@ -834,3 +834,10 @@ div[class*="auditLog-"] > div[class^="headerClickable-"],
 div[class*="auditLog-"] > div[class^="headerDefault-"]{
     background-color: rgb(0,0,0,0.9);
 }
+
+/*-----CHANNEL SETTINGS-----*/
+/* OVERVIEW */
+.channel-settings-overview img{
+    display: none;
+    /*removes img*/
+}
