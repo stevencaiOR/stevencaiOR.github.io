@@ -81,9 +81,9 @@ svg.avatarHint-2g3Mcd[width="80"] {
 }
 /* AVATAR SIZE */
 [class*="userPopoutInner-"] .avatarHint-2g3Mcd,
-[class*="userPopoutInner-"] .wrapper-1VLyxH:not(.miniAvatar-2DD1As),
-[class*="userPopoutInner-"] .wrapper-1VLyxH:not(.miniAvatar-2DD1As) foreignObject,
-[class*="userPopoutInner-"] .wrapper-1VLyxH:not(.miniAvatar-2DD1As) rect {
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-1VLyxH:not(.miniAvatar-2DD1As),
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-1VLyxH:not(.miniAvatar-2DD1As) foreignObject,
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-1VLyxH:not(.miniAvatar-2DD1As) rect {
     height: var(--profile-popout-picture-size) !important;
     width: var(--profile-popout-picture-size) !important;
 }
