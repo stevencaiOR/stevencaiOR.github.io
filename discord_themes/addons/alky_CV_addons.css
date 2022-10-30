@@ -590,6 +590,7 @@ section[aria-label="User area" i] .wrapper-1VLyxH [viewBox$="40"] rect{
 .repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextContent-2hOYMB .mention{
     line-height: 1rem;
     max-width: 15ch;
+    vertical-align: text-top;
 }
 .repliedTextContent-2hOYMB .wrapper-1ZcZW-.mention.interactive{
     top: 0;
