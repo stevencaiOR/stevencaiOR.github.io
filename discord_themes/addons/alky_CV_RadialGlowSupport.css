@@ -176,3 +176,12 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
     bottom: var(--user-popout-avatar-border-width);
     right: var(--user-popout-avatar-border-width);
 }
+
+/*scuffed fix for weird gray bg when someone else is on mobile*/
+#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile] .avatarStack-3vfSFa,
+#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile] .avatarStack-3vfSFa img{
+    width: calc(80%);
+}
+#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile] .avatarStack-3vfSFa img{
+    width: calc(90%);
+}
