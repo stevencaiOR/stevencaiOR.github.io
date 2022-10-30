@@ -15,7 +15,8 @@
   --main-color-inverted:; this should contain the inverted version of your accent color
 }
 */
-
+/* generic sticker selected in sticker picker*/
+.stickerCategoryGenericSelected-DnO2K8,
 /* buttons */
 .lookFilled-yCfaCM.colorRed-rQXKgM,
 button[class*="lookFilled-"][class*="colorGrey-"],
