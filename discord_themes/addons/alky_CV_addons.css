@@ -121,7 +121,8 @@ svg.avatarHint-2g3Mcd[width="80"] {
     /*in profile tab*/
 }
 [class*="baseLayoutProfileThemes-"][class*="tryItOutLayout-"] [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
-    cy: var(--profile-popout-picture-size);
+    cx: calc(0.5*var(--profile-popout-picture-size) + 24px);
+    cy: calc(0.5*var(--profile-popout-picture-size) + 70px);
     /*in profile tab*/
 }
 .wrapper-1VLyxH[style*="80px"]{
