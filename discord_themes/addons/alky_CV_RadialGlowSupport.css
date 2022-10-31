@@ -125,7 +125,10 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
     text-overflow: ellipsis;
     max-width: 100%;
 }
-
+#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile][width="80"] img{
+    width: 100%;
+    /*user popout avatar full size if mobile*/
+}
 
 /*Temp Fix for User Popouts*/
 .userPopoutInner-PA9zkU .wrapper-1VLyxH:not(.avatar-2OC07D) foreignObject,
