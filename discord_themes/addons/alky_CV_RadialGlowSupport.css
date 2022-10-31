@@ -177,7 +177,7 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
     right: var(--user-popout-avatar-border-width);
 }
 
-/*scuffed fix for weird gray bg when someone else is on mobile*/
+/*scuffed fix for weird gray bg when someone else is on mobile NEVERMIND DOESN'T WORK??*
 #app-mount .wrapper-1VLyxH foreignObject[mask*=mobile] .avatarStack-3vfSFa,
 #app-mount .wrapper-1VLyxH foreignObject[mask*=mobile] .avatarStack-3vfSFa img{
     width: calc(80%);
