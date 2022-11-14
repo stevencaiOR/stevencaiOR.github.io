@@ -574,6 +574,10 @@ section[aria-label="User area" i] .wrapper-1VLyxH [viewBox$="40"] rect{
     color: var(--main-color);
     /*chat username color (doesn't override role colors)*/
 }
+.roleIcon-zWuatl{
+    top: 0.6rem;
+    /*custom role icon positioning*/
+}
 .markup-eYLPri.messageContent-2t3eCI{
     line-height: var(--message-content-line-height);
     /*line height of messages*/
