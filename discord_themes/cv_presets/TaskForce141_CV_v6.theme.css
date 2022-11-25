@@ -168,9 +168,6 @@
   margin-top: 2px;
   margin-left: 0px;
 }
-.cozyMessage-1DWF9U:not(.systemMessage-1H1Z20) .container-2sjPya {
-  bottom: 16px;
-}
 .repliedTextPreview-1bvxun{
   width: calc(70% - 16px - 0.5rem);
   /*adjusted width of replied context message*/
