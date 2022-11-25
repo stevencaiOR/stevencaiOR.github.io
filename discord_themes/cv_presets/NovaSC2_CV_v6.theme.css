@@ -117,7 +117,7 @@
   --backdrop-blur: var(--background-blur);
 
   /* USER POPOUT BACKGROUND */
-  --user-popout-image: var(--background-image);
+  --user-popout-image: linear-gradient(#000);
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -130,7 +130,7 @@
   --user-popout-blur: 3px;
 
   /* USER MODAL BACKGROUND */
-  --user-modal-image: var(--background-image);
+  --user-modal-image: linear-gradient(#000);
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
