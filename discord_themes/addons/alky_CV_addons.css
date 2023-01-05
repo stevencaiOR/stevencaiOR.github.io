@@ -247,7 +247,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
 #account .copiableWrapper-2IFENG > div:nth-child(2){
     max-height: 15px;
 }
-/*-----PROFILE MODALS-----*/
+/*-----USER PROFILE MODALS-----*/
 #app-mount [aria-label="User Profile Modal"] .topSection-13QKHs header .button-f2h6uQ{
     border-radius: 7px;
     /*rounds edges of the "Send Message/Friend Request" Box*/ 
@@ -271,8 +271,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
     /*tab button bar*/
 }
 /* Removes Mutual Server/Friends graphic */
-.emptyIconFriends-2LNxTX,
-.emptyIconGuilds-2NNSTU{
+.empty-2-ONJW .emptyIcon-LaP3ij{
     display: none;
 }
 /* No friends/servers in common -> No mutual friends/servers */
