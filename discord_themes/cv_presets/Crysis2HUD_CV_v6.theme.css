@@ -170,15 +170,7 @@
   /*For channel-text-selected, interactive-active and maybe other vars, DON'T CHANGE IF YOU NEED TO CHANGE, CHANGE SOMETHING ELSE THAT USES THIS OR CREATE NEW VAR*/
 }
 /*-----CRYSIS 2 HUD THEME ONLY-----*/
-#app-mount > div[class^="appDevToolsWrapper"] > div[class^="notDevTools"] > div[class^="app"] > div[class^="app"] > div[class^="layers"] > div[class^="layer"],
-#app-mount > div[class*="titleBar"]{
-  width: 90vw;
-  margin-right: auto;
-  margin-left: auto;
-  /*first selector is main window*/
-  /*second selector is title bar that contains windows button*/
-}
-#app-mount > div[class^="appDevToolsWrapper"] > div[class^="notDevTools"] > div[class^="app"] > div[class^="app"] > div[class^="layers"] > div[class^="layer"] {
+#app-mount [class^="notAppAsidePanel-"] > div[class^="app-"] > div[class^="app-"] > div[class^="layers-"] > div[class^="layer-"]{
   height: 55vh;
   border-radius: 10px;
   border: 3px solid var(--main-color);
@@ -187,6 +179,14 @@
   top: 16.2vh;
   /*position: absolute; (default)
   top: 14.5vh; when position is absolute*/
+}
+#app-mount [class^="notAppAsidePanel-"] > div[class^="app-"] > div[class^="app-"] > div[class^="layers-"] > div[class^="layer-"],
+#app-mount > div[class*="titleBar"]{
+  width: 90vw;
+  margin-right: auto;
+  margin-left: auto;
+  /*first selector is main window*/
+  /*second selector is title bar that contains windows button*/
 }
 #app-mount > div[class*="titleBar"] > div{
   margin-top: 16.3vh;
