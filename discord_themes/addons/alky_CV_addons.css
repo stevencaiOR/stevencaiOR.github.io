@@ -889,15 +889,20 @@ ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][clas
     /*Removes any existing background color on select*/
 }
 /*-----FRIENDS TABS-----*/
-#add_friend-tab .description-30xx7u{
+#add_friend-tab [class*="description-"]{
     text-indent: -9999px;
     line-height: 0;
 }
-#add_friend-tab .description-30xx7u:after{
+#add_friend-tab [class*="description-"]:after{
     display: block;
     text-indent: 0px;
     line-height: 20px;
     content:"Note: usernames are case-sensitive."
+}
+#add_friend-tab .input-3O04eu[placeholder="Enter a Username#0000"]{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
 }
 /* EFFICIENT SPACE UTILIZATION */
 [class*="peopleList-"] > div:first-child {
