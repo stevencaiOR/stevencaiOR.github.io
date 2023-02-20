@@ -148,9 +148,23 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 
 .theme-dark .tierPill-l7DvKo,
 /*session icons in devices tab*/
-.sessionIcon-2fwSzb
+.sessionIcon-2fwSzb,
+/*not even sure*/
+.lookFilled-1H2Jvj.colorGrey-2DXtkV,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N,
+.lookFilled-1H2Jvj.colorGreen-jIPCAS,
+.lookFilled-1H2Jvj.colorBrandNew-abZT3v,
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz,
+.lookFilled-1H2Jvj.buttonColor-1u-3JF
 {
   color: #000;
+}
+
+/*"Beta" text badge next to certain tabs in settings page*/
+[aria-label="User Settings"] [class*="selected-"] [class*="textBadge-"][style*="background-color: var(--brand-500)"]{
+  background: #000 !important;
+  border: 2px solid #fff;
+  padding-bottom: 15px;
 }
 
 .theme-dark .tierPill-l7DvKo{
