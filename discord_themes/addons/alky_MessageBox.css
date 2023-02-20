@@ -44,23 +44,23 @@
     /*markup text when message box selected*/
 }
 /* BUTTONS */
-.channelTextArea-1VQBuV .button-f2h6uQ:not([aria-label="Send Message"]) .contents-3ca1mk > div{
+[class*="channelTextArea-"] button:not([aria-label="Send Message"]) [class*="contents-"] > div{
     display: none;
 }
-.channelTextArea-1VQBuV .button-f2h6uQ .contents-3ca1mk:after{
+[class*="channelTextArea-"] button [class*="contents-"]:after{
     line-height: 1.375rem;
     color: var(--main-color);
 }
-.channelTextArea-1VQBuV .button-f2h6uQ:hover .contents-3ca1mk:after{
+[class*="channelTextArea-"] button:hover [class*="contents-"]:after{
     color: var(--hover-color);
 }
-.channelTextArea-1VQBuV .button-f2h6uQ[aria-label="Open GIF picker"] .contents-3ca1mk:after{
+[class*="channelTextArea-"] button[aria-label="Open GIF picker"] [class*="contents-"]:after{
     content: "[GIF]";
 }
-.channelTextArea-1VQBuV .button-f2h6uQ[aria-label="Open sticker picker"] .contents-3ca1mk:after{
+[class*="channelTextArea-"] button[aria-label="Open sticker picker"] [class*="contents-"]:after{
     content: "[Sticker]";
 }
-.channelTextArea-1VQBuV .button-f2h6uQ[aria-label="Select emoji"] .contents-3ca1mk:after{
+[class*="channelTextArea-"] button[aria-label="Select emoji"] [class*="contents-"]:after{
     content: "[Emoji]";
 }
 button[aria-label^="Upload a file"] path{
