@@ -81,7 +81,7 @@
     /*removes nitro icon in sidebar*/
 }
 /* MY ACCOUNT */
-.accountProfileCard-lbN7n-{
+#my-account-tab .accountProfileCard-lbN7n-{
     --avatar-change: 8vw;
     --avatar-size-default: min(4.17vw, 80px);
     --adaptive-height: max(0vw, calc(var(--avatar-change) - var(--avatar-size-default, min(4.17vw, 80px)) - 25px));
