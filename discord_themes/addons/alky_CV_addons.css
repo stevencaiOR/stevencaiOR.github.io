@@ -497,7 +497,7 @@ section[aria-label="User area" i] > .container-YkUktl {
     padding-bottom: 3px;
     /*Adds spacing upwards and downwards*/
 }
-section[aria-label="User area" i] .wrapper-1VLyxH,
+section[aria-label="User area" i] .avatar-1EWyVD.wrapper-1VLyxH,
 section[aria-label="User area" i] .wrapper-1VLyxH [viewBox$="40"] foreignObject,
 section[aria-label="User area" i] .wrapper-1VLyxH [viewBox$="40"] rect{
     width: calc(32px + var(--avatar-change, 0) * 1px) !important; /*default: 32px*/
