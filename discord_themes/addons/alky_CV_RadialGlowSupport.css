@@ -104,6 +104,21 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
     display: none;
 }
 
+/*Aside Profile Panel in DM's*/
+#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH{
+    top: calc(var(--avatar-extended-bg) - (var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)));
+    left: calc(var(--avatar-extended-bg) - (var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)));
+
+}
+#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH,
+#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH svg{
+    width: calc(var(--profile-popout-picture-size, 80px)) !important;
+    height: calc(var(--profile-popout-picture-size, 80px)) !important;
+}
+#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH svg foreignObject{
+    width: 92px;
+    height: 92px
+}
 /* Scuffed fix for hover on avatar in profile popout */
 .avatarWrapperNormal-1tQ3Je .avatarHint-2g3Mcd foreignObject{
     mask: none;
@@ -146,15 +161,15 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
     border-radius: var(--avatar-roundness, 50%);
 }
 #app-mount .avatarHoverTarget-l77PhT{
-    --a4787355069: 7px;
+    --avatar-extended-bg: 7px;
     background: var(--background-tertiary);
-    width: calc(var(--profile-popout-picture-size, 80px) + 2*var(--a4787355069));
-    height: calc(var(--profile-popout-picture-size, 80px) + 2*var(--a4787355069));
+    width: calc(var(--profile-popout-picture-size, 80px) + 2*var(--avatar-extended-bg));
+    height: calc(var(--profile-popout-picture-size, 80px) + 2*var(--avatar-extended-bg));
     position: relative;
 }
 #app-mount [class*="userPopout"] .wrapper-1VLyxH[style*="80px"]{
-    top: var(--a4787355069);
-    left: var(--a4787355069);
+    top: var(--avatar-extended-bg);
+    left: var(--avatar-extended-bg);
 }
 #app-mount .wrapper-1VLyxH[style*="80px"][aria-label*="online" i] .avatarStack-3vfSFa{
     border-color: var(--online-color);
