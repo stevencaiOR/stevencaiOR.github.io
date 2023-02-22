@@ -108,7 +108,6 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
 #app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH{
     top: calc(var(--avatar-extended-bg) - (var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)));
     left: calc(var(--avatar-extended-bg) - (var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)));
-
 }
 #app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH,
 #app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH svg{
