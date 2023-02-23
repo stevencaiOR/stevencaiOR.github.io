@@ -182,6 +182,10 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
     top: var(--avatar-extended-bg);
     left: var(--avatar-extended-bg);
 }
+#app-mount .wrapper-1VLyxH[style*="80px"] .avatarStack-3vfSFa{
+    border-width: 3.5px;
+    /*radial status width in user popouts*/
+}
 #app-mount .wrapper-1VLyxH[style*="80px"][aria-label*="online" i] .avatarStack-3vfSFa{
     border-color: var(--online-color);
 }
