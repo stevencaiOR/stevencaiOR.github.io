@@ -561,6 +561,9 @@ section[aria-label="User area" i] .wrapper-1VLyxH [viewBox$="40"] rect{
     background: #000;
     border-radius: 15px;
 }
+#channel-context-mark-channel-read{
+    opacity: 1;
+}
 /*-----CHAT BOX-----*/
 .username-h_Y3Us{
     color: var(--main-color);
