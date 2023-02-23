@@ -185,6 +185,14 @@ button[class*="lookFilled-"][class*="colorGreen-"],
   filter: brightness(0) invert(0);
 }
 
+/*option bars in hubs??*/
+.optionItem-2tdutc.selected-1-Z6gm{
+  color: #000;
+}
+.optionItem-2tdutc.selected-1-Z6gm .layout-1qmrhw .avatar-3VNtDW>svg>path{
+  fill: #000;
+}
+
 .compactButton-3hG-bs .defaultColor-1EVLSt,
 .iconWrapper-3FqQ75 .icon-3gfzEo path,
 /* "Don't have an invite?" text */
