@@ -166,11 +166,17 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 
 /* Welcome to server option box text*/
 .optionContainer-yOpaLq .channelDescription-3n9Tua,
-.optionContainer-yOpaLq .text-xs-normal-3SiVjE{
-  color: #000;
-  font-weight: 500;
+.optionContainer-yOpaLq [class*="text-xs-normal-"],
+.optionContainer-yOpaLq [class*="text-xs-normal-"] svg{
+    font-weight: 500;
 }
-
+.optionContainer-yOpaLq .channelDescription-3n9Tua{
+    color: #000;
+}
+.optionContainer-yOpaLq [class*="text-xs-normal-"],
+.optionContainer-yOpaLq [class*="text-xs-normal-"] svg{
+    color: #000 !important;
+}
 /*streaming badge*/
 .liveBadge-3E8LQj{
   color: #0b0b0b;
