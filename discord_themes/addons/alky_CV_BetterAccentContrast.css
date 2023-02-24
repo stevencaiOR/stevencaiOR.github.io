@@ -170,11 +170,11 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .optionContainer-yOpaLq [class*="text-xs-normal-"] svg{
     font-weight: 500;
 }
-.optionContainer-yOpaLq .channelDescription-3n9Tua{
+.optionContainer-yOpaLq .channelDescription-3n9Tua,
+.optionContainer-yOpaLq [class*="text-xs-normal-"] svg{
     color: #000;
 }
-.optionContainer-yOpaLq [class*="text-xs-normal-"],
-.optionContainer-yOpaLq [class*="text-xs-normal-"] svg{
+.optionContainer-yOpaLq [class*="text-xs-normal-"]{
     color: #000 !important;
 }
 /*streaming badge*/
