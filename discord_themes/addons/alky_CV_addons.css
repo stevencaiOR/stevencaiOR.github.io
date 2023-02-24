@@ -685,6 +685,15 @@ section[aria-label="User area" i] .wrapper-1VLyxH [viewBox$="40"] rect{
     bottom: calc(var(--chat-box-avatar-change, 0rem) - 0.05rem);
     right: calc(var(--chat-box-avatar-change, 0rem)*0.55 + 0.1rem + 1.5*var(--text-size-adjust)); /*0.1rem is important, otherwise is off center*/
 }
+/* USERNAME POSITIONING WHEN PINNING MESSAGES */
+.markup-eYLPri.messageContent-2t3eCI [class*="container-"]  [class*="anchorUnderlineOnHover-"] span span{
+    display: inline-block;
+    top: calc(0.4 * var(--chat-box-username-height, 1.375rem));
+}
+.markup-eYLPri.messageContent-2t3eCI [class*="container-"]  [class*="anchorUnderlineOnHover-"] span{
+    position: relative;
+    bottom: calc(0.2 * var(--chat-box-username-height, 1.375rem));
+}
 /* MINIMIZE LONG USERNAME */
 .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
     display: inline-block;
