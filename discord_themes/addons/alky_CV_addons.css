@@ -1451,6 +1451,10 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     /*owner icon in member list*/
 }
 
+.artwork-3uFrhF{
+    display: none;
+}
+
 /*improved bg of thing in screen share modal*/
 .gradientBackground-MytxDL{
     background-image: none;
