@@ -163,6 +163,14 @@ button[class*="lookFilled-"][class*="colorGreen-"],
   color: #000;
 }
 
+
+/* Welcome to server option box text*/
+.optionContainer-yOpaLq .channelDescription-3n9Tua,
+.optionContainer-yOpaLq .text-xs-normal-3SiVjE{
+  color: #000;
+  font-weight: 500;
+}
+
 /*streaming badge*/
 .liveBadge-3E8LQj{
   color: #0b0b0b;
@@ -204,9 +212,6 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 /* "Don't have an invite?" text */
 .rowContainer-3t7486 h3.defaultColor-HXu-5n,
 .rowContainer-3t7486 h3+div,
-/* Welcome to server option box text*/
-.optionContainer-yOpaLq .channelDescription-3n9Tua,
-.optionContainer-yOpaLq .text-xs-normal-3SiVjE,
 /*send wave sticker text*/
 .compactButton-3hG-bs .defaultColor-24IHKz,
 /*checked radio bar text*/
