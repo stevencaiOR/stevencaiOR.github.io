@@ -691,16 +691,16 @@ section[aria-label="User area" i] .wrapper-1VLyxH [viewBox$="40"] rect{
     text-overflow: ellipsis;
     max-width: 40%;
     white-space: nowrap;
-}/*
-.markup-eYLPri.messageContent-2t3eCI .container-x059i8 [class*="anchorUnderlineOnHover-"] {
+}
+.markup-eYLPri.messageContent-2t3eCI [class*="container-"] [class*="anchorUnderlineOnHover-"] {
     max-width: 30ch;
 }
-.markup-eYLPri.messageContent-2t3eCI .container-x059i8 [class*="anchorUnderlineOnHover-"] span{
+.markup-eYLPri.messageContent-2t3eCI [class*="container-"] [class*="anchorUnderlineOnHover-"] span{
     overflow: hidden;
     text-overflow: ellipsis;
     display: block;
     white-space: nowrap;
-}*/
+}
 /* Minimize in reply context message */
 .repliedMessage-3Z6XBG .username-h_Y3Us{
     max-width: 30%;
