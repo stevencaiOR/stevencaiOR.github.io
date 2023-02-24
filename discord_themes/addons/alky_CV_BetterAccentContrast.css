@@ -80,8 +80,8 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 /* on select */
 .searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .selected-g-kMVV.item-3XjbnG,
 .searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .selected-g-kMVV.item-3XjbnG:hover,
-/* on hover */
-.searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .item-3XjbnG:hover,
+/* on hover 
+.searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .item-3XjbnG:hover,*/
 /* context menu item hover*/
 .menu-1QACrS .item-1OdjEX.focused-3qFvc8,
 /* selected radioGroupItem */
