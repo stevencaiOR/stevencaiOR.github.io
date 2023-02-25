@@ -168,6 +168,16 @@ button[class*="lookFilled-"][class*="colorGreen-"],
   color: #000;
 }
 
+.modeSelected-3DmyhH .numberBadge-37OJ3S,
+.modeSelected-3DmyhH .textBadge-1fdDPJ,
+.interactiveSelected-29CP8y .numberBadge-37OJ3S,
+.interactiveSelected-29CP8y .textBadge-1fdDPJ,
+.selected-g-kMVV .numberBadge-37OJ3S,
+.selected-g-kMVV .textBadge-1fdDPJ{
+    background:  var(--main-color) !important;
+    color: #000;
+}
+
 /* Welcome to server option box text*/
 .optionContainer-yOpaLq .channelDescription-3n9Tua,
 .optionContainer-yOpaLq [class*="text-xs-normal-"],
