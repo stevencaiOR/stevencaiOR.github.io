@@ -1106,6 +1106,10 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     background-image: none !important;
     transition: none;
 }
+.member-2gU6Ar{
+    max-width: 515px;
+    /*width of each member list item fills up entire column*/
+}
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .username-i5-wv->span:before,
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .username-i5-wv->span:after{
     border: 2px solid rgb(var(--main-color-numerical));
