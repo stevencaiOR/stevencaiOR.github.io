@@ -1384,6 +1384,32 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .upsellTooltipWrapper-1wqikQ.caretBottomCenter-4XccL3:after{
     border-top-color: var(--main-color);
 }
+/*-----PROFILE PANEL IN DM'S-----*/
+#app-mount aside.profilePanel-2PWEok{
+    --banner-height: 60px;
+}
+#app-mount aside.profilePanel-2PWEok .bannerSVGWrapper-qc0szY foreignObject{
+    height: var(--banner-height);
+}
+#app-mount aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
+    top: calc(72px - var(--banner-height));
+}
+#app-mount aside.profilePanel-2PWEok .bannerSVGWrapper-qc0szY circle{
+    display: none;
+}
+#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH{
+    top: calc(var(--avatar-extended-bg) - (var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)));
+    left: calc(var(--avatar-extended-bg) - (var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)));
+}
+#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH,
+#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH svg{
+    width: calc(var(--profile-popout-picture-size, 80px)) !important;
+    height: calc(var(--profile-popout-picture-size, 80px)) !important;
+}
+#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH svg foreignObject{
+    width: 92px;
+    height: 92px
+}
 /*-----CREDIT CARD INFO-----*/
 .input-2g-os5[placeholder="Coolsville"]::placeholder,
 .input-2g-os5[placeholder="123 Discord Drive"]+div .text-xs-normal-3SiVjE,
