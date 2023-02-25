@@ -154,11 +154,11 @@
     /*hover on Delete Account*/
 }
 /* Removes eye balls if your username is too long*/
-.fieldList-in8WkP .field-21XZwa .button-f2h6uQ[aria-label="Edit username"] .contents-3ca1mk{
+#my-account-tab button[aria-label="Edit username"] div{
     text-indent: -9999px;
     line-height: 0;
 }
-.fieldList-in8WkP .field-21XZwa .button-f2h6uQ[aria-label="Edit username"] .contents-3ca1mk:after{
+#my-account-tab button[aria-label="Edit username"] div:after{
     text-indent: 0px;
     line-height: 1rem;
     display: block;
