@@ -1610,3 +1610,15 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 .wideHeroBanner-1m_HSk{
     display: none;
 }
+
+/*message request box background*/
+.messageRequestItem-1_NNAR.selected-11Gl-y,
+.messageRequestItem-1_NNAR.selected-5uRER3,
+.messageRequestItem-1_NNAR.active-1iRyqF,
+.messageRequestItem-1_NNAR:hover{
+    background: rgb(var(--hover-color-numerical), 0.5);
+}
+/*Hot fix for gray half circle on right side of avatar in DM list when user online on mobile device*/
+#app-mount .wrapper-1VLyxH foreignObject[mask*="mobile"] .avatarStack-3vfSFa{
+    background-color: transparent;
+}
