@@ -983,11 +983,10 @@ ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][clas
     display: block;
     content: "No one is currently active";
 }
-/* HIGHLIGHT SELECTED TAB */
+/* HIGHLIGHT SELECTED TAB *
 .container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt{
     background-color: rgb(var(--main-color-numerical), 0.3) !important;
     border: 2px solid rgb(var(--main-color-numerical),0.7);
-    /*transition here is actually nice. use it for selected dm/channel/subsetting thingy*/
 }
 [class*="tabBar-"][aria-label="Friends"] > [aria-selected="true"]:not(.addFriend-emTWY1){
     background-color: rgb(var(--main-color-numerical), 0.3) !important;
