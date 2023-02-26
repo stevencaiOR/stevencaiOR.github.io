@@ -625,10 +625,10 @@
 }
 /* VOICE & VIDEO */
 /* Input Sensitivity */
-#voice-\&-video-tab [style*="background: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"]{
+#voice-\&-video-tab [style*="background: var(--green-360)"]{
     background: var(--main-color) !important;
 }
-#voice-\&-video-tab [style*="background: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"]{
+#voice-\&-video-tab [style*="var(--yellow-300)"]{
     background: rgb(160,160,160) !important;
 }
 /* Video Settings */
