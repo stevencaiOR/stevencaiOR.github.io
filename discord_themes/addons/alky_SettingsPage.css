@@ -632,12 +632,12 @@
     background: rgb(160,160,160) !important;
 }
 /* Video Settings */
-.cameraWrapper-3a7Ngv{
+[class*="cameraWrapper-"]{
     background: rgb(var(--main-color-numerical),0.2);
     border: 2px solid var(--main-color);
     border-radius: 10px;
 }
-.cameraWrapper-3a7Ngv .previewImage-2SFTiM{
+[class*="cameraWrapper-"] [class*="previewImage-"]{
     background: url(https://i.imgur.com/ikS6ddE.png) center/contain no-repeat;
 }
 /* KEYBINDS */
