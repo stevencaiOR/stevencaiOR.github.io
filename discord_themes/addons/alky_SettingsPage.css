@@ -602,23 +602,26 @@
     content: "X-ray yankee zulu";
 }  
 /* Improved Radiogroups */
-#appearance-tab .children-1xdcWE{
+#appearance-tab [class*="children-"]{
     flex-direction: row;
     flex-wrap: wrap;
 
     --radio-spacing: 100px;
 }
-#appearance-tab .children-1xdcWE > :not(.marginTop8-24uXGp){
+#appearance-tab [class*="children-"] > :not([class*="marginTop8-"]){
     width: 100%;
 }
-#appearance-tab .children-1xdcWE .marginTop8-24uXGp {
+#appearance-tab [class*="children-"] [class*="marginTop8-"] {
     width: calc(50% - 0.5*var(--radio-spacing, 100px));
 }
-#appearance-tab .children-1xdcWE .marginTop8-24uXGp:nth-child(3) {
+#appearance-tab [class*="children-"] [class*="marginTop8-"]:nth-child(3) {
     margin-left: var(--radio-spacing,  100px);
 }
-#appearance-tab .children-1xdcWE .marginTop8-24uXGp .divider-_0um2u{
+#appearance-tab [class*="children-"] [class*="marginTop8-"]:nth-child(3) [class*="divider-"]{
     display: none;
+}
+#appearance-tab [class*="children-"] [class*="marginTop8-"]:nth-child(2) [class*="divider-"]{
+    width: calc(200% + 100px);
 }
 /* VOICE & VIDEO */
 /* Input Sensitivity */
