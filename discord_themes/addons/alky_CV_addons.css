@@ -444,7 +444,7 @@ div[id^="message-content"] > span.mention{
 }
 /* EMOJI */
 .focusLock-2tveLW[aria-label="Set a custom status"] .sprite-2lxwfc {
-    background-position: 0px -22px !important;
+    background-position: -44px -22px !important;
     /*default emoji is custom emoji*/
     filter: grayscale(100%) !important;
     /*emoji gray unless select*/
