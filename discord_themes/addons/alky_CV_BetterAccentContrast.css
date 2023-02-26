@@ -41,8 +41,12 @@ button[class*="lookFilled-"][class*="colorGreen-"],
 .search-2Mwzzq .searchFilter-2UfsDk,
 .search-2Mwzzq .searchAnswer-23w-CH,
 /* search box*/
-#uid_33--1 > [class^="queryText-"],
-#uid_33--1 > [class^="queryText-"] strong,
+[class*="container-"] [class*="queryContainer-"] > [class^="queryText-"],
+[class*="container-"] [class*="queryContainer-"] > [class^="queryText-"] > strong,
+/*
+.container-2McqkF .ZunrLZ > .queryText-j8z984,
+.container-2McqkF .queryContainer-ZunrLZ > .queryText-j8z984>strong
+*/
 /* unread channel bar */
 .mention-3XBnnZ, 
 .bar-2eAyLE.unread-2wipsx,
