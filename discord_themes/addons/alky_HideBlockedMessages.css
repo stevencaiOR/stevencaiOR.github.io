@@ -1,0 +1,31 @@
+:root{
+    /*Change these to whatever you like*/
+    --blocked-message-color-accent: var(--main-color, #d00);
+    --blocked-message-background: #000;
+    --blocked-message-vertical-padding: 8px;
+    --blocked-message-border-width: 2.5px;
+}
+
+.blockedSystemMessage-3FmE9n{
+    min-height: 2.75rem;
+}
+.blockedSystemMessage-3FmE9n .iconContainer-2rPbqG,
+.blockedSystemMessage-3FmE9n .blockedMessageText-3Zeg3y{
+    display: none;
+}
+.blockedSystemMessage-3FmE9n .content-vSHmMD{
+    
+    left: calc(94px - 4.5rem);
+    position: relative; 
+    top: calc(0.6875em - var(--blocked-message-vertical-padding, 0px) - var(--blocked-message-border-width, 0px)); /*0.5*min-height - 0.5*line-height - other thigns*/
+    color: var(--blocked-message-color-accent);
+    text-shadow: 0 0 5px currentColor;
+    font-weight: 600;
+    background: var(--blocked-message-background);
+    padding: var(--blocked-message-vertical-padding) 10ch;
+    border-radius: 5px;
+    border: var(--blocked-message-border-width) solid currentColor;
+}
+.blockedSystemMessage-3FmE9n .content-vSHmMD:after{
+    content: "[ Blocked Messages Hidden ]"; 
+}
