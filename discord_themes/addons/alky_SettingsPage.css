@@ -712,49 +712,55 @@
     display: flex;
     flex-direction: column;
 }
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]{
     padding-left: 0;
 }
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX svg{
-    width: 16px;
-    height: 16px;
-}
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Twitter"] path{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Twitter"] path{
     fill: var(--twitter-color);
 }
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Facebook"] path{
-    fill:var(--facebook-color); 
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Facebook"] path{
+    fill:var(--facebook-color);    
 }
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Facebook"]:hover path,
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Twitter"]:hover path{
-    filter: brightness(1.375);
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Facebook"] path,
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Twitter"] path{
+    filter: brightness(1.25);
 }
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Instagram"] svg  {
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Facebook"]:hover path,
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Twitter"]:hover path{
+    filter: brightness(0.94);
+}
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Instagram"] svg  {
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     border-radius: 4.5px;
 }
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Instagram"] path{
+    color: rgb(255,255,255,0.5);
+}
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Instagram"]:hover path{
+    color: rgb(255,255,255,0.35);
+}
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:after{
     color: var(--main-color);
     margin-left: 5px;
     vertical-align: top;
     line-height: 18px;
 }
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX:hover{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:hover{
     text-decoration-color: var(--hover-color);
 }
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX:hover:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:hover:after{
     color: var(--hover-color);
 }
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Twitter"]:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Twitter"]:after{
     content: "[ Twitter ]";
 }
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Facebook"]:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Facebook"]:after{
     content: "[ Facebook ]";
 }
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="Instagram"]:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Instagram"]:after{
     content: "[ Instagram ]";
 }
-.socialLinks-3ywLUf .anchorUnderlineOnHover-2qPutX[title="BetterDiscord"]:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="BetterDiscord"]:after{
     content: "[ BetterDiscord ]";
 }
 #app-mount .info-3pQQBb .line-18uChy:first-child::before{
