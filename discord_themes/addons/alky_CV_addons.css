@@ -599,6 +599,60 @@ section[aria-label="User area" i] .wrapper-1VLyxH [viewBox$="40"] rect{
 .repliedTextContent-2hOYMB .wrapper-1ZcZW-.mention.interactive{
     top: 0;
 }
+/*Message action button*/
+[class*="button-"][aria-label="Add Reaction" i],
+[class*="button-"][aria-label="Edit" i],
+[class*="button-"][aria-label="reply" i],
+[class*="button-"][aria-label="create thread" i],
+[class*="button-"][aria-label="More" i]{
+    color: var(--main-color);
+    border-radius: 4px;
+    font-weight: 500;
+}
+[class*="button-"][aria-label="Add Reaction" i]:hover,
+[class*="button-"][aria-label="Edit" i]:hover,
+[class*="button-"][aria-label="reply" i]:hover,
+[class*="button-"][aria-label="create thread" i]:hover,
+[class*="button-"][aria-label="More" i]:hover{
+    background: rgb(var(--main-color-numerical), 0.3);
+}
+[class*="button-"][aria-label="Add Reaction" i] svg,
+[class*="button-"][aria-label="Edit" i] svg,
+[class*="button-"][aria-label="reply" i] svg,
+[class*="button-"][aria-label="create thread" i] svg,
+[class*="button-"][aria-label="More" i] svg{
+    display: none;
+}
+[class*="button-"][aria-label="Add Reaction" i]{
+    min-width: 4ch;
+}
+[class*="button-"][aria-label="Add Reaction" i]:after{
+    content: "[Rxn]"
+}
+[class*="button-"][aria-label="Edit" i]{
+    min-width: 5ch;
+}
+[class*="button-"][aria-label="Edit" i]:after{
+    content: "[Edit]"
+}
+[class*="button-"][aria-label="reply" i]{
+    min-width: 5ch;
+}
+[class*="button-"][aria-label="reply" i]:after{
+    content: "[Rply]";
+}
+[class*="button-"][aria-label="create thread" i]{
+    min-width: 5ch;
+}
+[class*="button-"][aria-label="create thread" i]:after{
+    content: "[Thrd]";
+}
+[class*="button-"][aria-label="More" i]{
+    min-width: 5ch;
+}
+[class*="button-"][aria-label="More" i]:after{
+    content: "[More]";
+}
 /* COMPACT MODE */
 .compact-2Nkcau .markup-eYLPri.messageContent-2t3eCI{
     line-height: calc(var(--message-content-line-height) + 0.25rem);
