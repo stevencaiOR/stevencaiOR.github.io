@@ -81,9 +81,9 @@ svg.avatarHint-2g3Mcd[width="80"] {
 }
 /* AVATAR SIZE */
 [class*="userPopoutInner-"] .avatarHint-2g3Mcd,
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-1VLyxH:not(.miniAvatar-2DD1As),
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-1VLyxH:not(.miniAvatar-2DD1As) foreignObject,
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-1VLyxH:not(.miniAvatar-2DD1As) rect {
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As),
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) foreignObject,
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) rect {
     height: var(--profile-popout-picture-size) !important;
     width: var(--profile-popout-picture-size) !important;
 }
@@ -125,7 +125,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
     cy: calc(0.5*var(--profile-popout-picture-size) + 70px);
     /*in profile tab*/
 }
-.wrapper-1VLyxH[style*="80px"]{
+.wrapper-3Un6-K[style*="80px"]{
     margin: 0;
 }
 #account{
@@ -490,9 +490,9 @@ section[aria-label="User area" i] > .container-YkUktl {
     padding-bottom: 3px;
     /*Adds spacing upwards and downwards*/
 }
-section[aria-label="User area" i] .avatar-1EWyVD.wrapper-1VLyxH,
-section[aria-label="User area" i] .wrapper-1VLyxH [viewBox$="40"] foreignObject,
-section[aria-label="User area" i] .wrapper-1VLyxH [viewBox$="40"] rect{
+section[aria-label="User area" i] .avatar-1EWyVD.wrapper-3Un6-K,
+section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] foreignObject,
+section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     width: calc(32px + var(--avatar-change, 0) * 1px) !important; /*default: 32px*/
     height: calc(32px + var(--avatar-change, 0) * 1px) !important;
     /*Increased avatar size*/
@@ -1452,16 +1452,16 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 #app-mount aside.profilePanel-2PWEok .bannerSVGWrapper-qc0szY circle{
     display: none;
 }
-#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH{
+#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-3Un6-K{
     top: calc(var(--avatar-extended-bg) - (var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)));
     left: calc(var(--avatar-extended-bg) - (var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)));
 }
-#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH,
-#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH svg{
+#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-3Un6-K,
+#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-3Un6-K svg{
     width: calc(var(--profile-popout-picture-size, 80px)) !important;
     height: calc(var(--profile-popout-picture-size, 80px)) !important;
 }
-#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-1VLyxH svg foreignObject{
+#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-3Un6-K svg foreignObject{
     width: 92px;
     height: 92px
 }
@@ -1670,6 +1670,6 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
     background: rgb(var(--hover-color-numerical), 0.5);
 }
 /*Hot fix for gray half circle on right side of avatar in DM list when user online on mobile device*/
-#app-mount .wrapper-1VLyxH foreignObject[mask*="mobile"] .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K foreignObject[mask*="mobile"] .avatarStack-3vfSFa{
     background-color: transparent;
 }

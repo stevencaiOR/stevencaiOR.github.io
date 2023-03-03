@@ -27,70 +27,70 @@ It is primarily compatible with my Clearvision theme presets I created
 .mask-1FEkla{
     filter: none;
 }
-#my-account-tab .avatar-3mTjvZ.wrapper-1VLyxH[aria-label*="Online" i],
-.userPopout-3fydSP .wrapper-1VLyxH[aria-label*="Online" i],
-#account-avatar .wrapper-1VLyxH[aria-label*="Online" i]{
+#my-account-tab .avatar-3mTjvZ.wrapper-3Un6-K[aria-label*="Online" i],
+.userPopout-3fydSP .wrapper-3Un6-K[aria-label*="Online" i],
+#account-avatar .wrapper-3Un6-K[aria-label*="Online" i]{
     box-shadow: 0 0 calc(var(--glow-intensity) * 25px) var(--rs-online-color);
 }
-#my-account-tab .avatar-3mTjvZ.wrapper-1VLyxH[aria-label*="Idle" i],
-.userPopout-3fydSP .wrapper-1VLyxH[aria-label*="Idle" i],
-#account-avatar .wrapper-1VLyxH[aria-label*="Idle" i]{
+#my-account-tab .avatar-3mTjvZ.wrapper-3Un6-K[aria-label*="Idle" i],
+.userPopout-3fydSP .wrapper-3Un6-K[aria-label*="Idle" i],
+#account-avatar .wrapper-3Un6-K[aria-label*="Idle" i]{
     box-shadow: 0 0 calc(var(--glow-intensity) * 25px) var(--rs-idle-color);
 }
-#my-account-tab .avatar-3mTjvZ.wrapper-1VLyxH[aria-label*="Do not disturb" i],
-.userPopout-3fydSP .wrapper-1VLyxH[aria-label*="Do not disturb" i],
-#account-avatar .wrapper-1VLyxH[aria-label*="Do not disturb" i]{
+#my-account-tab .avatar-3mTjvZ.wrapper-3Un6-K[aria-label*="Do not disturb" i],
+.userPopout-3fydSP .wrapper-3Un6-K[aria-label*="Do not disturb" i],
+#account-avatar .wrapper-3Un6-K[aria-label*="Do not disturb" i]{
     box-shadow: 0 0 calc(var(--glow-intensity) * 25px) var(--rs-dnd-color);
 }
-#my-account-tab .avatar-3mTjvZ.wrapper-1VLyxH[aria-label*="invisible" i],
-.userPopout-3fydSP .wrapper-1VLyxH[aria-label*="invisible" i],
-.userPopout-3fydSP .wrapper-1VLyxH[aria-label*="offline" i],
-#account-avatar .wrapper-1VLyxH[aria-label*="invisible" i]{
+#my-account-tab .avatar-3mTjvZ.wrapper-3Un6-K[aria-label*="invisible" i],
+.userPopout-3fydSP .wrapper-3Un6-K[aria-label*="invisible" i],
+.userPopout-3fydSP .wrapper-3Un6-K[aria-label*="offline" i],
+#account-avatar .wrapper-3Un6-K[aria-label*="invisible" i]{
     box-shadow: 0 0 calc(var(--glow-intensity) * 25px) var(--rs-invisible-color);
 }
-section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="Online" i]{
+section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="Online" i]{
     box-shadow: 0 0 calc(var(--glow-intensity, 0) * 12px * calc(1 + var(--avatar-change)/32)) var(--rs-online-color, #43b581);
 }
-section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="idle" i]{
+section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="idle" i]{
     box-shadow: 0 0 calc(var(--glow-intensity, 0) * 12px * calc(1 + var(--avatar-change)/32)) var(--rs-idle-color, #faa61a);
 }
-section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="do not disturb" i]{
+section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="do not disturb" i]{
     box-shadow: 0 0 calc(var(--glow-intensity, 0) * 12px * calc(1 + var(--avatar-change)/32)) var(--rs-dnd-color, #982929);
 }
-section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
+section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     box-shadow: 0 0 calc(var(--glow-intensity, 0) * 12px * calc(1 + var(--avatar-change)/32)) var(--rs-invisible-color, #808080);
 }
 /*wrapper with 120px is for user modal*/
-.wrapper-1VLyxH[aria-label*="Do Not disturb" i][style*="120px"],
-.wrapper-1VLyxH[aria-label*="Vil ikke forstyrres" i][style*="120px"],
-.wrapper-1VLyxH[aria-label*="Bitte nicht stören" i][style*="120px"],
-.wrapper-1VLyxH[aria-label*="No molestar" i][style*="120px"],
-.wrapper-1VLyxH[aria-label*="Ne pas déranger" i][style*="120px"],
-.wrapper-1VLyxH[aria-label*="Ne uznemiravaj" i][style*="120px"]{
+.wrapper-3Un6-K[aria-label*="Do Not disturb" i][style*="120px"],
+.wrapper-3Un6-K[aria-label*="Vil ikke forstyrres" i][style*="120px"],
+.wrapper-3Un6-K[aria-label*="Bitte nicht stören" i][style*="120px"],
+.wrapper-3Un6-K[aria-label*="No molestar" i][style*="120px"],
+.wrapper-3Un6-K[aria-label*="Ne pas déranger" i][style*="120px"],
+.wrapper-3Un6-K[aria-label*="Ne uznemiravaj" i][style*="120px"]{
     box-shadow: 0 0 calc(var(--glow-intensity) * 18px) var(--rs-dnd-color);
 }
-.wrapper-1VLyxH[aria-label*=Offline i][style*="120px"],
-.wrapper-1VLyxH[aria-label*=Desconectado i][style*="120px"],
-.wrapper-1VLyxH[aria-label*="Hors ligne" i][style*="120px"],
-.wrapper-1VLyxH[aria-label*="Izvan mreže" i][style*="120px"]{
+.wrapper-3Un6-K[aria-label*=Offline i][style*="120px"],
+.wrapper-3Un6-K[aria-label*=Desconectado i][style*="120px"],
+.wrapper-3Un6-K[aria-label*="Hors ligne" i][style*="120px"],
+.wrapper-3Un6-K[aria-label*="Izvan mreže" i][style*="120px"]{
     box-shadow: 0 0 calc(var(--glow-intensity) * 18px) var(--rs-offline-color);
 }
-.wrapper-1VLyxH[aria-label*=Idle i][style*="120px"],
-.wrapper-1VLyxH[aria-label*=Inaktiv i][style*="120px"],
-.wrapper-1VLyxH[aria-label*=Abwesend i][style*="120px"],
-.wrapper-1VLyxH[aria-label*=Ausente i][style*="120px"],
-.wrapper-1VLyxH[aria-label*=Inactif i][style*="120px"],
-.wrapper-1VLyxH[aria-label*="U mirovanju" i][style*="120px"]{
+.wrapper-3Un6-K[aria-label*=Idle i][style*="120px"],
+.wrapper-3Un6-K[aria-label*=Inaktiv i][style*="120px"],
+.wrapper-3Un6-K[aria-label*=Abwesend i][style*="120px"],
+.wrapper-3Un6-K[aria-label*=Ausente i][style*="120px"],
+.wrapper-3Un6-K[aria-label*=Inactif i][style*="120px"],
+.wrapper-3Un6-K[aria-label*="U mirovanju" i][style*="120px"]{
     box-shadow: 0 0 calc(var(--glow-intensity) * 18px) var(--rs-idle-color);
 }
-.wrapper-1VLyxH[aria-label*=online i][style*="120px"],
-.wrapper-1VLyxH[aria-label*=Conectado i][style*="120px"],
-.wrapper-1VLyxH[aria-label*="En línea con móvil" i][style*="120px"],
-.wrapper-1VLyxH[aria-label*="En ligne" i][style*="120px"],
-.wrapper-1VLyxH[aria-label*="Na mreži" i][style*="120px"]{
+.wrapper-3Un6-K[aria-label*=online i][style*="120px"],
+.wrapper-3Un6-K[aria-label*=Conectado i][style*="120px"],
+.wrapper-3Un6-K[aria-label*="En línea con móvil" i][style*="120px"],
+.wrapper-3Un6-K[aria-label*="En ligne" i][style*="120px"],
+.wrapper-3Un6-K[aria-label*="Na mreži" i][style*="120px"]{
     box-shadow: 0 0 calc(var(--glow-intensity) * 18px) var(--rs-online-color);
 }
-.wrapper-1VLyxH[style*="120px"]{
+.wrapper-3Un6-K[style*="120px"]{
     margin:0;
 }
 
@@ -100,7 +100,7 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
 .avatar-3QF_VA{
     background-color: var(--background-floating);
 }
-#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile]:after{
+#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile]:after{
     display: none;
 }
 /* Scuffed fix for hover on avatar in profile popout */
@@ -124,23 +124,23 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
     text-overflow: ellipsis;
     max-width: 100%;
 }
-#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile][width="80"] img{
+#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile][width="80"] img{
     width: 100%;
     /*user popout avatar full size if mobile*/
 }
 
 /*Temp Fix for User Popouts*/
-.userPopoutInner-PA9zkU .wrapper-1VLyxH:not(.avatar-2OC07D) foreignObject,
-#app-mount .wrapper-1VLyxH[style*="80px"] .avatarStack-3vfSFa{
+.userPopoutInner-PA9zkU .wrapper-3Un6-K:not(.avatar-2OC07D) foreignObject,
+#app-mount .wrapper-3Un6-K[style*="80px"] .avatarStack-3vfSFa{
     overflow: visible;
 }
-#app-mount .wrapper-1VLyxH[style*="80px"] rect{
+#app-mount .wrapper-3Un6-K[style*="80px"] rect{
     display: none;
 }
-#app-mount .wrapper-1VLyxH[style*="80px"] foreignObject{
+#app-mount .wrapper-3Un6-K[style*="80px"] foreignObject{
     overflow: visible;
 }
-#app-mount .wrapper-1VLyxH[style*="80px"] .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K[style*="80px"] .avatarStack-3vfSFa{
     border: var(--user-popout-avatar-border-width) solid;
     border-radius: var(--avatar-roundness, 50%);
 }
@@ -151,43 +151,43 @@ section[aria-label="user area" i] .wrapper-1VLyxH[aria-label*="invisible" i]{
     height: calc(var(--profile-popout-picture-size, 80px) + 2*var(--avatar-extended-bg));
     position: relative;
 }
-#app-mount [class*="userPopout"] .wrapper-1VLyxH[style*="80px"]{
+#app-mount [class*="userPopout"] .wrapper-3Un6-K[style*="80px"]{
     top: var(--avatar-extended-bg);
     left: var(--avatar-extended-bg);
 }
-#app-mount .wrapper-1VLyxH[style*="80px"] .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K[style*="80px"] .avatarStack-3vfSFa{
     border-width: 3.5px;
     /*radial status width in user popouts*/
 }
-#app-mount .wrapper-1VLyxH[style*="80px"][aria-label*="online" i] .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="online" i] .avatarStack-3vfSFa{
     border-color: var(--online-color);
 }
-#app-mount .wrapper-1VLyxH[style*="80px"][aria-label*="idle" i] .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="idle" i] .avatarStack-3vfSFa{
     border-color: var(--idle-color);
 }
-#app-mount .wrapper-1VLyxH[style*="80px"][aria-label*="do not disturb" i] .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="do not disturb" i] .avatarStack-3vfSFa{
     border-color: var(--dnd-color);   
 }
-#app-mount .wrapper-1VLyxH[style*="80px"][aria-label*="offline" i] .avatarStack-3vfSFa,
-#app-mount .wrapper-1VLyxH[style*="80px"][aria-label*="invisible" i] .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="offline" i] .avatarStack-3vfSFa,
+#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="invisible" i] .avatarStack-3vfSFa{
     border-color: var(--rs-invisible-color);
 }
-#app-mount .wrapper-1VLyxH .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K .avatarStack-3vfSFa{
     background-color: #292b2f;
     border-radius: 50%;
     /*bg color between avatar and status*/
 }
-#app-mount [class*="userPopout"] .wrapper-1VLyxH[style*="80px"] .avatarStack-3vfSFa{
+#app-mount [class*="userPopout"] .wrapper-3Un6-K[style*="80px"] .avatarStack-3vfSFa{
     position: relative;
     bottom: var(--user-popout-avatar-border-width);
     right: var(--user-popout-avatar-border-width);
 }
 
 /*scuffed fix for weird gray bg when someone else is on mobile NEVERMIND DOESN'T WORK??*
-#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile] .avatarStack-3vfSFa,
-#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile] .avatarStack-3vfSFa img{
+#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] .avatarStack-3vfSFa,
+#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] .avatarStack-3vfSFa img{
     width: calc(80%);
 }
-#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile] .avatarStack-3vfSFa img{
+#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] .avatarStack-3vfSFa img{
     width: calc(90%);
 }
