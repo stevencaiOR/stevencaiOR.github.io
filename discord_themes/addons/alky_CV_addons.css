@@ -1682,3 +1682,9 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 #app-mount .wrapper-3Un6-K foreignObject[mask*="mobile"] .avatarStack-3vfSFa{
     background-color: transparent;
 }
+
+/*Explore Public Container*/
+.container-3tKtM_{
+    background: #000;
+    border: 2px solid var(--main-color, #7289da); 
+}
