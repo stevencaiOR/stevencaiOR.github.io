@@ -601,6 +601,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 }
 /*Message action button*/
 [class*="button-"][aria-label="Add Reaction" i],
+[class*="button-"][aria-label*="Super Reaction" i],
 [class*="button-"][aria-label="Edit" i],
 [class*="button-"][aria-label="reply" i],
 [class*="button-"][aria-label="create thread" i],
@@ -610,6 +611,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     font-weight: 500;
 }
 [class*="button-"][aria-label="Add Reaction" i]:hover,
+[class*="button-"][aria-label*="Super Reaction" i]:hover,
 [class*="button-"][aria-label="Edit" i]:hover,
 [class*="button-"][aria-label="reply" i]:hover,
 [class*="button-"][aria-label="create thread" i]:hover,
@@ -617,6 +619,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     background: rgb(var(--main-color-numerical), 0.3);
 }
 [class*="button-"][aria-label="Add Reaction" i] svg,
+[class*="button-"][aria-label*="Super Reaction" i] svg,
 [class*="button-"][aria-label="Edit" i] svg,
 [class*="button-"][aria-label="reply" i] svg,
 [class*="button-"][aria-label="create thread" i] svg,
@@ -628,6 +631,12 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 }
 [class*="button-"][aria-label="Add Reaction" i]:after{
     content: "[Rxn]"
+}
+[class*="button-"][aria-label*="Super Reaction" i]{
+    min-width: 7ch;
+}
+[class*="button-"][aria-label*="Super Reaction" i]:after{
+    content: "[Spr Rxn]";
 }
 [class*="button-"][aria-label="Edit" i]{
     min-width: 5ch;
