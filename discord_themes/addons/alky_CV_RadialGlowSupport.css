@@ -131,7 +131,7 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
 
 /*Temp Fix for User Popouts*/
 .userPopoutInner-PA9zkU .wrapper-3Un6-K:not(.avatar-2OC07D) foreignObject,
-#app-mount .wrapper-3Un6-K[style*="80px"] .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K[style*="80px"] [class*="avatarStack-"]{
     overflow: visible;
 }
 #app-mount .wrapper-3Un6-K[style*="80px"] rect{
@@ -140,7 +140,7 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
 #app-mount .wrapper-3Un6-K[style*="80px"] foreignObject{
     overflow: visible;
 }
-#app-mount .wrapper-3Un6-K[style*="80px"] .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K[style*="80px"] [class*="avatarStack-"]{
     border: var(--user-popout-avatar-border-width) solid;
     border-radius: var(--avatar-roundness, 50%);
 }
@@ -155,39 +155,39 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     top: var(--avatar-extended-bg);
     left: var(--avatar-extended-bg);
 }
-#app-mount .wrapper-3Un6-K[style*="80px"] .avatarStack-3vfSFa{
-    border-width: 3.5px;
+#app-mount .wrapper-3Un6-K[style*="80px"] [class*="avatarStack-"]{
+    border: 2.5px solid;
     /*radial status width in user popouts*/
 }
-#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="online" i] .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="online" i] [class*="avatarStack-"]{
     border-color: var(--online-color);
 }
-#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="idle" i] .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="idle" i] [class*="avatarStack-"]{
     border-color: var(--idle-color);
 }
-#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="do not disturb" i] .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="do not disturb" i] [class*="avatarStack-"]{
     border-color: var(--dnd-color);   
 }
-#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="offline" i] .avatarStack-3vfSFa,
-#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="invisible" i] .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="offline" i] [class*="avatarStack-"],
+#app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="invisible" i] [class*="avatarStack-"]{
     border-color: var(--rs-invisible-color);
 }
-#app-mount .wrapper-3Un6-K .avatarStack-3vfSFa{
+#app-mount .wrapper-3Un6-K [class*="avatarStack-"]{
     background-color: #292b2f;
     border-radius: 50%;
     /*bg color between avatar and status*/
 }
-#app-mount [class*="userPopout"] .wrapper-3Un6-K[style*="80px"] .avatarStack-3vfSFa{
+#app-mount [class*="userPopout"] .wrapper-3Un6-K[style*="80px"] [class*="avatarStack-"]{
     position: relative;
     bottom: var(--user-popout-avatar-border-width);
     right: var(--user-popout-avatar-border-width);
 }
 
 /*scuffed fix for weird gray bg when someone else is on mobile NEVERMIND DOESN'T WORK??*
-#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] .avatarStack-3vfSFa,
-#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] .avatarStack-3vfSFa img{
+#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] [class*="avatarStack-"],
+#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] [class*="avatarStack-"] img{
     width: calc(80%);
 }
-#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] .avatarStack-3vfSFa img{
+#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] [class*="avatarStack-"] img{
     width: calc(90%);
 }
