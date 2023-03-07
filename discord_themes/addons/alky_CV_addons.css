@@ -621,9 +621,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     /*fix system message thing within reply context message*/
 }
 /*Message action button*/
-[aria-label="Message Actions"]{
-    top: 0;
-}
 [class*="button-"][aria-label="copy link" i],
 [class*="button-"][aria-label="copy id" i],
 [class*="button-"][aria-label="mark unread" i],
