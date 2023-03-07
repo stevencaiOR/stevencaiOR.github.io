@@ -618,6 +618,11 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 [aria-label="Message Actions"]{
     top: 0;
 }
+[class*="button-"][aria-label="copy link" i],
+[class*="button-"][aria-label="copy id" i],
+[class*="button-"][aria-label="mark unread" i],
+[class*="button-"][aria-label="pin message" i],
+[class*="button-"][aria-label="delete" i],
 [class*="button-"][aria-label="Add Reaction" i],
 [class*="button-"][aria-label*="Super Reaction" i],
 [class*="button-"][aria-label="Edit" i],
@@ -628,6 +633,11 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     border-radius: 4px;
     font-weight: 500;
 }
+[class*="button-"][aria-label="copy link" i]:hover,
+[class*="button-"][aria-label="copy id" i]:hover,
+[class*="button-"][aria-label="mark unread" i]:hover,
+[class*="button-"][aria-label="pin message" i]:hover,
+[class*="button-"][aria-label="delete" i]:hover,
 [class*="button-"][aria-label="Add Reaction" i]:hover,
 [class*="button-"][aria-label*="Super Reaction" i]:hover,
 [class*="button-"][aria-label="Edit" i]:hover,
@@ -636,6 +646,11 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 [class*="button-"][aria-label="More" i]:hover{
     background: rgb(var(--main-color-numerical), 0.3);
 }
+[class*="button-"][aria-label="copy link" i] svg,
+[class*="button-"][aria-label="copy id" i] svg,
+[class*="button-"][aria-label="mark unread" i] svg,
+[class*="button-"][aria-label="pin message" i] svg,
+[class*="button-"][aria-label="delete" i] svg,
 [class*="button-"][aria-label="Add Reaction" i] svg,
 [class*="button-"][aria-label*="Super Reaction" i] svg,
 [class*="button-"][aria-label="Edit" i] svg,
@@ -644,41 +659,59 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 [class*="button-"][aria-label="More" i] svg{
     display: none;
 }
-[class*="button-"][aria-label="Add Reaction" i]{
-    min-width: 4ch;
+[class*="button-"][aria-label="mark unread" i]{
+    min-width: 9ch;
 }
-[class*="button-"][aria-label="Add Reaction" i]:after{
-    content: "[Rxn]"
+[class*="button-"][aria-label="mark unread" i]:after{
+    content: "[Mrk unrd]";
 }
-[class*="button-"][aria-label*="Super Reaction" i]{
+[class*="button-"][aria-label="copy link" i]{
+    min-width: 8ch;
+}
+[class*="button-"][aria-label="copy link" i]:after{
+    content: "[Cpy lnk]";
+}
+[class*="button-"][aria-label*="Super Reaction" i],
+[class*="button-"][aria-label="copy id" i]{
     min-width: 7ch;
 }
 [class*="button-"][aria-label*="Super Reaction" i]:after{
     content: "[Spr Rxn]";
 }
-[class*="button-"][aria-label="Edit" i]{
+[class*="button-"][aria-label="copy id" i]:after{
+    content: "[Cpy ID]";
+}
+[class*="button-"][aria-label="Edit" i],
+[class*="button-"][aria-label="reply" i],
+[class*="button-"][aria-label="create thread" i],
+[class*="button-"][aria-label="More" i]{
     min-width: 5ch;
 }
 [class*="button-"][aria-label="Edit" i]:after{
     content: "[Edit]"
 }
-[class*="button-"][aria-label="reply" i]{
-    min-width: 5ch;
-}
 [class*="button-"][aria-label="reply" i]:after{
     content: "[Rply]";
-}
-[class*="button-"][aria-label="create thread" i]{
-    min-width: 5ch;
 }
 [class*="button-"][aria-label="create thread" i]:after{
     content: "[Thrd]";
 }
-[class*="button-"][aria-label="More" i]{
-    min-width: 5ch;
-}
 [class*="button-"][aria-label="More" i]:after{
     content: "[More]";
+}
+[class*="button-"][aria-label="delete" i],
+[class*="button-"][aria-label="pin message" i],
+[class*="button-"][aria-label="Add Reaction" i]{
+    min-width: 4ch;
+}
+[class*="button-"][aria-label="delete" i]:after{
+    content: "[Del]"
+}
+[class*="button-"][aria-label="pin message" i]:after{
+    content: "[Pin]";
+}
+[class*="button-"][aria-label="Add Reaction" i]:after{
+    content: "[Rxn]"
 }
 /* COMPACT MODE */
 .compact-2Nkcau .markup-eYLPri.messageContent-2t3eCI{
