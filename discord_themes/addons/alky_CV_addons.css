@@ -565,6 +565,15 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 #channel-context-mark-channel-read{
     opacity: 1;
 }
+
+#message [id^="message-quickreact-"] [class*="focused-"]{
+    box-shadow: none;
+    border: 3px solid var(--hover-color)
+}
+#message [id^="message-quickreact-"] [class*="focused-"] img{
+    transform: scale(1.25);
+    
+}
 /*-----CHAT BOX-----*/
 .username-h_Y3Us{
     color: var(--main-color);
