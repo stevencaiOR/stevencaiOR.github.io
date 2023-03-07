@@ -775,7 +775,8 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 }
 .headerText-2z4IhQ .svg-26OBgk.roleDot-PzIfeF{
     position: relative;
-    bottom: calc(0.5*var(--chat-box-username-height, 1.375rem));
+    bottom: 1.25rem;
+    /*bottom must equal height of element, to align the bottom edge of element with bottom of username, instead of top edge of element*/
 }
 /* LARGER PROFILE PIC IN CHAT BOX */
 .message-2CShn3.cozy-VmLDNB .contents-2MsGLg img.avatar-2e8lTP,
