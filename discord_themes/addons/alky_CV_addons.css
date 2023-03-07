@@ -70,6 +70,12 @@
 .headerTop-3GPUSF{
     padding-top: 80px;
 }
+/*View Profile Picture & Edit Prolfe Buttons*/
+.popoutBanner-16rVDY .pencilContainer-11Kuga,
+.popoutBannerPremium-2RvDNZ .pencilContainer-11Kuga,
+.VPP-self{
+    top: max(calc((var(--user-popout-banner-height) - 60px)), 10px);
+}
 /*user popout applies to the popout when clicking on user area*/
 svg.avatarHint-2g3Mcd[width="80"] {
     transition-duration: 200ms;
