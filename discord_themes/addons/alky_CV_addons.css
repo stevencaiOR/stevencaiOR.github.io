@@ -600,6 +600,11 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 .repliedTextContent-2hOYMB .wrapper-1ZcZW-.mention.interactive{
     top: 0;
 }
+.repliedMessage-3Z6XBG .userJoinSystemMessageIcon-3FQ_Mo{
+    height: 17px;
+    width: 17px;
+    /*fix system message thing within reply context message*/
+}
 /*Message action button*/
 [aria-label="Message Actions"]{
     top: 0;
