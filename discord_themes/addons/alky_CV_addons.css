@@ -1763,3 +1763,7 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
     background: #000;
     border: 2px solid var(--main-color, #7289da); 
 }
+/*thread list container background*/
+[class*="layerContainer-"] .browser-mnQ1T7.container-18GwIk {
+    background: rgb(0,0,0,0.8);
+}
