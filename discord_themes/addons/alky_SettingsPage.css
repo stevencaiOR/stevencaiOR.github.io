@@ -934,21 +934,6 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 [class*="creatorBenefitsContainer-"] > div:not(:first-child) [data-text-variant="text-md/normal"]{
     max-width: 100%;
 }
-/* SERVER MEMBERS */
-.customScroller-m1-jZn > .content-yjf30S{
-    max-width: calc(100% - 137px);
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-.customScroller-m1-jZn > .content-yjf30S > [class*="member-"]{
-    height: fit-content;
-}
-.customScroller-m1-jZn > .content-yjf30S > :nth-child(2){
-    position: relative;
-    right: 100%;
-    width: 200%;
-    top: 60px;
-}
 /*-----CHANNEL SETTINGS-----*/
 /* OVERVIEW */
 .channel-settings-overview img{
