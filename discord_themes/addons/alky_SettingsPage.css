@@ -853,7 +853,102 @@ div[class*="auditLog-"] > div[class^="headerClickable-"],
 div[class*="auditLog-"] > div[class^="headerDefault-"]{
     background-color: rgb(0,0,0,0.9);
 }
-
+/* SERVER SUBSCRIPTIONS*/
+.sidebar-nqHbhN .item-2GWPIy.selected-1sf9UK[aria-label="Server Subscriptions"]{
+    padding-left: 20px !important;
+    /*adjust text in sidebar item*/
+}
+/* Maximize white space utilization */
+[class*="settingsContainer-"] main[class*="settingsColumn-"]{
+    max-width: calc(100% - 55px);
+}
+[class*="settingsContainer-"] main[class*="settingsColumn-"] >  [class*="container-"]{
+    max-width: 100%;
+}
+/* "Earn money as a Discord Creator" Box */
+[class*="settingsContainer-"] main[class*="settingsColumn-"] [class*="ctaContainer-"] [class*="heroBanner-"]{
+    display: none;
+    /* Removes annoyingly large banner image */
+}
+[class*="settingsContainer-"] main[class*="settingsColumn-"] [class*="ctaContainer-"] [class*="ctaContent-"]{
+    border: 3px solid var(--main-color);
+    border-radius: 10px;
+    background: #000;
+    /* Matches box with theme */
+}
+[class*="settingsContainer-"] main[class*="settingsColumn-"] [class*="ctaContainer-"] [class*="ctaContent-"] [data-text-variant="text-md/normal"],
+[class*="settingsContainer-"] main[class*="settingsColumn-"] [class*="ctaContainer-"] [class*="ctaContent-"] [class*="horizontalStatusWarningBlock-"] [data-text-variant="text-sm/normal"]
+{
+    text-indent: -99999px;
+    line-height: 0;
+}
+[class*="settingsContainer-"] main[class*="settingsColumn-"] [class*="ctaContainer-"] [class*="ctaContent-"] [data-text-variant="text-md/normal"]:after{
+    text-indent: 0;
+    display: block;
+    line-height: 20px;
+    content: "Earn consistent income by creating a premium experience for your audience on Discord.";
+}
+[class*="settingsContainer-"] main[class*="settingsColumn-"] [class*="ctaContainer-"] [class*="ctaContent-"] [class*="horizontalStatusWarningBlock-"] [data-text-variant="text-sm/normal"]:after
+{
+    text-indent: 0;
+    display: block;
+    line-height: 18px;
+    content: "Your server must be identified as a Community before being monetized via Server Subscriptions";
+}
+/* Reorganizes Benefits for Creators & How it Works Boxes */
+[class*="settingsContainer-"] main[class*="settingsColumn-"] .container-2J1IM0 > :nth-child(4){
+    display: none;
+}
+[class*="settingsContainer-"] main[class*="settingsColumn-"] .container-2J1IM0 > :nth-child(3),
+[class*="settingsContainer-"] main[class*="settingsColumn-"] .container-2J1IM0 > :nth-child(5){
+    width: 45%;
+}
+[class*="settingsContainer-"] main[class*="settingsColumn-"] .container-2J1IM0 > :nth-child(3){
+    position: relative;
+    left: 55%;
+    height: 0;
+}
+/* How it Works Box */
+.howItWorksContainer-3ZDRIG{
+    flex-direction: column;
+}
+.howItWorksImageContainer-3U9Rdq{
+    display: none;
+}
+.howItWorksCard-WMHpU3 .howItWorksDescription-g-hmHH{
+    height: 90px;
+}
+.howItWorksCard-WMHpU3 .howItWorksDescription-g-hmHH .text-sm-normal-AEQz4v{
+    vertical-align: middle;
+    position: relative;
+    top: 28px;
+}
+/* Benefits for Creators Box */
+[class*="creatorBenefitsContainer-"]{
+    display: flex;
+    flex-direction: column;
+}
+[class*="creatorBenefitsContainer-"] > div:not(:first-child) img{
+    display: none;
+}
+[class*="creatorBenefitsContainer-"] > div:not(:first-child) [data-text-variant="text-md/normal"]{
+    max-width: 100%;
+}
+/* SERVER MEMBERS */
+.customScroller-m1-jZn > .content-yjf30S{
+    max-width: calc(100% - 137px);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.customScroller-m1-jZn > .content-yjf30S > [class*="member-"]{
+    height: fit-content;
+}
+.customScroller-m1-jZn > .content-yjf30S > :nth-child(2){
+    position: relative;
+    right: 100%;
+    width: 200%;
+    top: 60px;
+}
 /*-----CHANNEL SETTINGS-----*/
 /* OVERVIEW */
 .channel-settings-overview img{
