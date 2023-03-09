@@ -951,6 +951,10 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 [class*="inviteSettingsInviteRow-"] [class*="revokeInvite-"]{
     right: 5px;
 }
+.customScroller-m1-jZn > .content-yjf30S [class*="headerSection-"] :last-child > h3{
+    display: none;
+    /*Removes table headers in Invites section*/
+}
 /*-----CHANNEL SETTINGS-----*/
 /* OVERVIEW */
 .channel-settings-overview img{
