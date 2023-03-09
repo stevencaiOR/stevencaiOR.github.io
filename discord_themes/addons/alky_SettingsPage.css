@@ -934,6 +934,23 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 [class*="creatorBenefitsContainer-"] > div:not(:first-child) [data-text-variant="text-md/normal"]{
     max-width: 100%;
 }
+
+/* INVITES */
+[class*="inviteSettingsInviteRow-"]{
+    --inviteSettingsInviteRow-width: 95%;
+    width: var(--inviteSettingsInviteRow-width);
+    bottom: 60px;
+}
+[class*="inviteSettingsInviteRow-"]:nth-child(2n + 1){
+    border-right: thin solid var(--background-modifier-accent);
+    padding-right: calc(2*(100% - var(--inviteSettingsInviteRow-width)));
+}
+[class*="inviteSettingsInviteRow-"]:nth-child(2n){
+    left: calc(100% - var(--inviteSettingsInviteRow-width));
+}
+[class*="inviteSettingsInviteRow-"] [class*="revokeInvite-"]{
+    right: 5px;
+}
 /*-----CHANNEL SETTINGS-----*/
 /* OVERVIEW */
 .channel-settings-overview img{
