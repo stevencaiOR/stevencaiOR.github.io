@@ -200,12 +200,6 @@ button[class*="lookFilled-"][class*="colorGreen-"],
   color: #0b0b0b;
 }
 
-/*"Beta" text badge next to certain tabs in settings page*/
-[aria-label="User Settings"] [class*="selected-"] [class*="textBadge-"][style*="background-color: var(--brand-500)"]{
-  background: #000 !important;
-  border: 2px solid #fff;
-  padding-bottom: 15px;
-}
 
 .theme-dark .tierPill-l7DvKo{
   font-weight: 500;
