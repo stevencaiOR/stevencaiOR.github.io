@@ -893,7 +893,7 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
     text-indent: 0;
     display: block;
     line-height: 18px;
-    content: "Your server must be identified as a Community before being monetized via Server Subscriptions";
+    content: "Your server must be identified as a Community before being monetized by Server Subscriptions";
 }
 /* Reorganizes Benefits for Creators & How it Works Boxes */
 [class*="settingsContainer-"] main[class*="settingsColumn-"] .container-2J1IM0 > :nth-child(4){
