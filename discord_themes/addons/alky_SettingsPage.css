@@ -211,6 +211,12 @@
     background: rgb(0,0,0,0.4);
     border: 2px solid var(--main-color);
 }
+/* Nitro profile popout preview */
+[style*='background-image: url("/assets/97ac61a0b98fd6f01b4de370c9ccdb56.png")']{
+    background-image: var(--nitro-bg-image, url(https://cdn.uc.assets.prezly.com/915ca5cf-962e-41b0-9d11-76ba4da91ab7/-/resize/1108x/-/quality/best/-/format/auto/)) !important;
+    background-position: 55% 15%;
+    /*replaces image with something more appropriate*/
+}
 /* SAFE DIRECT MESSAGING & VERIFICATION LEVEL */
 #moderation-tab div[class*="children-"] > div:first-child > div[class*="children-"] div[role="radio"] > div {
     border-left: 5px solid var(--radio-bar-accent-color);
