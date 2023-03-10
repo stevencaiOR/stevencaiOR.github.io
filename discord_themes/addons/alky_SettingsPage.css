@@ -969,7 +969,7 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
     right: 5px;
     top: 5px;
 }
-.customScroller-m1-jZn > .content-yjf30S [class*="headerSection-"] :last-child > h3{
+.customScroller-m1-jZn > .content-yjf30S [class*="headerSection-"] > :last-child > h3{
     display: none;
     /*Removes table headers in Invites section*/
 }
