@@ -496,9 +496,12 @@
     border-radius: 15px;
 }
 /* GIFT INVENTORY */
-#library-inventory-tab .inputDefault-3FGxgL.input-2g-os5::placeholder{
+#library-inventory-tab [class*="inputDefault-"]::placeholder{
+    width: 0;
+}
+#library-inventory-tab [class*="inputDefault-"]{
     color: transparent;
-    background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><text x='0' y='15' fill='rgb(255,255,255,0.3)' font-size='16'>****-*****-*****-*****</text></svg>") no-repeat;
+    background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><text x='10' y='20' fill='rgb(255,255,255,0.3)' font-size='16'>****-*****-*****-*****</text></svg>") no-repeat;
 }
 /* Enter code prompt */
 #library-inventory-tab .h5-2RwDNl{
