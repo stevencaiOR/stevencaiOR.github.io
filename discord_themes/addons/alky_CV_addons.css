@@ -1761,8 +1761,12 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 
 /*thread dropdown thing*/
 /*thread list container background*/
-[class*="layerContainer-"] .browser-mnQ1T7.container-18GwIk {
-    background: rgb(0,0,0,0.8);
+[class*="layerContainer-"] .browser-mnQ1T7.container-18GwIk,
+.messagesPopoutWrap-3zryHW,
+.recentMentionsPopout-2bI1ZN {
+    background: #000;
+    border-radius: 8px;
+    border: 2px solid var(--main-color);
 }
 /*thread dropdown body stars*/
 .stars-3UP9-A{
@@ -1773,8 +1777,17 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
     line-height: 0;
 }
 .container-2c4_8A h2:after{
-    text-indent: 0px;
+    text-indent: 0;
     line-height: 30px;
     display: block;
     content: "No available threads.";
+}
+/*pinned messages dropwdown*/
+[aria-label="Pinned Messages"] [class*="emptyPlaceholder-"]:before{
+    content: "No pinned messages in this channel.";
+    color: var(--text-normal);
+}
+[aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="image-"],
+[aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="body-"]{
+    display: none;
 }
