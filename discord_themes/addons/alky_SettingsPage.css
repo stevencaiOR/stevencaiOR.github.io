@@ -973,6 +973,11 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
     display: none;
     /*Removes table headers in Invites section*/
 }
+[style*='background-image: url("/assets/9937df80bc9c58a3e67709f58402f4db.svg")'],
+[style*='background-image: url("/assets/9937df80bc9c58a3e67709f58402f4db.svg")']+div div{
+    display: none;
+    /*Removes unnecessary clutter*/
+}
 /*-----CHANNEL SETTINGS-----*/
 /* OVERVIEW */
 .channel-settings-overview img{
