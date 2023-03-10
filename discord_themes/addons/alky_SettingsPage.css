@@ -212,6 +212,20 @@
     border: 2px solid var(--main-color);
 }
 /* Nitro profile popout preview */
+#profile-customization-tab [class*="tryItOutSection-"] h3[class*="eyebrow-"]{
+    display: none;
+}
+#profile-customization-tab [class*="tryItOutSection-"] h3[data-text-variant="heading-xl/extrabold"]{
+    text-indent: -99999px;
+    line-height: 0;
+}
+#profile-customization-tab [class*="tryItOutSection-"] h3[data-text-variant="heading-xl/extrabold"]:after{
+    text-indent: 0;
+    line-height: 30px;
+    display: block;
+    content: "Nitro Preview";
+    text-shadow: 0 0 12px var(--main-color);
+}
 #profile-customization-tab [class*="premiumFeatureBorder-"]{
     border-color: var(--main-color);
 }
