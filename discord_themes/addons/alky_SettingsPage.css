@@ -212,7 +212,7 @@
     border: 2px solid var(--main-color);
 }
 /* Nitro profile popout preview */
-[style*='background-image: url("/assets/97ac61a0b98fd6f01b4de370c9ccdb56.png")']{
+#profile-customization-tab [class*="bannerUploaderInnerSquare-"]{
     background-image: var(--nitro-bg-image, url(https://cdn.uc.assets.prezly.com/915ca5cf-962e-41b0-9d11-76ba4da91ab7/-/resize/1108x/-/quality/best/-/format/auto/)) !important;
     background-position: 55% 15%;
     /*replaces image with something more appropriate*/
