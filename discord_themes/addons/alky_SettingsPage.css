@@ -532,6 +532,11 @@
 #nitro-server-boost-tab [class*="tier0Card-"] [data-text-variant="text-md/normal"]:before{
     content: "> ";
 }
+#nitro-server-boost-tab button{
+    background: #000;
+    border: 2px solid var(--main-color);
+    /*Learn More button*/
+}
 /* GIFT INVENTORY */
 #library-inventory-tab [class*="inputDefault-"]::placeholder{
     width: 0;
