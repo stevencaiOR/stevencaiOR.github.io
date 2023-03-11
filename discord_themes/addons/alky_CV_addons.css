@@ -388,14 +388,15 @@ div[class^="winButton"] {
 [aria-expanded="false"] > .folderIconWrapper-1oRIZr{
     background: rgb(var(--main-color-numerical), 0.4) !important;
 }
-/*-----PING TEXT-----*/
-div[id^="message-content"] > span.mention{
+/*-----INTERACTIVE TEXT-----*/
+div[id^="message-content"] > span.interactive,
+div[id^="message-content"] > .wrapper-1ZcZW-{
     background: rgb(var(--main-color-numerical), 0.2);
-    /*highlight box around pings*/
+    /*highlight box around interactive text*/
     color:var(--main-color);
-    /*text color of pings*/
+    /*text color of interactive text*/
     padding: 1px 4px;
-    /*extra vertical padding in ping box*/
+    /*extra vertical padding in interactive text box*/
 }
 /* MINIMIZE LONG USERNAME */
 .wrapper-1ZcZW-.mention.interactive {
