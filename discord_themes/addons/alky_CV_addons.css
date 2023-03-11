@@ -1711,8 +1711,8 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 /*random confetti stuff*/
 .cannonWrapper-2iHppQ,
 /*sparkle shit*/
-.sparkleStar-J6zUP3,
-.sparkle-20-Tko,
+[class*="sparkleStar-"],
+[class*="sparkle-"],
 /*some image thing*/
 .footerImage-2WsqiE
 {
