@@ -313,12 +313,12 @@
     line-height: 30px; /*initial won't always revert back to the original*/
 }
 /* Subscribe & Gift buttons in first box */
-#discord-nitro-tab [class*="settingsHero-"] [class*="buttonContainer-"] > button{
-    background: rgb(0,0,0);
+#discord-nitro-tab button{
+    background: rgb(0,0,0) !important;
     border: 2px solid;
 }
-#discord-nitro-tab [class*="settingsHero-"] [class*="buttonContainer-"] > button:hover{
-    background: rgb(0,0,0,0.85);
+#discord-nitro-tab button:hover{
+    background: rgb(0,0,0,0.85) !important;
 }
 #discord-nitro-tab button[class*="colorWhite-"]{
     border-color: var(--main-color) !important;
