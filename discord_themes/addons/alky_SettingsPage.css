@@ -320,7 +320,7 @@
 #discord-nitro-tab [class*="settingsHero-"] [class*="buttonContainer-"] > button:hover{
     background: rgb(0,0,0,0.85);
 }
-.appMount-2yBXZl .lookOutlined-3yKVGo.colorWhite-1H92hK.buttonWhite-hd8TaT{
+#discord-nitro-tab button[class*="colorWhite-"]{
     border-color: var(--main-color) !important;
     color: var(--main-color) !important;
 }
