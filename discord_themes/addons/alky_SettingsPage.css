@@ -295,7 +295,7 @@
 }
 /* Discord Nitro header in first box + the description box below it */
 #discord-nitro-tab [class*="settingsTextContainer-"] h2,
-#discord-nitro-tab [class*="settingsTextContainer-"] .text-lg-normal-1s-VnS{
+#discord-nitro-tab [class*="settingsTextContainer-"] [data-text-variant="text-lg/normal"]S{
     background: rgb(0,0,0,0.9);
     padding: 10px;
     border-radius: 10px;
