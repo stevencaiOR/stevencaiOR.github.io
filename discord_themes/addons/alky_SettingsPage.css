@@ -990,7 +990,11 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 [class*="creatorBenefitsContainer-"] > div:not(:first-child) [data-text-variant="text-md/normal"]{
     max-width: 100%;
 }
-/* USER MANAGEMENT PAGES (Members & Invites) 
+/* USER MANAGEMENT PAGES (Members & Invites) */
+.customScroller-m1-jZn > .content-yjf30S{
+    max-width: calc(100% - 137px);
+}
+/*
 .customScroller-m1-jZn > .content-yjf30S{
     max-width: calc(100% - 137px);
     display: grid;
