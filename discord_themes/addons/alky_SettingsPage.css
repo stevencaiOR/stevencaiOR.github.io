@@ -436,7 +436,6 @@
 #discord-nitro-tab [class*="bottomIllustration-"]{
     display: none;
 }
-
 /* SERVER BOOST */
 /* Pink diamond with wings or hands */
 #nitro-server-boost-tab .marketingLogoImage-3evgX7,
@@ -454,13 +453,13 @@
     line-height: 0;
 }
 /* Nitro marketing header */
-#nitro-server-boost-tab .marketingHeader-CpUYrf:after{
+#nitro-server-boost-tab [class*="marketingHeader-"]{
     text-indent: 0px;
     line-height: 24px;
     display: block;
     content: "Boost a server up to 3 levels to unlock additional perks for all members.";
 }
-#nitro-server-boost-tab .marketingHeader-CpUYrf+div{
+#nitro-server-boost-tab [class*="marketingHeader-"]+div{
     display: none;
 }
 /* Server boost badge description */
@@ -510,13 +509,14 @@
     right: 180px;
 }
 /* Replaces "Boosted servers can get" icons with bullet points*/
-#nitro-server-boost-tab .featureHeader-3aMbm3+div svg.icon-1Z47rO {
+
+#nitro-server-boost-tab [class*="featureHeader-"]+div svg{
     color: transparent;
 }
-#nitro-server-boost-tab .featureHeader-3aMbm3+div svg.icon-1Z47rO{
+#nitro-server-boost-tab [class*="featureHeader-"]+div svg{
     background-color: var(--header-primary);
     border-radius: 50%;
-    margin-top: 10px;
+    margin-top: 5px;
     height: 12px;
     width: 12px;
 }
@@ -592,6 +592,7 @@
     left: 4890px;
     top: 18px;
     line-height: 18px;
+    color: var(--white-500);
 }
 #billing-tab .codeRedemptionRedirect-2hYMSQ > a:after{
     content: ".";
