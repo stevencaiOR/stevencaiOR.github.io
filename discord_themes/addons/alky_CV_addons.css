@@ -885,7 +885,12 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     display: inline-block;
     /*adjust display of role dot in system messages*/
 }
-/* NEW MEMBER BADGE*/
+/* PPL MOE PRONOUNS */
+.ppl-moe-pronouns{
+    position: relative;
+    bottom: calc(0.4*var(--chat-box-username-height, 1.375rem));
+}
+/* NEW MEMBER BADGE */
 .newMemberBadge-3PdStX{
     line-height: var(--chat-box-username-height, 1.375rem);
     height: var(--chat-box-username-height, 1.375rem);
