@@ -835,6 +835,12 @@
 #roles-tab [class*="bannerContainer-"]{
     display: none;
 }
+#roles-tab [class*="page-"]{
+    max-width: 100%
+}
+#roles-tab [class*="page-"] [class*="contentWidth-"]{
+    max-width: calc(100% - 57px);
+}
 /* EMOJI */
 #emoji-tab .emojiUploadUploadRequirementsList-1loAvP li:nth-child(2) div{
     height: 8px;
