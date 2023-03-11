@@ -481,35 +481,31 @@
     text-indent: -9999px;
     line-height: 0px;
 }
-#nitro-server-boost-tab .guildFullFeatures-2jRvaJ > a{
-    text-indent: 0px;
-    line-height: 20px;
-  
-    /*really scuffed lol*/
-    position: relative;
-    left: 10040px;
-    top: 20px;
-}
 #nitro-server-boost-tab .guildFullFeatures-2jRvaJ:after{
     text-indent: 0px;
     line-height: 20px;
     display: block;
     content: "Access a complete list of all server perks here: ";
 }
-/* Nitro deal header */
-#nitro-server-boost-tab .content-2t8mBc .wrapper-3Zq_cJ h3{
-    color: transparent;
-}
-#nitro-server-boost-tab .content-2t8mBc .wrapper-3Zq_cJ h3:after{
-    color: var(--header-primary);
-    content: "Nitro Deals";
-    text-align: center;
-  
+#nitro-server-boost-tab .guildFullFeatures-2jRvaJ > a{
+    text-indent: 0px;
+    line-height: 20px;
     position: relative;
-    right: 180px;
+    left: 10040px;
+    top: 20px;
+}
+/* Nitro deal header */
+#nitro-server-boost-tab [class*="tier0Container-"] > h3{
+    text-indent: -99999px;
+    line-height: 0;
+}
+#nitro-server-boost-tab [class*="tier0Container-"] > h3:after{
+    content: "Nitro Deals";
+    text-indent: 0;
+    line-height: 40px;
+    display: block;
 }
 /* Replaces "Boosted servers can get" icons with bullet points*/
-
 #nitro-server-boost-tab [class*="featureHeader-"]+div svg{
     color: transparent;
 }
