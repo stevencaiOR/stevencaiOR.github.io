@@ -832,6 +832,9 @@
 #roles-tab .container-3EtAkD > div.icon-2DGsye{
     background: transparent;
 }
+#roles-tab [class*="bannerContainer-"]{
+    display: none;
+}
 /* EMOJI */
 #emoji-tab .emojiUploadUploadRequirementsList-1loAvP li:nth-child(2) div{
     height: 8px;
