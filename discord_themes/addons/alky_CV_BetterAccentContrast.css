@@ -16,24 +16,20 @@
 }
 */
 
-.lookFilled-yCfaCM.colorGrey-2iAG-B,
-.lookFilled-yCfaCM.colorBrand-I6CyqQ,
-.lookFilled-yCfaCM.colorGreen-3y-Z79,
-.lookFilled-yCfaCM.colorBrandNew-g5lmBU,
-.lookFilled-yCfaCM.colorBrandNew-2-gGsS,
-.lookFilled-yCfaCM.colorPrimary-2AuQVo,
+
 .buttonColor-1u-3JF,
 
 .theme-dark .pageButton-1GMGeJ.activeButton-LRWFC_,
 /* generic sticker selected in sticker picker*/
 .stickerCategoryGenericSelected-DnO2K8,
 /* buttons */
-.lookFilled-yCfaCM.colorRed-rQXKgM,
+button[class*="lookFilled-"].colorRed-rQXKgM,
 button[class*="lookFilled-"][class*="colorGrey-"],
 button[class*="lookFilled-"][class*="colorBrand-"],
-button[class*="lookFilled-"][class*="colorGreen-"],
-.lookFilled-yCfaCM.colorBrandNew-2-gGsS,
-.lookFilled-yCfaCM.colorPrimary-2AuQVo,
+:not(.wrapper-1HIH0j) > * > button[class*="lookFilled-"][class*="colorGreen-"],
+button[class*="lookFilled-"].colorBrandNew-2-gGsS,
+button[class*="lookFilled-"].colorBrandNew-g5lmBU,
+button[class*="lookFilled-"].colorPrimary-2AuQVo,
 /* new message bar in chat box */
 #---new-messages-bar .unreadPill-3nEWYM,
 [class^="newMessagesBar-"] button,
