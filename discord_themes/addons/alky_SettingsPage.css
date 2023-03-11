@@ -430,10 +430,13 @@
     display: block;
     content: "Nitro Plans";
 }
-/*removes marketing crap over "better" nitro*/
-#discord-nitro-tab [class*="tier2ColumnOuter-"]{
+/*Nitro column in Nitro Plans*/
+#discord-nitro-tab [class*="tier2ColumnOuter-"],
+/*Random frog at the bottom*/
+#discord-nitro-tab [class*="bottomIllustration-"]{
     display: none;
 }
+
 /* SERVER BOOST */
 /* Pink diamond with wings or hands */
 #nitro-server-boost-tab .marketingLogoImage-3evgX7,
