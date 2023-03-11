@@ -987,7 +987,7 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 [class*="creatorBenefitsContainer-"] > div:not(:first-child) [data-text-variant="text-md/normal"]{
     max-width: 100%;
 }
-/* USER MANAGEMENT PAGES (Members & Invites) */
+/* USER MANAGEMENT PAGES (Members & Invites) 
 .customScroller-m1-jZn > .content-yjf30S{
     max-width: calc(100% - 137px);
     display: grid;
@@ -1001,8 +1001,8 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
     right: 100%;
     width: 200%;
     top: 60px;
-}
-/* INVITES */
+}*/
+/* INVITES 
 [class*="inviteSettingsInviteRow-"]{
     --inviteSettingsInviteRow-width: 95%;
     width: var(--inviteSettingsInviteRow-width);
@@ -1021,11 +1021,11 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 [class*="inviteSettingsInviteRow-"] [class*="revokeInvite-"]{
     right: 5px;
     top: 5px;
-}
+}*//*
 .customScroller-m1-jZn > .content-yjf30S [class*="headerSection-"] > :last-child > h3{
     display: none;
-    /*Removes table headers in Invites section*/
-}
+    Removes table headers in Invites section
+}*/
 [style*='background-image: url("/assets/9937df80bc9c58a3e67709f58402f4db.svg")'],
 [style*='background-image: url("/assets/9937df80bc9c58a3e67709f58402f4db.svg")']+div div{
     display: none;
