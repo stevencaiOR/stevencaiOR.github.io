@@ -347,8 +347,26 @@
 #discord-nitro-tab [class*="PerkCard-"] img{
     display: none;
 }
+#discord-nitro-tab [class*="perksContainer-"]{
+    max-width: 80%;
+}
+#discord-nitro-tab [class*="bigPerkCardContainer-"],
+#discord-nitro-tab [class*="smallPerkCardContainer-"]{
+    grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+}
+/*Nitro Perks Box Size Adjustments*/
 #discord-nitro-tab [class*="bigPerkCard-"] {
     padding: 0;
+}
+#discord-nitro-tab [class*="smallPerkCard-"]{
+    padding: 12px 24px 24px 24px;
+}
+#discord-nitro-tab [class*="bigPerkCard-"] [class*="bigPerkCardHeading-"]{
+    margin-bottom: 30px;
+}
+#discord-nitro-tab [class*="bigPerkCard-"] [class*="bigPerkCardHeading-"]:after{
+    font-size: 20px;
+    line-height: 24px;
 }
 /*Nitro Perks Text Adjustments*/
 #discord-nitro-tab [class*="bigPerkCard-"] [class*="bigPerkCardHeading-"],
