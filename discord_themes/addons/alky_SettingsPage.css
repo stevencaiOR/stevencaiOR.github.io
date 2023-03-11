@@ -521,10 +521,16 @@
     /*removes hand with wing thing*/
 }
 /* Nitro deal box */
-#nitro-server-boost-tab .wrapper-3Zq_cJ{
+#nitro-server-boost-tab [class*="tier0Card-"]{
     background: rgb(0,0,0,0.5);
     border: 2px solid var(--main-color);
     border-radius: 15px;
+}
+#nitro-server-boost-tab [class*="tier0Card-"] svg{
+    display: none;
+}
+#nitro-server-boost-tab [class*="tier0Card-"] [data-text-variant="text-md/normal"]:before{
+    content: "> ";
 }
 /* GIFT INVENTORY */
 #library-inventory-tab [class*="inputDefault-"]::placeholder{
