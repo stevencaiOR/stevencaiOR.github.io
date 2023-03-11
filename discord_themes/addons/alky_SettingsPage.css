@@ -289,13 +289,13 @@
 /* NITRO */
 /* Modified background image */
 #discord-nitro-tab [class*="settingsContainer"]{
-    width: 70%;
+    width: 80%;
     background: var(--nitro-bg-image, url(https://i.gyazo.com/2476b02172cbe8abf983110120745998.png)) var(--nitro-bg-pos) no-repeat;
     background-size: cover;
 }
 /* Discord Nitro header in first box + the description box below it */
 #discord-nitro-tab [class*="settingsTextContainer-"] h2,
-#discord-nitro-tab [class*="settingsTextContainer-"] [data-text-variant="text-lg/normal"]S{
+#discord-nitro-tab [class*="settingsTextContainer-"] [data-text-variant="text-lg/normal"]{
     background: rgb(0,0,0,0.9);
     padding: 10px;
     border-radius: 10px;
@@ -312,7 +312,7 @@
     display: block;
     line-height: 30px; /*initial won't always revert back to the original*/
 }
-/* Subscribe & Gift buttons in first box */
+/* Buttons */
 #discord-nitro-tab button{
     background: rgb(0,0,0) !important;
     border: 2px solid;
