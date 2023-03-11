@@ -785,15 +785,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     position: absolute;
     top: calc(0.5*(var(--chat-box-username-height, 1.375rem) - 1.375rem));
 }
-.headerText-2z4IhQ .svg-26OBgk.roleDot-PzIfeF{
-    position: relative;
-}
-.headerText-2z4IhQ .svg-26OBgk.roleDot-PzIfeF{
-    bottom: 1.25rem;
-}
-[aria-label="Pinned Messages"] .headerText-2z4IhQ .svg-26OBgk.roleDot-PzIfeF{
-    bottom: 0.625rem;
-}
 /* LARGER PROFILE PIC IN CHAT BOX */
 .message-2CShn3.cozy-VmLDNB .contents-2MsGLg img.avatar-2e8lTP,
 .message-2CShn3.cozy-VmLDNB > .repliedMessage-3Z6XBG,
@@ -885,7 +876,8 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     display: inline-block;
     /*adjust display of role dot in system messages*/
 }
-/* PPL MOE PRONOUNS */
+/*adjust position of role dots and pronouns in chat box*/
+.headerText-2z4IhQ .svg-26OBgk.roleDot-PzIfeF,
 .ppl-moe-pronouns{
     position: relative;
     bottom: calc(0.4*var(--chat-box-username-height, 1.375rem));
@@ -1795,4 +1787,7 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 [aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="image-"],
 [aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="body-"]{
     display: none;
+}
+[aria-label="Pinned Messages"] .headerText-2z4IhQ .svg-26OBgk.roleDot-PzIfeF{
+    bottom: 0.625rem;
 }
