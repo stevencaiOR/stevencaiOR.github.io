@@ -602,29 +602,29 @@
     content: "You have no gifts in your inventory.";
 }
 /* BILLING */
-#billing-tab .codeRedemptionRedirect-2hYMSQ{
+#billing-tab [class*="codeRedemptionRedirect-"]{
     text-indent: -9999px;
     line-height: 0px;
-  
     text-align: center;
+    height: 54px;
 }
-#billing-tab .codeRedemptionRedirect-2hYMSQ:after{
+#billing-tab [class*="codeRedemptionRedirect-"]:after{
     text-indent: 0px;
     line-height: initial;
     display: block;
     content: "Discord keys are now located in ";
-  
     position: relative;
     right: 72px;
+    bottom: 17px;
 }
-#billing-tab .codeRedemptionRedirect-2hYMSQ > a{
+#billing-tab [class*="codeRedemptionRedirect-"] a{
     position: relative;
     left: 4890px;
-    top: 18px;
+    top: 0;
     line-height: 18px;
     color: var(--white-500);
 }
-#billing-tab .codeRedemptionRedirect-2hYMSQ > a:after{
+#billing-tab [class*="codeRedemptionRedirect-"] > a:after{
     content: ".";
 }
 /* APPEARANCE */
