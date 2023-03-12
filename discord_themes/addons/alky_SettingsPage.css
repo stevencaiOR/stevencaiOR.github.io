@@ -563,6 +563,10 @@
     /*Learn More button*/
 }
 /* GIFT INVENTORY */
+[aria-label="User Settings"] [aria-label="Gift Inventory"]{
+    position: relative;
+    right: 5px;
+}
 #library-inventory-tab [class*="inputDefault-"]::placeholder{
     width: 0;
 }
@@ -721,11 +725,6 @@
 /* KEYBINDS */
 #keybinds-tab .image-20MDYu{
     display: none;
-}
-/* REGISTERED GAMES */
-[class^="layer"][id^="popout_"] > [class^="popout"] > div[class^="content-"][role="listbox"] > li[class^="option"]:last-child:hover{
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
 }
 /* LANGUAGE */
 #language-tab [role="radiogroup"]{
