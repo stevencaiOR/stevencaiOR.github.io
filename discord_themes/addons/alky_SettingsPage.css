@@ -38,7 +38,7 @@
 #app-mount .sidebarRegion-1VBisG .separator-2wx7h6{
     height: 0;
 }
-/* IMPROVED WHITESPACE USAGE */
+/* IMPROVED WHITE SPACE USAGE */
 #app-mount .standardSidebarView-E9Pc3j{
     --setting-sidebar-width: 260px;
 }
@@ -59,6 +59,31 @@
 }
 #app-mount .contentColumn-1C7as6{
   padding: 60px 60px 80px 20px;
+}
+/* Column creation (Roles, Members and Invites tabs) */
+.customScroller-m1-jZn > .content-yjf30S{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.customScroller-m1-jZn > .content-yjf30S > :nth-child(2){
+    width: 200%;
+}
+.customScroller-m1-jZn > .content-yjf30S > [class*="roleRow-"]{
+    width: 100%;
+}
+.customScroller-m1-jZn > .content-yjf30S > [class*="member-"],
+.customScroller-m1-jZn > .content-yjf30S > [class*="inviteSettingsInviteRow-"]{
+    width: 50%;
+}
+.customScroller-m1-jZn > .content-yjf30S > [class*="inviteSettingsInviteRow-"]{
+    height: fit-content;
+    padding: 16px 0;
+}
+.customScroller-m1-jZn > .content-yjf30S > [class*="inviteSettingsInviteRow-"]:nth-child(2n + 1):last-child{
+    flex-grow: 0.5 !important;
+    flex-basis: 0 !important;
 }
 /* SIDEBAR TABS */
 .sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:hover{
@@ -1001,46 +1026,15 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 #roles-tab [class*="section-"]{
     max-width: calc(100% - 137px);
 }
-/* USER MANAGEMENT PAGES (Members & Invites) */
-/*
-.customScroller-m1-jZn > .content-yjf30S{
-    max-width: calc(100% - 137px);
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-.customScroller-m1-jZn > .content-yjf30S > [class*="member-"]{
-    height: fit-content;
-}
-.customScroller-m1-jZn > .content-yjf30S > :nth-child(2){
-    position: relative;
-    right: 100%;
-    width: 200%;
-    top: 60px;
-}*/
-/* INVITES 
-[class*="inviteSettingsInviteRow-"]{
-    --inviteSettingsInviteRow-width: 95%;
-    width: var(--inviteSettingsInviteRow-width);
-    bottom: 60px;
-}
-[class*="inviteSettingsInviteRow-"]:nth-child(3):last-child{
-    bottom: 28px;
-}
-[class*="inviteSettingsInviteRow-"]:nth-child(2n + 1){
-    border-right: thin solid var(--background-modifier-accent);
-    padding-right: calc(2*(100% - var(--inviteSettingsInviteRow-width)));
-}
-[class*="inviteSettingsInviteRow-"]:nth-child(2n){
-    left: calc(100% - var(--inviteSettingsInviteRow-width));
-}
+/* INVITES */
 [class*="inviteSettingsInviteRow-"] [class*="revokeInvite-"]{
     right: 5px;
-    top: 5px;
-}*//*
+    top: 0;
+}
 .customScroller-m1-jZn > .content-yjf30S [class*="headerSection-"] > :last-child > h3{
     display: none;
-    Removes table headers in Invites section
-}*/
+    /*Removes table headers in Invites section*/
+}
 [style*='background-image: url("/assets/9937df80bc9c58a3e67709f58402f4db.svg")'],
 [style*='background-image: url("/assets/9937df80bc9c58a3e67709f58402f4db.svg")']+div div{
     display: none;
