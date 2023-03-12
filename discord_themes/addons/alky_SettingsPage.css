@@ -742,16 +742,8 @@
     }
     /*radiogroup widths on smaller windows*/
 }
-#language-tab .item-2idW98 {
+#language-tab [class*="item-"] {
     margin-right: 18px;
-}
-#language-tab .item-2idW98 .info-2FZci4{
-    --line-height: 18px;
-    height: calc(2 * var(--line-height, 20px));
-}
-#language-tab .item-2idW98 .text-md-medium-2avxhQ,
-#language-tab .item-2idW98 .localizedName-wPJ5qZ{
-    line-height: var(--line-height, 20px);
 }
 /* SETTINGS, PLUGINS & THEMES*/
 /* Toggle buttons */
