@@ -878,13 +878,16 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     /*adjust display of role dot in system messages*/
 }
 /*adjust position of role dots and pronouns in chat box*/
+.headerText-2z4IhQ .svg-26OBgk.roleDot-PzIfeF,
+.ppl-moe-pronouns{
+    position: relative;
+}
 .headerText-2z4IhQ .svg-26OBgk.roleDot-PzIfeF{
     bottom: calc(0.2*var(--chat-box-username-height, 1.375rem));
     /*this outside chat box but whatevs*/
 }
 [class*="messageListItem-"] .headerText-2z4IhQ .svg-26OBgk.roleDot-PzIfeF,
 .ppl-moe-pronouns{
-    position: relative;
     bottom: calc(0.4*var(--chat-box-username-height, 1.375rem));
 }
 /* NEW MEMBER BADGE */
