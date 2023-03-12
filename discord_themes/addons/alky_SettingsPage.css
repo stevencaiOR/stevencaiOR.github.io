@@ -726,6 +726,10 @@
 #keybinds-tab .image-20MDYu{
     display: none;
 }
+/* REGISTERED GAMES */
+#game-activity-tab [class*="image-"]{
+    display: none;
+}
 /* LANGUAGE */
 #language-tab [role="radiogroup"]{
     display: grid;
