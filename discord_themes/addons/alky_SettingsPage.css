@@ -944,6 +944,15 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
     padding-left: 20px !important;
     /*adjust text in sidebar item*/
 }
+[class*="creatorBenefitCard-"],
+[class*="howItWorksContainer-"],
+[class*="settingsContent-"] [class*="guildCard-"],
+[class*="settingsContainer-"] main[class*="settingsColumn-"] [class*="ctaContainer-"] [class*="ctaContent-"]{
+    border: 3px solid var(--main-color);
+    border-radius: 10px;
+    background: #000;
+    /*matches box with theme*/
+}
 /* Maximize white space utilization */
 [class*="settingsContainer-"] main[class*="settingsColumn-"]{
     max-width: calc(100% - 55px);
@@ -955,12 +964,6 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 [class*="settingsContainer-"] main[class*="settingsColumn-"] [class*="ctaContainer-"] [class*="heroBanner-"]{
     display: none;
     /* Removes annoyingly large banner image */
-}
-[class*="settingsContainer-"] main[class*="settingsColumn-"] [class*="ctaContainer-"] [class*="ctaContent-"]{
-    border: 3px solid var(--main-color);
-    border-radius: 10px;
-    background: #000;
-    /* Matches box with theme */
 }
 [class*="settingsContainer-"] main[class*="settingsColumn-"] [class*="ctaContainer-"] [class*="ctaContent-"] [data-text-variant="text-md/normal"],
 [class*="settingsContainer-"] main[class*="settingsColumn-"] [class*="ctaContainer-"] [class*="ctaContent-"] [class*="horizontalStatusWarningBlock-"] [data-text-variant="text-sm/normal"]
@@ -1009,7 +1012,13 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
     position: relative;
     top: 28px;
 }
+[class*="howItWorksCard-"]{
+    background:rgb(46, 54, 56);
+}
 /* Benefits for Creators Box */
+.avatarGridContainer-22t8mw{
+    grid-template-columns: repeat(4,1fr);
+}
 [class*="creatorBenefitsContainer-"]{
     display: flex;
     flex-direction: column;
@@ -1019,6 +1028,47 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 }
 [class*="creatorBenefitsContainer-"] > div:not(:first-child) [data-text-variant="text-md/normal"]{
     max-width: 100%;
+}
+.avatarCard-1N47yx {
+    background: #888;
+    /*border: 4px solid var(--main-color);*/
+    box-shadow: 0 0 8px var(--main-color);
+}
+/* Text Adjusment (in Benefits for Creators) */
+[class*="earningsPreviewContainer-"] > div {
+    text-align: center;
+    width: 100%;
+}
+[class*="earningsPreviewContainer-"] [data-text-variant="text-sm/normal"]{
+    text-indent: -99999px;
+    line-height: 0;
+}
+[class*="earningsPreviewContainer-"] [data-text-variant="text-sm/normal"]:after{
+    content: "4 new subs detected";
+    line-height: 18px;
+    display: block;
+    text-indent: 0;
+}
+/* Avatar Replacement (in Benefits for Creators) */
+[class*="creatorBenefitsContainer-"] [class*="roundAvatar-"]{
+    width: 0;
+}
+.avatarCard-1N47yx .verticalConnector-1VgFOw:after{
+    content: "";
+    content: url(https://i.imgur.com/R2KrzAT.png);
+    height: 42px;
+    width: 42px;
+    display: inline-block;
+    background-size: cover;
+    transform: scale(0.1);
+
+    position: relative;
+    right: 42px;
+    top: 18px;
+}
+.avatarCard-1N47yx:nth-child(3) .verticalConnector-1VgFOw:after,
+.avatarCard-1N47yx:nth-child(4) .verticalConnector-1VgFOw:after{
+    top: 6px;
 }
 /* WHITE SPACE UTILIZATION IMPROVEMENT */
 .customScroller-m1-jZn > .content-yjf30S,
