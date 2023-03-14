@@ -626,14 +626,14 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     width: 17px;
     /*fix system message thing within reply context message*/
 }
+.message-2CShn3 h3 [class*="username-"]{
+    vertical-align: middle;
+    /*aligns username with timestamp, role dot, and/or message when line-height is NOT 1.375rem*/
+}
 /* COMPACT MODE */
 .message-2CShn3[class*="compact-"] [class*="messageContent-"]{
     line-height: var(--chat-box-username-height);
     /*matches line-height to .username-h_Y3Us, as it is by default*/
-}
-.message-2CShn3[class*="compact-"] h3 [class*="username-"]{
-    vertical-align: middle;
-    /*aligns username with rest of message when line-height is NOT 1.375rem*/
 }
 /* CHANNEL NAME */
 .container-1yy5xN .heading-xxl-medium-1hl0GL {
