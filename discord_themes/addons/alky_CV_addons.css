@@ -855,10 +855,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     line-height: var(--chat-box-username-height, 1.375rem);
     /*line height of username*/
 }
-.message-2CShn3:not(.systemMessage-1H1Z20) .contents-2MsGLg .header-2jRmjb{
-    top: 0.15rem;
-    /*adjust position of element containing username + timestamp*/
-}
 .message-2CShn3.cozy-VmLDNB .contents-2MsGLg > .header-2jRmjb .timestamp-p1Df1m,
 .message-2CShn3 .contents-2MsGLg .svg-1OUcya.roleDot-PzIfeF{
     position: relative;
