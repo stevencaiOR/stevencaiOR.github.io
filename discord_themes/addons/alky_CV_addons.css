@@ -627,7 +627,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     /*fix system message thing within reply context message*/
 }
 /* COMPACT MODE */
-.compact-2Nkcau .markup-eYLPri.messageContent-2t3eCI{
+.message-2CShn3[class*="compact-"] [class*="messageContent-"]{
     line-height: var(--chat-box-username-height);
 }
 [class*="messageListItem-"] .message-2CShn3[class*="compact-"] h3 [class*="username-"]{
