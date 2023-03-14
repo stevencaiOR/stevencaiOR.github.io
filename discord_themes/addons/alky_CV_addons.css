@@ -754,12 +754,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     line-height: var(--chat-box-username-height, 1.375rem);
     /*line height of username*/
 }
-.message-2CShn3.cozy-VmLDNB .contents-2MsGLg > .header-2jRmjb .timestamp-p1Df1m,
-.message-2CShn3 .contents-2MsGLg .svg-1OUcya.roleDot-PzIfeF{
-    position: relative;
-    bottom: calc(0.375*var(--chat-box-username-height, 1.375rem));
-    /*reposition timestamp and role dot based on username height*/
-}
 .message-2CShn3.cozy-VmLDNB:not(.systemMessage-1H1Z20) .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB){
     position: relative;
     bottom: calc(0.125*(var(--chat-box-username-height, 1.375rem) - 1.375rem));
@@ -768,19 +762,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 .systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI .anchorUnderlineOnHover-2qPutX span[aria-label][aria-hidden]{
     display: inline-block;
     /*adjust display of role dot in system messages*/
-}
-/*Adjust badge and role dot position for non-compact messages */
-[class*="cozyMessage-"] .headerText-2z4IhQ .svg-26OBgk.roleDot-PzIfeF,
-[class*="cozyMessage-"] .ppl-moe-pronouns{
-    position: relative;
-}
-[class*="cozyMessage-"] .headerText-2z4IhQ .svg-26OBgk.roleDot-PzIfeF{
-    bottom: calc(0.2*var(--chat-box-username-height, 1.375rem));
-    /*this outside chat box but whatevs*/
-}
-[class*="messageListItem-"] [class*="cozyMessage-"] .headerText-2z4IhQ .svg-26OBgk.roleDot-PzIfeF,
-[class*="cozyMessage-"] .ppl-moe-pronouns{
-    bottom: calc(0.4*var(--chat-box-username-height, 1.375rem));
 }
 /* NEW MEMBER BADGE */
 .newMemberBadge-3PdStX{
