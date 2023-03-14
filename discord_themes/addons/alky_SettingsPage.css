@@ -726,6 +726,42 @@
 #keybinds-tab .image-20MDYu{
     display: none;
 }
+/* 2 Columns */
+[class*="defaultKeybindGroup-"]{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+[class*="defaultKeybindGroup-"] > h3,
+[class*="defaultKeybindGroup-"] > :nth-child(2){
+    width: 50%;
+}
+[class*="defaultKeybindGroup-"] [class*="divider-"]{
+    position: relative;
+    left: 99999px;
+}
+[class*="defaultKeybindGroup-"] [class*="divider-"]:not(:nth-child(2)){
+    display: none;  
+}
+[class*="defaultKeybindGroup-"] > :nth-child(2):not([class*="divider-"]){
+    position: relative;
+    top: 1.2rem;
+    text-indent: -100%;
+}
+[class*="defaultKeybindGroup-"] [class*="defaultKeybind-"]{
+    width: 47.5%;
+    min-height: 80px;
+    height: fit-content;
+}
+[class*="defaultKeybindGroup-"]:nth-child(3)  [class*="defaultKeybind-"]:nth-child(4n + 2),
+[class*="defaultKeybindGroup-"]:nth-child(4)  [class*="defaultKeybind-"]:nth-child(4n + 1),
+[class*="defaultKeybindGroup-"]:nth-child(5)  [class*="defaultKeybind-"]:nth-child(4n + 2),
+[class*="defaultKeybindGroup-"]:nth-child(6)  [class*="defaultKeybind-"]:nth-child(4n + 1),
+[class*="defaultKeybindGroup-"]:nth-child(7)  [class*="defaultKeybind-"]:nth-child(4n + 1),
+[class*="defaultKeybindGroup-"]:last-child  [class*="defaultKeybind-"]:nth-child(5){
+    position: relative;
+    left: 5%;
+}
 /* REGISTERED GAMES */
 #game-activity-tab [class*="image-"]{
     display: none;
