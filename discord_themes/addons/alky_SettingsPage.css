@@ -551,12 +551,6 @@
     border: 2px solid var(--main-color);
     border-radius: 15px;
 }
-#nitro-server-boost-tab [class*="tier0Card-"] svg{
-    display: none;
-}
-#nitro-server-boost-tab [class*="tier0Card-"] [data-text-variant="text-md/normal"]:before{
-    content: "> ";
-}
 #nitro-server-boost-tab button{
     background: #000;
     border: 2px solid var(--main-color);
@@ -1120,6 +1114,7 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 .avatarCard-1N47yx:nth-child(4) .verticalConnector-1VgFOw:after{
     top: 6px;
 }
+/* SERVER BOOST STATUS */
 /* WHITE SPACE UTILIZATION IMPROVEMENT */
 .customScroller-m1-jZn > .content-yjf30S,
 #roles-tab [class*="section-"]{
@@ -1138,6 +1133,15 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 [style*='background-image: url("/assets/9937df80bc9c58a3e67709f58402f4db.svg")']+div div{
     display: none;
     /*Removes unnecessary clutter*/
+}
+/* TIER ZERO CARD BULLET POINTS */
+#guild_premium-tab [class*="tier0Card-"] svg,
+#nitro-server-boost-tab [class*="tier0Card-"] svg{
+    display: none;
+}
+#guild_premium-tab [class*="tier0Card-"] [data-text-variant="text-md/normal"]:before,
+#nitro-server-boost-tab [class*="tier0Card-"] [data-text-variant="text-md/normal"]:before{
+    content: "> ";
 }
 /*-----CHANNEL SETTINGS-----*/
 /* OVERVIEW */
