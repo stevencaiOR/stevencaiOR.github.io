@@ -668,6 +668,13 @@
     line-height: var(--message-content-line-height);
     display: block;
 }
+#appearance-tab [class*="compact-"] #message-content-0,
+[class*="compact-"] #message-content-1,
+[class*="compact-"] #message-content-2,
+[class*="compact-"] #message-content-3,
+[class*="compact-"] #message-content-4{
+    overflow: visible;
+}
 #appearance-tab [class*="compact-"] #message-content-0:after,
 [class*="compact-"] #message-content-1:after,
 [class*="compact-"] #message-content-2:after,
