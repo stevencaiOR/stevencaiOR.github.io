@@ -630,6 +630,9 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 .compact-2Nkcau .markup-eYLPri.messageContent-2t3eCI{
     line-height: var(--chat-box-username-height);
 }
+.message-2CShn3.compact-2Nkcau .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
+    top: calc(0.475*(var(--chat-box-username-height, 1.375rem) - 1rem) + 0.175rem);
+}
 /* CHANNEL NAME */
 .container-1yy5xN .heading-xxl-medium-1hl0GL {
     line-height: 50px;
