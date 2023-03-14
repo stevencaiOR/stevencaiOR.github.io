@@ -673,7 +673,7 @@
 [class*="compact-"] #message-content-2:after,
 [class*="compact-"] #message-content-3:after,
 [class*="compact-"] #message-content-4:after{
-    line-height: var(--message-content-line-height);
+    line-height: var(--chat-box-username-height);
 }
 #appearance-tab #message-content-0:after{
     content: "Alpha bravo charlie delta echo foxtrot";
