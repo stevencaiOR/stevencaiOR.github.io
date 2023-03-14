@@ -631,7 +631,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     line-height: var(--chat-box-username-height);
 }
 [class*="messageListItem-"] .message-2CShn3[class*="compact-"] h3 [class*="username-"]{
-    top: calc(0.475*(var(--chat-box-username-height, 1.375rem) - 1rem) + 0.175rem);
+    vertical-align: middle;
 }
 /* CHANNEL NAME */
 .container-1yy5xN .heading-xxl-medium-1hl0GL {
