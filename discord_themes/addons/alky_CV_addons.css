@@ -630,7 +630,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 .message-2CShn3[class*="compact-"] [class*="messageContent-"]{
     line-height: var(--chat-box-username-height);
 }
-[class*="messageListItem-"] .message-2CShn3[class*="compact-"] h3 [class*="username-"]{
+.message-2CShn3[class*="compact-"] h3 [class*="username-"]{
     vertical-align: middle;
 }
 /* CHANNEL NAME */
