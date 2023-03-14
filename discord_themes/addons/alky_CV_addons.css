@@ -758,7 +758,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     bottom: calc(0.375*var(--chat-box-username-height, 1.375rem));
     /*reposition timestamp and role dot based on username height*/
 }
-.message-2CShn3:not(.systemMessage-1H1Z20) .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB){
+.message-2CShn3.cozy-VmLDNB:not(.systemMessage-1H1Z20) .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB){
     position: relative;
     bottom: calc(0.125*(var(--chat-box-username-height, 1.375rem) - 1.375rem));
     /*reposition messages based on username height*/
