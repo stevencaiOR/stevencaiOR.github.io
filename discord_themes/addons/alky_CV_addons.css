@@ -626,7 +626,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     width: 17px;
     /*fix system message thing within reply context message*/
 }
-/*Message action button*/
+/*Message action button
 [class*="button-"][aria-label="View Raw(L) Copy Raw(R)" i],
 [class*="button-"][aria-label="copy link" i],
 [class*="button-"][aria-label="copy id" i],
@@ -728,7 +728,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 }
 [class*="button-"][aria-label="Add Reaction" i]:after{
     content: "[Rxn]"
-}
+}*/
 /* COMPACT MODE */
 .compact-2Nkcau .markup-eYLPri.messageContent-2t3eCI{
     line-height: calc(var(--message-content-line-height) + 0.25rem);
