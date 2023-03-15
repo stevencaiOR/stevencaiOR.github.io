@@ -983,6 +983,9 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 [style*='background-image: url("/assets/8f841811896e9d1eefcd13bcdaca9579.svg")']{
     display: none;
 }
+[style*='background-image: url("/assets/8f841811896e9d1eefcd13bcdaca9579.svg")']+div [class*="text-"]{
+    display: none;
+}
 /* SERVER SUBSCRIPTIONS*/
 .sidebar-nqHbhN .item-2GWPIy.selected-1sf9UK[aria-label="Server Subscriptions"]{
     padding-left: 20px !important;
