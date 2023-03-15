@@ -461,6 +461,16 @@
 #discord-nitro-tab [class*="bottomIllustration-"]{
     display: none;
 }
+/*Nitro Modal Fix*/
+[class*="premiumSkuSelect-"],
+[class*="tier2MarketingCard-"],
+[class*="tier0MarketingCard-"],
+[class*="premiumSkuSelect-"] [class*="mostPopularPill-"] {
+    border: 3px solid var(--main-color);
+    background-color: #000;
+    background-image: none;
+    border-radius: 8px;
+}
 /* SERVER BOOST */
 /* Pink diamond with wings or hands */
 #nitro-server-boost-tab .marketingLogoImage-3evgX7,
@@ -1138,10 +1148,14 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
     /*Removes unnecessary clutter*/
 }
 /* TIER ZERO CARD BULLET POINTS */
+[class*="tier2MarketingCard-"] [class*="item-"] svg,
+[class*="tier0MarketingCard-"] [class*="item-"] svg,
 #guild_premium-tab [class*="tier0Card-"] svg,
 #nitro-server-boost-tab [class*="tier0Card-"] svg{
     display: none;
 }
+[class*="tier2MarketingCard-"] [data-text-variant="text-md/normal"]:before,
+[class*="tier0MarketingCard-"] [data-text-variant="text-md/normal"]:before,
 #guild_premium-tab [class*="tier0Card-"] [data-text-variant="text-md/normal"]:before,
 #nitro-server-boost-tab [class*="tier0Card-"] [data-text-variant="text-md/normal"]:before{
     content: "> ";
