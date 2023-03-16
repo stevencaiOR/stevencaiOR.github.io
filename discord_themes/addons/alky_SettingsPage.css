@@ -1132,6 +1132,12 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
     top: 6px;
 }
 /* SERVER BOOST STATUS */
+.serverBoostTabItem-3QwA3W svg{
+    display: none;
+}
+.serverBoostTabItem-3QwA3W[aria-selected=true]{
+    background: transparent !important;
+}
 /* WHITE SPACE UTILIZATION IMPROVEMENT */
 .customScroller-m1-jZn > .content-yjf30S,
 #roles-tab [class*="section-"]{
