@@ -1132,11 +1132,77 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
     top: 6px;
 }
 /* SERVER BOOST STATUS */
+/* Tab Bar Item */
 .serverBoostTabItem-3QwA3W svg{
     display: none;
 }
 .serverBoostTabItem-3QwA3W[aria-selected=true]{
     background: transparent !important;
+}
+/* Everything Else */
+.theme-dark .tierAccomplished-1I5NaT,
+.theme-dark .tierCurrent-2nowYi,
+.theme-dark .tierFirst-1Vn3wS,
+.theme-dark .tierAccomplished-1I5NaT,
+.theme-dark .tierCurrent-2nowYi,
+.theme-dark .tierFirst-1Vn3wS{
+    background: var(--main-color);
+}
+.theme-dark .tierInProgress-1vFUnw{
+    border: 3px solid var(--main-color);
+}
+#guild_premium-tab .tier-8XCwAc[aria-label="Level 2"]{
+    top: 255px !important;
+}
+#guild_premium-tab .tier-8XCwAc[aria-label="Level 3"]{
+    top: 493px !important;
+}
+#guild_premium-tab .tierIcon-3m8V16{
+    display: none;
+}
+#guild_premium-tab .tierIcon-3m8V16+.tierTitle-kGI87L:before{
+    content: "< Unlocked > ‎ ‎";
+    color: var(--main-color);
+}
+#guild_premium-tab .tierIconLocked-RGSkSl+.tierTitle-kGI87L:before{
+    content: "< Locked > ‎ ‎";
+    color: var(--main-color);
+}
+#guild_premium-tab [class*="tierDefaultUnlockedDescription-"]{
+    text-indent: -99999px;
+    line-height: 0;
+}
+#guild_premium-tab [class*="tierDefaultUnlockedDescription-"]:after{
+    text-indent: 0;
+    line-height: 20px;
+    display: block  ;
+    content: "No one has boosted this server yet."
+}
+#guild_premium-tab [class*="perks-"]{
+    grid-template-columns: repeat(3,calc((100% - 32px)/3));
+}
+#guild_premium-tab [class*="previousPerks-"]{
+    font-size: 16px;
+    line-height: 20px;
+}
+#guild_premium-tab [class*="perkIcon-"]{
+    display: none;
+}
+#guild_premium-tab [class*="perkText-"]{
+    font-size: 14px;
+    line-height: 18px;
+}
+#guild_premium-tab [class*="perkTitle-"]:before{
+    content: ">‎ ‎ ‎";
+}
+#guild_premium-tab [class*="perkDescription-"]{
+    display: none;
+}
+#guild_premium-tab [class*="mostPopularPill-"],
+#guild_premium-tab [class*="tier0Card-"],
+#guild_premium-tab [class*="tier0Button-"]{
+    border: 3px solid var(--main-color);
+    background: #000;
 }
 /* WHITE SPACE UTILIZATION IMPROVEMENT */
 .customScroller-m1-jZn > .content-yjf30S,
