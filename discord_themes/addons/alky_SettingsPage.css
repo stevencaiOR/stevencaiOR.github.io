@@ -996,6 +996,10 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
 [style*='background-image: url("/assets/8f841811896e9d1eefcd13bcdaca9579.svg")']+div [class*="text-"]{
     display: none;
 }
+/* ENABLE COMMUNITY */
+#community-tab [class*="banner-"]{
+    display: none;
+}
 /* SERVER SUBSCRIPTIONS*/
 .sidebar-nqHbhN .item-2GWPIy.selected-1sf9UK[aria-label="Server Subscriptions"]{
     padding-left: 20px !important;
@@ -1147,7 +1151,7 @@ div[class*="auditLog-"] > div[class^="headerDefault-"]{
     display: none;
     /*Removes unnecessary clutter*/
 }
-/* TIER ZERO CARD BULLET POINTS */
+/* TIER CARDS BULLET POINTS */
 [class*="tier2MarketingCard-"] [class*="item-"] svg,
 [class*="tier0MarketingCard-"] [class*="item-"] svg,
 #guild_premium-tab [class*="tier0Card-"] svg,
