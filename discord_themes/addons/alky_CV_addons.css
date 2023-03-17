@@ -451,42 +451,68 @@ div[id^="message-content"] > .wrapper-1ZcZW-{
     margin-bottom: 10px;
 }
 /* EMOJI */
-.focusLock-2tveLW[aria-label="Set a custom status"] .sprite-2lxwfc {
+[class*="focusLock-"][aria-label="Set a custom status"] [class*="sprite-"] {
     background-position: -44px -22px !important;
     /*default emoji is custom emoji*/
     filter: grayscale(100%) !important;
     /*emoji gray unless select*/
 }
 /* CLEAR AFTER & STATUS */
-.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn:focus{
+[class*="popout-"] [class*="option-"][data-list-item-id*="online" i]:focus,
+[class*="popout-"] [class*="option-"][data-list-item-id*="idle" i]:focus,
+[class*="popout-"] [class*="option-"][data-list-item-id*="dnd" i]:focus,
+[class*="popout-"] [class*="option-"][data-list-item-id*="invisible" i]:focus,
+[class*="popout-"] [class*="option-"][data-list-item-id*="TODAY" i]:focus,
+[class*="popout-"] [class*="option-"][data-list-item-id*="14400000" i]:focus,
+[class*="popout-"] [class*="option-"][data-list-item-id*="3600000" i]:focus,
+[class*="popout-"] [class*="option-"][data-list-item-id*="1800000" i]:focus,
+[class*="popout-"] [class*="option-"][data-list-item-id*="null" i]:focus{
     background-color: initial;
-    border: transparent;
 }
-.layer-2aCOJ3 > .popout-1KHNAq {
-    background: rgb(0,0,0,0.9);
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    /*dropdown menu*/
-}
-.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn:hover,
-.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn[aria-selected="true"]{
+[class*="popout-"] [class*="option-"][data-list-item-id*="online" i][aria-selected="true"],
+[class*="popout-"] [class*="option-"][data-list-item-id*="idle" i][aria-selected="true"],
+[class*="popout-"] [class*="option-"][data-list-item-id*="dnd" i][aria-selected="true"],
+[class*="popout-"] [class*="option-"][data-list-item-id*=":r1m:___invisible"][aria-selected="true"],
+[class*="popout-"] [class*="option-"][data-list-item-id*="TODAY" i][aria-selected="true"],
+[class*="popout-"] [class*="option-"][data-list-item-id*="14400000" i][aria-selected="true"],
+[class*="popout-"] [class*="option-"][data-list-item-id*="3600000" i][aria-selected="true"],
+[class*="popout-"] [class*="option-"][data-list-item-id*="1800000" i][aria-selected="true"],
+[class*="popout-"] [class*="option-"][data-list-item-id*="null" i][aria-selected="true"],
+[class*="popout-"] [class*="option-"][data-list-item-id*="online" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="idle" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="dnd" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="invisible" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="TODAY" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="14400000" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="3600000" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="1800000" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="null" i]:hover{
     border: solid 2px var(--main-color);
     border-radius: 3px;
     /*border when hover or select*/
     /*this part actually affects a lot of code so um yeah*/
 }
-.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn:hover{
+[class*="popout-"] [class*="option-"][data-list-item-id*="online" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="idle" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="dnd" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="invisible" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="TODAY" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="14400000" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="3600000" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="1800000" i]:hover,
+[class*="popout-"] [class*="option-"][data-list-item-id*="null" i]:hover{
     background: rgb(var(--hover-color-numerical), 0.4);
     /*background highlight when hover option*/
 }
-.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn[data-list-item-id$="invisible"]:hover,
-.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn[data-list-item-id$="null"]:hover{
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    position: relative;
-    bottom: 2px;
-}
-.layer-2aCOJ3 > .popout-1KHNAq .option-2eIyOn[aria-selected="true"] > .selectedIcon-19TbzU{
+[class*="popout-"] [class*="option-"][data-list-item-id*="online" i][aria-selected="true"] svg,
+[class*="popout-"] [class*="option-"][data-list-item-id*="idle" i][aria-selected="true"] svg,
+[class*="popout-"] [class*="option-"][data-list-item-id*="dnd" i][aria-selected="true"] svg,
+[class*="popout-"] [class*="option-"][data-list-item-id*="invisible" i][aria-selected="true"] svg,
+[class*="popout-"] [class*="option-"][data-list-item-id*="TODAY" i][aria-selected="true"] svg,
+[class*="popout-"] [class*="option-"][data-list-item-id*="14400000" i][aria-selected="true"] svg,
+[class*="popout-"] [class*="option-"][data-list-item-id*="3600000" i][aria-selected="true"] svg,
+[class*="popout-"] [class*="option-"][data-list-item-id*="1800000" i][aria-selected="true"] svg,
+[class*="popout-"] [class*="option-"][data-list-item-id*="null" i][aria-selected="true"] svg{
     display: none;
     /*removes check circle for selected option*/
 }
