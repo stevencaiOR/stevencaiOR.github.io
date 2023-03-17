@@ -1570,10 +1570,10 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 }
 
 /*failed friend req modal*/
-[class*="focusLock-"][aria-label="Friend request failed"] .text-md-normal-304U3g{
+[class*="focusLock-"][aria-label="Friend request failed"] [data-text-variant="text-md/normal"]{
     color: transparent;
 }
-[class*="focusLock-"][aria-label="Friend request failed"] .text-md-normal-304U3g:before{
+[class*="focusLock-"][aria-label="Friend request failed"] [data-text-variant="text-md/normal"]:before{
     content: "User not found. If spelling, capitalization, and discriminator is correct, it is probable that the user has blocked you or has prevented certain friend requests in settings.";
     color: var(--text-normal);
 }
