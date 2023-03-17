@@ -1198,16 +1198,16 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     content: "Purchase Discord Nitro to use custom stickers on any server.";    
 }
 /*-----STICKER PACK PREVIEW MODAL-----*/
-.focusLock-2tveLW[aria-labelledby="sticker-pack-sku-preview-modal"] .headerWithImage-12X-4g{
+[class*="focusLock-"][aria-labelledby="sticker-pack-sku-preview-modal"] .headerWithImage-12X-4g{
     min-height: 57.5px;
 }
-.focusLock-2tveLW[aria-labelledby="sticker-pack-sku-preview-modal"] .backgroundImage-1Ttxcq{
+[class*="focusLock-"][aria-labelledby="sticker-pack-sku-preview-modal"] .backgroundImage-1Ttxcq{
     background-image: none !important;
 }
-.focusLock-2tveLW[aria-labelledby="sticker-pack-sku-preview-modal"] .scroller-2M3eAB{
+[class*="focusLock-"][aria-labelledby="sticker-pack-sku-preview-modal"] .scroller-2M3eAB{
     max-height: 275px;
 }
-.focusLock-2tveLW[aria-labelledby="sticker-pack-sku-preview-modal"] .scroller-2M3eAB .description-2Rwq0z{
+[class*="focusLock-"][aria-labelledby="sticker-pack-sku-preview-modal"] .scroller-2M3eAB .description-2Rwq0z{
     display: none;
 }
 /*-----STATUS PICKER-----*/
@@ -1320,11 +1320,11 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     /*bg color of avatar-less server*/
 }
 /*-----SERVER LIMIT MODAL-----*/
-.focusLock-2tveLW[aria-label="Wanna join more servers?"] .text-md-normal-304U3g p:first-child{
+[class*="focusLock-"][aria-label="Wanna join more servers?"] .text-md-normal-304U3g p:first-child{
     text-indent: -99999px;
     line-height: 0;
 }
-.focusLock-2tveLW[aria-label="Wanna join more servers?"] .text-md-normal-304U3g:before{
+[class*="focusLock-"][aria-label="Wanna join more servers?"] .text-md-normal-304U3g:before{
     content: "You have reached the 100 server limit.";
 }
 /*-----PROFILE THEME POPOUT-----*/
@@ -1570,10 +1570,10 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 }
 
 /*failed friend req modal*/
-.focusLock-2tveLW[aria-label="Friend request failed"] .text-md-normal-304U3g{
+[class*="focusLock-"][aria-label="Friend request failed"] .text-md-normal-304U3g{
     color: transparent;
 }
-.focusLock-2tveLW[aria-label="Friend request failed"] .text-md-normal-304U3g:before{
+[class*="focusLock-"][aria-label="Friend request failed"] .text-md-normal-304U3g:before{
     content: "User not found. If spelling, capitalization, and discriminator is correct, it is probable that the user has blocked you or has prevented certain friend requests in settings.";
     color: var(--text-normal);
 }
