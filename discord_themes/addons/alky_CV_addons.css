@@ -1190,24 +1190,23 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     display: none;
 }
 /*-----STATUS PICKER-----*/
-#account-status-picker.focused-3qFvc8 .mainStatusIcon-25wiNY .status-2DiCMd,
-#account-status-picker--online.focused-3qFvc8  .status-2DiCMd,
-#account-status-picker--idle.focused-3qFvc8  .status-2DiCMd,
-#account-status-picker--dnd.focused-3qFvc8  .status-2DiCMd,
-#account-status-picker--invisible.focused-3qFvc8  .status-2DiCMd{
+#account-status-picker--online[class*="focused-"] svg [class*="status-"],
+#account-status-picker--idle[class*="focused-"] svg [class*="status-"],
+#account-status-picker--dnd[class*="focused-"] svg [class*="status-"],
+#account-status-picker--invisible[class*="focused-"] svg [class*="status-"]{
     background: #fff !important;
     /*removes status color upon hover on menu items in drop-down menu and popout*/
 }
-#account-status-picker--online.focused-3qFvc8 {
+#account-status-picker--online[class*="focused-"] {
     background: var(--online-color);
 }
-#account-status-picker--idle.focused-3qFvc8{
+#account-status-picker--idle[class*="focused-"]{
     background: var(--idle-color);
 }
-#account-status-picker--dnd.focused-3qFvc8{
+#account-status-picker--dnd[class*="focused-"]{
     background: var(--dnd-color);
 }
-#account-status-picker--invisible.focused-3qFvc8{
+#account-status-picker--invisible[class*="focused-"]{
     background: var(--offline-color);
 }
 /*-----EMBEDDED IMAGE ERROR-----*/
