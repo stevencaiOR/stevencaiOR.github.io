@@ -842,28 +842,28 @@
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]{
     padding-left: 0;
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Twitter"] path{
+[class*="anchorUnderlineOnHover-"][title="Twitter"] path{
     fill: var(--twitter-color);
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Facebook"] path{
+[class*="anchorUnderlineOnHover-"][title="Facebook"] path{
     fill:var(--facebook-color);    
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Facebook"] path,
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Twitter"] path{
+[class*="anchorUnderlineOnHover-"][title="Facebook"] path,
+[class*="anchorUnderlineOnHover-"][title="Twitter"] path{
     filter: brightness(1.25);
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Facebook"]:hover path,
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Twitter"]:hover path{
+[class*="anchorUnderlineOnHover-"][title="Facebook"]:hover path,
+[class*="anchorUnderlineOnHover-"][title="Twitter"]:hover path{
     filter: brightness(0.94);
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Instagram"] svg  {
+[class*="anchorUnderlineOnHover-"][title="Instagram"] svg  {
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     border-radius: 4.5px;
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Instagram"] path{
+[class*="anchorUnderlineOnHover-"][title="Instagram"] path{
     color: rgb(255,255,255,0.5);
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Instagram"]:hover path{
+[class*="anchorUnderlineOnHover-"][title="Instagram"]:hover path{
     color: rgb(255,255,255,0.35);
 }
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:after{
