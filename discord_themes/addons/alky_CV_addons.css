@@ -431,17 +431,14 @@ div[id^="message-content"] > .wrapper-1ZcZW-{
 .art-2Y6Pk3{
     display: none;
 }
-.focusLock-2tveLW[aria-label="Set a custom status"]{
+[class*="focusLock-"][aria-label="Set a custom status"]{
     background: #000;
     border-radius: 20px;
 }
-.focusLock-2tveLW[aria-label="Set a custom status"] > .modalRoot-1uudbL{
+[class*="focusLock-"][aria-label="Set a custom status"] > [class*="modalRoot-"]{
     background: transparent;
 }
-.focusLock-2tveLW[aria-label="Set a custom status"] .sectionTitle-3j2YI1 .h5-2RwDNl{
-    white-space: nowrap;
-}
-.focusLock-2tveLW[aria-label="Set a custom status"] .sectionTitle-3j2YI1 .h5-2RwDNl{
+[class*="focusLock-"][aria-label="Set a custom status"] [class*="sectionTitle-"] h1{
     line-height: 30px;/*2.5x font-size*/
 
     white-space: nowrap;
@@ -450,10 +447,8 @@ div[id^="message-content"] > .wrapper-1ZcZW-{
 
     text-overflow: ellipsis;
     /*improved readability of section title if username too long*/
-}
-.focusLock-2tveLW[aria-label="Set a custom status"] .sectionTitle-3j2YI1 .h5-2RwDNl.defaultMarginh5-3Jxf6f{
+
     margin-bottom: 10px;
-    /*separate block of code in case margin class changes due to some random setting*/
 }
 /* EMOJI */
 .focusLock-2tveLW[aria-label="Set a custom status"] .sprite-2lxwfc {
