@@ -1,9 +1,31 @@
+/*
+  Discord Default
+  > Online - #23A55A
+  > Idle - #F0B232
+  > Do not disturb - #F23F43
+
+  ClearVision Default
+  > Online - #43B581
+  > Idle - #FAA61A
+  > Do not disturb - #982929
+*/
+
+
 .PI-indicatorContainer > div[aria-label*="Online" i] > svg {
-  color: var(--online-color, #43b581) !important;
+  color: var(--online-color, #43B581) !important;
 }
 .PI-indicatorContainer > [aria-label*="Idle" i] > svg {
-  color: var(--idle-color, #faa61a) !important;
+  color: var(--idle-color, #FAA61A) !important;
 }
 .PI-indicatorContainer > [aria-label*="Do Not Disturb" i] > svg {
   color: var(--dnd-color, #982929) !important;
+}
+.platform-indicators [aria-label*="Online" i] svg{
+  fill: var(--online-color, #43B581) !important;
+}
+.platform-indicators [aria-label*="Idle" i] svg{
+  fill: var(--idle-color, #FAA61A) !important;
+}
+.platform-indicators [aria-label*="Dnd" i] svg{
+  fill: var(--dnd-color, #982929) !important;
 }
