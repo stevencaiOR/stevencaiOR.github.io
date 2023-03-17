@@ -1568,14 +1568,14 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 .flowerStar-2tNFCR[aria-label="verified" i]{
     stroke: none;
 }
-
 /*failed friend req modal*/
 [class*="focusLock-"][aria-label="Friend request failed"] [data-text-variant="text-md/normal"]{
     color: transparent;
 }
 [class*="focusLock-"][aria-label="Friend request failed"] [data-text-variant="text-md/normal"]:before{
-    content: "User not found. If spelling, capitalization, and discriminator is correct, it is probable that the user has blocked you or has prevented certain friend requests in settings.";
+    content: "User not found. If spelling, capitalization, and discriminator are correct, it is probable that the user has blocked you or has prevented certain friend requests in settings.";
     color: var(--text-normal);
+    display: block;
 }
 
 .shelfTopBackground-R55ED9[alt="characters playing a game"]{
