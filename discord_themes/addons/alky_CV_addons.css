@@ -37,7 +37,7 @@ Alky Support Server: discord.gg/ujcmcKKYMV
         elements of this class are encountered. More variables may be added
         if the situation is deemed necessary.
     */
-    --text-normal: rgb(var(--text-normal-numerical)); /*221, 221, 221*/
+    --text-normal: rgb(var(--text-normal-numerical));
     --header-secondary: hsl(216,calc(var(--saturation-factor, 1)*3.7%),73.5%);
     --interactive-normal: hsl(216,calc(var(--saturation-factor, 1)*3.7%),73.5%);
     --text-muted: var(--main-color);
