@@ -28,8 +28,7 @@ Alky Support Server: discord.gg/ujcmcKKYMV
     --main-color: rgb(var(--main-color-numerical));
     */
 
-    --text-normal-numerical: 222,222,222;
-    --text-normal: rgb(var(--text-normal-numerical));
+    --text-normal:#DEDEDE;
 }
 .theme-light{
     /*  Some elements have the .theme-light class even with dark mode on 
