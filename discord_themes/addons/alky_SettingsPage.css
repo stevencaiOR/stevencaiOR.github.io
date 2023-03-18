@@ -311,6 +311,16 @@
 #privacy-\&-safety-tab h5+div+div[role="radiogroup"] > div:nth-child(3) div[class^="text-sm-normal-"]::after{
     content: "Do not scan direct messages."
 }
+/* DEVICES */
+#sessions-tab [class*="otherSessions-"] > [class*="children-"]{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+#sessions-tab [class*="otherSessions-"] > [class*="children-"] > *{
+    width: calc(50% - 20px);
+}
 /* NITRO */
 /* Modified background image */
 #discord-nitro-tab [class*="settingsContainer"]{
