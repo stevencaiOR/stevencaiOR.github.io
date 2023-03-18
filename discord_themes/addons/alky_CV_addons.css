@@ -1493,7 +1493,8 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 .input-2g-os5[placeholder="MM/YY"]+div .text-xs-normal-3SiVjE:after{
     content: "Expiration date invalid";
 }
-/*-----CV PROFILE BANNER GRADIENT REMOVAL-----*/
+/*-----ClearVision Reversal-----*/
+/*For all the changes made in ClearVision file that I disagree with*/
 .popoutBanner-16rVDY,
 .popoutBannerPremium-2RvDNZ,
 .userPopoutOverlayBackground-dKOOda .popoutNoBannerPremium-2TQa6P,
@@ -1501,9 +1502,9 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
     mask: none;
     -webkit-mask: none;
 }
-
-
-
+.input-3O04eu{
+    background: var(--input-background);
+}
 
 
 /*edited Discord marketing shit to be less stupid*/
