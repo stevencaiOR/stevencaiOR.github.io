@@ -279,11 +279,6 @@ svg.avatarHint-2g3Mcd[width="80"] {
     max-width: 75%;
     white-space: nowrap;
 }
-.profileBanner-1owKI5{
-    mask: none;
-    -webkit-mask: none;
-    /*removes banner gradient*/
-}
 .profileBannerPremium-KD60EB{
     height: 120px;
     /*no special treatment for nitro users*/
@@ -1498,6 +1493,19 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 .input-2g-os5[placeholder="MM/YY"]+div .text-xs-normal-3SiVjE:after{
     content: "Expiration date invalid";
 }
+/*-----CV PROFILE BANNER GRADIENT REMOVAL-----*/
+.popoutBanner-16rVDY,
+.popoutBannerPremium-2RvDNZ,
+.userPopoutOverlayBackground-dKOOda .popoutNoBannerPremium-2TQa6P,
+.profileBanner-2zIsK7{
+    mask: none;
+    -webkit-mask: none;
+}
+
+
+
+
+
 /*edited Discord marketing shit to be less stupid*/
 .colorPremiumTier2-3R4qYN{
     background-color: rgb(0,0,0,0.4);
