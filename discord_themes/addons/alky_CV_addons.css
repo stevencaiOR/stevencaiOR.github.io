@@ -134,20 +134,6 @@ svg.avatarHint-2g3Mcd[width="80"] {
 .avatarUploaderNormal-1h8g3f{
     top: 25px
 }
-[class*="baseLayoutProfileThemes-"] [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
-    r: calc(0.5*var(--profile-popout-picture-size) + 2*(var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)) + 5px);
-    /*in profile tab*/    
-}
-[class*="baseLayoutProfileThemes-"]:not([class*="tryItOutLayout-"]) [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
-    cx: calc(0.5*var(--profile-popout-picture-size) + 27px);
-    cy: calc(0.5*var(--profile-popout-picture-size) + 15px);
-    /*in profile tab*/
-}
-[class*="baseLayoutProfileThemes-"][class*="tryItOutLayout-"] [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
-    cx: calc(0.5*var(--profile-popout-picture-size) + 24px);
-    cy: calc(0.5*var(--profile-popout-picture-size) + 70px);
-    /*in profile tab*/
-}
 .wrapper-3Un6-K[style*="80px"]{
     margin: 0;
 }
@@ -1494,7 +1480,7 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
     content: "Expiration date invalid";
 }
 /*-----ClearVision Reversal-----*/
-/*For all the changes made in ClearVision file that I disagree with*/
+/*I reverted all the changes made in the ClearVision CSS file that I disagree with in this section*/
 .popoutBanner-16rVDY,
 .popoutBannerPremium-2RvDNZ,
 .userPopoutOverlayBackground-dKOOda .popoutNoBannerPremium-2TQa6P,

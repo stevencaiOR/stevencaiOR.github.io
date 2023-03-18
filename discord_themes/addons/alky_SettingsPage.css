@@ -192,18 +192,28 @@
     margin-left: 0;
 }
 /*User popout things*/
+#profile-customization-tab [class*="baseLayoutProfileThemes-"] [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
+    r: calc(0.5*var(--profile-popout-picture-size) + 2*(var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)) + 5px);
+    /*in profile tab*/    
+}
+#profile-customization-tab [class*="baseLayoutProfileThemes-"]:not([class*="tryItOutLayout-"]) [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
+    cx: calc(0.5*var(--profile-popout-picture-size) + 22px);
+    cy: calc(0.5*var(--profile-popout-picture-size) + 15px);
+    /*in profile tab*/
+}
+#profile-customization-tab [class*="baseLayoutProfileThemes-"][class*="tryItOutLayout-"] [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
+    cx: calc(0.5*var(--profile-popout-picture-size) + 24px);
+    cy: calc(0.5*var(--profile-popout-picture-size) + 70px);
+    /*in profile tab*/
+}
 #profile-customization-tab .imageUploaderInner-IIRaFr.avatarUploaderInner-1dBiHs{
     height: var(--profile-popout-picture-size);
     width: var(--profile-popout-picture-size);
-    left: 5px;
 }
 #profile-customization-tab .imageUploaderInner-IIRaFr.avatarUploaderInner-1dBiHs .imageUploaderIcon-2OHmFu{
     position: absolute;
     top: calc(100% - 20px);
     left: calc(100% - 20px);
-}
-#profile-customization-tab .avatarUploader-CHGwK7 .imageUploader-1X7wVc+.status-b9jLr4{
-    display: none;
 }
 /* Removes Discord marketing crap */
 #profile-customization-tab .upsellOverlay-3sCO8V > img,
