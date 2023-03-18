@@ -36,11 +36,11 @@
 }
 /* MARKUP TEXT */
 .channelTextArea-1VQBuV .scrollableContainer-15eg7h .markup-eYLPri{
-    color: rgb(var(--text-normal-numerical),0.8);
+    opacity: 0.8;
     /*markup text when message box not selected*/
 }
 .channelTextArea-1VQBuV .scrollableContainer-15eg7h:focus-within .markup-eYLPri{
-    color: var(--text-normal);
+    opacity: 1;
     /*markup text when message box selected*/
 }
 /* BUTTONS */
