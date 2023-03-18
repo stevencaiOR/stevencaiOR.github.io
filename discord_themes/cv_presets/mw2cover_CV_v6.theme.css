@@ -37,7 +37,6 @@
   --success-color: rgb(var(--success-color-numerical));
   --danger-color-numerical: 152, 108, 41;
   --danger-color:rgb(var(--danger-color-numerical));
-  --button-danger-background-hover: rgb(161, 47, 45);
 
   /* STATUS COLORS */
   --online-color-numerical: 36, 168, 109; /*default: 67, 181, 129*/

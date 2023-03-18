@@ -35,7 +35,6 @@
   --success-color: rgb(var(--success-color-numerical));
   --danger-color-numerical: 152, 41, 41;
   --danger-color: rgb(var(--danger-color-numerical));
-  --button-danger-background-hover: rgb(161, 47, 45);
   --main-color-inverted-numerical: 141, 60, 131;
   --main-color-inverted: rgb(var(--main-color-inverted-numerical));
 
