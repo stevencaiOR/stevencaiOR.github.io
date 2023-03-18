@@ -172,12 +172,6 @@
     display: none;
     /*remove image next to Two-Factor Authentication paragraph*/
 }
-#my-account-tab .lookOutlined-3yKVGo.colorRed-rQXKgM:hover{
-    background: var(--button-danger-background-hover, rgb(161, 47, 45));
-    border: none;
-    color: var(--button-outline-danger-text-hover);
-    /*hover on Delete Account*/
-}
 /* Removes eye balls if your username is too long*/
 #my-account-tab button[aria-label="Edit username"] div{
     text-indent: -9999px;
