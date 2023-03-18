@@ -140,10 +140,6 @@
   --bd-blue: var(--main-color);
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
-
-  /* TEXT COLORS */
-  --text-normal-numerical: 221, 221, 221; /*default: 220, 221, 222*/
-  --text-normal: rgb(var(--text-normal-numerical));
 }
 /*-----DISPLAY LINKS-----*/
 #app-mount [aria-label="User Profile Modal"] .connectedAccountContainer-SlCC-S{
