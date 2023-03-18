@@ -183,6 +183,30 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     right: var(--user-popout-avatar-border-width);
 }
 
+/*User Settings Profiles Tab*/
+#profile-customization-tab [class*="avatarUploader-"] .imageUploader-1X7wVc+.status-b9jLr4{
+    display: block;
+    height: 105%;
+    width: 105%;
+    top: calc(-1px - 2.5%);
+    left: calc(5px - 2.5%);
+    z-index: -1;
+}
+#profile-customization-tab [class*="avatarUploader-"] [class*="statusDot-"]{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#profile-customization-tab [class*="avatarUploader-"] [class*="statusDot-"] rect[mask*="online" i]{
+    fill: var(--online-color);
+}
+#profile-customization-tab [class*="avatarUploader-"] [class*="statusDot-"] rect[mask*="idle" i]{
+    fill: var(--idle-color);
+}
+#profile-customization-tab [class*="avatarUploader-"] [class*="statusDot-"] rect[mask*="dnd" i]{
+    fill: var(--dnd-color);
+}
 /*scuffed fix for weird gray bg when someone else is on mobile NEVERMIND DOESN'T WORK??*
 #app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] [class*="avatarStack-"],
 #app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] [class*="avatarStack-"] img{
