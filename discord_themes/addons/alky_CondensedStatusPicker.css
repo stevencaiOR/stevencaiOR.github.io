@@ -15,9 +15,9 @@
     /* OPTIONAL */
     /* background color of status picker menu item on hover*/
     /*
-    --online-color: #43b581;
-    --idle-color: #faa61a;
-    --dnd-color: #982929;
+    --online-color: #23A55A;
+    --idle-color: #F0B232;
+    --dnd-color: #F23F43;
     --offline-color: #808080;
     */
 }
@@ -55,13 +55,13 @@
     height: 35px;
 }
 #account-status-picker--online.focused-3qFvc8 {
-    background: var(--online-color, #43b581);
+    background: var(--online-color, #23A55A);
 }
 #account-status-picker--idle.focused-3qFvc8{
-    background: var(--idle-color, #faa61a);
+    background: var(--idle-color, #F0B232);
 }
 #account-status-picker--dnd.focused-3qFvc8{
-    background: var(--dnd-color, #982929);
+    background: var(--dnd-color, #F23F43);
 }
 #account-status-picker--invisible.focused-3qFvc8{
     background: var(--offline-color, #808080);
