@@ -160,13 +160,13 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     /*radial status width in user popouts*/
 }
 #app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="online" i] [class*="avatarStack-"]{
-    border-color: var(--online-color);
+    border-color:  var(--rs-online-color);
 }
 #app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="idle" i] [class*="avatarStack-"]{
-    border-color: var(--idle-color);
+    border-color:  var(--rs-idle-color);
 }
 #app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="do not disturb" i] [class*="avatarStack-"]{
-    border-color: var(--dnd-color);   
+    border-color:  var(--rs-dnd-color);   
 }
 #app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="offline" i] [class*="avatarStack-"],
 #app-mount .wrapper-3Un6-K[style*="80px"][aria-label*="invisible" i] [class*="avatarStack-"]{
@@ -199,13 +199,13 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     left: 0;
 }
 #profile-customization-tab [class*="avatarUploader-"] [class*="statusDot-"] rect[mask*="online" i]{
-    fill: var(--online-color);
+    fill:  var(--rs-online-color);
 }
 #profile-customization-tab [class*="avatarUploader-"] [class*="statusDot-"] rect[mask*="idle" i]{
-    fill: var(--idle-color);
+    fill:  var(--rs-idle-color);
 }
 #profile-customization-tab [class*="avatarUploader-"] [class*="statusDot-"] rect[mask*="dnd" i]{
-    fill: var(--dnd-color);
+    fill:  var(--rs-dnd-color);
 }
 /*scuffed fix for weird gray bg when someone else is on mobile NEVERMIND DOESN'T WORK??*
 #app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] [class*="avatarStack-"],
