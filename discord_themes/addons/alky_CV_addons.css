@@ -1,5 +1,4 @@
 /*
-
 Alky Support Server: discord.gg/ujcmcKKYMV
 */
 
@@ -8,7 +7,6 @@ Alky Support Server: discord.gg/ujcmcKKYMV
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_SettingsPage.css);
 /*-----VARIABLES-----*/
 :root{
-
     /* Redefine any of these variables in :root{} if you don't like them */
     --profile-popout-width: 13.5vw;
     --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6);                               /*default: 80px*/
@@ -23,13 +21,15 @@ Alky Support Server: discord.gg/ujcmcKKYMV
     --dnd-color: #982929;
     --offline-color: #808080;
     --streaming-color: #9147ff;
-
-
+    
     --message-content-line-height: max(25px, 1.625rem);                                                 /*default: 1.375rem*/
     /*
     --main-color-numerical: ; <--- put the rgb value of your accent color here
     --main-color: rgb(var(--main-color-numerical));
     */
+
+    --text-normal-numerical: 222,222,222;
+    --text-normal: rgb(var(--text-normal-numerical));
 }
 .theme-light{
     /*  Some elements have the .theme-light class even with dark mode on 
@@ -45,7 +45,7 @@ Alky Support Server: discord.gg/ujcmcKKYMV
 }
 /*-----TRIBUTE TO AUTHOR-----*/
 /*Note: by author, I mean the author of this specific custom CV preset.
-  There are already name tags for actual CV developers.*/
+  There are already name tags for people on the actual CV Team.*/
 .contents-2MsGLg>img[src*="947934356880629760"]~.header-2jRmjb>.headerText-2z4IhQ>.username-h_Y3Us::after{
     content: "Nanosuit 2.0";
     color: currentColor;
