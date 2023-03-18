@@ -159,13 +159,6 @@
   --bd-blue: var(--main-color);
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
-
-  /* TEXT COLORS */
-  --channel-text-selected-numerical: 255, 255, 255; /*default: 255, 255, 255*/
-  --channel-text-selected: rgb(var(--channel-text-selected-numerical));
-  --interactive-active-numerical: 255, 255, 255; /*default: 255, 255, 255*/
-  --interactive-active: rgb(var(--interactive-active-numerical));
-  /*For channel-text-selected, interactive-active and maybe other vars, DON'T CHANGE IF YOU NEED TO CHANGE, CHANGE SOMETHING ELSE THAT USES THIS OR CREATE NEW VAR*/
 }
 /*-----CRYSIS 2 HUD THEME ONLY-----*/
 #app-mount [class^="notAppAsidePanel-"] > div[class^="app-"] > div[class^="app-"] > div[class^="layers-"] > div[class^="layer-"]{
