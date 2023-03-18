@@ -61,6 +61,19 @@ Alky Support Server: discord.gg/ujcmcKKYMV
     background-position: 55% 15%;
 }
 /*-----USER POPOUT-----*/
+[class*="userPopoutOverlayBackground-"] [aria-label="Click to copy username"] [class*="userTagNoNickname-"] [class*="userTagUsernameBase-"]{
+    --nickname-font-size: 16px;
+    font-size: var(--nickname-font-size, 20px);
+
+    --nickname-line-height: calc(2.5*var(--nickname-font-size, 20px));
+    line-height: var(--nickname-line-height, 50px);
+
+    white-space: nowrap;
+    max-width: 20ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
 #account .popoutBanner-3cqRD9,
 .userPopout-3fydSP{
     width: var(--profile-popout-width);
