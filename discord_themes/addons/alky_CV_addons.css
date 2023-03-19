@@ -41,7 +41,7 @@ Alky Support Server: discord.gg/ujcmcKKYMV
     --interactive-normal: hsl(216,calc(var(--saturation-factor, 1)*3.7%),73.5%);
     --text-muted: var(--main-color);
     --background-tertiary: hsl(216,calc(var(--saturation-factor, 1)*7.2%),13.5%);
-    
+
     --activity-card-background: var(--primary-700);
     --android-navigation-bar-background: var(--primary-830);
     --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5);
@@ -1209,6 +1209,63 @@ ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][clas
 #blocked-tab > [class*="emptyStateContainer-"] [class*="text-"]:after{
     content:"No blocked users";
 }
+/*-----CREATE SERVER MODAL-----*/
+.container-x8Y1ix img.icon-AynerZ{
+    display: none;
+}
+.container-x8Y1ix {
+    height: 64px;
+}
+.container-x8Y1ix .text-PdAsFQ {
+    position: relative;
+    left: 20px
+}
+/*-----JOINING SERVER MODAL-----*/
+.joiningAs-1Huczh{
+    flex-direction: column;
+    /*change orientation of joining as info elements*/
+}
+.joiningAs-1Huczh > :not(:first-child) {
+    margin-top: 10px;
+    /*spacing between elements*/
+}
+.joiningAsAvatar-3CSTEg,
+.joiningAsUsername-oDxrXy{
+    margin-left: 0px;
+    /*removes unnecessary spacing*/
+}
+.joiningAsUsername-oDxrXy{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 60%;
+    
+    text-overflow: ellipsis;
+    /*in case username too long*/
+}
+.optionContainer-yOpaLq > :first-child:not(div){
+    display: none;
+    /*removes icon in welcome modal*/
+}
+/*-----IMPROVED IMAGE MODALS-----*/
+.layer-1Ixpg3 .imageWrapper-oMkQl4.image-36HiZc {
+    border: 4px solid var(--main-color);
+    border-radius: 14px;
+    background-color: #000;
+    padding: 7px;
+}
+.layer-1Ixpg3 .imageWrapper-oMkQl4.image-36HiZc img{
+    border-radius: 8px;
+}
+/*-----FRIEND REQUEST FAILED MODAL-----*/
+[class*="focusLock-"][aria-label="Friend request failed"] [data-text-variant="text-md/normal"]{
+    color: transparent;
+}
+[class*="focusLock-"][aria-label="Friend request failed"] [data-text-variant="text-md/normal"]:before{
+    content: "User not found. If spelling, capitalization, and discriminator are correct, it is probable that the user has blocked you or has prevented certain friend requests in settings.";
+    color: var(--text-normal);
+    display: block;
+}
 /*-----QUICKSWITCHER MODAL-----*/
 [class*="quickswitcher-"],
 /*-----SERVER FOLDER MODAL-----*/
@@ -1216,17 +1273,105 @@ ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][clas
   background-color: rgb(0,0,0,0.8);
   border-radius: 15px;
 }
+/*-----TOP BAR DROPDOWN MODALS-----*/
+/* THREADS */
+[class*="layerContainer-"] .browser-mnQ1T7.container-18GwIk,
+.messagesPopoutWrap-3zryHW,
+.recentMentionsPopout-2bI1ZN {
+    background: #000;
+    border-radius: 8px;
+    border: 2px solid var(--main-color);
+}
+.stars-3UP9-A{
+    display: none;
+}
+.container-2c4_8A h2{
+    text-indent: -9999px;
+    line-height: 0;
+}
+.container-2c4_8A h2:after{
+    text-indent: 0;
+    line-height: 30px;
+    display: block;
+    content: "No available threads.";
+}
+/* PINNED MESSAGES */
+[aria-label="Pinned Messages"] [class*="emptyPlaceholder-"]:before{
+    content: "No pinned messages in this channel.";
+    color: var(--text-normal);
+}
+[aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="image-"],
+[aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="body-"]{
+    display: none;
+}
+/*-----SERVER LIMIT MODAL-----*/
+[class*="focusLock-"][aria-label="Wanna join more servers?"] .text-md-normal-304U3g p:first-child{
+    text-indent: -99999px;
+    line-height: 0;
+}
+[class*="focusLock-"][aria-label="Wanna join more servers?"] .text-md-normal-304U3g:before{
+    content: "You have reached the 100 server limit.";
+}
+/*-----CALL RATING MODAL-----*/
+.horizontal-112GEH>.flex-2S1XBF.ratingsSelector-1RciCi:last-child{
+    margin-left: 0;
+}
+.ratingsSelector-1RciCi{
+    width: 80%;
+}
+[aria-label="bad"],
+[aria-label="neutral"],
+[aria-label="good"]{
+    width: calc(100%/3.5);
+    height: 100%;
+}
+[aria-label="bad"] .emojiSad-3LNJSS,
+[aria-label="neutral"] .emojiNeutral-2bmgFi,
+[aria-label="good"] .emojiHappy-1XST7V {
+    background-image: none;
+    width: 100%;
+    text-align: center;
+    filter: none;
+    opacity: 1;
+    color: var(--main-color);
+    padding-top: 4px;
+    line-height: 1.5;
+    border: 2px solid var(--main-color);
+    height: 100%;
+    border-radius: 8px;
+}
+[aria-label="bad"] .emojiSad-3LNJSS:hover,
+[aria-label="neutral"] .emojiNeutral-2bmgFi:hover,
+[aria-label="good"] .emojiHappy-1XST7V:hover{
+    transform: none;
+}
+[aria-label="bad"] .emojiSad-3LNJSS:hover:after,
+[aria-label="neutral"] .emojiNeutral-2bmgFi:hover:after,
+[aria-label="good"] .emojiHappy-1XST7V:hover:after{
+    color: var(--hover-color);
+}
+[aria-label="bad"] .emojiSad-3LNJSS:after{
+    content: "Below Average";
+}
+[aria-label="neutral"] .emojiNeutral-2bmgFi:after{
+    content: "Average";
+    position: relative;
+    top: 10px;
+}
+[aria-label="good"] .emojiHappy-1XST7V:after{
+    content: "Above Average";
+}
+/*-----MODAL IMPROVEMENT-----*/
+.theme-dark .root-g14mjS{
+    background-color: rgb(0,0,0,0.7);
+    /*improves readability of modals such as HypeSquad quiz modal*/
+}
 /*-----REACT MENU-----*/
 #emoji-picker-tab-panel > .emojiPicker-6YCk8a{
   background: #000;
 }
 #emoji-picker-grid .emojiItemSelected-2Lg50V > div{
   transform: scale(1.2);
-}
-/*-----MODAL IMPROVEMENT-----*/
-.theme-dark .root-g14mjS{
-  background-color: rgb(0,0,0,0.7);
-  /*improves readability of modals such as HypeSquad quiz modal*/
 }
 /*-----VERIFICATION REQUIRED-----*/
 .verification-2oQUwN .image-cLINxN{
@@ -1399,80 +1544,21 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .embedImage-2Ynqkh .imageError-dy476I{
     display: none;
 }
-/*-----CREATE SERVER MODAL-----*/
-.container-x8Y1ix img.icon-AynerZ{
-    display: none;
-}
-.container-x8Y1ix {
-    height: 64px;
-}
-.container-x8Y1ix .text-PdAsFQ {
-    position: relative;
-    left: 20px
-}
-/*-----JOINING SERVER MODAL-----*/
-.joiningAs-1Huczh{
-    flex-direction: column;
-    /*change orientation of joining as info elements*/
-}
-.joiningAs-1Huczh > :not(:first-child) {
-    margin-top: 10px;
-    /*spacing between elements*/
-}
-.joiningAsAvatar-3CSTEg,
-.joiningAsUsername-oDxrXy{
-    margin-left: 0px;
-    /*removes unnecessary spacing*/
-}
-.joiningAsUsername-oDxrXy{
-    display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    max-width: 60%;
-    
-    text-overflow: ellipsis;
-    /*in case username too long*/
-}
-.optionContainer-yOpaLq > :first-child:not(div){
-    display: none;
-    /*removes icon in welcome modal*/
-}
-/*-----IMPROVED IMAGE MODALS-----*/
-.layer-1Ixpg3 .imageWrapper-oMkQl4.image-36HiZc {
-    border: 4px solid var(--main-color);
-    border-radius: 14px;
-    background-color: #000;
-    padding: 7px;
-}
-.layer-1Ixpg3 .imageWrapper-oMkQl4.image-36HiZc img{
-    border-radius: 8px;
-}
 /*-----BD GUILD BUTTON-----*/
 #bd-pub-button{
     font-weight: 500;
 }
 #bd-pub-button:hover{
     background-color: var(--main-color);
-    /**
-    color: #000;
-    /**/
 }
 /*-----SERVER BAR-----*/
 /* ADD/EXPLORE BUTTON ICONS */
 .circleIconButton-1VxDrg{
     color: var(--main-color);
 }
+/*avatar-less server*/
 .wrapper-3kah-n:not(:hover):not(.selected-1Drb7Z) .childWrapper-1j_1ub.acronym-2zrAHN {
     background: rgb(var(--main-color-numerical),0.35);
-    /*bg color of avatar-less server*/
-}
-/*-----SERVER LIMIT MODAL-----*/
-[class*="focusLock-"][aria-label="Wanna join more servers?"] .text-md-normal-304U3g p:first-child{
-    text-indent: -99999px;
-    line-height: 0;
-}
-[class*="focusLock-"][aria-label="Wanna join more servers?"] .text-md-normal-304U3g:before{
-    content: "You have reached the 100 server limit.";
 }
 /*-----PROFILE THEME POPOUT-----*/
 .contentPremium-_Y0-cX{
@@ -1495,55 +1581,6 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 }
 .profileThemesFeatureEducationArt-M4gj2m~[class*="bodyContainer-"] div:after{
     content: "Personalize your profile with custom colors.";
-}
-/*-----CALL RATING MODAL-----*/
-.horizontal-112GEH>.flex-2S1XBF.ratingsSelector-1RciCi:last-child{
-    margin-left: 0;
-}
-.ratingsSelector-1RciCi{
-    width: 80%;
-}
-[aria-label="bad"],
-[aria-label="neutral"],
-[aria-label="good"]{
-    width: calc(100%/3.5);
-    height: 100%;
-}
-[aria-label="bad"] .emojiSad-3LNJSS,
-[aria-label="neutral"] .emojiNeutral-2bmgFi,
-[aria-label="good"] .emojiHappy-1XST7V {
-    background-image: none;
-    width: 100%;
-    text-align: center;
-    filter: none;
-    opacity: 1;
-    color: var(--main-color);
-    padding-top: 4px;
-    line-height: 1.5;
-    border: 2px solid var(--main-color);
-    height: 100%;
-    border-radius: 8px;
-}
-[aria-label="bad"] .emojiSad-3LNJSS:hover,
-[aria-label="neutral"] .emojiNeutral-2bmgFi:hover,
-[aria-label="good"] .emojiHappy-1XST7V:hover{
-    transform: none;
-}
-[aria-label="bad"] .emojiSad-3LNJSS:hover:after,
-[aria-label="neutral"] .emojiNeutral-2bmgFi:hover:after,
-[aria-label="good"] .emojiHappy-1XST7V:hover:after{
-    color: var(--hover-color);
-}
-[aria-label="bad"] .emojiSad-3LNJSS:after{
-    content: "Below Average";
-}
-[aria-label="neutral"] .emojiNeutral-2bmgFi:after{
-    content: "Average";
-    position: relative;
-    top: 10px;
-}
-[aria-label="good"] .emojiHappy-1XST7V:after{
-    content: "Above Average";
 }
 /*-----CONNECT XBOX POPOUT-----*/
 .artContainer--HGfkf.reconnectArtContainer-PgMt-F,
@@ -1649,6 +1686,7 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 }
 
 
+
 /*edited Discord marketing shit to be less stupid*/
 .colorPremiumTier2-3R4qYN{
     background-color: rgb(0,0,0,0.4);
@@ -1665,26 +1703,34 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
     /*affects stickers tab in server settings. not sure what else*/
 }
 
-/*random tutorial arrows*/
-.tutorial-1iwync .arrowGroup-25Wc10 .arrowContainer-27wMq6 img.arrowIcon-3Q91hj {
-    display: none;
-    /*removes tutorial arrow thingies when searching for server, channels or dm*/
-}
-
-.wumpusWrapper-3jyMw-{
-    display: none;
-    /*die wumpus*/
-}
+.shelfTopBackground-R55ED9[alt="characters playing a game"],
+.tier2HeaderBackground-2XINxm .panningAnimationInner-1Bmv00,
+.tier2HeaderBackground-2XINxm .sequencedAnimation-f_FX_M svg,
+.guildWrapper-DAbXP2.confirmationAnimation-2CEvGX,
+/*some wumpus thing*/
+.wumpusImageContainer-ZGD_8q,
+/*random confetti stuff*/
+.cannonWrapper-2iHppQ,
+/*sparkle shit*/
+[class*="sparkleStar-"],
+[class*="sparkle-"],
+/*some image thing*/
+.footerImage-2WsqiE,
+/*random tutorial arrows when searching for server, channels or dm*/
+.tutorial-1iwync .arrowGroup-25Wc10 .arrowContainer-27wMq6 img.arrowIcon-3Q91hj,
+/*die wumpus*/
+.wumpusWrapper-3jyMw-,
 /*stupid discord art removal*/
 .art-3-BV8m,
 /*Screen Share modal*/
 .art-1TvEXv,
-/*stupid xbox marketing crap*/
-.art-1HoEkU,
 /*NEW! Text chat in voice! art thingy*/
-.fullWidthImage-pvnyWO{
+.fullWidthImage-pvnyWO,
+.art-2EJN8X,
+.artwork-3uFrhF{
     display: none;
 }
+
 .artContainer-1yaXct.artContainerBoxShadow-2PjEg_{
     min-height: 40px;
     /*adjustment for removing discord art crap*/
@@ -1697,10 +1743,6 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 .ownerIcon-255uKo.icon-1dGlZy{
     top: -2.5px;
     /*owner icon in member list*/
-}
-.art-2EJN8X,
-.artwork-3uFrhF{
-    display: none;
 }
 
 /*improved bg of thing in screen share modal*/
@@ -1729,19 +1771,6 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 .flowerStar-2tNFCR[aria-label="verified" i]{
     stroke: none;
 }
-/*failed friend req modal*/
-[class*="focusLock-"][aria-label="Friend request failed"] [data-text-variant="text-md/normal"]{
-    color: transparent;
-}
-[class*="focusLock-"][aria-label="Friend request failed"] [data-text-variant="text-md/normal"]:before{
-    content: "User not found. If spelling, capitalization, and discriminator are correct, it is probable that the user has blocked you or has prevented certain friend requests in settings.";
-    color: var(--text-normal);
-    display: block;
-}
-
-.shelfTopBackground-R55ED9[alt="characters playing a game"]{
-    display: none;
-}
 .activityItem-1Z9CTr:hover .activitySubtitleText-r0WHTk{
     filter: invert(1);
 }
@@ -1758,22 +1787,7 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
     min-height: 0;
     height: 20px;
 }
-.tier2HeaderBackground-2XINxm .panningAnimationInner-1Bmv00,
-.tier2HeaderBackground-2XINxm .sequencedAnimation-f_FX_M svg,
 
-.guildWrapper-DAbXP2.confirmationAnimation-2CEvGX,
-/*some wumpus thing*/
-.wumpusImageContainer-ZGD_8q,
-/*random confetti stuff*/
-.cannonWrapper-2iHppQ,
-/*sparkle shit*/
-[class*="sparkleStar-"],
-[class*="sparkle-"],
-/*some image thing*/
-.footerImage-2WsqiE
-{
-    display: none;
-}
 .confirmImage-e5jLwI{
     background-image: none !important;
     height: 20px;
@@ -1812,40 +1826,6 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
     background: #000;
     border: 2px solid var(--main-color, #7289da); 
 }
-
-/*thread dropdown thing*/
-/*thread list container background*/
-[class*="layerContainer-"] .browser-mnQ1T7.container-18GwIk,
-.messagesPopoutWrap-3zryHW,
-.recentMentionsPopout-2bI1ZN {
-    background: #000;
-    border-radius: 8px;
-    border: 2px solid var(--main-color);
-}
-/*thread dropdown body stars*/
-.stars-3UP9-A{
-    display: none;
-}
-.container-2c4_8A h2{
-    text-indent: -9999px;
-    line-height: 0;
-}
-.container-2c4_8A h2:after{
-    text-indent: 0;
-    line-height: 30px;
-    display: block;
-    content: "No available threads.";
-}
-/*pinned messages dropwdown*/
-[aria-label="Pinned Messages"] [class*="emptyPlaceholder-"]:before{
-    content: "No pinned messages in this channel.";
-    color: var(--text-normal);
-}
-[aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="image-"],
-[aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="body-"]{
-    display: none;
-}
-
 
 .fakeLink-1wGafz{
     color: var(--main-color);
