@@ -8,6 +8,13 @@
   > Online - #43B581
   > Idle - #FAA61A
   > Do not disturb - #982929
+
+  If you are NOT using CV but still have custom status colors, add the following to your theme file: 
+  :root{
+    --online-color: your online color;
+    --idle-color: your idle color;
+    --dnd-color: your dnd color;
+  }
 */
 
 

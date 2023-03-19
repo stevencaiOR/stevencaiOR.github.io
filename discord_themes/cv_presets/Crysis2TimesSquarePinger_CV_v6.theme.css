@@ -47,10 +47,10 @@
   --some-orange:rgb(var(--some-orange-numerical));
 
   /* CUSTOMIZATION PATCH */
-  --url-color: var(--main-color);
   --channel-unread: var(--main-color);
   --channel-color: rgba(var(--main-color-numerical),0.9);
   --muted-color: rgba(var(--main-color-numerical),0.55);
+  --url-color: var(--main-color);
 
   /* THIRD PARTY THEME COLOURS */
   --spotify-color-numerical: 30,215,96;

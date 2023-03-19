@@ -58,18 +58,10 @@
   --some-orange:rgb(var(--some-orange-numerical));
 
   /* CUSTOMIZATION PATCH */
-  --url-color: var(--main-color);
   --channel-unread: rgb(var(--main-color-numerical));
   --channel-color: rgba(var(--main-color-numerical),0.7);
   --muted-color: rgba(var(--main-color-numerical),0.3);
-
-  /*
-  If you don't like colored channel names, you can use these settings. Personally, I think
-  it looks better *with* colored channel names, at least with this theme
-  --channel-unread: rgb(var(--main-color-numerical), 0.8);
-  --channel-color:  rgba(255,255,255,0.7);
-  --muted-color: rgba(255,255,255,0.3);
-  */
+  --url-color: var(--main-color);
 
   /* THIRD PARTY THEME COLOURS */
   --spotify-color-numerical: 30,215,96;

@@ -52,10 +52,10 @@
   --some-orange:rgb(var(--some-orange-numerical));
 
   /* CUSTOMIZATION PATCH */
-  --url-color: var(--main-color);
   --channel-unread: rgb(135, 190, 240,1); /*previous: #6FA2DE*/
   --channel-color: rgb(102,166,233,1); /*previous: 99, 176, 249*/
   --muted-color: rgb(104,136,182,1);
+  --url-color: var(--main-color);
   /*this part is done slightly different than my other themes. I came up with my own RGB values apparently rather than using --main-color*/
 
   /* THIRD PARTY THEME COLOURS */
