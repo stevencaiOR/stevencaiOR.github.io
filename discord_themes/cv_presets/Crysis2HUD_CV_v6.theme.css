@@ -145,9 +145,6 @@
   --bd-blue: var(--main-color);
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
-
-  /* DEFAULT VAR REPLACEMENTS*/
-  --background-secondary: #000;
 }
 /*-----CRYSIS 2 HUD THEME ONLY-----*/
 #app-mount [class^="notAppAsidePanel-"] > div[class^="app-"] > div[class^="app-"] > div[class^="layers-"] > div[class^="layer-"]{
