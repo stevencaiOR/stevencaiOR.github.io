@@ -1,8 +1,9 @@
-.theme-dark,
-.theme-light{
+.theme-dark{
     --focus-primary: var(--blue-345);
     --info-box-background: hsl(var(--blue-345-hsl) / 0.1);
-
+}
+.theme-dark,
+.theme-light{
     --activity-card-background: var(--primary-700);
     --android-navigation-bar-background: var(--primary-830);
     --android-navigation-scrim-background: hsl(var(--primary-830-hsl) / 0.5);
