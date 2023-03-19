@@ -1,0 +1,36 @@
+/**
+ * @name Meme Theme
+ * @author Alcatraz
+ * @description Don't use this
+ * @version 0.0.1
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+:root{
+    --font-primary: Fasthand;
+}
+
+.theme-dark,
+.theme-light{
+    --background-primary: #f00;
+    --background-secondary: #f0f;
+    --background-tertiary: #0f0;
+    --text-normal: orange;
+    --brand-experiment: #efefef;
+    --channeltextarea-background: teal;
+}
+img.icon-3AqZ2e,
+img[class*="avatar-"]{
+    display: none;
+}
+.scroller-3X7KbA > div:not([aria-label="Servers"]):not(.tutorialContainer-1pL9QS) .listItem-3SmSlK{
+    display: none;
+}
+svg.homeIcon-r0w4ny{
+    display: none;
+}
+.scroller-3X7KbA > .tutorialContainer-1pL9QS {
+    --background-primary: transparent;
+    --text-normal: transparent;
+    --brand-experiment: transparent;
+    --brand-experiment-500: transparent;
+}
