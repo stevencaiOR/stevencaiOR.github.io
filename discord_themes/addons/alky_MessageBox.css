@@ -76,3 +76,12 @@ button[aria-label^="Upload a file"] path[class*="attachButtonPlay-"]{
     border-color: var(--main-color);
     /*separator color*/
 }
+/* Upload Attachment Utilities */
+[aria-label="Upload Attachment Utilities"] [class*="wrapper-"]{
+    background: #000;
+    border: 3px solid var(--main-color, transparent);
+}
+[aria-label="Upload Attachment Utilities"] [class*="button-"]{
+    box-sizing: border-box;
+    height: 100%;
+}
