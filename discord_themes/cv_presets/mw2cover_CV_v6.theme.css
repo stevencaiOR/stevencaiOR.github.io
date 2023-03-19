@@ -67,8 +67,7 @@
   --font-primary: var(--main-font);
   --font-headline: var(--main-font);
   --code-font: Consolas, monospace;
-  --text-muted-numerical: var(--main-color-numerical);
-  --text-muted: rgb(var(--text-muted-numerical));
+  --text-muted: var(--main-color);
   /*Miscellaneous text, such as dates, search bar 'search' and reactions*/
   --server-columns: 1;
   --channels-width: max(13.4vw, 185px);   /*default: 220px*/

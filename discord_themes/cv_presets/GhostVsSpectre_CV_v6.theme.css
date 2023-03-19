@@ -21,7 +21,7 @@
   /* ALKY SETTINGS PAGE */
   --nitro-bg-image: var(--background-image);
   --nitro-bg-pos: 0% 17.5%;
-  
+
   /* ACCENT COLORS */
   --main-color-numerical: 114, 195, 124;
   --main-color: rgb(var(--main-color-numerical));
@@ -67,8 +67,7 @@
   --font-primary: var(--main-font);
   --font-headline: var(--main-font);
   --code-font: Consolas, monospace;
-  --text-muted-numerical: var(--main-color-numerical);
-  --text-muted: rgb(var(--text-muted-numerical));
+  --text-muted: var(--main-color);
   --channels-width: max(13.4vw, 185px);   /*default: 220px*/
   --members-width: max(14vw, 185px);      /*default: 240px*/
 
