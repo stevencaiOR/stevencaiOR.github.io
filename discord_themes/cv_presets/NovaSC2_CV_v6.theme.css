@@ -27,10 +27,6 @@
   --nitro-bg-image: url(https://bnetcmsus-a.akamaihd.net/cms/blog_header/vj/VJ6G9MK9A8HJ1476222888871.jpg);
   --nitro-bg-pos: right;
 
-  /* ALKY MESSAGE BOX */
-  --mb-placeholder-1: rgb(var(--text-muted-numerical), 0.7);
-  --mb-placeholder-2: var(--text-muted);
-
   /* ACCENT COLORS */
   --main-color-numerical: 39, 128, 230;
   --main-color: rgb(var(--main-color-numerical));

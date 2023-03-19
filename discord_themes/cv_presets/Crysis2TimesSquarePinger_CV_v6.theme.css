@@ -20,10 +20,6 @@
   --nitro-bg-image: url(https://cdn.uc.assets.prezly.com/915ca5cf-962e-41b0-9d11-76ba4da91ab7/-/resize/1108x/-/quality/best/-/format/auto/);
   --nitro-bg-pos: center;
 
-  /* ALKY MESSAGE BOX */
-  --mb-placeholder-1: rgb(var(--text-muted-numerical), 0.7);
-  --mb-placeholder-2: var(--text-muted);
-
   /* ACCENT COLORS */
   --main-color-numerical: 178, 38, 30; /*alternate: 26, 52, 62?*/
   --main-color: rgb(var(--main-color-numerical));
