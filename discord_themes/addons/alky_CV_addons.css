@@ -275,10 +275,10 @@ svg.avatarHint-2g3Mcd[width="80"] {
 }
 .avatarPositionNormal-V4Mjtq,
 .avatarPositionPremiumNoBanner-nWzERs{
-    top: var(--popout-avatar-margin-top);
+    top: calc(var(--popout-avatar-margin-top) + var(--avatar-extended-bg, 0px));
 }
 .avatarPositionPremiumBanner-2nq2Fy{
-    top: var(--popout-avatar-margin-top-premium);
+    top: calc(var(--popout-avatar-margin-top-premium) + var(--avatar-extended-bg, 0px));
 }
 [class*="userPopoutInner-"] [class*="overlayBackground-"]{
     margin: calc(var(--profile-popout-picture-size) - 50px) 16px 16px;
