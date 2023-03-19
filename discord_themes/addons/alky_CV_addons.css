@@ -27,6 +27,7 @@
 }
 .default-colors,
 :root{
+    /* There is no reason these should rely on --saturation-factor, hence replaced with hex */
     --primary-100: #F8F8F8;
     --primary-130: #F3F3F3;
     --primary-160: #ECECEC;
@@ -34,7 +35,7 @@
     --primary-230: #DEDEDE;
 }
 .theme-light{
-    /* Cut and pasted all .theme-dark var assignments in .theme-light */
+    /* Cut and pasted most .theme-dark var assignments into .theme-light */
     --activity-card-background: var(--primary-700);
     --android-navigation-bar-background: var(--primary-830);
     --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5);
@@ -189,12 +190,19 @@
     --text-danger: var(--red-345);
     --text-link: var(--blue-345);
     --text-link-low-saturation: var(--blue-330);
+    /*
     --text-muted: var(--primary-360);
     --text-normal: var(--primary-230);
+    */
     --text-positive: var(--green-330);
     --text-warning: var(--yellow-300);
     --textbox-markdown-syntax: var(--primary-360);
     --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5);
+}
+.theme-light,
+:root{
+    --text-muted: var(--primary-360);
+    --text-normal: var(--primary-230);
 }
 /*-----TRIBUTE TO AUTHOR-----*/
 /*Note: by author, I mean the author of this specific custom CV preset.
