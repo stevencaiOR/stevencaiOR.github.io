@@ -201,6 +201,7 @@
 }
 .theme-light,
 :root{
+    /* Overrides values set by :root{} in ClearVision theme, because default values are perfectly fine*/
     --text-muted: var(--primary-360);
     --text-normal: var(--primary-230);
 }
