@@ -132,7 +132,7 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     /*user popout avatar full size if mobile*/
 }
 /* circle deletion because we create our own */
-.userPopoutOuter-3AVBmJ .bannerSVGWrapper-qc0szY circle{
+.userPopoutOuter-3AVBmJ:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-qc0szY circle{
     display: none;
 }
 /*Temp Fix for User Popouts*/
