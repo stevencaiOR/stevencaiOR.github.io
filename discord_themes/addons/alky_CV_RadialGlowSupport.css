@@ -150,6 +150,7 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     border: var(--user-popout-avatar-border-width) solid;
     border-radius: var(--avatar-roundness, 50%);
 }
+.bannerSVGWrapper-qc0szY,
 #app-mount .avatarHoverTarget-l77PhT,
 #app-mount .avatarWrapper-3y0KZ1{
     --avatar-extended-bg: 7px;
