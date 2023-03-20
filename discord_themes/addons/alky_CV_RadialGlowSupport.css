@@ -131,7 +131,10 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     width: 100%;
     /*user popout avatar full size if mobile*/
 }
-
+/* circle deletion because we create our own */
+.userPopoutOuter-3AVBmJ .bannerSVGWrapper-qc0szY circle{
+    display: none;
+}
 /*Temp Fix for User Popouts*/
 .userPopoutInner-PA9zkU .wrapper-3Un6-K:not(.avatar-2OC07D) foreignObject,
 #app-mount .wrapper-3Un6-K[style*="80px"] [class*="avatarStack-"]{
@@ -200,7 +203,7 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     display: block;
     height: 105%;
     width: 105%;
-    top: calc(-1px - 2.5%);
+    top: calc(-0.75px - 2.5%);
     left: -2.5%;
     z-index: -1;
 }
