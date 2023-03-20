@@ -11,6 +11,7 @@
     --chat-box-avatar-change: min(calc(var(--chat-box-username-height, 1.375rem) - 0.625rem),1.25rem);  /*default: 0*/
 
     --popout-avatar-margin-top: 10px;
+    --popout-avatar-margin-top-premium-no-banner: 40px;
     --popout-avatar-margin-top-premium: 70px;
 
     --online-color: #43b581;
@@ -243,13 +244,7 @@
 .avatarHintInner-3gk_Yx{
     font-size: 8.25px;
 }
-.avatarHintInnerText-9TQf9n {
-    font-size: 80%;
-}
-.headerTop-3GPUSF{
-    padding-top: 80px;
-}
-/*View Profile Picture & Edit Prolfe Buttons*/
+/*View Profile Picture & Edit Profile Buttons*/
 .popoutBanner-16rVDY .pencilContainer-11Kuga,
 .popoutBannerPremium-2RvDNZ .pencilContainer-11Kuga,
 .VPP-self{
@@ -272,9 +267,11 @@ svg.avatarHint-2g3Mcd[width="80"] {
     height: var(--profile-popout-picture-size) !important;
     width: var(--profile-popout-picture-size) !important;
 }
-.avatarPositionNormal-V4Mjtq,
-.avatarPositionPremiumNoBanner-nWzERs{
+.avatarPositionNormal-V4Mjtq{
     top: calc(var(--popout-avatar-margin-top) + var(--avatar-extended-bg, 0px));
+}
+.avatarPositionPremiumNoBanner-nWzERs{
+    top: calc(var(--popout-avatar-margin-top-premium-no-banner) + var(--avatar-extended-bg, 0px));
 }
 .avatarPositionPremiumBanner-2nq2Fy{
     top: calc(var(--popout-avatar-margin-top-premium) + var(--avatar-extended-bg, 0px));
