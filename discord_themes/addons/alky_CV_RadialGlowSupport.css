@@ -27,6 +27,9 @@ It is primarily compatible with my Clearvision theme presets I created
 .mask-1FEkla{
     filter: none;
 }
+#app-mount .wrapper-3Un6-K[aria-label*="offline" i] rect[fill="transparent"]{
+    stroke: var(--rs-offline-color);
+}
 #my-account-tab .avatar-3mTjvZ.wrapper-3Un6-K[aria-label*="Online" i],
 .userPopout-3fydSP .wrapper-3Un6-K[aria-label*="Online" i],
 #account-avatar .wrapper-3Un6-K[aria-label*="Online" i]{
