@@ -23,13 +23,13 @@
 /* generic sticker selected in sticker picker*/
 .stickerCategoryGenericSelected-DnO2K8,
 /* buttons */
-button[class*="lookFilled-"].colorRed-rQXKgM,
-button[class*="lookFilled-"][class*="colorGrey-"],
-button[class*="lookFilled-"][class*="colorBrand-"],
+[class*="lookFilled-"].colorGreen-jIPCAS,
+[class*="lookFilled-"][class*="colorBrandNew-"],
+[class*="lookFilled-"].colorPrimary-2-Lusz,
+[class*="lookFilled-"].buttonColor-1u-3JF,
+[class*="lookFilled-"][class*="colorRed-"],
+[class*="lookFilled-"][class*="colorBrand-"],
 :not(.wrapper-1HIH0j) > * > button[class*="lookFilled-"][class*="colorGreen-"],
-button[class*="lookFilled-"].colorBrandNew-2-gGsS,
-button[class*="lookFilled-"].colorBrandNew-g5lmBU,
-button[class*="lookFilled-"].colorPrimary-2AuQVo,
 /* new message bar in chat box */
 #---new-messages-bar .unreadPill-3nEWYM,
 [class^="newMessagesBar-"] button,
@@ -149,13 +149,6 @@ button[class*="lookFilled-"].colorPrimary-2AuQVo,
 .theme-dark .tierPill-l7DvKo,
 /*session icons in devices tab*/
 .sessionIcon-2fwSzb,
-/*not even sure*/
-.lookFilled-1H2Jvj.colorGrey-2DXtkV,
-.lookFilled-1H2Jvj.colorBrand-2M3O3N,
-.lookFilled-1H2Jvj.colorGreen-jIPCAS,
-.lookFilled-1H2Jvj.colorBrandNew-abZT3v,
-.lookFilled-1H2Jvj.colorPrimary-2-Lusz,
-.lookFilled-1H2Jvj.buttonColor-1u-3JF,
 /*radio bar text/items upon selection*/
 [aria-checked=true].item-1TA5qI .radioBar-1XgZqD,
 [aria-checked=true].item-1TA5qI .radioBar-1XgZqD .selected-3XnKRK .channelIcon-1BydE-
@@ -270,7 +263,7 @@ button[class*="lookFilled-"].colorPrimary-2AuQVo,
 }
 
 /* Colored text of red buttons on hover (e.g. Disable Account) */
-.lookFilled-yCfaCM.colorRed-rQXKgM:hover,
+[class*="lookFilled-"][class*="colorRed-"]:hover,
 /* Colored text of selected radio bar */
 /* safe direct messaging only */
 [aria-checked=true] > .radioBar-3w9XY-[style^="--radio-bar-accent-color:hsl(37, calc(var(--saturation-factor, 1) * 81.2%), 43.9%);"] circle.radioIconForeground-2BMavi,
