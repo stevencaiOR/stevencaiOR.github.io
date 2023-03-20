@@ -224,7 +224,10 @@
 .autocomplete-3NRXG8 [aria-selected=true].clickable-2V8YKY .base-2v-uc0 .autocompleteRowContentSecondary-Oobh2b,
 .autocomplete-3NRXG8 [aria-disabled=false].clickable-2V8YKY .base-2v-uc0:hover .autocompleteRowContentSecondary-Oobh2b,
 /*random radio abr text*/
-[aria-checked=true].item-1TA5qI .radioBar-1XgZqD .radioLabelDescription-2ZSE0N{
+[aria-checked=true].item-1TA5qI .radioBar-1XgZqD .radioLabelDescription-2ZSE0N,
+/*voice call container buttons*/
+[class*="lookFilled-"][class*="colorBrand-"] [class*="defaultColor-"],
+[class*="lookFilled-"].colorPrimary-2-Lusz [class*="defaultColor-"]{
     filter: invert(1);
 }
 
