@@ -854,9 +854,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     top: calc(0.5*(var(--chat-box-username-height, 1.375rem) - 1.375rem));
     /* adjust arrow positioning */
 }
-.systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI [class*="anchorUnderlineOnHover-"] span[aria-label][aria-hidden]{
-    margin-right: 1.5rem;
-}
 .systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI [class*="anchorUnderlineOnHover-"]{
     height: var(--chat-box-username-height, 1.375rem)
 }
