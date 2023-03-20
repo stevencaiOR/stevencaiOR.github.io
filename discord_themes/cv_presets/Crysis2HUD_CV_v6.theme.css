@@ -165,6 +165,10 @@
   /*first selector is main window*/
   /*second selector is title bar that contains windows button*/
 }
+#app-mount > div[class*="titleBar"]{
+  background: transparent;
+  box-shadow: none;
+}
 #app-mount > div[class*="titleBar"] > div{
   margin-top: 16.3vh;
   width: 25%;
