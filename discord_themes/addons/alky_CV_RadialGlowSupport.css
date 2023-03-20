@@ -219,11 +219,7 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
 #profile-customization-tab [class*="avatarUploader-"] [class*="statusDot-"] rect[mask*="dnd" i]{
     fill:  var(--rs-dnd-color);
 }
-/*scuffed fix for weird gray bg when someone else is on mobile NEVERMIND DOESN'T WORK??*
-#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] [class*="avatarStack-"],
-#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] [class*="avatarStack-"] img{
-    width: calc(80%);
-}
-#app-mount .wrapper-3Un6-K foreignObject[mask*=mobile] [class*="avatarStack-"] img{
-    width: calc(90%);
+/*Hot fix for gray half circle on right side of avatar in DM list when user online on mobile device*
+#app-mount .wrapper-3Un6-K foreignObject[mask*="mobile"] [class*="avatarStack-"]{
+    background-color: transparent;
 }

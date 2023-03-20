@@ -14,7 +14,7 @@
 [class^="channelTextArea-"] > [class^="scrollableContainer-"],
 [class^="channelTextArea-"] > [class^="scrollableContainer-"]:focus-within {
     border-color: var(--main-color);
-    /*no change in background-color because it looks better when it stays the same*/
+    /*no change in border-color because it looks better when it stays the same*/
 }
 /* Focus Opacity */
 [class^="channelTextArea-"] > [class^="scrollableContainer-"]{

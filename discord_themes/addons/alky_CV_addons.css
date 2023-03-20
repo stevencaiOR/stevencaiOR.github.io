@@ -1823,10 +1823,7 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 .messageRequestItem-1_NNAR:hover{
     background: rgb(var(--hover-color-numerical), 0.5);
 }
-/*Hot fix for gray half circle on right side of avatar in DM list when user online on mobile device*/
-#app-mount .wrapper-3Un6-K foreignObject[mask*="mobile"] .avatarStack-3vfSFa{
-    background-color: transparent;
-}
+
 
 /*Explore Public Container*/
 .container-3tKtM_{
