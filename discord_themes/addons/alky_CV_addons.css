@@ -277,7 +277,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
     top: calc(var(--popout-avatar-margin-top-premium) + var(--avatar-extended-bg, 0px));
 }
 [class*="userPopoutInner-"] [class*="overlayBackground-"]{
-    margin: calc(var(--profile-popout-picture-size) - 50px) 16px 16px;
+    margin: calc(0.5*var(--profile-popout-picture-size)) 16px 16px;
 }
 [class*="userPopoutInner-"]:not([class*="userProfileInnerThemedWithBanner-"]) [class*="bannerSVGWrapper-"]{
     --user-popout-banner-height: 80px;
