@@ -200,7 +200,7 @@
     cy: calc(0.5*var(--profile-popout-picture-size) + 15px);
 }
 #profile-customization-tab [class*="baseLayoutProfileThemes-"][class*="tryItOutLayout-"] [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
-    cx: calc(0.5*var(--profile-popout-picture-size) + 24px);
+    cx: calc(0.5*var(--profile-popout-picture-size) + 18px);
     cy: calc(0.5*var(--profile-popout-picture-size) + 70px);
 }
 #profile-customization-tab .imageUploaderInner-IIRaFr.avatarUploaderInner-1dBiHs{
