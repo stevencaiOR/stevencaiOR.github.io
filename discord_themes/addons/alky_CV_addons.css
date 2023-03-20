@@ -283,12 +283,12 @@ svg.avatarHint-2g3Mcd[width="80"] {
 [class*="userPopoutInner-"] [class*="overlayBackground-"]{
     margin: calc(var(--profile-popout-picture-size) - 50px) 16px 16px;
 }
-[class*="userPopoutInner-"]:not([class*="userProfileInnerWithBanner-"]) [class*="bannerSVGWrapper-"]{
+[class*="userPopoutInner-"]:not([class*="userProfileInnerThemedWithBanner-"]) [class*="bannerSVGWrapper-"]{
     --user-popout-banner-height: 80px;
     min-height: var(--user-popout-banner-height) !important;
     /*adjust height for non premium banner*/
 }
-[class*="userPopoutInner-"]:not([class*="userProfileInnerWithBanner-"]) [class*="bannerSVGWrapper-"] [class*="popoutBanner-"]{
+[class*="userPopoutInner-"]:not([class*="userProfileInnerThemedWithBanner-"]) [class*="bannerSVGWrapper-"] [class*="popoutBanner-"]{
     height: var(--user-popout-banner-height);
     bottom: calc(var(--user-popout-banner-height) - 60px);
     position: relative;
