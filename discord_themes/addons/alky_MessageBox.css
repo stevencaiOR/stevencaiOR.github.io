@@ -10,29 +10,23 @@
     background: rgb(0,0,0,0.8); /*default: transparent*/
     transition-duration: 250ms;
     border-radius: 12px; /*default: 8px*/
-    border-color: rgb(var(--main-color-numerical),0.6); /*default: transparent*/
 }
-.channelTextArea-1VQBuV .scrollableContainer-15eg7h:focus-within {
+[class^="channelTextArea-"] > [class^="scrollableContainer-"],
+[class^="channelTextArea-"] > [class^="scrollableContainer-"]:focus-within {
     border-color: var(--main-color);
     /*no change in background-color because it looks better when it stays the same*/
 }
-/* PLACEHOLDER TEXT */
-.channelTextArea-1VQBuV .scrollableContainer-15eg7h .placeholder-1rCBhr{
-    color: rgb(255,255,255,0.4);
-    /*default color*/
-}
-.channelTextArea-1VQBuV .scrollableContainer-15eg7h:focus-within .placeholder-1rCBhr{
-    color: rgb(255,255,255,0.6);
-    /*color upon select*/
-}
-/* MARKUP TEXT */
-.channelTextArea-1VQBuV .scrollableContainer-15eg7h .markup-eYLPri{
+/* Focus Opacity */
+[class^="channelTextArea-"] > [class^="scrollableContainer-"]{
     opacity: 0.8;
-    /*markup text when message box not selected*/
 }
-.channelTextArea-1VQBuV .scrollableContainer-15eg7h:focus-within .markup-eYLPri{
+[class^="channelTextArea-"] > [class^="scrollableContainer-"]:focus-within{
     opacity: 1;
-    /*markup text when message box selected*/
+}
+/* PLACEHOLDER TEXT */
+[class^="channelTextArea-"] > [class^="scrollableContainer-"] .placeholder-1rCBhr,
+[class^="channelTextArea-"] > [class^="scrollableContainer-"]:focus-within .placeholder-1rCBhr{
+    color: var(--main-color);
 }
 /* BUTTONS */
 [class*="channelTextArea-"] button:not([aria-label="Send Message"]) [class*="contents-"] > div{
@@ -68,7 +62,7 @@ button[aria-label^="Upload a file"] path[class*="attachButtonPlay-"]{
 .channelTextArea-1VQBuV button[aria-label="Send Message"] .button-2fCJ0o .buttonChild-33lB5F.disabled-3wvGkX{
     color: rgb(var(--main-color-numerical),0.7);
 }
-.channelTextArea-1VQBuV .scrollableContainer-15eg7h:focus-within button[aria-label="Send Message"] .button-2fCJ0o .buttonChild-33lB5F.disabled-3wvGkX,
+[class^="channelTextArea-"] > [class^="scrollableContainer-"]:focus-within button[aria-label="Send Message"] .button-2fCJ0o .buttonChild-33lB5F.disabled-3wvGkX,
 .channelTextArea-1VQBuV button[aria-label="Send Message"] .button-2fCJ0o .buttonChild-33lB5F.activeButtonChild-2hgLAO{
     color: var(--main-color);
 }
