@@ -677,8 +677,7 @@ section[aria-label="User area" i] > .container-YkUktl {
     /*Adds spacing upwards and downwards*/
 }
 section[aria-label="User area" i] .avatar-1EWyVD.wrapper-3Un6-K,
-section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] foreignObject,
-section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
+section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] foreignObject{
     width: calc(32px + var(--avatar-change, 0) * 1px) !important; /*default: 32px*/
     height: calc(32px + var(--avatar-change, 0) * 1px) !important;
     /*Increased avatar size*/
