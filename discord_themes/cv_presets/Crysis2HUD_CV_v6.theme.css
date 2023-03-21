@@ -216,12 +216,6 @@
   fill: #000;
 }
 
-
-/*I don't know what this does*/
-.wrapper-3kah-n .childWrapper-1j_1ub{
-  border-radius: 50%;
-  /*background color is circular*/
-}
 /*I don't know what this does either*/
 [class^="layer"][id^="popout_"] > [class^="popout"] [class^="option"][aria-selected="true"]{
   background: rgb(var(--main-color-numerical), 0.8) !important;
