@@ -22,7 +22,7 @@ It is primarily compatible with my Clearvision theme presets I created
     --rs-large-width: 2px; /* Default: 2px */
 
     /*for temp fix*/
-    --user-popout-avatar-border-width: 2px;
+    --user-popout-avatar-border-width: 4px;
 }
 .mask-1FEkla{
     filter: none;
