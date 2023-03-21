@@ -852,6 +852,28 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     content: "Below are some steps to help you get this server started.";
     display: block;
 }
+/* NEW SERVER CARDS */
+.container-1yy5xN .cardWrapper-2fBdfM .card-PQEqCK{
+    border: 2px solid var(--main-color, var(--brand-experiment))
+}
+.container-1yy5xN .cardWrapper-2fBdfM .icon-2dMhn4{
+    display: none;
+}
+.container-1yy5xN .cardWrapper-2fBdfM .card-PQEqCK:before{
+    color: var(--main-color, var(--brand-experiment));
+    min-width: 90px;
+    width: 90px;
+    font-weight: 900;
+}
+.container-1yy5xN .cardWrapper-2fBdfM:nth-child(2) .card-PQEqCK:before{
+    content: "< Friends >";
+}
+.container-1yy5xN .cardWrapper-2fBdfM:nth-child(3) .card-PQEqCK:before{
+    content: "< Icon >";
+}
+.container-1yy5xN .cardWrapper-2fBdfM:nth-child(4) .card-PQEqCK:before{
+    content: "< Msg >";
+}
 /* JOIN BUTTON */
 /*ex. the join button when receive server invite*/
 [data-list-id="chat-messages"] button[class*="lookFilled"][class*="colorGreen"]{
