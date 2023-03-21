@@ -34,6 +34,10 @@ It is primarily compatible with my Clearvision theme presets I created
     height: var(--profile-popout-picture-size, 80px) !important;
     width: var(--profile-popout-picture-size, 80px) !important;
 }
+section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
+    width: calc(32px + var(--avatar-change, 0) * 1px) !important;
+    height: calc(32px + var(--avatar-change, 0) * 1px) !important;
+}
 #my-account-tab .avatar-3mTjvZ.wrapper-3Un6-K[aria-label*="Online" i],
 .userPopout-3fydSP .wrapper-3Un6-K[aria-label*="Online" i],
 #account-avatar .wrapper-3Un6-K[aria-label*="Online" i]{
@@ -135,10 +139,7 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     width: 100%;
     /*user popout avatar full size if mobile*/
 }
-/* circle deletion because we create our own */
-.userPopoutOuter-3AVBmJ:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-qc0szY circle{
-    display: none;
-}
+
 /*Temp Fix for User Popouts*/
 .userPopoutInner-PA9zkU .wrapper-3Un6-K:not(.avatar-2OC07D) foreignObject,
 #app-mount .wrapper-3Un6-K[style*="80px"] [class*="avatarStack-"]{
@@ -153,27 +154,6 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
 #app-mount .wrapper-3Un6-K[style*="80px"] [class*="avatarStack-"]{
     border: var(--user-popout-avatar-border-width) solid;
     border-radius: var(--avatar-roundness, 50%);
-}
-.bannerSVGWrapper-qc0szY,
-#app-mount .avatarHoverTarget-l77PhT,
-#app-mount .avatarWrapper-3y0KZ1{
-    --avatar-extended-bg: 7px;
-}
-#app-mount .avatarHoverTarget-l77PhT{
-    background: var(--profile-gradient-primary-color);
-    width: calc(var(--profile-popout-picture-size, 80px) + 2*var(--avatar-extended-bg));
-    height: calc(var(--profile-popout-picture-size, 80px) + 2*var(--avatar-extended-bg));
-    position: relative;
-    bottom: var(--avatar-extended-bg);
-    right: var(--avatar-extended-bg);
-}
-#app-mount .avatarHint-2g3Mcd{
-    top: 0;
-    left: 0;
-}
-#app-mount [class*="userPopout"] .wrapper-3Un6-K[style*="80px"]{
-    top: var(--avatar-extended-bg);
-    left: var(--avatar-extended-bg);
 }
 #app-mount .wrapper-3Un6-K[style*="80px"] [class*="avatarStack-"]{
     border: 2.5px solid;
