@@ -828,23 +828,29 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     line-height: var(--chat-box-username-height);
     /*matches line-height to .username-h_Y3Us, as it is by default*/
 }
-/* CHANNEL NAME */
-.container-1yy5xN .heading-xxl-medium-1hl0GL {
-    line-height: 50px;
-    margin-bottom: 40px;
-}
-.container-1yy5xN .heading-xxl-medium-1hl0GL{
-    max-width: 750px;
+/* CHANNEL NAME AND DESCRIPTOR */
+.container-1yy5xN h3[data-text-variant="heading-xxl/semibold"],
+.container-1yy5xN .description-22d6ux[data-text-variant="text-md/normal"]{
+    max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.container-1yy5xN .heading-xxl-medium-1hl0GL p:last-child{
-    overflow: inherit;
-    max-width: inherit;
-    text-overflow: inherit;
-
-    margin-left: auto;
-    margin-right: auto;
+.container-1yy5xN h3[data-text-variant="heading-xxl/semibold"]{
+    line-height: 64px;
+}
+.container-1yy5xN .description-22d6ux[data-text-variant="text-md/normal"]{
+    line-height: 32px;
+}
+/* SUBTITLE (below channel name) */
+.container-1yy5xN .subtitle-3tY4DQ[data-text-variant="text-sm/normal"]{
+    line-height: 0;
+    text-indent: -99999px;
+}
+.container-1yy5xN .subtitle-3tY4DQ[data-text-variant="text-sm/normal"]:after{
+    line-height: 18px;
+    text-indent: 0;
+    content: "Below are some steps to help you get this server started.";
+    display: block;
 }
 /* JOIN BUTTON */
 /*ex. the join button when receive server invite*/
