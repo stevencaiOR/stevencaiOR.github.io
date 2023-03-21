@@ -303,7 +303,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
     top: calc(76px + var(--profile-popout-width, 340px)/340*120 - 120px);
 }
 [class*="userPopoutInner-"] [class*="overlayBackground-"]{
-    margin: calc(0.5*var(--profile-popout-picture-size)) 16px 16px;
+    margin: calc(var(--profile-popout-picture-size, 80px) - 52px) 16px 16px;
 }
 .avatarUploaderNormal-1h8g3f{
     top: 25px
