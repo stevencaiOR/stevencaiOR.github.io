@@ -5,8 +5,8 @@
 /*-----VARIABLES-----*/
 :root{
     /* Redefine any of these variables in :root{} if you don't like them */
-    --profile-popout-width: 16.1vw;                                                                     /*default: 340px*/
-    --profile-popout-picture-size: calc(var(--profile-popout-width)*0.6);                               /*default: 80px*/
+    --profile-popout-width: 340px;                                                                      /*default: 340px*/
+    --profile-popout-picture-size: calc(var(--profile-popout-width, 340px)*0.6);                        /*default: 80px*/
     --chat-box-username-height: 2.5rem;                                                                 /*default: 1.375rem*/
     --chat-box-avatar-change: min(calc(var(--chat-box-username-height, 1.375rem) - 0.625rem),1.25rem);  /*default: 0*/
 
@@ -237,7 +237,7 @@
     display: block;
 }
 [class*="userPopoutOuter-"]{ /*add user panels?*/
-    width: var(--profile-popout-width);
+    width: var(--profile-popout-width, 340px);
 }
 .avatarHintInner-3gk_Yx{
     font-size: 8.25px;
@@ -1646,11 +1646,11 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     height: 92px
 }
 aside.profilePanel-2PWEok{
-    width: calc(0.85*var(--profile-popout-width));
+    width: calc(0.85*var(--profile-popout-width, 340px));
     /*profile panel width to match user popout width*/
 }
 aside.profilePanel-2PWEok .userPanelOuter-xc-WYi .bannerSVGWrapper-qc0szY .banner-2boKnS{
-    width: min(calc(0.85*var(--profile-popout-width)), 100%);
+    width: min(calc(0.85*var(--profile-popout-width, 340px)), 100%);
     /*banner width based on profile panel width*/
 }
 aside.profilePanel-2PWEok .userPanelOuter-xc-WYi .badgelistGroup-2XjSQi{
