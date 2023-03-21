@@ -30,6 +30,10 @@ It is primarily compatible with my Clearvision theme presets I created
 #app-mount .wrapper-3Un6-K[aria-label*="offline" i] rect[fill="transparent"]{
     stroke: var(--rs-offline-color);
 }
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) rect{
+    height: var(--profile-popout-picture-size, 80px) !important;
+    width: var(--profile-popout-picture-size, 80px) !important;
+}
 #my-account-tab .avatar-3mTjvZ.wrapper-3Un6-K[aria-label*="Online" i],
 .userPopout-3fydSP .wrapper-3Un6-K[aria-label*="Online" i],
 #account-avatar .wrapper-3Un6-K[aria-label*="Online" i]{
