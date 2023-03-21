@@ -160,7 +160,7 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     --avatar-extended-bg: 7px;
 }
 #app-mount .avatarHoverTarget-l77PhT{
-    background: var(--background-tertiary);
+    background: var(--profile-gradient-primary-color);
     width: calc(var(--profile-popout-picture-size, 80px) + 2*var(--avatar-extended-bg));
     height: calc(var(--profile-popout-picture-size, 80px) + 2*var(--avatar-extended-bg));
     position: relative;
