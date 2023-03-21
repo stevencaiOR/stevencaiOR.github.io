@@ -261,7 +261,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
     --avatar-extended-bg: 7px;
 }
 #app-mount .avatarHoverTarget-l77PhT{
-    background: var(--profile-gradient-primary-color);
+    background: var(--user-popout-overlay, var(--profile-gradient-primary-color));
     width: calc(var(--profile-popout-picture-size, 80px) + 2*var(--avatar-extended-bg));
     height: calc(var(--profile-popout-picture-size, 80px) + 2*var(--avatar-extended-bg));
     position: relative;
