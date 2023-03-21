@@ -120,9 +120,10 @@
 	--user-popout-contrast: var(--background-contrast); 
 	--user-popout-saturation: var(--background-saturation);
 	--user-popout-invert: var(--background-invert);
-	--user-popout-grayscale: var(--background-grayscale); 
+	--user-popout-grayscale: var(--background-grayscale);
+  --user-popout-sepia: var(--background-sepia);
 	--user-popout-blur: calc(var(--background-blur) + 3px); 
-  --user-popout-sepia: var(--background-sepia); 
+  --user-popout-overlay: #000; 
 	
 	/* USER MODAL BACKGROUND */
 	--user-modal-image: linear-gradient(var(--main-color),#303030);

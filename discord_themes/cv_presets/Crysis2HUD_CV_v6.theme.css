@@ -127,6 +127,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
+  --user-popout-overlay: #000;
 
   /* USER MODAL BACKGROUND */
   --user-modal-image: var(--background-image);
