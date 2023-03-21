@@ -197,7 +197,7 @@
 }
 #profile-customization-tab [class*="baseLayoutProfileThemes-"]:not([class*="tryItOutLayout-"]) [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
     cx: calc(0.5*var(--profile-popout-picture-size) + 22px);
-    cy: calc(0.5*var(--profile-popout-picture-size) + 15px);
+    cy: calc(0.5*var(--profile-popout-picture-size) + 16px);
 }
 #profile-customization-tab [class*="baseLayoutProfileThemes-"][class*="tryItOutLayout-"] [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
     cx: calc(0.5*var(--profile-popout-picture-size) + 18px);

@@ -306,10 +306,6 @@ svg.avatarHint-2g3Mcd[width="80"] {
 [class*="userPopoutInner-"] [class*="overlayBackground-"]{
     margin: calc(var(--profile-popout-picture-size, 80px) - 52px) 16px 16px;
 }
-.avatarUploaderNormal-1h8g3f{
-    top: 25px
-    /*avatar in preview popout for profiles tab*/
-}
 .wrapper-3Un6-K[style*="80px"]{
     margin: 0;
 }
