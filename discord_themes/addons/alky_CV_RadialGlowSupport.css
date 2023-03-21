@@ -34,10 +34,6 @@ It is primarily compatible with my Clearvision theme presets I created
     height: var(--profile-popout-picture-size, 80px) !important;
     width: var(--profile-popout-picture-size, 80px) !important;
 }
-section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
-    width: calc(32px + var(--avatar-change, 0) * 1px) !important;
-    height: calc(32px + var(--avatar-change, 0) * 1px) !important;
-}
 #my-account-tab .avatar-3mTjvZ.wrapper-3Un6-K[aria-label*="Online" i],
 .userPopout-3fydSP .wrapper-3Un6-K[aria-label*="Online" i],
 #account-avatar .wrapper-3Un6-K[aria-label*="Online" i]{
@@ -182,7 +178,15 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     bottom: var(--user-popout-avatar-border-width);
     right: var(--user-popout-avatar-border-width);
 }
+/* User Area Avatar Sizing */
+section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
+    width: var(--user-area-avatar-size, 32px)  !important;
+    height: var(--user-area-avatar-size, 32px) !important;
 
+    /*default values*/
+    x: 22;
+    y: 22;
+}
 /*User Settings Profiles Tab*/
 #profile-customization-tab [class*="avatarUploader-"] .imageUploader-1X7wVc+.status-b9jLr4{
     display: block;
