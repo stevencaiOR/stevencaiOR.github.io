@@ -10,10 +10,6 @@
     --chat-box-username-height: 2.5rem;                                                                 /*default: 1.375rem*/
     --chat-box-avatar-change: min(calc(var(--chat-box-username-height, 1.375rem) - 0.625rem),1.25rem);  /*default: 0*/
 
-    --popout-avatar-margin-top: 10px;
-    --popout-avatar-margin-top-premium-no-banner: 40px;
-    --popout-avatar-margin-top-premium: 70px;
-
     --online-color: #43b581;
     --idle-color: #faa61a;
     --dnd-color: #982929;
@@ -286,13 +282,13 @@ svg.avatarHint-2g3Mcd[width="80"] {
     width: var(--profile-popout-picture-size) !important;
 }
 .avatarPositionNormal-V4Mjtq{
-    top: calc(var(--popout-avatar-margin-top) + var(--avatar-extended-bg, 0px));
+    top: calc(16px + var(--profile-popout-width, 340px)/340*60 - 60px);
 }
 .avatarPositionPremiumNoBanner-nWzERs{
-    top: calc(var(--popout-avatar-margin-top-premium-no-banner) + var(--avatar-extended-bg, 0px));
+    top: calc(46px + var(--profile-popout-width, 340px)/340*90 - 90px)
 }
 .avatarPositionPremiumBanner-2nq2Fy{
-    top: calc(var(--popout-avatar-margin-top-premium) + var(--avatar-extended-bg, 0px));
+    top: calc(76px + var(--profile-popout-width, 340px)/340*120 - 120px);
 }
 [class*="userPopoutInner-"] [class*="overlayBackground-"]{
     margin: calc(0.5*var(--profile-popout-picture-size)) 16px 16px;
