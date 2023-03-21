@@ -670,8 +670,6 @@ div[id^="message-content"] > .wrapper-1ZcZW-{
 }
 /*-----BOTTOM LEFT PROFILE TAB-----*/
 section[aria-label="User area" i] > .container-YkUktl {
-    --avatar-change: 8;
-  
     padding-top: 3px;
     padding-bottom: 3px;
     /*Adds spacing upwards and downwards*/
