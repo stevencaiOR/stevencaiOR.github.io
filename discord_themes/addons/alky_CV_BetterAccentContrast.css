@@ -78,8 +78,8 @@
 /* replace all necessary instances var(--interactive-active) with black (#000) right here */
 /* NEW OLD and RELEVANT buttons in search results header */
 /* on select */
-.searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .selected-g-kMVV.item-3XjbnG,
-.searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .selected-g-kMVV.item-3XjbnG:hover,
+.searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh  [class*="item-"] [class*="selected-"],
+.searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh [class*="item-"]:hover:not(.disabled-2G98Nl),
 /* on hover 
 .searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .item-3XjbnG:hover,*/
 /* context menu item hover*/
