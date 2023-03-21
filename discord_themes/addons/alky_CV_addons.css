@@ -244,12 +244,6 @@
 .avatarHintInner-3gk_Yx{
     font-size: 8.25px;
 }
-/*View Profile Picture & Edit Profile Buttons*/
-.popoutBanner-16rVDY .pencilContainer-11Kuga,
-.popoutBannerPremium-2RvDNZ .pencilContainer-11Kuga,
-.VPP-self{
-    top: max(calc((var(--user-popout-banner-height) - 60px)), 10px);
-}
 /*user popout applies to the popout when clicking on user area*/
 svg.avatarHint-2g3Mcd[width="80"] {
     transition-duration: 200ms;
@@ -278,17 +272,6 @@ svg.avatarHint-2g3Mcd[width="80"] {
 }
 [class*="userPopoutInner-"] [class*="overlayBackground-"]{
     margin: calc(0.5*var(--profile-popout-picture-size)) 16px 16px;
-}
-[class*="userPopoutInner-"]:not([class*="userProfileInnerThemedWithBanner-"]) [class*="bannerSVGWrapper-"]{
-    --user-popout-banner-height: 80px;
-    min-height: var(--user-popout-banner-height) !important;
-    /*adjust height for non premium banner*/
-}
-[class*="userPopoutInner-"]:not([class*="userProfileInnerThemedWithBanner-"]) [class*="bannerSVGWrapper-"] [class*="popoutBanner-"]{
-    height: var(--user-popout-banner-height);
-    bottom: calc(var(--user-popout-banner-height) - 60px);
-    position: relative;
-    /*position for non premium banner*/
 }
 .avatarUploaderNormal-1h8g3f{
     top: 25px
