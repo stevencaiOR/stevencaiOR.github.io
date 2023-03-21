@@ -114,11 +114,6 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
 .avatarWrapperNormal-1tQ3Je .avatarHint-2g3Mcd foreignObject{
     mask: none;
 }
-.avatarWrapperNormal-1tQ3Je .avatarHint-2g3Mcd{
-    border-radius: 50%;
-    top: 7.5px;
-    left: 7.5px;
-}
 
 /* Removes blocky-ness of glow in friends tab panels*/
 .peopleListItem-u6dGxF .userInfo-2WpsYG {
@@ -179,6 +174,7 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     right: var(--user-popout-avatar-border-width);
 }
 #app-mount .avatarHint-2g3Mcd{
+    border-radius: 50%;
     top: var(--user-popout-avatar-border-width);
     left: var(--user-popout-avatar-border-width);
 }
