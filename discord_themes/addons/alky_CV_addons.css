@@ -1235,6 +1235,24 @@ ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][clas
     position: relative;
     left: 20px
 }
+/*-----"So... You Blocked this Person" MODAL-----*/
+[class*="focusLock-"][aria-label="Soo... You Blocked This Person"] h2,
+[class*="focusLock-"][aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]{
+    text-indent: -9999px;
+    line-height: 0;
+}
+[class*="focusLock-"][aria-label="Soo... You Blocked This Person"] h2:after,
+[class*="focusLock-"][aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]:after{
+    line-height: 20px;
+    text-indent: 0;
+    display: block;
+}
+[class*="focusLock-"][aria-label="Soo... You Blocked This Person"] h2:after{
+    content: "User Blocked";
+}
+[class*="focusLock-"][aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]:after{
+    content: "Unblock this user to jump to the specified message";
+}
 /*-----JOINING SERVER MODAL-----*/
 .joiningAs-1Huczh{
     flex-direction: column;
