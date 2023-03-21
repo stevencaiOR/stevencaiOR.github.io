@@ -175,8 +175,8 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
 }
 #app-mount .avatarHint-2g3Mcd{
     border-radius: 50%;
-    top: var(--user-popout-avatar-border-width);
-    left: var(--user-popout-avatar-border-width);
+    top: calc(0.1*var(--user-popout-avatar-border-width));
+    left: calc(0.1*var(--user-popout-avatar-border-width));
 }
 /* User Area Avatar Sizing */
 section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
