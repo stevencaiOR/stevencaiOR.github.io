@@ -277,6 +277,10 @@ svg.avatarHint-2g3Mcd[width="80"] {
     left: var(--avatar-extended-bg);
 }
 /* AVATAR SIZE */
+#app-mount .wrapper-3Un6-K svg:not(:root){
+    overflow: visible;
+    /*allows visibility of avatar when not using radial status*/
+}
 [class*="userPopoutInner-"] .avatarHint-2g3Mcd,
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As),
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) foreignObject {
