@@ -143,7 +143,8 @@ section[aria-label="user area" i] .wrapper-3Un6-K[aria-label*="invisible" i]{
     overflow: visible;
 }
 #app-mount .wrapper-3Un6-K[style*="80px"] [class*="avatarStack-"]{
-    border: var(--user-popout-avatar-border-width) solid;
+    border-width: var(--user-popout-avatar-border-width);
+    border-style: solid;
     border-radius: var(--avatar-roundness, 50%);
 }
 #app-mount .wrapper-3Un6-K[style*="80px"] [class*="avatarStack-"]{
