@@ -253,6 +253,31 @@ svg.avatarHint-2g3Mcd[width="80"] {
     -webkit-line-clamp: 4 !important;
     /*shorter about-me section*/
 }
+/* CUSTOM AVATAR CIRCLE */
+.userPopoutOuter-3AVBmJ:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-qc0szY circle{
+    display: none;
+}
+.bannerSVGWrapper-qc0szY,
+#app-mount .avatarHoverTarget-l77PhT,
+#app-mount .avatarWrapper-3y0KZ1{
+    --avatar-extended-bg: 7px;
+}
+#app-mount .avatarHoverTarget-l77PhT{
+    background: var(--profile-gradient-primary-color);
+    width: calc(var(--profile-popout-picture-size, 80px) + 2*var(--avatar-extended-bg));
+    height: calc(var(--profile-popout-picture-size, 80px) + 2*var(--avatar-extended-bg));
+    position: relative;
+    bottom: var(--avatar-extended-bg);
+    right: var(--avatar-extended-bg);
+}
+#app-mount .avatarHint-2g3Mcd{
+    top: 0;
+    left: 0;
+}
+#app-mount [class*="userPopout"] .wrapper-3Un6-K[style*="80px"]{
+    top: var(--avatar-extended-bg);
+    left: var(--avatar-extended-bg);
+}
 /* AVATAR SIZE */
 [class*="userPopoutInner-"] .avatarHint-2g3Mcd,
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As),
