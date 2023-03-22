@@ -9,6 +9,14 @@
     */
 
     --message-content-line-height: 1.375rem; /*line height of messages*/
+
+    /* THIRD PARTY THEME COLORS */
+    --spotify-color-numerical: 29, 214, 95;
+    --spotify-color: rgb(var(--spotify-color-numerical));
+    --twitter-color-numerical: 29, 155, 240;
+    --twitter-color: rgb(var(--twitter-color-numerical));
+    --facebook-color-numerical: 66, 103, 178;
+    --facebook-color: rgb(var(--facebook-color-numerical));
 }
 /* Minimizes gaps between sections */
 .sidebar-nqHbhN .header-2Kx1US{
