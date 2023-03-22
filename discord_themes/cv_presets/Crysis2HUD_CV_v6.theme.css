@@ -85,7 +85,7 @@
   --background-grayscale: 0%;
   --background-invert: 0%;
   --background-blur: 0px;
-  --background-overlay: transparent;
+  --background-overlay: var(--background-image); /*in case .bg-1QIAus doesn't load, our background will still show. no downside since was transparent before*/
 
   /* HOME BUTTON ICON */
   --home-icon: url('https://i.imgur.com/3KHlCMw.png');
