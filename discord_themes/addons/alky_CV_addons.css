@@ -821,8 +821,8 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     bottom: max(0px, calc(0.5 * (var(--chat-box-username-height, 1.375rem) - 2.5rem)));
     /*message headers (role dot, username, timestamp) */
 }
-.message-2CShn3 h3.header-2jRmjb [class*="username-"],
-.message-2CShn3 h2.header-2jRmjb [class*="username-"]{
+.message-2CShn3 .contents-2MsGLg h3.header-2jRmjb [class*="username-"],
+.message-2CShn3 .contents-2MsGLg h2.header-2jRmjb [class*="username-"]{
     vertical-align: middle;
     /*aligns username with timestamp, role dot, and/or message when line-height is NOT 1.375rem*/
 }
@@ -900,10 +900,10 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     height: var(--chat-box-username-height, 1.375rem)
 }
 /* Pinned Messages */
-.systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI [class*="anchorUnderlineOnHover-"] span{
+.systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI [class*="anchorUnderlineOnHover-"] > span{
     vertical-align: middle;
 }
-.systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI [class*="anchorUnderlineOnHover-"] span span{
+.systemMessage-1H1Z20 .markup-eYLPri.messageContent-2t3eCI [class*="anchorUnderlineOnHover-"] > span span{
     display: inline-block;
 }
 /* LARGER PROFILE PIC IN CHAT BOX */
@@ -941,6 +941,8 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     text-overflow: ellipsis;
     max-width: 40%;
     white-space: nowrap;
+}
+:not(.message-2CShn3) > .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
     vertical-align: bottom;
 }
 .markup-eYLPri.messageContent-2t3eCI [class*="container-"] a[class*="anchorUnderlineOnHover-"] {
