@@ -250,7 +250,7 @@
   color: var(--hover-color);
 }
 .searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .item-2GWPIy.selected-1sf9UK{
-  border: 2px solid var(--main-color);
+  border: 2.5px solid var(--main-color);
 }
 .searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .item-2GWPIy.selected-1sf9UK:hover:not(.disabled-2G98Nl){
   border-color: var(--hover-color);
