@@ -38,7 +38,7 @@
   --hover-color: rgb(var(--hover-color-numerical));
   --success-color-numerical: 67, 181, 129; /*default: 67, 181, 129*/
   --success-color: rgb(var(--success-color-numerical));
-  --danger-color: var(--red-400);
+  --danger-color: var(--status-danger);
   --main-color-inverted-numerical: 112, 23, 0;
   --main-color-inverted: rgb(var(--main-color-inverted-numerical));
 
