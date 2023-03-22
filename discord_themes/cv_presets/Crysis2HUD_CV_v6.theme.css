@@ -143,7 +143,7 @@
 #app-mount{
   background: var(--background-image) var(--background-position) /
 		var(--background-size) var(--background-repeat)
-		var(--background-attachment);
+		var(--background-attachment) !important;
   /* ONLY DO THIS IF --BACKGROUND-OVERLAY IS TRANSPARENT. OTHERWISE, --BACKGROUND-OVERLAY WILL NOT APPLY */
 }
 #app-mount [class^="notAppAsidePanel-"] > div[class^="app-"] > div[class^="app-"] > div[class^="layers-"] > div[class^="layer-"]{
