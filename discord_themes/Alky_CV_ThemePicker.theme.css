@@ -30,12 +30,46 @@
 /* Default ClearVision *
 @import url(https://clearvision.github.io/ClearVision-v6/main.css);/**/
 
+/* Alky Meme Theme (NOT CV) *
+@import url(https://stevencaior.github.io/discord_themes/alky_themes/Alky_meme_theme.theme.css);/**/
+
 /*-----ADD ONS-----*/
-/* Plaform Indicator Support *
+/* Plaform Indicator Support */
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_PlatformIndicatorSupport.css);/**/
 
 /* Radial Glow Support */
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_RadialGlowSupport.css);/**/
 
+/* Radial Glow Only *
+@import url(https://discordstyles.github.io/SoftX/RadialGlow.css);/**/
+
+/* Hide Blocked Messages */
+@import url(https://stevencaior.github.io/discord_themes/addons/alky_HideBlockedMessages.css);/**/
+
+/* Amoled *
+@import url(https://stevencaior.github.io/discord_themes/addons/alky_Amoled.css);/**/
+
 /* Condensed Status Picker *
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_CondensedStatusPicker.css);/**/
+
+/*-----CUSTOM CSS-----*/
+:root{
+    /* This value ranges from 0 to 1 in the accessibilities tab in user settings, but you can set it to whatever you like ;) *
+    --saturation-factor: 1 !important;/**/
+}
+/*REPLUGGED*/
+.sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-general-tab"]{
+    padding-left: 20px !important;
+}
+.sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-quickcss-tab"]:before{
+    background: url(https://clearvision.github.io/icons/code_braces.svg);
+}
+.sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-plugins-tab"]:before{
+    background: url(https://clearvision.github.io/icons/puzzle.svg);
+}
+.sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-themes-tab"]:before{
+    background: url(https://clearvision.github.io/icons/palette.svg);
+}
+.sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-updater-tab"]:before{
+    background: url(https://clearvision.github.io/icons/update.svg);
+}
