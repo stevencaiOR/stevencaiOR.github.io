@@ -57,14 +57,6 @@
   --muted-color: rgba(255,255,255,0.3);
   --url-color: var(--main-color);
 
-  /* THIRD PARTY THEME COLOURS */
-  --spotify-color-numerical: 30,215,96;
-  --spotify-color: rgb(var(--spotify-color-numerical));
-  --twitter-color-numerical: 29, 161, 242;
-  --twitter-color: rgb(var(--twitter-color-numerical));
-  --facebook-color-numerical: 66, 103, 178;
-  --facebook-color: rgb(var(--facebook-color-numerical));
-
 	/* GENERAL */
   --main-font: Jura, Orbitron;
   --font-primary: var(--main-font);
