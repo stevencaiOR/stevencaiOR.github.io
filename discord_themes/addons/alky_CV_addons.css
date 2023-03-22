@@ -942,13 +942,13 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     max-width: 40%;
     white-space: nowrap;
 }
-.markup-eYLPri.messageContent-2t3eCI [class*="container-"] [class*="anchorUnderlineOnHover-"] {
+.markup-eYLPri.messageContent-2t3eCI [class*="container-"] a[class*="anchorUnderlineOnHover-"] {
     max-width: 30ch;
 }
-.markup-eYLPri.messageContent-2t3eCI [class*="container-"] [class*="anchorUnderlineOnHover-"] span{
+.markup-eYLPri.messageContent-2t3eCI [class*="container-"] a[class*="anchorUnderlineOnHover-"] > span{
+    display: block;
     overflow: hidden;
     text-overflow: ellipsis;
-    display: block;
     white-space: nowrap;
 }
 /* Minimize in reply context message */
