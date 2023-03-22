@@ -141,7 +141,10 @@
 }
 /*-----CRYSIS 2 HUD THEME ONLY-----*/
 #app-mount{
-  background: var(--background-image);
+  background: var(--background-image) var(--background-position) /
+		var(--background-size) var(--background-repeat)
+		var(--background-attachment);
+  /* ONLY DO THIS IF --BACKGROUND-OVERLAY IS TRANSPARENT. OTHERWISE, --BACKGROUND-OVERLAY WILL NOT APPLY */
 }
 #app-mount [class^="notAppAsidePanel-"] > div[class^="app-"] > div[class^="app-"] > div[class^="layers-"] > div[class^="layer-"]{
   height: 55vh;
