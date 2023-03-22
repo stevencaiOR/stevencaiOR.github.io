@@ -140,6 +140,9 @@
   --bd-blue-active: var(--hover-color);
 }
 /*-----CRYSIS 2 HUD THEME ONLY-----*/
+#app-mount{
+  background: var(--background-image);
+}
 #app-mount [class^="notAppAsidePanel-"] > div[class^="app-"] > div[class^="app-"] > div[class^="layers-"] > div[class^="layer-"]{
   height: 55vh;
   border-radius: 10px;
