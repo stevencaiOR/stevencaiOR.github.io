@@ -1594,6 +1594,14 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 #account-status-picker--invisible[class*="focused-"]{
     background: var(--offline-color);
 }
+/*-----ERROR PAGE-----
+.errorPage-2pZ2Kq{
+    box-shadow: none;
+}*/
+.theme-dark .wrapper-3AZUiP,
+.theme-light .wrapper-3AZUiP{
+    background-image: none;
+}
 /*-----EMBEDDED IMAGE ERROR-----*/
 .embedImage-2Ynqkh .imageErrorWrapper-3hFRJG{
     flex-direction: column;
