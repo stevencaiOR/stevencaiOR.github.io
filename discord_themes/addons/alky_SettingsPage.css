@@ -144,7 +144,12 @@
 #my-account-tab .avatar-3mTjvZ {
     height: var(--avatar-size, 80px) !important;
     width: var(--avatar-size, 80px) !important;
-    top: calc(100% - 16px - var(--avatar-size, 80px));
+    top: calc(100% - 40px - 0.5*var(--avatar-change) - 0.5*var(--avatar-size));
+    /*positions avatar so that middle is aligned with the username + tag, and edit user profile button*/
+}
+#my-account-tab [class*="avatar-"] rect{
+    x: 70;
+    y: 70;
 }
 .accountProfileCard-lbN7n- .userInfo-regn9W > button,
 #my-account-tab .avatar-3mTjvZ+div{
