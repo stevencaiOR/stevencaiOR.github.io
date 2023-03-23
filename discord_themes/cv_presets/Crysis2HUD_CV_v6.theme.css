@@ -8,7 +8,6 @@
  * @source https://github.com/ClearVision/ClearVision-v6
  * @website https://clearvision.github.io
  * @invite dHaSxn3
- * @updateUrl https://stevencaior.github.io/discord_themes/Crysis2HUD_CV_v6.theme.css
 */
 @import url(https://clearvision.github.io/ClearVision-v6/main.css);
 @import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@100;300;400;500;700&display=swap);
@@ -38,7 +37,7 @@
   --hover-color: rgb(var(--hover-color-numerical));
   --success-color-numerical: 67, 181, 129; /*default: 67, 181, 129*/
   --success-color: rgb(var(--success-color-numerical));
-  --danger-color: var(--status-danger);
+  --danger-color: hsl(5, 100%, 50%); /*taken from https://i.imgur.com/3TKrgiM.png average of multiple values -> hsl 5, 100%, 50%*/
   --main-color-inverted-numerical: 112, 23, 0;
   --main-color-inverted: rgb(var(--main-color-inverted-numerical));
 
