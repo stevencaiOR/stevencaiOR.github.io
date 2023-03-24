@@ -944,6 +944,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 }
 :not(.message-2CShn3) > .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
     vertical-align: bottom;
+    /*adjust username positioning in search results*/
 }
 .markup-eYLPri.messageContent-2t3eCI [class*="container-"] a[class*="anchorUnderlineOnHover-"] > span{
     display: inline-block;
@@ -956,7 +957,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 .repliedMessage-3Z6XBG .username-h_Y3Us{
     max-width: 30%;
     display: inline-block;
-    
     text-overflow: ellipsis;
 }
 /* COMPACT USERNAME FIX */
@@ -1601,6 +1601,23 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .theme-dark .wrapper-3AZUiP,
 .theme-light .wrapper-3AZUiP{
     background-image: none;
+}
+/* Text Changes */
+.title-NjUt5y{
+    line-height: 0;
+    text-indent: -9999px;
+}
+.title-NjUt5y:after{
+    content: "Crash encountered";
+    line-height: 28px;
+    text-indent: 0;
+    display: block;
+}
+.note-Ph806N>div>p:first-child:before{
+    content: unset;
+}
+.note-Ph806N>div>p:first-child:after{
+    content: "Possible cause: plugins."
 }
 /*-----EMBEDDED IMAGE ERROR-----*/
 .embedImage-2Ynqkh .imageErrorWrapper-3hFRJG{
