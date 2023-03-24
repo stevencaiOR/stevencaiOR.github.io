@@ -245,6 +245,9 @@
     justify-content: center;
     text-align: center;
 }
+.customizationSection-IGy2fS+div .profileCustomizationSection-53kreU .previewProfileThemes-ViDDkq.customizationSection-IGy2fS > h3 {
+    display: block;
+}
 /* Improved background of text box */
 #profile-customization-tab .channelTextArea-1VQBuV {
     background: rgb(0,0,0,0.4);
