@@ -882,15 +882,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 .container-1yy5xN .cardWrapper-2fBdfM:nth-child(4) .card-PQEqCK:before{
     content: "< Msg >";
 }
-/* JOIN BUTTON */
-/*ex. the join button when receive server invite*/
-[data-list-id="chat-messages"] button[class*="lookFilled"][class*="colorGreen"]{
-    background: rgb(var(--main-color-numerical),0.5) !important;
-    border: 2px solid var(--main-color) !important;
-}
-[data-list-id="chat-messages"] button[class*="lookFilled"][class*="colorGreen"]:hover{
-    background: var(--main-color) !important;
-}
 /* SYSTEM MESSAGES */
 .systemMessage-1H1Z20 .container-x059i8 .iconContainer-2rPbqG{
     top: calc(0.5*(var(--chat-box-username-height, 1.375rem) - 1.375rem));
