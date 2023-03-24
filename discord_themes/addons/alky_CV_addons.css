@@ -969,6 +969,11 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     line-height: var(--chat-box-username-height, 1.375rem);
     /*line height of username*/
 }
+.message-2CShn3 .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ .newMemberBadge-3PdStX{
+    line-height: var(--chat-box-username-height, 1.375rem);
+    height: var(--chat-box-username-height, 1.375rem);
+    /*adjust new member badge based on username height*/
+}
 .message-2CShn3.cozy-VmLDNB:not(.systemMessage-1H1Z20) .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB){
     position: relative;
     bottom: calc(0.125*(var(--chat-box-username-height, 1.375rem) - 1.375rem));
@@ -980,9 +985,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 }
 /* NEW MEMBER BADGE */
 .newMemberBadge-3PdStX{
-    line-height: var(--chat-box-username-height, 1.375rem);
-    height: var(--chat-box-username-height, 1.375rem);
-    /*adjust new member badge based on username height*/
     width: fit-content;
 }
 .newMemberBadge-3PdStX svg{
