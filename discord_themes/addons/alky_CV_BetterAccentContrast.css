@@ -29,7 +29,6 @@
 [class*="lookFilled-"].buttonColor-1u-3JF,
 [class*="lookFilled-"][class*="colorRed-"],
 [class*="lookFilled-"][class*="colorBrand-"],
-:not(.wrapper-1HIH0j) > * > button[class*="lookFilled-"][class*="colorGreen-"],
 /* new message bar in chat box */
 #---new-messages-bar .unreadPill-3nEWYM,
 [class^="newMessagesBar-"] button,
@@ -158,6 +157,10 @@
   color: #000;
 }
 
+/* Revert above changes for join server button in pinning message modal */
+.wrapper-1HIH0j .lookFilled-1H2Jvj.colorGreen-jIPCAS{
+  color: #fff;
+}
 
 .container-ZMc96U .topPill-3DJJNV .item-3XjbnG.themed-2-lozF.selected-g-kMVV{
   color: #000;
