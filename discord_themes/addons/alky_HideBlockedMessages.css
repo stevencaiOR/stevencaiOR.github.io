@@ -27,5 +27,5 @@
     border: var(--blocked-message-border-width) solid currentColor;
 }
 .blockedSystemMessage-3FmE9n .content-vSHmMD:after{
-    content: "[ Blocked Messages Hidden ]"; 
+    content: "Blocked Messages Hidden"; 
 }
