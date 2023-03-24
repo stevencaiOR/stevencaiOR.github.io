@@ -945,14 +945,12 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 :not(.message-2CShn3) > .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
     vertical-align: bottom;
 }
-.markup-eYLPri.messageContent-2t3eCI [class*="container-"] a[class*="anchorUnderlineOnHover-"] {
-    max-width: 30ch;
-}
 .markup-eYLPri.messageContent-2t3eCI [class*="container-"] a[class*="anchorUnderlineOnHover-"] > span{
-    display: block;
+    display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    max-width: 30ch;
 }
 /* Minimize in reply context message */
 .repliedMessage-3Z6XBG .username-h_Y3Us{
