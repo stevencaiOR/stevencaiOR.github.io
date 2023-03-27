@@ -902,7 +902,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     left: calc(0.2*var(--chat-box-avatar-change, 0rem) + 0.6rem); /*better than the default postioning*/
     margin-top: 0;
 }
-.message-2CShn3.cozy-VmLDNB.hasReply-2Cr4KE .contents-2MsGLg img.avatar-2e8lTP{
+.message-2CShn3.cozy-VmLDNB .repliedMessage-3Z6XBG~.contents-2MsGLg img.avatar-2e8lTP{
     top: 1.5rem;
     /*avatar position with replied context message*/
 }
