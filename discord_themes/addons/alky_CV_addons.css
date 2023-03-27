@@ -924,10 +924,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     text-overflow: ellipsis;
     max-width: 40%;
     white-space: nowrap;
-}
-:not(.message-2CShn3) > .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
-    vertical-align: bottom;
-    /*adjust username positioning in search results*/
+    vertical-align: middle;
 }
 .markup-eYLPri.messageContent-2t3eCI [class*="container-"] a[class*="anchorUnderlineOnHover-"] > span{
     display: inline-block;
