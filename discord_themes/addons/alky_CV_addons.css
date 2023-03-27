@@ -558,8 +558,8 @@ div[class^="winButton"] {
     background: rgb(var(--main-color-numerical), 0.4) !important;
 }
 /*-----INTERACTIVE TEXT-----*/
-div[id^="message-content"] > span.interactive,
-div[id^="message-content"] > .wrapper-1ZcZW-{
+.wrapper-1ZcZW-,
+span.interactive{
     background: rgb(var(--main-color-numerical), 0.2);
     /*highlight box around interactive text*/
     color:var(--main-color);
@@ -571,10 +571,9 @@ div[id^="message-content"] > .wrapper-1ZcZW-{
 .wrapper-1ZcZW-.mention.interactive {
     max-width: 30%;
     overflow: hidden;
+    text-overflow: ellipsis;
     display: inline-block;
     vertical-align: middle;
-
-    text-overflow: ellipsis;
 }
 /* MENTIONED HIGHLIGHT BOX */
 [class*="mentioned-"][aria-roledescription="Message"]{
@@ -609,14 +608,11 @@ div[id^="message-content"] > .wrapper-1ZcZW-{
 }
 [class*="focusLock-"][aria-label="Set a custom status"] [class*="sectionTitle-"] h1{
     line-height: 30px;/*2.5x font-size*/
-
     white-space: nowrap;
     max-width: 100%;
     overflow: hidden;
-
     text-overflow: ellipsis;
     /*improved readability of section title if username too long*/
-
     margin-bottom: 10px;
 }
 /* EMOJI */
