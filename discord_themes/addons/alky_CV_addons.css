@@ -1013,7 +1013,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 /* Username length in bar */
 .attachedBars-2BCP3l .replyBar-1oi75v .name-3DDHNY{
     display: inline-block;
-    max-width: 30%;
+    max-width: 30ch;
     overflow: hidden;
     text-overflow: ellipsis;
     vertical-align: bottom;
