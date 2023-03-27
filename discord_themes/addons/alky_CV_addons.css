@@ -1001,6 +1001,15 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     border: 2px solid rgb(var(--main-color-numerical),0.8);
     margin-bottom: 1px;
 }
+/* Reply Bar */
+.replyBar-1oi75v [aria-checked="true"] .mentionButton-3C5YMI{
+    color: var(--url-color) !important;
+    /*reply no ping -> button color match accent*/
+}
+.replyBar-1oi75v [aria-checked="false"] .mentionButton-3C5YMI{
+    color: var(--primary-360) !important;
+    /*reply no ping -> greyed out button (original value of --text-muted)*/
+}
 /* Username length in bar */
 .attachedBars-2BCP3l .replyBar-1oi75v .name-3DDHNY{
     display: inline-block;
