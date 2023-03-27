@@ -830,13 +830,13 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     /*matches line-height to .username-h_Y3Us, as it is by default*/
 }
 /* CHANNEL NAME AND DESCRIPTOR */
-.container-1yy5xN h3[data-text-variant="heading-xxl/semibold"],
+.container-1yy5xN h3[data-text-variant="heading-xxl/extrabold"],
 .container-1yy5xN .description-22d6ux[data-text-variant="text-md/normal"]{
     max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.container-1yy5xN h3[data-text-variant="heading-xxl/semibold"]{
+.container-1yy5xN h3[data-text-variant="heading-xxl/extrabold"]{
     line-height: 64px;
 }
 .container-1yy5xN .description-22d6ux[data-text-variant="text-md/normal"]{
