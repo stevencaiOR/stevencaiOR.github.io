@@ -1146,7 +1146,7 @@ ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][clas
     background: rgb(var(--main-color-numerical),0.4);
     /*default border-radius is 8px*/
 }
-/* Border radius of highlight upon hover */
+/* Border radius of highlight upon hover *
 [class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3),
 [class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1),
 [class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2){
