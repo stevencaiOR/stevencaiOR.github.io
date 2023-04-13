@@ -1134,8 +1134,12 @@ ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][clas
     background: rgb(0,0,0,0.4);
     border-radius: 20px;
     border: 2px solid var(--main-color);
-    display: grid;
-    grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+
+    display: flex;
+    flex-wrap: wrap;
+}
+[class*="peopleList-"] > div:first-child > div{
+    width: 50%;
 }
 [class^="peopleColumn-"] [class^="peopleListItem-"]{
     margin: 0px;
@@ -1146,9 +1150,8 @@ ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][clas
     background: rgb(var(--main-color-numerical),0.4);
     /*default border-radius is 8px*/
 }
-/* Border radius of highlight upon hover *
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3),
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1),
+/* Border radius of highlight upon hover */
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n+1),
 [class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2){
     border-top-left-radius: 0px;
 }
@@ -1156,35 +1159,29 @@ ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][clas
     border-top-left-radius: 18px;
 }
 [class^="peopleColumn-"] [class^="peopleListItem-"]:first-child,
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2),
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n){
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n){
     border-top-right-radius: 0px;
 }
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3){
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2){
     border-top-right-radius: 18px;
 }
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n),
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+2):last-child,
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+2):nth-last-child(2),
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1):last-child,
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1):nth-last-child(2),
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1):nth-last-child(3){
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n),
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n+1):last-child,
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n+1):nth-last-child(2){
     border-bottom-right-radius: 0px;
 }
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n):last-child{
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n):last-child{
     border-bottom-right-radius: 18px;
 }
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1),
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+2):last-child,
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+2):nth-last-child(2),
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n):last-child{
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n+1),
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n):last-child{
     border-bottom-left-radius: 0px;
 }
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1):last-child,
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1):nth-last-child(2),
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3n+1):nth-last-child(3){
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n+1):last-child,
+[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n+1):nth-last-child(2){
     border-bottom-left-radius: 18px;
 }
+
 /* ACTIVE NOW COLUMN */
 .nowPlayingColumn-1eCBCN {
     min-width: 200px; /*default: 360px*/
