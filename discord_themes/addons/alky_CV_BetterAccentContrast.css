@@ -98,6 +98,7 @@
 .container-ZMc96U .akaBadge-3i7V3p,
 /* Mentions on hover */
 .theme-dark .mentioned-Tre-dv .mention.interactive:hover,
+.interactive:hover,
 .mention.interactive:hover,
 .theme-dark .mention:hover,
 /* Auto complete box (on hover & select) */
