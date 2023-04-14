@@ -1779,6 +1779,11 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 .input-3O04eu{
     background: var(--input-background);
 }
+.container-3YcgdM{
+    background-color: rgb(0,0,0,0.6);
+    border-radius: 0px 0px 5px 5px;
+}
+/*----------*/
 
 /*edited Discord marketing shit to be less stupid*/
 .colorPremiumTier2-3R4qYN{
