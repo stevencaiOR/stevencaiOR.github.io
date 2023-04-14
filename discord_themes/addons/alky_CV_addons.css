@@ -579,11 +579,6 @@ span.interactive{
 .interactive:hover{
     background: var(--main-color);
 }
-.desaturate-_Twf3u.wrapper-1ZcZW-{
-    background: var(--danger-color);
-    color: black;
-    opacity: 0.95;
-}
 /* MINIMIZE LONG USERNAME */
 .wrapper-1ZcZW-.mention.interactive {
     max-width: 30%;
