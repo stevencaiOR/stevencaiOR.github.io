@@ -225,6 +225,11 @@
     top: calc(100% - 20px);
     left: calc(100% - 20px);
 }
+.status-170GHg{
+    top: 60px; /*+6px because .avatarUploaderInner-p38nm2 has border of 6px in CV*/
+    left: 60px;
+    background: var(--user-popout-overlay); /*match status dot bg with rest of popout*/
+}
 /* Removes Discord marketing crap */
 #profile-customization-tab .upsellOverlay-3sCO8V > img,
 #profile-customization-tab .upsellOverlay-3sCO8V > img+div,
