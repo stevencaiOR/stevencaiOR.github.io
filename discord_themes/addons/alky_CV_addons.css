@@ -299,9 +299,10 @@ svg.avatarHint-2g3Mcd[width="80"] {
     width: 86.96% !important;
     /*scuffed fixed to get avatar to display properly in popouts part 2*/
 }
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As),
 [class*="userPopoutInner-"] .avatarHint-k7pYop{
-    height: var(--profile-popout-picture-size);
-    width: var(--profile-popout-picture-size);
+    height: var(--profile-popout-picture-size) !important;
+    width: var(--profile-popout-picture-size) !important;
 }
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) rect{
     height: 17.39% !important;
