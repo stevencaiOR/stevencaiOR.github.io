@@ -8,7 +8,7 @@
     --nitro-bg-pos: left/right/center;
     */
     --profile-popout-width-num: 340;
-    --image-upload-scale-factor: calc(var(--profile-popout-width-num)*0.6/80);
+    --image-upload-scale-factor: calc(var(--profile-popout-width-num)*var(--profile-popout-picture-size-factor, 0.235)/80);
     
     --message-content-line-height: 1.375rem; /*line height of messages*/
 
