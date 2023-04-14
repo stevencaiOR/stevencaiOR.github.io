@@ -260,7 +260,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
     /*shorter about-me section*/
 }
 /* CUSTOM AVATAR CIRCLE */
-.userPopoutOuter-3AVBmJ:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-qc0szY circle{
+.userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN circle{
     display: none;
 }
 .bannerSVGWrapper-qc0szY,
@@ -289,11 +289,19 @@ svg.avatarHint-2g3Mcd[width="80"] {
     overflow: visible;
     /*allows visibility of avatar when not using radial status*/
 }
-[class*="userPopoutInner-"] .avatarHint-2g3Mcd,
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As),
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) foreignObject {
-    height: var(--profile-popout-picture-size) !important;
-    width: var(--profile-popout-picture-size) !important;
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) svg{
+    height: calc(1.15*var(--profile-popout-picture-size));
+    width: calc(1.15*var(--profile-popout-picture-size));
+    /* scuffed fixed to get avatar to display properly in popouts */
+}
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) foreignObject{
+    height: 86.96% !important;
+    width: 86.96% !important;
+    /* scuffed fixed to get avatar to display properly in popouts part 2 */
+}
+[class*="userPopoutInner-"] .avatarHint-k7pYop{
+    height: var(--profile-popout-picture-size);
+    width: var(--profile-popout-picture-size);
 }
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) rect{
     height: calc(var(--profile-popout-picture-size)/5) !important;
