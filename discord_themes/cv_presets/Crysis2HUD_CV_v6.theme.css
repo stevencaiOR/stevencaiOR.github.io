@@ -259,6 +259,49 @@
 .searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .item-2GWPIy.selected-1sf9UK:hover:not(.disabled-2G98Nl){
   border-color: var(--hover-color);
 }
+/* BUTTON OVERHAUL */
+.lookFilled-1H2Jvj.colorGrey-2DXtkV,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N,
+.lookFilled-1H2Jvj.colorGreen-jIPCAS,
+.lookFilled-1H2Jvj.colorBrandNew-abZT3v,
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz,
+.lookFilled-1H2Jvj.buttonColor-1u-3JF{
+    border: 3px solid var(--main-color);
+    color: var(--main-color);
+    background: rgb(0,0,0,0.7);
+}
+.lookFilled-1H2Jvj.colorGrey-2DXtkV:hover,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:hover,
+.lookFilled-1H2Jvj.colorGreen-jIPCAS:hover,
+.lookFilled-1H2Jvj.colorBrandNew-abZT3v:hover,
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover,
+.lookFilled-1H2Jvj.buttonColor-1u-3JF:hover{
+    border: 3px solid var(--hover-color);
+    color: var(--hover-color);
+    background: rgb(0,0,0,0.7);
+}
+.lookFilled-1H2Jvj.colorGrey-2DXtkV:active,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:active,
+.lookFilled-1H2Jvj.colorGreen-jIPCAS:active,
+.lookFilled-1H2Jvj.colorBrandNew-abZT3v:active,
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz:active,
+.lookFilled-1H2Jvj.buttonColor-1u-3JF:active{
+    background: rgb(var(--main-color-numerical),0.2);
+}
+.lookFilled-1H2Jvj.colorGrey-2DXtkV:disabled,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:disabled,
+.lookFilled-1H2Jvj.colorGreen-jIPCAS:disabled,
+.lookFilled-1H2Jvj.colorBrandNew-abZT3v:disabled,
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz:disabled,
+.lookFilled-1H2Jvj.buttonColor-1u-3JF:disabled{
+    background: rgb(0,0,0,0.7) !important;
+}
+/*join server button undos*/
+.wrapper-1HIH0j .lookFilled-1H2Jvj.colorBrand-2M3O3N,
+.wrapper-1HIH0j .lookFilled-1H2Jvj.colorGreen-jIPCAS,
+.wrapper-1HIH0j .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover{
+    color: #fff;
+}
 /* ERROR PAGE */
 .text-3IbNaT{
   border: 4px solid var(--main-color);
