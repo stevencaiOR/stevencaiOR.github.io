@@ -566,6 +566,8 @@ div[class^="winButton"] {
     background: rgb(var(--main-color-numerical), 0.4) !important;
 }
 /*-----INTERACTIVE TEXT-----*/
+.theme-light .mention,
+.theme-dark .mention,
 .wrapper-1ZcZW-,
 span.interactive{
     background: rgb(var(--main-color-numerical), 0.2);
@@ -574,6 +576,14 @@ span.interactive{
     /*text color of interactive text*/
     padding: 1px 4px;
     /*extra vertical padding in interactive text box*/
+}
+.interactive:hover{
+    background: var(--main-color);
+}
+.desaturate-_Twf3u.wrapper-1ZcZW-{
+    background: var(--danger-color);
+    color: black;
+    opacity: 0.95;
 }
 /* MINIMIZE LONG USERNAME */
 .wrapper-1ZcZW-.mention.interactive {
