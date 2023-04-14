@@ -223,8 +223,6 @@
 #profile-customization-tab .status-170GHg{
     top: calc(0.675*var(--profile-popout-picture-size) + 6px); /*+6px because .avatarUploaderInner-p38nm2 has border of 6px in CV*/
     left: calc(0.675*var(--profile-popout-picture-size) + 6px);
-    height: calc(0.35*var(--profile-popout-picture-size));
-    width: calc(0.35*var(--profile-popout-picture-size));
     background: var(--user-popout-overlay);
 }
 #profile-customization-tab .statusDot-3YgDKA{
@@ -232,6 +230,11 @@
     left: calc(50% - 0.1*var(--profile-popout-picture-size));
     height: calc(var(--profile-popout-picture-size)/5);
     width: calc(var(--profile-popout-picture-size)/5);
+}
+#profile-customization-tab .status-170GHg,
+#profile-customization-tab .imageUploaderIcon-2OHmFu{
+    height: calc(0.35*var(--profile-popout-picture-size));
+    width: calc(0.35*var(--profile-popout-picture-size));
 }
 #profile-customization-tab .imageUploaderInner-IIRaFr.avatarUploaderInner-1dBiHs .imageUploaderIcon-2OHmFu{
     position: absolute;
