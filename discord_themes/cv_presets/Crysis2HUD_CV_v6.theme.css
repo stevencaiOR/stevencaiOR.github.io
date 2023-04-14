@@ -303,6 +303,11 @@
   color: var(--danger-color) !important;
   /*reply no ping -> greyed out button (original value of --text-muted)*/
 }
+/* FORUMS */
+/* Top Bar */
+.container-3YcgdM{
+  background-color: #000;
+}
 /*-----DISPLAY LINKS-----*/
 #app-mount [aria-label="User Profile Modal"] .connectedAccountContainer-SlCC-S{
   background: rgb(var(--main-color-numerical), 0.1);
