@@ -7,7 +7,9 @@
     --nitro-bg-image: url(my_link);
     --nitro-bg-pos: left/right/center;
     */
-
+    --profile-popout-width-num: 340;
+    --image-upload-scale-factor: calc(var(--profile-popout-width-num)*0.6/80);
+    
     --message-content-line-height: 1.375rem; /*line height of messages*/
 
     /* THIRD PARTY THEME COLORS */
@@ -241,10 +243,8 @@
     top: calc(100% - 20px);
     left: calc(100% - 20px);
 }
-.status-170GHg{
-    top: 60px; /*+6px because .avatarUploaderInner-p38nm2 has border of 6px in CV*/
-    left: 60px;
-    background: var(--user-popout-overlay); /*match status dot bg with rest of popout*/
+.imageUploaderIcon-2OHmFu:after{
+    transform: scale(var(--image-upload-scale-factor));
 }
 /* Removes Discord marketing crap */
 #profile-customization-tab .upsellOverlay-3sCO8V > img,
