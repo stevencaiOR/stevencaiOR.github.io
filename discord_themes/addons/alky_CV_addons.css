@@ -292,22 +292,22 @@ svg.avatarHint-2g3Mcd[width="80"] {
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) svg{
     height: calc(1.15*var(--profile-popout-picture-size));
     width: calc(1.15*var(--profile-popout-picture-size));
-    /* scuffed fixed to get avatar to display properly in popouts */
+    /*scuffed fixed to get avatar to display properly in popouts*/
 }
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) foreignObject{
     height: 86.96% !important;
     width: 86.96% !important;
-    /* scuffed fixed to get avatar to display properly in popouts part 2 */
+    /*scuffed fixed to get avatar to display properly in popouts part 2*/
 }
 [class*="userPopoutInner-"] .avatarHint-k7pYop{
     height: var(--profile-popout-picture-size);
     width: var(--profile-popout-picture-size);
 }
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) rect{
-    height: calc(var(--profile-popout-picture-size)/5) !important;
-    width: calc(var(--profile-popout-picture-size)/5) !important;
-    x: calc(0.75*var(--profile-popout-picture-size));
-    y: calc(0.75*var(--profile-popout-picture-size));
+    height: 17.39% !important;
+    width: 17.39% !important;
+    x: 65.22%;
+    y: 65.22%;
     /*status dot adjustments*/
 }
 .avatarPositionNormal-V4Mjtq{
