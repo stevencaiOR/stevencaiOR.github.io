@@ -568,7 +568,7 @@ div[class^="winButton"] {
     background: rgb(var(--main-color-numerical), 0.4) !important;
 }
 /*-----INTERACTIVE TEXT-----*/
-.wrapper-1ZcZW-.mention
+.wrapper-1ZcZW-.mention,
 .wrapper-1ZcZW-,
 span.interactive{
     background: rgb(var(--main-color-numerical), 0.2);
