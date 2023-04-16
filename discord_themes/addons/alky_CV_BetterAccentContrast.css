@@ -6,15 +6,12 @@
  * it, especially if you think it may improve the look if your theme.
  */
 
-/*
+
 :root{
-
-  optional section of code. If you don't use this, then these variables must be
-  defined in root element
-
-  --main-color-inverted:; this should contain the inverted version of your accent color
+  /*--main-color-inverted:; this should contain the inverted version of your accent color*/
+  --text-normal-dark: #212121;
 }
-*/
+
 
 
 .buttonColor-1u-3JF,
@@ -158,6 +155,12 @@
   color: #000;
 }
 
+/*voice call container buttons*/
+[class*="lookFilled-"][class*="colorBrand-"] [class*="defaultColor-"],
+[class*="lookFilled-"].colorPrimary-2-Lusz [class*="defaultColor-"]{
+  color:var(--text-normal-dark);
+}
+
 /* Revert above changes for join server button -> back to CV default */
 .wrapper-1HIH0j .lookFilled-1H2Jvj.colorBrand-2M3O3N,
 .wrapper-1HIH0j .lookFilled-1H2Jvj.colorGreen-jIPCAS{
@@ -229,10 +232,7 @@
 .autocomplete-3NRXG8 [aria-selected=true].clickable-2V8YKY .base-2v-uc0 .autocompleteRowContentSecondary-Oobh2b,
 .autocomplete-3NRXG8 [aria-disabled=false].clickable-2V8YKY .base-2v-uc0:hover .autocompleteRowContentSecondary-Oobh2b,
 /*random radio abr text*/
-[aria-checked=true].item-1TA5qI .radioBar-1XgZqD .radioLabelDescription-2ZSE0N,
-/*voice call container buttons*/
-[class*="lookFilled-"][class*="colorBrand-"] [class*="defaultColor-"],
-[class*="lookFilled-"].colorPrimary-2-Lusz [class*="defaultColor-"]{
+[aria-checked=true].item-1TA5qI .radioBar-1XgZqD .radioLabelDescription-2ZSE0N{
     filter: invert(1);
 }
 
