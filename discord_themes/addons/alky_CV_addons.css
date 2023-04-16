@@ -260,6 +260,26 @@ svg.avatarHint-2g3Mcd[width="80"] {
     -webkit-line-clamp: 4 !important;
     /*shorter about-me section*/
 }
+/* AVATAR DECORATION */
+.userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN mask image{
+    width: calc(1.25*var(--profile-popout-picture-size));
+    height: calc(1.25*var(--profile-popout-picture-size));
+}
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) svg[class*="avatarDecoration-"]{
+    width: calc(1.35*var(--profile-popout-picture-size));
+    height: calc(1.25*var(--profile-popout-picture-size));
+}
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) svg[class*="avatarDecoration-"] foreignObject{
+    width: 88.89% !important;
+    height: 100% !important;
+}
+[class*="userPopoutInner-"] svg.avatarDecorationHint-3n-p6O {
+    width: calc(1.125*var(--profile-popout-picture-size));
+    height: calc(1.125*var(--profile-popout-picture-size));
+    border-radius: 50%;
+    top: -4px;
+    left: -4px;
+}
 /* CUSTOM AVATAR CIRCLE */
 .userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN circle{
     display: none;
@@ -809,6 +829,11 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     height: 5rem !important; 
     width: 5rem !important;
     /*smaller stickers*/
+}
+.message-2CShn3.cozy-VmLDNB .contents-2MsGLg img.avatarDecoration-34OC0G{
+    width: calc(2.5rem + var(--chat-box-avatar-change, 0rem));
+    height: calc(2.5rem + var(--chat-box-avatar-change, 0rem));
+    /*avatar decoration fix*/
 }
 /*fix for reply context messages with mentions*/
 .repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextContent-2hOYMB{
