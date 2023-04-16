@@ -212,6 +212,18 @@
   fill: #000;
 }
 
+/* voice call buttons */
+.lookFilled-1H2Jvj.colorBrand-2M3O3N [class*="defaultColor-"],
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz [class*="defaultColor-"]{
+    filter: none;
+    color: var(--main-color);
+}
+.lookFilled-1H2Jvj.colorBrand-2M3O3N [class*="defaultColor-"]:hover,
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz [class*="defaultColor-"]:hover{
+    color: var(--hover-color)
+}
+
+
 /*I don't know what this does either*/
 [class^="layer"][id^="popout_"] > [class^="popout"] [class^="option"][aria-selected="true"]{
   background: rgb(var(--main-color-numerical), 0.8) !important;
