@@ -262,23 +262,25 @@ svg.avatarHint-2g3Mcd[width="80"] {
 }
 /* AVATAR DECORATION */
 .userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN mask image{
-    width: calc(1.25*var(--profile-popout-picture-size));
-    height: calc(1.25*var(--profile-popout-picture-size));
+    width: calc(1.35*var(--profile-popout-picture-size));
+    height: calc(1.35*var(--profile-popout-picture-size)); 
+    x: calc(4px - (var(--profile-popout-picture-size) - 80px)/7.5);
+    y: calc(58px - 0.1*(var(--profile-popout-picture-size) - 80px));
 }
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) svg[class*="avatarDecoration-"]{
     width: calc(1.35*var(--profile-popout-picture-size));
-    height: calc(1.25*var(--profile-popout-picture-size));
+    height: calc(1.2*var(--profile-popout-picture-size));
 }
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) svg[class*="avatarDecoration-"] foreignObject{
-    width: 88.89% !important;
+    width: 89% !important;
     height: 100% !important;
 }
 [class*="userPopoutInner-"] svg.avatarDecorationHint-3n-p6O {
-    width: calc(1.125*var(--profile-popout-picture-size));
-    height: calc(1.125*var(--profile-popout-picture-size));
+    width: calc(1.2*var(--profile-popout-picture-size));
+    height: calc(1.2*var(--profile-popout-picture-size));
     border-radius: 50%;
-    top: -4px;
-    left: -4px;
+    top: calc(-0.1*var(--profile-popout-picture-size));
+    left: calc(-0.1*var(--profile-popout-picture-size));
 }
 /* CUSTOM AVATAR CIRCLE */
 .userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN circle{
