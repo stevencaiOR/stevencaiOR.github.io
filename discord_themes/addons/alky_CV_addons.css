@@ -296,8 +296,8 @@ svg.avatarHint-2g3Mcd[width="80"] {
     /*scuffed fixed to get avatar to display properly in popouts*/
 }
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) foreignObject{
-    height: 86.96% !important;
-    width: 86.96% !important;
+    height: 86.96%;
+    width: 86.96%;
     /*scuffed fixed to get avatar to display properly in popouts part 2*/
 }
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As),
