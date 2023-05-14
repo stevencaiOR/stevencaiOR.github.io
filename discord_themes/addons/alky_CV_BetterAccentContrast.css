@@ -150,7 +150,10 @@
 [aria-checked=true].item-1TA5qI .radioBar-1XgZqD .selected-3XnKRK .channelIcon-1BydE-,
 /*streaming badge*/
 .liveBadge-3E8LQj,
-.unicodeShortcut-3N8oDe svg
+.unicodeShortcut-3N8oDe svg,
+
+
+.topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy
 {
   color: #000;
 }
@@ -165,10 +168,6 @@
 .wrapper-1HIH0j .lookFilled-1H2Jvj.colorBrand-2M3O3N,
 .wrapper-1HIH0j .lookFilled-1H2Jvj.colorGreen-jIPCAS{
   color: #fff;
-}
-
-.container-ZMc96U .topPill-3DJJNV .item-3XjbnG.themed-2-lozF.selected-g-kMVV{
-  color: #000;
 }
 
 .modeSelected-3DmyhH .numberBadge-37OJ3S,
