@@ -819,11 +819,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     line-height: var(--message-content-line-height);
     /*line height of messages*/
 }
-.message-2CShn3.cozy-VmLDNB .repliedMessage-3Z6XBG{
-    max-height: 1.125rem;
-    align-items: flex-end;
-    /*consistent height of reply context message*/
-}
 .clickableSticker-3FN2_L .assetWrapper-2hzITV {
     height: 5rem !important; 
     width: 5rem !important;
@@ -835,9 +830,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     /*avatar decoration fix*/
 }
 /*fix for reply context messages with mentions*/
-.repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextContent-2hOYMB{
-    height: 1.125rem;
-}
 .repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextContent-2hOYMB .mention{
     line-height: 1rem;
     max-width: 15ch;
