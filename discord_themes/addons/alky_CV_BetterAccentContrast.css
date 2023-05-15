@@ -257,6 +257,11 @@
 {
   color: #000 !important;
 }
+/*auto complete optional count*/
+.autocomplete-3NRXG8 [aria-selected=true].clickable-2V8YKY .base-2v-uc0 .optionalCount-1BzEgg,
+.autocomplete-3NRXG8 [aria-disabled=false].clickable-2V8YKY .base-2v-uc0:hover .optionalCount-1BzEgg{
+  color: rgb(0,0,0,0.07)
+}
 /* Auto complete icon in auto complete row */
 .autocompleteRow-14iwvH[aria-selected="true"] .icon-1kx1ir,
 .base-2v-uc0:hover .icon-1kx1ir{
