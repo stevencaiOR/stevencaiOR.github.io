@@ -282,9 +282,23 @@ svg.avatarHint-2g3Mcd[width="80"] {
     top: calc(-0.1*var(--profile-popout-picture-size));
     left: calc(-0.1*var(--profile-popout-picture-size));
 }
-/* CUSTOM AVATAR CIRCLE */
+/* AVATAR CIRCLE */
 .userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN circle{
-    display: none;
+    r: calc(0.575*var(--profile-popout-picture-size));
+}
+.userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN[style*="min-height: 120px"] circle,
+.userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN[style*="min-height: 90px"] circle{
+    cx: calc(0.5*var(--profile-popout-picture-size) + 18px); /* -4px because padding width of popout */
+}
+.userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN[style*="min-height: 120px"] circle{
+    cy: 140px; /*half the size of avatar + value of top property for avatar - padding width of popout*/
+}
+.userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN[style*="min-height: 90px"] circle{
+    cy: 110px; /*half the size of avatar + value of top property for avatar - padding width of popout*/
+}
+.userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN[style*="min-height: 60px"] circle{
+    cx: calc(0.5*var(--profile-popout-picture-size) + 22px);
+    cy: 84px; /*half the size of avatar + value of top property for avatar*/
 }
 .bannerSVGWrapper-qc0szY,
 #app-mount .avatarHoverTarget-l77PhT,
