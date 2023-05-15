@@ -151,9 +151,10 @@
 /*streaming badge*/
 .liveBadge-3E8LQj,
 .unicodeShortcut-3N8oDe svg,
-
-
-.topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy
+/*tab bar items*/
+.topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
+/*forum upload icon*/
+.uploadInput-3fblkw .uploadIcon-M15owY
 {
   color: #000;
 }
