@@ -267,11 +267,11 @@ svg.avatarHint-2g3Mcd[width="80"] {
     x: calc(4px - (var(--profile-popout-picture-size) - 80px)/7.5);
     y: calc(58px - 0.1*(var(--profile-popout-picture-size) - 80px));
 }
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) svg[class*="avatarDecoration-"]{
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) svg[class*="avatarDecoration-"]{
     width: calc(1.35*var(--profile-popout-picture-size));
     height: calc(1.2*var(--profile-popout-picture-size));
 }
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) svg[class*="avatarDecoration-"] foreignObject{
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) svg[class*="avatarDecoration-"] foreignObject{
     width: 89% !important;
     height: 100% !important;
 }
@@ -309,22 +309,22 @@ svg.avatarHint-2g3Mcd[width="80"] {
     overflow: visible;
     /*allows visibility of avatar when not using radial status*/
 }
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) svg{
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) svg{
     height: calc(1.15*var(--profile-popout-picture-size));
     width: calc(1.15*var(--profile-popout-picture-size));
     /*scuffed fixed to get avatar to display properly in popouts*/
 }
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) foreignObject{
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) foreignObject{
     height: 86.96%;
     width: 86.96%;
     /*scuffed fixed to get avatar to display properly in popouts part 2*/
 }
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As),
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]),
 [class*="userPopoutInner-"] .avatarHint-k7pYop{
     height: var(--profile-popout-picture-size) !important;
     width: var(--profile-popout-picture-size) !important;
 }
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not(.miniAvatar-2DD1As) rect{
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect{
     height: 17.39% !important;
     width: 17.39% !important;
     x: 65.22%;
