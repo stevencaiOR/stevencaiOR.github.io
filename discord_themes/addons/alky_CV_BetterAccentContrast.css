@@ -229,8 +229,8 @@
 /*checked radio bar text*/
 [aria-checked=true].item-2idW98 .radioBar-3w9XY- [style*="color: var(--header-secondary)"],
 /*autocomplete boxes*/
-.autocomplete-3NRXG8 [aria-selected=true].clickable-2V8YKY .base-2v-uc0 .autocompleteRowContentSecondary-Oobh2b,
-.autocomplete-3NRXG8 [aria-disabled=false].clickable-2V8YKY .base-2v-uc0:hover .autocompleteRowContentSecondary-Oobh2b,
+.autocomplete-3NRXG8 [aria-selected=true].clickable-2V8YKY .base-2v-uc0 [style*="color: var(--interactive-normal)"],
+.autocomplete-3NRXG8 [aria-disabled=false].clickable-2V8YKY .base-2v-uc0:hover [style*="color: var(--interactive-normal)"],
 /*random radio abr text*/
 [aria-checked=true].item-1TA5qI .radioBar-1XgZqD .radioLabelDescription-2ZSE0N{
     filter: invert(1);
@@ -252,8 +252,8 @@
 .autocompleteRowVertical-EA9dCg[aria-selected="true"] .base-2v-uc0 .text-md-normal-304U3g,
 .autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .text-xs-normal-3SiVjE,
 .autocompleteRowVertical-EA9dCg .base-2v-uc0:hover .text-md-normal-304U3g,
-.autocomplete-3NRXG8 [aria-selected=true].clickable-2V8YKY .base-2v-uc0 .autocompleteRowHeading-3EcwU6,
-.autocomplete-3NRXG8 [aria-disabled=false].clickable-2V8YKY .base-2v-uc0:hover .autocompleteRowHeading-3EcwU6
+.autocomplete-3NRXG8 [aria-selected=true].clickable-2V8YKY .base-2v-uc0 [style*="color: var(--interactive-active)"],
+.autocomplete-3NRXG8 [aria-disabled=false].clickable-2V8YKY .base-2v-uc0:hover [style*="color: var(--interactive-active)"]
 {
   color: #000 !important;
 }
