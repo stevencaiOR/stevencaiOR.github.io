@@ -284,7 +284,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
 }
 /* AVATAR CIRCLE */
 .userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN circle{
-    r: calc(0.575*var(--profile-popout-picture-size));
+    r: calc(0.575*var(--profile-popout-picture-size)); /*default value of r is 46 and avatar is 80*/
 }
 .userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN[style*="min-height: 120px"] circle,
 .userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN[style*="min-height: 90px"] circle{
@@ -1108,15 +1108,15 @@ nav[aria-label="Private channels"] h2~li [class^="interactive-"]:before{
     border-radius: 10px !important;
 }
 /* HOVER USER */
-.privateChannels-oVe7HL[aria-label="Private channels"] h2~.channel-1Shao0 .interactive-1vLZ_I:hover{
+[aria-label="Private channels"] [class*="interactive-"]:hover{
     width: calc(100% - 15px);
 }
-.privateChannels-oVe7HL[aria-label="Private channels"] h2~.channel-1Shao0 .interactive-1vLZ_I:hover:before{
+[aria-label="Private channels"] [class^="interactive-"]:hover:before{
     background: rgb(var(--main-color-numerical), 0.3);
 }
 /* SELECT USER */
-.privateChannels-oVe7HL[aria-label="Private channels"] h2~.channel-1Shao0 .interactive-1vLZ_I.interactiveSelected-29CP8y:before,
-.privateChannels-oVe7HL[aria-label="Private channels"] h2~.channel-1Shao0 .interactive-1vLZ_I.interactiveSelected-29CP8y:hover:before{
+[aria-label="Private channels"] [class^="interactive-"][class*="interactiveSelected-"]:before,
+[aria-label="Private channels"] [class^="interactive-"][class*="interactiveSelected-"]:hover:before{
     background: transparent;
 }
 /*-----SELECTED CHANNEL/DM/SUBSETTING-----*/
