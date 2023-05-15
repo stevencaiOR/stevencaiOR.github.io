@@ -1078,7 +1078,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 [class*="messageContent-"] > span[class*="spoilerText-"]:hover > [class*="inlineContent-"][aria-hidden="true"]{
     filter: none;
 }
-/*-----DM LIST-----*/
+/*-----PRIVATE CHANNELS-----*/
 /* FRIEND ICON */
 ul[aria-label="Direct Messages"] [class*="selected-"] > a[data-list-item-id$="friends"] svg[class^="linkButtonIcon-"]{
     color: var(--main-color) !important;
@@ -1090,21 +1090,21 @@ nav[aria-label="Private channels"] ul > h2{
     /*both value change equal amount from default*/
 }
 /* RIGHT SHIFT UPON HOVER*/
-nav[aria-label="Private channels"] h2~li [class^="interactive-"]{
+[aria-label="Private channels"] h2~li [class^="interactive-"]{
     transition: all 200ms ease-in-out ;
 }
-nav[aria-label="Private channels"] h2~li [class^="interactive-"]:hover{
+[aria-label="Private channels"] h2~li [class^="interactive-"]:hover{
     margin-left: 15px;
 }
-nav[aria-label="Private channels"] h2~li:hover [class^="interactive-"] > div{
+[aria-label="Private channels"] h2~li:hover [class*="interactive-"] > div{
     display: none;
 }
-nav[aria-label="Private channels"] h2~li [class^="interactive-"]:hover > div{
+[aria-label="Private channels"] h2~li [class*="interactive-"]:hover > div{
     display: block;
     position: relative;
     right: 15px;
 }
-nav[aria-label="Private channels"] h2~li [class^="interactive-"]:before{
+[aria-label="Private channels"] h2~li [class*="interactive-"]:before{
     border-radius: 10px !important;
 }
 /* HOVER USER */
