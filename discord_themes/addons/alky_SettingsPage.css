@@ -207,16 +207,17 @@
     margin-left: 0;
 }
 /*User popout things*/
-#profile-customization-tab [class*="baseLayoutProfileThemes-"] [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
-    r: calc(0.5*var(--profile-popout-picture-size) + 2*(var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)) + 5px);  
+#profile-customization-tab [class*="profileCustomizationPreview-"] .bannerSVGWrapper-2CLfzN[style*="min-height: 60px"] circle{
+    cx: calc(0.5*var(--profile-popout-picture-size) + 26px);
+    /*26px for border width of avatar, value of left property of avatar and accounting for 2px margin of error*/
+    cy: calc(0.5*var(--profile-popout-picture-size) + 20px);
+    /*20px for border width of avatar, value of top property of avatar and accounting for 2px margin of error*/
 }
-#profile-customization-tab [class*="baseLayoutProfileThemes-"]:not([class*="tryItOutLayout-"]) [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
-    cx: calc(0.5*var(--profile-popout-picture-size) + 22px);
-    cy: calc(0.5*var(--profile-popout-picture-size) + 16px);
-}
-#profile-customization-tab [class*="baseLayoutProfileThemes-"][class*="tryItOutLayout-"] [class*="userPopoutInner-"] [class*="bannerSVGWrapper-"] circle{
-    cx: calc(0.5*var(--profile-popout-picture-size) + 18px);
-    cy: calc(0.5*var(--profile-popout-picture-size) + 70px);
+#profile-customization-tab [class*="profileCustomizationPreview-"] .bannerSVGWrapper-2CLfzN[style*="min-height: 120px"] circle{
+    cx: calc(0.5*var(--profile-popout-picture-size) + 24px);
+    /*24px for value of left property of avatar and accounting for 2px margin of error*/
+    cy: calc(0.5*var(--profile-popout-picture-size) + 78px);
+    /*78px for value of top property of avatar and accounting for 2px margin of error*/
 }
 #profile-customization-tab .avatarUploaderInner-p38nm2{
     height: var(--profile-popout-picture-size);
