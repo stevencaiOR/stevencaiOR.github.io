@@ -300,26 +300,9 @@ svg.avatarHint-2g3Mcd[width="80"] {
     cx: calc(0.5*var(--profile-popout-picture-size) + 22px);
     cy: 84px; /*half the size of avatar + value of top property for avatar*/
 }
-.bannerSVGWrapper-qc0szY,
-#app-mount .avatarHoverTarget-l77PhT,
-#app-mount .avatarWrapper-3y0KZ1{
-    --avatar-extended-bg: 7px;
-}
-#app-mount .avatarHoverTarget-l77PhT{
-    background: var(--user-popout-overlay, var(--profile-gradient-primary-color));
-    width: calc(var(--profile-popout-picture-size, 80px) + 2*var(--avatar-extended-bg));
-    height: calc(var(--profile-popout-picture-size, 80px) + 2*var(--avatar-extended-bg));
-    position: relative;
-    bottom: var(--avatar-extended-bg);
-    right: var(--avatar-extended-bg);
-}
 #app-mount .avatarHint-2g3Mcd{
     top: 0;
     left: 0;
-}
-#app-mount [class*="userPopout"] .wrapper-3Un6-K[style*="80px"]{
-    top: var(--avatar-extended-bg);
-    left: var(--avatar-extended-bg);
 }
 /* AVATAR SIZE */
 #app-mount .wrapper-3Un6-K svg:not(:root){
@@ -1750,10 +1733,6 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 }
 #app-mount aside.profilePanel-2PWEok .bannerSVGWrapper-qc0szY circle{
     display: none;
-}
-#app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-3Un6-K{
-    top: calc(var(--avatar-extended-bg) - (var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)));
-    left: calc(var(--avatar-extended-bg) - (var(--rs-medium-width, 0px) + var(--rs-medium-spacing, 0px)));
 }
 #app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-3Un6-K,
 #app-mount aside.profilePanel-2PWEok .avatarHoverTarget-l77PhT .wrapper-3Un6-K svg{
