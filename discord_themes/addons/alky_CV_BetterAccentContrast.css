@@ -159,6 +159,11 @@
   color: #000;
 }
 
+.navButtonActive-fwiUKp,
+.navButtonActive-fwiUKp:hover {
+  color: var(--black-500);
+}
+
 /*voice call container buttons*/
 [class*="lookFilled-"][class*="colorBrand-"] [class*="defaultColor-"],
 [class*="lookFilled-"].colorPrimary-2-Lusz [class*="defaultColor-"]{
