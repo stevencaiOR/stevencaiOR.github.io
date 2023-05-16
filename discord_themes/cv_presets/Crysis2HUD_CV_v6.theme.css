@@ -314,6 +314,11 @@
 .wrapper-1HIH0j .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover{
     color: #fff;
 }
+/*message attachments container undo*/
+.container-2sjPya .lookFilled-1H2Jvj.colorGreen-jIPCAS{
+  border: none;
+  color: #000;
+}
 /* ERROR PAGE */
 .text-3IbNaT{
   border: 4px solid var(--main-color);
