@@ -366,6 +366,9 @@
 [class*="connectionIcon-"]+div:after{
     content: unset;
 }
+#connections-tab [class*="connectionList-"]{
+    grid-template-columns: repeat(2, calc(50% - 12px));
+}
 #connections-tab [class*="connection-"]{
     border: 3px solid var(--main-color);
     background: rgb(0,0,0,0.4);
