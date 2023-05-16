@@ -231,6 +231,11 @@
     background-image: url(https://cdn.uc.assets.prezly.com/915ca5cf-962e-41b0-9d11-76ba4da91ab7/-/resize/1108x/-/quality/best/-/format/auto/) !important;
     background-position: 55% 15%;
 }
+/*-----CV BUG FIXES-----*/
+/*This section is intended to fix *bugs* in ClearVision themes that haven't been addressed by the ClearVision team yet.*/
+.searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .side-1lrxIh .themed-qqoYp3.item-2GWPIy.selected-1sf9UK{
+    background: var(--main-color);
+}
 /*-----USER POPOUT-----*/
 [class*="userPopoutOverlayBackground-"] [aria-label="Click to copy username"] [class*="userTagNoNickname-"] [class*="userTagUsernameBase-"]{
     --nickname-font-size: 16px;
