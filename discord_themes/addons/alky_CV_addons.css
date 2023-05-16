@@ -601,7 +601,7 @@ span.interactive{
     background: var(--main-color);
 }
 /* MINIMIZE LONG USERNAME */
-:not([class*="embedDescription-"]) > .wrapper-1ZcZW-.mention.interactive {
+:not([class*="embed"]) > .wrapper-1ZcZW-.mention.interactive {
     max-width: 30%;
     overflow: hidden;
     text-overflow: ellipsis;
