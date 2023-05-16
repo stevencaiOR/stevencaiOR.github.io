@@ -260,7 +260,14 @@ svg.avatarHint-2g3Mcd[width="80"] {
     -webkit-line-clamp: 4 !important;
     /*shorter about-me section*/
 }
-/* AVATAR DECORATION *
+/* AVATAR DECORATION */
+.message-2CShn3.cozy-VmLDNB .contents-2MsGLg img.avatarDecoration-34OC0G{
+    height: calc((2.5rem + var(--chat-box-avatar-change, 0rem))*var(--decoration-to-avatar-ratio));
+    width: calc((2.5rem + var(--chat-box-avatar-change, 0rem))*var(--decoration-to-avatar-ratio));
+
+    left: calc(0.2*var(--chat-box-avatar-change, 0rem) + .2rem);
+    top: 0.125rem;
+}
 .userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN mask image{
     width: calc(1.35*var(--profile-popout-picture-size));
     height: calc(1.35*var(--profile-popout-picture-size)); 
