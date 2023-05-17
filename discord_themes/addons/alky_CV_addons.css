@@ -8,7 +8,7 @@
     --profile-popout-width: 340px;                                                                                      /*default: 340px*/
     --profile-popout-picture-size-factor: 0.6;                                                                          /*"default": 0.235*/
     --profile-popout-picture-size: calc(var(--profile-popout-width, 340px)*var(--profile-popout-picture-size-factor));  /*default: 80px*/
-    --chat-box-username-height: 2.5rem;                                                                                 /*default: 1.375rem*/
+    --chat-box-username-height: 2.5rem;                                                                                 /*default: 1.375rem. 3rem is the highest I would go*/
     --chat-box-avatar-change: min(calc(var(--chat-box-username-height, 1.375rem) - 0.625rem),1.25rem);                  /*default: 0*/
 
     --online-color: #43b581;
@@ -267,10 +267,17 @@ svg.avatarHint-2g3Mcd[width="80"] {
 }
 /* AVATAR DECORATION */
 .message-2CShn3.cozy-VmLDNB .contents-2MsGLg img.avatarDecoration-34OC0G{
+    left: calc(1rem - 0.08*(2.5rem + var(--chat-box-avatar-change, 0rem)));
+    margin-top: calc(0.125rem - 0.1*(2.5rem + var(--chat-box-avatar-change, 0rem)));
+}
+.message-2CShn3.cozy-VmLDNB .repliedMessage-3Z6XBG~.contents-2MsGLg img.avatarDecoration-34OC0G{
+    top: 1.5rem;  /*avatar top property gains +1.125rem when replying*/
+}
+
+
+.message-2CShn3.cozy-VmLDNB .contents-2MsGLg img.avatarDecoration-34OC0G{
     height: calc((2.5rem + var(--chat-box-avatar-change, 0rem))*var(--decoration-to-avatar-ratio));
     width: calc((2.5rem + var(--chat-box-avatar-change, 0rem))*var(--decoration-to-avatar-ratio));
-
-    left: calc(0.2*var(--chat-box-avatar-change, 0rem) + .2rem);
 }
 .userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN mask image{
     width: calc(1.35*var(--profile-popout-picture-size));
