@@ -271,7 +271,6 @@ svg.avatarHint-2g3Mcd[width="80"] {
     width: calc((2.5rem + var(--chat-box-avatar-change, 0rem))*var(--decoration-to-avatar-ratio));
 
     left: calc(0.2*var(--chat-box-avatar-change, 0rem) + .2rem);
-    top: 0.125rem;
 }
 .userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN mask image{
     width: calc(1.35*var(--profile-popout-picture-size));
@@ -288,8 +287,8 @@ svg.avatarHint-2g3Mcd[width="80"] {
     height: 100% !important;
 }
 [class*="userPopoutInner-"] svg.avatarDecorationHint-3n-p6O {
-    width: calc(1.2*var(--profile-popout-picture-size));
-    height: calc(1.2*var(--profile-popout-picture-size));
+    width: calc(var(--profile-popout-picture-size)*var(--decoration-to-avatar-ratio));
+    height: calc(var(--profile-popout-picture-size)*var(--decoration-to-avatar-ratio));
     border-radius: 50%;
     top: calc(-0.1*var(--profile-popout-picture-size));
     left: calc(-0.1*var(--profile-popout-picture-size));
@@ -835,11 +834,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     height: 5rem !important; 
     width: 5rem !important;
     /*smaller stickers*/
-}
-.message-2CShn3.cozy-VmLDNB .contents-2MsGLg img.avatarDecoration-34OC0G{
-    width: calc(2.5rem + var(--chat-box-avatar-change, 0rem));
-    height: calc(2.5rem + var(--chat-box-avatar-change, 0rem));
-    /*avatar decoration fix*/
 }
 /*fix for reply context messages with mentions*/
 .repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextContent-2hOYMB .mention{

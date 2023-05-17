@@ -56,7 +56,6 @@
   --font-primary: var(--main-font);
   --font-headline: var(--main-font);
   --code-font: Consolas, monospace;
-  --text-muted: var(--main-color);
   --channels-width: max(13.4vw, 185px);   /*default: 220px*/
   --members-width: max(14vw, 185px);      /*default: 240px*/
 
