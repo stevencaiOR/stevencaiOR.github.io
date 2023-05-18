@@ -232,7 +232,7 @@
     background-position: 55% 15%;
 }
 /*-----CV BUG FIXES-----*/
-/*This section is intended to fix *bugs* in ClearVision themes that haven't been addressed by the ClearVision team yet.*/
+/*This section is intended to fix *bugs* in ClearVision themes that haven't been addressed by the ClearVision team yet.*
 .searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .side-1lrxIh .themed-qqoYp3.item-2GWPIy.selected-1sf9UK{
     background: var(--main-color);
 }
