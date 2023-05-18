@@ -308,15 +308,15 @@ svg.avatarHint-2g3Mcd[width="80"] {
 .userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN[style*="min-height: 90px"] circle{
     cx: calc(0.5*var(--profile-popout-picture-size) + 18px); /* -4px because padding width of popout */
 }
-.userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN[style*="min-height: 120px"] circle{
-    cy: 140px; /*half the size of avatar + value of top property for avatar - padding width of popout*/
-}
-.userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN[style*="min-height: 90px"] circle{
-    cy: 110px; /*half the size of avatar + value of top property for avatar - padding width of popout*/
-}
-.userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN[style*="min-height: 60px"] circle{
+.userPopoutOuter-1OHwPL:not([class*="profileCustomizationPreview-"]) .bannerSVGWrapper-2CLfzN[style*="min-height: 60px"] circle{
     cx: calc(0.5*var(--profile-popout-picture-size) + 22px);
-    cy: 84px; /*half the size of avatar + value of top property for avatar*/
+    cy: calc(0.5*var(--profile-popout-picture-size) + 16px); /*half the size of avatar + value of top property for avatar*/
+}
+.userPopoutOuter-1OHwPL:not([class*="profileCustomizationPreview-"]) .bannerSVGWrapper-2CLfzN[style*="min-height: 90px"] circle{
+    cy: calc(0.5*var(--profile-popout-picture-size) + 46px);
+}
+.userPopoutOuter-1OHwPL:not([class*="profileCustomizationPreview-"]) .bannerSVGWrapper-2CLfzN[style*="min-height: 120px"] circle{
+    cy: calc(0.5*var(--profile-popout-picture-size) + 76px);
 }
 #app-mount .avatarHint-2g3Mcd{
     top: 0;
