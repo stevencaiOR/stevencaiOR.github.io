@@ -343,11 +343,16 @@ svg.avatarHint-2g3Mcd[width="80"] {
     width: var(--profile-popout-picture-size) !important;
 }
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect{
-    height: 26.09% !important;
+    height: 17.39% !important;
     width: 17.39% !important;
     x: 65.22%;
     y: 65.22%;
     /*status dot adjustments*/
+}
+[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect[mask*="mobile"]{
+    height: 26.09% !important;
+    x: 75%;
+    y: 65%;
 }
 .avatarPositionNormal-V4Mjtq{
     top: calc(16px + var(--profile-popout-width, 340px)/340*60 - 60px);
