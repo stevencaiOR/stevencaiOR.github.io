@@ -343,7 +343,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
     width: var(--profile-popout-picture-size) !important;
 }
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect{
-    height: 17.39% !important;
+    height: 26.09% !important;
     width: 17.39% !important;
     x: 65.22%;
     y: 65.22%;
