@@ -1,0 +1,19 @@
+.membersWrap-3NUR2t{
+    min-width: unset;
+    flex-basis: 65px;
+}
+.membersWrap-3NUR2t:not(:hover),
+.membersWrap-3NUR2t:not(:hover) .members-3WRCEx{
+    width: 65px;
+}
+.membersWrap-3NUR2t:hover,
+.membersWrap-3NUR2t:hover .members-3WRCEx{
+    width: var(--members-width);
+}
+.membersWrap-3NUR2t,
+.membersWrap-3NUR2t .members-3WRCEx{
+    transition: width .7s ease-in-out;
+}
+.membersWrap-3NUR2t:not(:hover) .members-3WRCEx .membersGroup-2eiWxl{
+    visibility: hidden;
+}
