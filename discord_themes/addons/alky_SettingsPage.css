@@ -8,7 +8,7 @@
     --nitro-bg-pos: left/right/center;
     */
     --profile-popout-width-num: 340;
-    --image-upload-scale-factor: calc(var(--profile-popout-width-num)*var(--profile-popout-picture-size-factor, 0.235)/80);
+    --image-upload-scale-factor: calc(var(--profile-popout-width-num)*var(--profile-popout-picture-size-factor, 0.235)/100);
     
     --message-content-line-height: 1.375rem; /*line height of messages*/
 
@@ -206,7 +206,7 @@
 /*User popout things*/
 #profile-customization-tab [class*="profileCustomizationPreview-"] .bannerSVGWrapper-2CLfzN[style*="min-height: 60px"] circle{
     cx: calc(0.5*var(--profile-popout-picture-size) + 22px);
-    /*26px for border width of avatar, value of left property of avatar and accounting for 2px margin of error*/
+    /*26px for value of left property of avatar*/
     cy: calc(0.5*var(--profile-popout-picture-size) + 20px);
     /*20px for border width of avatar, value of top property of avatar and accounting for 2px margin of error*/
 }
@@ -241,7 +241,7 @@
     top: calc(100% - 20px);
     left: calc(100% - 20px);
 }
-.imageUploaderIcon-2OHmFu:after{
+#profile-customization-tab .imageUploaderIcon-2OHmFu:after{
     transform: scale(var(--image-upload-scale-factor));
 }
 /* Removes Discord marketing crap */
