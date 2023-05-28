@@ -198,8 +198,6 @@
   filter: brightness(0) invert(0) !important;
 }
 
-/*switch accounts context menu on hover*/
-#account .focused-3RdCfX .userMenuUsername-2xdVcJ+svg g path,
 /* toggle buttons that appear in settings */
 [class^="control-"] > [class^="container-"] svg[class^="slider-"] rect,
 /* BetterDiscord buttons*/
