@@ -10,6 +10,7 @@
 :root{
   /*--main-color-inverted:; this should contain the inverted version of your accent color*/
   --text-normal-dark: #212121;
+  --header-primary-dark: #0c0c0c;
 }
 
 
@@ -174,6 +175,10 @@
 .wrapper-1HIH0j .lookFilled-1H2Jvj.colorBrand-2M3O3N,
 .wrapper-1HIH0j .lookFilled-1H2Jvj.colorGreen-jIPCAS{
   color: #fff;
+}
+
+.picker-20lcBA .soundButton-2P2Ua2 [style*="var(--header-primary)"]{
+  color: var(--header-primary-dark) !important;
 }
 
 .modeSelected-3DmyhH .numberBadge-37OJ3S,
