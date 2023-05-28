@@ -369,7 +369,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
 .wrapper-3Un6-K[style*="80px"]{
     margin: 0;
 }
-#account{
+#account {
     margin-left: 0;
     background: none;
 }
@@ -487,6 +487,19 @@ svg.avatarHint-2g3Mcd[width="80"] {
 }
 #account .copiableWrapper-2IFENG > div:nth-child(2){
     max-height: 15px;
+}
+#account .userMenuItem-2pMhk- .wrapper-3Un6-K .mask-1y0tyc{
+    filter: none;
+}
+/* Switch Accounts Context Menu in User Area Popout*/
+#account .item-5ApiZt.focused-3LIdPu .activeIcon-1ykRnF>g>path:not([fill^="hsl(0"]){
+    fill: #000;
+}
+#account .item-5ApiZt .activeIcon-1ykRnF>circle:not([fill^="hsl(0"]){
+    fill: #000;
+}
+#account .item-5ApiZt.focused-3LIdPu .activeIcon-1ykRnF>circle:not([fill^="hsl(0"]){
+    fill: var(--hover-color);
 }
 /*-----USER PROFILE MODALS-----*/
 #app-mount [aria-label="User Profile Modal"] .topSection-13QKHs header .button-f2h6uQ{
