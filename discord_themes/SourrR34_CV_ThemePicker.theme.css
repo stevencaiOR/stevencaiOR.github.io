@@ -34,10 +34,13 @@
 @import url(https://stevencaior.github.io/discord_themes/alky_themes/Alky_meme_theme.theme.css);/**/
 
 /*-----ADD ONS-----*/
+/* Member List on Hover */
+@import url(https://stevencaior.github.io/discord_themes/addons/SourrR34_MemberListHover.css);/**/
+
 /* Plaform Indicator Support */
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_PlatformIndicatorSupport.css);/**/
 
-/* Radial Glow Support */
+/* Radial Glow Support *
 @import url(https://stevencaior.github.io/discord_themes/addons/alky_CV_RadialGlowSupport.css);/**/
 
 /* Radial Glow Only *
