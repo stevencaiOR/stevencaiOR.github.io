@@ -1183,9 +1183,13 @@ ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][clas
 
     display: flex;
     flex-wrap: wrap;
+    height: unset !important;
 }
 [class*="peopleList-"] > div:first-child > div{
     width: 50%;
+}
+[class*="peopleList-"] > div:first-child > div[style="height: 0px;"]{
+    display: none;
 }
 [class^="peopleColumn-"] [class^="peopleListItem-"]{
     margin: 0px;
