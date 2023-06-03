@@ -1141,7 +1141,7 @@ ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after{
     border-radius: 8px;
 }
 /* DM'S */
-nav[aria-label="Private channels"] li [class*="interactiveSelected-"]:after,
+[aria-label="Private channels"] [class*="channel-"] [class*="interactive-"]:after,
 /* SUBSETTINGS */
 nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"][aria-selected="true"]:after{
     background:rgba(var(--main-color-numerical),0.3) !important;
