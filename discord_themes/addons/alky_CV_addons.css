@@ -1120,8 +1120,8 @@ nav[aria-label="Private channels"] ul > h2{
     background: rgb(var(--main-color-numerical), 0.3);
 }
 /* SELECT USER */
-[aria-label="Private channels"] [class^="interactive-"][class*="interactiveSelected-"]:before,
-[aria-label="Private channels"] [class^="interactive-"][class*="interactiveSelected-"]:hover:before{
+[aria-label="Private channels"] [class*="channel-"] [class^="interactive-"][class*="interactiveSelected-"]:before,
+[aria-label="Private channels"] [class*="channel-"] [class^="interactive-"][class*="interactiveSelected-"]:hover:before{
     background: transparent;
 }
 /*-----SELECTED CHANNEL/DM/SUBSETTING-----*/
