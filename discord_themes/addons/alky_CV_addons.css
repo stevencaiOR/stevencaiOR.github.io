@@ -1702,6 +1702,14 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .bd-button.bd-button-danger:hover{
     background: var(--button-danger-background-hover);
 }
+/* TOGGLE BUTTONS */
+.bd-switch-body{
+    background: rgb(var(--main-color-numerical),0.625) !important;
+}
+.bd-switch .bd-switch-symbol > path{
+    fill: currentColor;
+    /*x icon*/
+}
 /*-----SERVER BAR-----*/
 /* ADD/EXPLORE BUTTON ICONS */
 .circleIconButton-1VxDrg{
