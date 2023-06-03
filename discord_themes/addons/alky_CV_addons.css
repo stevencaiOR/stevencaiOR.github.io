@@ -516,22 +516,23 @@ svg.avatarHint-2g3Mcd[width="80"] {
     /*tab button bar*/
 }
 /* Removes Mutual Server/Friends graphic */
-.empty-2-ONJW .emptyIcon-LaP3ij{
+[class*="emptyIconFriends-"],
+[class*="emptyIconGuilds-"]{
     display: none;
 }
 /* No friends/servers in common -> No mutual friends/servers */
-.emptyIconFriends-2LNxTX+.emptyText-mZZyQk,
-.emptyIconGuilds-2NNSTU+.emptyText-mZZyQk{
+[class*="emptyIconFriends-"]+[class*="emptyText-"],
+[class*="emptyIconGuilds-"]+[class*="emptyText-"]{
     text-indent: -9999px;
     line-height: 0;
 }
-.emptyIconFriends-2LNxTX+.emptyText-mZZyQk:after{
+[class*="emptyIconFriends-"]+[class*="emptyText-"]:after{
     text-indent: 0px;
     line-height: 16px;
     display: block;
     content: "No mutual friends";
 }
-.emptyIconGuilds-2NNSTU+.emptyText-mZZyQk:after{
+[class*="emptyIconGuilds-"]+[class*="emptyText-"]:after{
     text-indent: 0px;
     line-height: 16px;
     display: block;
