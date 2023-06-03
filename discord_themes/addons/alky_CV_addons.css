@@ -406,9 +406,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
 #profile-customization-tab h3.nickname-t08Mck{
     --nickname-font-size: 16px;
     font-size: var(--nickname-font-size, 20px);
-
-    --nickname-line-height: calc(2.5*var(--nickname-font-size, 20px));
-    line-height: var(--nickname-line-height, 50px);
+    line-height: 2.5;
 
     white-space: nowrap;
     max-width: 100%;
@@ -419,9 +417,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
 [class*="userPopoutOverlayBackground-"] .userTagWithNickname-3-znkC .username-3JLfHz,
 #profile-customization-tab .headerTagWithNickname-1U8zZH .username-3JLfHz{
     font-size: var(--username-font-size, 14px);
-
-    --username-line-height: calc(2.5*var(--username-font-size, 14px));
-    line-height: var(--username-line-height, 35px);
+    line-height: 2.5;
 
     display: block;
     white-space: nowrap;
@@ -433,9 +429,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .username-3JLfHz,
 #profile-customization-tab .headerTagNoNickname-3tGHj6 .username-3JLfHz {
     font-size: var(--username-font-size, 18px);
-
-    --username-line-height: calc(2.5*var(--username-font-size, 18px));
-    line-height: var(--username-line-height, 45px);
+    line-height: 2.5;
 }
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .username-3JLfHz,
 #profile-customization-tab .headerTagNoNickname-3tGHj6 .username-3JLfHz{
@@ -450,15 +444,12 @@ svg.avatarHint-2g3Mcd[width="80"] {
     left: 5px;
     position: relative;
 }
-.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD {
-    --discriminator-line-height: calc(2.5*var(--discriminator-font-size, 20px));
-}
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .userTagDiscriminatorNoNickname-2HLaIE{
     font-size: var(--discriminator-font-size, 20px);
-    line-height: var(--discriminator-line-height);
+    line-height: 2.5;
 }
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .PI-indicatorContainer{
-    bottom: calc(0.5*(var(--discriminator-line-height, 50px) - 29px));
+    bottom: calc(1.25*var(--discriminator-font-size, 20px) - 15px);
     left: 5px;
     position: relative;
 }
@@ -669,7 +660,7 @@ span.interactive{
     background: transparent;
 }
 [class*="focusLock-"][aria-label="Set a custom status"] [class*="sectionTitle-"] h1{
-    line-height: 30px;/*2.5x font-size*/
+    line-height: 2.5;
     white-space: nowrap;
     max-width: 100%;
     overflow: hidden;
