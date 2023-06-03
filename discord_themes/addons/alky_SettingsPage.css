@@ -869,19 +869,6 @@
 #language-tab [class*="item-"] {
     margin-right: 18px;
 }
-/* SETTINGS, PLUGINS & THEMES*/
-/* Toggle buttons */
-/* Off */
-.bd-switch-body{
-    background: rgb(var(--main-color-numerical),0.625) !important;
-}
-.control-1fl03- > .container-2nx-BQ:not(.checked-25WXMf):before{
-    background: rgb(var(--main-color-numerical),0.625);
-}
-.bd-switch .bd-switch-symbol > path{
-    fill: currentColor;
-    /*fills x in off button with the currentColor*/
-}
 /* HYPESQUAD */
 #hypesquad-online-tab .icon-2g_pHb{
     display: none;
