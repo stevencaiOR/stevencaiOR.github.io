@@ -364,6 +364,12 @@
 .container-3YcgdM{
   background-color: #000;
 }
+/* FRIENDS TAB */
+[class*="topPill-"] > [class*="item-"][aria-selected=true]:not([aria-controls=add_friend-tab]){
+  border: 2px solid var(--main-color);
+  background: #000;
+  color: var(--main-color);
+}
 /*-----DISPLAY LINKS-----*/
 #app-mount [aria-label="User Profile Modal"] .connectedAccountContainer-SlCC-S{
   background: rgb(var(--main-color-numerical), 0.1);
