@@ -1830,6 +1830,13 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 .lookOutlined-3RTC7c.colorRed-2VFhM4:hover{
     background: var(--button-outline-danger-background-hover);
 }
+.messageRequestItem-1_NNAR.selected-11Gl-y,
+.messageRequestItem-1_NNAR.selected-5uRER3,
+.messageRequestItem-1_NNAR.active-1iRyqF,
+.messageRequestItem-1_NNAR:hover{
+    background: rgb(var(--hover-color-numerical), 0.25);
+    animation: none;
+}
 /*----------*/
 
 /*edited Discord marketing shit to be less stupid*/
@@ -1954,15 +1961,6 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 .wideHeroBanner-1m_HSk{
     display: none;
 }
-
-/*message request box background*/
-.messageRequestItem-1_NNAR.selected-11Gl-y,
-.messageRequestItem-1_NNAR.selected-5uRER3,
-.messageRequestItem-1_NNAR.active-1iRyqF,
-.messageRequestItem-1_NNAR:hover{
-    background: rgb(var(--hover-color-numerical), 0.5);
-}
-
 
 /*Explore Public Container*/
 .container-3tKtM_{
