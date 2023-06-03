@@ -235,12 +235,7 @@
 /*This section is intended to fix *bugs* in ClearVision themes that haven't been addressed by the ClearVision team yet.*/
 /*-----USER POPOUT-----*/
 [class*="userPopoutOverlayBackground-"] [aria-label="Click to copy username"] [class*="userTagUsernameBase-"]{
-    --nickname-font-size: 16px;
-    font-size: var(--nickname-font-size, 20px);
-
-    --nickname-line-height: calc(2.5*var(--nickname-font-size, 20px));
-    line-height: var(--nickname-line-height, 50px);
-
+    line-height: 2.5;
     white-space: nowrap;
     max-width: 20ch;
     overflow: hidden;
