@@ -1843,6 +1843,9 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
     background-color: rgb(0,0,0,0.6);
     border-radius: 0px 0px 5px 5px;
 }
+.lookOutlined-3RTC7c.colorRed-2VFhM4:hover{
+    background: var(--button-outline-danger-background-hover);
+}
 /*----------*/
 
 /*edited Discord marketing shit to be less stupid*/
