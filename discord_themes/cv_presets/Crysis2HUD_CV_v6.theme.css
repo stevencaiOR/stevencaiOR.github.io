@@ -219,6 +219,10 @@
     color: var(--hover-color)
 }
 
+/* HEADER CONTAINER */
+.base-2jDfDU .container-ZMc96U{
+  background: #000;
+}
 
 /*I don't know what this does either*/
 [class^="layer"][id^="popout_"] > [class^="popout"] [class^="option"][aria-selected="true"]{
