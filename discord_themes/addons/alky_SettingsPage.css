@@ -212,6 +212,7 @@
 }
 #profile-customization-tab [class*="profileCustomizationPreview-"] .bannerSVGWrapper-2CLfzN[style*="min-height: 120px"] circle{
     cx: calc(0.5*var(--profile-popout-picture-size) + 18px);
+    /*left property *minus* padding???*/
     cy: calc(0.5*var(--profile-popout-picture-size) + 78px);
     /*78px for value of top property of avatar and accounting for 2px margin of error*/
 }

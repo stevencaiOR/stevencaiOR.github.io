@@ -1689,12 +1689,18 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .embedImage-2Ynqkh .imageError-dy476I{
     display: none;
 }
-/*-----BD GUILD BUTTON-----*/
+/*-----BETTERDISCORD-----*/
 #bd-pub-button{
     font-weight: 500;
 }
 #bd-pub-button:hover{
     background-color: var(--main-color);
+}
+.bd-button.bd-button-danger{
+    background: var(--danger-color);
+}
+.bd-button.bd-button-danger:hover{
+    background: var(--button-danger-background-hover);
 }
 /*-----SERVER BAR-----*/
 /* ADD/EXPLORE BUTTON ICONS */
