@@ -41,6 +41,11 @@
   --main-color-inverted-numerical: 112, 23, 0;
   --main-color-inverted: rgb(var(--main-color-inverted-numerical));
 
+  /* Danger on hover colors (based on --danger-color)*/
+  --button-danger-background-hover: hsl(5, 100%, 35%);
+  --button-outline-danger-background-hover: hsl(5, 100%, 35%);
+  --button-outline-danger-border-hover: hsl(5, 100%, 35%);
+
   /* STATUS COLORS */
   --online-color-numerical: 36, 168, 109;/*default: 67, 181, 129*/
   --online-color: rgb(var(--online-color-numerical));
