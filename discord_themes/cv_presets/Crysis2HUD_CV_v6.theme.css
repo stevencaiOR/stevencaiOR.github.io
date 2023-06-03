@@ -223,6 +223,17 @@
 .lookFilled-1H2Jvj.colorPrimary-2-Lusz [class*="defaultColor-"]:hover{
     color: var(--hover-color)
 }
+/* BETTERDISCORD */
+.bd-button:not(.bd-addon-button, .bd-view-button){
+  border: 3px solid var(--main-color);
+  color: var(--main-color);
+  background: rgb(0,0,0,0.7);
+}
+.bd-button:not(.bd-addon-button, .bd-view-button):hover{
+  border: 3px solid var(--hover-color);
+  color: var(--hover-color);
+  background: rgb(0,0,0,0.7);
+}
 
 /* HEADER CONTAINER */
 .base-2jDfDU .container-ZMc96U{
