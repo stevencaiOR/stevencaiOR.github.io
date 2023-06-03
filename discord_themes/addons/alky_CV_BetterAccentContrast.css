@@ -165,6 +165,8 @@
   color: var(--black-500);
 }
 
+
+[class*="reactionSelected-"] [class*="defaultColor-"],
 /*voice call container buttons*/
 [class*="lookFilled-"][class*="colorBrand-"] [class*="defaultColor-"],
 [class*="lookFilled-"].colorPrimary-2-Lusz [class*="defaultColor-"]{
