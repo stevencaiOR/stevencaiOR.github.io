@@ -324,13 +324,13 @@
 .lookFilled-1H2Jvj.buttonColor-1u-3JF:disabled{
     background: rgb(0,0,0,0.7) !important;
 }
-/*message attachments container undo*/
+/*message attachments container*/
 .container-2sjPya .lookFilled-1H2Jvj.colorGreen-jIPCAS{
   border: none;
   color: #000;
 }
-/*join server button undos*/
-.wrapper-1HIH0j .lookFilled-1H2Jvj.colorBrand-2M3O3N,
+/*join server button
+.wrapper-1HIH0j .lookFilled-1H2Jvj.colorBrand-2M3O3N,*/
 .wrapper-1HIH0j .lookFilled-1H2Jvj.colorGreen-jIPCAS,
 .wrapper-1HIH0j .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover{
     color: #fff;
