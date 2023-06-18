@@ -233,6 +233,21 @@
 }
 /*-----CV BUG FIXES-----*/
 /*This section is intended to fix *bugs* in ClearVision themes that haven't been addressed by the ClearVision team yet.*/
+.sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-general-tab"]{
+    padding-left: 20px !important;
+  }
+  .sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-quickcss-tab"]:before{
+    background: url(https://clearvision.github.io/icons/code_braces.svg);
+  }
+  .sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-plugins-tab"]:before{
+    background: url(https://clearvision.github.io/icons/puzzle.svg);
+  }
+  .sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-themes-tab"]:before{
+    background: url(https://clearvision.github.io/icons/palette.svg);
+  }
+  .sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-updater-tab"]:before{
+    background: url(https://clearvision.github.io/icons/update.svg);
+  }
 /*-----USER POPOUT-----*/
 [class*="userPopoutOverlayBackground-"] [aria-label="Click to copy username"] [class*="userTagUsernameBase-"]{
     line-height: 2.5;
