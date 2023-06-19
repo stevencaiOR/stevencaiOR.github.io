@@ -321,29 +321,29 @@
     cy: calc(0.5*var(--profile-popout-picture-size) + 76px);
 }
 /* AVATAR SIZE */
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) svg{
+[class*="userPopoutInner-"] .wrapper-3Un6-K:not([class*="miniAvatar-"]) svg{
     height: calc(1.15*var(--profile-popout-picture-size));
     width: calc(1.15*var(--profile-popout-picture-size));
     /*scuffed fixed to get avatar to display properly in popouts*/
 }
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) foreignObject{
+[class*="userPopoutInner-"] .wrapper-3Un6-K:not([class*="miniAvatar-"]) foreignObject{
     height: 86.96%;
     width: 86.96%;
     /*scuffed fixed to get avatar to display properly in popouts part 2*/
 }
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]),
+[class*="userPopoutInner-"] .wrapper-3Un6-K:not([class*="miniAvatar-"]),
 [class*="userPopoutInner-"] .avatarHint-k7pYop{
     height: var(--profile-popout-picture-size) !important;
     width: var(--profile-popout-picture-size) !important;
 }
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect{
+[class*="userPopoutInner-"] .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect{
     height: 17.39% !important;
     width: 17.39% !important;
     x: 65.22%;
     y: 65.22%;
     /*status dot adjustments*/
 }
-[class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect[mask*="mobile"]{
+[class*="userPopoutInner-"] .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect[mask*="mobile"]{
     height: 26.09% !important;
     y: 56.52%;
     /*mobile icon adjustments*/
