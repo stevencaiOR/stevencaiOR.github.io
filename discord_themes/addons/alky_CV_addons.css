@@ -336,17 +336,16 @@
     height: var(--profile-popout-picture-size) !important;
     width: var(--profile-popout-picture-size) !important;
 }
+/* STATUS ICON */
 [class*="userPopoutInner-"] .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect{
     height: 17.39% !important;
     width: 17.39% !important;
     x: 65.22%;
     y: 65.22%;
-    /*status dot adjustments*/
 }
 [class*="userPopoutInner-"] .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect[mask*="mobile"]{
     height: 26.09% !important;
     y: 56.52%;
-    /*mobile icon adjustments*/
 }
 .avatarPositionNormal-V4Mjtq{
     top: calc(16px + var(--profile-popout-width, 340px)/340*60 - 60px);
@@ -359,9 +358,6 @@
 }
 [class*="userPopoutInner-"] [class*="overlayBackground-"]{
     margin: calc(var(--profile-popout-picture-size, 80px) - 52px) 16px 16px;
-}
-.wrapper-3Un6-K[style*="80px"]{
-    margin: 0;
 }
 #account {
     margin-left: 0;
