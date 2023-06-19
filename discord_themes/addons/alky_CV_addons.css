@@ -306,8 +306,8 @@
 .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN circle{
     r: calc(0.575*var(--profile-popout-picture-size)); /*default value of r is 46 and avatar is 80*/
 }
-.userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN[style*="min-height: 120px"] circle,
-.userPopoutOuter-1OHwPL:not(.profileCustomizationPreview-2-Y173) .bannerSVGWrapper-2CLfzN[style*="min-height: 90px"] circle{
+.userPopoutOuter-1OHwPL:not([class*="profileCustomizationPreview-"]) .bannerSVGWrapper-2CLfzN[style*="min-height: 120px"] circle,
+.userPopoutOuter-1OHwPL:not([class*="profileCustomizationPreview-"]) .bannerSVGWrapper-2CLfzN[style*="min-height: 90px"] circle{
     cx: calc(0.5*var(--profile-popout-picture-size) + 18px); /* -4px because padding width of popout */
 }
 .userPopoutOuter-1OHwPL:not([class*="profileCustomizationPreview-"]) .bannerSVGWrapper-2CLfzN[style*="min-height: 60px"] circle{
