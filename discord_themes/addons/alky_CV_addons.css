@@ -359,10 +359,6 @@
 [class*="userPopoutInner-"] [class*="overlayBackground-"]{
     margin: calc(var(--profile-popout-picture-size, 80px) - 52px) 16px 16px;
 }
-#account {
-    margin-left: 0;
-    background: none;
-}
 #account-info > .headerTop-3GPUSF{
     padding-top: 44px;
 }
