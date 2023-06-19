@@ -268,7 +268,7 @@ svg.avatarHint-2g3Mcd[width="80"] {
     transition-duration: 200ms;
     /*transition time when hover over profile pic*/
 }
-.lineClamp2Plus-2RYGV2{
+[class*="lineClamp2Plus-"]{
     -webkit-line-clamp: 4 !important;
     /*shorter about-me section*/
 }
