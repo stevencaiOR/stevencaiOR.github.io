@@ -320,10 +320,6 @@
 .userPopoutOuter-1OHwPL:not([class*="profileCustomizationPreview-"]) .bannerSVGWrapper-2CLfzN[style*="min-height: 120px"] circle{
     cy: calc(0.5*var(--profile-popout-picture-size) + 76px);
 }
-#app-mount .avatarHint-2g3Mcd{
-    top: 0;
-    left: 0;
-}
 /* AVATAR SIZE */
 #app-mount .wrapper-3Un6-K svg:not(:root){
     overflow: visible;
