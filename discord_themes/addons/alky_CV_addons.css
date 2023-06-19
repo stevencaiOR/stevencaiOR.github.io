@@ -347,6 +347,7 @@
     height: 26.09% !important;
     y: 56.52%;
 }
+/* AVATAR POSITION */
 .avatarPositionNormal-V4Mjtq{
     top: calc(16px + var(--profile-popout-width, 340px)/340*60 - 60px);
 }
@@ -359,6 +360,7 @@
 [class*="userPopoutInner-"] [class*="overlayBackground-"]{
     margin: calc(var(--profile-popout-picture-size, 80px) - 52px) 16px 16px;
 }
+/* USER AREA POPOUT */
 #account-info > .headerTop-3GPUSF{
     padding-top: 44px;
 }
@@ -369,30 +371,23 @@
     height: 90px;
 }
 /* ROLES */
-.roles-3zC7MX .roleRemoveIcon-387wKV,
-.rolesList-3uZoaa .roleRemoveIcon-387wKV,
+.roles-3vQPxb .roleRemoveIcon-387wKV,
 .roleWrapper-2IhvNd .roleRemoveIcon-387wKV{
     left: calc(100% - 14px);
 }
-.roles-3zC7MX div[style].role-2TIOKu:not(:hover),
-.roles-3zC7MX div[style].role-2TIOKu:hover,
-.rolesList-3uZoaa div[style].role-2TIOKu:not(:hover),
-.rolesList-3uZoaa div[style].role-2TIOKu:hover,
-.roleWrapper-2IhvNd div[style].role-2TIOKu:not(:hover),
-.roleWrapper-2IhvNd div[style].role-2TIOKu:hover{
+.roles-3vQPxb .role-2TIOKu,
+.roleWrapper-2IhvNd .role-2TIOKu{
     border-width: 2.5px;
     border-style: solid;
     padding: 10px 4px;
 }
-.roles-3zC7MX div[style].role-2TIOKu:not(:hover),
-.rolesList-3uZoaa div[style].role-2TIOKu:not(:hover),
-.roleWrapper-2IhvNd div[style].role-2TIOKu:not(:hover){
-    border-color: rgb(255,255,255,0.25) !important;
+.roles-3vQPxb .role-2TIOKu:not(:hover),
+.roleWrapper-2IhvNd .role-2TIOKu:not(:hover){
+    border-color: rgb(255,255,255,.25);
 }
-.roles-3zC7MX div[style].role-2TIOKu:hover,
-.rolesList-3uZoaa div[style].role-2TIOKu:hover,
-.roleWrapper-2IhvNd div[style].role-2TIOKu:hover{
-    border-color: rgb(255,255,255,0.45) !important;
+.roles-3vQPxb .role-2TIOKu:hover,
+.roleWrapper-2IhvNd .role-2TIOKu:hover{
+    border-color: rgb(255,255,255,.45);
 }
 /* LONG USERNAME/NICKNAME SUPPORT */
 /* Popout w/ nickname*/
