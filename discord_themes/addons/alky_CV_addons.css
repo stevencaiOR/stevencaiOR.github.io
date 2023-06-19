@@ -345,8 +345,8 @@
 }
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect[mask*="mobile"]{
     height: 26.09% !important;
-    x: 65.2%;
-    y: 56.5%;
+    y: 56.52%;
+    /*mobile icon adjustments*/
 }
 .avatarPositionNormal-V4Mjtq{
     top: calc(16px + var(--profile-popout-width, 340px)/340*60 - 60px);
