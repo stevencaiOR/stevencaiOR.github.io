@@ -360,16 +360,6 @@
 [class*="userPopoutInner-"] [class*="overlayBackground-"]{
     margin: calc(var(--profile-popout-picture-size, 80px) - 52px) 16px 16px;
 }
-/* USER AREA POPOUT */
-#account-info > .headerTop-3GPUSF{
-    padding-top: 44px;
-}
-#account-avatar{
-    height: var(--profile-popout-picture-size, 80px);
-}
-#account-avatar > .popoutBanner-3cqRD9{
-    height: 90px;
-}
 /* ROLES */
 .roles-3vQPxb .roleRemoveIcon-387wKV,
 .roleWrapper-2IhvNd .roleRemoveIcon-387wKV{
