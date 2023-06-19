@@ -321,10 +321,6 @@
     cy: calc(0.5*var(--profile-popout-picture-size) + 76px);
 }
 /* AVATAR SIZE */
-#app-mount .wrapper-3Un6-K svg:not(:root){
-    overflow: visible;
-    /*allows visibility of avatar when not using radial status*/
-}
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) svg{
     height: calc(1.15*var(--profile-popout-picture-size));
     width: calc(1.15*var(--profile-popout-picture-size));
@@ -349,8 +345,8 @@
 }
 [class*="userPopoutInner-"] :not([class*="userMenuItem-"]) > .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect[mask*="mobile"]{
     height: 26.09% !important;
-    x: 75%;
-    y: 65%;
+    x: 65.2%;
+    y: 56.5%;
 }
 .avatarPositionNormal-V4Mjtq{
     top: calc(16px + var(--profile-popout-width, 340px)/340*60 - 60px);
