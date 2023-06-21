@@ -276,7 +276,7 @@
     animation: none;
 }
 /*User Profile Modal*/
-.tabBarContainer-2UG0vy{
+.tabBarContainer-sCZC4w{
     padding: 0;
 }
 /*-----USER POPOUT-----*/
@@ -458,9 +458,6 @@
     max-width: calc(100% - 5ch); /*enough space for numerical discriminator to lie on same line*/
     overflow: hidden;
     text-overflow: ellipsis;
-}
-.tabBarContainer-2UG0vy{
-    padding: 0;
 }
 /* Removes Mutual Server/Friends graphic */
 [class*="emptyIconFriends-"],
