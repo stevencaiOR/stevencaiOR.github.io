@@ -459,6 +459,10 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+/* Tab Bar*/
+[aria-label="User Profile Modal"] [class*="tabBar-"]{
+    justify-content: space-around;
+}
 /* Removes Mutual Server/Friends graphic */
 [class*="emptyIconFriends-"],
 [class*="emptyIconGuilds-"]{
