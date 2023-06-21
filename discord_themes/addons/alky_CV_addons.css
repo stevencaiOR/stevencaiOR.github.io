@@ -487,11 +487,7 @@
     content: "No mutual servers";
 }
 /*-----CHANNEL COLUMN-----*/
-.sidebar-1tnWFu > nav[aria-label*=" (server)"] .header-3OsQeK h1{
-    text-align: center;
-    /*centers server name*/
-}
-.wrapper-NhbLHG:hover > .content-1gYQeQ:before{
+.wrapper-NhbLHG:hover .content-1gYQeQ:before{
     background: rgb(var(--main-color-numerical),0.2);
     border-radius: 5px;
     margin-left: 3px;
