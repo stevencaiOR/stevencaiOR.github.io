@@ -517,15 +517,12 @@
 /*-----CHANNEL HEADER-----*/
 /* GROUP DM NAME */
 section[aria-label="Channel header"] [class^="outer-"]:hover input[name="channel_name"]+div{
-    box-shadow: inset 0 0 0 1px rgb(var(--main-color-numerical), 0.7);
-    /*box-shadow on hover*/
-}
-section[aria-label="Channel header"] [class^="outer-"]{
-    margin-left: -2px;
+    box-shadow: inset 0 0 0 1.5px var(--main-color);
+    color: var(--main-color);
+    /*on hover*/
 }
 section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"]:focus{
     box-shadow: inset 0 0 0 1.5px var(--main-color);
-    background-color: rgb(var(--main-color-numerical),0.2);
     /*on select*/
 }
 /*-----TOOLBAR-----*/
