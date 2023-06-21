@@ -491,11 +491,6 @@
     padding-right: 8px !important;
     /*spacing between channel name and scroll bar*/
 }
-
-#channels [class*="modeMuted-"]:hover a[class^="mainContent-"]:before{
-    background: transparent;
-    /*muted channel*/
-}
 #channels .wrapper-NhbLHG.modeSelected-3DmyhH .actionIcon-2sw4Sl{
     color: var(--channel-text-selected);
     /*sets action icon color to match rest of element*/
@@ -505,6 +500,10 @@
     background: rgb(var(--main-color-numerical),0.2);
     border-radius: 5px;
     margin-left: 3px;
+}
+#channels [class*="modeMuted-"]:hover a[class^="mainContent-"]:before{
+    background: transparent;
+    /*muted channel*/
 }
 #channels .wrapper-NhbLHG:not([class*="modeSelected-"]):hover [class*="channelName-"],
 #channels .wrapper-NhbLHG:not([class*="modeSelected-"]):hover svg{
@@ -527,7 +526,7 @@ section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"
 }
 /*-----TOOLBAR-----*/
 /* SEARCH BAR */
-[class^="toolbar-"] div[class^="search-"] > div[class^="searchBar-"]  {
+[class^="toolbar-"] [class^="search-"] [class^="searchBar-"]{
     border-radius: 8px;
     width: 20vw;
 }
