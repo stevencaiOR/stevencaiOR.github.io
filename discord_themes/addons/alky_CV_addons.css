@@ -231,7 +231,7 @@
     background-image: url(https://cdn.uc.assets.prezly.com/915ca5cf-962e-41b0-9d11-76ba4da91ab7/-/resize/1108x/-/quality/best/-/format/auto/) !important;
     background-position: 55% 15%;
 }
-/*-----CV BUG FIXES-----*/
+/*-----CLEARVISION BUG FIXES-----*/
 /*Note: this section is intended to fix *bugs* in ClearVision themes that haven't been addressed by the ClearVision team yet.*/
 /* REPLUGGED */
 .sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-general-tab"]{
@@ -248,6 +248,36 @@
 }
 .sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-updater-tab"]:before{
     background: url(https://clearvision.github.io/icons/update.svg);
+}
+/*-----CLEARVISION REVERSAL-----*/
+/*I reverted all the changes made in the ClearVision CSS file that I disagree with in this section*/
+.popoutBanner-3cqRD9,
+.popoutBannerPremium-3i5EEI,
+.userPopoutOverlayBackground-3A0Pcz .popoutNoBannerPremium-25mwJy,
+.profileBanner-1owKI5{
+    mask: none;
+    -webkit-mask: none;
+}
+.input-3O04eu{
+    background: var(--input-background);
+}
+.container-3YcgdM{
+    background-color: rgb(0,0,0,0.6);
+    border-radius: 0px 0px 5px 5px;
+}
+.lookOutlined-3RTC7c.colorRed-2VFhM4:hover{
+    background: var(--button-outline-danger-background-hover);
+}
+.messageRequestItem-1_NNAR.selected-11Gl-y,
+.messageRequestItem-1_NNAR.selected-5uRER3,
+.messageRequestItem-1_NNAR.active-1iRyqF,
+.messageRequestItem-1_NNAR:hover{
+    background: rgb(var(--hover-color-numerical), 0.25);
+    animation: none;
+}
+/*User Profile Modal*/
+.tabBarContainer-2UG0vy{
+    padding: 0;
 }
 /*-----USER POPOUT-----*/
 [aria-label="Click to copy username"] [class*="userTagUsernameBase-"]{
@@ -396,7 +426,7 @@
 [class*="userPopoutOverlayBackground-"] [class*="userTagUsernameBase-"]{
     display: inline-block;
     white-space: nowrap;
-    max-width: calc(100% - 5ch); /*enough space for discriminator to lie on same line*/
+    max-width: calc(100% - 5ch); /*enough space for numerical discriminator to lie on same line*/
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -418,18 +448,19 @@
     fill: #000;
 }
 /*-----USER PROFILE MODALS-----*/
-#app-mount [aria-label="User Profile Modal"] .topSection-13QKHs header .button-f2h6uQ{
+/* Send Message/Friend Request Box */
+[aria-label="User Profile Modal"] [class*="relationshipButtons-"] button{
     border-radius: 7px;
-    /*rounds edges of the "Send Message/Friend Request" Box*/ 
 }
-#app-mount [aria-label="User Profile Modal"] [class*="nameTag-"] [class*="username-"]{
-    max-width: 75%;
+/* Username */
+[aria-label="User Profile Modal"] [class*="nameTagSmall-"] [class*="discriminator-"]:first-child{
     white-space: nowrap;
+    max-width: calc(100% - 5ch); /*enough space for numerical discriminator to lie on same line*/
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .tabBarContainer-2UG0vy{
-    margin: 20px 0 0;
     padding: 0;
-    /*tab button bar*/
 }
 /* Removes Mutual Server/Friends graphic */
 [class*="emptyIconFriends-"],
@@ -1743,32 +1774,6 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 }
 .input-2g-os5[placeholder="MM/YY"]+div .text-xs-normal-3SiVjE:after{
     content: "Expiration date invalid";
-}
-/*-----ClearVision Reversal-----*/
-/*I reverted all the changes made in the ClearVision CSS file that I disagree with in this section*/
-.popoutBanner-3cqRD9,
-.popoutBannerPremium-3i5EEI,
-.userPopoutOverlayBackground-3A0Pcz .popoutNoBannerPremium-25mwJy,
-.profileBanner-1owKI5{
-    mask: none;
-    -webkit-mask: none;
-}
-.input-3O04eu{
-    background: var(--input-background);
-}
-.container-3YcgdM{
-    background-color: rgb(0,0,0,0.6);
-    border-radius: 0px 0px 5px 5px;
-}
-.lookOutlined-3RTC7c.colorRed-2VFhM4:hover{
-    background: var(--button-outline-danger-background-hover);
-}
-.messageRequestItem-1_NNAR.selected-11Gl-y,
-.messageRequestItem-1_NNAR.selected-5uRER3,
-.messageRequestItem-1_NNAR.active-1iRyqF,
-.messageRequestItem-1_NNAR:hover{
-    background: rgb(var(--hover-color-numerical), 0.25);
-    animation: none;
 }
 /*----------*/
 
