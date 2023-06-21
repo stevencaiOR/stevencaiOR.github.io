@@ -379,42 +379,25 @@
     border-color: rgb(255,255,255,.45);
 }
 /* LONG USERNAME/NICKNAME SUPPORT */
-/* Popout w/ nickname*/
-[class*="userPopoutOverlayBackground-"] .nickname-2rimyL,
-#profile-customization-tab h3.nickname-t08Mck{
-    --nickname-font-size: 16px;
-    font-size: var(--nickname-font-size, 20px);
+[class*="userPopoutOverlayBackground-"] [class*="nickname-"]{
+    font-size: 18px; /*default: 20px*/
     line-height: 2.5;
 
     white-space: nowrap;
     max-width: 100%;
     overflow: hidden;
-
     text-overflow: ellipsis;
 }
-[class*="userPopoutOverlayBackground-"] .userTagWithNickname-3-znkC .username-3JLfHz,
-#profile-customization-tab .headerTagWithNickname-1U8zZH .username-3JLfHz{
-    font-size: var(--username-font-size, 14px);
-    line-height: 2.5;
-
-    display: block;
-    white-space: nowrap;
-    overflow: hidden;
-
-    text-overflow: ellipsis;
-}
-/* Popout w/o nickname*/
-.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .username-3JLfHz,
-#profile-customization-tab .headerTagNoNickname-3tGHj6 .username-3JLfHz {
-    font-size: var(--username-font-size, 18px);
+[class*="userPopoutOverlayBackground-"] [class*="userTagUsernameBase-"],
+[class*="userPopoutOverlayBackground-"] [class*="userTagUsernameBase-"]+[class*="discrimBase-"]{
+    font-size: 16px; /*default: 14px*/
     line-height: 2.5;
 }
-.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .username-3JLfHz,
-#profile-customization-tab .headerTagNoNickname-3tGHj6 .username-3JLfHz{
-    display: block;
+[class*="userPopoutOverlayBackground-"] [class*="userTagUsernameBase-"]{
+    display: inline-block;
     white-space: nowrap;
+    max-width: calc(100% - 5ch); /*enough space for discriminator to lie on same line*/
     overflow: hidden;
-
     text-overflow: ellipsis;
 }
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .PI-indicatorContainer{
