@@ -494,7 +494,8 @@
     /*channel name highlight on hover*/
 }
 #channels {
-    padding-right: 6px !important;
+    padding-right: 8px !important;
+    /*spacing between channel name and scroll bar*/
 }
 #channels li > [class*="wrapper-"][class*="modeMuted-"]:hover a[class^="mainContent-"]:before{
     background: transparent;
