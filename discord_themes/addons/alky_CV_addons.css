@@ -320,7 +320,7 @@
     cy: calc(0.5*var(--profile-popout-picture-size) + 76px);
 }
 /* AVATAR SIZE */
-[class*="userPopoutInner-"] .wrapper-3Un6-K:not([class*="miniAvatar-"]) svg{
+[class*="userPopoutInner-"] .wrapper-3Un6-K svg[width="92"]{
     height: calc(1.15*var(--profile-popout-picture-size));
     width: calc(1.15*var(--profile-popout-picture-size));
     /*scuffed fixed to get avatar to display properly in popouts*/
@@ -404,27 +404,6 @@
     bottom: 10px;
     left: 5px;
     position: relative;
-}
-/* User Area Popout */
-#account-info .clickTarget-2uXro4 span.username-3JLfHz {
-    white-space: nowrap;
-    max-width: 100%;
-    overflow: hidden;
-    display: inline-block;
-
-    text-overflow: ellipsis;
-}
-#account .headerTagNoNickname-3tGHj6{
-    font-size: 18px;
-}
-#account .copiableWrapper-2IFENG{
-    display: block;
-}
-#account .copiableWrapper-2IFENG > div:nth-child(2){
-    max-height: 15px;
-}
-#account .userMenuItem-2pMhk- .wrapper-3Un6-K .mask-1y0tyc{
-    filter: none;
 }
 /* Switch Accounts Context Menu in User Area Popout*/
 #account .item-5ApiZt.focused-3LIdPu .activeIcon-1ykRnF>g>path:not([fill^="hsl(0"]){
