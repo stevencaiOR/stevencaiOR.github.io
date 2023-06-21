@@ -506,12 +506,12 @@
     border-radius: 5px;
     margin-left: 3px;
 }
-#channels .wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover [class*="channelName-"],
-#channels .wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover svg{
+#channels .wrapper-NhbLHG:not([class*="modeSelected-"]):hover [class*="channelName-"],
+#channels .wrapper-NhbLHG:not([class*="modeSelected-"]):hover svg{
   color: var(--main-color) !important;
 }
-#channels .wrapper-NhbLHG.modeSelected-3DmyhH:hover [class*="channelName-"],
-#channels .wrapper-NhbLHG.modeSelected-3DmyhH:hover svg{
+#channels .wrapper-NhbLHG[class*="modeSelected-"]:hover [class*="channelName-"],
+#channels .wrapper-NhbLHG[class*="modeSelected-"]:hover svg{
     color: rgb(255,255,255,0.8) !important;
 }
 /*-----CHANNEL HEADER-----*/
