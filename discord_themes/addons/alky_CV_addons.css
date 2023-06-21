@@ -261,7 +261,7 @@
 [class*="userPopoutOuter-"]{ /*add user panels?*/
     width: var(--profile-popout-width, 340px);
 }
-[class*=".avatarHintInner-"]{
+[class*="avatarHintInner-"]{
     font-size: 9px;
 }
 [class*="lineClamp2Plus-"]{
