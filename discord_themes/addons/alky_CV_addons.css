@@ -405,15 +405,17 @@
     left: 5px;
     position: relative;
 }
-/* Switch Accounts Context Menu in User Area Popout*/
-#account .item-5ApiZt.focused-3LIdPu .activeIcon-1ykRnF>g>path:not([fill^="hsl(0"]){
-    fill: #000;
-}
+/* Switch Accounts Context Menu in User Area Popout */
+/* check mark in check circle */
 #account .item-5ApiZt .activeIcon-1ykRnF>circle:not([fill^="hsl(0"]){
     fill: #000;
 }
 #account .item-5ApiZt.focused-3LIdPu .activeIcon-1ykRnF>circle:not([fill^="hsl(0"]){
     fill: var(--hover-color);
+}
+/* check circle */
+#account .item-5ApiZt.focused-3LIdPu .activeIcon-1ykRnF>g>path:not([fill^="hsl(0"]){
+    fill: #000;
 }
 /*-----USER PROFILE MODALS-----*/
 #app-mount [aria-label="User Profile Modal"] .topSection-13QKHs header .button-f2h6uQ{
