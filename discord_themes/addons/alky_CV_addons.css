@@ -550,12 +550,10 @@ section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"
     /*always show jump button*/
 }
 /*-----WINDOWS BUTTONS-----*/
-div[class^="winButton"] {
-    color: var(--main-color);
-    /*sets default color of icons. default: var(--interactive-normal)*/
+[class^="winButton"] {
+    color: var(--main-color); /*default: var(--interactive-normal)*/
     background: transparent;
-    transition: background-color 250ms linear !important;
-    /*sets default background color and transition for windows buttons*/
+    transition: background-color .25s linear !important;
 }
 /*-----SERVER FOLDERS-----*/
 .folderIconWrapper-1oRIZr svg{
