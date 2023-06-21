@@ -325,24 +325,24 @@
     width: calc(1.15*var(--profile-popout-picture-size));
     /*scuffed fixed to get avatar to display properly in popouts*/
 }
-[class*="userPopoutInner-"] .wrapper-3Un6-K:not([class*="miniAvatar-"]) foreignObject{
+[class*="userPopoutInner-"] .wrapper-3Un6-K[style*="80px"] foreignObject{
     height: 86.96%;
     width: 86.96%;
     /*scuffed fixed to get avatar to display properly in popouts part 2*/
 }
-[class*="userPopoutInner-"] .wrapper-3Un6-K:not([class*="miniAvatar-"]),
-[class*="userPopoutInner-"] .avatarHint-k7pYop{
+[class*="userPopoutInner-"] .wrapper-3Un6-K[style*="80px"],
+[class*="userPopoutInner-"] .avatarHint-k7pYop[width="80"]{
     height: var(--profile-popout-picture-size) !important;
     width: var(--profile-popout-picture-size) !important;
 }
 /* STATUS ICON */
-[class*="userPopoutInner-"] .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect{
+[class*="userPopoutInner-"] .wrapper-3Un6-K[style*="80px"] rect{
     height: 17.39% !important;
     width: 17.39% !important;
     x: 65.22%;
     y: 65.22%;
 }
-[class*="userPopoutInner-"] .wrapper-3Un6-K:not([class*="miniAvatar-"]) rect[mask*="mobile"]{
+[class*="userPopoutInner-"] .wrapper-3Un6-K[style*="80px"] rect[mask*="mobile"]{
     height: 26.09% !important;
     y: 56.52%;
 }
