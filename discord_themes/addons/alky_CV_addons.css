@@ -232,7 +232,8 @@
     background-position: 55% 15%;
 }
 /*-----CV BUG FIXES-----*/
-/*This section is intended to fix *bugs* in ClearVision themes that haven't been addressed by the ClearVision team yet.*/
+/*Note: this section is intended to fix *bugs* in ClearVision themes that haven't been addressed by the ClearVision team yet.*/
+/* REPLUGGED */
 .sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-general-tab"]{
     padding-left: 20px !important;
 }
@@ -249,7 +250,7 @@
     background: url(https://clearvision.github.io/icons/update.svg);
 }
 /*-----USER POPOUT-----*/
-[class*="userPopoutOverlayBackground-"] [aria-label="Click to copy username"] [class*="userTagUsernameBase-"]{
+[aria-label="Click to copy username"] [class*="userTagUsernameBase-"]{
     line-height: 2.5;
     white-space: nowrap;
     max-width: 20ch;
