@@ -401,16 +401,7 @@
     text-overflow: ellipsis;
 }
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .PI-indicatorContainer{
-    bottom: 8px;
-    left: 5px;
-    position: relative;
-}
-.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .userTagDiscriminatorNoNickname-2HLaIE{
-    font-size: var(--discriminator-font-size, 20px);
-    line-height: 2.5;
-}
-.userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .PI-indicatorContainer{
-    bottom: calc(1.25*var(--discriminator-font-size, 20px) - 15px);
+    bottom: 10px;
     left: 5px;
     position: relative;
 }
