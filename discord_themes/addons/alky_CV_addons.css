@@ -491,12 +491,7 @@
     padding-right: 8px !important;
     /*spacing between channel name and scroll bar*/
 }
-#channels .wrapper-NhbLHG:hover .content-1gYQeQ:before{
-    background: rgb(var(--main-color-numerical),0.2);
-    border-radius: 5px;
-    margin-left: 3px;
-    /*channel name highlight on hover*/
-}
+
 #channels [class*="modeMuted-"]:hover a[class^="mainContent-"]:before{
     background: transparent;
     /*muted channel*/
@@ -506,13 +501,17 @@
     /*sets action icon color to match rest of element*/
 }
 /* Channel upon hover */
-ul[aria-label="Channels"] .wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover a .name-28HaxV,
-ul[aria-label="Channels"] .wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover svg{
+#channels .wrapper-NhbLHG:hover .content-1gYQeQ:before{
+    background: rgb(var(--main-color-numerical),0.2);
+    border-radius: 5px;
+    margin-left: 3px;
+}
+#channels .wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover [class*="channelName-"],
+#channels .wrapper-NhbLHG:not(.modeSelected-3DmyhH):hover svg{
   color: var(--main-color) !important;
 }
-ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH:hover .icon-2W8DHg,
-ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH:hover .channelName-3KPsGw,
-ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH:hover .actionIcon-2sw4Sl{
+#channels .wrapper-NhbLHG.modeSelected-3DmyhH:hover [class*="channelName-"],
+#channels .wrapper-NhbLHG.modeSelected-3DmyhH:hover svg{
     color: rgb(255,255,255,0.8) !important;
 }
 /*-----CHANNEL HEADER-----*/
