@@ -487,20 +487,21 @@
     content: "No mutual servers";
 }
 /*-----CHANNEL COLUMN-----*/
-.wrapper-NhbLHG:hover .content-1gYQeQ:before{
+#channels {
+    padding-right: 8px !important;
+    /*spacing between channel name and scroll bar*/
+}
+#channels .wrapper-NhbLHG:hover .content-1gYQeQ:before{
     background: rgb(var(--main-color-numerical),0.2);
     border-radius: 5px;
     margin-left: 3px;
     /*channel name highlight on hover*/
 }
-#channels {
-    padding-right: 8px !important;
-    /*spacing between channel name and scroll bar*/
-}
-#channels li > [class*="wrapper-"][class*="modeMuted-"]:hover a[class^="mainContent-"]:before{
+#channels [class*="modeMuted-"]:hover a[class^="mainContent-"]:before{
     background: transparent;
+    /*muted channel*/
 }
-ul[aria-label="Channels"] .wrapper-NhbLHG.modeSelected-3DmyhH .actionIcon-2sw4Sl{
+#channels .wrapper-NhbLHG.modeSelected-3DmyhH .actionIcon-2sw4Sl{
     color: var(--channel-text-selected);
     /*sets action icon color to match rest of element*/
 }
