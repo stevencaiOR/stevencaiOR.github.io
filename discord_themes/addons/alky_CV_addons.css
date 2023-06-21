@@ -474,16 +474,16 @@
     text-indent: -9999px;
     line-height: 0;
 }
-[class*="emptyIconFriends-"]+[class*="emptyText-"]:after{
-    text-indent: 0px;
+[class*="emptyIconFriends-"]+[class*="emptyText-"]:after,
+[class*="emptyIconGuilds-"]+[class*="emptyText-"]:after{
+    text-indent: 0;
     line-height: 16px;
     display: block;
+}
+[class*="emptyIconFriends-"]+[class*="emptyText-"]:after{
     content: "No mutual friends";
 }
 [class*="emptyIconGuilds-"]+[class*="emptyText-"]:after{
-    text-indent: 0px;
-    line-height: 16px;
-    display: block;
     content: "No mutual servers";
 }
 /*-----CHANNEL COLUMN-----*/
