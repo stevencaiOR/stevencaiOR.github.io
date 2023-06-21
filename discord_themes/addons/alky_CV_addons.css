@@ -1016,16 +1016,18 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 }
 /*-----SPOILERS-----*/
 /* IMAGES */
-.spoilerContainer-3wsC0k .hiddenSpoilers-19m4Pg,
-.spoilerContainer-3wsC0k .hiddenSpoiler-3pPzRF>.grid-1aWVsE{
+[class*="spoilerAttachment-"][class*="hiddenSpoiler-"],
+.spoiler-_2cX4d,
+[class*="spoiler-"][class*="hiddenSpoilers-"],
+[class*="spoilerEmbed-"][class*="hiddenSpoiler-"] [class*="grid-"]{
     filter: blur(30px);
+    transition: filter .2s ease;
 }
-.spoilerContainer-3wsC0k .spoiler-3aUoEX,
-.spoilerContainer-3wsC0k .spoilerEmbed-1LYr3G>.grid-1aWVsE{
-    transition-duration: 250ms;
-}
-.spoilerContainer-3wsC0k:hover .hiddenSpoilers-19m4Pg{
-    filter: blur(20px); 
+[class*="spoilerContent-"][class*="hidden-"]:hover [class*="spoilerAttachment-"][class*="hiddenSpoiler-"],
+[class*="spoilerContent-"][class*="hidden-"]:hover .spoiler-_2cX4d,
+[class*="spoilerContent-"][class*="hidden-"]:hover [class*="spoiler-"][class*="hiddenSpoilers-"],
+[class*="spoilerContent-"][class*="hidden-"]:hover [class*="spoilerEmbed-"][class*="hiddenSpoiler-"] [class*="grid-"]{
+    filter: blur(18px);
 }
 /* TEXT */
 [class*="spoilerMarkdownContent-"]{
