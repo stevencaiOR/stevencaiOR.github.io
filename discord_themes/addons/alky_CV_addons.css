@@ -1028,15 +1028,16 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     filter: blur(20px); 
 }
 /* TEXT */
-[class*="messageContent-"] > span[class*="spoilerText-"]{
-    background:rgb(130,130,130,0.1) !important;
-    border-radius: 6px;
+[class*="spoilerMarkdownContent-"]{
+    background: unset;
 }
-[class*="messageContent-"] > span[class*="spoilerText-"] > [class*="inlineContent-"][aria-hidden="true"]{
-    filter: blur(4px);
+[class*="spoilerMarkdownContent-"]  [class*="obscuredTextContentInner-"]{
+    transition: filter .2s ease;
     opacity: 1;
+    filter: blur(4px);
 }
-[class*="messageContent-"] > span[class*="spoilerText-"]:hover > [class*="inlineContent-"][aria-hidden="true"]{
+[class*="spoilerMarkdownContent-"]:not([class*="hidden-"]) [class*="obscuredTextContentInner-"],
+[class*="spoilerMarkdownContent-"]:hover [class*="obscuredTextContentInner-"]{
     filter: none;
 }
 /*-----PRIVATE CHANNELS-----*/
