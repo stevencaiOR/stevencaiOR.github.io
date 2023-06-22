@@ -1,0 +1,13 @@
+[class*="spoilerMarkdownContent-"] {
+    background: none;
+}
+[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] span{
+    transition: filter .2s ease;
+    opacity: 1;
+    color: var(--text-normal);
+    filter: blur(4px);
+}
+[class*="spoilerMarkdownContent-"]:not([class*="hidden-"]) [class*="obscuredTextContentInner-"] span,
+[class*="spoilerMarkdownContent-"]:hover [class*="obscuredTextContentInner-"] span{
+    filter: none;
+}
