@@ -1105,61 +1105,6 @@ ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after{
     line-height: 20px;
     content:"Note: usernames are case-sensitive."
 }
-/* EFFICIENT SPACE UTILIZATION */
-[class*="peopleList-"] > div:first-child {
-    background: rgb(0,0,0,0.4);
-    border-radius: 20px;
-    border: 2px solid var(--main-color);
-
-    display: flex;
-    flex-wrap: wrap;
-}
-[class*="peopleList-"] > div:first-child > div{
-    width: 50%;
-}
-[class*="peopleList-"] > div:first-child > div[style="height: 0px;"]{
-    display: none;
-}
-[class^="peopleColumn-"] [class^="peopleListItem-"]{
-    margin: 0px;
-    padding: 16px 10px;
-    border: none;
-}
-[class^="peopleColumn-"] [class^="peopleListItem-"]:hover{
-    background: rgb(var(--main-color-numerical),0.4);
-    /*default border-radius is 8px*/
-}
-/* Border radius of highlight upon hover */
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n):not(:nth-child(2)),
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3){
-    border-top-left-radius: 0px;
-}
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2){
-    border-top-left-radius: 18px;
-}
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2),
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n+1):not(:nth-child(3)){
-    border-top-right-radius: 0px;
-}
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(3){
-    border-top-right-radius: 18px;
-}
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n+1),
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n):last-child,
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n):nth-last-child(2){
-    border-bottom-right-radius: 0px;
-}
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n+1):last-child{
-    border-bottom-right-radius: 18px;
-}
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n),
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n+1):last-child{
-    border-bottom-left-radius: 0px;
-}
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n):last-child,
-[class^="peopleColumn-"] [class^="peopleListItem-"]:nth-child(2n):nth-last-child(2){
-    border-bottom-left-radius: 18px;
-}
 /* ACTIVE NOW COLUMN */
 .nowPlayingColumn-1eCBCN {
     min-width: 300px; /*default: 360px*/
