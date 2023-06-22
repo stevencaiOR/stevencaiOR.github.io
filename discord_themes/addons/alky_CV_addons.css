@@ -1107,7 +1107,7 @@ ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after{
     border-radius: 10px !important; /*!important for DM's*/
 }
 /*-----HOME BUTTON-----*/
-ul[data-list-id="guildsnav"] [class^="tutorialContainer-"] [class^="pill-"][class*="wrapper-"]{
+[data-list-id="guildsnav"] [class*="tutorialContainer-"] [class*="pill-"]{
     display:none;
     /*removes left bar*/
 }
