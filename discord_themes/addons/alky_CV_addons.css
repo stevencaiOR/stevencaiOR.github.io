@@ -423,7 +423,7 @@
     text-overflow: ellipsis;
 }
 [class*="userPopoutOverlayBackground-"] [aria-label="Click to copy username"] [class*="userTagUsernameBase-"]{
-    max-width: 20ch;
+    max-width: 16ch;
 }
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .PI-indicatorContainer{
     bottom: 10px;
