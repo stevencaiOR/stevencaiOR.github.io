@@ -280,14 +280,6 @@
     padding: 0;
 }
 /*-----USER POPOUT-----*/
-[aria-label="Click to copy username"] [class*="userTagUsernameBase-"]{
-    line-height: 2.5;
-    white-space: nowrap;
-    max-width: 20ch;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: block;
-}
 [class*="userPopoutOuter-"]{ /*add user panels?*/
     width: var(--profile-popout-width, 340px);
 }
@@ -429,6 +421,9 @@
     max-width: calc(100% - 5ch); /*enough space for numerical discriminator to lie on same line*/
     overflow: hidden;
     text-overflow: ellipsis;
+}
+[class*="userPopoutOverlayBackground-"] [aria-label="Click to copy username"] [class*="userTagUsernameBase-"]{
+    max-width: 20ch;
 }
 .userPopoutInner-PA9zkU .overlayBackground-arbZMT .userTagNoNickname-2MJ9HD .PI-indicatorContainer{
     bottom: 10px;
@@ -931,9 +926,9 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 }
 /* Minimize in reply context message */
 .repliedMessage-3Z6XBG .username-h_Y3Us{
-    max-width: 30%;
     display: inline-block;
     text-overflow: ellipsis;
+    max-width: 36ch;
 }
 /* COMPACT USERNAME FIX */
 .compact-2Nkcau .contents-2MsGLg .username-h_Y3Us{
@@ -1006,7 +1001,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 /* Username length in bar */
 .attachedBars-2BCP3l .replyBar-1oi75v .name-3DDHNY{
     display: inline-block;
-    max-width: 30ch;
+    max-width: 36ch;
     overflow: hidden;
     text-overflow: ellipsis;
     vertical-align: bottom;
