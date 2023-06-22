@@ -456,7 +456,10 @@
 }
 /* Tab Bar*/
 [aria-label="User Profile Modal"] [class*="tabBar-"]{
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+[aria-label="User Profile Modal"] .tabBar-2hXqzU .item-2GWPIy{
+    padding: 0;
 }
 /* Removes Mutual Server/Friends graphic */
 [class*="emptyIconFriends-"],
