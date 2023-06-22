@@ -17,7 +17,7 @@
     --offline-color: #808080;
     --streaming-color: #9147ff;
     
-    --message-content-line-height: max(25px, 1.625rem);                                                                 /*default: 1.375rem*/
+    --message-content-line-height: 1.625;                                                                 /*default: 1.375rem*/
 
     --user-area-avatar-size: 40px;                                                                                      /*default: 32px*/
     /*
