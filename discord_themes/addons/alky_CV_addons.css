@@ -1778,7 +1778,9 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 /*NEW! Text chat in voice! art thingy*/
 .fullWidthImage-pvnyWO,
 .art-2EJN8X,
-.artwork-3uFrhF{
+.artwork-3uFrhF,
+
+.wideHeroBanner-1m_HSk{
     display: none;
 }
 
@@ -1848,16 +1850,6 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
 }
 .upsellOverlayContainer-3NMgTS{
     border-color: var(--main-color);
-}
-
-/*bot/original poster icon next to username in chat box*/
-.rem-3kT9wc.botTag-7aX5WZ.botTagOP-3pUTXu{
-    top: calc(0.5*(var(--chat-box-username-height, 1.375) - 1rem));  
-}
-
-/*don't mind this*/
-.wideHeroBanner-1m_HSk{
-    display: none;
 }
 
 /*Explore Public Container*/
