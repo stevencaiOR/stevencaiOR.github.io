@@ -1126,11 +1126,6 @@ ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after{
     line-height: 20px;
     content:"Note: usernames are case-sensitive."
 }
-#add_friend-tab .input-3O04eu[placeholder="Enter a Username#0000"]{
-    background-color: transparent;
-    box-shadow: none;
-    border: none;
-}
 /* EFFICIENT SPACE UTILIZATION */
 [class*="peopleList-"] > div:first-child {
     background: rgb(0,0,0,0.4);
