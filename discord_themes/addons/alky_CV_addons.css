@@ -1029,12 +1029,13 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     filter: blur(18px);
 }
 /* TEXT */
-[class*="spoilerMarkdownContent-"] span{
-    background: unset;
+[class*="spoilerMarkdownContent-"] {
+    background: none;
 }
-[class*="spoilerMarkdownContent-"]  [class*="obscuredTextContentInner-"]{
+[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] span{
     transition: filter .2s ease;
     opacity: 1;
+    color: var(--text-normal);
     filter: blur(4px);
 }
 [class*="spoilerMarkdownContent-"]:not([class*="hidden-"]) [class*="obscuredTextContentInner-"] span,
