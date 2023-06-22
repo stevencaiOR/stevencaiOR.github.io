@@ -917,19 +917,17 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     right: calc(var(--chat-box-avatar-change, 0rem)*0.55 + 0.1rem + 1.5*var(--text-size-adjust)); /*0.1rem is important, otherwise is off center*/
 }
 /* MINIMIZE LONG USERNAME */
-.contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
-    display: inline-block;
-    text-overflow: ellipsis;
-    max-width: 40%;
-    white-space: nowrap;
-    vertical-align: middle;
-}
+.contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us,
+/* Username in system messages */
 .markup-eYLPri.messageContent-2t3eCI [class*="container-"] a[class*="anchorUnderlineOnHover-"] > span{
     display: inline-block;
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: 30ch;
+    max-width: 36ch;
+}
+.contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
+    vertical-align: middle;
 }
 /* Minimize in reply context message */
 .repliedMessage-3Z6XBG .username-h_Y3Us{
