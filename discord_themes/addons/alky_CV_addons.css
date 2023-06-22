@@ -1179,15 +1179,6 @@ ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after{
     display: block;
     content: "No one is currently active";
 }
-/* HIGHLIGHT SELECTED TAB *
-.container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt{
-    background-color: rgb(var(--main-color-numerical), 0.3) !important;
-    border: 2px solid rgb(var(--main-color-numerical),0.7);
-}
-[class*="tabBar-"][aria-label="Friends"] > [aria-selected="true"]:not(.addFriend-emTWY1){
-    background-color: rgb(var(--main-color-numerical), 0.3) !important;
-    border: 2px solid var(--main-color);
-}
 /* FUCK WUMPUS */
 [class*="emptyStateContainer-"] [class*="image-"]{
     display: none !important;
