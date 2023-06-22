@@ -1113,7 +1113,6 @@ ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after{
 
     display: flex;
     flex-wrap: wrap;
-    height: unset !important;
 }
 [class*="peopleList-"] > div:first-child > div{
     width: 50%;
