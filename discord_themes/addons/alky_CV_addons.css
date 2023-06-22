@@ -1163,7 +1163,7 @@ ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after{
 }
 /* ACTIVE NOW COLUMN */
 .nowPlayingColumn-1eCBCN {
-    min-width: 200px; /*default: 360px*/
+    min-width: 300px; /*default: 360px*/
     max-width: 360px; /*default: 420px*/
 }
 .nowPlayingColumn-1eCBCN .emptyCard-KDifrB .text-sm-normal-3Zj3Iv.emptyText-29ycwI{
