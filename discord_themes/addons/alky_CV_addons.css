@@ -1028,20 +1028,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 [class*="spoilerContent-"][class*="hidden-"]:hover [class*="spoilerEmbed-"][class*="hiddenSpoiler-"] [class*="grid-"]{
     filter: blur(18px);
 }
-/* TEXT */
-[class*="spoilerMarkdownContent-"] {
-    background: none;
-}
-[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] span{
-    transition: filter .2s ease;
-    opacity: 1;
-    color: var(--text-normal);
-    filter: blur(4px);
-}
-[class*="spoilerMarkdownContent-"]:not([class*="hidden-"]) [class*="obscuredTextContentInner-"] span,
-[class*="spoilerMarkdownContent-"]:hover [class*="obscuredTextContentInner-"] span{
-    filter: none;
-}
 /*-----PRIVATE CHANNELS-----*/
 /* FRIEND ICON */
 ul[aria-label="Direct Messages"] [class*="selected-"] > a[data-list-item-id$="friends"] svg[class^="linkButtonIcon-"]{
