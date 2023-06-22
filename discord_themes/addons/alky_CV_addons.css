@@ -913,22 +913,22 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 }
 /* MINIMIZE LONG USERNAME */
 .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us,
-/* Username in system messages */
+/* Reply Context Message */
+.repliedMessage-3Z6XBG .username-h_Y3U,
+/* System Messages */
 .markup-eYLPri.messageContent-2t3eCI [class*="container-"] a[class*="anchorUnderlineOnHover-"] > span{
     display: inline-block;
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 36ch;
 }
+.contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us,
+/* System Messages */
+.markup-eYLPri.messageContent-2t3eCI [class*="container-"] a[class*="anchorUnderlineOnHover-"] > span{
+    white-space: nowrap;
+}
 .contents-2MsGLg > .header-2jRmjb > .headerText-2z4IhQ >.username-h_Y3Us{
     vertical-align: middle;
-}
-/* Minimize in reply context message */
-.repliedMessage-3Z6XBG .username-h_Y3Us{
-    display: inline-block;
-    text-overflow: ellipsis;
-    max-width: 36ch;
 }
 /* COMPACT USERNAME FIX */
 .compact-2Nkcau .contents-2MsGLg .username-h_Y3Us{
