@@ -6,6 +6,7 @@
     opacity: 1;
     color: var(--text-normal);
     filter: blur(4px);
+    pointer-events: all;
 }
 [class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] a span{
     color: var(--url-color, --text-link)
