@@ -20,11 +20,14 @@
 
   --header-primary-dark: var(--primary-130-dark);
   --interactive-active-dark: var(--black-500);
+  --interactive-hover-dark: var(--primary-230-dark);
   --text-normal-dark: var(--primary-230-dark);
 }
 
 /* generic sticker selected in sticker picker*/
-.stickerCategoryGenericSelected-DnO2K8 .stickerCategoryGenericIcon-3wumVD{
+.stickerCategoryGenericSelected-DnO2K8 .stickerCategoryGenericIcon-3wumVD,
+/*??????*/
+[class^="item-"][aria-checked="true"] > [class^="radioBar-"] circle[class^="radioIconForeground"]{
   color: var(--interactive-active-dark);
 }
 /* buttons */
@@ -42,14 +45,24 @@
 .search-2Mwzzq .searchAnswer-23w-CH,
 /* "new" in server bar */
 .mention-3XBnnZ,
-.unread-2wipsx/*is this class even used anymore??*/,
+.unread-2wipsx, /*is this class even used anymore???*/
+/* ??? */
 .navButtonActive-fwiUKp,
-.navButtonActive-fwiUKp:hover{
+.navButtonActive-fwiUKp:hover,
+/* hover on home button??? */
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub,
+/*text buttons in gif sticker emoji (and add reaction)*/
+.navButtonActive-1EqC5l,
+.navButtonActive-1EqC5l:hover,
+/*switch accounts context menu item on hover*/
+.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
+.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuText-2e3Dry{
   color: var(--black-500);
 }
 
 
-/* search box */
+/* Search Box */
 [class*="container-"] [class*="queryContainer-"] > [class^="queryText-"]{
   color: var(--primary-300-dark);
 }
@@ -57,42 +70,22 @@
   color: var(--black-500);
 }
 
+/* Search Results Wrap */
+.searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh [class*="item-"][class*="selected-"]{
+  color: var(--interactive-active-dark);
+}
+.searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh [class*="item-"]:hover:not(.disabled-2G98Nl){
+  color: var(--interactive-hover-dark);
+}
+
 /* text selection */
 ::selection,
-/* thingies when selecting options (like in create new channel modal) */
-[class^="item-"][aria-checked="true"] > [class^="radioBar-"] circle[class^="radioIconForeground"],
-[class^="item-"][aria-checked="true"] > [class^="radioBar-"] [class*="defaultColor-"],
-/* number and text badges */
+/* number and text badges... among other things */
 .numberBadge-37OJ3S,
-.textBadge-1fdDPJ,
+.wrapper-2olG5t,
+.textBadge-1fdDPJ
 /* BetterDiscord text buttons*/
 .bd-button,
-/* hovering on text options (e.g. dark theme option in appearance settings)*/
-.item-2idW98:hover,
-/* "new" bar in server bar*/
-.unreadMentionsIndicatorTop-2bTgUU div span,
-/*hover upon options with colored text*/
-.colorDefault-CDqZdO.focused-3qFvc8 .subtext-2GlkbE,
-/*dumb check boxes*/
-.item-1OdjEX.focused-3qFvc8 .checkbox-hADx5o,
-.colorDefault-CDqZdO .check-3HZJs4,
-/*clicking on context menu options and maybe more options*/
-.menu-1QACrS .item-1OdjEX.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
-/*hover on server*/
-.wrapper-3kah-n:hover .childWrapper-1j_1ub,
-/*text buttons in gif sticker emoji (and add reaction)*/
-.navButtonActive-1EqC5l,
-.navButtonActive-1EqC5l:hover,
-/*switch accounts context menu item on hover*/
-.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
-.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuText-2e3Dry,
-/* replace all necessary instances var(--interactive-active) with black (#000) right here */
-/* NEW OLD and RELEVANT buttons in search results header */
-/* on select */
-.searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh  [class*="item-"][class*="selected-"],
-.searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh [class*="item-"]:hover:not(.disabled-2G98Nl),
-/* on hover 
-.searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .item-3XjbnG:hover,*/
 /* context menu item hover*/
 .menu-2TXYjN .item-5ApiZt.focused-3LIdPu,
 /* selected radioGroupItem */
@@ -178,7 +171,9 @@
 [class*="reactionSelected-"] [class*="defaultColor-"],
 /*voice call container buttons*/
 [class*="lookFilled-"][class*="colorBrand-"] [class*="defaultColor-"],
-[class*="lookFilled-"].colorPrimary-2-Lusz [class*="defaultColor-"]{
+[class*="lookFilled-"].colorPrimary-2-Lusz [class*="defaultColor-"],
+/*some modal*/
+[class*="item-"][aria-checked="true"] [class^="radioBar-"] [class*="defaultColor-"]{
   color:var(--text-normal-dark);
 }
 
