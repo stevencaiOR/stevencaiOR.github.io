@@ -1,16 +1,26 @@
+[class*="spoilerMarkdownContent-"] pre:before, /*code block*/
 [class*="spoilerMarkdownContent-"] {
     background: none;
 }
+[class*="spoilerMarkdownContent-"] pre code, /*code block*/
+[class*="spoilerMarkdownContent-"] code, /*inline code*/
 [class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] span{
-    transition: filter .2s ease;
     opacity: 1;
-    color: var(--text-normal);
+}
+[class*="spoilerMarkdownContent-"] code,
+[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] > span{
+    transition: filter .2s ease;
     filter: blur(4px);
     pointer-events: all;
+}
+[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] > span{
+    color: var(--text-normal);
 }
 [class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] a span{
     color: var(--url-color, --text-link)
 }
+[class*="spoilerMarkdownContent-"]:not([class*="hidden-"]) code,
+[class*="spoilerMarkdownContent-"]:hover code,
 [class*="spoilerMarkdownContent-"]:not([class*="hidden-"]) [class*="obscuredTextContentInner-"] span,
 [class*="spoilerMarkdownContent-"]:hover [class*="obscuredTextContentInner-"] span{
     filter: none;
