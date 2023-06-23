@@ -331,8 +331,8 @@
 }
 /*join server button
 .wrapper-1HIH0j .lookFilled-1H2Jvj.colorBrand-2M3O3N,*/
-.wrapper-1HIH0j .lookFilled-1H2Jvj.colorGreen-jIPCAS,
-.wrapper-1HIH0j .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover{
+.wrapper-1HIH0j .lookFilled-1H2Jvj.colorGreen-jIPCAS, /*undoes message attachments container coloring*/
+.wrapper-1HIH0j .lookFilled-1H2Jvj.colorGreen-jIPCAS:hover{ /*undoes lookfilledgreen on hover coloring*/
     color: #fff;
 }
 /* ERROR PAGE */
