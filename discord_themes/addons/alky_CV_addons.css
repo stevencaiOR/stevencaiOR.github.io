@@ -1061,13 +1061,13 @@ nav[aria-label="Private channels"] ul > h2{
 [aria-label="Private channels"] [class*="interactive-"]:hover{
     width: calc(100% - 15px);
 }
-[aria-label="Private channels"] [class^="interactive-"]:hover:before{
+[aria-label="Private channels"] [class*="interactive-"]:hover:before{
     background: rgb(var(--main-color-numerical), 0.3);
 }
 /* SELECT USER */
-[aria-label="Private channels"] [class*="channel-"] [class^="interactive-"][class*="interactiveSelected-"]:before,
-[aria-label="Private channels"] [class*="channel-"] [class^="interactive-"][class*="interactiveSelected-"]:hover:before{
-    background: transparent;
+[aria-label="Private channels"] [class*="channel-"] [class*="interactive-"][class*="interactiveSelected-"]:before,
+[aria-label="Private channels"] [class*="channel-"] [class*="interactive-"][class*="interactiveSelected-"]:hover:before{
+    background: none;
 }
 /*-----SELECTED CHANNEL/DM/SUBSETTING-----*/
 ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after,
