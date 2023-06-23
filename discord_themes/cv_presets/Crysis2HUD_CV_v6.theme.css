@@ -142,7 +142,7 @@
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
 }
-/*-----CRYSIS 2 HUD THEME ONLY-----*/
+/*-----CRYSIS 2 HUD THEME SPECIFIC-----*/
 #app-mount{
   background: var(--background-image) var(--background-position) /
 		var(--background-size) var(--background-repeat)
@@ -404,6 +404,24 @@
   background: #000;
   color: var(--main-color);
 }
+
+
+/*DM List + User Settings Selected Item*/
+/*Good if background image is relatively dark*/
+[aria-label="Private channels"] [class*="channel-"] [class*="interactive-"][class*="interactiveSelected-"]:after,
+[class*="standardSidebarView-"] [class*="sidebar-"] [class*="side-"] [class*="item-"][aria-selected="true"]:after{
+    background: rgb(0,0,0,0.4) !important;
+}
+[aria-label="Private channels"] [class*="channel-"] [class*="interactive-"][class*="interactiveSelected-"],
+[aria-label="Private channels"] [class*="channel-"] [class*="interactive-"][class*="interactiveSelected-"] [class*="name-"],
+[aria-label="Private channels"] [class*="channel-"] [class*="interactive-"][class*="interactiveSelected-"] [class*="activityText-"] strong,
+[class*="standardSidebarView-"] [class*="sidebar-"] [class*="side-"] [class*="item-"][aria-selected="true"]{
+    color: var(--main-color);
+}
+[class*="standardSidebarView-"] [class*="sidebar-"] [class*="side-"] [class*="item-"][aria-selected="true"]:before{
+    filter: drop-shadow(0 0 5px var(--main-color));
+}
+/**/
 /*-----DISPLAY LINKS-----*/
 #app-mount [aria-label="User Profile Modal"] .connectedAccountContainer-SlCC-S{
   background: rgb(var(--main-color-numerical), 0.1);
