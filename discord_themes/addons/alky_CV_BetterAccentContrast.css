@@ -8,41 +8,55 @@
 
 
 :root{
-  /*--main-color-inverted:; this should contain the inverted version of your accent color*/
-  --text-normal-dark: #212121;
-  --header-primary-dark: #0c0c0c;
+  /* --main-color-inverted:; this should contain the inverted version of your accent color */
+
+  /* The variables below will have the inverted versions of the original values were for Discord dark theme.
+     The reason why the light theme version of the variables aren't used is because
+     a) we only want to change the values for some instances of the variable, meaning it makes sense to create a new variable rather than change the variable itself.
+     b) the light theme version of the variable isn't exactly the dark theme *inverted* (rgb values don't all add to 255) */
+  --primary-130-dark: #0c0c0c;
+  --primary-230-dark: #212121;
+  --primary-300-dark: #363636;
+
+  --header-primary-dark: var(--primary-130-dark);
+  --interactive-active-dark: var(--black-500);
+  --text-normal-dark: var(--primary-230-dark);
 }
 
-
-
-.buttonColor-1u-3JF,
-
-.theme-dark .pageButton-1GMGeJ.activeButton-LRWFC_,
 /* generic sticker selected in sticker picker*/
-.stickerCategoryGenericSelected-DnO2K8,
+.stickerCategoryGenericSelected-DnO2K8 .stickerCategoryGenericIcon-3wumVD{
+  color: var(--interactive-active-dark);
+}
 /* buttons */
+.buttonColor-1u-3JF,
+[class*="lookFilled-"][class*="colorRed-"],
 [class*="lookFilled-"].colorGreen-jIPCAS,
+[class*="lookFilled-"][class*="colorBrand-"],
 [class*="lookFilled-"][class*="colorBrandNew-"],
 [class*="lookFilled-"].colorPrimary-2-Lusz,
-[class*="lookFilled-"].buttonColor-1u-3JF,
-[class*="lookFilled-"][class*="colorRed-"],
-[class*="lookFilled-"][class*="colorBrand-"],
-/* new message bar in chat box */
-#---new-messages-bar .unreadPill-3nEWYM,
-[class^="newMessagesBar-"] button,
+/* new message in chat box */
+.unreadPill-3nEWYM,
+.newMessagesBar-1hF-9G button,
 /* search bar */
 .search-2Mwzzq .searchFilter-2UfsDk,
 .search-2Mwzzq .searchAnswer-23w-CH,
-/* search box*/
-[class*="container-"] [class*="queryContainer-"] > [class^="queryText-"],
-[class*="container-"] [class*="queryContainer-"] > [class^="queryText-"] > strong,
-/*
-.container-2McqkF .ZunrLZ > .queryText-j8z984,
-.container-2McqkF .queryContainer-ZunrLZ > .queryText-j8z984>strong
-*/
-/* unread channel bar */
-.mention-3XBnnZ, 
-.bar-2eAyLE.unread-2wipsx,
+/* "new" in server bar */
+.mention-3XBnnZ,
+.unread-2wipsx/*is this class even used anymore??*/,
+.navButtonActive-fwiUKp,
+.navButtonActive-fwiUKp:hover{
+  color: var(--black-500);
+}
+
+
+/* search box */
+[class*="container-"] [class*="queryContainer-"] > [class^="queryText-"]{
+  color: var(--primary-300-dark);
+}
+[class*="container-"] [class*="queryContainer-"] > [class^="queryText-"] > strong{
+  color: var(--black-500);
+}
+
 /* text selection */
 ::selection,
 /* thingies when selecting options (like in create new channel modal) */
@@ -158,11 +172,6 @@
 .uploadInput-3fblkw .uploadIcon-M15owY
 {
   color: #000;
-}
-
-.navButtonActive-fwiUKp,
-.navButtonActive-fwiUKp:hover {
-  color: var(--black-500);
 }
 
 
