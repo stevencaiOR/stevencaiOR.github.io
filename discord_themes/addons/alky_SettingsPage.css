@@ -10,7 +10,7 @@
     --profile-popout-width-num: 340;
     --image-upload-scale-factor: calc(var(--profile-popout-width-num)*var(--profile-popout-picture-size-factor, 0.235)/100);
     
-    --message-content-line-height: 1.375rem; /*line height of messages*/
+    --message-content-line-height: 1.375; /*default: 1.375*/
 
     /* THIRD PARTY THEME COLORS */
     --spotify-color-numerical: 29, 214, 95;
