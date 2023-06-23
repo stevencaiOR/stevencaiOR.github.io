@@ -1,0 +1,41 @@
+/*
+This is meant to be an add-on to ClearVision themes
+*/
+
+:root{
+    --main-color-numerical: 39, 128, 230; /*you should set this to the rgb values of whatever --main-color is for your ClearVision theme*/
+}
+
+.peopleListItem-u6dGxF,
+.peopleListItem-u6dGxF.active-2UF8Zh,
+.peopleListItem-u6dGxF:hover,
+.peopleListItem-u6dGxF.active-2UF8Zh+.peopleListItem-u6dGxF,
+.peopleListItem-u6dGxF:hover+.peopleListItem-u6dGxF{
+    border: 3px solid  rgb(var(--main-color-numerical, 82, 82, 82), 0.75); /*border is consistent. does NOT disappear on hover or click*/
+}
+.peopleListItem-u6dGxF{
+    display: inline-flex;
+    width: calc(50% - 35px); /*Notes for self: -35px for 30px, 20px; -25px for 30px, 0px*/
+    padding: 16px 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.peopleListItem-u6dGxF,
+.peopleListItem-u6dGxF.active-2UF8Zh,
+.peopleListItem-u6dGxF:hover{
+    margin-right: 0;
+}
+.peopleListItem-u6dGxF:nth-child(2n),
+.peopleListItem-u6dGxF:nth-child(2n).active-2UF8Zh,
+.peopleListItem-u6dGxF:nth-child(2n):hover{
+    margin-left: 30px;
+}
+.peopleListItem-u6dGxF:nth-child(2n+1),
+.peopleListItem-u6dGxF:nth-child(2n+1).active-2UF8Zh,
+.peopleListItem-u6dGxF:nth-child(2n+1):hover{
+    margin-left: 20px;
+}
+.peopleListItem-u6dGxF.active-2UF8Zh,
+.peopleListItem-u6dGxF:hover{
+    background: rgb(var(--main-color-numerical, 82, 82, 82), 0.3);
+}
