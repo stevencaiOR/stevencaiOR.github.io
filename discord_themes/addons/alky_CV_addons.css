@@ -275,6 +275,9 @@
     background: rgb(var(--hover-color-numerical), 0.25);
     animation: none;
 }
+.stickerCategoryGenericSelected-DnO2K8:hover{
+    background: var(--hover-color);
+}
 /*User Profile Modal*/
 .tabBarContainer-sCZC4w{
     padding: 0;
