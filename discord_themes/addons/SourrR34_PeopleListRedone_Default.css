@@ -1,0 +1,27 @@
+/*
+If you are not using a theme that inherently changes the color scheme of Discord, then this add-on to improve space utilization is for you.
+*/
+.peopleListItem-u6dGxF{
+    border: unset;
+    background: var(--background-tertiary);
+    display: inline-flex;
+    width: calc(50% - 35px);
+    padding: 16px 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.peopleListItem-u6dGxF,
+.peopleListItem-u6dGxF.active-2UF8Zh,
+.peopleListItem-u6dGxF:hover{
+    margin-right: 0;
+}
+.peopleListItem-u6dGxF:nth-child(2n),
+.peopleListItem-u6dGxF:nth-child(2n).active-2UF8Zh,
+.peopleListItem-u6dGxF:nth-child(2n):hover{
+    margin-left: 30px;
+}
+.peopleListItem-u6dGxF:nth-child(2n+1),
+.peopleListItem-u6dGxF:nth-child(2n+1).active-2UF8Zh,
+.peopleListItem-u6dGxF:nth-child(2n+1):hover{
+    margin-left: 20px;
+}
