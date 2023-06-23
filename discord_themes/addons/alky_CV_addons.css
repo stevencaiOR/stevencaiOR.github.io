@@ -724,12 +724,13 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 [aria-label="User area"] [aria-label="Set Status"]+div{
     background: rgb(var(--main-color-numerical),0.3);
 }
-[aria-label="User area"] [aria-label="Set Status"]+div button svg {
-    opacity: 0.9;
+[aria-label="User area"] [aria-label="Set Status"]+div button svg,
+[aria-label="User area"] [aria-label="Set Status"]+div button:hover svg{
+    opacity: 1;
     /*opacity for all the button icons*/
 }
 [aria-label="User area"] [aria-label="Set Status"]+div button path{
-    transition: all .35s ease-in-out;
+    transition: all .3s ease-in-out;
     /*specifically stabilizes transition when hovering off icon*/
 }
 [aria-label="User area"] [aria-label="Set Status"]+div button:not(:hover) path{
