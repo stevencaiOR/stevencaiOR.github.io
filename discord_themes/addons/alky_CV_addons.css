@@ -492,9 +492,9 @@
     padding-right: 8px !important;
     /*spacing between channel name and scroll bar*/
 }
+#channels .wrapper-NhbLHG.modeSelected-3DmyhH .name-28HaxV,
 #channels .wrapper-NhbLHG.modeSelected-3DmyhH svg{
     color: var(--channel-text-selected);
-    /*sets action icon color to match rest of element*/
 }
 /* Channel upon hover */
 #channels .wrapper-NhbLHG:hover .content-1gYQeQ:before{
