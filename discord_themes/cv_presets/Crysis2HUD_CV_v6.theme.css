@@ -404,6 +404,22 @@
   background: #000;
   color: var(--main-color);
 }
+/* MUTE/DEAFEN/SETTINGS BUTTONS */
+[aria-label="User area"] [aria-label="Set Status"]+div{
+  background: rgb(0,0,0,0.3);
+  border: 2.5px solid var(--main-color);
+}
+[aria-label="User area"] [aria-label="Set Status"]+div button,
+[aria-label="User area"] [aria-label="Set Status"]+div button:hover{
+  background: none;
+}
+[aria-label="User area"] [aria-label="Set Status"]+div button:hover svg{
+  filter: drop-shadow(0px 0px 5px var(--main-color))
+}
+[aria-label="User area"] [aria-label="Set Status"]+div button path,
+[aria-label="User area"] [aria-label="Set Status"]+div button:hover path{
+  fill: var(--main-color);
+}
 
 /* If background Image is relativecly dark, Selected DM/Subsetting and Selected Channel pretty good */
 /* Selected DM/Subsetting */
