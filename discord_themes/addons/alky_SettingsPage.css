@@ -644,7 +644,7 @@
 #library-inventory-tab [class*="inputDefault-"]::placeholder{
     width: 0;
 }
-#library-inventory-tab [class*="inputDefault-"]{
+#library-inventory-tab [class*="inputDefault-"][value=""]{
     color: transparent;
     background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><text x='10' y='20' fill='rgb(255,255,255,0.3)' font-size='16'>****-*****-*****-*****</text></svg>") no-repeat;
 }
