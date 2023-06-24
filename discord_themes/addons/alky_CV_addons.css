@@ -41,6 +41,7 @@
     --primary-160: #ECECEC;
     --primary-200: #E5E5E5;
     --primary-230: #DEDEDE;
+    --primary-300: #c9c9c9;
 }
 .theme-light{
     /* Cut and pasted most .theme-dark var assignments into .theme-light */
