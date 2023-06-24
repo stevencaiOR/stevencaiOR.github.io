@@ -492,40 +492,30 @@
     padding-right: 8px !important;
     /*spacing between channel name and scroll bar*/
 }
+#channels .wrapper-NhbLHG .content-1gYQeQ:after{
+    content: unset;
+}
 #channels .wrapper-NhbLHG.modeSelected-3DmyhH .name-28HaxV,
 #channels .wrapper-NhbLHG.modeSelected-3DmyhH svg{
     color: var(--channel-text-selected);
 }
-/* Channel upon hover */
-#channels .wrapper-NhbLHG:hover .content-1gYQeQ:before{
+#channels .wrapper-NhbLHG:not([class*="modeSelected-"]):hover .name-28HaxV,
+#channels .wrapper-NhbLHG:not([class*="modeSelected-"]):hover svg{
+  color: var(--main-color);
+}
+#channels .wrapper-NhbLHG:hover .content-1gYQeQ:before,
+#channels .wrapper-NhbLHG[class*="modeSelected-"] .content-1gYQeQ:before{
     background: rgb(var(--main-color-numerical),0.2);
-    border-radius: 5px;
-    margin-left: 3px;
+    border-radius: 8px;
+}
+#channels .wrapper-NhbLHG[class*="modeSelected-"] .content-1gYQeQ:before{
+    border: 2px solid var(--main-color);
+}
+#channels .wrapper-NhbLHG[class*="modeSelected-"]:hover {
+    opacity: 0.8;
 }
 #channels [class*="modeMuted-"]:hover a[class^="mainContent-"]:before{
     background: none;
-    /*muted channel*/
-}
-#channels .wrapper-NhbLHG:not([class*="modeSelected-"]):hover [class*="channelName-"],
-#channels .wrapper-NhbLHG:not([class*="modeSelected-"]):hover svg{
-  color: var(--main-color) !important;
-}
-#channels .wrapper-NhbLHG[class*="modeSelected-"]:hover [class*="channelName-"],
-#channels .wrapper-NhbLHG[class*="modeSelected-"]:hover svg{
-    color: rgb(255,255,255,0.8);
-}
-
-ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH:not(:hover) > div:before{
-    background: transparent;
-}
-ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after{
-    background:rgba(var(--main-color-numerical),0.3);
-    border-radius: 8px;
-}
-ul[aria-label="Channels"] > li .wrapper-NhbLHG.modeSelected-3DmyhH > div:after{
-    border: 2px solid rgba(var(--main-color-numerical),0.9);
-    animation:cv-channel-select none !important;
-    -webkit-transition: none !important;
 }
 /*-----CHANNEL HEADER-----*/
 /* GROUP DM NAME */
