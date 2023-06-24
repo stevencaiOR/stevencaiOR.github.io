@@ -512,7 +512,7 @@
 }
 #channels .wrapper-NhbLHG[class*="modeSelected-"]:hover [class*="channelName-"],
 #channels .wrapper-NhbLHG[class*="modeSelected-"]:hover svg{
-    color: rgb(255,255,255,0.8) !important;
+    color: rgb(255,255,255,0.8);
 }
 /*-----CHANNEL HEADER-----*/
 /* GROUP DM NAME */
