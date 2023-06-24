@@ -740,9 +740,11 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     transition: all .3s ease-in-out;
     /*specifically stabilizes transition when hovering off icon*/
 }
-[aria-label="User area"] [aria-label="Set Status"]+div button:not(:hover) path{
+[aria-label="User area"] [aria-label="Set Status"]+div button path{
     fill: var(--main-color);
-    /*adds color for all the button icons when not on hover*/
+}
+[aria-label="User area"] [aria-label="Set Status"]+div button:hover path{
+    fill: #fff;
 }
 /* Hovered buttons */
 [aria-label="User area"] [aria-label="Set Status"]+div button:hover{
