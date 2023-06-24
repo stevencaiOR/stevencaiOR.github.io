@@ -405,9 +405,8 @@
   color: var(--main-color);
 }
 
-
-/*DM List + User Settings Selected Item*/
-/*Good if background image is relatively dark*/
+/* If background Image is relativecly dark, Selected DM/Subsetting and Selected Channel pretty good */
+/* Selected DM/Subsetting */
 [aria-label="Private channels"] [class*="channel-"] [class*="interactive-"][class*="interactiveSelected-"]:after,
 [class*="standardSidebarView-"] [class*="sidebar-"] [class*="side-"] [class*="item-"][aria-selected="true"]:after{
     background: rgb(0,0,0,0.4) !important;
@@ -421,7 +420,25 @@
 [class*="standardSidebarView-"] [class*="sidebar-"] [class*="side-"] [class*="item-"][aria-selected="true"]:before{
     filter: drop-shadow(0 0 5px var(--main-color));
 }
-/**/
+/* Selected Channel */
+#channels .wrapper-NhbLHG[class*="modeSelected-"],
+#channels .wrapper-NhbLHG[class*="modeSelected-"]:hover {
+    opacity: 1;
+}
+#channels .wrapper-NhbLHG[class*="modeSelected-"] .content-1gYQeQ:before{
+    background: transparent;
+}
+#channels .wrapper-NhbLHG[class*="modeSelected-"]:hover .content-1gYQeQ:before{
+    background: rgb(var(--main-color-numerical),0.15);
+}
+#channels .wrapper-NhbLHG[class*="modeSelected-"] .name-28HaxV,
+#channels .wrapper-NhbLHG[class*="modeSelected-"] svg{
+    color: var(--main-color);
+    opacity: 1;
+}
+#channels .wrapper-NhbLHG[class*="modeSelected-"] .name-28HaxV{
+    text-shadow: 0 0 10px;
+}
 /*-----DISPLAY LINKS-----*/
 #app-mount [aria-label="User Profile Modal"] .connectedAccountContainer-SlCC-S{
   background: rgb(var(--main-color-numerical), 0.1);
