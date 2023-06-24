@@ -259,11 +259,9 @@
     mask: none;
     -webkit-mask: none;
 }
-/*
-.input-3O04eu{
-    background: var(--input-background);
+:root .container-YkUktl .subtext-2HDqJ7{
+    color: var(--header-secondary);
 }
-*/
 .container-3YcgdM{
     background-color: rgb(0,0,0,0.6);
     border-radius: 0px 0px 5px 5px;
@@ -534,8 +532,18 @@ section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"
 /*-----TOOLBAR-----*/
 /* SEARCH BAR */
 [class*="search-"] [class*="searchBar-"]{
+    border: 3px solid var(--main-color);
+    background: #000;
+    box-sizing: content-box;
     border-radius: 8px;
     width: 20vw;
+}
+[class*="search-"] [class*="searchBar-"],
+[class*="search-"] [class*="searchBar-"] [class*="iconLayout-"]{
+    height: 22px;
+}
+[class*="search-"] [class*="searchBar-"] .DraftEditor-root .public-DraftEditorPlaceholder-root{
+    line-height: 18px;
 }
 .searchResultsWrap-5RVOkx .highlight{
     text-shadow: none;
@@ -713,10 +721,6 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     x: calc(0.6875*var(--user-area-avatar-size));
     y: calc(0.6875*var(--user-area-avatar-size));
 }
-/* Improved readability of discriminator + custom status */
-.container-YkUktl .subtext-2HDqJ7{
-    color: rgb(255,255,255,0.5);
-}
 /* Keeps avatar same upon hover */
 .container-YkUktl .avatar-1EWyVD:after {
     display: none;
@@ -750,7 +754,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 }
 /* Hovered buttons */
 [aria-label="User area"] [aria-label="Set Status"]+div button:hover{
-    background-color: var(--main-color);
+    background: var(--main-color);
     /*sets background color to icon on hover*/
 }
 /* Button Separators */
