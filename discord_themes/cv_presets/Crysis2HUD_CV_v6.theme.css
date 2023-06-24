@@ -267,16 +267,16 @@
 }
 /* TOOL BAR */
 /* Search Bar*/
-[class^="toolbar-"] [class^="search-"] [class^="searchBar-"] {
+[class*="search-"] [class*="searchBar-"]{
   border: 3px solid var(--main-color);
   background: #000;
   box-sizing: content-box;
 }
-[class^="toolbar-"] [class^="search-"] [class^="searchBar-"],
-[class^="toolbar-"] [class^="search-"] [class^="searchBar-"] [class*="iconLayout-"]{
+[class*="search-"] [class*="searchBar-"],
+[class*="search-"] [class*="searchBar-"] [class*="iconLayout-"]{
   height: 22px;
 }
-[class^="toolbar-"] [class^="search-"] [class^="searchBar-"] .DraftEditor-root .public-DraftEditorPlaceholder-root{
+[class*="search-"] [class*="searchBar-"] .DraftEditor-root .public-DraftEditorPlaceholder-root{
   line-height: 18px;
 }
 /* SEARCH RESULTS SIDE WRAPPER */

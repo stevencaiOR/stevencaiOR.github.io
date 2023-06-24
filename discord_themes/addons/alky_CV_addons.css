@@ -533,7 +533,7 @@ section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"
 }
 /*-----TOOLBAR-----*/
 /* SEARCH BAR */
-[class^="toolbar-"] [class^="search-"] [class^="searchBar-"]{
+[class*="search-"] [class*="searchBar-"]{
     border-radius: 8px;
     width: 20vw;
 }
