@@ -8,17 +8,18 @@
         }
     ],
     "semanticColors": {
-        "HEADER_PRIMARY": ["#a74828"],
-        "HEADER_SECONDARY": ["#a74828"],
-        "TEXT_LINK": ["#a74828"],
-        "INTERACTIVE_HOVER": ["#7b351e"],
-        "INTERACTIVE_ACTIVE": ["#a74828"],  
-        "BACKGROUND_SECONDARY_ALT": ["#c38874"],
-        "BACKGROUND_ACCENT":["#a74828"],
-        "SCROLLBAR_THIN_THUMB":["#a74828"],
-        "SCROLLBAR_THIN_TRACK":["#a74828"],
-        "SCROLLBAR_AUTO_THUMB":["#a74828"],
-        "SCROLLBAR_AUTO_TRACK":["#a74828"]
+        "HEADER_PRIMARY": ["#b83d14"],
+        "HEADER_SECONDARY": ["#FF69B4"],
+        "TEXT_LINK": ["#b83d14"],
+        "INTERACTIVE_HOVER": ["#a34729"],
+        "INTERACTIVE_ACTIVE": ["#b83d14"],  
+        "BACKGROUND_ACCENT":["#b83d14"],
+        "SCROLLBAR_THIN_THUMB":["#b83d14"],
+        "SCROLLBAR_THIN_TRACK":["#b83d14"],
+        "SCROLLBAR_AUTO_THUMB":["#b83d14"],
+        "SCROLLBAR_AUTO_TRACK":["#b83d14"],
+        "CHANNEL_ICON":["#b83d14"],
+        "CHANNEL_TEXT_AREA_PLACEHOLDER":["#b83d14"]
     },
     "rawColors": {
 
