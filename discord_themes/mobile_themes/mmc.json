@@ -8,18 +8,19 @@
         }
     ],
     "semanticColors": {
-        "HEADER_PRIMARY": ["#b83d14"],
-        "HEADER_SECONDARY": ["#FF69B4"],
-        "TEXT_LINK": ["#b83d14"],
-        "INTERACTIVE_HOVER": ["#a34729"],
-        "INTERACTIVE_ACTIVE": ["#b83d14"],  
-        "BACKGROUND_ACCENT":["#b83d14"],
-        "SCROLLBAR_THIN_THUMB":["#b83d14"],
-        "SCROLLBAR_THIN_TRACK":["#b83d14"],
-        "SCROLLBAR_AUTO_THUMB":["#b83d14"],
-        "SCROLLBAR_AUTO_TRACK":["#b83d14"],
-        "CHANNEL_ICON":["#b83d14"],
-        "CHANNEL_TEXT_AREA_PLACEHOLDER":["#b83d14"]
+        "HEADER_PRIMARY": ["#cc3300"],
+        "HEADER_SECONDARY": ["#cc3300"],
+        "TEXT_MUTED": ["#FF69B4"],
+        "TEXT_LINK": ["#cc3300"],
+        "INTERACTIVE_HOVER": ["#b34019"],
+        "INTERACTIVE_ACTIVE": ["#cc3300"],  
+        "BACKGROUND_ACCENT":["#cc3300"],
+        "SCROLLBAR_THIN_THUMB":["#cc3300"],
+        "SCROLLBAR_THIN_TRACK":["#cc3300"],
+        "SCROLLBAR_AUTO_THUMB":["#cc3300"],
+        "SCROLLBAR_AUTO_TRACK":["#cc3300"],
+        "CHANNEL_ICON":["#cc3300"],
+        "CHANNEL_TEXT_AREA_PLACEHOLDER":["#cc3300"]
     },
     "rawColors": {
 
