@@ -1,0 +1,33 @@
+{
+    "name": "SourrR34",
+    "description":" A MMC theme made by SourrR34",
+    "authors": [
+        {
+            "name": "smoge2k",
+            "id": "947934356880629760"
+        }
+    ],
+    "semanticColors": {
+        "HEADER_PRIMARY": ["#a74828"],
+        "HEADER_SECONDARY": ["#a74828"],
+        "TEXT_LINK": ["#a74828"],
+        //"INTERACTIVE_NORMAL": ["#a74828"],
+        "INTERACTIVE_HOVER": ["#7b351e"],
+        "INTERACTIVE_ACTIVE": ["#a74828"],
+        //"INTERACTIVE_MUTED",
+        //"BACKGROUND_PRIMARY": ["#a74828"],
+        "BACKGROUND_SECONDARY_ALT": ["#c38874"],
+        "BACKGROUND_ACCENT":["#a74828"],
+        "SCROLLBAR_THIN_THUMB":["#a74828"],
+        "SCROLLBAR_THIN_TRACK":["#a74828"],
+        "SCROLLBAR_AUTO_THUMB":["#a74828"],
+        "SCROLLBAR_AUTO_TRACK":["#a74828"]
+    },
+    "rawColors": {
+
+    },
+    "background": {
+        "url": "https://static.wikia.nocookie.net/expanse/images/5/59/MMC-2.png"
+    },
+    "spec": 2
+}
