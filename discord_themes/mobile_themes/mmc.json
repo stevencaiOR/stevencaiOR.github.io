@@ -10,8 +10,9 @@
     "semanticColors": {
         "HEADER_PRIMARY": ["#cc3300"],
         "HEADER_SECONDARY": ["#cc3300"],
-        "TEXT_MUTED": ["#FF69B4"],
+        "TEXT_MUTED": ["#b34019"],
         "TEXT_LINK": ["#cc3300"],
+        "INTERACTIVE_NORMAL": ["#FF69B4"],
         "INTERACTIVE_HOVER": ["#b34019"],
         "INTERACTIVE_ACTIVE": ["#cc3300"],  
         "BACKGROUND_ACCENT":["#cc3300"],
