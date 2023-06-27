@@ -533,7 +533,7 @@ section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"
 /* SEARCH BAR */
 [class*="search-"] [class*="searchBar-"]{
     border: 3px solid var(--main-color);
-    background: #000;
+    background: rgb(0,0,0,.6);
     box-sizing: content-box;
     border-radius: 8px;
     width: 20vw;
@@ -1406,23 +1406,11 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 /*-----IMPROVED MEMBER LIST-----*/
 .members-3WRCEx .member-2gU6Ar .username-i5-wv->span:before,
 .members-3WRCEx .member-2gU6Ar .username-i5-wv->span:after{
-    background-image: none !important;
-    transition: none;
+    content: unset;
 }
 .member-2gU6Ar{
-    max-width: 515px;
+    max-width: unset;
     /*width of each member list item fills up entire column*/
-}
-.members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .username-i5-wv->span:before,
-.members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .username-i5-wv->span:after{
-    border: 2px solid rgb(var(--main-color-numerical));
-    border-radius: 10px;
-    box-shadow: 0 0 6px rgb(var(--main-color-numerical));
-
-    background-color: rgb(var(--main-color-numerical),0.2);
-}
-.members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .username-i5-wv->span{
-    -webkit-text-fill-color: currentColor;
 }
 .members-3WRCEx .member-2gU6Ar .username-i5-wv->span{
     display: inline-block;
@@ -1431,6 +1419,9 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 }
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .layout-1qmrhw{
     padding: 2px 8px;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    background: rgb(var(--main-color-numerical),0.25);
 }
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .username-i5-wv->span{
     text-shadow: none;
