@@ -1,6 +1,6 @@
 {
     "name": "SourrR34",
-    "description":" A MMC theme made by SourrR34",
+    "description": "Martian Marine Corps",
     "authors": [
         {
             "name": "smoge2k",
@@ -9,17 +9,43 @@
     ],
     "semanticColors": {
         "HEADER_PRIMARY": ["#cc3300"],
-        "HEADER_SECONDARY": ["#cc3300"],
-        "TEXT_MUTED": ["#b34019"],
+
+        "TEXT_MUTED": ["#994d33"],
         "TEXT_LINK": ["#cc3300"],
-        "BACKGROUND_PRIMARY":["#ff69b4"],
+
+        "INTERACTIVE_NORMAL":["#cc3300"],
+        "INTERACTIVE_HOVER": ["#ff4000"],
+        "INTERACTIVE_ACTIVE": ["#ff4000"],
+        "INTERACTIVE_MUTED": ["#994d33"],
+
+        "BACKGROUND_PRIMARY":["#000"],
+        "BACKGROUND_SECONDARY":["#000"],
+        "BACKGROUND_SECONDARY_ALT":["#000"],
+        "BACKGROUND_TERTIARY":["#080808"],
         "BACKGROUND_ACCENT":["#cc3300"],
+        "BACKGROUND_FLOATING":["#000"],
+        "BACKGROUND_NESTED_FLOATING":["#000"],
+        "BACKGROUND_MOBILE_PRIMARY":["#000"],
+        "BACKGROUND_MOBILE_SECONDARY":["#000"],
+        "BACKGROUND_MESSAGE_HOVER":["#111"],
+        "BACKGROUND_MODIFIER_HOVER":["#111"],
+        "BACKGROUND_MODIFIER_ACTIVE":["#222"],
+        "BACKGROUND_MODIFIER_SELECTED":["#222"],
+
         "SCROLLBAR_THIN_THUMB":["#cc3300"],
         "SCROLLBAR_THIN_TRACK":["#cc3300"],
         "SCROLLBAR_AUTO_THUMB":["#cc3300"],
         "SCROLLBAR_AUTO_TRACK":["#cc3300"],
+
+        "CHAT_BACKGROUND":["#000"],
+        "CHANNELTEXTAREA_BACKGROUND": ["#111"],
+        "CHANNEL_TEXT_AREA_PLACEHOLDER":["#cc3300"],
+
+        "SPOILER_HIDDEN_BACKGROUND":["#994d33"],
+        "SPOILER_REVEALED_BACKGROUND":["transparent"],
+
         "CHANNEL_ICON":["#cc3300"],
-        "CHANNEL_TEXT_AREA_PLACEHOLDER":["#cc3300"]
+        "CHANNELS_DEFAULT":["#cc3300"]
     },
     "rawColors": {
 
