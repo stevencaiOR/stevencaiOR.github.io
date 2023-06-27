@@ -1447,6 +1447,11 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     -webkit-text-fill-color: unset;
     color: var(--main-color)
 }
+/* Status text */
+.members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .activityText-1rR-8O,
+.members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .activityText-1rR-8O strong{
+    color: var(--main-color);
+}
 /*-----DM VOICE CALL-----*/
 .callAvatarMask-fiNMWy foreignObject .status-1ZXjSF{
     background: var(--main-color);
