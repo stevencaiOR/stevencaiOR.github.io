@@ -530,6 +530,25 @@ section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"
     /*on select*/
 }
 /*-----TOOLBAR-----*/
+/* ICONS */
+[aria-label="Channel header"] [class*="toolbar-"] [class*="iconWrapper-"]{
+    margin: 0 3px;
+}
+[aria-label="Channel header"] [class*="toolbar-"] [class*="iconWrapper-"]{
+    background: rgb(0,0,0,.6);
+}
+[aria-label="Channel header"] [class*="toolbar-"] [class*="iconWrapper-"] [class*="icon-"]{
+    color: var(--main-color);
+}
+[aria-label="Channel header"] [class*="toolbar-"] [class*="iconWrapper-"] [class*="icon-"],
+[aria-label="Channel header"] [class*="toolbar-"] [class*="iconWrapper-"][class*="selected-"]:hover [class*="icon-"]{
+    opacity: .7;
+}
+[aria-label="Channel header"] [class*="toolbar-"] [class*="iconWrapper-"][class*="selected-"] [class*="icon-"],
+[aria-label="Channel header"] [class*="toolbar-"] [class*="iconWrapper-"]:hover [class*="icon-"]{
+    opacity: 1;
+    filter: drop-shadow(0 0 5px var(--main-color));
+}
 /* SEARCH BAR */
 [class*="search-"] [class*="searchBar-"]{
     border: 3px solid var(--main-color);
