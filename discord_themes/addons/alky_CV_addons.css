@@ -1440,10 +1440,12 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     padding: 2px 8px;
     border: 2px solid var(--main-color);
     border-radius: 10px;
-    background: rgb(var(--main-color-numerical),0.25);
+    background: rgb(0,0,0,0.4);
 }
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .username-i5-wv->span{
     text-shadow: none;
+    -webkit-text-fill-color: unset;
+    color: var(--main-color)
 }
 /*-----DM VOICE CALL-----*/
 .callAvatarMask-fiNMWy foreignObject .status-1ZXjSF{
