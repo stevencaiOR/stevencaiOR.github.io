@@ -283,6 +283,16 @@
 .tabBarContainer-sCZC4w{
     padding: 0;
 }
+/*Unread and Mention markers*/
+.unread-2wipsx:after,
+.mention-3XBnnZ:after{
+    content: unset;
+}
+.unread-2wipsx,
+.mention-3XBnnZ{
+    background: var(--main-color);
+    border-radius: 3px;
+}
 /*-----USER POPOUT-----*/
 [class*="userPopoutOuter-"]{ /*add user panels?*/
     width: var(--profile-popout-width, 340px);
