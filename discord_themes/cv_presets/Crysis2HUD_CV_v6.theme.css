@@ -265,20 +265,6 @@
 [aria-label="Servers"] .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub{
   border-radius: 30%;
 }
-/* TOOL BAR */
-/* Search Bar*/
-[class*="search-"] [class*="searchBar-"]{
-  border: 3px solid var(--main-color);
-  background: #000;
-  box-sizing: content-box;
-}
-[class*="search-"] [class*="searchBar-"],
-[class*="search-"] [class*="searchBar-"] [class*="iconLayout-"]{
-  height: 22px;
-}
-[class*="search-"] [class*="searchBar-"] .DraftEditor-root .public-DraftEditorPlaceholder-root{
-  line-height: 18px;
-}
 /* SEARCH RESULTS SIDE WRAPPER */
 .searchResultsWrap-5RVOkx>.searchHeader-1r_ZSh .item-2GWPIy.selected-1sf9UK{
   background: rgb(var(--main-color-numerical), 0.07);
