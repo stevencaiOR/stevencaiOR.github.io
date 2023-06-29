@@ -61,7 +61,7 @@
   --some-orange:rgb(var(--some-orange-numerical));
 
   /* CUSTOMIZATION PATCH */
-  --channel-unread: rgb(var(--main-color-numerical));
+  --channel-unread: var(--main-color);
   --channel-color: rgba(var(--main-color-numerical),0.7);
   --muted-color: rgba(var(--main-color-numerical),0.3);
   --url-color: var(--main-color);
