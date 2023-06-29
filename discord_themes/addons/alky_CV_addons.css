@@ -414,7 +414,10 @@
 .roleWrapper-2IhvNd .role-2TIOKu:hover{
     border-color: rgb(255,255,255,.45);
 }
-/* LONG USERNAME/NICKNAME SUPPORT */
+/* LONG/TALL USERNAME/NICKNAME SUPPORT */
+[class*="userPopoutOverlayBackground-"] .userTag-3A4Fw4{
+    display: flex;
+}
 [class*="userPopoutOverlayBackground-"] [class*="nickname-"]{
     font-size: 18px; /*default: 20px*/
     line-height: 2.5;
