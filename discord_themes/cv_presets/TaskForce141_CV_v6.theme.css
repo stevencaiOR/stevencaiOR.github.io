@@ -270,7 +270,7 @@ div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv butt
   /*aligns position w/ search bar*/
 }
 
-/* If background Image is relativecly dark, Selected DM/Subsetting and Selected Channel pretty good */
+/* If background Image is relativecly dark, Selected DM/Subsetting, Selected Channel and Unread Pills pretty good */
 /* Selected DM/Subsetting */
 [aria-label="Private channels"] [class*="channel-"] [class*="interactive-"][class*="interactiveSelected-"]:after,
 [class*="standardSidebarView-"] [class*="sidebar-"] [class*="side-"] [class*="item-"][aria-selected="true"]:after{
@@ -303,4 +303,16 @@ div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv butt
 }
 #channels .wrapper-NhbLHG[class*="modeSelected-"] .name-28HaxV{
     text-shadow: 0 0 10px;
+}
+/* Unread Pills */
+.unread-2wipsx,
+.mention-3XBnnZ{
+    color: var(--main-color);
+    background: rgb(0,0,0,0.8);
+    border: 2px solid currentColor;
+    border-radius: 8px;
+}
+.unread-2wipsx:hover,
+.mention-3XBnnZ:hover{
+    color: var(--hover-color);
 }
