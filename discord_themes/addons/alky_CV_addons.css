@@ -620,15 +620,17 @@ section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"
 /*-----INTERACTIVE TEXT-----*/
 .wrapper-1ZcZW-{
     border-radius: 5px;
+    color: var(--main-color);
     background: rgb(var(--main-color-numerical), 0.2);
     padding: 2px 4px;
 }
 .interactive:hover{
     background: var(--main-color);
 }
-/*below 3 blocks for clearvision*/
+/*below 3 blocks for clearvision specifically*/
 :root .mention.wrapper-1ZcZW-{
     border-radius: 5px;
+    color: var(--main-color);
     background: rgb(var(--main-color-numerical), 0.2);
     padding: 2px 4px;
 }
@@ -636,7 +638,7 @@ section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"
     background: var(--main-color);
 }
 :root .mentioned-Tre-dv .mention.interactive{
-    color: var(--main-color);
+    color: var(--main-color); /*it's lumped into its own block in CV so it's lumped into its own block here*/
 }
 /* MINIMIZE LONG USERNAME */
 :not([class*="embed"]) > .wrapper-1ZcZW-.mention.interactive {
