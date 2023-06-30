@@ -1,0 +1,82 @@
+:root{
+    --twitter-color: #1d9bf0;
+    --facebook-color: #4267b2;
+    --youtube-color: #f00;
+}
+.socialLinks-3ywLUf{
+    display: flex;
+    flex-direction: column;
+}
+[class*="anchorUnderlineOnHover-"][aria-label="Twitter"] path,
+[class*="anchorUnderlineOnHover-"][title="Twitter"] path{
+    fill: var(--twitter-color);
+}
+[class*="anchorUnderlineOnHover-"][aria-label="Facebook"] path,
+[class*="anchorUnderlineOnHover-"][title="Facebook"] path{
+    fill:var(--facebook-color);    
+}
+[class*="anchorUnderlineOnHover-"][aria-label="youtube" i] path,
+[class*="anchorUnderlineOnHover-"][title="youtube" i] path{
+    fill: var(--youtube-color);    
+}
+[class*="anchorUnderlineOnHover-"][aria-label="Twitter"]:hover path,
+[class*="anchorUnderlineOnHover-"][title="Twitter"]:hover path,
+[class*="anchorUnderlineOnHover-"][aria-label="Facebook"]:hover path,
+[class*="anchorUnderlineOnHover-"][title="Facebook"]:hover path,
+[class*="anchorUnderlineOnHover-"][aria-label="youtube" i]:hover path,
+[class*="anchorUnderlineOnHover-"][title="youtube" i]:hover path{
+    filter: brightness(0.8);
+}
+[class*="anchorUnderlineOnHover-"][aria-label="Instagram"] svg,
+[class*="anchorUnderlineOnHover-"][title="Instagram"] svg {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    border-radius: 4.5px;
+}
+[class*="anchorUnderlineOnHover-"][aria-label="tiktok" i] svg,
+[class*="anchorUnderlineOnHover-"][title="tiktok" i] svg{
+    background: linear-gradient(135deg,#27f4ee,#fe2c55);
+    border-radius: 3px;
+}
+[class*="anchorUnderlineOnHover-"][aria-label="Instagram"] path,
+[class*="anchorUnderlineOnHover-"][title="Instagram"] path{
+    color: rgb(255,255,255,0.5);
+}
+[class*="anchorUnderlineOnHover-"][aria-label="tiktok" i] path,
+[class*="anchorUnderlineOnHover-"][title="tiktok" i] path{
+    color: rgb(255,255,255,0.7);
+}
+[class*="anchorUnderlineOnHover-"][aria-label="Instagram"]:hover path,
+[class*="anchorUnderlineOnHover-"][title="Instagram"]:hover path,
+[class*="anchorUnderlineOnHover-"][aria-label="tiktok" i]:hover path,
+[class*="anchorUnderlineOnHover-"][title="tiktok" i]:hover path{
+    color: rgb(255,255,255,0.35);
+}
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:after{
+    margin-left: 5px;
+    vertical-align: top;
+    line-height: 18px;
+}
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]{
+    color: var(--main-color, #2780e6);
+}
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:hover{
+    color: var(--hover-color, #1e63b3);
+}
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Twitter"]:after{
+    content: "[ Twitter ]";
+}
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Instagram"]:after{
+    content: "[ Instagram ]";
+}
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Facebook"]:after{
+    content: "[ Facebook ]";
+}
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="youtube" i]:after{
+    content: "[ YouTube ]";
+}
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="tiktok" i]:after{
+    content: "[ TikTok ]";
+}
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="BetterDiscord"]:after{
+    content: "[ BetterDiscord ]";
+}
