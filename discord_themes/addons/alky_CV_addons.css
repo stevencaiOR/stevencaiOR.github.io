@@ -244,6 +244,9 @@
 }
 /*-----CLEARVISION BUG FIXES-----*/
 /*Note: this section is intended to fix *bugs* in ClearVision themes that haven't been addressed by the ClearVision team yet.*/
+.theme-dark .pageButton-uta6J3{
+	background-color: var(--main-color);
+}
 /* REPLUGGED */
 .sidebar-nqHbhN .item-2GWPIy[aria-controls="rp-general-tab"]{
     padding-left: 20px !important;
