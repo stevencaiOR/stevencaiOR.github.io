@@ -78,6 +78,7 @@
   color: var(--interactive-hover-dark);
 }
 
+.bd-select .bd-select-option.selected,
 /* text selection */
 ::selection,
 /* number and text badges... among other things */
