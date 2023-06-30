@@ -897,9 +897,6 @@
     display: flex;
     flex-direction: column;
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]{
-    padding-left: 0;
-}
 [class*="anchorUnderlineOnHover-"][aria-label="Twitter"] path,
 [class*="anchorUnderlineOnHover-"][title="Twitter"] path{
     fill: var(--twitter-color);
@@ -912,21 +909,13 @@
 [class*="anchorUnderlineOnHover-"][title="youtube" i] path{
     fill: var(--youtube-color);    
 }
-[class*="anchorUnderlineOnHover-"][aria-label="Twitter"] path,
-[class*="anchorUnderlineOnHover-"][title="Twitter"] path,
-[class*="anchorUnderlineOnHover-"][aria-label="Facebook"] path,
-[class*="anchorUnderlineOnHover-"][title="Facebook"] path,
-[class*="anchorUnderlineOnHover-"][aria-label="youtube" i] path,
-[class*="anchorUnderlineOnHover-"][title="youtube" i] path{
-    filter: brightness(1.25);
-}
 [class*="anchorUnderlineOnHover-"][aria-label="Twitter"]:hover path,
 [class*="anchorUnderlineOnHover-"][title="Twitter"]:hover path,
 [class*="anchorUnderlineOnHover-"][aria-label="Facebook"]:hover path,
 [class*="anchorUnderlineOnHover-"][title="Facebook"]:hover path,
 [class*="anchorUnderlineOnHover-"][aria-label="youtube" i]:hover path,
 [class*="anchorUnderlineOnHover-"][title="youtube" i]:hover path{
-    filter: brightness(0.94);
+    filter: brightness(0.8);
 }
 [class*="anchorUnderlineOnHover-"][aria-label="Instagram"] svg,
 [class*="anchorUnderlineOnHover-"][title="Instagram"] svg {
