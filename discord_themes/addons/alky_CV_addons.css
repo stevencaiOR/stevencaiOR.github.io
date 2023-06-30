@@ -786,6 +786,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 /* Unhovered buttons */
 [aria-label="User area"] [aria-label="Set Status"]+div{
     background: rgb(var(--main-color-numerical),0.3);
+    border-radius: 15px;
 }
 [aria-label="User area"] [aria-label="Set Status"]+div button svg,
 [aria-label="User area"] [aria-label="Set Status"]+div button:hover svg{
