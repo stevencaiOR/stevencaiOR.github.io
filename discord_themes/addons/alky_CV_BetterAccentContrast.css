@@ -23,6 +23,9 @@
   --interactive-hover-dark: var(--primary-230-dark);
   --text-normal-dark: var(--primary-230-dark);
 }
+:root .pageButton-uta6J3:hover {
+	background: var(--interactive-hover-dark);
+}
 
 /* generic sticker selected in sticker picker*/
 .stickerCategoryGenericSelected-DnO2K8 .stickerCategoryGenericIcon-3wumVD,
