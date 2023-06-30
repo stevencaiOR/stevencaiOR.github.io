@@ -947,11 +947,17 @@
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Twitter"]:after{
     content: "[ Twitter ]";
 }
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Instagram"]:after{
+    content: "[ Instagram ]";
+}
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Facebook"]:after{
     content: "[ Facebook ]";
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Instagram"]:after{
-    content: "[ Instagram ]";
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="youtube" i]:after{
+    content: "[ YouTube ]";
+}
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="tiktok" i]:after{
+    content: "[ TikTok ]";
 }
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="BetterDiscord"]:after{
     content: "[ BetterDiscord ]";
