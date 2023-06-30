@@ -23,6 +23,9 @@
     --dnd-color: #982929;
     --offline-color: #808080;
     --streaming-color: #9147ff;
+
+    /* Channel Colors */
+    --channel-text-selected: #fff;
     
     --message-content-line-height: 1.625;                                                                               /*default: 1.375rem*/
 
