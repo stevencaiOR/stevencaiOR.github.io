@@ -970,7 +970,8 @@
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="BetterDiscord"]:after{
     content: "[ BetterDiscord ]";
 }
-#app-mount .info-3pQQBb .line-18uChy:first-child::before{
+
+.info-3pQQBb .line-18uChy:first-child::before{
     content: var(--custom-mark-2, " ");
     display: block;
 }
