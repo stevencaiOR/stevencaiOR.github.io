@@ -57,7 +57,9 @@
 .navButtonActive-1EqC5l:hover,
 /*switch accounts context menu item on hover*/
 .focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
-.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuText-2e3Dry{
+.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuText-2e3Dry,
+
+.theme-dark .pageButton-uta6J3.activeButton-2K2Fwx{
   color: var(--black-500);
 }
 
