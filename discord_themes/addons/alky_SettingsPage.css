@@ -908,14 +908,14 @@
     fill:var(--facebook-color);    
 }
 [class*="anchorUnderlineOnHover-"][aria-label="Twitter"] path,
-[class*="anchorUnderlineOnHover-"][aria-label="Facebook"] path,
 [class*="anchorUnderlineOnHover-"][title="Twitter"] path,
+[class*="anchorUnderlineOnHover-"][aria-label="Facebook"] path,
 [class*="anchorUnderlineOnHover-"][title="Facebook"] path{
     filter: brightness(1.25);
 }
 [class*="anchorUnderlineOnHover-"][aria-label="Twitter"]:hover path,
-[class*="anchorUnderlineOnHover-"][aria-label="Facebook"]:hover path,
 [class*="anchorUnderlineOnHover-"][title="Twitter"]:hover path,
+[class*="anchorUnderlineOnHover-"][aria-label="Facebook"]:hover path,
 [class*="anchorUnderlineOnHover-"][title="Facebook"]:hover path{
     filter: brightness(0.94);
 }
