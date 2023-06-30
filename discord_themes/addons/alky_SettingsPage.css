@@ -907,16 +907,24 @@
 [class*="anchorUnderlineOnHover-"][title="Facebook"] path{
     fill:var(--facebook-color);    
 }
+[class*="anchorUnderlineOnHover-"][aria-label="youtube" i] path,
+[class*="anchorUnderlineOnHover-"][title="youtube" i] path{
+    fill: var(--youtube-color);    
+}
 [class*="anchorUnderlineOnHover-"][aria-label="Twitter"] path,
 [class*="anchorUnderlineOnHover-"][title="Twitter"] path,
 [class*="anchorUnderlineOnHover-"][aria-label="Facebook"] path,
-[class*="anchorUnderlineOnHover-"][title="Facebook"] path{
+[class*="anchorUnderlineOnHover-"][title="Facebook"] path,
+[class*="anchorUnderlineOnHover-"][aria-label="youtube" i] path,
+[class*="anchorUnderlineOnHover-"][title="youtube" i] path{
     filter: brightness(1.25);
 }
 [class*="anchorUnderlineOnHover-"][aria-label="Twitter"]:hover path,
 [class*="anchorUnderlineOnHover-"][title="Twitter"]:hover path,
 [class*="anchorUnderlineOnHover-"][aria-label="Facebook"]:hover path,
-[class*="anchorUnderlineOnHover-"][title="Facebook"]:hover path{
+[class*="anchorUnderlineOnHover-"][title="Facebook"]:hover path,
+[class*="anchorUnderlineOnHover-"][aria-label="youtube" i]:hover path,
+[class*="anchorUnderlineOnHover-"][title="youtube" i]:hover path{
     filter: brightness(0.94);
 }
 [class*="anchorUnderlineOnHover-"][aria-label="Instagram"] svg,
@@ -924,12 +932,23 @@
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     border-radius: 4.5px;
 }
+[class*="anchorUnderlineOnHover-"][aria-label="tiktok" i] svg,
+[class*="anchorUnderlineOnHover-"][title="tiktok" i] svg{
+    background: linear-gradient(135deg,#27f4ee,#fe2c55);
+    border-radius: 3px;
+}
 [class*="anchorUnderlineOnHover-"][aria-label="Instagram"] path,
 [class*="anchorUnderlineOnHover-"][title="Instagram"] path{
     color: rgb(255,255,255,0.5);
 }
+[class*="anchorUnderlineOnHover-"][aria-label="tiktok" i] path,
+[class*="anchorUnderlineOnHover-"][title="tiktok" i] path{
+    color: rgb(255,255,255,0.7);
+}
 [class*="anchorUnderlineOnHover-"][aria-label="Instagram"]:hover path,
-[class*="anchorUnderlineOnHover-"][title="Instagram"]:hover path{
+[class*="anchorUnderlineOnHover-"][title="Instagram"]:hover path,
+[class*="anchorUnderlineOnHover-"][aria-label="tiktok" i]:hover path,
+[class*="anchorUnderlineOnHover-"][title="tiktok" i]:hover path{
     color: rgb(255,255,255,0.35);
 }
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:after{
