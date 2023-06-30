@@ -942,15 +942,14 @@
     color: rgb(255,255,255,0.35);
 }
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:after{
-    color: var(--main-color);
     margin-left: 5px;
     vertical-align: top;
     line-height: 18px;
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:hover{
-    text-decoration-color: var(--hover-color);
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]{
+    color: var(--main-color);
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:hover:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:hover{
     color: var(--hover-color);
 }
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Twitter"]:after{
