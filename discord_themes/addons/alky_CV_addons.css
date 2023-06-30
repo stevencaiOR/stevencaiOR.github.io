@@ -42,6 +42,7 @@
     --twitter-color: rgb(var(--twitter-color-numerical));
     --facebook-color-numerical: 66, 103, 178;
     --facebook-color: rgb(var(--facebook-color-numerical));
+    --youtube-color: #f00;
 }
 .default-colors,
 :root{
