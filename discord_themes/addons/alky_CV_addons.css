@@ -244,10 +244,10 @@
 }
 /*-----CLEARVISION BUG FIXES-----*/
 /*Note: this section is intended to fix *bugs* in ClearVision themes that haven't been addressed by the ClearVision team yet.*/
-.theme-dark .pageButton-uta6J3:hover {
+:root .pageButton-uta6J3:hover {
 	background: var(--main-color);
 }
-.theme-dark .pageButton-uta6J3.activeButton-2K2Fwx:hover {
+:root .pageButton-uta6J3.activeButton-2K2Fwx:hover {
 	background: var(--hover-color);
 }
 /* REPLUGGED */
