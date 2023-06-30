@@ -598,9 +598,7 @@ section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"
 }
 /*-----WINDOWS BUTTONS-----*/
 [class^="winButton"] {
-    color: var(--main-color); /*default: var(--interactive-normal)*/
-    background: transparent;
-    transition: background-color .25s linear !important;
+    color: var(--main-color);
 }
 /*-----SERVER FOLDERS-----*/
 .folderIconWrapper-1oRIZr svg{
@@ -610,15 +608,27 @@ section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"
     background: rgb(var(--main-color-numerical), 0.4) !important;
 }
 /*-----INTERACTIVE TEXT-----*/
-.wrapper-1ZcZW-.mention,
-.wrapper-1ZcZW-,
-span.interactive{
+.wrapper-1ZcZW-{
+    border-radius: 5px;
     background: rgb(var(--main-color-numerical), 0.2);
-    color:var(--main-color); /*text color of interactive text*/
-    padding: 2px 4px; /*extra vertical padding*/
+    background: red;
+    padding: 2px 4px;
 }
 .interactive:hover{
     background: var(--main-color);
+}
+/*below 3 blocks for clearvision*/
+:root .mention.wrapper-1ZcZW-{
+    border-radius: 5px;
+    background: rgb(var(--main-color-numerical), 0.2);
+    background: red;
+    padding: 2px 4px;
+}
+:root .mention.interactive:hover{
+    background: var(--main-color);
+}
+:root .mentioned-Tre-dv .mention.interactive{
+    color: var(--main-color);
 }
 /* MINIMIZE LONG USERNAME */
 :not([class*="embed"]) > .wrapper-1ZcZW-.mention.interactive {
