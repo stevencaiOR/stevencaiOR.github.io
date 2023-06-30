@@ -8,7 +8,8 @@
     opacity: 1;
 }
 [class*="spoilerMarkdownContent-"] code,
-[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] > span{
+[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] > span,
+[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] a span{
     transition: filter .2s ease;
     filter: blur(4px);
     pointer-events: all;
