@@ -1144,7 +1144,7 @@ nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"][class*="selected-
 [aria-label="Private channels"] [class*="channel-"] [class*="interactive-"][class*="interactiveSelected-"]:after,
 /* SUBSETTINGS */
 [class*="standardSidebarView-"] [class*="sidebar-"] [class*="side-"] [class*="item-"][aria-selected="true"]:after{
-    background:rgba(var(--main-color-numerical),0.3) !important;
+    background: rgb(var(--main-color-numerical),0.3) !important;
     border-radius: 10px !important; /*!important for DM's*/
 }
 /*-----HOME BUTTON-----*/
