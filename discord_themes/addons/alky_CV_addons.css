@@ -1110,14 +1110,6 @@ nav[aria-label="Private channels"] ul > h2{
 [aria-label="Private channels"] h2~li [class^="interactive-"]:hover{
     margin-left: 15px;
 }
-[aria-label="Private channels"] h2~li:hover [class*="interactive-"] > div{
-    display: none;
-}
-[aria-label="Private channels"] h2~li [class*="interactive-"]:hover > div{
-    display: block;
-    position: relative;
-    right: 15px;
-}
 [aria-label="Private channels"] h2~li [class*="interactive-"]:before{
     border-radius: 10px !important;
 }
