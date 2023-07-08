@@ -1098,13 +1098,29 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 ul[aria-label="Direct Messages"] [class*="selected-"] > a[data-list-item-id$="friends"] svg[class^="linkButtonIcon-"]{
     color: var(--main-color) !important;
 }
-/*REDUCED SPACE BETWEEN FRIENDS AND DIRECT MESSAGES*/
+/* REDUCED SPACE BETWEEN FRIENDS AND DIRECT MESSAGES */
 nav[aria-label="Private channels"] ul > h2{
     padding-top: 10px ; /*default: 18px*/
     height: 32px ; /*default: 40px*/
     /*both value change equal amount from default*/
 }
-/* RIGHT SHIFT UPON HOVER*/
+/* HIGHLIGHT UPON HOVER */
+.privateChannels-oVe7HL .channel-1Shao0 .interactive-iyXY_x:before,
+.privateChannels-oVe7HL .channel-1Shao0 .interactive-iyXY_x:after{
+    content: unset;
+}
+.privateChannels-oVe7HL .channel-1Shao0 .interactive-iyXY_x.interactive-26HRN_:hover{
+    background: rgb(255,255,255,.1);
+    border-radius: 10px;
+}
+/* CLOSE BUTTON OPACITY */
+.privateChannels-oVe7HL .channel-1Shao0 .interactive-iyXY_x:hover .closeButton-mupH76{
+    opacity: .7;
+}
+.privateChannels-oVe7HL .channel-1Shao0 .interactive-iyXY_x:hover .closeButton-mupH76:hover{
+    opacity: 1;
+}
+/* RIGHT SHIFT UPON HOVER */
 [aria-label="Private channels"] .channel-1Shao0 [class^="interactive-"]{
     transition: all 200ms ease-in-out ;
 }
