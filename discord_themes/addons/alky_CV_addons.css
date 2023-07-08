@@ -866,6 +866,9 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     width: 5rem !important;
     /*smaller stickers*/
 }
+[class*="rem-"][class*="botTag-"]{
+    vertical-align: text-top;
+}
 /*fix for reply context messages with mentions*/
 .repliedMessage-3Z6XBG .repliedTextPreview-1bvxun .repliedTextContent-2hOYMB .mention{
     line-height: 1rem;
