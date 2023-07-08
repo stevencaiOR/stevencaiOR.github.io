@@ -528,12 +528,12 @@
 #channels .wrapper-NhbLHG:not([class*="modeSelected-"]):hover svg{
   color: var(--main-color);
 }
-#channels .wrapper-NhbLHG:hover .content-1gYQeQ:before,
-#channels .wrapper-NhbLHG[class*="modeSelected-"] .content-1gYQeQ:before{
-    background: rgb(var(--main-color-numerical),0.2);
+#channels .wrapper-NhbLHG:hover .link-1_kTxV,
+#channels .wrapper-NhbLHG[class*="modeSelected-"] .link-1_kTxV{
+    background: rgb(var(--main-color-numerical),0.2) !important;
     border-radius: 8px;
 }
-#channels .wrapper-NhbLHG[class*="modeSelected-"] .content-1gYQeQ:before{
+#channels .wrapper-NhbLHG[class*="modeSelected-"] .link-1_kTxV{
     border: 2px solid var(--main-color);
 }
 #channels .wrapper-NhbLHG[class*="modeSelected-"]:hover {
