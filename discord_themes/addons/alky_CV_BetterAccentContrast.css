@@ -17,14 +17,20 @@
   --primary-130-dark: #0c0c0c;
   --primary-230-dark: #212121;
   --primary-300-dark: #363636;
+  --primary-330-dark: #444;
 
   --header-primary-dark: var(--primary-130-dark);
   --interactive-active-dark: var(--black-500);
   --interactive-hover-dark: var(--primary-230-dark);
+  --interactive-normal-dark: var(--primary-330-dark);
   --text-normal-dark: var(--primary-230-dark);
 }
 :root .pageButton-uta6J3:hover {
 	background: var(--interactive-hover-dark);
+}
+
+[aria-checked=true].item-1TA5qI .radioBar-1XgZqD [style="color: var(--interactive-normal)"]{
+  color: var(--interactive-normal-dark) !important;
 }
 
 /* generic sticker selected in sticker picker*/
