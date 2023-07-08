@@ -517,7 +517,8 @@
     padding-right: 8px !important;
     /*spacing between channel name and scroll bar*/
 }
-#channels .wrapper-NhbLHG .content-1gYQeQ:after{
+.link-1_kTxV:before,
+.link-1_kTxV:after{
     content: unset;
 }
 #channels .wrapper-NhbLHG.modeSelected-3DmyhH .name-28HaxV,
