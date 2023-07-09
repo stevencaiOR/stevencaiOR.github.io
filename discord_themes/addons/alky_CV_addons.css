@@ -1131,19 +1131,15 @@ nav[aria-label="Private channels"] ul > h2{
     margin-left: 15px;
     width: calc(100% - 15px);
 }
-/*-----SELECTED CHANNEL/DM/SUBSETTING-----*/
-nav[aria-label="Private channels"] li [class*="interactiveSelected-"]:after,
-nav.sidebar-nqHbhN > div[class^="side-"] > div[class*="item-"][class*="selected-"]:after{
-    border: 2px solid rgba(var(--main-color-numerical),0.9);
-    animation:cv-channel-select none !important;
-    -webkit-transition: none !important;
+/*-----SELECTED DM/SUBSETTING-----*/
+[class*="standardSidebarView-"] [class*="sidebar-"] [class*="side-"] [class*="item-"]:after{
+    content: unset;
 }
-/* DM'S */
-[aria-label="Private channels"] [class*="channel-"] [class*="interactive-"][class*="interactiveSelected-"]:after,
-/* SUBSETTINGS */
-[class*="standardSidebarView-"] [class*="sidebar-"] [class*="side-"] [class*="item-"][aria-selected="true"]:after{
-    background: rgb(var(--main-color-numerical),0.3) !important;
-    border-radius: 10px !important; /*!important for DM's*/
+[aria-label="Private channels"] [class*="channel-"] [class*="interactive-"][class*="interactiveSelected-"],
+[class*="standardSidebarView-"] [class*="sidebar-"] [class*="side-"] [class*="item-"][aria-selected="true"]{
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    background: rgb(var(--main-color-numerical),0.3);
 }
 /*-----HOME BUTTON-----*/
 [data-list-id="guildsnav"] [class*="tutorialContainer-"] [class*="pill-"]{
