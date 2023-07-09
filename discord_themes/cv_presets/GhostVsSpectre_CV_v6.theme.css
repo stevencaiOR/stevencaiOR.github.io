@@ -231,19 +231,16 @@ div[class^="videoControls-"] > div[class^="bottomControls"] .wrapper-3t3Yqv butt
 #channels .wrapper-NhbLHG[class*="modeSelected-"]:hover {
     opacity: 1;
 }
-#channels .wrapper-NhbLHG[class*="modeSelected-"] .content-1gYQeQ:before{
-    background: transparent;
+#channels .wrapper-NhbLHG[class*="modeSelected-"] .link-1_kTxV{
+  background: transparent !important;
 }
-#channels .wrapper-NhbLHG[class*="modeSelected-"]:hover .content-1gYQeQ:before{
-    background: rgb(var(--main-color-numerical),0.15);
+#channels .wrapper-NhbLHG[class*="modeSelected-"]:hover .link-1_kTxV{
+  background: rgb(var(--main-color-numerical),0.15) !important;
 }
 #channels .wrapper-NhbLHG[class*="modeSelected-"] .name-28HaxV,
 #channels .wrapper-NhbLHG[class*="modeSelected-"] svg{
     color: var(--main-color);
     opacity: 1;
-}
-#channels .wrapper-NhbLHG[class*="modeSelected-"] .name-28HaxV{
-    text-shadow: 0 0 10px;
 }
 /* Unread Pills */
 .unread-2wipsx,
