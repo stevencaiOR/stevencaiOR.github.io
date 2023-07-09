@@ -1139,7 +1139,6 @@ nav[aria-label="Private channels"] ul > h2{
 [class*="standardSidebarView-"] [class*="sidebar-"] [class*="side-"] [class*="item-"][aria-selected="true"]{
     border: 2px solid var(--main-color);
     border-radius: 10px;
-    background: rgb(var(--main-color-numerical),0.3);
 }
 /*-----HOME BUTTON-----*/
 [data-list-id="guildsnav"] [class*="tutorialContainer-"] [class*="pill-"]{
