@@ -512,6 +512,11 @@
 [class*="emptyIconGuilds-"]+[class*="emptyText-"]:after{
     content: "No mutual servers";
 }
+/* Note */
+.note-3M15gE{
+    margin-right: -2px;
+    /*misaligned by default*/
+}
 /*-----CHANNEL COLUMN-----*/
 #channels {
     padding-right: 8px !important;
