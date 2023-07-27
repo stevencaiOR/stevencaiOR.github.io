@@ -378,7 +378,7 @@
 
 /* NITRO */
 /* Modified background image */
-#discord-nitro-tab [class*="settingsContainer"]{
+#discord-nitro-tab [class*="settingsHero-"]{
     width: 80%;
     background: var(--nitro-bg-image, url(https://i.gyazo.com/2476b02172cbe8abf983110120745998.png)) var(--nitro-bg-pos) no-repeat;
     background-size: cover;
