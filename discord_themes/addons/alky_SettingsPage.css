@@ -20,7 +20,7 @@
     padding-top: 6px !important;
 }
 /* Decreases padding on each sidebar option */
-.sidebar-nqHbhN .item-3XjbnG{
+.sidebar-nqHbhN [class*="item-"]{
     padding-left: 10px !important;
 }
 /* Moves sidebar header and increase it font size*/
@@ -88,22 +88,22 @@
     flex-basis: 0 !important;
 }
 /* SIDEBAR TABS */
-.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:hover{
+.sidebar-nqHbhN [class*="side-"] [class*="item-"]:hover{
     background: rgb(var(--main-color-numerical),0.3) !important;
     border-radius: 6px;
 }
-.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG{
+.sidebar-nqHbhN [class*="side-"] [class*="item-"]{
     border-radius: 10px; /*default: 4px*/
     /*option box corners*/
 }
-.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:before{
+.sidebar-nqHbhN [class*="side-"] [class*="item-"]:before{
     opacity: 0.6 !important;
     /*Icons pop out more*/
 }
-.sidebar-nqHbhN > .side-2ur1Qk > .item-3XjbnG:not(.selected-g-kMVV){
+.sidebar-nqHbhN [class*="side-"] [class*="item-"]:not(.selected-g-kMVV){
     color: var(--interactive-normal) !important;
 }
-.sidebar-nqHbhN .premiumTab-39eQzY.item-3XjbnG svg{
+.sidebar-nqHbhN .premiumTab-39eQzY[class*="item-"] svg{
     display: none;
     /*removes nitro icon in sidebar*/
 }
@@ -192,7 +192,7 @@
 }
 /* PROFILES */
 /* Padding to tab bar items */
-.top-K_jibn .brand-3g5E0C.item-3XjbnG{
+.top-K_jibn .brand-3g5E0C[class*="item-"]{
     padding: 10px;
 }
 .tryItOutSection-W9qeGH{
