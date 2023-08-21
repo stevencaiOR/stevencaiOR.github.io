@@ -33,6 +33,8 @@
   color: var(--interactive-normal-dark) !important;
 }
 
+/*option in drop down menu on modals*/
+.option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4),
 /* generic sticker selected in sticker picker*/
 .stickerCategoryGenericSelected-DnO2K8 .stickerCategoryGenericIcon-3wumVD,
 /*??????*/
