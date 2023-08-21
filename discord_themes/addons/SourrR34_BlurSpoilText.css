@@ -17,7 +17,7 @@
 [class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] > span{
     color: var(--text-normal);
 }
-[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] a span{
+[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] a span:not(.highlight){
     color: var(--url-color, --text-link)
 }
 [class*="spoilerMarkdownContent-"]:not([class*="hidden-"]) code,
