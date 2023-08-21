@@ -1106,8 +1106,8 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
     filter: blur(18px);
 }
 /*-----PRIVATE CHANNELS-----*/
-/* FRIEND ICON */
-ul[aria-label="Direct Messages"] [class*="selected-"] > a[data-list-item-id$="friends"] svg[class^="linkButtonIcon-"]{
+/* FRIENDS & FAMILY CENTER ICONS */
+ul[aria-label="Direct Messages"] [class*="selected-"] > a svg[class^="linkButtonIcon-"]{
     color: var(--main-color) !important;
 }
 /* REDUCED SPACE BETWEEN FRIENDS AND DIRECT MESSAGES */
