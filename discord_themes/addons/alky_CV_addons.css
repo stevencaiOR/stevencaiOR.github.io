@@ -629,7 +629,7 @@ section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"
     background: rgb(var(--main-color-numerical), 0.4) !important;
 }
 /*-----INTERACTIVE TEXT-----*/
-.wrapper-1ZcZW-{
+:root .wrapper-1ZcZW-{
     border-radius: 5px;
     color: var(--main-color);
     background: rgb(var(--main-color-numerical), 0.2);
