@@ -1466,21 +1466,18 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
     max-width: unset;
     /*width of each member list item fills up entire column*/
 }
-.members-3WRCEx .member-2gU6Ar .username-i5-wv->span{
-    display: inline-block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .layout-1qmrhw{
     padding: 2px 8px;
     border: 2px solid var(--main-color);
     border-radius: 10px;
     background: rgb(0,0,0,0.4);
 }
-.members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .username-i5-wv->span{
+.members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .name-3Vmqxm{
+    color: var(--main-color);
+}
+.members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .username-i5-wv- > span{
     text-shadow: none;
     -webkit-text-fill-color: unset;
-    color: var(--main-color)
 }
 /* Status text */
 .members-3WRCEx .member-2gU6Ar.selected-1-Z6gm .activityText-1rR-8O,
