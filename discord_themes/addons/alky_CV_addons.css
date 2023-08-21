@@ -1823,7 +1823,7 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
     border-radius: 50%;
     /*verified game icon*/
 }
-.flowerStarContainer-1QeD-L{
+.flowerStarContainer-1QeD-L:not([class*="connectedAccountVerifiedIcon-"]){
     border-radius: 50%;
     background-color: var(--main-color);
 }
