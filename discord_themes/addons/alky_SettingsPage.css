@@ -96,11 +96,7 @@
     border-radius: 10px; /*default: 4px*/
     /*option box corners*/
 }
-.sidebar-nqHbhN [class*="side-"] [class*="item-"]:before{
-    opacity: 0.6 !important;
-    /*Icons pop out more*/
-}
-.sidebar-nqHbhN [class*="side-"] [class*="item-"]:not(.selected-g-kMVV){
+.sidebar-nqHbhN [class*="side-"] [class*="item-"]:not([class*="selected-"]){
     color: var(--interactive-normal) !important;
 }
 .sidebar-nqHbhN .premiumTab-39eQzY[class*="item-"] svg{
