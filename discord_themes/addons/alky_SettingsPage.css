@@ -96,9 +96,9 @@
     color: var(--interactive-normal);
 }
 .sidebar-nqHbhN [class*="side-"] [class*="item-"]:hover{
-    background: rgb(var(--main-color-numerical),0.3) !important;
-    border-radius: 6px;
-    color: var(--interactive-hover);
+    background: none !important;
+    text-shadow: 0 0 10px var(--main-color);
+    color: var(--main-color);
 }
 .sidebar-nqHbhN .premiumTab-39eQzY[class*="item-"] svg{
     display: none;
