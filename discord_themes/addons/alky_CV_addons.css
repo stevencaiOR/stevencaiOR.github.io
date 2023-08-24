@@ -641,14 +641,18 @@ section[aria-label="Channel header"] [class^="outer-"] input[name="channel_name"
 /*below 3 blocks for clearvision specifically*/
 :root .mention.wrapper-1ZcZW-{ /* purposely mimics first code block in INTERACTIVE TEXT*/
     border-radius: 5px;
-    color: var(--main-color);
-    background: rgb(var(--main-color-numerical), 0.2);
     padding: 2px 4px;
 }
+:root .mentioned-Tre-dv .mention.interactive:hover,
 :root .mention.interactive:hover{
     background: var(--main-color);
 }
-:root .mentioned-Tre-dv .mention.interactive{
+:root .wrapper-1ZcZW-:hover{
+    background: rgb(var(--main-color-numerical), 0.2);
+}
+:root .mention.wrapper-1ZcZW-,
+:root .mentioned-Tre-dv .mention.interactive{ /*you're mentioned*/
+    background: rgb(var(--main-color-numerical), 0.2);
     color: var(--main-color); /*only need to override color, hence its own block*/
 }
 /* MINIMIZE LONG USERNAME */
