@@ -1,0 +1,35 @@
+:root{
+    --member-list-width: 320px; /*default: 232px*/
+}
+/* MEMBER LIST */
+.Channel__ChannelMain-sc-k5myot-0 .dUCGFk{
+    width: var(--member-list-width); /*increased width so latest, oldest and relevance buttons have enough space*/
+}
+/* UNREAD BAR */
+.gILwrq > div{
+    transition: .25s;
+    border: 2px solid var(--accent);
+    background: var(--accent);
+}
+.gILwrq > div:hover{
+    background: var(--accent-contrast);
+    color: var(--accent);
+}
+/* MESSAGE BOX */
+.MessageBox__Action-sc-jul4fa-2:nth-child(3) .IconButton-sc-166lqkp-0{
+    width: 64px;
+}
+.MessageBox__Action-sc-jul4fa-2:nth-child(3) .IconButton-sc-166lqkp-0 svg{
+    display: none;
+}
+.MessageBox__Action-sc-jul4fa-2:nth-child(3) .IconButton-sc-166lqkp-0:after{
+    content: "[Emoji]";
+}
+/* SERVER SIDEBAR */
+foreignObject[mask="url(#holepunch-top-right)"]{
+    border: 2px solid;
+    border-radius: 50%;
+}
+foreignObject[mask="url(#holepunch-top-right)"]+circle{
+    fill: currentColor;
+}
