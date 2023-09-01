@@ -218,6 +218,7 @@
 ._item_1avxi_1:not([data-active="true"]):hover{
     background: rgb(var(--accent-rgb),0.15);
 }
+/*
 ._item_1avxi_1[data-active="true"]:hover{
     text-shadow: 0 0 5px;
 }
