@@ -4,6 +4,7 @@
     --font: Orbitron !important;
     --monospace-font: Consolas !important;
 
+    --accent-contrast: #000;
     --status-focus: hsl(210, 75%, 45%);
     --window-radius: 15px;
     --window-border-width: 3px;
@@ -294,5 +295,5 @@ body, /*Pencil Icon, Messages, Etc*/
 /* BETTER ACCENT CONTRAST */
 /* If background is --accent and color is bright, changes color to dark for better contrast */
 ._titleNew_fwdgs_576 ._new_fwdgs_586{
-    color: #000;
+    color: var(--accent-contrast);
 }
