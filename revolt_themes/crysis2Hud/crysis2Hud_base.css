@@ -129,6 +129,9 @@
         width: calc(50% - 4px);
     }
     /* HOME AND FRIENDS TAB */
+    .jKeKvP summary{
+        background: unset; /*removes unnecessary background. bg behind it is already same color anyways*/
+    }
     .eMqgHq:hover{
         box-shadow: 0 0 0 2px;
     }
@@ -139,7 +142,7 @@
         color: var(--accent);
     }
     ._friend_sd6wo_33:hover{
-        border: 2px solid;
+        box-shadow: 0 0 0 2px;
     }
     .eMqgHq:hover .content .title,
     ._friend_sd6wo_33:hover{
