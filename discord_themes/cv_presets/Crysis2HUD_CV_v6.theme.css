@@ -162,8 +162,7 @@
 [class*="layers-"] > [class*="layer-"][class*="baseLayer-"],
 #app-mount > div[class*="titleBar"]{
   width: 90vw;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   /*first selector is main window*/
   /*second selector is title bar that contains windows button*/
 }
