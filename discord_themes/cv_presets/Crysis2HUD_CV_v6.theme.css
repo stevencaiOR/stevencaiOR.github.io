@@ -149,7 +149,7 @@
 		var(--background-attachment) !important;
   /* ONLY DO THIS IF --BACKGROUND-OVERLAY IS TRANSPARENT. OTHERWISE, --BACKGROUND-OVERLAY WILL NOT APPLY */
 }
-#app-mount [class^="notAppAsidePanel-"] > div[class^="app-"] > div[class^="app-"] > div[class^="layers-"] > div[class^="layer-"]{
+[class*="layers-"] > [class*="layer-"][class*="baseLayer-"]{
   height: 55vh;
   border-radius: 10px;
   border: 3px solid var(--main-color);
@@ -159,7 +159,7 @@
   /*position: absolute; (default)
   top: 14.5vh; when position is absolute*/
 }
-#app-mount [class^="notAppAsidePanel-"] > div[class^="app-"] > div[class^="app-"] > div[class^="layers-"] > div[class^="layer-"],
+[class*="layers-"] > [class*="layer-"][class*="baseLayer-"],
 #app-mount > div[class*="titleBar"]{
   width: 90vw;
   margin-right: auto;
