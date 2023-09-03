@@ -163,8 +163,6 @@
 #app-mount > div[class*="titleBar"]{
   width: 90vw;
   margin: 0 auto;
-  /*first selector is main window*/
-  /*second selector is title bar that contains windows button*/
 }
 #app-mount > div[class*="titleBar"]{
   background: transparent;
@@ -179,7 +177,7 @@
 }
 /*any change in top, margin-top and margin-top in last 3 selectors MUST be equal*/
 #app-mount > div[class*="titleBar"] > div[aria-label="Close"]{
-  border-top-right-radius: 5px;
+  border-top-right-radius: 7px;
   /*aligns border radius of close button with window*/
 }
 
