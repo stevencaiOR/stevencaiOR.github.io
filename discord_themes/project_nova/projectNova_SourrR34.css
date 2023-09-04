@@ -251,7 +251,7 @@
     /* Discord Vars */
     --background-primary: rgb(0,0,0,0.4);
     --background-secondary: var(--background-primary);
-    --background-secondary-alt: rgb(0,0,0,.3); /*rgb(0,0,0,0.5)*/
+    --background-secondary-alt: rgb(0,0,0,.3); /*role dot background*/
     --background-tertiary: rgb(0,0,0,.6);
     --channel-icon: var(--channels-default);
     /**--channels-default: hsl(var(--accent-hsl) / .7);/**/
