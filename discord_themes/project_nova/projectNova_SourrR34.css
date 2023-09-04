@@ -326,6 +326,12 @@
 .privateChannels-oVe7HL+.panels-3wFtMD{
     background: var(--background-secondary);
 }
+.sidebar-1tnWFu{
+    width: 320px; /*increased width for longer names*/
+}
+.channel-1Shao0{
+    max-width: 96.4%; /*default: 224px. 96.4% very close*/
+}
 /* DIRECT MESSAGES, CHANNEL LIST AND MEMBER LIST */
 .modeMuted-2T4MDZ .icon-2W8DHg,
 .modeMuted-2T4MDZ .name-28HaxV{
