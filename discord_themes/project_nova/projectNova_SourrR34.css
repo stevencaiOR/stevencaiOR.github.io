@@ -299,6 +299,19 @@
 #app-mount > div[class*="titleBar"] [class*="winButton-"]{
     top: 0;
 }
+/* WATERMARKS */
+#app-mount > div[class*="titleBar"] > div:first-child{
+    padding: 5px 9px;
+}
+#app-mount > div[class*="titleBar"] > div:first-child:before{
+    content: var(--watermark);
+    color: var(--accent);
+    font-size: 14px;
+    font-weight: 600;
+}
+#app-mount > div[class*="titleBar"] > div:first-child svg{
+    display: none;
+}
 /* SERVER BAR */
 [class*="folder-"],
 [class*="folder-"][class*="hover-"]{
