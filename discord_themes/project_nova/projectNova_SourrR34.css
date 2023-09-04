@@ -312,6 +312,24 @@
 #app-mount > div[class*="titleBar"] > div:first-child svg{
     display: none;
 }
+/* UNREAD BUTTONS */
+.mention-3XBnnZ,
+.mention-3XBnnZ:active,
+.unread-2wipsx,
+.unread-2wipsx:active{
+    background: var(--accent);
+}
+.mention-3XBnnZ,
+.unread-2wipsx{
+    color: var(--accent-contrast);
+    font-size: 13px;
+    line-height: 1.2;
+    opacity: 1;
+}
+.mention-3XBnnZ:hover,
+.unread-2wipsx:hover{
+    filter: brightness(1.1);
+}
 /* SERVER BAR */
 [class*="folder-"],
 [class*="folder-"][class*="hover-"]{
