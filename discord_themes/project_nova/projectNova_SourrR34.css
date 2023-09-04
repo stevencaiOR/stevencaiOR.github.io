@@ -307,6 +307,10 @@
 .item-2LIpTv{
     background: var(--accent);
 }
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub{
+    color: var(--accent-contrast)
+}
 /* SIDEBAR */
 .platform-win [class*="sidebar-"]{
     border-radius: unset;
