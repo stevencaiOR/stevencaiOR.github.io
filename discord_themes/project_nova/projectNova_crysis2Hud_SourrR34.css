@@ -1,0 +1,47 @@
+.theme-dark,
+.theme-light,
+.theme-amoled{
+    --watermark: "CRYNET SYSTEMS";
+
+    --accent-hsl: 192.321 100% 78.039%;
+    --accent-2-hsl: 192.321 50% 60%;
+    --accent-contrast: #000;
+
+    --font-global: Orbitron, Titillium Web;
+
+    --popout-color-bottom: #000;
+
+    --background-image: url(https://i.imgur.com/iBb7wwY.png);
+}
+
+/* ADJUSTED WINDOW */
+[class*="layers-"] > [class*="layer-"]{
+    height: 55vh;
+    border-radius: 10px;
+    border: 3px solid var(--accent);
+    
+    position: fixed;
+    top: 16.2vh;
+    /*position: absolute; (default)
+    top: 14.5vh; when position is absolute*/
+}
+[class*="layers-"] > [class*="layer-"],
+#app-mount > div[class*="titleBar"]{
+    width: 90vw;
+    margin: 0 auto;
+}
+#app-mount > div[class*="titleBar"]{
+    background: transparent;
+    box-shadow: none;
+    position: relative;
+}
+#app-mount > div[class*="titleBar"] > div{
+    margin-top: calc(16.2vh + 2px); /*2px for the border (formula is border - 1px)*/
+    width: 25%;
+}
+#app-mount > div[class*="titleBar"] > div[aria-label="Close"]{
+    border-top-right-radius: 7px;
+}
+.titleBar-1it3bQ{
+    z-index: 1001; /* fix for windows button + watermark appearing over popouts and images */
+}
