@@ -462,7 +462,20 @@
 .overlayBackground-2aa7wt{
     background: rgb(0,0,0,.5);
 }
-
+/* Roles */
+.roles-3vQPxb .roleRemoveIcon-387wKV,
+.roleWrapper-2IhvNd .roleRemoveIcon-387wKV{
+    left: calc(100% - 10px);
+}
+.roles-3vQPxb .role-2TIOKu,
+.roleWrapper-2IhvNd .role-2TIOKu{
+    border: 3px solid rgb(255,255,255,.3);
+    padding: 10px 4px;
+}
+.roles-3vQPxb .role-2TIOKu:hover,
+.roleWrapper-2IhvNd .role-2TIOKu:hover{
+    border-color: rgb(255,255,255,.5);
+}
 /* CHANNEL TEXT AREA */
 .form-3gdLxP{
     margin-top: 0;
