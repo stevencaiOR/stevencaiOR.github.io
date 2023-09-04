@@ -229,7 +229,7 @@
     --radio-bar-red: var(--dnd);
 
     /* Fonts */
-    --font-global: Jura, Orbitron, Titillium Web;
+    --font-global: Jura, Titillium Web;
     --font-primary: var(--font-global);
     --font-headline: var(--font-global);
     --font-display: var(--font-global);
