@@ -147,7 +147,7 @@
   background: var(--background-image) var(--background-position) /
 		var(--background-size) var(--background-repeat)
 		var(--background-attachment) !important;
-  /* ONLY DO THIS IF --BACKGROUND-OVERLAY IS TRANSPARENT. OTHERWISE, --BACKGROUND-OVERLAY WILL NOT APPLY */
+  /* ONLY DO THIS IF --BACKGROUND-OVERLAY IS TRANSPARENT AND NO FILTERS. OTHERWISE, --BACKGROUND-OVERLAY WILL NOT APPLY, AND FILTERS APPLY ON EVERYTHING */
 }
 [class*="layers-"] > [class*="layer-"]{
   height: 55vh;
