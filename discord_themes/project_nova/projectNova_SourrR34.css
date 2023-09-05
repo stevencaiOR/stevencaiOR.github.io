@@ -364,11 +364,6 @@
     max-width: 96.4%; /*default: 224px. 96.4% very close*/
 }
 /* DIRECT MESSAGES, CHANNEL LIST AND MEMBER LIST */
-.modeMuted-2T4MDZ .icon-2W8DHg,
-.modeMuted-2T4MDZ .name-28HaxV{
-    color: var(--channels-default);
-    opacity: .4;
-}
 .interactiveSelected-29CP8y,
 .interactive-26HRN_:focus-within,
 .interactive-26HRN_:hover,
