@@ -612,6 +612,16 @@ rect[mask="url(#svg-mask-status-offline)"]{
 .themed-Hp1KC_ .icon-2xnN2Y{
     color: var(--accent);
 }
+/* Group DM Name */
+.outer-1KB3kA .input-1nrc5P{
+    border: 2px solid #0000;
+}
+.outer-1KB3kA:hover .input-1nrc5P{
+    border-color: var(--accent);
+}
+.input-1nrc5P:focus{
+    background: rgb(255,255,255,.1);
+}
 /* SEARCH BARS */
 [class*="searchBar-"] [class*="searchBarComponent-"]{
     border: 3px solid var(--accent);
