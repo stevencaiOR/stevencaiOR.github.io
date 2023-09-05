@@ -466,6 +466,19 @@
 .overlayBackground-2aa7wt{
     background: rgb(0,0,0,.5);
 }
+/* Weird Username Support */
+[class*="userPopoutOverlayBackground-"] [class*="nickname-"],
+[class*="userProfileModalOverlayBackground-"] [class*="text-lg-semibold-"]{
+    line-height: 2.8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+[class*="userPopoutOverlayBackground-"] [class*="userTag-"],
+[class*="userProfileModalOverlayBackground-"] [class*="nameTagSmall-"]{
+    font-size: 16px; /*default: 14px*/
+    line-height: 2.8;
+}
 /* Modal Tabs*/
 [aria-label="User Profile Modal"] [class*="tabBar-"]{
     justify-content: space-evenly;
