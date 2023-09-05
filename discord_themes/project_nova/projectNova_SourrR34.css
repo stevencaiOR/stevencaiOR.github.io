@@ -212,7 +212,9 @@
     --accent: hsl(var(--accent-hsl));
     --accent-hsl: 212.042 80% 55%;
     --accent-2: hsl(var(--accent-2-hsl));
-    --accent-2-hsl: 212.042 70% 40%;
+    --accent-2-hsl: 212.042 calc(var(--accent-saturation-coefficient) * 80%) calc(var(--accent-lightness-coefficient) * 55%);
+    --accent-saturation-coefficient: 1;
+    --accent-lightness-coefficient: .7;
     --accent-contrast: #fff; /*#000, #fff*/
 
     /* Status Colors */
