@@ -743,6 +743,9 @@ img[alt*="clyde" i]{
     background: var(--accent);
     color: var(--accent-contrast);
 }
+.selectedIcon-122rMx circle[fill="white"]{
+    fill: var(--accent-contrast);
+}
 /* Default Emoji in Inputs */
 .sprite-2lxwfc{
     background-image: var(--home-icon);
