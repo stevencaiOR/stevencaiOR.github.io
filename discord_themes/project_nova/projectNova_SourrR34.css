@@ -455,12 +455,20 @@
     background: none;
 }
 
-/* USER POPOUTS + MODdALS */
+/* USER POPOUTS + MODALS */
 [class*="userProfileInnerThemedNonPremium-"]{
     background: var(--popout-background);
 }
 .overlayBackground-2aa7wt{
     background: rgb(0,0,0,.5);
+}
+/* Modal Tabs*/
+[aria-label="User Profile Modal"] [class*="tabBar-"]{
+    justify-content: space-evenly;
+}
+.top-Ktfr_T .themed-qqoYp3.item-2GWPIy:hover,
+.top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy{
+    border-bottom-color: var(--accent);
 }
 /* Roles */
 .roles-3vQPxb .roleRemoveIcon-387wKV,
