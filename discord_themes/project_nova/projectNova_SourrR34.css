@@ -324,6 +324,17 @@
 #app-mount > div[class*="titleBar"] > div:first-child svg{
     display: none;
 }
+/* SCROLL BARS */
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+	background: var(--accent);
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:active{
+    background: var(--accent-2);
+}
 /* UNREAD BUTTONS */
 .mention-3XBnnZ,
 .mention-3XBnnZ:active,
