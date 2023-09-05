@@ -617,7 +617,10 @@ rect[mask="url(#svg-mask-status-offline)"]{
 [class*="cardPrimary-"][class*="editable"]{
     border-color: var(--accent);
 }
-
+::selection{
+    background: var(--accent);
+    color: var(--accent-contrast);
+}
 /* PINGS */
 .mentioned-Tre-dv{
     background: hsl(var(--accent-hsl) / .2);
