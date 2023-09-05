@@ -711,8 +711,27 @@ header.searchHeader-1r_ZSh+div{
 .button-cfOvv-:hover{
     background: var(--accent-2);
 }
-/* ANTI DUMB SHIT */
-
+/* ANTI DUMB SHIT (work in progress) */
+.root-1F1IKT,
+[class^="art-"],
+[class*="artContainer-"],
+[class*="bannerArt-"],
+[class*="backgroundImages-"],
+[class*="heroBanner-"],
+[class*="howItWorksImage-"],
+[class*="image-"],
+[class*="upsellImage-"],
+[class*="perkNewsletter-"],
+[class*="perkBadge-"],
+[class*="perkChallenges-"],
+img[class*="roleSubscription"],
+[class*="sparkles-"],
+img[alt="Image"],
+img[alt*="mallow" i],
+img[alt*="graggle" i],
+img[alt*="clyde" i]{
+    display: none !important;
+}
 /* MISCELLANEOUS */
 [class*="cardPrimary-"],
 [class*="cardPrimary-"][class*="editable"]{
