@@ -301,7 +301,7 @@
     margin-top: 0;
     height: 22px;
 }
-#app-mount > div[class*="titleBar"] [class*="winButton-"]{
+[class*="winButton-"]{
     top: 0;
 }
 /* WATERMARKS */
