@@ -453,7 +453,9 @@
 .container-2o3qEW{
     background: none;
 }
-
+.membersWrap-3NUR2t{
+    height: 100%;
+}
 /* USER POPOUTS + MODALS */
 [class*="userProfileInnerThemedNonPremium-"]{
     background: var(--popout-background);
