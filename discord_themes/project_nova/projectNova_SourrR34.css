@@ -656,3 +656,14 @@ rect[mask="url(#svg-mask-status-offline)"]{
 #account-status-picker--invisible[class*="focused-"]{
     background: var(--offline);
 }
+[class*="menu-"] [class*="menuItemFocused-"]{
+    background: var(--accent);
+}
+[class*="colorDefault-"][class*="focused-"],
+[class*="colorDefault-"][class*="focused-"] [class*="userMenuUsername-"] [class*="userMenuDiscriminator-"],
+[class*="colorDefault-"][class*="focused-"] [class*="userMenuUsername-"] [class*="userMenuText-"]{
+    color: var(--accent-contrast);
+}
+[class*="colorDefault-"] [fill*="var(--white-500)"]{
+    fill: var(--accent-contrast);
+}
