@@ -657,8 +657,8 @@ rect[mask="url(#svg-mask-status-offline)"]{
     border-radius: 8px;
     width: 300px; /*default: 144px*/
 }
-[class*="search-"].focused-1xh-wG [class*="searchBar-"],
-[class*="search-"].open-1F8u2c [class*="searchBar-"]{
+[class*="search-"][class*="focused-"] [class*="searchBar-"],
+[class*="search-"][class*="open-"] [class*="searchBar-"]{
     width: 350px;
 }
 /* SEARCH BARS */
