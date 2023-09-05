@@ -638,6 +638,9 @@ rect[mask="url(#svg-mask-status-offline)"]{
     color: var(--accent-contrast);
 }
 /* BUTTONS */
+[class*="lookFilled-"][class*="colorBrand-"].button-1EGGcP.buttonColor-3bP3fX /*voice panel action buttons*/{
+    background: var(--accent);
+}
 [class*="lookFilled-"][class*="colorBrand-"]{
     color: var(--accent-contrast);
 }
