@@ -735,7 +735,8 @@ img[class*="roleSubscription"],
 [class*="sparkles-"],
 img[alt*="mallow" i],
 img[alt*="graggle" i],
-img[alt*="clyde" i]{
+img[alt*="clyde" i],
+img[alt*="wumpus" i]{
     display: none !important;
 }
 /* MISCELLANEOUS */
