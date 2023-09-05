@@ -254,6 +254,7 @@
     --popout-background: linear-gradient(var(--popout-color-top), var(--popout-top-percent), var(--popout-color-bottom));
 
     /* Discord Vars */
+    --background-mentioned: hsl(var(--accent-hsl) / .2);
     --background-primary: rgb(0,0,0,0.4);
     --background-secondary: var(--background-primary);
     --background-secondary-alt: rgb(0,0,0,.3); /*role dot background*/
@@ -738,9 +739,6 @@ header.searchHeader-1r_ZSh+div{
     color: var(--accent-contrast);
 }
 /* Pings */
-.mentioned-Tre-dv{
-    background: hsl(var(--accent-hsl) / .2);
-}
 .mentioned-Tre-dv:before{
     background: var(--accent);
     width: 2px;
