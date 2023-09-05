@@ -3,8 +3,16 @@
 .theme-amoled{
     --watermark: "CRYNET SYSTEMS";
 
+    /**
     --accent-hsl: 192.321 100% 78.039%;
-    --accent-2-hsl: 192.321 50% 60%;
+    --accent-2-hsl: 192.321 50% 60%;/**/
+
+    --accent-hue: 192.321;
+    --accent-saturation-base: 100%;
+    --accent-saturation-coefficient: 1; /*.5*/
+    --accent-lightness-base: 78.039%;
+    --accent-lightness-coefficient: .7; /*.769*/
+
     --accent-contrast: #000;
 
     --font-global: Orbitron, Titillium Web;
