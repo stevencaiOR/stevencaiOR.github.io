@@ -40,12 +40,10 @@
     top: 14.5vh; when position is absolute*/
 }
 #app-mount > div[class*="titleBar"]{
-    top: calc(16.2vh + 2px)
-}
-#app-mount > div[class*="titleBar"]{
     background: transparent;
     box-shadow: none;
     position: relative;
+    top: calc(16.2vh + 2px);
 }
 #app-mount > div[class*="titleBar"] > div{
     width: 25%;
