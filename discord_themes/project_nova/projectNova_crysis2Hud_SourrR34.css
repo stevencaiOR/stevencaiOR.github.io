@@ -46,10 +46,8 @@
     box-shadow: none;
     position: relative;
     top: calc(16.2vh + 2px); /*always +2px of top property in [class*="layers-"] > [class*="layer-"]*/
+    z-index: 1001; /* fix for windows button + watermark appearing over popouts and images */
 }
 #app-mount > div[class*="titleBar"] > div[aria-label="Close"]{
     border-top-right-radius: 7px;
-}
-.titleBar-1it3bQ{
-    z-index: 1001; /* fix for windows button + watermark appearing over popouts and images */
 }
