@@ -46,7 +46,6 @@
     position: relative;
 }
 #app-mount > div[class*="titleBar"] > div{
-    margin-top: calc(16.2vh + 2px); /*2px for the border (formula is border - 1px)*/
     width: 25%;
 }
 #app-mount > div[class*="titleBar"] > div[aria-label="Close"]{
