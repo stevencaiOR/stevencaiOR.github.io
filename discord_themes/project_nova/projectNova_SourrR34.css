@@ -620,6 +620,9 @@ rect[mask="url(#svg-mask-status-offline)"]{
 .selected-29KTGM .icon-2xnN2Y {
     filter: drop-shadow(0 0 5px)
 }
+.clickable-ZD7xvu:hover .icon-2xnN2Y {
+    color: var(--accent-2);
+}
 /* Group DM Name */
 .outer-1KB3kA .input-1nrc5P{
     border: 2px solid #0000;
