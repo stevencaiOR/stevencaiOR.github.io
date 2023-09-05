@@ -333,7 +333,7 @@
 }
 .mention-3XBnnZ:hover,
 .unread-2wipsx:hover{
-    filter: brightness(1.1);
+    background: var(--accent-2);
 }
 /* SERVER BAR */
 [class*="folder-"],
