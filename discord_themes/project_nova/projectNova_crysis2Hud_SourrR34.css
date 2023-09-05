@@ -25,19 +25,19 @@
 }
 
 /* ADJUSTED WINDOW */
-[class*="layers-"] > [class*="layer-"],
-#app-mount > div[class*="titleBar"]{
-    margin: 0 auto;
-    position: fixed;
-    /*position: absolute; (default)
-    top: 14.5vh; when position is absolute*/
-    width: 90vw;
-}
 [class*="layers-"] > [class*="layer-"]{
     border: 3px solid var(--accent);
     border-radius: 10px;
+
     height: 55vh;
+    width: 90vw;
+
+    margin: 0 auto;
+
+    position: fixed;
     top: 16.2vh;
+    /*position: absolute; (default)
+    top: 14.5vh; when position is absolute*/
 }
 #app-mount > div[class*="titleBar"]{
     top: calc(16.2vh + 2px)
