@@ -632,13 +632,11 @@ rect[mask="url(#svg-mask-status-streaming)"]{
 rect[mask="url(#svg-mask-status-offline)"]{
     fill: var(--offline);
 }
-
 /* NUMBER BADGES */
 [class*="numberBadge-"][style*="background-color: var(--status-danger)"]{
     background: var(--accent) !important;
     color: var(--accent-contrast);
 }
-
 /* BUTTONS */
 [class*="lookFilled-"][class*="colorBrand-"]{
     color: var(--accent-contrast);
@@ -782,7 +780,6 @@ img[alt*="clyde" i]{
 [class*="quickswitcher-"] [class*="input-"]{
     border: 2px solid var(--accent);
 }
-
 /* USER AREA */
 [class*="withTagAsButton-"]:hover,
 [class*="withTagless-"]:hover{
