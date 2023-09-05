@@ -470,6 +470,11 @@
 .top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy{
     border-bottom-color: var(--accent);
 }
+/* Mutual Friends + Servers */
+[class*="emptyIconFriends-"],
+[class*="emptyIconGuilds-"]{
+    display: none;
+}
 /* Roles */
 .roles-3vQPxb .roleRemoveIcon-387wKV,
 .roleWrapper-2IhvNd .roleRemoveIcon-387wKV{
