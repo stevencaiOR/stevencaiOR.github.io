@@ -247,6 +247,9 @@
     --background-repeat: no-repeat;
     --background-attachment: fixed;
 
+    /* Home Button */
+    --home-icon: url(https://i.imgur.com/QNZ0Vi2.png);
+
     /* User Popout + Modal */
     --popout-color-top: #000;
     --popout-color-bottom: var(--accent);
