@@ -261,9 +261,9 @@
     --modal-background: #101010;
     --modal-footer-background: #080808;
     --scrollbar-auto-scrollbar-color-thumb: var(--accent);
-	--scrollbar-auto-scrollbar-color-track: transparent;
+	--scrollbar-auto-scrollbar-color-track: #0000;
 	--scrollbar-auto-thumb: var(--accent);
-	--scrollbar-auto-track: transparent;
+	--scrollbar-auto-track: #0000;
 	--scrollbar-thin-thumb: var(--accent);
     --text-link: var(--accent);
 }
@@ -542,7 +542,7 @@
 }
 /* Add Friend Pill */
 .tabBar-ra-EuL [class*="addFriend-"]:hover{
-    background: transparent !important;
+    background: #0000 !important;
     border: 3px solid;
     color: var(--text-positive) !important;
 }
