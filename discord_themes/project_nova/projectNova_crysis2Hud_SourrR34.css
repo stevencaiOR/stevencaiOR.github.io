@@ -9,7 +9,7 @@
 
     --accent-hue: 192.321;
     --accent-saturation-base: 100%;
-    --accent-saturation-coefficient: 1; /*.5*/
+    --accent-saturation-coefficient: .5; /*.5*/
     --accent-lightness-base: 78.039%;
     --accent-lightness-coefficient: .7; /*.769*/
 
