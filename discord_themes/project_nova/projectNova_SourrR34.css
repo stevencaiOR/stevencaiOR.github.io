@@ -725,6 +725,13 @@ header.searchHeader-1r_ZSh+div{
     background: hsl(var(--accent-hsl) / .2);
     color: var(--accent);
     padding: 2px 4px;
+
+    /*long username support*/
+    display: inline-block;
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
 }
 .interactive:hover{
     background: var(--accent);
