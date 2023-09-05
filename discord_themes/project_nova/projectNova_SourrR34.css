@@ -720,7 +720,17 @@ header.searchHeader-1r_ZSh+div{
     background: var(--accent);
     color: var(--accent-contrast);
 }
-/* PINGS */
+/* INTERACTIVE TEXT */
+.wrapper-1ZcZW-{
+    background: hsl(var(--accent-hsl) / .2);
+    color: var(--accent);
+    padding: 2px 4px;
+}
+.interactive:hover{
+    background: var(--accent);
+    color: var(--accent-contrast);
+}
+/* Pings */
 .mentioned-Tre-dv{
     background: hsl(var(--accent-hsl) / .2);
 }
