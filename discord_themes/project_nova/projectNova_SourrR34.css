@@ -301,10 +301,17 @@
     margin-top: 0;
     height: 22px;
 }
+/* TITLE BAR + WINDOWS BUTTONS */
 [class*="winButton-"]{
+    color: var(--accent);
     top: 0;
+    width: calc(100%/9);
 }
-/* WATERMARKS */
+[class*="winButton-"]:hover:not([aria-label="Close"]){
+    background: var(--accent);
+    color: var(--accent-contrast);
+}
+/* Watermark */
 #app-mount > div[class*="titleBar"] > div:first-child{
     padding: 5px 9px;
 }
