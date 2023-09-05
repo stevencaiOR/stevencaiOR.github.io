@@ -668,6 +668,29 @@ rect[mask="url(#svg-mask-status-offline)"]{
     box-sizing: content-box;
     border-radius: 8px;
 }
+/* SEARCH RESULTS WRAP */
+.searchHeader-1r_ZSh,
+header.searchHeader-1r_ZSh+div{
+    background: var(--background-secondary-alt); /*search results wrap background matches aside profile panel*/
+}
+.highlight{ /*highlighted queried text*/
+    background: var(--accent);
+    color: var(--accent-contrast);
+}
+.container-rZM65Y .buttonsContainer-Nmgy7x{
+    display: flex;
+    /*always show jump button*/
+}
+.button-cfOvv-,
+.button-cfOvv-:hover{
+    color: var(--accent-contrast);
+}
+.button-cfOvv-{
+    background: var(--accent);
+}
+.button-cfOvv-:hover{
+    background: var(--accent-2);
+}
 /* ANTI DUMB SHIT */
 
 /* MISCELLANEOUS */
