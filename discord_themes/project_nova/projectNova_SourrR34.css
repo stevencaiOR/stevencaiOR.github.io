@@ -650,6 +650,17 @@ rect[mask="url(#svg-mask-status-offline)"]{
 .input-1nrc5P:focus{
     background: rgb(255,255,255,.1);
 }
+/* Header Search Bar */
+[class*="search-"] [class*="searchBar-"]{
+    border: 3px solid var(--accent);
+    box-sizing: content-box;
+    border-radius: 8px;
+    width: 300px; /*default: 144px*/
+}
+[class*="search-"].focused-1xh-wG [class*="searchBar-"],
+[class*="search-"].open-1F8u2c [class*="searchBar-"]{
+    width: 350px;
+}
 /* SEARCH BARS */
 [class*="searchBar-"] [class*="searchBarComponent-"]{
     border: 3px solid var(--accent);
