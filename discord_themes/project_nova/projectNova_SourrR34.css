@@ -537,6 +537,10 @@
 .divider-2rZFJK{
     border-color: var(--accent);
 }
+/* Replied Messages */
+.repliedMessage-3Z6XBG:before{
+    border-color: var(--accent);
+}
 /* Chat Header */
 .header-1dhDWV{
     max-width: 30%;
