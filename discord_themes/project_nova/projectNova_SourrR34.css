@@ -830,6 +830,9 @@ img[alt*="wumpus" i]{
 [style*="background-color: var(--brand-500)"]{
     color: var(--accent-contrast)
 }
+[class*="attachedBars-"]{
+    background: none;
+}
 /* Shorten Long Usernames (message area, search results wrap, reply contexts, etc) */
 .username-h_Y3Us{
     display: inline-block;
