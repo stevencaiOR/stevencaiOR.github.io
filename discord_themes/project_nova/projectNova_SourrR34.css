@@ -532,6 +532,13 @@
 [class*="channelTextArea-"] [class*="themedBackground-"]{
     background: none;
 }
+/* Reply Bar */
+.name-3DDHNY{
+    display: inline-block;
+    max-width: 25ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 /* MESSAGE AREA */
 .divider-2rZFJK{
     border-color: var(--accent);
