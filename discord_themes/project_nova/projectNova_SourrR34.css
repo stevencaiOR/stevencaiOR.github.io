@@ -1,17 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap);
 
-.default-colors,
-:root{
-    /* There is no reason these should rely on --saturation-factor, hence replaced with hex */
-    --primary-100: #F8F8F8;
-    --primary-130: #F3F3F3;
-    --primary-160: #ECECEC;
-    --primary-200: #E5E5E5;
-    --primary-230: #DDD;
-    --primary-300: #c9c9c9;
-    --primary-400: #888;
-    --primary-500: #525252;
-}
 .theme-light,
 .theme-amoled{
     /* Cut and pasted .theme-dark var assignments into .theme-light and .theme-amoled*/
