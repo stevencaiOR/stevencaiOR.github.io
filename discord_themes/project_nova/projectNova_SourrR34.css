@@ -241,7 +241,7 @@
     /* User Popout + Modal */
     --popout-color-top: #000;
     --popout-color-bottom: var(--accent);
-    --popout-top-percent: 70%;
+    --popout-top-percent: 90%;
     --popout-background: linear-gradient(var(--popout-color-top), var(--popout-top-percent), var(--popout-color-bottom));
 
     /* Discord Vars */
