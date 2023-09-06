@@ -554,6 +554,17 @@
     text-overflow: ellipsis;
     vertical-align: top; /*certain unicode characters fuck up vertical alignment of text so*/
 }
+/* Chat Header (new server) */
+.subtitle-3tY4DQ{
+    line-height: 0;
+    text-indent: -99999px;
+}
+.subtitle-3tY4DQ:after{
+    line-height: 18px;
+    text-indent: 0;
+    content: "Below are some steps to help you get this server started.";
+    display: block;
+}
 /* Button Menu On Right */
 .message-2CShn3 .buttonsInner-1ynJCY{
     box-shadow: 0 0 0 2px var(--accent);
