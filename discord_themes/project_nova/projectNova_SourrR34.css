@@ -837,6 +837,9 @@ img[alt*="wumpus" i]{
 [style*="background-color: var(--brand-500)"]{
     color: var(--accent-contrast)
 }
+[class*="lookFilled-"][class*="colorBrandNew-"]{
+    color: var(--accent-contrast)
+}
 [class*="attachedBars-"]{
     background: none;
 }
