@@ -560,7 +560,7 @@
 }
 /* Chat Header */
 .header-1dhDWV{
-    max-width: 20ch;
+    max-width: 25ch;
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 2.8;
@@ -570,7 +570,7 @@
 }
 .description-22d6ux strong{
     display: inline-block;
-    max-width: 20ch;
+    max-width: 25ch;
     overflow: hidden;
     text-overflow: ellipsis;
     vertical-align: top; /*certain unicode characters fuck up vertical alignment of text so*/
@@ -830,7 +830,7 @@ img[alt*="wumpus" i]{
 /* Shorten Long Usernames (message area, search results wrap, reply contexts, etc) */
 .username-h_Y3Us{
     display: inline-block;
-    max-width: 20ch;
+    max-width: 25ch;
 
     text-overflow: ellipsis;
     white-space: pre;
@@ -871,7 +871,7 @@ img[alt*="wumpus" i]{
 /* Long Username Support */
 .contents-2MsGLg .wrapper-1ZcZW-{ /* does NOT affect replies. still *may* not work completely as intended (check IPL) */
     display: inline-block;
-    max-width: 20ch;
+    max-width: 25ch;
     overflow: hidden;
     text-overflow: ellipsis;
     vertical-align: middle;
