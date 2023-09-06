@@ -757,6 +757,13 @@ img[alt*="wumpus" i]{
 .selectedIcon-122rMx circle[fill="white"]{
     fill: var(--accent-contrast);
 }
+/* Bot Tags */
+[class*="botTagRegular-"]{
+	color: var(--accent-contrast);
+}
+[class*="botTagInvert-"]{
+	background: var(--accent-contrast);
+}
 /* Default Emoji in Inputs */
 .sprite-2lxwfc{
     background-image: var(--home-icon);
