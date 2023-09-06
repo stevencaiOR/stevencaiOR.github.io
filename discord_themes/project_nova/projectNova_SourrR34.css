@@ -537,6 +537,23 @@
 .divider-2rZFJK{
     border-color: var(--accent);
 }
+/* New Member Badge */
+[class*="newMemberBadge-"]{
+    width: unset;
+    height: calc(1rem + 6px);
+}
+[class*="newMemberBadge-"] svg{
+    display: none;
+}
+[class*="newMemberBadge-"]:before{
+    content: "New";
+    text-shadow: 0 0 2px;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 8px;    
+    font-size: 12px;
+    padding: 1px 5px;
+}
 /* Replied Messages */
 .repliedMessage-3Z6XBG:before{
     border-color: var(--accent);
