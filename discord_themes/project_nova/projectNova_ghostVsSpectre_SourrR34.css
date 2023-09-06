@@ -9,7 +9,7 @@
     --accent-saturation-coefficient: .8;
     --accent-lightness-base: 60%;
     --accent-lightness-coefficient: .8;
-    --accent-contrast: #fff; /*#000, #fff*/
+    --accent-contrast: #000; /*#000, #fff*/
 
     /* Background */
     --background-image: url(https://cdna.artstation.com/p/assets/images/images/025/620/426/large/nak-ma-1586374598815.jpg);
