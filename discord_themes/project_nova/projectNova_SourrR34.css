@@ -781,18 +781,19 @@ img[alt*="wumpus" i]{
     background: hsl(var(--accent-hsl) / .2);
     color: var(--accent);
     padding: 2px 4px;
-
-    /*long username support*/
+}
+.interactive:hover{
+    background: var(--accent);
+    color: var(--accent-contrast);
+}
+/* Long Username Support */
+.contents-2MsGLg .wrapper-1ZcZW-{
     display: inline-block;
     max-width: 30%;
     overflow: hidden;
     text-overflow: ellipsis;
     vertical-align: middle;
     white-space: pre;
-}
-.interactive:hover{
-    background: var(--accent);
-    color: var(--accent-contrast);
 }
 /* Pings */
 .mentioned-Tre-dv:before{
