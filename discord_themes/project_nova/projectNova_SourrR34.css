@@ -549,6 +549,10 @@
 .divider-2rZFJK{
     border-color: var(--accent);
 }
+/* New Message Bar */
+[class*="newMessagesBar-"] [class*="barButtonBase-"]{
+    color: var(--accent-contrast)
+}
 /* Date Divider */
 .content-3spvdd{
     background: var(--accent);
