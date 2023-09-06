@@ -537,6 +537,23 @@
 .divider-2rZFJK{
     border-color: var(--accent);
 }
+/* Chat Header */
+.header-1dhDWV{
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 2.8;
+}
+.description-22d6ux{
+    line-height: 2.8;
+}
+.description-22d6ux strong{
+    display: inline-block;
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top; /*certain unicode characters fuck up vertical alignment of text so*/
+}
 /* Button Menu On Right */
 .message-2CShn3 .buttonsInner-1ynJCY{
     box-shadow: 0 0 0 2px var(--accent);
