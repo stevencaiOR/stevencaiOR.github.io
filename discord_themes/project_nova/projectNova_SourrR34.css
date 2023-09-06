@@ -808,9 +808,10 @@ header.searchHeader-1r_ZSh+div{
 img[class*="roleSubscription"],
 [class*="sparkles-"],
 [class*="upsellImage-"],
+img[alt*="clyde" i],
 img[alt*="mallow" i],
 img[alt*="graggle" i],
-img[alt*="clyde" i],
+img[alt*="sparkle"],
 img[alt*="wumpus" i]{
     display: none !important;
 }
