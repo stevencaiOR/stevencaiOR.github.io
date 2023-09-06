@@ -569,6 +569,26 @@
     content: "Below are some steps to help you get this server started.";
     display: block;
 }
+.container-1yy5xN .cardWrapper-2fBdfM .icon-2dMhn4{
+    display: none;
+}
+.container-1yy5xN .cardWrapper-2fBdfM .card-PQEqCK:before{
+    color: var(--header-primary);
+    min-width: 90px;
+    font-weight: 700;
+}
+.container-1yy5xN .cardWrapper-2fBdfM:nth-child(2) .card-PQEqCK:before{
+    content: "< Friends >";
+}
+.container-1yy5xN .cardWrapper-2fBdfM:nth-child(3) .card-PQEqCK:before{
+    content: "< Icon >";
+}
+.container-1yy5xN .cardWrapper-2fBdfM:nth-child(4) .card-PQEqCK:before{
+    content: "< Msg >";
+}
+.container-1yy5xN .cardWrapper-2fBdfM:nth-child(5) .card-PQEqCK:before{
+    content: "< App >";
+}
 /* Button Menu On Right */
 .message-2CShn3 .buttonsInner-1ynJCY{
     box-shadow: 0 0 0 2px var(--accent);
