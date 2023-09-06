@@ -403,8 +403,9 @@
 .modeSelected-3DmyhH .actionIcon-2sw4Sl,
 [class*="modeUnread-"] .icon-2W8DHg,
 [class*="modeUnread-"] .name-28HaxV,
-.modeConnected-NrO4cP .name-28HaxV,
-.modeConnected-NrO4cP .actionIcon-2sw4Sl,
+[class*="modeConnected-"] .icon-2W8DHg,
+[class*="modeConnected-"] .name-28HaxV,
+[class*="modeConnected-"] .actionIcon-2sw4Sl,
 .wrapper-NhbLHG:hover .icon-2W8DHg,
 .wrapper-NhbLHG:hover .name-28HaxV,
 .wrapper-NhbLHG:hover .actionIcon-2sw4Sl,
@@ -444,12 +445,12 @@
 .interactive-26HRN_:hover:not(.interactiveSelected-29CP8y),
 .wrapper-NhbLHG:hover:not(.modeSelected-3DmyhH) .name-28HaxV,
 [class*="modeUnread-"] .name-28HaxV,
-.modeConnected-NrO4cP .name-28HaxV,
+[class*="modeConnected-"] .name-28HaxV,
 .clickable-28SzVr.container-1oeRFJ:hover{
     text-shadow: 0 0 5px;
 }
-.modeConnected-NrO4cP .iconContainer-21RCa3,
-.modeConnected-NrO4cP .actionIcon-2sw4Sl,
+[class*="modeConnected-"] .iconContainer-21RCa3,
+[class*="modeConnected-"] .actionIcon-2sw4Sl,
 .wrapper-NhbLHG:hover:not(.modeSelected-3DmyhH) .icon-2W8DHg,
 .wrapper-NhbLHG:hover:not(.modeSelected-3DmyhH) .actionIcon-2sw4Sl{
     filter: drop-shadow(0 0 5px)
