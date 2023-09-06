@@ -1105,7 +1105,7 @@ section[aria-label="User area" i] .wrapper-3Un6-K [viewBox$="40"] rect{
 }
 [class*="spoilerContent-"][class*="hidden-"]:hover [class*="spoilerAttachment-"][class*="hiddenSpoiler-"],
 [class*="spoilerContent-"][class*="hidden-"]:hover .spoiler-_2cX4d,
-[class*="spoilerContent-"][class*="hidden-"]:hover [class*="spoiler-"][class*="hiddenSpoilers-"],
+[class*="spoilerContent-"][class*="hidden-"]:hover [class*="obscured-"][class*="hiddenAttachment-"] ,
 [class*="spoilerContent-"][class*="hidden-"]:hover [class*="spoilerEmbed-"][class*="hiddenSpoiler-"] [class*="grid-"]{
     filter: blur(18px);
 }
