@@ -537,7 +537,11 @@
 .divider-2rZFJK{
     border-color: var(--accent);
 }
-/* smaller stickers*/
+/* Button Menu On Right */
+.message-2CShn3 .buttonsInner-1ynJCY{
+    box-shadow: 0 0 0 2px var(--accent);
+}
+/* Smaller Stickers */
 .assetWrapper-2hzITV{
     height: 5rem !important;
     width: 5rem !important;
