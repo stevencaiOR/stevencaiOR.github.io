@@ -787,7 +787,7 @@ img[alt*="wumpus" i]{
     color: var(--accent-contrast);
 }
 /* Long Username Support */
-.contents-2MsGLg .wrapper-1ZcZW-{
+.contents-2MsGLg .wrapper-1ZcZW-{ /* does NOT affect replies. still *may* not work completely as intended (check IPL) */
     display: inline-block;
     max-width: 30%;
     overflow: hidden;
