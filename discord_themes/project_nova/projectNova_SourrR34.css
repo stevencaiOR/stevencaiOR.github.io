@@ -392,7 +392,7 @@
     max-width: 96.4%; /*default: 224px. 96.4% very close*/
 }
 /* DIRECT MESSAGES, CHANNEL LIST AND MEMBER LIST */
-.interactiveSelected-29CP8y,
+[class*="interactiveSelected-"],
 .interactive-26HRN_:focus-within,
 .interactive-26HRN_:hover,
 .interactive-iyXY_x .highlighted-Q8Nll-,
@@ -417,12 +417,12 @@
 .unreadRelevant-2f-VSK{ /*unread marker*/
     background: var(--accent);
 }
-.interactiveSelected-29CP8y,
+[class*="interactiveSelected-"],
 [class*="modeSelected-"] .link-1_kTxV,
 .selected-1-Z6gm .layout-1qmrhw{
     border: 3px solid;
 }
-.interactiveSelected-29CP8y,
+[class*="interactiveSelected-"],
 .interactive-26HRN_:focus-within,
 .interactive-26HRN_:hover,
 [class*="modeSelected-"] .link-1_kTxV,
@@ -441,8 +441,8 @@
     border-radius: 9999px;
 }
 .interactive-iyXY_x .highlighted-Q8Nll-,
-.interactive-26HRN_:focus-within:not(.interactiveSelected-29CP8y),
-.interactive-26HRN_:hover:not(.interactiveSelected-29CP8y),
+.interactive-26HRN_:focus-within:not([class*="interactiveSelected-"]),
+.interactive-26HRN_:hover:not([class*="interactiveSelected-"]),
 .wrapper-NhbLHG:hover:not([class*="modeSelected-"]) .name-28HaxV,
 [class*="modeUnread-"] .name-28HaxV,
 [class*="modeConnected-"] .name-28HaxV,
