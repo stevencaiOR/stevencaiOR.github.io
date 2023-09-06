@@ -526,7 +526,6 @@
     content: none;
 }
 [class*="channelTextArea-"]{
-    background: rgb(0,0,0,.5);
     border: 3px solid var(--accent);
     border-radius: 12px;
 }
