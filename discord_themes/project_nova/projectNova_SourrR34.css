@@ -607,6 +607,10 @@
 [class*="selectedBackground-"]{
     background: none;
 }
+/* Registered Games */
+:root [class*="addGamePopout-"]{
+    background: #101010;
+}
 /* STATUS COLORS */
 rect[mask="url(#svg-mask-status-online-mobile)"],
 rect[mask="url(#svg-mask-status-online)"]{
