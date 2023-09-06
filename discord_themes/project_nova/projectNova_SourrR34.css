@@ -475,9 +475,6 @@
 [class*="userProfileInnerThemedNonPremium-"]{
     background: var(--popout-background);
 }
-.overlayBackground-2aa7wt{
-    background: rgb(0,0,0,.5);
-}
 /* Weird Username Support */
 [class*="userPopoutOverlayBackground-"] [class*="nickname-"],
 [class*="userProfileModalOverlayBackground-"] [class*="text-lg-semibold-"]{
