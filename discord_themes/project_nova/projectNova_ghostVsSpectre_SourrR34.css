@@ -1,0 +1,19 @@
+.theme-dark,
+.theme-light,
+.theme-amoled{
+    --watermark: "StarCraft II";
+
+    /* Accent */
+    --accent-hue: 127;
+    --accent-saturation-base: 40%;
+    --accent-saturation-coefficient: .8;
+    --accent-lightness-base: 60%;
+    --accent-lightness-coefficient: .8;
+    --accent-contrast: #fff; /*#000, #fff*/
+
+    /* Background */
+    --background-image: url(https://cdna.artstation.com/p/assets/images/images/025/620/426/large/nak-ma-1586374598815.jpg);
+
+    /* Home Button */
+    --home-icon: url(https://i.imgur.com/QNZ0Vi2.png);
+}
