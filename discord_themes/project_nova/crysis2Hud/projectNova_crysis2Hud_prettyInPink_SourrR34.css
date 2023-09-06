@@ -1,0 +1,18 @@
+@import url(https://stevencaior.github.io/discord_themes/project_nova/crysis2Hud/projectNova_crysis2Hud_SourrR34.css);
+
+.theme-dark,
+.theme-light,
+.theme-amoled{
+
+    /* Accent */
+    --accent-hue: 330;
+    --accent-saturation-base: 100%;
+    --accent-lightness-base: 70.5%;
+
+    /* Background */
+    --background-image: url(https://i.imgur.com/GmUUZ22.png);
+
+    /* Home Button */
+    /* need pink version */
+    --home-icon: url(https://i.imgur.com/3KHlCMw.png);/**/
+}
