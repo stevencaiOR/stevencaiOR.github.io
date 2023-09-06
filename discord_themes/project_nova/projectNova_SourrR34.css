@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap);
 
-.theme-light,
-.theme-amoled{
+.theme-amoled,
+.theme-darker,
+.theme-light
+{
     /* Cut and pasted .theme-dark var assignments into .theme-light and .theme-amoled*/
     --activity-card-background: var(--primary-700);
     --android-navigation-bar-background: var(--primary-830);
@@ -164,35 +166,36 @@
     --textbox-markdown-syntax: var(--primary-360);
     --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5);
 }
+.theme-amoled,
 .theme-dark,
-.theme-light,
-.theme-amoled{
+.theme-darker,
+.theme-light{
     /* Brand Replacement */
-	--brand-130: var(--accent);
-	--brand-160: var(--accent);
-	--brand-200: var(--accent);
-	--brand-230: var(--accent);
-	--brand-260: var(--accent);
-	--brand-300: var(--accent);
-	--brand-330: var(--accent);
-	--brand-345: var(--accent);
-	--brand-360: var(--accent);
-	--brand-400: var(--accent);
-	--brand-430: var(--accent);
-	--brand-460: var(--accent);
-	--brand-500: var(--accent);
-	--brand-530: var(--accent);
-	--brand-560: var(--accent);
-	--brand-600: var(--accent);
-	--brand-630: var(--accent);
-	--brand-660: var(--accent);
-	--brand-700: var(--accent);
-	--brand-730: var(--accent);
-	--brand-760: var(--accent);
-	--brand-800: var(--accent);
-	--brand-830: var(--accent);
-	--brand-860: var(--accent);
-	--brand-900: var(--accent);
+	--brand-130-hsl: var(--accent-hsl);
+	--brand-160-hsl: var(--accent-hsl);
+	--brand-200-hsl: var(--accent-hsl);
+	--brand-230-hsl: var(--accent-hsl);
+	--brand-260-hsl: var(--accent-hsl);
+	--brand-300-hsl: var(--accent-hsl);
+	--brand-330-hsl: var(--accent-hsl);
+	--brand-345-hsl: var(--accent-hsl);
+	--brand-360-hsl: var(--accent-hsl);
+	--brand-400-hsl: var(--accent-hsl);
+	--brand-430-hsl: var(--accent-hsl);
+	--brand-460-hsl: var(--accent-hsl);
+	--brand-500-hsl: var(--accent-hsl);
+	--brand-530-hsl: var(--accent-hsl);
+	--brand-560-hsl: var(--accent-hsl);
+	--brand-600-hsl: var(--accent-hsl);
+	--brand-630-hsl: var(--accent-hsl);
+	--brand-660-hsl: var(--accent-hsl);
+	--brand-700-hsl: var(--accent-hsl);
+	--brand-730-hsl: var(--accent-hsl);
+	--brand-760-hsl: var(--accent-hsl);
+	--brand-800-hsl: var(--accent-hsl);
+	--brand-830-hsl: var(--accent-hsl);
+	--brand-860-hsl: var(--accent-hsl);
+	--brand-900-hsl: var(--accent-hsl);
 
     --watermark: "Nova Squadron";
 
