@@ -770,6 +770,7 @@ img[alt*="wumpus" i]{
     max-width: 30%;
     overflow: hidden;
     text-overflow: ellipsis;
+    vertical-align: middle;
     white-space: pre;
 }
 .interactive:hover{
