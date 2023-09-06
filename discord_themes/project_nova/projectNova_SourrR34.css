@@ -396,11 +396,11 @@
 .interactive-26HRN_:focus-within,
 .interactive-26HRN_:hover,
 .interactive-iyXY_x .highlighted-Q8Nll-,
-.modeSelected-3DmyhH .link-1_kTxV,
-.modeSelected-3DmyhH:hover .link-1_kTxV,
-.modeSelected-3DmyhH .icon-2W8DHg,
-.modeSelected-3DmyhH .name-28HaxV,
-.modeSelected-3DmyhH .actionIcon-2sw4Sl,
+[class*="modeSelected-"] .link-1_kTxV,
+[class*="modeSelected-"]:hover .link-1_kTxV,
+[class*="modeSelected-"] .icon-2W8DHg,
+[class*="modeSelected-"] .name-28HaxV,
+[class*="modeSelected-"] .actionIcon-2sw4Sl,
 [class*="modeUnread-"] .icon-2W8DHg,
 [class*="modeUnread-"] .name-28HaxV,
 [class*="modeConnected-"] .icon-2W8DHg,
@@ -418,14 +418,14 @@
     background: var(--accent);
 }
 .interactiveSelected-29CP8y,
-.modeSelected-3DmyhH .link-1_kTxV,
+[class*="modeSelected-"] .link-1_kTxV,
 .selected-1-Z6gm .layout-1qmrhw{
     border: 3px solid;
 }
 .interactiveSelected-29CP8y,
 .interactive-26HRN_:focus-within,
 .interactive-26HRN_:hover,
-.modeSelected-3DmyhH .link-1_kTxV,
+[class*="modeSelected-"] .link-1_kTxV,
 .wrapper-NhbLHG:hover .link-1_kTxV,
 .selected-1-Z6gm .layout-1qmrhw,
 .clickable-28SzVr.container-1oeRFJ:hover {
@@ -443,7 +443,7 @@
 .interactive-iyXY_x .highlighted-Q8Nll-,
 .interactive-26HRN_:focus-within:not(.interactiveSelected-29CP8y),
 .interactive-26HRN_:hover:not(.interactiveSelected-29CP8y),
-.wrapper-NhbLHG:hover:not(.modeSelected-3DmyhH) .name-28HaxV,
+.wrapper-NhbLHG:hover:not([class*="modeSelected-"]) .name-28HaxV,
 [class*="modeUnread-"] .name-28HaxV,
 [class*="modeConnected-"] .name-28HaxV,
 .clickable-28SzVr.container-1oeRFJ:hover{
@@ -451,8 +451,8 @@
 }
 [class*="modeConnected-"] .iconContainer-21RCa3,
 [class*="modeConnected-"] .actionIcon-2sw4Sl,
-.wrapper-NhbLHG:hover:not(.modeSelected-3DmyhH) .icon-2W8DHg,
-.wrapper-NhbLHG:hover:not(.modeSelected-3DmyhH) .actionIcon-2sw4Sl{
+.wrapper-NhbLHG:hover:not([class*="modeSelected-"]) .icon-2W8DHg,
+.wrapper-NhbLHG:hover:not([class*="modeSelected-"]) .actionIcon-2sw4Sl{
     filter: drop-shadow(0 0 5px)
 }
 /* FRIENDS TAB */
