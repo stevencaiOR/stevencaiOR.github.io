@@ -827,6 +827,9 @@ img[alt*="wumpus" i]{
 .selectedIcon-122rMx circle[fill="white"]{
     fill: var(--accent-contrast);
 }
+[style*="background-color: var(--brand-500)"]{
+    color: var(--accent-contrast)
+}
 /* Shorten Long Usernames (message area, search results wrap, reply contexts, etc) */
 .username-h_Y3Us{
     display: inline-block;
