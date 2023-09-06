@@ -749,6 +749,14 @@ img[alt*="wumpus" i]{
 .selectedIcon-122rMx circle[fill="white"]{
     fill: var(--accent-contrast);
 }
+/* Flower Star */
+.flowerStar-2tNFCR{
+    background: var(--brand-500);
+    border-radius: 50%;
+}
+.flowerStar-2tNFCR+div [fill="var(--white-500)"]{
+    fill: var(--accent-contrast);
+}
 /* Bot Tags */
 [class*="botTagRegular-"]{
 	color: var(--accent-contrast);
