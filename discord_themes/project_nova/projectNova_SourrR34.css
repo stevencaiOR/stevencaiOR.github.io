@@ -537,6 +537,11 @@
 .divider-2rZFJK{
     border-color: var(--accent);
 }
+/* smaller stickers*/
+.assetWrapper-2hzITV{
+    height: 5rem !important;
+    width: 5rem !important;
+}
 /* New Message Bar */
 [class*="newMessagesBar-"] [class*="barButtonBase-"]{
     color: var(--accent-contrast)
