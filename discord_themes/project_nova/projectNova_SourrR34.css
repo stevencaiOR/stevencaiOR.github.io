@@ -543,7 +543,7 @@
 }
 /* Chat Header */
 .header-1dhDWV{
-    max-width: 30%;
+    max-width: 20ch;
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 2.8;
@@ -553,7 +553,7 @@
 }
 .description-22d6ux strong{
     display: inline-block;
-    max-width: 30%;
+    max-width: 20ch;
     overflow: hidden;
     text-overflow: ellipsis;
     vertical-align: top; /*certain unicode characters fuck up vertical alignment of text so*/
@@ -845,7 +845,7 @@ img[alt*="wumpus" i]{
 /* Long Username Support */
 .contents-2MsGLg .wrapper-1ZcZW-{ /* does NOT affect replies. still *may* not work completely as intended (check IPL) */
     display: inline-block;
-    max-width: 30%;
+    max-width: 20ch;
     overflow: hidden;
     text-overflow: ellipsis;
     vertical-align: middle;
