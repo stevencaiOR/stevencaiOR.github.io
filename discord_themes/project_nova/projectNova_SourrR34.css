@@ -817,7 +817,7 @@ img[alt*="wumpus" i]{
 
     text-overflow: ellipsis;
     white-space: pre;
-    vertical-align: text-top;
+    vertical-align: middle;
 }
 /* Flower Star */
 .flowerStar-2tNFCR{
