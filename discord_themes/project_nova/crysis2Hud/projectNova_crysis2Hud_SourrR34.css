@@ -1,9 +1,11 @@
 @import url(https://stevencaior.github.io/discord_themes/project_nova/projectNova_SourrR34.css);
 @import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@100;300;400;500;600;700;800;900&display=swap);
 
+.theme-amoled,
 .theme-dark,
-.theme-light,
-.theme-amoled{
+.theme-darker,
+.theme-light
+{
     --watermark: "CRYNET SYSTEMS";
 
     /**
