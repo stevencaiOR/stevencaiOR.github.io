@@ -589,7 +589,8 @@
 [class*="channelTextArea-"] [class*="themedBackground-"]{
     background: none;
 }
-/* Auto Complete Bar */
+/* Color Replacements */
+[class*="jumpToPresentBar-"],
 :root [class*="autocomplete-"] {
     background: var(--background-floating);
 }
