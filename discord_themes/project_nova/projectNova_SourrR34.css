@@ -996,9 +996,6 @@ img[alt*="wumpus" i]{
 [class*="quickswitcher-"]{
     border: 3px solid var(--accent);
 }
-[class*="quickswitcher-"] [class*="input-"]{
-    border: 2px solid var(--accent);
-}
 /* USER AREA PANEL */
 [class*="withTagAsButton-"]:hover,
 [class*="withTagless-"]:hover{
