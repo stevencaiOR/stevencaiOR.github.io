@@ -888,7 +888,8 @@ header.searchHeader-1r_ZSh+div{
 /* ANTI DUMB SHIT (work in progress) */
 .root-1F1IKT,
 [class^="art-"],
-[class*="artContainer-"],
+[class*="artwork-" i],
+[class*="artcontainer-" i],
 [class*="bannerArt-"],
 [class*="backgroundImages-"],
 [class*="confetti" i],
