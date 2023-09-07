@@ -906,6 +906,36 @@ img[alt*="wumpus" i]{
     background-position: unset !important;
     filter: none !important;
 }
+/* MISCELLANEOUS MODALS */
+/* "Soo... You Blocked This Person" Modal */
+[aria-label="Soo... You Blocked This Person"] h2,
+[aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]{
+    text-indent: -9999px;
+    line-height: 0;
+}
+[aria-label="Soo... You Blocked This Person"] h2:after,
+[aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]:after{
+    display: block;
+    line-height: 1.25;
+    text-indent: 0;
+}
+[aria-label="Soo... You Blocked This Person"] h2:after{
+    content: "User Blocked";
+}
+[aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]:after{
+    content: "Unblock this user to jump to the specified message";
+}
+/* "Friend request failed" Modal */
+[aria-label="Friend request failed"] [data-text-variant="text-md/normal"]{
+    text-indent: -9999px;
+    line-height: 0;
+}
+[aria-label="Friend request failed"] [data-text-variant="text-md/normal"]:after{
+    content: "User not found. If the username is correct, the user has either blocked you or has prevented certain friend requests in settings.";
+    display: block;
+    text-indent: 0;
+    line-height: 1.25;
+}
 /* INTERACTIVE TEXT */
 .wrapper-1ZcZW-{
     background: hsl(var(--accent-hsl) / .2);
