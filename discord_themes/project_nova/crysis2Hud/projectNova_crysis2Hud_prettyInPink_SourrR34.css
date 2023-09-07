@@ -1,8 +1,10 @@
 @import url(https://stevencaior.github.io/discord_themes/project_nova/crysis2Hud/projectNova_crysis2Hud_SourrR34.css);
 
+.theme-amoled,
 .theme-dark,
-.theme-light,
-.theme-amoled{
+.theme-darker,
+.theme-light
+{
 
     /* Accent */
     --accent-hue: 330;
