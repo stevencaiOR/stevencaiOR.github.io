@@ -462,6 +462,38 @@
 [class*="nowPlayingColumn"] .container-1oAagU{
     background: none;
 }
+/* Improved Empty State */
+[class*="peopleColumn-"] > [class*="emptyStateContainer-"] .wrapper-5BaSTh{
+    max-width: 100%;
+}
+[class*="peopleColumn-"] [class*="image-"]{
+    display: none;
+}
+[class*="peopleColumn-"] > [class*="emptyStateContainer-"] [class*="text-"]{
+    color: var(--accent);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 0;
+    max-width: unset;
+    text-indent: -9999px;
+}
+[class*="peopleColumn-"] > [class*="emptyStateContainer-"] [class*="text-"]:after{
+    display: block;
+    line-height: 1.25;
+    text-indent: 0;
+}
+#online-tab > [class*="emptyStateContainer-"] [class*="text-"]:after{
+    content:"No friends currently online";
+}
+#all-tab > [class*="emptyStateContainer-"] [class*="text-"]:after{
+    content:"No friends added";
+}
+#pending-tab > [class*="emptyStateContainer-"] [class*="text-"]:after{
+    content:"No outgoing/incoming friend requests";
+}
+#blocked-tab > [class*="emptyStateContainer-"] [class*="text-"]:after{
+    content:"No blocked users";
+}
 /* Now Playing Column */
 @media (max-width: 1440px) { 
 	[class*="nowPlayingColumn-"]{
