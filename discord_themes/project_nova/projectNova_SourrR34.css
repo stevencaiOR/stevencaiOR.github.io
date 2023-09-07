@@ -805,7 +805,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
 .clickable-ZD7xvu:hover .icon-2xnN2Y {
     color: var(--accent-2);
 }
-.header-1w9Q93+.messagesPopout-eVzQcI{
+[class*="header-"]+[class*="messagesPopout-"]{
     background: var(--background-tertiary); /*standardizes bg color of pinned and mentions dropdown*/
 }
 /* Group DM Name */
