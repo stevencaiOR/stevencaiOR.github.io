@@ -383,7 +383,7 @@
     background: var(--background-secondary);
 }
 .sidebar-1tnWFu{
-    width: 320px; /*increased width for longer names*/
+    width: 300px; /*increased width for longer names*/
 }
 .channel-1Shao0{
     max-width: 96.4%; /*default: 224px. 96.4% very close*/
