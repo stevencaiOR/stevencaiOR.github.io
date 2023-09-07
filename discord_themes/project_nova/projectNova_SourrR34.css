@@ -617,6 +617,7 @@
 }
 /* Button Menu On Right */
 .message-2CShn3 .buttonsInner-1ynJCY{
+    background: var(--background-floating);
     box-shadow: 0 0 0 2px var(--accent);
 }
 /* Smaller Stickers */
