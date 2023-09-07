@@ -1145,7 +1145,7 @@ nav[aria-label="Private channels"] ul > h2{
     width: calc(100% - 15px);
 }
 /*-----SELECTED DM/SUBSETTING-----*/
-[class*="standardSidebarView-"] [class*="sidebar-"] [class*="side-"] [class*="item-"]:after{
+[class*="standardSidebarView-"] [class*="sidebar-"] [class*="side-"] [class*="item-"]:after{ /*clearvision band aid fix*/
     content: unset;
 }
 [aria-label="Private channels"] [class*="channel-"] [class*="interactive-"][class*="interactiveSelected-"],
