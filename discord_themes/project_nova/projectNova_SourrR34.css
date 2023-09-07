@@ -267,6 +267,9 @@
 	--scrollbar-auto-track: #0000;
 	--scrollbar-thin-thumb: var(--accent);
     --text-link: var(--accent);
+
+    /* Non-Root Discord Vars */
+    --profile-body-background-color: rgb(255,255,255,.04);
 }
 .contents-2MsGLg>img[src*="947934356880629760"]~.header-2jRmjb>.headerText-2z4IhQ>.username-h_Y3Us::after{
     content: "Nanosuit 2.0";
