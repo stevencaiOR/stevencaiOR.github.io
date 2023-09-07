@@ -589,6 +589,10 @@
 [class*="channelTextArea-"] [class*="themedBackground-"]{
     background: none;
 }
+/* Auto Complete Bar */
+:root [class*="autocomplete-"] {
+    background: var(--background-floating);
+}
 /* Reply Bar */
 .name-3DDHNY{
     display: inline-block;
