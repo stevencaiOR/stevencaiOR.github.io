@@ -57,10 +57,10 @@
     line-height: 18px;
 }
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]{
-    color: var(--main-color, #2780e6);
+    color: var(--accent, var(--main-color, #2780e6));
 }
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:hover{
-    color: var(--hover-color, #1e63b3);
+    color: var(--accent-2, var(--hover-color, #1e63b3));
 }
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Twitter"]:after{
     content: "[ Twitter ]";
