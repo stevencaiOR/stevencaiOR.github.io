@@ -1,6 +1,6 @@
 :root{
     /*Change these to whatever you like*/
-    --blocked-message-color-accent: var(--main-color, var(--status-danger));
+    --blocked-message-color-accent: var(--accent, var(--main-color, var(--status-danger)));
     --blocked-message-background: #000;
     --blocked-message-vertical-padding: 8px;
     --blocked-message-border-width: 2.5px;
