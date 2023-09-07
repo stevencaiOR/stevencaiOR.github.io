@@ -763,6 +763,10 @@ rect[mask="url(#svg-mask-status-offline)"]{
 .input-1nrc5P:focus{
     background: rgb(255,255,255,.1);
 }
+/* Threads */
+.container-18GwIk {
+    background: var(--background-floating); /*matches channel context dropdown menu bg next to it*/
+}
 /* Header Search Bar */
 [class*="search-"] [class*="searchBar-"]{
     border: 3px solid var(--accent);
