@@ -49,7 +49,7 @@
 [class*="anchorUnderlineOnHover-"][title="Instagram"]:hover path,
 [class*="anchorUnderlineOnHover-"][aria-label="tiktok" i]:hover path,
 [class*="anchorUnderlineOnHover-"][title="tiktok" i]:hover path{
-    color: rgb(255,255,255,0.35);
+    color: rgb(255,255,255,0.3);
 }
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:after{
     margin-left: 5px;
