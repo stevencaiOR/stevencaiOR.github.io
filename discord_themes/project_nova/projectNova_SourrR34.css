@@ -462,6 +462,12 @@
 [class*="nowPlayingColumn"] .container-1oAagU{
     background: none;
 }
+/* Now Playing Column */
+@media (max-width: 1440px) { 
+	[class*="nowPlayingColumn-"]{
+		display: none;
+	}
+}
 /* FAMILY CENTER */
 #requests-tab,
 #activity-tab{
