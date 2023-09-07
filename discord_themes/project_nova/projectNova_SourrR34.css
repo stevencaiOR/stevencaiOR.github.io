@@ -807,30 +807,6 @@ header.searchHeader-1r_ZSh+div{
 .button-cfOvv-:hover{
     background: var(--accent-2);
 }
-/* SPOILER IMAGES */
-[class*="spoilerAttachment-"][class*="hiddenSpoiler-"],
-.spoiler-_2cX4d,
-[class*="obscured-"][class*="hiddenAttachment-"],
-[class*="spoilerEmbed-"][class*="hiddenSpoiler-"] [class*="grid-"]{
-    filter: blur(30px);
-    transition: .2s;
-}
-[class*="spoilerContent-"][class*="hidden-"]:hover{
-	--__current--spoiler-background-color: var(--__spoiler-background-color--hidden);
-	--__current--spoiler-border-color: var(--__spoiler-border-color--hidden);
-	--__current--spoiler-warning-text-color: var(--__spoiler-warning-text-color);
-	--__current--spoiler-warning-background-color: var(--__spoiler-warning-background-color);
-}
-[class*="spoilerContent-"][class*="hidden-"]:hover .obscureWarning-2jkWgh,
-[class*="spoilerContent-"][class*="hidden-"]:hover .spoilerWarning-1JN1Ot{
-    opacity: 0.3;
-}
-[class*="spoilerContent-"][class*="hidden-"]:hover [class*="spoilerAttachment-"][class*="hiddenSpoiler-"],
-[class*="spoilerContent-"][class*="hidden-"]:hover .spoiler-_2cX4d,
-[class*="spoilerContent-"][class*="hidden-"]:hover [class*="obscured-"][class*="hiddenAttachment-"] ,
-[class*="spoilerContent-"][class*="hidden-"]:hover [class*="spoilerEmbed-"][class*="hiddenSpoiler-"] [class*="grid-"]{
-    filter: blur(18px);
-}
 /* ANTI DUMB SHIT (work in progress) */
 .root-1F1IKT,
 [class^="art-"],
