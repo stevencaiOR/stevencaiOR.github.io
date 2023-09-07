@@ -822,6 +822,21 @@ rect[mask="url(#svg-mask-status-offline)"]{
 .container-18GwIk {
     background: var(--background-floating); /*matches channel context dropdown menu bg next to it*/
 }
+/* Pinned Messages */
+[aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="image-"]{
+    display: none;
+}
+[aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="body-"]{
+    line-height: 0;
+    text-indent: -9999px;
+    white-space: nowrap;
+}
+[aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="body-"]:after{
+    content: "No pinned messages in this channel.";
+    display: block;
+    line-height: 1.25;
+    text-indent: 0;
+}
 /* Header Search Bar */
 [class*="search-"] [class*="searchBar-"]{
     border: 3px solid var(--accent);
