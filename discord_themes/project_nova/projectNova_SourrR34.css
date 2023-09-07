@@ -842,6 +842,12 @@ img[alt*="wumpus" i]{
 [class*="attachedBars-"]{
     background: none;
 }
+.header-2F5_LB, /*settings sidebar header*/
+.container-q97qHp, /*channel, dm and memberlist header*/
+.wrapperCommon-I1TMDb, /*channel header icons*/
+.clickable-ZD7xvu .icon-2xnN2Y/*dm list plus icon*/{
+    color: var(--accent)
+}
 /* Shorten Long Usernames (message area, search results wrap, reply contexts, etc) */
 .username-h_Y3Us{
     display: inline-block;
