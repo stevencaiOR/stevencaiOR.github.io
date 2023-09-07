@@ -835,9 +835,7 @@ img[alt*="wumpus" i]{
     fill: var(--accent-contrast);
 }
 [style*="background-color: var(--brand-500)"],
-[style*="background-color: var(--brand-500)"] [class*="automodText-"]{
-    color: var(--accent-contrast)
-}
+[style*="background-color: var(--brand-500)"] [class*="automodText-"],
 [class*="lookFilled-"][class*="colorBrandNew-"]{
     color: var(--accent-contrast)
 }
