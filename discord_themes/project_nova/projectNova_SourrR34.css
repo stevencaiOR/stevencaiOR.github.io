@@ -478,7 +478,7 @@
 [class*="nowPlayingColumn-"] [class*="emptyCard-"] [class*="emtpyHeader-"]:after{
     content: "No one is currently active";
     display: block;
-    line-height: 20px;
+    line-height: 1.25;
     text-indent: 0;
 }
 /* FAMILY CENTER */
@@ -606,10 +606,10 @@
 /* Chat Header (new server) */
 .subtitle-3tY4DQ{
     line-height: 0;
-    text-indent: -99999px;
+    text-indent: -9999px;
 }
 .subtitle-3tY4DQ:after{
-    line-height: 18px;
+    line-height: 1.3;
     text-indent: 0;
     content: "Below are some steps to help you get this server started.";
     display: block;
