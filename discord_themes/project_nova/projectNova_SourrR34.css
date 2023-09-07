@@ -364,6 +364,9 @@
 .wrapper-3kah-n:hover .childWrapper-1j_1ub{
     color: var(--accent-contrast)
 }
+[class*="expandedFolderBackground-"]{
+    background: rgb(255,255,255,.1);
+}
 /* SIDEBAR */
 .platform-win [class*="sidebar-"]{
     border-radius: unset;
