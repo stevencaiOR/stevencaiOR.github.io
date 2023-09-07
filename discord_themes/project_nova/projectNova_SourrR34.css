@@ -212,17 +212,17 @@
     --accent-contrast: #fff; /*#000, #fff*/
 
     /* Status Colors */
-    --online: hsl(150 75% 45%);
-    --idle: hsl(50 75% 45%);
-    --dnd: hsl(0 75% 45%);
-    --streaming: hsl(264.13 100% 63.922%);
-    --offline: hsl(0 0% 53%);
+    --online-color: hsl(150 75% 45%);
+    --idle-color: hsl(50 75% 45%);
+    --dnd-color: hsl(0 75% 45%);
+    --streaming-color: hsl(264.13 100% 63.922%);
+    --offline-color: hsl(0 0% 53%);
 
     /* Radio Bar Accent Colors */
-    --radio-bar-green: var(--online);
-    --radio-bar-yellow: var(--idle);
+    --radio-bar-green: var(--online-color);
+    --radio-bar-yellow: var(--idle-color);
     --radio-bar-orange: hsl(25 75% 45%);
-    --radio-bar-red: var(--dnd);
+    --radio-bar-red: var(--dnd-color);
 
     /* Fonts */
     --font-global: Jura, Titillium Web;
@@ -701,20 +701,20 @@
 /* STATUS COLORS */
 rect[mask="url(#svg-mask-status-online-mobile)"],
 rect[mask="url(#svg-mask-status-online)"]{
-    fill: var(--online);
+    fill: var(--online-color);
 }
 rect[mask="url(#svg-mask-status-idle)"]{
-    fill: var(--idle);
+    fill: var(--idle-color);
 }
 rect[mask="url(#svg-mask-status-dnd)"]{
-    fill: var(--dnd);
+    fill: var(--dnd-color);
 }
 rect[mask="url(#svg-mask-status-streaming)"]{
-    fill: var(--streaming);
+    fill: var(--streaming-color);
 }
 [aria-label*="offline" i] rect[fill="#80848e"],
 rect[mask="url(#svg-mask-status-offline)"]{
-    fill: var(--offline);
+    fill: var(--offline-color);
 }
 /* NUMBER BADGES */
 [class*="numberBadge-"][style*="background-color: var(--status-danger)"]{
@@ -953,16 +953,16 @@ img[alt*="wumpus" i]{
 }
 /* Popout */
 #account-status-picker--online[class*="focused-"]{
-    background: var(--online);
+    background: var(--online-color);
 }
 #account-status-picker--idle[class*="focused-"]{
-    background: var(--idle);
+    background: var(--idle-color);
 }
 #account-status-picker--dnd[class*="focused-"]{
-    background: var(--dnd);
+    background: var(--dnd-color);
 }
 #account-status-picker--invisible[class*="focused-"]{
-    background: var(--offline);
+    background: var(--offline-color);
 }
 [class*="menu-"] [class*="menuItemFocused-"]{
     background: var(--accent);
