@@ -1075,6 +1075,23 @@ img[alt*="wumpus" i]{
 #account-status-picker--invisible[class*="focused-"]{
     background: var(--offline-color);
 }
+[mask="url(#svg-mask-status-online-mobile)"] [style*="background"],
+[mask="url(#svg-mask-status-online)"] [style*="background"]{
+    background: var(--online-color) !important;
+}
+[mask="url(#svg-mask-status-idle)"] [style*="background"]{
+    background: var(--idle-color) !important;
+}
+[mask="url(#svg-mask-status-dnd)"] [style*="background"]{
+    background: var(--dnd-color) !important;
+}
+[mask="url(#svg-mask-status-invisible)"] [style*="background"],
+[mask="url(#svg-mask-status-offline)"] [style*="background"]{
+    background: var(--offline-color) !important;
+}
+[id^="account-status-picker"][class*="focused-"] [style*="background"]{
+    background: currentColor !important;
+}
 [class*="menu-"] [class*="menuItemFocused-"]{
     background: var(--accent);
 }
