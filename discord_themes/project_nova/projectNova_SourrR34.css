@@ -166,10 +166,6 @@
     --textbox-markdown-syntax: var(--primary-360);
     --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5);
 }
-.theme-amoled,
-.theme-darker{
-    --voice-video-tile-blur-fallback: hsl(var(--primary-700-hsl) / 0.48);
-}
 .theme-light {
     --brightness: calc(1.5 - var(--saturation-factor, 1) * 0.5);
 	--contrast: var(--saturation-factor, 1);
