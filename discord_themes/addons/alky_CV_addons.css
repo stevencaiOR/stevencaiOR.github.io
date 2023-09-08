@@ -1673,21 +1673,9 @@ aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted{
     /*keeps avatar in center of profile panel*/
 }
 /*-----CREDIT CARD INFO-----*/
-.input-2g-os5[placeholder="Coolsville"]::placeholder,
-.input-2g-os5[placeholder="123 Discord Drive"]+div .text-xs-normal-3SiVjE,
-.input-2g-os5[placeholder="MM/YY"]+div .text-xs-normal-3SiVjE{
-    text-indent: -99999px;
-}
-.input-2g-os5[placeholder="123 Discord Drive"]+div .text-xs-normal-3SiVjE:after,
-.input-2g-os5[placeholder="MM/YY"]+div .text-xs-normal-3SiVjE:after{
-    text-indent: 0;
-    display: block;
-}
-.input-2g-os5[placeholder="123 Discord Drive"]+div .text-xs-normal-3SiVjE:after{
-    content: "Address is required";
-}
-.input-2g-os5[placeholder="MM/YY"]+div .text-xs-normal-3SiVjE:after{
-    content: "Expiration date invalid";
+[placeholder="Coolsville"]::placeholder,
+[placeholder="123 Discord Drive"]::placeholder{
+    text-indent: -9999px;
 }
 /*----------*/
 
