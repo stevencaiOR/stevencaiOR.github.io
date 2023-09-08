@@ -1104,3 +1104,10 @@ img[alt*="wumpus" i]{
 [class*="colorDefault-"] [fill*="var(--white-500)"]{
     fill: var(--accent-contrast);
 }
+/* STUDENT HUB */
+.headerImage-Xy5R7m{
+    display: none;
+}
+.headerContent-3_EO-5 .searchBox-3wTyE4{
+    background: var(--input-background);
+}
