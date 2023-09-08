@@ -250,6 +250,7 @@
     /* Discord Vars */
     --background-mentioned: hsl(var(--accent-hsl) / .2);
     --background-mentioned-hover:  hsl(var(--accent-hsl) / .14);
+    --background-mobile-primary:#101010;
     --background-primary: rgb(0,0,0,0.4);
     --background-secondary: var(--background-primary);
     --background-secondary-alt: rgb(0,0,0,.3); /*role dot background*/
