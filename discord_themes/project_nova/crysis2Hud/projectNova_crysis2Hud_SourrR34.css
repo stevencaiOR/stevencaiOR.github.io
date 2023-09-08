@@ -29,6 +29,7 @@
     --popout-color-bottom: #000;
 
     --background-primary: #0000;
+    --background-secondary: rgb(0,0,0,.8);
     --focus-primary: var(--accent);
 }
 
