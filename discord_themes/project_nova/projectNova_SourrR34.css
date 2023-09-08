@@ -1268,3 +1268,20 @@ img[alt*="wumpus" i]{
 .bd-controls > .bd-button.bd-addon-button:not(.bd-button-danger) svg{
     fill: var(--accent-contrast)
 }
+/* CHECKOUT MODAL */
+[class*="tier2HeaderBackground-"]{
+    background: var(--accent);
+    min-height: 30px;
+}
+[class*="tier2Animation-"],
+[class*="tier2Background-"],
+[class*="tier2Foreground-"]{
+    display: none;
+}
+[class*="tier2HeaderBackground-"] .headerIcon-1ACCh0,
+[class*="tier2HeaderBackground-"] .closeButton-Fq8ADF{
+    color: var(--accent-contrast) !important;
+}
+.closeButton-Fq8ADF{
+    opacity: 1;
+}
