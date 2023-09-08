@@ -1621,24 +1621,6 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .profileThemesFeatureEducationArt-M4gj2m~[class*="bodyContainer-"] div:after{
     content: "Personalize your profile with custom colors.";
 }
-/*-----CONNECT XBOX POPOUT-----*/
-.artContainer--HGfkf.reconnectArtContainer-PgMt-F,
-.art-9T0Zyd.reconnectArt-IKJMqx,
-.artContainer--HGfkf.connectArtContainer-2azUUc,
-.art-9T0Zyd.connectArt-W4JF0C{
-    height: 0;
-}
-.artContainer--HGfkf.connectArtContainer-2azUUc~div button:first-child .contents-3ca1mk,
-.artContainer--HGfkf.reconnectArtContainer-PgMt-F~div button:first-child .contents-3ca1mk{
-    text-indent: -83px;
-}
-.artContainer--HGfkf.connectArtContainer-2azUUc~div button:first-child .contents-3ca1mk:after,
-.artContainer--HGfkf.reconnectArtContainer-PgMt-F~div button:first-child .contents-3ca1mk:after{
-    content: "Do not connect";
-}
-.upsellTooltipWrapper-1wqikQ.caretBottomCenter-4XccL3:after{
-    border-top-color: var(--main-color);
-}
 /*-----PROFILE PANEL IN DM'S-----*/
 #app-mount aside.profilePanel-2PWEok{
     --banner-height: 60px;
