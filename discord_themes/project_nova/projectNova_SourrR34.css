@@ -935,7 +935,8 @@ img[alt*="wumpus" i]{
 }
 [style*="background-color: var(--brand-500)"],
 [style*="background-color: var(--brand-500)"] [class*="automodText-"],
-[class*="lookFilled-"][class*="colorBrandNew-"]{
+[class*="lookFilled-"][class*="colorBrandNew-"],
+[class*="lookFilled-"][class*="colorBrand-"] .defaultColor-1EVLSt{
     color: var(--accent-contrast)
 }
 [class*="attachedBars-"]{
