@@ -1489,27 +1489,6 @@ foreignObject[mask="url(#svg-mask-status-streaming)"] div{
 .callContainer-HtHELf .art-3XrHCd{
     display: none;
 }
-/*-----STICKER PICKER TAB PANEL-----*/
-#sticker-picker-tab-panel .upsellImage-4XEtTU {
-    display: none;
-}
-#sticker-picker-tab-panel .upsellContent-1ppSei .upsellTitle-2yuL71,
-#sticker-picker-tab-panel .upsellContent-1ppSei .upsellDescription-2QpuiS{
-    text-indent: -9999px;
-    line-height: 0;
-}
-#sticker-picker-tab-panel .upsellContent-1ppSei .upsellTitle-2yuL71::after{
-    display: block;
-    text-indent: 0px;
-    line-height: 24px;
-    content: "Sticker is unavailable.";
-}
-#sticker-picker-tab-panel .upsellContent-1ppSei .upsellDescription-2QpuiS:after{
-    display: block;
-    text-indent: 0px;
-    line-height: 20px;
-    content: "Purchase Discord Nitro to use custom stickers on any server.";    
-}
 /*-----STICKER PACK PREVIEW MODAL-----*/
 [class*="focusLock-"][aria-labelledby="sticker-pack-sku-preview-modal"] .headerWithImage-12X-4g{
     min-height: 57.5px;
