@@ -1243,3 +1243,18 @@ img[alt*="wumpus" i]{
     border: 3px solid var(--accent);
     padding: 30px;
 }
+/* BETTER DISCORD */
+.bd-button{
+    background: var(--accent);
+    color: var(--accent-contrast)
+}
+.bd-button:hover{
+    background: var(--accent-2);
+}
+.bd-addon-views .bd-view-button.selected{
+    background: var(--accent);
+}
+.bd-addon-views .bd-view-button.selected svg,
+.bd-controls > .bd-button.bd-addon-button:not(.bd-button-danger) svg{
+    fill: var(--accent-contrast)
+}
