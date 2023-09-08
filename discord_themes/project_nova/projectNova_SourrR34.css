@@ -1229,3 +1229,17 @@ img[alt*="wumpus" i]{
 .note-Ph806N p:last-child:after{
     content: "Access the terminal (CTRL + Shift + I or CMD + Alt + I) to diagnose the issue.";
 }
+/* VERIFICATION REQUIRED PAGE */
+.image-cLINxN{
+    display: none;
+}
+[class*="verification-"]{
+    justify-content: center;
+}
+[class*="verification-"]> div:first-child{
+    background-color: rgb(0,0,0,0.7);
+    flex: 0 1 auto !important;
+    border-radius: 10px;
+    border: 3px solid var(--accent);
+    padding: 30px;
+}
