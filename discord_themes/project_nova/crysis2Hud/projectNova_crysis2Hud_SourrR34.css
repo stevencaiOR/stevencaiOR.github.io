@@ -28,6 +28,7 @@
 
     --popout-color-bottom: #000;
 
+    --background-primary: #0000;
     --focus-primary: var(--accent);
 }
 
