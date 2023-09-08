@@ -58,3 +58,19 @@
 #app-mount > div[class*="titleBar"] > div[aria-label="Close"]{
     border-top-right-radius: 7px;
 }
+/* ERROR PAGE */
+.title-NjUt5y:after{
+    content: "Base functions impaired.";
+}
+.note-Ph806N p:first-child:before{
+    content: "Possible corrosive agents:";
+}
+.note-Ph806N p:first-child:after{
+    content: "Plugins";
+}
+.note-Ph806N p:last-child:before{
+    content: "Recommended course of action:";
+}
+.note-Ph806N p:last-child:after{
+    content: "Access the suit's terminal (CTRL + Shift + I or CMD + Alt + I) to diagnose the issue.";
+}
