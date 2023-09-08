@@ -983,6 +983,11 @@ img[alt*="wumpus" i]{
     background-position: unset !important;
     filter: none !important;
 }
+/* Denitrofication */
+[href="/store"],
+[class*="button"][aria-label="Send a gift"]{
+    display: none;
+}
 /* MISCELLANEOUS MODALS */
 /* "Soo... You Blocked This Person" Modal */
 [aria-label="Soo... You Blocked This Person"] h2,
