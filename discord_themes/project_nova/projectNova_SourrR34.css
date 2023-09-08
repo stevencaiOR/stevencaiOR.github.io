@@ -270,6 +270,10 @@
 
     /* Non-Root Discord Vars */
     --profile-body-background-color: rgb(255,255,255,.03);
+
+    /* Miscellaneous */
+    --channels-width: 300px;
+    --members-width: 300px;
 }
 .contents-2MsGLg>img[src*="947934356880629760"]~.header-2jRmjb>.headerText-2z4IhQ>.username-h_Y3Us::after{
     content: "Nanosuit 2.0";
@@ -383,10 +387,10 @@
     background: var(--background-secondary);
 }
 .sidebar-1tnWFu{
-    width: 300px; /*default: 240px. increased width for longer names*/
+    width: var(--channels-width); /*default: 240px. increased width for longer names*/
 }
 .sidebar-1tnWFu .channel-1Shao0{
-    max-width: 280px; /*default: 224px*/
+    max-width: calc(14*var(--channels-width)/15); /*default: 224px*/
 }
 /* DIRECT MESSAGES, CHANNEL LIST AND MEMBER LIST */
 [class*="interactiveSelected-"],
@@ -531,6 +535,12 @@
 }
 .member-48YF_l{
     background: none; /*member list item in servers*/
+}
+.members-3WRCEx{
+    width: var(--members-width);
+}
+.members-3WRCEx .member-2gU6Ar{
+    max-width: calc(14*var(--members-width)/15);
 }
 /* USER POPOUTS + MODALS */
 [class*="userProfileInnerThemedNonPremium-"]{
