@@ -167,6 +167,59 @@
     --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5);
 }
 .theme-amoled,
+.theme-darker{
+    --voice-video-tile-blur-fallback: hsl(var(--primary-700-hsl) / 0.48);
+}
+.theme-light {
+    --brightness: calc(1.5 - var(--saturation-factor, 1) * 0.5);
+	--contrast: var(--saturation-factor, 1);
+
+    --shadow-border: 0 0 0 1px hsla(0, 0%, 100%, 0.08);
+	--shadow-border-filter: drop-shadow(0 0 1px hsla(0, 0%, 100%, 0.08));
+	--shadow-button-overlay: 0 12px 24px 0 rgba(0, 0, 0, 0.24);
+	--shadow-button-overlay-filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.24));
+	--shadow-high: 0 12px 24px 0 rgba(0, 0, 0, 0.24);
+	--shadow-high-filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.24));
+	--shadow-ledge: 0 2px 0 0 rgba(0, 0, 0, 0.05), 0 1.5px 0 0 rgba(0, 0, 0, 0.05), 0 1px 0 0 rgba(0, 0, 0, 0.16);
+	--shadow-ledge-filter: drop-shadow(0 1.5px 0 rgba(0, 0, 0, 0.24));
+	--shadow-low: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+	--shadow-low-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.14));
+	--shadow-low-active: 0 0 4px 0 rgba(0, 0, 0, 0.14);
+	--shadow-low-active-filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.14));
+	--shadow-low-hover: 0 4px 10px 0 rgba(0, 0, 0, 0.14);
+	--shadow-low-hover-filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.14));
+	--shadow-medium: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
+	--shadow-medium-filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.16));
+	--shadow-mobile-navigator-x: 0 0 10px 0 rgba(0, 0, 0, 0.22);
+	--shadow-mobile-navigator-x-filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.22));
+	--shadow-top-high: 0 -12px 32px 0 rgba(0, 0, 0, 0.24);
+	--shadow-top-high-filter: drop-shadow(0 -12px 32px rgba(0, 0, 0, 0.24));
+	--shadow-top-ledge: 0 -2px 0 0 rgba(0, 0, 0, 0.05), 0 -1.5px 0 0 rgba(0, 0, 0, 0.05), 0 -1px 0 0 rgba(0, 0, 0, 0.16);
+	--shadow-top-ledge-filter: drop-shadow(0 -1.5px 0 rgba(0, 0, 0, 0.24));
+	--shadow-top-low: 0 -1px 4px 0 rgba(0, 0, 0, 0.14);
+	--shadow-top-low-filter: drop-shadow(0 -1px 4px rgba(0, 0, 0, 0.14));
+
+	--guild-header-text-shadow: 0 1px 1px hsl(var(--black-500-hsl) / 0.4);
+	--elevation-stroke: 0 0 0 1px hsl(var(--primary-900-hsl) / 0.15);
+	--elevation-low: 0 1px 0 hsl(var(--primary-900-hsl) / 0.2), 0 1.5px 0 hsl(var(--primary-860-hsl) / 0.05), 0 2px 0 hsl(var(--primary-900-hsl) / 0.05);
+	--elevation-medium: 0 4px 4px hsl(var(--black-500-hsl) / 0.16);
+	--elevation-high: 0 8px 16px hsl(var(--black-500-hsl) / 0.24);
+
+    --search-popout-option-fade: linear-gradient(90deg, hsl(var(--primary-800-hsl) / 0), hsl(var(--primary-800-hsl) / 1) 80%);
+	--search-popout-option-fade-hover: linear-gradient(90deg, hsl(var(--primary-600-hsl) / 0), var(--primary-600) 50%);
+	--search-popout-option-user-nickname: var(--text-normal);
+	--search-popout-option-user-username: var(--text-muted);
+	--search-popout-option-filter-text: var(--primary-400);
+	--search-popout-option-non-text-color: #caccce;
+	--search-popout-option-filter-color: #caccce;
+	--search-popout-option-answer-color: #caccce;
+	--search-popout-date-picker-border: 1px solid hsl(var(--primary-660-hsl) / 0.3);
+	--search-popout-date-picker-hint-text: #caccce;
+	--search-popout-date-picker-hint-value-text: #fff;
+	--search-popout-date-picker-hint-value-background: var(--brand-experiment);
+	--search-popout-date-picker-hint-value-background-hover: var(--brand-experiment-430);
+}
+.theme-amoled,
 .theme-dark,
 .theme-darker,
 .theme-light{
