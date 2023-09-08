@@ -383,10 +383,10 @@
     background: var(--background-secondary);
 }
 .sidebar-1tnWFu{
-    width: 300px; /*increased width for longer names*/
+    width: 300px; /*default: 240px. increased width for longer names*/
 }
 .channel-1Shao0{
-    max-width: 96.4%; /*default: 224px. 96.4% very close*/
+    max-width: 280px; /*default: 224px*/
 }
 /* DIRECT MESSAGES, CHANNEL LIST AND MEMBER LIST */
 [class*="interactiveSelected-"],
