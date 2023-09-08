@@ -976,6 +976,9 @@ img[alt*="wumpus" i]{
     display: none !important;
 }
 /* MISCELLANEOUS */
+.icon-1dGlZy{
+    top: 0;
+}
 [class*="cardPrimary-"],
 [class*="cardPrimary-"][class*="editable"]{
     border-color: var(--accent);
