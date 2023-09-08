@@ -981,7 +981,8 @@ img[alt*="wumpus" i]{
     background: var(--accent);
     color: var(--accent-contrast);
 }
-.selectedIcon-122rMx circle[fill="white"]{
+.selectedIcon-122rMx circle[fill="white"],
+[style*="background-color: var(--brand-experiment-500)"] [fill="var(--white-500)"]{
     fill: var(--accent-contrast);
 }
 [style*="background-color: var(--brand-500)"],
