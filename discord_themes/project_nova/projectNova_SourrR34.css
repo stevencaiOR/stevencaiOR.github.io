@@ -976,8 +976,11 @@ img[alt*="wumpus" i]{
     display: none !important;
 }
 /* MISCELLANEOUS */
-.icon-1dGlZy{
+.icon-1dGlZy{ /*owner icon bandaid fix*/
     top: 0;
+}
+[class*="gradientBackground-"]{
+    background: var(--background-secondary); /*background of gradient thing in screen share modal*/
 }
 [class*="cardPrimary-"],
 [class*="cardPrimary-"][class*="editable"]{
