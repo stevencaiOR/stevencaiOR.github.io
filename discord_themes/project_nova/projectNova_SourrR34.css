@@ -1285,3 +1285,16 @@ img[alt*="wumpus" i]{
 .closeButton-Fq8ADF{
     opacity: 1;
 }
+/* ADD SERVER MODAL */
+.header-12n7su{
+    padding: 40px 16px 0;
+}
+.container-x8Y1ix {
+    padding: 20px;
+}
+.container-x8Y1ix [class*="icon-"]{
+    display: none;
+}
+.footer-IubaaS{
+    color: var(--accent);
+}
