@@ -1102,6 +1102,10 @@ img[alt*="wumpus" i]{
     border: 3px solid var(--accent);
 }
 /* USER AREA PANEL */
+[aria-label="user area" i]{
+    background: none;
+    border-top: 1px solid var(--background-modifier-accent);
+}
 [class*="withTagAsButton-"]:hover,
 [class*="withTagless-"]:hover{
     background: hsl(var(--accent-hsl) / .2);
@@ -1119,15 +1123,15 @@ img[alt*="wumpus" i]{
     color: var(--accent-contrast);
 }
 /* Mute/Deafen/User Settings Buttons */
-[aria-label="User area"] [aria-label="Set Status"]+div{
+[aria-label="user area" i] [aria-label="Set Status"]+div{
     background: hsl(var(--accent-hsl) / .2); /*bg kept to visually "group" like elements together*/
     border-radius: 15px;
 }
-[aria-label="User area"] [aria-label="Set Status"]+div .button-12Fmur:first-child{
+[aria-label="user area" i] [aria-label="Set Status"]+div .button-12Fmur:first-child{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-[aria-label="User area"] [aria-label="Set Status"]+div .button-12Fmur:last-child{
+[aria-label="user area" i] [aria-label="Set Status"]+div .button-12Fmur:last-child{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
