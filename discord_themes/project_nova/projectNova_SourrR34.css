@@ -286,6 +286,7 @@
     --background-size: cover;
     --background-repeat: no-repeat;
     --background-attachment: fixed;
+    --background-shading: rgb(0,0,0,.7);
 
     /* Home Button */
     --home-icon: url(https://i.imgur.com/bWAghNX.png); /*url(https://i.imgur.com/QNZ0Vi2.png)*/
@@ -300,10 +301,10 @@
     --background-mentioned: hsl(var(--accent-hsl) / .2);
     --background-mentioned-hover:  hsl(var(--accent-hsl) / .14);
     --background-mobile-primary:#101010;
-    --background-primary: rgb(0,0,0,0.4);
-    --background-secondary: var(--background-primary);
+    --background-primary: #0000;
+    --background-secondary: #0000;
     --background-secondary-alt: rgb(0,0,0,.3); /*role dot background*/
-    --background-tertiary: rgb(0,0,0,.6);
+    --background-tertiary: #0000;
     --channel-icon: var(--channels-default);
     /**--channels-default: hsl(var(--accent-hsl) / .7);/**/
     --header-primary: var(--accent);
@@ -350,10 +351,14 @@
     background: none;
 }
 #app-mount > div[class*="titleBar"]{
-    background-color: var(--background-tertiary);
     margin-top: 0;
     height: 22px;
 }
+#app-mount > div[class*="titleBar"],
+[class*="appAsidePanelWrapper-"]{
+    background: var(--background-shading);
+}
+
 /* TITLE BAR + WINDOWS BUTTONS */
 [class*="winButton-"]{
     color: var(--accent);
@@ -431,11 +436,6 @@
 :root .container-YkUktl{
     background: none;
 }
-:root .container-1NXEtd,
-.container-1NXEtd+.panels-3wFtMD,
-.privateChannels-oVe7HL+.panels-3wFtMD{
-    background: var(--background-secondary);
-}
 .sidebar-1tnWFu{
     width: var(--channels-width); /*default: 240px. increased width for longer names*/
 }
@@ -508,10 +508,6 @@
     filter: drop-shadow(0 0 5px)
 }
 /* FRIENDS TAB */
-[class*="tabBody-"],
-:root .themed-Hp1KC_{
-    background: var(--background-primary);
-}
 [class*="peopleListItem-"].active-2UF8Zh,
 [class*="peopleListItem-"]:hover{
     background: hsl(var(--accent-hsl) / .2);
@@ -570,11 +566,6 @@
     display: block;
     line-height: 1.25;
     text-indent: 0;
-}
-/* FAMILY CENTER */
-#requests-tab,
-#activity-tab{
-    background: var(--background-primary);
 }
 /* MEMBER LIST */
 .container-2o3qEW{
@@ -1299,9 +1290,6 @@ img[alt*="wumpus" i]{
     color: var(--accent);
 }
 /* CALL WRAPPER */
-.wrapper-1gVUIN{
-    background: var(--background-primary);
-}
 [class*="callContainer-"]{
     background: #0000;
 }
