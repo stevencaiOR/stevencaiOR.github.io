@@ -977,7 +977,7 @@ img[alt*="wumpus" i]{
     top: 0;
 }
 [class*="gradientBackground-"]{
-    background: var(--background-secondary); /*background of gradient thing in screen share modal*/
+    background: var(--background-secondary); /*background of gradient thing in screen share modal matches "input" boxes above*/
 }
 [class*="cardPrimary-"],
 [class*="cardPrimary-"][class*="editable"]{
