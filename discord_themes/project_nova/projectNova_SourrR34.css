@@ -1298,3 +1298,13 @@ img[alt*="wumpus" i]{
 .footer-IubaaS{
     color: var(--accent);
 }
+/* CALL WRAPPER */
+.wrapper-1gVUIN{
+    background: var(--background-primary);
+}
+[class*="callContainer-"]{
+    background: #0000;
+}
+[class*="gradientContainer-"]{
+    background: none;
+}
