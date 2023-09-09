@@ -325,6 +325,7 @@
     /* Miscellaneous */
     --channels-width: 300px;
     --members-width: 300px;
+    --spotify-color: hsl(141.4 76.1% 47.6%);
 }
 .contents-2MsGLg>img[src*="947934356880629760"]~.header-2jRmjb>.headerText-2z4IhQ>.username-h_Y3Us::after{
     content: "Nanosuit 2.0";
@@ -638,8 +639,51 @@
     border: 3px solid var(--accent);
     border-radius: 12px;
 }
+[class*="channelTextArea-"]:focus-within{
+    box-shadow: 0 0 12px 1px var(--accent);
+}
 [class*="channelTextArea-"] [class*="themedBackground-"]{
     background: none;
+}
+[class*="channelTextArea-"] [class*="placeholder-"]{
+    color: var(--accent);
+}
+/* Upload File Stuff */
+[class*="attachButtonPlus-"]{
+    fill: var(--accent);
+}
+[class*="attachButton-"]:hover [class*="attachButtonPlus-"]{
+    fill: var(--accent-2);
+}
+[class*="attachButtonPlay-"]{
+    fill: var(--spotify-color);
+}
+[aria-label="Upload Attachment Utilities"] [class*="wrapper-"]{
+    background: #101010;
+    box-shadow: 0 0 0 3px var(--accent);
+}
+/* Gift/Sticker/Emoji Buttons */
+[class*="channelTextArea-"] button:not([aria-label="Send Message"]) [class*="contents-"] > div{
+    display: none;
+}
+[class*="channelTextArea-"] [class*="contents-"]:after{
+    color: var(--accent);
+}
+[class*="channelTextArea-"] [class*="contents-"]:hover:after{
+    color: var(--accent-2);
+}
+[class*="channelTextArea-"] [aria-label="Open GIF picker"] [class*="contents-"]:after{
+    content: "[GIF]";
+}
+[class*="channelTextArea-"] [aria-label="Open sticker picker"] [class*="contents-"]:after{
+    content: "[Sticker]";
+}
+[class*="channelTextArea-"] [aria-label="Select emoji"] [class*="contents-"]:after{
+    content: "[Emoji]";
+}
+/* Send Button */
+:root button:hover[class*="button-"] [class*="activeButtonChild-"]{
+    color: var(--accent-2);
 }
 /* Color Replacements */
 [class*="jumpToPresentBar-"],
