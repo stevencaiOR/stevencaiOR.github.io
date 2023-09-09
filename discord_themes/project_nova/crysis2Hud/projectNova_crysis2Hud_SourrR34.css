@@ -81,8 +81,3 @@
 .note-Ph806N p:last-child:after{
     content: "Access the suit's terminal (CTRL + Shift + I or CMD + Alt + I) to diagnose the issue.";
 }
-/* MODAL */
-/* Footers */
-:root .footerSeparator-3U8YsT{
-    box-shadow: none;
-}
