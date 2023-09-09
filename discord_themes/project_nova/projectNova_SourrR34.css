@@ -1027,7 +1027,10 @@ img[alt*="wumpus" i]{
     background: var(--brand-500);
     border-radius: 50%;
 }
-.flowerStar-2tNFCR+div [fill="var(--white-500)"]{
+.flowerStar-2tNFCR [fill]{
+    fill: none;
+}
+.flowerStar-2tNFCR+div [fill]{
     fill: var(--accent-contrast);
 }
 /* Bot Tags */
