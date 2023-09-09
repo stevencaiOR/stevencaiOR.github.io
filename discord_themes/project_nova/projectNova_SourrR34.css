@@ -874,8 +874,9 @@ rect[mask="url(#svg-mask-status-offline)"]{
 .clickable-ZD7xvu:hover .icon-2xnN2Y {
     color: var(--accent-2);
 }
-[class*="header-"]+[class*="messagesPopout-"]{
-    background: var(--background-tertiary); /*standardizes bg color of pinned and mentions dropdown*/
+.container-18GwIk, /*thread dropdown*/
+[class*="header-"]+[class*="messagesPopout-"]{ /*pinned and mentions dropdown*/
+    background: var(--background-floating);
 }
 /* Group DM Name */
 .outer-1KB3kA .input-1nrc5P{
@@ -886,10 +887,6 @@ rect[mask="url(#svg-mask-status-offline)"]{
 }
 .input-1nrc5P:focus{
     background: rgb(255,255,255,.1);
-}
-/* Threads */
-.container-18GwIk {
-    background: var(--background-floating); /*matches channel context dropdown menu bg next to it*/
 }
 /* Pinned Messages */
 [aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="image-"]{
