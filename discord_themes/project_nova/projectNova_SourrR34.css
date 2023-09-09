@@ -1104,7 +1104,6 @@ img[alt*="wumpus" i]{
 /* USER AREA PANEL */
 [aria-label="user area" i]{
     background: none;
-    border-top: 1px solid var(--background-modifier-accent);
 }
 [class*="withTagAsButton-"]:hover,
 [class*="withTagless-"]:hover{
