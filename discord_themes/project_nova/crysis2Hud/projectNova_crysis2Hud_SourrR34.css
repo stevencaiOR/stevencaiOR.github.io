@@ -31,6 +31,8 @@
     --background-primary: #0000;
     --background-secondary: rgb(0,0,0,.8);
     --focus-primary: var(--accent);
+    --modal-background: #080808;
+    --modal-footer-background: var(--modal-background);
 }
 
 /* ADJUSTED WINDOW */
@@ -78,4 +80,9 @@
 }
 .note-Ph806N p:last-child:after{
     content: "Access the suit's terminal (CTRL + Shift + I or CMD + Alt + I) to diagnose the issue.";
+}
+/* MODAL */
+/* Footers */
+:root .footerSeparator-3U8YsT{
+    box-shadow: none;
 }
