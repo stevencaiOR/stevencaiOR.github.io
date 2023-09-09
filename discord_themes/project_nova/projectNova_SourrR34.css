@@ -967,6 +967,9 @@ img[alt*="wumpus" i]{
 .icon-1dGlZy{ /*owner icon bandaid fix*/
     top: 0;
 }
+.popout-15UxD6{ /*"best seen in voice and video" -leafy*/
+    background: var(--modal-footer-background);
+}
 [class*="gradientBackground-"]{
     background: var(--background-secondary); /*background of gradient thing in screen share modal matches "input" boxes above*/
 }
