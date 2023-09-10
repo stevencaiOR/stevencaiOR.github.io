@@ -17,6 +17,7 @@
 
     /* Background */
     --background-image: url(https://cdna.artstation.com/p/assets/images/images/025/620/426/large/nak-ma-1586374598815.jpg);
+    --background-shading: rgb(0,0,0,.5);
 
     /* Home Button */
     --home-icon: url(https://i.imgur.com/QNZ0Vi2.png);
