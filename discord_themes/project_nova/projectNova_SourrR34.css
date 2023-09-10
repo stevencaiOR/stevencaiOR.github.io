@@ -324,6 +324,7 @@
     --profile-body-background-color: rgb(255,255,255,.03);
 
     /* Miscellaneous */
+    --code-background: rgb(30,30,30); /*matches that of vs code*/
     --channels-width: 300px;
     --members-width: 300px;
     --spotify-color: hsl(141.4 76.1% 47.6%);
@@ -702,6 +703,9 @@
 /* MESSAGE AREA */
 .divider-2rZFJK{
     border-color: var(--accent);
+}
+.markup-eYLPri code{
+    background: var(--code-background);
 }
 /* New Member Badge */
 [class*="newMemberBadge-"]{
