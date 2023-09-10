@@ -706,6 +706,9 @@
 .markup-eYLPri code{
     background: var(--code-background);
 }
+.reaction-3vwAF2{
+    background: hsl(var(--primary-330-hsl) / .1);
+}
 /* New Member Badge */
 [class*="newMemberBadge-"]{
     width: unset;
