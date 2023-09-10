@@ -1143,7 +1143,8 @@ img[alt*="wumpus" i]{
     border: 3px solid var(--accent);
 }
 /* USER AREA PANEL */
-[aria-label="user area" i]{
+[aria-label="user area" i],
+:root .panel-2ZFCRb{
     background: none;
 }
 [class*="withTagAsButton-"]:hover,
