@@ -306,6 +306,7 @@
     --background-secondary-alt: rgb(0,0,0,.3); /*role dot background*/
     --background-tertiary: #0000;
     --channel-icon: var(--channels-default);
+    --channeltextarea-background: rgb(0,0,0,.3);
     /**--channels-default: hsl(var(--accent-hsl) / .7);/**/
     --header-primary: var(--accent);
     --input-background: rgb(255,255,255,.1);
