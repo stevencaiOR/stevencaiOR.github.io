@@ -642,9 +642,6 @@
 [class*="channelTextArea-"]:focus-within{
     box-shadow: 0 0 12px 1px var(--accent);
 }
-[class*="channelTextArea-"] [class*="themedBackground-"]{
-    background: none;
-}
 [class*="channelTextArea-"] [class*="placeholder-"]{
     color: var(--accent);
 }
