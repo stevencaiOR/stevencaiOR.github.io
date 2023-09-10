@@ -1360,3 +1360,12 @@ img[alt*="wumpus" i]{
 [class*="contentCircle-"] .uploadIcon-2zMtOT{
     color: var(--accent-contrast);
 }
+/* NOTICE */
+.notice-1x8lm-,
+.notice-1x8lm- .header-SNasJy,
+.notice-1x8lm- .lookOutlined-3RTC7c.colorWhite-Eshn2o{
+    color: var(--accent-contrast);
+}
+.notice-1x8lm- .lookOutlined-3RTC7c.colorWhite-Eshn2o{
+    border-color: currentColor;
+}
