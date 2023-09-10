@@ -695,6 +695,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+[class*="replyBar-"]{
+    background: var(--channeltextarea-background);
+}
 /* MESSAGE AREA */
 .divider-2rZFJK{
     border-color: var(--accent);
