@@ -694,6 +694,7 @@
     max-width: 25ch;
     overflow: hidden;
     text-overflow: ellipsis;
+    vertical-align: top;
 }
 [class*="replyBar-"]{
     background: var(--channeltextarea-background);
