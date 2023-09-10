@@ -812,7 +812,8 @@
     border-radius: 99px;
 }
 .selected-1sf9UK.item-2GWPIy,
-.selected-1sf9UK.item-2GWPIy:hover{
+.selected-1sf9UK.item-2GWPIy:hover,
+.selected-1sf9UK.item-2GWPIy .selected-2Uns2B{
     color: var(--accent);
 }
 .side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
