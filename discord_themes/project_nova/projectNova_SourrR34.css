@@ -286,7 +286,7 @@
     --background-size: cover;
     --background-repeat: no-repeat;
     --background-attachment: fixed;
-    --background-shading: rgb(0,0,0,.7);
+    --background-shading: rgb(0,0,0,.6);
 
     /* Home Button */
     --home-icon: url(https://i.imgur.com/bWAghNX.png); /*url(https://i.imgur.com/QNZ0Vi2.png)*/
