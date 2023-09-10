@@ -1355,3 +1355,7 @@ img[alt*="wumpus" i]{
 [class*="gradientContainer-"]{
     background: none;
 }
+/* AVATAR UPLOADER */
+[class*="contentCircle-"] .uploadIcon-2zMtOT{
+    color: var(--accent-contrast);
+}
