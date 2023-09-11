@@ -1052,6 +1052,7 @@ img[alt*="wumpus" i]{
 }
 .header-2F5_LB, /*settings sidebar header*/
 .container-q97qHp, /*channel, dm and memberlist header*/
+[class*="privateChannelsHeaderContainer-"]:hover, /*dm header on hover*/
 .wrapperCommon-I1TMDb, /*channel header icons*/
 .clickable-ZD7xvu .icon-2xnN2Y/*dm list plus icon*/{
     color: var(--accent)
