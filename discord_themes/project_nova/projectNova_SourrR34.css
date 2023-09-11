@@ -350,10 +350,6 @@
     var(--background-size) var(--background-repeat)
     var(--background-attachment);
 }
-.bg-1QIAus,
-.app-2CXKsg{
-    background: none;
-}
 #app-mount > div[class*="titleBar"]{
     margin-top: 0;
     height: 22px;
@@ -416,10 +412,6 @@
     background: var(--accent-2);
 }
 /*-----SERVER BAR-----*/
-[class*="folder-"],
-[class*="folder-"][class*="hover-"]{
-    background: none;
-}
 .item-2LIpTv{
     background: var(--accent);
 }
@@ -433,9 +425,6 @@
 /*-----SIDEBAR-----*/
 .platform-win [class*="sidebar-"]{
     border-radius: unset;
-}
-:root [class*="privateChannels-"] [class*="scroller-"]{
-    background: none; /*keeps server and dm sidebar same bg*/
 }
 :root .container-YkUktl{
     background: none;
@@ -521,10 +510,6 @@
 [class*="peopleListItem-"]:hover{
     background: hsl(var(--accent-hsl) / .2);
 }
-[class*="nowPlayingColumn"],
-[class*="nowPlayingColumn"] .container-1oAagU{
-    background: none;
-}
 /* IMPROVED EMPTY STATE */
 [class*="peopleColumn-"] > [class*="emptyStateContainer-"] .wrapper-5BaSTh{
     max-width: 100%;
@@ -577,14 +562,8 @@
     text-indent: 0;
 }
 /*-----MEMBER LIST-----*/
-.container-2o3qEW{
-    background: none;
-}
 .membersWrap-3NUR2t{
     height: 100%;
-}
-.member-48YF_l{
-    background: none; /*member list item in servers*/
 }
 .members-3WRCEx{
     width: var(--members-width);
@@ -821,12 +800,6 @@
     fill: var(--accent);
 }
 /*-----SETTINGS AND TOP PILL ITEMS-----*/
-.standardSidebarView-E9Pc3j{
-    background: none;
-}
-.contentRegionScroller-2_GT_N{
-    background: none;
-}
 .side-1lrxIh .item-2GWPIy,
 .topPill-2vcLsa .item-2GWPIy{
     border-radius: 99px;
@@ -1063,9 +1036,6 @@ img[alt*="wumpus" i]{
 [class*="lookFilled-"][class*="colorBrandNew-"],
 [class*="lookFilled-"][class*="colorBrand-"] .defaultColor-1EVLSt{
     color: var(--accent-contrast)
-}
-[class*="attachedBars-"]{
-    background: none;
 }
 .header-2F5_LB, /*settings sidebar header*/
 .container-q97qHp, /*channel, dm and memberlist header*/
