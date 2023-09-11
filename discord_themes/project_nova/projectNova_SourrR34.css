@@ -1393,3 +1393,10 @@ img[alt*="wumpus" i]{
 .notice-1x8lm- .lookOutlined-3RTC7c.colorWhite-Eshn2o{
     border-color: currentColor;
 }
+/* DISCOVER PAGE */
+:root .pageWrapper-2PwDoS{
+    background: var(--background-primary);
+}
+.headerImage-2D5D-v{
+    display: none;
+}
