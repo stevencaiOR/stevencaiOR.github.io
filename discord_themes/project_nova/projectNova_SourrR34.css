@@ -850,6 +850,16 @@
 [class*="premiumLabel-"] svg{
     display: none;
 }
+/* MY ACCOUNT */
+#my-account-tab > div > :first-child [class*="children-"]{
+    align-items: center;
+}
+#my-account-tab [class*="accountProfileCard-"]{
+    background: rgb(0,0,0,.6);
+}
+[class*="userSettingsSecurityImage-"]{
+    display: none;
+}
 /* DEVICES */
 [class*="sessionIcon-"]{
     background: var(--accent);
