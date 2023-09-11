@@ -327,6 +327,7 @@
     --code-background: rgb(30,30,30); /*matches that of vs code*/
     --channels-width: 300px;
     --members-width: 300px;
+    --setting-sidebar-width: 240px;
     --spotify-color: hsl(141.4 76.1% 47.6%);
 }
 /*-----AUTHOR TRIBUTE-----*/
@@ -831,6 +832,24 @@
     color: var(--text-positive) !important;
 }
 /*-----SETTINGS-----*/
+[class*="sidebarRegion-"]{
+    flex-grow: 0;
+    flex-basis: var(--setting-sidebar-width);
+}
+[class*="sidebarRegion-"] .sidebar-nqHbhN{
+    width: var(--setting-sidebar-width);
+    padding: 20px 10px 10px;
+}
+[class*="sidebarRegion-"]+[class*="contentRegion-"]{
+    max-width: calc(100% - var(--setting-sidebar-width));
+}
+[class*="contentColumn-"]{
+    max-width: 100%;
+    padding: 20px 10px 50px 40px;
+}
+[class*="premiumLabel-"] svg{
+    display: none;
+}
 /* DEVICES */
 [class*="sessionIcon-"]{
     background: var(--accent);
