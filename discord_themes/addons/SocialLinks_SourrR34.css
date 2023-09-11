@@ -29,8 +29,8 @@
 }
 [class*="anchorUnderlineOnHover-"][aria-label="Instagram"] svg,
 [class*="anchorUnderlineOnHover-"][title="Instagram"] svg {
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    border-radius: 4.5px;
+    background: linear-gradient(45deg, #ffd600 10%, #ff7a00 20%, #ff0069 60%, #d300c5 90%);
+    border-radius: 4px;
 }
 [class*="anchorUnderlineOnHover-"][aria-label="tiktok" i] svg,
 [class*="anchorUnderlineOnHover-"][title="tiktok" i] svg{
