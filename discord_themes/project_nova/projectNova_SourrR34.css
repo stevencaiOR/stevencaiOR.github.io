@@ -803,6 +803,19 @@
     line-height: 1.2;
     padding: .3em;
 }
+/* Unread Divider */
+[class*="isUnread-"] .content-3spvdd,
+.unreadPill-3nEWYM{
+    color: var(--accent-contrast);
+}
+.unreadPill-3nEWYM{
+    background: var(--accent);
+    color: var(--accent-contrast);
+}
+[class*="unreadPillCapStroke-"]{
+    color: var(--accent);
+    fill: var(--accent);
+}
 /* SETTINGS and TOP PILL ITEMS */
 .standardSidebarView-E9Pc3j{
     background: none;
