@@ -485,7 +485,9 @@
 [class*="modeSelected-"] .link-1_kTxV,
 .wrapper-NhbLHG:hover .link-1_kTxV,
 .selected-1-Z6gm .layout-1qmrhw,
-.clickable-28SzVr.container-1oeRFJ:hover {
+.clickable-28SzVr.container-1oeRFJ:hover,
+[class*="categoryItem-"][class*="selectedCategoryItem-"] [class*="itemInner-"]/*discover section*/
+{
     background: hsl(var(--accent-hsl) / .1);
 }
 .clickable-28SzVr:hover .layout-1qmrhw{
