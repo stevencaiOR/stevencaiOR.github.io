@@ -329,6 +329,7 @@
     --members-width: 300px;
     --spotify-color: hsl(141.4 76.1% 47.6%);
 }
+/*-----AUTHOR TRIBUTE-----*/
 .contents-2MsGLg>img[src*="947934356880629760"]~.header-2jRmjb>.headerText-2z4IhQ>.username-h_Y3Us::after{
     content: "Nanosuit 2.0";
     color: var(--accent);
@@ -343,6 +344,7 @@
     background-image: url(https://i.imgur.com/jGwsi13.png) !important;
     background-position: 55% 15%;
 }
+/*----------*/
 #app-mount{
     background: var(--background-image) var(--background-position) /
     var(--background-size) var(--background-repeat)
@@ -361,7 +363,7 @@
     background: var(--background-shading);
 }
 
-/* TITLE BAR + WINDOWS BUTTONS */
+/*-----TITLE BAR + WINDOWS BUTTONS-----*/
 [class*="winButton-"]{
     color: var(--accent);
     top: 0;
@@ -371,7 +373,7 @@
     background: var(--accent);
     color: var(--accent-contrast);
 }
-/* Watermark */
+/* WATERMARK */
 #app-mount > div[class*="titleBar"] > div:first-child{
     padding: 5px 9px;
 }
@@ -384,7 +386,7 @@
 #app-mount > div[class*="titleBar"] > div:first-child svg{
     display: none;
 }
-/* SCROLL BARS */
+/*-----SCROLL BARS-----*/
 ::-webkit-scrollbar{
     width: 8px;
 }
@@ -395,7 +397,7 @@
 ::-webkit-scrollbar-thumb:active{
     background: var(--accent-2);
 }
-/* UNREAD BUTTONS */
+/*-----UNREAD BUTTONS-----*/
 .mention-3XBnnZ,
 .mention-3XBnnZ:active,
 .unread-2wipsx,
@@ -413,7 +415,7 @@
 .unread-2wipsx:hover{
     background: var(--accent-2);
 }
-/* SERVER BAR */
+/*-----SERVER BAR-----*/
 [class*="folder-"],
 [class*="folder-"][class*="hover-"]{
     background: none;
@@ -428,7 +430,7 @@
 [class*="expandedFolderBackground-"]{
     background: rgb(255,255,255,.1);
 }
-/* SIDEBAR */
+/*-----SIDEBAR-----*/
 .platform-win [class*="sidebar-"]{
     border-radius: unset;
 }
@@ -447,7 +449,7 @@
 #channels{
     padding-right: 8px !important; /*same padding as .scroller-1ox3I2 which is a class it has (overwritten by element.style which is dumb)*/
 }
-/* DIRECT MESSAGES, CHANNEL LIST AND MEMBER LIST */
+/*-----DIRECT MESSAGES, CHANNEL LIST AND MEMBER LIST-----*/
 [class*="interactiveSelected-"],
 .interactive-26HRN_:focus-within,
 .interactive-26HRN_:hover,
@@ -514,7 +516,7 @@
 .wrapper-NhbLHG:hover:not([class*="modeSelected-"]) .actionIcon-2sw4Sl{
     filter: drop-shadow(0 0 5px)
 }
-/* FRIENDS TAB */
+/*-----FRIENDS TAB-----*/
 [class*="peopleListItem-"].active-2UF8Zh,
 [class*="peopleListItem-"]:hover{
     background: hsl(var(--accent-hsl) / .2);
@@ -523,7 +525,7 @@
 [class*="nowPlayingColumn"] .container-1oAagU{
     background: none;
 }
-/* Improved Empty State */
+/* IMPROVED EMPTY STATE */
 [class*="peopleColumn-"] > [class*="emptyStateContainer-"] .wrapper-5BaSTh{
     max-width: 100%;
 }
@@ -555,7 +557,7 @@
 #blocked-tab > [class*="emptyStateContainer-"] [class*="text-"]:after{
     content:"No blocked users";
 }
-/* Now Playing Column */
+/* NOW PLAYING COLUMN */
 @media (max-width: 1440px) { 
 	[class*="nowPlayingColumn-"]{
 		display: none;
@@ -574,7 +576,7 @@
     line-height: 1.25;
     text-indent: 0;
 }
-/* MEMBER LIST */
+/*-----MEMBER LIST-----*/
 .container-2o3qEW{
     background: none;
 }
@@ -590,11 +592,11 @@
 .members-3WRCEx .member-2gU6Ar{
     max-width: calc(14*var(--members-width)/15);
 }
-/* USER POPOUTS + MODALS */
+/*-----USER POPOUTS + MODALS-----*/
 [class*="userProfileInnerThemedNonPremium-"]{
     background: var(--popout-background);
 }
-/* Weird Username Support */
+/* WEIRD USERNAME SUPPORT */
 [class*="userPopoutOverlayBackground-"] [class*="nickname-"],
 [class*="userProfileModalOverlayBackground-"] [class*="text-lg-semibold-"]{
     line-height: 2.8;
@@ -607,7 +609,7 @@
     font-size: 16px; /*default: 14px*/
     line-height: 2.8;
 }
-/* Modal Tabs*/
+/* MODAL TABS */
 [aria-label="User Profile Modal"] [class*="tabBar-"]{
     justify-content: space-evenly;
 }
@@ -615,12 +617,12 @@
 .top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy{
     border-bottom-color: var(--accent);
 }
-/* Mutual Friends + Servers */
+/* MUTUAL FRIENDS + SERVERS */
 [class*="emptyIconFriends-"],
 [class*="emptyIconGuilds-"]{
     display: none;
 }
-/* Roles */
+/* ROLES */
 .roles-3vQPxb .roleRemoveIcon-387wKV,
 .roleWrapper-2IhvNd .roleRemoveIcon-387wKV{
     left: calc(100% - 10px);
@@ -634,7 +636,7 @@
 .roleWrapper-2IhvNd .role-2TIOKu:hover{
     border-color: rgb(255,255,255,.5);
 }
-/* CHANNEL TEXT AREA */
+/*-----CHANNEL TEXT AREA-----*/
 .form-3gdLxP{
     margin-top: 0;
 }
@@ -651,7 +653,7 @@
 [class*="channelTextArea-"] [class*="placeholder-"]{
     color: var(--accent);
 }
-/* Upload File Stuff */
+/* UPLOAD FILE STUFF */
 [class*="attachButtonPlus-"]{
     fill: var(--accent);
 }
@@ -665,7 +667,7 @@
     background: #101010;
     box-shadow: 0 0 0 3px var(--accent);
 }
-/* Gift/Sticker/Emoji Buttons */
+/* GIFT/STICKER/EMOJI BUTTONS */
 [class*="channelTextArea-"] button:not([aria-label="Send Message"]) [class*="contents-"] > div{
     display: none;
 }
@@ -684,16 +686,16 @@
 [class*="channelTextArea-"] [aria-label="Select emoji"] [class*="contents-"]:after{
     content: "[Emoji]";
 }
-/* Send Button */
+/* SEND BUTTON */
 :root button:hover[class*="button-"] [class*="activeButtonChild-"]{
     color: var(--accent-2);
 }
-/* Color Replacements */
+/* COLOR REPLACEMENTS */
 [class*="jumpToPresentBar-"],
 :root [class*="autocomplete-"] {
     background: var(--background-floating);
 }
-/* Reply Bar */
+/* REPLY BAR */
 .name-3DDHNY{
     display: inline-block;
     max-width: 25ch;
@@ -704,7 +706,7 @@
 [class*="replyBar-"]{
     background: var(--channeltextarea-background);
 }
-/* MESSAGE AREA */
+/*-----MESSAGE AREA-----*/
 .divider-2rZFJK{
     border-color: var(--accent);
 }
@@ -714,7 +716,7 @@
 .reaction-3vwAF2{
     background: hsl(var(--primary-330-hsl) / .1);
 }
-/* New Member Badge */
+/* NEW MEMBER BADGE */
 [class*="newMemberBadge-"]{
     width: unset;
     height: calc(1rem + 6px);
@@ -731,11 +733,11 @@
     font-size: .7rem;
     padding: 1px 5px;
 }
-/* Replied Messages */
+/* REPLIED MESSAGES */
 .repliedMessage-3Z6XBG:before{
     border-color: var(--accent);
 }
-/* Chat Header */
+/* CHAT HEADER */
 .header-1dhDWV{
     max-width: 25ch;
     overflow: hidden;
@@ -752,7 +754,7 @@
     text-overflow: ellipsis;
     vertical-align: top; /*certain unicode characters fuck up vertical alignment of text so*/
 }
-/* Chat Header (new server) */
+/* CHAT HEADER (NEW SERVERS) */
 .subtitle-3tY4DQ{
     line-height: 0;
     text-indent: -9999px;
@@ -783,21 +785,21 @@
 .container-1yy5xN .cardWrapper-2fBdfM:nth-child(5) .card-PQEqCK:before{
     content: "< App >";
 }
-/* Button Menu On Right */
+/* BUTTON MENUT ON RIGHT */
 .message-2CShn3 .buttonsInner-1ynJCY{
     background: var(--background-floating);
     box-shadow: 0 0 0 2px var(--accent);
 }
-/* Smaller Stickers */
+/* SMALLER STICKERS */
 .clickableSticker-3FN2_L .assetWrapper-2hzITV{
     height: 5rem !important;
     width: 5rem !important;
 }
-/* New Message Bar */
+/* NEW MESSAGE BAR */
 [class*="newMessagesBar-"] [class*="barButtonBase-"]{
     color: var(--accent-contrast)
 }
-/* Date Divider */
+/* DATE DIVIDER */
 .content-3spvdd{
     background: var(--accent);
     color: var(--accent-contrast);
@@ -805,7 +807,7 @@
     line-height: 1.2;
     padding: .3em;
 }
-/* Unread Divider */
+/* UNREAD DIVIDER */
 [class*="isUnread-"] .content-3spvdd,
 .unreadPill-3nEWYM{
     color: var(--accent-contrast);
@@ -818,7 +820,7 @@
     color: var(--accent);
     fill: var(--accent);
 }
-/* SETTINGS and TOP PILL ITEMS */
+/*-----SETTINGS AND TOP PILL ITEMS-----*/
 .standardSidebarView-E9Pc3j{
     background: none;
 }
@@ -849,19 +851,19 @@
     color: var(--accent);
     text-shadow: 0 0 5px;
 }
-/* Add Friend Pill */
+/* ADD FRIEND PILL */
 .tabBar-ra-EuL [class*="addFriend-"]:hover{
     background: #0000 !important;
     border: 3px solid;
     color: var(--text-positive) !important;
 }
-/* SETTINGS */
-/* Devices */
+/*-----SETTINGS-----*/
+/* DEVICES */
 [class*="sessionIcon-"]{
     background: var(--accent);
     color: var(--accent-contrast);
 }
-/*Privacy and Safety*/
+/* PRIVACY AND SAFETY */
 [class*="radioBar-"][style*="--radio-bar-accent-color:var(--green-360)"]{
     border-color: var(--radio-bar-green) !important;
 }
@@ -877,11 +879,11 @@
 [class*="selectedBackground-"]{
     background: none;
 }
-/* Registered Games */
+/* REGISTERED GAMES */
 :root [class*="addGamePopout-"]{
     background: #101010;
 }
-/* STATUS COLORS */
+/*-----STATUS COLORS-----*/
 rect[mask="url(#svg-mask-status-online-mobile)"],
 rect[mask="url(#svg-mask-status-online)"]{
     fill: var(--online-color);
@@ -899,12 +901,12 @@ rect[mask="url(#svg-mask-status-streaming)"]{
 rect[mask="url(#svg-mask-status-offline)"]{
     fill: var(--offline-color);
 }
-/* NUMBER BADGES */
+/*-----NUMBER BADGES-----*/
 [class*="numberBadge-"][style*="background-color: var(--status-danger)"]{
     background: var(--accent) !important;
     color: var(--accent-contrast);
 }
-/* BUTTONS */
+/*-----BUTTONS-----*/
 [class*="lookFilled-"][class*="colorBrand-"]{
     color: var(--accent-contrast);
 }
@@ -916,14 +918,14 @@ rect[mask="url(#svg-mask-status-offline)"]{
 [class*="lookFilled-"][class*="colorBrand-"][aria-disabled="true"]{
     background: var(--accent);
 }
-/*voice panel action buttons*/
+/* VOICE PANEL ACTION BUTTONS */
 [class*="lookFilled-"][class*="colorBrand-"].button-1EGGcP.buttonColor-3bP3fX {
     background: var(--accent);
 }
 [class*="lookFilled-"][class*="colorBrand-"].button-1EGGcP.buttonColor-3bP3fX:hover {
     background: var(--accent-2);
 }
-/* CHANNEL HEADER */
+/*-----CHANNEL HEADER-----*/
 .children-3xh0VB:after{
     content: unset;
 }
@@ -940,7 +942,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
 [class*="header-"]+[class*="messagesPopout-"]{ /*pinned and mentions dropdown*/
     background: var(--background-floating);
 }
-/* Group DM Name */
+/* GROUP DM NAME */
 .outer-1KB3kA .input-1nrc5P{
     border: 2px solid #0000;
 }
@@ -950,7 +952,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
 .input-1nrc5P:focus{
     background: rgb(255,255,255,.1);
 }
-/* Pinned Messages */
+/* PINNED MESSAGES */
 [aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="image-"]{
     display: none;
 }
@@ -965,7 +967,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
     line-height: 1.25;
     text-indent: 0;
 }
-/* Header Search Bar */
+/* HEADER SEARCH BAR */
 [class*="search-"] [class*="searchBar-"]{
     border: 3px solid var(--accent);
     box-sizing: content-box;
@@ -976,13 +978,13 @@ rect[mask="url(#svg-mask-status-offline)"]{
 [class*="search-"][class*="open-"] [class*="searchBar-"]{
     width: 350px;
 }
-/* SEARCH BARS */
+/*-----SEARCH BARS-----*/
 [class*="searchBar-"] [class*="searchBarComponent-"]{
     border: 3px solid var(--accent);
     box-sizing: content-box;
     border-radius: 8px;
 }
-/* SEARCH RESULTS WRAP */
+/*-----SEARCH RESULTS WRAP-----*/
 .searchHeader-1r_ZSh,
 header.searchHeader-1r_ZSh+div{
     background: var(--background-secondary-alt); /*search results wrap background matches aside profile panel*/
@@ -1005,7 +1007,7 @@ header.searchHeader-1r_ZSh+div{
 .button-cfOvv-:hover{
     background: var(--accent-2);
 }
-/* ANTI DUMB SHIT (work in progress) */
+/*-----ANTI DUMB SHIT (work in progress)-----*/
 .root-1F1IKT,
 [class^="art-"],
 [class*="artwork-" i],
@@ -1034,7 +1036,7 @@ img[alt*="sparkle"],
 img[alt*="wumpus" i]{
     display: none !important;
 }
-/* MISCELLANEOUS */
+/*-----MISCELLANEOUS-----*/
 .icon-1dGlZy{ /*owner icon bandaid fix*/
     top: 0;
 }
@@ -1072,16 +1074,16 @@ img[alt*="wumpus" i]{
 .clickable-ZD7xvu .icon-2xnN2Y/*dm list plus icon*/{
     color: var(--accent)
 }
-/* Embeds */
+/* EMBEDS */
 [class*="embedFull-"]{
     border-color: var(--primary-700);
     background: rgb(0,0,0,.5);
 }
-/* Emoji on hover in message context menu */
+/* MESSAGE CONTEXT MENU */
 #message [class*="button-"]:hover{
     transform: scale(1.2);
 }
-/* Shorten Long Usernames (message area, search results wrap, reply contexts, etc) */
+/* SHORTEN LONG USERNAMES (message area, search results wrap, reply contexts, etc) */
 .username-h_Y3Us{
     display: inline-block;
     max-width: 25ch;
@@ -1090,7 +1092,7 @@ img[alt*="wumpus" i]{
     white-space: pre;
     vertical-align: middle;
 }
-/* Flower Star */
+/* FLOWER STAR */
 .flowerStar-2tNFCR{
     background: var(--brand-500);
     border-radius: 50%;
@@ -1101,27 +1103,68 @@ img[alt*="wumpus" i]{
 .flowerStar-2tNFCR+div [fill]{
     fill: var(--accent-contrast);
 }
-/* Bot Tags */
+/* BOT TAGS */
 [class*="botTagRegular-"]{
 	color: var(--accent-contrast);
 }
 [class*="botTagInvert-"]{
 	background: var(--accent-contrast);
 }
-/* Default Emoji in Inputs */
+/* DEFAULT EMOJI IN INPUTS */
 .sprite-2lxwfc{
     background-image: var(--home-icon);
     background-size: 22px 22px !important;
     background-position: unset !important;
     filter: none !important;
 }
-/* Denitrofication */
+/* DENITROFICATION */
 [href="/store"],
 [class*="button"][aria-label="Send a gift"]{
     display: none;
 }
-/* MISCELLANEOUS MODALS */
-/* "Soo... You Blocked This Person" Modal */
+/*-----MISCELLANEOUS MODALS-----*/
+/* ADD SERVER MODAL */
+.header-12n7su{
+    padding: 40px 16px 0;
+}
+.container-x8Y1ix {
+    padding: 20px;
+}
+.container-x8Y1ix [class*="icon-"]{
+    display: none;
+}
+.footer-IubaaS{
+    color: var(--accent);
+}
+/* CHECKOUT MODAL */
+[class*="tier2HeaderBackground-"]{
+    background: var(--accent);
+    min-height: 30px;
+}
+[class*="tier2Animation-"],
+[class*="tier2Background-"],
+[class*="tier2Foreground-"]{
+    display: none;
+}
+[class*="tier2HeaderBackground-"] .headerIcon-1ACCh0,
+[class*="tier2HeaderBackground-"] .closeButton-Fq8ADF{
+    color: var(--accent-contrast) !important;
+}
+.closeButton-Fq8ADF{
+    opacity: 1;
+}
+/* "Friend request failed" MODAL */
+[aria-label="Friend request failed"] [data-text-variant="text-md/normal"]{
+    text-indent: -9999px;
+    line-height: 0;
+}
+[aria-label="Friend request failed"] [data-text-variant="text-md/normal"]:after{
+    content: "User not found. If the username is correct, the user has either blocked you or has prevented certain friend requests in settings.";
+    display: block;
+    text-indent: 0;
+    line-height: 1.25;
+}
+/* "Soo... You Blocked This Person" MODAL */
 [aria-label="Soo... You Blocked This Person"] h2,
 [aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]{
     text-indent: -9999px;
@@ -1139,18 +1182,7 @@ img[alt*="wumpus" i]{
 [aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]:after{
     content: "Unblock this user to jump to the specified message";
 }
-/* "Friend request failed" Modal */
-[aria-label="Friend request failed"] [data-text-variant="text-md/normal"]{
-    text-indent: -9999px;
-    line-height: 0;
-}
-[aria-label="Friend request failed"] [data-text-variant="text-md/normal"]:after{
-    content: "User not found. If the username is correct, the user has either blocked you or has prevented certain friend requests in settings.";
-    display: block;
-    text-indent: 0;
-    line-height: 1.25;
-}
-/* INTERACTIVE TEXT */
+/*-----USER MENTION WRAPPER-----*/
 .wrapper-1ZcZW-{
     background: hsl(var(--accent-hsl) / .2);
     color: var(--accent);
@@ -1160,7 +1192,7 @@ img[alt*="wumpus" i]{
     background: var(--accent);
     color: var(--accent-contrast);
 }
-/* Long Username Support */
+/* LONG USERNAME SUPPORT */
 .contents-2MsGLg .wrapper-1ZcZW-{ /* does NOT affect replies. still *may* not work completely as intended (check IPL) */
     display: inline-block;
     max-width: 25ch;
@@ -1169,16 +1201,16 @@ img[alt*="wumpus" i]{
     vertical-align: middle;
     white-space: pre;
 }
-/* Pings */
+/* PINGS */
 .mentioned-Tre-dv:before{
     background: var(--accent);
     width: 2px;
 }
-/* QUICKSWITCHER */
+/*-----QUICKSWITCHER-----*/
 [class*="quickswitcher-"]{
     border: 3px solid var(--accent);
 }
-/* USER AREA PANEL */
+/*-----USER AREA PANEL-----*/
 [aria-label="user area" i],
 :root .panel-2ZFCRb{
     background: none;
@@ -1190,7 +1222,7 @@ img[alt*="wumpus" i]{
 [class*="withTagAsButton-"]:hover [class*="title-"]{
     text-shadow: 0 0 5px;
 }
-/* Panel Button */
+/* PANEL BUTTON */
 .button-12Fmur{
     color: var(--accent);
     transition: .2s;
@@ -1199,7 +1231,7 @@ img[alt*="wumpus" i]{
     background: var(--accent);
     color: var(--accent-contrast);
 }
-/* Mute/Deafen/User Settings Buttons */
+/* MUTE/DEAFEN/SETTINGS BUTTONS */
 [aria-label="user area" i] [aria-label="Set Status"]+div{
     background: hsl(var(--accent-hsl) / .2); /*bg kept to visually "group" like elements together*/
     border-radius: 15px;
@@ -1212,11 +1244,11 @@ img[alt*="wumpus" i]{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-/* Voice Panel */
+/* VOICE PANEL */
 .container-1zzFcN{
     background: none;
 }
-/* Popout */
+/* USER POPOUT */
 #account-status-picker--online[class*="focused-"]{
     background: var(--online-color);
 }
@@ -1257,14 +1289,14 @@ img[alt*="wumpus" i]{
 [class*="colorDefault-"] [fill*="var(--white-500)"]{
     fill: var(--accent-contrast);
 }
-/* STUDENT HUB */
+/*-----STUDENT HUB-----*/
 .headerImage-Xy5R7m{
     display: none;
 }
 .headerContent-3_EO-5 .searchBox-3wTyE4{
     background: var(--input-background);
 }
-/* ERROR PAGE */
+/*-----ERROR PAGE-----*/
 :root .wrapper-3AZUiP{
     background: none;
 }
@@ -1314,7 +1346,7 @@ img[alt*="wumpus" i]{
 .note-Ph806N p:last-child:after{
     content: "Access the terminal (CTRL + Shift + I or CMD + Alt + I) to diagnose the issue.";
 }
-/* VERIFICATION REQUIRED PAGE */
+/*-----VERIFICATION REQUIRED PAGE-----*/
 .image-cLINxN{
     display: none;
 }
@@ -1328,7 +1360,7 @@ img[alt*="wumpus" i]{
     border: 3px solid var(--accent);
     padding: 30px;
 }
-/* BETTER DISCORD */
+/*-----BETTER DISCORD-----*/
 .bd-button{
     background: var(--accent);
     color: var(--accent-contrast)
@@ -1343,48 +1375,18 @@ img[alt*="wumpus" i]{
 .bd-controls > .bd-button.bd-addon-button:not(.bd-button-danger) svg{
     fill: var(--accent-contrast)
 }
-/* CHECKOUT MODAL */
-[class*="tier2HeaderBackground-"]{
-    background: var(--accent);
-    min-height: 30px;
-}
-[class*="tier2Animation-"],
-[class*="tier2Background-"],
-[class*="tier2Foreground-"]{
-    display: none;
-}
-[class*="tier2HeaderBackground-"] .headerIcon-1ACCh0,
-[class*="tier2HeaderBackground-"] .closeButton-Fq8ADF{
-    color: var(--accent-contrast) !important;
-}
-.closeButton-Fq8ADF{
-    opacity: 1;
-}
-/* ADD SERVER MODAL */
-.header-12n7su{
-    padding: 40px 16px 0;
-}
-.container-x8Y1ix {
-    padding: 20px;
-}
-.container-x8Y1ix [class*="icon-"]{
-    display: none;
-}
-.footer-IubaaS{
-    color: var(--accent);
-}
-/* CALL WRAPPER */
+/*-----CALL WRAPPER-----*/
 [class*="callContainer-"]{
     background: #0000;
 }
 [class*="gradientContainer-"]{
     background: none;
 }
-/* AVATAR UPLOADER */
+/*-----AVATAR UPLOADER-----*/
 [class*="contentCircle-"] .uploadIcon-2zMtOT{
     color: var(--accent-contrast);
 }
-/* NOTICE */
+/*-----NOTICE-----*/
 .notice-1x8lm-,
 .notice-1x8lm- .header-SNasJy,
 .notice-1x8lm- .lookOutlined-3RTC7c.colorWhite-Eshn2o{
@@ -1393,7 +1395,7 @@ img[alt*="wumpus" i]{
 .notice-1x8lm- .lookOutlined-3RTC7c.colorWhite-Eshn2o{
     border-color: currentColor;
 }
-/* DISCOVER PAGE */
+/*-----DISCOVER PAGE-----*/
 :root .pageWrapper-2PwDoS{
     background: var(--background-primary);
 }
