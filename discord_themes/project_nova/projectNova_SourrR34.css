@@ -1070,6 +1070,11 @@ img[alt*="wumpus" i]{
 .clickable-ZD7xvu .icon-2xnN2Y/*dm list plus icon*/{
     color: var(--accent)
 }
+/* Embeds */
+[class*="embedFull-"]{
+    border-color: var(--primary-700);
+    background: rgb(0,0,0,.5);
+}
 /* Emoji on hover in message context menu */
 #message [class*="button-"]:hover{
     transform: scale(1.2);
