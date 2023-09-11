@@ -444,6 +444,9 @@
 .sidebar-1tnWFu .channel-1Shao0{
     max-width: calc(14*var(--channels-width)/15); /*default: 224px*/
 }
+#channels{
+    padding-right: 8px !important; /*same padding as .scroller-1ox3I2 which is a class it has (overwritten by element.style which is dumb)*/
+}
 /* DIRECT MESSAGES, CHANNEL LIST AND MEMBER LIST */
 [class*="interactiveSelected-"],
 .interactive-26HRN_:focus-within,
