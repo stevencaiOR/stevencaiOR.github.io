@@ -941,13 +941,16 @@
    flex-basis: calc(50% - 15px);
 }
 /* CONNECTIONS */
+[class*="connectionList-"]{
+    grid-template-columns: repeat(2, 1fr);
+}
 .connection-YOVI9j{
     background: rgb(24,24,24,.5);
 }
-.connectionHeader-Ixbb1s{
+[class*="connectionHeader-"]{
     background: none;
 }
-.connectionOptionsWrapper-3aVWcp{
+[class*="connectionOptionsWrapper-"]{
     border-radius: 0 0 8px 8px;
 }
 /* NITRO */
