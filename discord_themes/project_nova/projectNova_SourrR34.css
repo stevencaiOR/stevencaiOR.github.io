@@ -1256,11 +1256,9 @@ img[alt*="wumpus" i]{
     border: 3px solid var(--accent);
 }
 /*-----USER AREA PANEL-----*/
-:root .container-YkUktl{
-    background: none;
-}
 [aria-label="user area" i],
-:root .panel-2ZFCRb{
+:root .panel-2ZFCRb,
+:root .container-YkUktl{
     background: none;
 }
 [class*="withTagAsButton-"]:hover,
