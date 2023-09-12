@@ -869,6 +869,10 @@
     color: var(--accent-contrast);
 }
 /* PRIVACY AND SAFETY */
+#privacy-\&-safety-tab .children-2C96Ex .children-2C96Ex {
+    flex-direction: row;
+    gap: 40px;
+}
 [class*="radioBar-"][style*="--radio-bar-accent-color:var(--green-360)"]{
     border-color: var(--radio-bar-green) !important;
 }
