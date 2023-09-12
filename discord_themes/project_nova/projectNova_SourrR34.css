@@ -424,12 +424,6 @@
     background: rgb(255,255,255,.1);
 }
 /*-----SIDEBAR-----*/
-.platform-win [class*="sidebar-"]{
-    border-radius: unset;
-}
-:root .container-YkUktl{
-    background: none;
-}
 .sidebar-1tnWFu{
     width: var(--channels-width); /*default: 240px. increased width for longer names*/
 }
@@ -1262,6 +1256,9 @@ img[alt*="wumpus" i]{
     border: 3px solid var(--accent);
 }
 /*-----USER AREA PANEL-----*/
+:root .container-YkUktl{
+    background: none;
+}
 [aria-label="user area" i],
 :root .panel-2ZFCRb{
     background: none;
