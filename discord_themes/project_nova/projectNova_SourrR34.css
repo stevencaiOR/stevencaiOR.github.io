@@ -783,9 +783,7 @@
 .content-3spvdd{
     background: var(--accent);
     color: var(--accent-contrast);
-    font-size: 14px;
-    line-height: 1.2;
-    padding: .3em;
+    padding: .4em;
 }
 /* UNREAD DIVIDER */
 [class*="isUnread-"] .content-3spvdd,
