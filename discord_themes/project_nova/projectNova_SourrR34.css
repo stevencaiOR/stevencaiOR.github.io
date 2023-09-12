@@ -930,6 +930,58 @@
 .connectionOptionsWrapper-3aVWcp{
     border-radius: 0 0 8px 8px;
 }
+/* NITRO */
+[class*="settingsHero-"],
+.tier0-17mYUd,
+.tier2-qNjKTW,
+[class*="bigPerkCard-"],
+[class*="smallPerkCard-"]{
+    background: rgb(0,0,0,.5);
+    border: 3px solid var(--accent);
+}
+#discord-nitro-tab .settingsHero-2Me_mE h2,
+[class*="bigPerkCard-"]:not(:nth-child(2)) [class*="bigPerkCardHeading-"],
+[class*="smallPerkCard-"]:not(:nth-child(3), :nth-child(5), :nth-child(6),:nth-child(7)) [class*="smallPerkCardDescription-"]{
+    text-indent: -9999px;
+    line-height: 0;
+}
+#discord-nitro-tab .settingsHero-2Me_mE h2:after,
+[class*="bigPerkCard-"] [class*="bigPerkCardHeading-"]:after,
+[class*="smallPerkCard-"] [class*="smallPerkCardDescription-"]:after{
+    display: block;
+    text-indent: 0;
+    line-height: 1.3;
+}
+#discord-nitro-tab .settingsHero-2Me_mE h2:after{
+    content: "Discord Nitro";
+}
+[class*="bigPerkCardHeading-"]{
+    margin-bottom: 0;
+}
+[class*="bigPerkCard-"]:first-child [class*="bigPerkCardHeading-"]:after{
+    content: "Use custom emojis anywhere";
+}
+[class*="bigPerkCard-"]:nth-child(3) [class*="bigPerkCardHeading-"]:after{
+    content: "Stream apps and games in HD";
+}
+[class*="bigPerkCard-"]:last-child [class*="bigPerkCardHeading-"]:after{
+    content: "Upload larger files";
+}
+[class*="smallPerkCard-"]:first-child [class*="smallPerkCardDescription-"]:after{
+    content: "In-app media editing.";
+}
+[class*="smallPerkCard-"]:nth-child(2) [class*="smallPerkCardDescription-"]:after{
+    content: "Apply a unique color palettes to Discord.";
+}
+[class*="smallPerkCard-"]:nth-child(4) [class*="smallPerkCardDescription-"]:after{
+    content: "Use animated reactions.";
+}
+[class*="smallPerkCard-"]:nth-child(8) [class*="smallPerkCardDescription-"]:after{
+    content: "Join up to 200 servers.";
+}
+[class*="smallPerkCard-"]:last-child [class*="smallPerkCardDescription-"]:after{
+    content: "Send longer messages with an increased character count.";
+}
 /* REGISTERED GAMES */
 :root [class*="addGamePopout-"]{
     background: #101010;
