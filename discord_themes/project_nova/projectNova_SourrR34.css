@@ -1067,6 +1067,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
 [class*="artcontainer" i],
 [class*="bannerArt-"],
 [class*="backgroundImages-"],
+[class*="bigperkart" i],
 [class*="confetti" i],
 .emptyImage-2pCD2j,
 [class*="errorStateIcon-"], /*Group DM modal error state icon (not friends and trying to make group DM)*/
@@ -1077,6 +1078,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
 [class*="perkNewsletter-"],
 [class*="perkBadge-"],
 [class*="perkChallenges-"],
+[class*="perkscardart" i],
 img[class*="roleSubscription"],
 [class*="sparkle" i],
 [class*="stars" i],
