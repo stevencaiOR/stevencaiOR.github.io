@@ -995,7 +995,7 @@
     content: "In-app media editing.";
 }
 [class*="smallPerkCard-"]:nth-child(2) [class*="smallPerkCardDescription-"]:after{
-    content: "Apply a unique color palettes to Discord.";
+    content: "Apply a unique color palette to Discord.";
 }
 [class*="smallPerkCard-"]:nth-child(4) [class*="smallPerkCardDescription-"]:after{
     content: "Use animated reactions.";
