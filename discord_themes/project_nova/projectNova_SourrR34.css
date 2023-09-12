@@ -866,6 +866,34 @@
     display: none;
 }
 /* PROFILES */
+[class*="premiumFeatureBorder-"]{
+    background: rgb(0,0,0,.3);
+    border: 3px solid var(--accent);
+}
+[class*="premiumBackground-"]{
+    background: none;
+}
+#profile-customization-tab [class*="tryItOutSection-"] h3{
+    text-indent: -9999px;
+    line-height: 0;
+}
+#profile-customization-tab [class*="tryItOutSection-"] h3:after{
+    text-indent: 0;
+    line-height: 1.25;
+    display: block;
+    content: "Nitro Preview";
+}
+[class*="bannerUploaderInnerSquare-"][style*='background-image: url("/assets/']{ /*replaces dumb preview placeholder banner that they have*/
+    background: var(--background-image) var(--background-position) /
+    var(--background-size) var(--background-repeat) !important;
+}
+[class*="upsellOverlayContainer-"]{
+    background: none;
+}
+[class*="upsellTextContainer-"]{
+    background: rgb(0,0,0,.3);
+    border: 3px solid var(--accent);
+}
 /* PRIVACY AND SAFETY */
 #privacy-\&-safety-tab .children-2C96Ex .children-2C96Ex {
     flex-direction: row;
