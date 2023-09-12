@@ -969,6 +969,12 @@ rect[mask="url(#svg-mask-status-offline)"]{
 [class*="lookFilled-"][class*="colorBrand-"][aria-disabled="true"]{
     background: var(--accent);
 }
+[class*="lookInverted-"][class*="colorBrand-"],
+[class*="lookInverted-"][class*="colorBrand-"]:disabled,
+[class*="lookInverted-"][class*="colorBrand-"][aria-disabled=true]{
+    background: var(--accent-contrast);
+    border: 2px solid var(--accent);
+}
 /* VOICE PANEL ACTION BUTTONS */
 [class*="lookFilled-"][class*="colorBrand-"].button-1EGGcP.buttonColor-3bP3fX {
     background: var(--accent);
