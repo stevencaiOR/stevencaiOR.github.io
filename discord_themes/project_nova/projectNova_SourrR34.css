@@ -1315,11 +1315,6 @@ img[alt*="wumpus" i]{
     content: "Unblock this user to jump to the specified message";
 }
 /*-----USER MENTION WRAPPER-----*/
-.wrapper-1ZcZW-{
-    background: hsl(var(--accent-hsl) / .2);
-    color: var(--accent);
-    padding: 2px 4px;
-}
 .interactive:hover{
     background: var(--accent);
     color: var(--accent-contrast);
