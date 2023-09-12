@@ -873,7 +873,7 @@
 }
 #my-account-tab [class*="accountProfileCard-"]{
     background: rgb(0,0,0,.6);
-    width: 660px;
+    width: 660px; /*long user/display name makes width super huge otherwise*/
 }
 [class*="userSettingsSecurityImage-"]{
     display: none;
