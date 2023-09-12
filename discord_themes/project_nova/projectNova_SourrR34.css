@@ -303,7 +303,7 @@
     --background-mobile-primary:#101010;
     --background-primary: #0000;
     --background-secondary: #0000;
-    --background-secondary-alt: rgb(24,24,24,.5); /*role dot backgrounds, role bg in popouts, connections, popout preview in profiles*/
+    /**--background-secondary-alt: ?????; /*role dot backgrounds, role bg in popouts, connections, popout preview in profiles*/
     --background-tertiary: #0000;
     --channel-icon: var(--channels-default);
     --channeltextarea-background: rgb(0,0,0,.3);
@@ -901,7 +901,7 @@
 }
 /* CONNECTIONS */
 .connection-YOVI9j{
-    background: var(--background-secondary-alt); /*note, this does not have to match bg secondary alt. can change to dif things*/
+    background: rgb(24,24,24,.5);
 }
 .connectionHeader-Ixbb1s{
     background: none;
