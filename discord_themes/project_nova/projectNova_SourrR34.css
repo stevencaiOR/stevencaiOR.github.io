@@ -303,7 +303,7 @@
     --background-mobile-primary:#101010;
     --background-primary: #0000;
     --background-secondary: #0000;
-    --background-secondary-alt: rgb(24,24,24,.5); /*role dot backgrounds, role bg in popouts, connections*/
+    --background-secondary-alt: rgb(24,24,24,.5); /*role dot backgrounds, role bg in popouts, connections, popout preview in profiles*/
     --background-tertiary: #0000;
     --channel-icon: var(--channels-default);
     --channeltextarea-background: rgb(0,0,0,.3);
