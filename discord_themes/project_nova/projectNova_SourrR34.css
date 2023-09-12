@@ -309,6 +309,7 @@
     --channeltextarea-background: rgb(0,0,0,.3);
     /**--channels-default: hsl(var(--accent-hsl) / .7);/**/
     --header-primary: var(--accent);
+    --home-background: #0000;
     --input-background: rgb(255,255,255,.1);
     --input-placeholder-text: var(--accent);
     --modal-background: #101010;
