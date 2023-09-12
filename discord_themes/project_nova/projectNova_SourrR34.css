@@ -354,7 +354,6 @@
 /*-----AUTHOR TRIBUTE-----*/
 .contents-2MsGLg>img[src*="947934356880629760"]~.header-2jRmjb>.headerText-2z4IhQ>.username-h_Y3Us::after{
     content: "Nanosuit 2.0";
-    color: var(--accent);
     text-shadow: 0 0 2px;
     border: 1px solid;
     border-radius: 8px;
