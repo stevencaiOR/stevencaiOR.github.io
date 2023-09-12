@@ -1152,6 +1152,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
 .emptyImage-2pCD2j,
 [class*="errorStateIcon-"], /*Group DM modal error state icon (not friends and trying to make group DM)*/
 .footerImage-2WsqiE,
+[class*="guildBoostGemWrapper-"],
 [class*="heroBanner-" i],
 [class*="howItWorksImage-"],
 [class*="noResultsImage-"],
