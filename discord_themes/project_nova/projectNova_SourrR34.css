@@ -1271,7 +1271,6 @@ img[alt*="wumpus" i]{
 }
 /* CHECKOUT MODAL */
 [class*="tier2HeaderBackground-"]{
-    background: var(--accent);
     min-height: 30px;
 }
 [class*="tier2Animation-"],
