@@ -1215,6 +1215,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
 [class*="perkNewsletter-"],
 [class*="perkBadge-"],
 [class*="perkChallenges-"],
+[class*="perkpreviewimage-" i],
 [class*="perkscardart" i],
 img[class*="roleSubscription"],
 [class*="sparkle" i],
