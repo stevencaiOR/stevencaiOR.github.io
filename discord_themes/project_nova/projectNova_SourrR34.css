@@ -863,11 +863,6 @@
 [class*="userSettingsSecurityImage-"]{
     display: none;
 }
-/* DEVICES */
-[class*="sessionIcon-"]{
-    background: var(--accent);
-    color: var(--accent-contrast);
-}
 /* PRIVACY AND SAFETY */
 #privacy-\&-safety-tab .children-2C96Ex .children-2C96Ex {
     flex-direction: row;
@@ -887,6 +882,19 @@
 }
 [class*="selectedBackground-"]{
     background: none;
+}
+/* DEVICES */
+[class*="sessionIcon-"]{
+    background: var(--accent);
+    color: var(--accent-contrast);
+}
+[class*="otherSessions-"] [class*="children-"]{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+[class*="session-"]{
+   flex-basis: calc(50% - 20px);
 }
 /* REGISTERED GAMES */
 :root [class*="addGamePopout-"]{
