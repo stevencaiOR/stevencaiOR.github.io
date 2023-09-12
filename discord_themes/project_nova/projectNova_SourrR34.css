@@ -1053,6 +1053,9 @@
 .wrapper-3ViBpj h2:after{
     content: "Server Booster Benefits";
 }
+[class*="boosterRecognitionCard-"]{
+    background: var(--background-secondary-alt);
+}
 [class*="listItem-"]:first-child [class*="questionWrapperExpanded-"]+[class*="answer-"]:after{
     content: "Boosts support servers by unlocking perks for all members. More boosts means more perks unlocked. See chart above for further details";
 }
