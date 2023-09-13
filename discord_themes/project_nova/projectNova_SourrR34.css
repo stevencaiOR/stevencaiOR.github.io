@@ -1347,6 +1347,10 @@ img[alt*="wumpus" i]{
     background: var(--accent);
     color: var(--accent-contrast);
 }
+[class*="selectionCircle-"]{
+    box-shadow: inset 0 0 0 2px var(--brand-500);
+}
+[class*="selectionCircle-"] [fill="var(--white-500)"],
 .selectedIcon-122rMx circle[fill="white"],
 [style*="background-color: var(--brand-experiment-500)"] [fill="var(--white-500)"]{
     fill: var(--accent-contrast);
