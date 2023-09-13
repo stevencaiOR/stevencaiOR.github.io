@@ -1321,7 +1321,7 @@ img[alt*="wumpus" i]{
 #message [class*="button-"]:hover{
     transform: scale(1.2);
 }
-/* SHORTEN LONG USERNAMES (message area, search results wrap, reply contexts, etc BUT ONLY FOR "COSY" MODE) */
+/* SHORTEN LONG USERNAMES (message area, search results wrap, reply contexts, aperance preview, etc BUT ONLY FOR "COSY" MODE) */
 .cozy-VmLDNB .username-h_Y3Us{
     display: inline-block;
     max-width: 25ch;
