@@ -1693,3 +1693,7 @@ img[alt*="wumpus" i]{
 .headerImage-2D5D-v{
     display: none;
 }
+/*-----FORUM-----*/
+[class*="mainCard-"]{
+    background: var(--input-background);
+}
