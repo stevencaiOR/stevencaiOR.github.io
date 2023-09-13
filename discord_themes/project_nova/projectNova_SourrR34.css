@@ -1082,7 +1082,7 @@
     display: none;
 }
 #library-inventory-tab [class*="inputDefault-"]::placeholder{
-    width: 0;
+    display: none !important;
 }
 #library-inventory-tab [class*="inputDefault-"][value=""]{
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><text x='10' y='25' fill='rgb(255,255,255,0.3)' font-family='Consolas' font-size='16'>****-*****-*****-*****</text></svg>");
