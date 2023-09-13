@@ -1087,6 +1087,30 @@
 #library-inventory-tab [class*="inputDefault-"][value=""]{
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><text x='10' y='25' fill='rgb(255,255,255,0.3)' font-family='Consolas' font-size='16'>****-*****-*****-*****</text></svg>");
 }
+/* BILLING */
+:root [class*="paymentPane-"]{
+    background: var(--background-secondary-alt);
+}
+:root [class*="paginator-"],
+:root [class*="payment-"]{
+    background: none
+}
+:root .expandedInfo-1W31i3{
+    background: rgb(0,0,0,.3);
+}
+#billing-tab [class*="codeRedemptionRedirect-"]{
+    line-height: 0;
+    text-indent: -9999px;
+    text-align: center;
+    width: max-content;
+    margin: 40px auto 0;
+}
+#billing-tab [class*="codeRedemptionRedirect-"]:after{
+    content: "Discord keys are now located in your gift inventory.";
+    display: block;
+    line-height: 1.3;
+    text-indent: 0;
+}
 /* REGISTERED GAMES */
 :root [class*="addGamePopout-"]{
     background: #101010;
