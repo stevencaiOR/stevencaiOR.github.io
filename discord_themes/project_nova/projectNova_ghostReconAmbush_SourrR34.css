@@ -1,0 +1,21 @@
+@import url(https://stevencaior.github.io/discord_themes/project_nova/projectNova_SourrR34.css);
+
+.theme-amoled,
+.theme-dark,
+.theme-darker,
+.theme-light
+{
+    --watermark: "Group of Special Tactics";
+
+    /* Accent */
+    --accent-hue: 80;
+    --accent-saturation-base: 40%;
+    --accent-saturation-coefficient: 1;
+    --accent-lightness-base: 35%;
+    --accent-lightness-coefficient: .8;
+    --accent-contrast: #000; /*#000, #fff*/
+
+    /* Background */
+    --background-image: url(https://i.imgur.com/dVXGU6H.jpg);
+    --background-shading: rgb(0,0,0,.3);
+}
