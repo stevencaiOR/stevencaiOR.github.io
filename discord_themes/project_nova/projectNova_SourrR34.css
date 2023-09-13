@@ -1068,6 +1068,15 @@
 [class*="listItem-"]:last-child [class*="questionWrapperExpanded-"]+[class*="answer-"]:after{
     content: "Yes, however, the server will not to receive further benefits. Only you will receive benefits as a Server Booster. See above for more details.";
 }
+/* SUBSCRIPTIONS */
+[class*="tier0-"][class*="banner-"],
+[class*="tier1-"][class*="banner-"],
+[class*="tier2-"][class*="banner-"]{
+    background: var(--background-secondary-alt);
+}
+[class*="bannerBackgroundImage-"]{
+    display: none;
+}
 /* REGISTERED GAMES */
 :root [class*="addGamePopout-"]{
     background: #101010;
