@@ -1270,6 +1270,17 @@ rect[mask="url(#svg-mask-status-offline)"]{
 [class*="search-"][class*="open-"] [class*="searchBar-"]{
     width: 350px;
 }
+:root [class*="searchAnswer-"],
+:root [class*="searchFilter-"]{
+    background: var(--accent);
+    color: var(--accent-contrast);
+}
+[class*="searchFilter-"]{
+    border-radius: 4px 0 0 4px;
+}
+[class*="searchAnswer-"]{
+    border-radius: 0 4px 4px 0;
+}
 /*-----SEARCH BARS-----*/
 [class*="searchBar-"] [class*="searchBarComponent-"]{
     border: 3px solid var(--accent);
