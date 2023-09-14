@@ -1697,3 +1697,7 @@ img[alt*="wumpus" i]{
 [class*="mainCard-"]{
     background: var(--input-background);
 }
+/*-----EXPRESSION PICKER-----*/
+.contentWrapper-3vHNP2{
+    background: var(--background-floating);
+}
