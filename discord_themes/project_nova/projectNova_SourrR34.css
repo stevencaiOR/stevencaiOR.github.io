@@ -1495,7 +1495,8 @@ img[alt*="wumpus" i]{
     opacity: 1;
 }
 /* FLOATING EMOJI MODAL */
-.contentWrapper-2f9yME{
+.contentWrapper-2f9yME,
+[class*="unicodeShortcut-"]{
     background: var(--background-floating);
 }
 /* "Friend request failed" MODAL */
