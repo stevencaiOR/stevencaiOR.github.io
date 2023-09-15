@@ -606,8 +606,10 @@
 [class*="userProfileInnerThemedNonPremium-"]{
     background: var(--popout-background);
 }
-.profileColors-2AgAV4{ /*profile aside panel*/
+.profileColors-2AgAV4{
+    /*profile popout preview*/
     --profile-avatar-border-color: #000;
+    /*profile aside panel*/
     --profile-gradient-primary-color: var(--popout-color-top);
 	--profile-gradient-secondary-color:var(--popout-color-bottom);
 }
