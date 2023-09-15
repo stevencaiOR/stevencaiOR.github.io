@@ -1139,6 +1139,9 @@
     text-indent: 0;
 }
 /* APPEARANCE */
+.preview-QJ3OG3{
+    background: var(--background-secondary-alt);
+}
 #appearance-tab #message-content-0,
 #message-content-1,
 #message-content-2,
