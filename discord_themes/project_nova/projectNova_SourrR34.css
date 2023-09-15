@@ -1365,6 +1365,10 @@ img[alt*="wumpus" i]{
     text-indent: 0;
     line-height: 1.25;
 }
+/* QUICKSWITCHER */
+[class*="quickswitcher-"]{
+    border: 3px solid var(--accent);
+}
 /* "Soo... You Blocked This Person" MODAL */
 [aria-label="Soo... You Blocked This Person"] h2,
 [aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]{
@@ -1401,10 +1405,6 @@ img[alt*="wumpus" i]{
 .mentioned-Tre-dv:before{
     background: var(--accent);
     width: 2px;
-}
-/*-----QUICKSWITCHER-----*/
-[class*="quickswitcher-"]{
-    border: 3px solid var(--accent);
 }
 /*-----USER AREA PANEL-----*/
 [aria-label="user area" i],
