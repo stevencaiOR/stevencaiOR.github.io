@@ -1410,6 +1410,12 @@ img[alt*="wumpus" i]{
 .clickable-ZD7xvu .icon-2xnN2Y/*dm list plus icon*/{
     color: var(--accent)
 }
+:root .searchBox-pyIJJj{
+    /*affects discover and app directory*/
+    background: var(--input-background);
+    border-width: 2px;
+    box-shadow: none;
+}
 /* EMBEDS */
 [class*="embedFull-"]{
     border-color: var(--primary-700);
@@ -1757,4 +1763,9 @@ img[alt*="wumpus" i]{
 /*-----EXPRESSION PICKER-----*/
 .contentWrapper-3vHNP2{
     background: var(--background-floating);
+}
+/*-----APP DIRECTORY PAGE-----*/
+/*yes... this dumb thing*/
+:root [class*="directoryContainer-"]{
+    background: none;
 }
