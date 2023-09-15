@@ -472,9 +472,6 @@
     padding-right: 8px !important; /*same padding as .scroller-1ox3I2 which is a class it has (overwritten by element.style which is dumb)*/
 }
 /*-----MEMBER LIST-----*/
-.membersWrap-3NUR2t{
-    height: 100%;
-}
 .members-3WRCEx{
     width: var(--members-width);
 }
@@ -505,7 +502,8 @@
 .clickable-28SzVr.container-1oeRFJ:hover{
     color: var(--accent);
 }
-.unreadRelevant-2f-VSK{ /*unread marker*/
+.unreadRelevant-2f-VSK{
+    /*unread marker*/
     background: var(--accent);
 }
 [class*="interactiveSelected-"],
