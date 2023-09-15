@@ -731,6 +731,13 @@
 .reaction-3vwAF2{
     background: hsl(var(--primary-330-hsl) / .1);
 }
+/* Attachments */
+.container-3M84ky{
+    background: var(--background-secondary-alt);
+}
+.container-3M84ky:not(.playing-1NDSYY) .playButtonContainer-2F2cAR .playIcon-1cttj4{
+    color: var(--accent-contrast)
+}
 /* NEW MEMBER BADGE */
 [class*="newMemberBadge-"]{
     width: unset;
