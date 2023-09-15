@@ -81,3 +81,7 @@
 .note-Ph806N p:last-child:after{
     content: "Access the suit's terminal (CTRL + Shift + I or CMD + Alt + I) to diagnose the issue.";
 }
+/* APP DIRECTORY */
+[class*="item-"][aria-label="App Directory"]{
+    display: none; /*just don't*/
+}
