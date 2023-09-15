@@ -1305,7 +1305,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
     color: var(--accent-2);
 }
 .container-18GwIk, /*thread dropdown*/
-[class*="header-"]+[class*="messagesPopout-"]{ /*pinned and mentions dropdown*/
+[class*="messagesPopoutWrap-"]{ /*pinned and mentions dropdown*/
     background: var(--background-floating);
 }
 /* GROUP DM NAME */
