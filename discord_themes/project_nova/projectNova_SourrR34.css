@@ -883,6 +883,11 @@
 [class*="premiumLabel-"] svg{
     display: none;
 }
+[class*="premiumFeatureBorder-"]{
+    /*found in both nitro preview of profiles and themes in appearance*/
+    background: rgb(0,0,0,.3);
+    border: 3px solid var(--accent);
+}
 /* MY ACCOUNT */
 #my-account-tab > div > :first-child [class*="children-"]{
     align-items: center;
@@ -895,10 +900,6 @@
     display: none;
 }
 /* PROFILES */
-[class*="premiumFeatureBorder-"]{
-    background: rgb(0,0,0,.3);
-    border: 3px solid var(--accent);
-}
 [class*="premiumBackground-"]{
     background: none;
 }
