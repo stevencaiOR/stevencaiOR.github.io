@@ -288,8 +288,8 @@
     --accent-hsl: var(--accent-hue) var(--accent-saturation-base) var(--accent-lightness-base);
     --accent-2: hsl(var(--accent-2-hsl));
     --accent-2-hsl: var(--accent-hue) calc(var(--accent-saturation-coefficient) * var(--accent-saturation-base)) calc(var(--accent-lightness-coefficient) * var(--accent-lightness-base));
-    --accent-hue: 212.042;
-    --accent-saturation-base: 80%;
+    --accent-hue: 210;
+    --accent-saturation-base: 100%;
     --accent-saturation-coefficient: 1;
     --accent-lightness-base: 55%;
     --accent-lightness-coefficient: .8;
