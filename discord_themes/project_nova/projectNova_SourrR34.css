@@ -888,6 +888,24 @@
     background: rgb(0,0,0,.3);
     border: 3px solid var(--accent);
 }
+/* RADIOBAR ITEMS */
+.itemFilled-2Fo7lr{
+    background: var(--background-modifier-accent);
+}
+.itemFilled-2Fo7lr,
+.itemFilled-2Fo7lr:active:not([aria-checked=true]):not(.disabled-WBmOu_){
+    background: rgb(48,48,48,.5);
+}
+.itemFilled-2Fo7lr:hover:not([aria-checked=true]):not(.disabled-WBmOu_){
+    background: rgb(48,48,48,.3);
+}
+.itemFilled-2Fo7lr[aria-checked=true]{
+    background: var(--accent);
+}
+.itemFilled-2Fo7lr[aria-checked=true],
+.itemFilled-2Fo7lr[aria-checked=true] [class*="radioIconForeground-"]{
+    color: var(--accent-contrast); 
+}
 /* MY ACCOUNT */
 #my-account-tab > div > :first-child [class*="children-"]{
     align-items: center;
