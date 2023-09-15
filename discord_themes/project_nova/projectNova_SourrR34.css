@@ -1031,6 +1031,12 @@
 [class*="planComparisonTableContainer-"] [class*="titleText-"]:after{
     content: "Nitro Plans";
 }
+.mostPopularPill-28w8lV {
+    max-width: fit-content;
+}
+.mostPopularPill-28w8lV .mostPopularText-1WuXKM {
+    color: var(--accent-contrast)
+}
 /* SERVER BOOST */
 .gradient-ICI49D{
     background: none;
