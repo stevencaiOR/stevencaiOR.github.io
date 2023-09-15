@@ -1225,6 +1225,20 @@
 #appearance-tab [class*="itemFilled-"]:last-child [class*="text-md-medium-"]:after{
     content: "Compact: avatars optional, usernames adjacent to messages.";
 }
+/* LANGUAGE */
+@media only screen and (min-width: 920px) {
+    #language-tab [role="radiogroup"]{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+    }
+    .option-t7RE5d{
+        column-gap: 10px;
+    }
+    .localizedName-wPJ5qZ{
+        flex-shrink: 1;
+    }
+}
 /* REGISTERED GAMES */
 :root [class*="addGamePopout-"]{
     background: #101010;
