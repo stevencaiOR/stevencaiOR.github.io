@@ -293,7 +293,7 @@
     --accent-saturation-coefficient: 1;
     --accent-lightness-base: 55%;
     --accent-lightness-coefficient: .8;
-    --accent-contrast: #fff; /*#000, #fff*/
+    --accent-contrast: #fff; /*#000, #fff. rule of thumb, #000 is --accent-lightness-base is greater than 50%. otherwise #fff. */
 
     /* Status Colors */
     --online-color: hsl(150 75% 45%);
