@@ -722,9 +722,6 @@
     background: var(--channeltextarea-background);
 }
 /*-----MESSAGE AREA-----*/
-.divider-2rZFJK{
-    border-color: var(--accent);
-}
 .markup-eYLPri code{
     background: var(--code-background);
 }
@@ -821,17 +818,23 @@
 [class*="newMessagesBar-"] [class*="barButtonBase-"]{
     color: var(--accent-contrast)
 }
-/* DATE DIVIDER */
-.content-3spvdd{
-    background: var(--accent);
-    color: var(--accent-contrast);
-    padding: .4em;
+/* DIVIDERS */
+.divider-2rZFJK{
+    border-color: var(--accent);
+    justify-content: flex-start;
 }
-/* UNREAD DIVIDER */
 .divider-2rZFJK,
 .low-saturation .divider-2rZFJK{
     --divider-color: var(--accent);
 }
+/* Date */
+.content-3spvdd{
+    background: var(--accent);
+    color: var(--accent-contrast);
+    font-size: 1rem;
+    padding: .4em;
+}
+/* Unread */
 [class*="isUnread-"] .content-3spvdd,
 .unreadPill-3nEWYM{
     color: var(--accent-contrast);
