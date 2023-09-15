@@ -30,7 +30,6 @@
     --popout-color-bottom: #000;
 
     --background-primary: #0000;
-    --background-secondary: rgb(0,0,0,.8);
     --modal-background: #080808;
     --modal-footer-background: var(--modal-background);
 }
