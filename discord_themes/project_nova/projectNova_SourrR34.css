@@ -401,7 +401,8 @@
 }
 /* WEIRD USERNAME SUPPORT */
 [class*="userPopoutOverlayBackground-"] [class*="nickname-"],
-[class*="userProfileModalOverlayBackground-"] [class*="text-lg-semibold-"]{
+[class*="userProfileModalOverlayBackground-"] [class*="text-lg-semibold-"],
+[class*="userPanelOverlayBackground-"] h2{
     line-height: 2.8;
     overflow: hidden;
     text-overflow: ellipsis;
