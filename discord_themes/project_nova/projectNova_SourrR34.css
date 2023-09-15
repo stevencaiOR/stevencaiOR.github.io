@@ -1703,6 +1703,12 @@ img[alt*="wumpus" i]{
     padding: 30px;
 }
 /*-----BETTER DISCORD-----*/
+.bd-sidebar-header h2{
+    color: var(--accent);
+}
+.bd-sidebar-header .bd-icon{
+    fill: var(--accent);
+}
 .bd-button{
     background: var(--accent);
     color: var(--accent-contrast)
