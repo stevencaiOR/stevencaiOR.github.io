@@ -1459,6 +1459,10 @@ img[alt*="wumpus" i]{
 .closeButton-Fq8ADF{
     opacity: 1;
 }
+/* FLOATING EMOJI MODAL */
+.contentWrapper-2f9yME{
+    background: var(--background-floating);
+}
 /* "Friend request failed" MODAL */
 [aria-label="Friend request failed"] [data-text-variant="text-md/normal"]{
     text-indent: -9999px;
