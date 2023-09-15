@@ -828,17 +828,13 @@
     padding: .4em;
 }
 /* UNREAD DIVIDER */
+.divider-2rZFJK,
+.low-saturation .divider-2rZFJK{
+    --divider-color: var(--accent);
+}
 [class*="isUnread-"] .content-3spvdd,
 .unreadPill-3nEWYM{
     color: var(--accent-contrast);
-}
-.unreadPill-3nEWYM{
-    background: var(--accent);
-    color: var(--accent-contrast);
-}
-[class*="unreadPillCapStroke-"]{
-    color: var(--accent);
-    fill: var(--accent);
 }
 /*-----SETTINGS AND TOP PILL ITEMS-----*/
 .side-1lrxIh .item-2GWPIy,
