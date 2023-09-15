@@ -471,6 +471,16 @@
 #channels{
     padding-right: 8px !important; /*same padding as .scroller-1ox3I2 which is a class it has (overwritten by element.style which is dumb)*/
 }
+/*-----MEMBER LIST-----*/
+.membersWrap-3NUR2t{
+    height: 100%;
+}
+.members-3WRCEx{
+    width: var(--members-width);
+}
+.members-3WRCEx .member-2gU6Ar{
+    max-width: calc(14*var(--members-width)/15);
+}
 /*-----DIRECT MESSAGES, CHANNEL LIST AND MEMBER LIST-----*/
 [class*="interactiveSelected-"],
 .interactive-26HRN_:focus-within,
@@ -593,16 +603,6 @@
     display: block;
     line-height: 1.25;
     text-indent: 0;
-}
-/*-----MEMBER LIST-----*/
-.membersWrap-3NUR2t{
-    height: 100%;
-}
-.members-3WRCEx{
-    width: var(--members-width);
-}
-.members-3WRCEx .member-2gU6Ar{
-    max-width: calc(14*var(--members-width)/15);
 }
 /*-----USER POPOUTS + MODALS-----*/
 [class*="userProfileInnerThemedNonPremium-"]{
