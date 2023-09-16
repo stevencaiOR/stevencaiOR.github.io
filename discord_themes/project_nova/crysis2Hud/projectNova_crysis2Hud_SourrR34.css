@@ -33,7 +33,7 @@
     --modal-footer-background: var(--modal-background);
 }
 
-/* ADJUSTED WINDOW */
+/*-----ADJUSTED WINDOW-----*/
 [class*="layers-"] > [class*="layer-"],
 #app-mount > div[class*="titleBar"]{
     margin: 0 auto;
@@ -60,7 +60,7 @@
 #app-mount > div[class*="titleBar"] > div[aria-label="Close"]{
     border-top-right-radius: 7px;
 }
-/* ERROR PAGE */
+/*-----ERROR PAGE-----*/
 .errorPage-2pZ2Kq {
 	box-shadow: inset 0 0 500px 10px var(--danger-color);
 }
@@ -79,7 +79,13 @@
 .note-Ph806N p:last-child:after{
     content: "Access the suit's terminal (CTRL + Shift + I or CMD + Alt + I) to diagnose the issue.";
 }
-/* APP DIRECTORY */
+/*-----APP DIRECTORY-----*/
 [class*="item-"][aria-label="App Directory"]{
     display: none; /*just don't*/
+}
+/*-----BETTER DISCORD-----*/
+/* SCI-FI TOASTS */
+.bd-toast{
+    background: hsl(var(--accent-hsl) / .3); /*not var(--accent-contrast) so we know where it begins and ends. won't blend in with message area since too low anyways*/
+    color: var(--accent);
 }
