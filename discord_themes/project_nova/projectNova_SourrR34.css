@@ -769,16 +769,16 @@
     gap: 40px;
 }
 [class*="radioBar-"][style*="--radio-bar-accent-color:var(--green-360)"]{
-    border-color: var(--radio-bar-green) !important;
+    border-color: var(--radio-bar-green);
 }
 [class*="radioBar-"][style*="--radio-bar-accent-color:var(--yellow-360)"]{
-    border-color: var(--radio-bar-yellow) !important;
+    border-color: var(--radio-bar-yellow);
 }
 [class*="statusOrange-"]{
     border-color: var(--radio-bar-orange);
 }
 [class*="radioBar-"][style*="--radio-bar-accent-color:var(--red-400)"]{
-    border-color: var(--radio-bar-red) !important;
+    border-color: var(--radio-bar-red);
 }
 [class*="selectedBackground-"]{
     background: none;
