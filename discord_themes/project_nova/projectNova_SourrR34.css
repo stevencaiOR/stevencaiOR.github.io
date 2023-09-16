@@ -1133,7 +1133,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
     border-color: var(--accent);
 }
 .input-1nrc5P:focus{
-    background: rgb(255,255,255,.1);
+    background: var(--input-background);
 }
 /* PINNED MESSAGES */
 [aria-label="Pinned Messages"] [class*="emptyPlaceholder-"] [class*="image-"]{
