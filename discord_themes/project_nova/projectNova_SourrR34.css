@@ -125,14 +125,14 @@
     --background-primary: #0000;
     --background-secondary: #0000;
     --background-secondary-alt: rgb(24,24,24,.7); /*role dot backgrounds, role bg in popouts, connections, popout preview in profiles*/
-    --background-tertiary: #0000;
+    --background-tertiary: #0000; /*default: var(--primary-700) (same as --input-background)*/
     --channel-icon: var(--channels-default);
     --channeltextarea-background: rgb(0,0,0,.3);
     /**--channels-default: hsl(var(--accent-hsl) / .7);/**/
     --focus-primary: var(--accent);
     --header-primary: var(--accent);
     --home-background: #0000;
-    --input-background: rgb(255,255,255,.1);
+    --input-background: rgb(255,255,255,.1); /*default: var(--primary-700) (same as --background-tertiary)*/
     --input-placeholder-text: var(--accent);
     --modal-background: #101010;
     --modal-footer-background: #080808;
