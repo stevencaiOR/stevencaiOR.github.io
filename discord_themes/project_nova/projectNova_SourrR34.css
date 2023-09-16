@@ -697,9 +697,6 @@
     border: 3px solid var(--accent);
 }
 /* OVAL TOGGLE BUTTONS*/
-.container-1QtPKm[style*='background-color: rgb(128, 132, 142)']{
-    background: rgb(128,128,128,.5) !important;
-}
 .container-1QtPKm[style*='background-color: rgb(35, 165, 90)']{
     background: var(--accent) !important;
 }
