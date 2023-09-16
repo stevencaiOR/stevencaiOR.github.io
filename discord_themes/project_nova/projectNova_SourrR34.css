@@ -768,17 +768,29 @@
     flex-direction: row;
     gap: 40px;
 }
+.itemFilled-2Fo7lr [class*="radioBar-"][style*="--radio-bar-accent-color:"]{
+    border-radius: 3px;
+}
 [class*="radioBar-"][style*="--radio-bar-accent-color:var(--green-360)"]{
     border-color: var(--radio-bar-green);
 }
 [class*="radioBar-"][style*="--radio-bar-accent-color:var(--yellow-360)"]{
     border-color: var(--radio-bar-yellow);
 }
-[class*="statusOrange-"]{
+[class*="statusOrange-"]{ /*for future reference, move this. does not belong here*/
     border-color: var(--radio-bar-orange);
 }
 [class*="radioBar-"][style*="--radio-bar-accent-color:var(--red-400)"]{
     border-color: var(--radio-bar-red);
+}
+.itemFilled-2Fo7lr[aria-checked=true] [class*="radioBar-"][style*="--radio-bar-accent-color:var(--green-360)"]{
+    background: var(--radio-bar-green);
+}
+.itemFilled-2Fo7lr[aria-checked=true] [class*="radioBar-"][style*="--radio-bar-accent-color:var(--yellow-360)"]{
+    background: var(--radio-bar-yellow);
+}
+.itemFilled-2Fo7lr[aria-checked=true] [class*="radioBar-"][style*="--radio-bar-accent-color:var(--red-400)"]{
+    background: var(--radio-bar-red);
 }
 [class*="selectedBackground-"]{
     background: none;
