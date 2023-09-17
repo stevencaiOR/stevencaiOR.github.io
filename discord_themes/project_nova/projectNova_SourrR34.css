@@ -696,6 +696,10 @@
     background: rgb(0,0,0,.3);
     border: 3px solid var(--accent);
 }
+[class*="statusOrange-"]{
+    /*for future reference, move this. belongs in safety setup*/
+    border-color: var(--radio-bar-orange);
+}
 /* OVAL TOGGLE BUTTONS*/
 .container-1QtPKm[style*='background-color: rgb(35, 165, 90)']{
     background: var(--accent) !important;
@@ -774,9 +778,6 @@
 }
 [class*="radioBar-"][style*="--radio-bar-accent-color:var(--yellow-360)"]{
     border-color: var(--radio-bar-yellow);
-}
-[class*="statusOrange-"]{ /*for future reference, move this. does not belong here*/
-    border-color: var(--radio-bar-orange);
 }
 [class*="radioBar-"][style*="--radio-bar-accent-color:var(--red-400)"]{
     border-color: var(--radio-bar-red);
