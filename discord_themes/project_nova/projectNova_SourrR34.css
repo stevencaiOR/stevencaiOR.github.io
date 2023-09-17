@@ -789,6 +789,14 @@
 .itemFilled-2Fo7lr[aria-checked=true] [class*="radioBar-"][style*="--radio-bar-accent-color:var(--red-400)"]{
     background: var(--radio-bar-red);
 }
+.itemFilled-2Fo7lr[aria-checked=true] [class*="radioBar-"][style*="--radio-bar-accent-color:var(--green-360)"],
+.itemFilled-2Fo7lr[aria-checked=true] [class*="radioBar-"][style*="--radio-bar-accent-color:var(--yellow-360)"],
+.itemFilled-2Fo7lr[aria-checked=true] [class*="radioBar-"][style*="--radio-bar-accent-color:var(--red-400)"],
+.itemFilled-2Fo7lr[aria-checked=true] [class*="radioBar-"][style*="--radio-bar-accent-color:var(--green-360)"] [class*="radioIconForeground-"],
+.itemFilled-2Fo7lr[aria-checked=true] [class*="radioBar-"][style*="--radio-bar-accent-color:var(--yellow-360)"] [class*="radioIconForeground-"],
+.itemFilled-2Fo7lr[aria-checked=true] [class*="radioBar-"][style*="--radio-bar-accent-color:var(--red-400)"] [class*="radioIconForeground-"]{
+    color: #fff;
+}
 [class*="selectedBackground-"]{
     background: none;
 }
