@@ -755,6 +755,7 @@
 }
 [class*="upsellOverlayContainer-"]{
     background: none;
+    border-color: var(--accent);
 }
 [class*="upsellTextContainer-"]{
     background: rgb(0,0,0,.3);
