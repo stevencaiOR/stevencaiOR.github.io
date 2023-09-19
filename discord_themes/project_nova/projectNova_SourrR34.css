@@ -919,7 +919,7 @@
     content: "No Boosts applied.";
 }
 #nitro-server-boost-tab h2[class*="subtitle-"]:after{
-    content: "Potential Server Boost candidates below";
+    content: "Potential candidates below";
 }
 .wrapper-3ypI92{
     flex-direction: row;
@@ -1309,6 +1309,10 @@ img[alt*="wumpus" i]{
 
     text-overflow: ellipsis;
     white-space: pre;
+    vertical-align: middle;
+}
+.badges-everywhere,
+.platform-indicators{
     vertical-align: middle;
 }
 /* FLOWER STAR */
