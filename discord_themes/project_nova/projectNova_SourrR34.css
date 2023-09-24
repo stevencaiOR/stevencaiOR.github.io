@@ -987,7 +987,8 @@
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><text x='10' y='25' fill='rgb(255,255,255,0.3)' font-family='Consolas' font-size='16'>****-*****-*****-*****</text></svg>");
 }
 /* BILLING */
-:root [class*="paymentPane-"]{
+:root [class*="paymentPane-"],
+#billing-tab [class*="codeRedemptionRedirect-"]{
     background: var(--background-secondary-alt);
 }
 :root [class*="paginator-"],
