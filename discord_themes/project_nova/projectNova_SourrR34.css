@@ -1678,3 +1678,10 @@ img[alt*="wumpus" i]{
 :root [class*="directoryContainer-"]{
     background: none;
 }
+/*-----COMMUNITY PAGES-----*/
+/* EVENTS */
+/* BROWSE CHANNELS */
+/* MEMBERS */
+.container-2oNtJn{
+    background: var(--input-background);
+}
