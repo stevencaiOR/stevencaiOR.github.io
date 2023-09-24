@@ -89,3 +89,8 @@
     background: hsl(var(--accent-hsl) / .3); /*not var(--accent-contrast) so we know where it begins and ends. won't blend in with message area since too low anyways*/
     color: var(--accent);
 }
+/*-----MISCELLANEOUS-----*/
+/* EMBEDS */
+[class*="embedFull-"]{
+    background: var(--background-secondary-alt);
+}
