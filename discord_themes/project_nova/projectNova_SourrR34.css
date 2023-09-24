@@ -1197,6 +1197,9 @@ rect[mask="url(#svg-mask-status-offline)"]{
     display: flex;
     /*always show jump button*/
 }
+.buttonsContainer-Nmgy7x{
+    right: 0;
+}
 .button-cfOvv-,
 .button-cfOvv-:hover{
     color: var(--accent-contrast);
