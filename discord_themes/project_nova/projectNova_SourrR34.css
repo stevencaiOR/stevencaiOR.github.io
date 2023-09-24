@@ -1682,6 +1682,10 @@ img[alt*="wumpus" i]{
 /* EVENTS */
 /* BROWSE CHANNELS */
 /* MEMBERS */
+.mainTableContainer-3Nxvkd{
+    background: rgb(0,0,0,.5);
+    box-shadow: 0 0 0 2px var(--accent);
+}
 .container-2oNtJn{
     background: var(--input-background);
 }
