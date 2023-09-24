@@ -1250,6 +1250,10 @@ img[alt*="wumpus" i]{
     display: none !important;
 }
 /*-----MISCELLANEOUS-----*/
+[fill="#5865f2"]{
+    /* Customize your server modal */
+    fill: var(--accent);
+}
 .icon-1dGlZy{ /*owner icon bandaid fix*/
     top: 0;
 }
