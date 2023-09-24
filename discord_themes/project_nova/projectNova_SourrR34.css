@@ -388,6 +388,17 @@
     line-height: 1.25;
     text-indent: 0;
 }
+.scroller-hE2gWq{
+    border: none;
+}
+/* Item Cards */
+.wrapper-2RrXDg{
+    background: var(--background-secondary-alt);
+    border: none;
+}
+:root .inset-SbsSFp{
+    background: none;
+}
 /*-----USER POPOUTS + MODALS-----*/
 [class*="userProfileInnerThemedNonPremium-"]{
     background: var(--popout-background);
