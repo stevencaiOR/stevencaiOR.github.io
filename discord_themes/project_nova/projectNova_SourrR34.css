@@ -733,8 +733,11 @@
     align-items: center;
 }
 #my-account-tab [class*="accountProfileCard-"]{
-    background: rgb(0,0,0,.6);
+    background: var(--popout-background);
     width: 660px; /*long user/display name makes width super huge otherwise*/
+}
+.background-3d_SjE{
+    background: var(--profile-body-background-color);
 }
 [class*="userSettingsSecurityImage-"]{
     display: none;
