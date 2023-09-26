@@ -1291,6 +1291,7 @@ img[alt*="wumpus" i]{
 [style*="background-color: var(--brand-experiment-500)"] [fill="var(--white-500)"]{
     fill: var(--accent-contrast);
 }
+[style*="background-color: var(--brand-260)"],
 :root [class*="premiumIndicator-"], /* go to Billing -> see "subscription" */
 [style*="background-color: var(--brand-500)"],
 [style*="background-color: var(--brand-500)"] [class*="automodText-"],
