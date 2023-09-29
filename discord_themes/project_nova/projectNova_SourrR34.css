@@ -1357,8 +1357,8 @@ img[alt*="wumpus" i]{
 	background: var(--accent-contrast);
 }
 /* DEFAULT EMOJI IN INPUTS */
-.sprite-2lxwfc{
-    background-image: var(--home-icon);
+div.sprite-2lxwfc{
+    background-image: var(--home-icon) !important;
     background-size: 22px 22px !important;
     background-position: unset !important;
     filter: none !important;
@@ -1469,11 +1469,11 @@ img[alt*="wumpus" i]{
     text-shadow: 0 0 5px;
 }
 /* PANEL BUTTON */
-.button-12Fmur{
+button.button-12Fmur{
     color: var(--accent);
     transition: .2s;
 }
-.button-12Fmur.enabled-9OeuTA:hover{
+button.button-12Fmur.enabled-9OeuTA:hover{
     background: var(--accent);
     color: var(--accent-contrast);
 }
