@@ -248,6 +248,9 @@
     background: rgb(255,255,255,.1);
 }
 /*-----SIDEBAR-----*/
+.platform-win .sidebar-1tnWFu{
+    border-radius: 8px 8px 0 0;
+}
 .sidebar-1tnWFu{
     width: var(--channels-width); /*default: 240px. increased width for longer names*/
 }
