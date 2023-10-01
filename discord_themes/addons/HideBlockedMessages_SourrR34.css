@@ -1,31 +1,23 @@
 :root{
     /*Change these to whatever you like*/
-    --blocked-message-color-accent: var(--accent, var(--main-color, var(--status-danger)));
+    --blocked-message-accent: var(--accent, var(--main-color, var(--status-danger)));
     --blocked-message-background: #000;
     --blocked-message-vertical-padding: 8px;
-    --blocked-message-border-width: 2.5px;
+    --blocked-message-border-width: 3px;
 }
-
-.blockedSystemMessage-3FmE9n{
-    min-height: 2.75rem;
-}
-.blockedSystemMessage-3FmE9n .iconContainer-2rPbqG,
-.blockedSystemMessage-3FmE9n .blockedMessageText-3Zeg3y{
+[class*="blockedSystemMessage-"] .iconContainer-2rPbqG,
+[class*="blockedSystemMessage-"] [class*="blockedMessageText-"]{
     display: none;
 }
-.blockedSystemMessage-3FmE9n .content-vSHmMD{
-    
-    left: calc(94px - 4.5rem);
-    position: relative; 
-    top: calc(0.6875em - var(--blocked-message-vertical-padding, 0px) - var(--blocked-message-border-width, 0px)); /*0.5*min-height - 0.5*line-height - other thigns*/
-    color: var(--blocked-message-color-accent);
-    text-shadow: 0 0 5px currentColor;
+[class*="blockedSystemMessage-"] .content-vSHmMD{
+    color: var(--blocked-message-accent);
+    text-shadow: 0 0 5px;
     font-weight: 600;
     background: var(--blocked-message-background);
     padding: var(--blocked-message-vertical-padding) 10ch;
     border-radius: 5px;
-    border: var(--blocked-message-border-width) solid currentColor;
+    border: var(--blocked-message-border-width) solid;
 }
-.blockedSystemMessage-3FmE9n .content-vSHmMD:after{
+[class*="blockedSystemMessage-"] .content-vSHmMD:after{
     content: "Blocked Messages Hidden"; 
 }
