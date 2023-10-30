@@ -1,9 +1,9 @@
 /*
 It is recommended you select dark theme in appearnace. Light theme probably works but is unconfirmed.
 */
-.theme_dark,
-.theme_darker,
-.theme_light {
+.theme-dark,
+.theme-darker,
+.theme-light {
 	--background-accent: var(--dontuse-17);
 	--background-floating: var(--dontuse-23);
 	--background-mentioned: hsl(var(--yellow-260-hsl) / 0.08);
@@ -201,8 +201,8 @@ It is recommended you select dark theme in appearnace. Light theme probably work
 	--text-secondary: var(--dontuse-8);
 	--text-warning: var(--yellow-300);
 }
-.theme_dark,
-.theme_light {
+.theme-dark,
+.theme-light {
 	--activity-card-background: var(--primary-700);
 	--android-navigation-bar-background: var(--dontuse-24);
 	--android-navigation-scrim-background: hsl(var(--dontuse-24-hsl) / 0.5);
@@ -303,14 +303,14 @@ It is recommended you select dark theme in appearnace. Light theme probably work
 	--status-warning-background: var(--yellow-300);
 	--status-warning-text: var(--black-500);
 	--textbox-markdown-syntax: var(--dontuse-9);
-	--theme_locked-blur-fallback: hsl(var(--primary-700-hsl) / 0.96);
+	--theme-locked-blur-fallback: hsl(var(--primary-700-hsl) / 0.96);
 	--user-profile-header-overflow-background: hsl(var(--dontuse-20-hsl) / 0.5);
 	--voice-video-tile-blur-fallback: hsl(var(--dontuse-20-hsl) / 0.5);
 	--voice-video-video-tile-blur-fallback: hsl(var(--primary-700-hsl) / 0.48);
 	--white: var(--white-500);
 }
-.theme_dark,
-.theme_light {
+.theme-dark,
+.theme-light {
 	--shadow-border: 0 0 0 1px hsla(0, 0%, 100%, 0.08);
 	--shadow-border-filter: drop-shadow(0 0 1px hsla(0, 0%, 100%, 0.08));
 	--shadow-button-overlay: 0 12px 24px 0 rgba(0, 0, 0, 0.24);
@@ -342,16 +342,16 @@ It is recommended you select dark theme in appearnace. Light theme probably work
 	--shadow-top-low: 0 -1px 4px 0 rgba(0, 0, 0, 0.14);
 	--shadow-top-low-filter: drop-shadow(0 -1px 4px rgba(0, 0, 0, 0.14));
 }
-.theme_dark .container-ZMc96U,
-.theme_darker .container-ZMc96U,
-.theme_light .container-ZMc96U {
+.theme-dark .container-ZMc96U,
+.theme-darker .container-ZMc96U,
+.theme-light .container-ZMc96U {
     border-bottom: 1px solid var(--background-modifier-accent);
 }
-.theme_dark .background-12kWdX,
-.theme_darker .background-12kWdX,
-.theme_light .background-12kWdX,
-.theme_dark .background-fkKrXt,
-.theme_darker .background-fkKrXt,
-.theme_light .background-fkKrXt{
+.theme-dark .background-12kWdX,
+.theme-darker .background-12kWdX,
+.theme-light .background-12kWdX,
+.theme-dark .background-fkKrXt,
+.theme-darker .background-fkKrXt,
+.theme-light .background-fkKrXt{
     background-color: var(--home-background);
 }
