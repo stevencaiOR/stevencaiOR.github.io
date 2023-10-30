@@ -7,76 +7,76 @@
     display: flex;
     flex-direction: column;
 }
-[class*="anchorUnderlineOnHover-"][aria-label="Twitter"] path,
-[class*="anchorUnderlineOnHover-"][title="Twitter"] path{
+[class*="anchorUnderlineOnHover_"][aria-label="Twitter"] path,
+[class*="anchorUnderlineOnHover_"][title="Twitter"] path{
     fill: var(--twitter-color);
 }
-[class*="anchorUnderlineOnHover-"][aria-label="Facebook"] path,
-[class*="anchorUnderlineOnHover-"][title="Facebook"] path{
+[class*="anchorUnderlineOnHover_"][aria-label="Facebook"] path,
+[class*="anchorUnderlineOnHover_"][title="Facebook"] path{
     fill:var(--facebook-color);    
 }
-[class*="anchorUnderlineOnHover-"][aria-label="youtube" i] path,
-[class*="anchorUnderlineOnHover-"][title="youtube" i] path{
+[class*="anchorUnderlineOnHover_"][aria-label="youtube" i] path,
+[class*="anchorUnderlineOnHover_"][title="youtube" i] path{
     fill: var(--youtube-color);    
 }
-[class*="anchorUnderlineOnHover-"][aria-label="Twitter"]:hover path,
-[class*="anchorUnderlineOnHover-"][title="Twitter"]:hover path,
-[class*="anchorUnderlineOnHover-"][aria-label="Facebook"]:hover path,
-[class*="anchorUnderlineOnHover-"][title="Facebook"]:hover path,
-[class*="anchorUnderlineOnHover-"][aria-label="youtube" i]:hover path,
-[class*="anchorUnderlineOnHover-"][title="youtube" i]:hover path{
+[class*="anchorUnderlineOnHover_"][aria-label="Twitter"]:hover path,
+[class*="anchorUnderlineOnHover_"][title="Twitter"]:hover path,
+[class*="anchorUnderlineOnHover_"][aria-label="Facebook"]:hover path,
+[class*="anchorUnderlineOnHover_"][title="Facebook"]:hover path,
+[class*="anchorUnderlineOnHover_"][aria-label="youtube" i]:hover path,
+[class*="anchorUnderlineOnHover_"][title="youtube" i]:hover path{
     filter: brightness(0.8);
 }
-[class*="anchorUnderlineOnHover-"][aria-label="Instagram"] svg,
-[class*="anchorUnderlineOnHover-"][title="Instagram"] svg {
+[class*="anchorUnderlineOnHover_"][aria-label="Instagram"] svg,
+[class*="anchorUnderlineOnHover_"][title="Instagram"] svg {
     background: linear-gradient(45deg, #ffd600 10%, #ff7a00 20%, #ff0069 60%, #d300c5 90%);
     border-radius: 4px;
 }
-[class*="anchorUnderlineOnHover-"][aria-label="tiktok" i] svg,
-[class*="anchorUnderlineOnHover-"][title="tiktok" i] svg{
+[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i] svg,
+[class*="anchorUnderlineOnHover_"][title="tiktok" i] svg{
     background: linear-gradient(135deg,#27f4ee,#fe2c55);
     border-radius: 3px;
 }
-[class*="anchorUnderlineOnHover-"][aria-label="Instagram"] path,
-[class*="anchorUnderlineOnHover-"][title="Instagram"] path{
+[class*="anchorUnderlineOnHover_"][aria-label="Instagram"] path,
+[class*="anchorUnderlineOnHover_"][title="Instagram"] path{
     color: rgb(255,255,255,0.5);
 }
-[class*="anchorUnderlineOnHover-"][aria-label="tiktok" i] path,
-[class*="anchorUnderlineOnHover-"][title="tiktok" i] path{
+[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i] path,
+[class*="anchorUnderlineOnHover_"][title="tiktok" i] path{
     color: rgb(255,255,255,0.7);
 }
-[class*="anchorUnderlineOnHover-"][aria-label="Instagram"]:hover path,
-[class*="anchorUnderlineOnHover-"][title="Instagram"]:hover path,
-[class*="anchorUnderlineOnHover-"][aria-label="tiktok" i]:hover path,
-[class*="anchorUnderlineOnHover-"][title="tiktok" i]:hover path{
+[class*="anchorUnderlineOnHover_"][aria-label="Instagram"]:hover path,
+[class*="anchorUnderlineOnHover_"][title="Instagram"]:hover path,
+[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i]:hover path,
+[class*="anchorUnderlineOnHover_"][title="tiktok" i]:hover path{
     color: rgb(255,255,255,0.3);
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover_"]:after{
     margin-left: 5px;
     vertical-align: top;
     line-height: 18px;
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover_"]{
     color: var(--accent, var(--main-color, #2780e6));
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"]:hover{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover_"]:hover{
     color: var(--accent-2, var(--hover-color, #1e63b3));
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Twitter"]:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover_"][title="Twitter"]:after{
     content: "[ Twitter ]";
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Instagram"]:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover_"][title="Instagram"]:after{
     content: "[ Instagram ]";
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="Facebook"]:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover_"][title="Facebook"]:after{
     content: "[ Facebook ]";
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="youtube" i]:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover_"][title="youtube" i]:after{
     content: "[ YouTube ]";
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="tiktok" i]:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover_"][title="tiktok" i]:after{
     content: "[ TikTok ]";
 }
-.socialLinks-3ywLUf [class*="anchorUnderlineOnHover-"][title="BetterDiscord"]:after{
+.socialLinks-3ywLUf [class*="anchorUnderlineOnHover_"][title="BetterDiscord"]:after{
     content: "[ BetterDiscord ]";
 }

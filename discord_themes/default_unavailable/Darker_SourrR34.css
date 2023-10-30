@@ -1,8 +1,8 @@
 /*
 It is recommended you select dark theme in appearnace. Light theme probably works but is unconfirmed.
 */
-.theme-dark,
-.theme-light {
+.theme_dark,
+.theme_light {
 	--activity-card-background: var(--primary-700);
 	--android-navigation-bar-background: var(--dontuse-24);
 	--android-navigation-scrim-background: hsl(var(--dontuse-24-hsl) / 0.5);
@@ -103,15 +103,15 @@ It is recommended you select dark theme in appearnace. Light theme probably work
 	--status-warning-background: var(--yellow-300);
 	--status-warning-text: var(--black-500);
 	--textbox-markdown-syntax: var(--dontuse-9);
-	--theme-locked-blur-fallback: hsl(var(--primary-700-hsl) / 0.96);
+	--theme_locked-blur-fallback: hsl(var(--primary-700-hsl) / 0.96);
 	--user-profile-header-overflow-background: hsl(var(--dontuse-20-hsl) / 0.5);
 	--voice-video-tile-blur-fallback: hsl(var(--dontuse-20-hsl) / 0.5);
 	--voice-video-video-tile-blur-fallback: hsl(var(--primary-700-hsl) / 0.48);
 	--white: var(--white-500);
 }
-.theme-amoled,
-.theme-dark,
-.theme-light {
+.theme_amoled,
+.theme_dark,
+.theme_light {
 	--background-accent: var(--dontuse-15);
 	--background-floating: var(--dontuse-18);
 	--background-mentioned: hsl(var(--yellow-260-hsl) / 0.08);
@@ -310,8 +310,8 @@ It is recommended you select dark theme in appearnace. Light theme probably work
 	--text-warning: var(--yellow-300);
 }
 
-.theme-dark,
-.theme-light {
+.theme_dark,
+.theme_light {
 	--shadow-border: 0 0 0 1px hsla(0, 0%, 100%, 0.08);
 	--shadow-border-filter: drop-shadow(0 0 1px hsla(0, 0%, 100%, 0.08));
 	--shadow-button-overlay: 0 12px 24px 0 rgba(0, 0, 0, 0.24);

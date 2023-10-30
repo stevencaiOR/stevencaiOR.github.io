@@ -1,28 +1,28 @@
-[class*="spoilerMarkdownContent-"] pre:before, /*code block*/
-[class*="spoilerMarkdownContent-"] {
+[class*="spoilerMarkdownContent_"] pre:before, /*code block*/
+[class*="spoilerMarkdownContent_"] {
     background: none;
 }
-[class*="spoilerMarkdownContent-"] pre code, /*code block*/
-[class*="spoilerMarkdownContent-"] code, /*inline code*/
-[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] span{
+[class*="spoilerMarkdownContent_"] pre code, /*code block*/
+[class*="spoilerMarkdownContent_"] code, /*inline code*/
+[class*="spoilerMarkdownContent_"] [class*="obscuredTextContentInner_"] span{
     opacity: 1;
 }
-[class*="spoilerMarkdownContent-"] code,
-[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] > span,
-[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] a span{
+[class*="spoilerMarkdownContent_"] code,
+[class*="spoilerMarkdownContent_"] [class*="obscuredTextContentInner_"] > span,
+[class*="spoilerMarkdownContent_"] [class*="obscuredTextContentInner_"] a span{
     transition: filter .2s ease;
     filter: blur(4px);
     pointer-events: all;
 }
-[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] > span{
+[class*="spoilerMarkdownContent_"] [class*="obscuredTextContentInner_"] > span{
     color: var(--text-normal);
 }
-[class*="spoilerMarkdownContent-"] [class*="obscuredTextContentInner-"] a span:not(.highlight){
+[class*="spoilerMarkdownContent_"] [class*="obscuredTextContentInner_"] a span:not(.highlight){
     color: var(--url-color, --text-link)
 }
-[class*="spoilerMarkdownContent-"]:not([class*="hidden-"]) code,
-[class*="spoilerMarkdownContent-"]:hover code,
-[class*="spoilerMarkdownContent-"]:not([class*="hidden-"]) [class*="obscuredTextContentInner-"] span,
-[class*="spoilerMarkdownContent-"]:hover [class*="obscuredTextContentInner-"] span{
+[class*="spoilerMarkdownContent_"]:not([class*="hidden_"]) code,
+[class*="spoilerMarkdownContent_"]:hover code,
+[class*="spoilerMarkdownContent_"]:not([class*="hidden_"]) [class*="obscuredTextContentInner_"] span,
+[class*="spoilerMarkdownContent_"]:hover [class*="obscuredTextContentInner_"] span{
     filter: none;
 }

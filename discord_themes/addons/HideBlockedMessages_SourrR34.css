@@ -5,11 +5,11 @@
     --blocked-message-vertical-padding: 8px;
     --blocked-message-border-width: 3px;
 }
-[class*="blockedSystemMessage-"] .iconContainer-2rPbqG,
-[class*="blockedSystemMessage-"] [class*="blockedMessageText-"]{
+[class*="blockedSystemMessage_"] .iconContainer-2rPbqG,
+[class*="blockedSystemMessage_"] [class*="blockedMessageText_"]{
     display: none;
 }
-[class*="blockedSystemMessage-"] .content-vSHmMD{
+[class*="blockedSystemMessage_"] .content-vSHmMD{
     color: var(--blocked-message-accent);
     text-shadow: 0 0 5px;
     font-weight: 600;
@@ -18,6 +18,6 @@
     border-radius: 5px;
     border: var(--blocked-message-border-width) solid;
 }
-[class*="blockedSystemMessage-"] .content-vSHmMD:after{
+[class*="blockedSystemMessage_"] .content-vSHmMD:after{
     content: "Blocked Messages Hidden"; 
 }
