@@ -1,10 +1,10 @@
 /* This sets your theme to Discord default dark regardless of what you have chosen.
    This is primarily for color standardization for Project Nova. */
-.theme-amoled,
-.theme-darker,
-.theme-light
+.theme_amoled,
+.theme_darker,
+.theme_light
 {
-    /* Cut and pasted .theme-dark var assignments into .theme-light and .theme-amoled*/
+    /* Cut and pasted .theme_dark var assignments into .theme_light and .theme_amoled*/
     --activity-card-background: var(--primary-700);
     --android-navigation-bar-background: var(--primary-830);
     --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5);
@@ -166,7 +166,7 @@
     --textbox-markdown-syntax: var(--primary-360);
     --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5);
 }
-.theme-light {
+.theme_light {
     --brightness: calc(1.5 - var(--saturation-factor, 1) * 0.5);
 	--contrast: var(--saturation-factor, 1);
 

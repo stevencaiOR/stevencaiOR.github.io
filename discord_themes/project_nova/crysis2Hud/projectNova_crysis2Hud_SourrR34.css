@@ -1,10 +1,10 @@
 @import url(https://stevencaior.github.io/discord_themes/project_nova/projectNova_SourrR34.css);
 @import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@100;300;400;500;600;700;800;900&display=swap);
 
-.theme-amoled,
-.theme-dark,
-.theme-darker,
-.theme-light
+.theme_amoled,
+.theme_dark,
+.theme_darker,
+.theme_light
 {
     --watermark: "CRYNET SYSTEMS";
 
@@ -34,12 +34,12 @@
 }
 
 /*-----ADJUSTED WINDOW-----*/
-[class*="layers-"] > [class*="layer-"],
+[class*="layers_"] > [class*="layer_"],
 #app-mount > div[class*="titleBar"]{
     margin: 0 auto;
     width: 90vw;
 }
-[class*="layers-"] > [class*="layer-"]{
+[class*="layers_"] > [class*="layer_"]{
     border: 3px solid var(--accent);
     border-radius: 10px;
 
@@ -54,33 +54,33 @@
     background: transparent;
     box-shadow: none;
     position: relative;
-    top: calc(16.2vh + 2px); /*always +2px of top property in [class*="layers-"] > [class*="layer-"]*/
+    top: calc(16.2vh + 2px); /*always +2px of top property in [class*="layers_"] > [class*="layer_"]*/
     z-index: 1001; /* fix for windows button + watermark appearing over popouts and images */
 }
 #app-mount > div[class*="titleBar"] > div[aria-label="Close"]{
     border-top-right-radius: 7px;
 }
 /*-----ERROR PAGE-----*/
-.errorPage-2pZ2Kq {
+.errorPage_2pZ2Kq {
 	box-shadow: inset 0 0 500px 10px var(--danger-color);
 }
-.title-NjUt5y:after{
+.title_NjUt5y:after{
     content: "Base functions impaired.";
 }
-.note-Ph806N p:first-child:before{
+.note_Ph806N p:first-child:before{
     content: "Possible corrosive agents:";
 }
-.note-Ph806N p:first-child:after{
+.note_Ph806N p:first-child:after{
     content: "Plugins";
 }
-.note-Ph806N p:last-child:before{
+.note_Ph806N p:last-child:before{
     content: "Recommended course of action:";
 }
-.note-Ph806N p:last-child:after{
+.note_Ph806N p:last-child:after{
     content: "Access the suit's terminal (CTRL + Shift + I or CMD + Alt + I) to diagnose the issue.";
 }
 /*-----APP DIRECTORY-----*/
-[class*="item-"][aria-label="App Directory"]{
+[class*="item_"][aria-label="App Directory"]{
     display: none; /*just don't*/
 }
 /*-----BETTER DISCORD-----*/
@@ -91,6 +91,6 @@
 }
 /*-----MISCELLANEOUS-----*/
 /* EMBEDS */
-[class*="embedFull-"]{
+[class*="embedFull_"]{
     background: var(--background-secondary-alt);
 }
