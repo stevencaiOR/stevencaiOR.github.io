@@ -248,10 +248,10 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     border-radius: 8px 8px 0 0;
 }
 .sidebar_ded4b5{
-    width: var(--channels-width); /*default: 240px. increased width for longer names*/
+    width: var(--channels-width);
 }
 .sidebar_ded4b5 .channel_c21703{
-    max-width: calc(14*var(--channels-width)/15); /*default: 224px*/
+    max-width: calc(14*var(--channels-width)/15);
 }
 #channels{
     padding-right: 8px !important; /*same padding as .scroller_f0f183 which is a class it has (overwritten by element.style which is dumb)*/
