@@ -235,10 +235,6 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     background: var(--accent-2);
 }
 /*-----SERVER BAR-----*/
-.item_f9d377{
-    /* unread pill */
-    background: var(--accent);
-}
 .wrapper_d281dd[class*="selected_"] .childWrapper__01b9c,
 .wrapper_d281dd:hover .childWrapper__01b9c{
     /* home button discord logo, servers w/o avatars */
