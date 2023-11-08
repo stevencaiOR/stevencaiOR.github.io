@@ -182,7 +182,6 @@
 [class*="appAsidePanelWrapper_"]{
     background: var(--background-shading);
 }
-
 /*-----TITLE BAR + WINDOWS BUTTONS-----*/
 [class*="winButton_"]{
     color: var(--accent);
