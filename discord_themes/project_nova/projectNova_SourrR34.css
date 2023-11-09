@@ -343,7 +343,7 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 [class*="peopleColumn_"] [class*="image_"]{
     display: none;
 }
-[class*="peopleColumn_"] > [class*="emptyStateContainer_"] [class*="text_"]{
+[class*="peopleColumn_"] [class*="friendsEmpty_"] [class*="text_"]{
     color: var(--accent);
     font-size: 32px;
     font-weight: 600;
@@ -351,21 +351,21 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     max-width: unset;
     text-indent: -9999px;
 }
-[class*="peopleColumn_"] > [class*="emptyStateContainer_"] [class*="text_"]:after{
+[class*="peopleColumn_"] [class*="friendsEmpty_"] [class*="text_"]:after{
     display: block;
     line-height: 1.25;
     text-indent: 0;
 }
-#online-tab > [class*="emptyStateContainer_"] [class*="text_"]:after{
+#online-tab [class*="friendsEmpty_"] [class*="text_"]:after{
     content:"No friends currently online";
 }
-#all-tab > [class*="emptyStateContainer_"] [class*="text_"]:after{
+#all-tab [class*="friendsEmpty_"] [class*="text_"]:after{
     content:"No friends added";
 }
-#pending-tab > [class*="emptyStateContainer_"] [class*="text_"]:after{
+#pending-tab [class*="friendsEmpty_"] [class*="text_"]:after{
     content:"No outgoing/incoming friend requests";
 }
-#blocked-tab > [class*="emptyStateContainer_"] [class*="text_"]:after{
+#blocked-tab [class*="friendsEmpty_"] [class*="text_"]:after{
     content:"No blocked users";
 }
 /* NOW PLAYING COLUMN */
@@ -680,10 +680,16 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     text-shadow: 0 0 5px;
 }
 /* ADD FRIEND PILL */
-.tabBar__73938 [class*="addFriend_"]:hover{
+[class*="addFriend_"]{
     background: #0000 !important;
-    border: 3px solid;
     color: var(--text-positive) !important;
+}
+[class*="addFriend_"]:hover{
+    background: color-mix(in srgb, var(--text-positive) 10%, transparent) !important;
+    text-shadow: 0 0 5px;
+}
+[class*="addFriend_"][aria-selected="true"]{
+    border: 3px solid;
 }
 /*-----SETTINGS-----*/
 [class*="sidebarRegion_"]{
