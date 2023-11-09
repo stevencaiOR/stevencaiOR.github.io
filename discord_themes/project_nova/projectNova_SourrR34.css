@@ -433,11 +433,6 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-[class*="userPopoutOverlayBackground_"] [class*="userTag_"],
-[class*="userProfileModalOverlayBackground_"] [class*="nameTagSmall_"]{
-    font-size: 16px; /*default: 14px*/
-    line-height: 2.8;
-}
 /* MODAL TABS */
 [aria-label="User Profile Modal"] [class*="tabBar_"]{
     justify-content: space-evenly;
