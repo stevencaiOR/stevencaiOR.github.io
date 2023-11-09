@@ -423,7 +423,8 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 .profilePanel__12596{
     width: var(--profile-panel-width);
 }
-/* WEIRD USERNAME SUPPORT */
+/* WEIRD DISPLAY/NICKNAME SUPPORT */
+/* Character limitations on usernames so no weird usernames*/
 [class*="userPopoutOverlayBackground_"] [class*="nickname_"],
 [class*="userProfileModalOverlayBackground_"] [class*="text-lg-semibold_"],
 [class*="userPanelOverlayBackground_"] h2{
