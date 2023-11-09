@@ -31,6 +31,8 @@
 
     --modal-background: #080808;
     --modal-footer-background: var(--modal-background);
+
+    --members-width: 270px;
 }
 
 /*-----ADJUSTED WINDOW-----*/
