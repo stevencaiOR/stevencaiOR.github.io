@@ -336,6 +336,10 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 [class*="peopleListItem_"]:hover{
     background: hsl(var(--accent-hsl) / .2);
 }
+.header__6113c{
+    /*Add friends tab random border*/
+    border: none;
+}
 /* IMPROVED EMPTY STATE */
 [class*="peopleColumn_"] > [class*="emptyStateContainer_"] .wrapper_de5239{
     max-width: 100%;
