@@ -37,7 +37,7 @@
 [class*="layers_"] > [class*="layer_"],
 #app-mount > div[class*="titleBar"]{
     margin: 0 auto;
-    width: 90vw;
+    width: 86vw; /*arrow on right is outside*/
 }
 [class*="layers_"] > [class*="layer_"]{
     border: 3px solid var(--accent);
