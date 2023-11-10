@@ -695,10 +695,14 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 /* ADD FRIEND PILL */
 [class*="addFriend_"]{
     background: #0000 !important;
-    color: var(--text-positive) !important;
+    color: var(--interactive-normal) !important;
+}
+[class*="addFriend_"]:hover,
+[class*="addFriend_"][aria-selected="true"]{
+    color: var(--text-positive);
 }
 [class*="addFriend_"]:hover{
-    background: color-mix(in srgb, var(--text-positive) 10%, transparent) !important;
+    background: color-mix(in srgb, currentColor 10%, transparent) !important;
     text-shadow: 0 0 5px;
 }
 [class*="addFriend_"][aria-selected="true"]{
