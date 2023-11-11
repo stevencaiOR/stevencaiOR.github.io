@@ -637,7 +637,7 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     -webkit-mask: url(https://raw.githubusercontent.com/stevencaiOR/stevencaiOR.github.io/main/discord_themes/icons/wrench.svg) center / 36px no-repeat;
     mask: url(https://raw.githubusercontent.com/stevencaiOR/stevencaiOR.github.io/main/discord_themes/icons/wrench.svg) center / 36px no-repeat;
 }
-/* BUTTON MENUT ON RIGHT */
+/* BUTTON MENU ON RIGHT */
 .message__80c10 .buttonsInner_bca8fa{
     background: var(--background-floating);
     box-shadow: 0 0 0 2px var(--accent);
@@ -674,22 +674,23 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 }
 /*-----SETTINGS AND TOP PILL ITEMS-----*/
 .side_b4b3f6 .item__48dda,
-.topPill__0cdf1 .item__48dda{
+[class*="topPill_"] .item__48dda{
     border-radius: 99px;
 }
 .selected__5711d.item__48dda,
 .selected__5711d.item__48dda:hover,
 .selected__5711d.item__48dda .selected_d25ad4{
+    /* Selected settings sidebar item */
     color: var(--accent);
 }
 .side_b4b3f6 .themed_b957e8.selected__5711d.item__48dda,
-.topPill__0cdf1 .themed_b957e8.selected__5711d.item__48dda{
+[class*="topPill_"] .themed_b957e8.selected__5711d.item__48dda{
     border: 3px solid;
 }
 .side_b4b3f6 .themed_b957e8.selected__5711d.item__48dda,
-.topPill__0cdf1 .themed_b957e8.selected__5711d.item__48dda:not([class*="addFriend_"]),
+[class*="topPill_"] .themed_b957e8.selected__5711d.item__48dda:not([class*="addFriend_"]),
 .side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca),
-.topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca):not([class*="addFriend_"]){
+[class*="topPill_"] .themed_b957e8.item__48dda:hover:not(.disabled__85bca):not([class*="addFriend_"]){
     background: hsl(var(--accent-hsl) / .1);
 }
 .brand_ce3ecf.item__48dda:hover:not(.selected__5711d),
