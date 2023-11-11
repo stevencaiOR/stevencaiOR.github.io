@@ -89,12 +89,6 @@
     --streaming-color: hsl(264.13 100% 63.922%);
     --offline-color: hsl(0 0% 53%);
 
-    /* Radio Bar Accent Colors */
-    --radio-bar-green: var(--online-color);
-    --radio-bar-yellow: var(--idle-color);
-    --radio-bar-orange: hsl(25 75% 45%);
-    --radio-bar-red: var(--dnd-color);
-
     /* Fonts */
     --font-global: Jura, Titillium Web;
     --font-primary: var(--font-global);
@@ -768,11 +762,11 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 .itemFilled__373d7:hover:not([aria-checked=true]):not(.disabled_af801d){
     background: rgb(48,48,48,.3);
 }
-.itemFilled__373d7[aria-checked=true]{
+.itemFilled__373d7[aria-checked=true]:not(:has([style*="--radio-bar-accent-color:"])){
     background: var(--accent);
 }
-.itemFilled__373d7[aria-checked=true],
-.itemFilled__373d7[aria-checked=true] [class*="radioIconForeground_"]{
+.itemFilled__373d7[aria-checked=true]:not(:has([style*="--radio-bar-accent-color:"])),
+.itemFilled__373d7[aria-checked=true]:not(:has([style*="--radio-bar-accent-color:"])) [class*="radioIconForeground_"]{
     color: var(--accent-contrast); 
 }
 /* MY ACCOUNT */
@@ -822,24 +816,6 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 }
 .itemFilled__373d7 [class*="radioBar_"][style*="--radio-bar-accent-color:"]{
     border-radius: 3px;
-}
-[class*="radioBar_"][style*="--radio-bar-accent-color:var(--green-360)"]{
-    border-color: var(--radio-bar-green);
-}
-[class*="radioBar_"][style*="--radio-bar-accent-color:var(--yellow-360)"]{
-    border-color: var(--radio-bar-yellow);
-}
-[class*="radioBar_"][style*="--radio-bar-accent-color:var(--red-400)"]{
-    border-color: var(--radio-bar-red);
-}
-.itemFilled__373d7[aria-checked=true] [class*="radioBar_"][style*="--radio-bar-accent-color:var(--green-360)"]{
-    background: var(--radio-bar-green);
-}
-.itemFilled__373d7[aria-checked=true] [class*="radioBar_"][style*="--radio-bar-accent-color:var(--yellow-360)"]{
-    background: var(--radio-bar-yellow);
-}
-.itemFilled__373d7[aria-checked=true] [class*="radioBar_"][style*="--radio-bar-accent-color:var(--red-400)"]{
-    background: var(--radio-bar-red);
 }
 .itemFilled__373d7[aria-checked=true] [class*="radioBar_"][style*="--radio-bar-accent-color:var(--green-360)"],
 .itemFilled__373d7[aria-checked=true] [class*="radioBar_"][style*="--radio-bar-accent-color:var(--yellow-360)"],
