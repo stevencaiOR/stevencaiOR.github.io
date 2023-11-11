@@ -1718,6 +1718,14 @@ button.button__4f306.enabled__470f0:hover{
 /*-----COMMUNITY PAGES-----*/
 /* EVENTS */
 /* BROWSE CHANNELS */
+:root .container__10dc7,
+:root .header__60bef,
+:root .container__7590f{
+    background: none;
+}
+[class*="viewChannelButton_"]{
+    display: unset;
+}
 /* MEMBERS */
 .mainTableContainer__5ffe0{
     background: rgb(0,0,0,.5);
