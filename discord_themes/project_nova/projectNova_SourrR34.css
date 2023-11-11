@@ -1737,10 +1737,20 @@ button.button__4f306.enabled__470f0:hover{
 .container__7712a{
     background: var(--input-background);
 }
-/*-----MEMBER COUNT PLUGIN SUPPORT-----*/
+/*-----PLUGIN SUPPORT-----*/
+/* VENCORD MEMBER COUNT */
 #vc-membercount [aria-label*="online"] [style*="background-color: var(--green-360"]{
     background: var(--online-color) !important;
 }
 #vc-membercount [aria-label*="online"] [style^="color: var(--green-360"]{
     color: var(--online-color) !important;
+}
+/* VENCORD TOOLBOX */
+.vc-toolbox-btn{
+    -webkit-mask: url(https://stevencaior.github.io/discord_themes/icons/tools.svg) center / 18px no-repeat;
+    mask: url(https://stevencaior.github.io/discord_themes/icons/tools.svg) center / 18px no-repeat;
+    background: var(--accent);
+}
+.vc-toolbox-btn path{
+    display: none;
 }
