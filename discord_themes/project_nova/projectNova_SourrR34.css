@@ -605,7 +605,6 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 }
 /* CHAT HEADER */
 .header__4080b{
-    max-width: 25ch;
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 2.8;
