@@ -1725,3 +1725,10 @@ button.button__4f306.enabled__470f0:hover{
 .container__7712a{
     background: var(--input-background);
 }
+/*-----MEMBER COUNT PLUGIN SUPPORT-----*/
+#vc-membercount [aria-label*="online"] [style*="background-color: var(--green-360"]{
+    background: var(--online-color) !important;
+}
+#vc-membercount [aria-label*="online"] [style^="color: var(--green-360"]{
+    color: var(--online-color) !important;
+}
