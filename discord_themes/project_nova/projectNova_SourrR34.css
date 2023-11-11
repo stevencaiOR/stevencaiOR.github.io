@@ -710,7 +710,7 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 }
 [class*="addFriend_"]:hover,
 [class*="addFriend_"][aria-selected="true"]{
-    color: var(--text-positive);
+    color: var(--text-positive) !important;
 }
 [class*="addFriend_"]:hover{
     background: color-mix(in srgb, currentColor 10%, transparent) !important;
