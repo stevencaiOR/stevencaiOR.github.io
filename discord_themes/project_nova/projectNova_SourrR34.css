@@ -693,7 +693,7 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 [class*="topPill_"] .themed_b957e8.item__48dda:hover:not(.disabled__85bca):not([class*="addFriend_"]){
     background: hsl(var(--accent-hsl) / .1);
 }
-.brand_ce3ecf.item__48dda:hover:not(.selected__5711d),
+[class*="brand_"].item__48dda:hover:not(.selected__5711d),
 .themed_b957e8.item__48dda:hover:not(.selected__5711d):not([class*="addFriend_"]){
     color: var(--accent);
     text-shadow: 0 0 5px;
