@@ -613,13 +613,6 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 .description__57d03{
     line-height: 2.8;
 }
-.description__57d03 strong{
-    display: inline-block;
-    max-width: 25ch;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    vertical-align: top; /*certain unicode characters fuck up vertical alignment of text so*/
-}
 /* CHAT HEADER (NEW SERVERS) */
 .subtitle__1ce53{
     line-height: 0;
