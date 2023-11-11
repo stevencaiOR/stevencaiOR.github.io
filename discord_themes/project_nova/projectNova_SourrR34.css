@@ -339,6 +339,14 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 .wrapper__7bcde:hover:not([class*="modeSelected_"]) .actionIcon_d679b5{
     filter: drop-shadow(0 0 5px)
 }
+/* Channel Category Header */
+.wrapper__9c483:hover [class*="icon_"],
+.wrapper__9c483:hover [class*="name_"],
+.wrapper__9c483.muted_de6e6e:hover [class*="icon_"],
+.wrapper__9c483.muted_de6e6e:hover [class*="name_"],
+.addButtonIcon_b776b3:hover /*add button*/{
+    color: var(--accent-2);
+}
 /*-----FRIENDS TAB-----*/
 [class*="peopleListItem_"].active__6b8ff,
 [class*="peopleListItem_"]:hover{
@@ -1179,12 +1187,16 @@ rect[mask="url(#svg-mask-status-offline)"]{
 .selected_be2668 .icon__4cb88 {
     filter: drop-shadow(0 0 5px)
 }
-.clickable_d23a1a:hover .icon__4cb88 {
-    color: var(--accent-2);
-}
 .container__8261a, /*thread dropdown*/
 [class*="messagesPopoutWrap_"]{ /*pinned and mentions dropdown*/
     background: var(--background-floating);
+}
+/* Plus Button in DM List Header */
+.clickable_d23a1a .icon__4cb88{
+    color: var(--accent)
+}
+.clickable_d23a1a:hover .icon__4cb88 {
+    color: var(--accent-2);
 }
 /* GROUP DM NAME */
 .outer_c57160 .input__321f5{
@@ -1338,8 +1350,7 @@ img[alt*="wumpus" i]{
 .header_f72511, /*settings sidebar header*/
 .container_de798d, /*channel, dm and memberlist header*/
 [class*="privateChannelsHeaderContainer_"]:hover, /*dm header on hover*/
-.wrapperCommon_d71dee, /*channel header icons*/
-.clickable_d23a1a .icon__4cb88/*dm list plus icon*/{
+.wrapperCommon_d71dee /*channel header icons*/{
     color: var(--accent)
 }
 :root .searchBox_a63854{
