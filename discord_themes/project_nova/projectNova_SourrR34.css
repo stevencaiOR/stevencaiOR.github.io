@@ -1318,7 +1318,9 @@ img[alt*="wumpus" i]{
 [style*="background-color: var(--brand-500)"],
 [style*="background-color: var(--brand-500)"] [class*="automodText_"],
 [class*="lookFilled_"][class*="colorBrandNew_"],
-[class*="lookFilled_"][class*="colorBrand_"] .defaultColor__77578{
+[class*="lookFilled_"][class*="colorBrand_"] .defaultColor__77578,
+:root .activeButton__7a550, /*numbered pages at bottom of search results wrap*/
+:root .activeButton__7a550:hover{
     color: var(--accent-contrast)
 }
 .header_f72511, /*settings sidebar header*/
