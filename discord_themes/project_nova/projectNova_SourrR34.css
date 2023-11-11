@@ -556,7 +556,7 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     background: var(--channeltextarea-background);
 }
 /*-----MESSAGE AREA-----*/
-.markup_a7e664 code{
+[class*="markup_"] code{
     background: var(--code-background);
 }
 .reaction_b90ab0{
@@ -600,7 +600,7 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     padding: 1px 5px;
 }
 /* REPLIED MESSAGES */
-.repliedMessage_e2bf4a:before{
+[class*="repliedMessage_"]:before{
     border-color: var(--accent);
 }
 /* CHAT HEADER */
