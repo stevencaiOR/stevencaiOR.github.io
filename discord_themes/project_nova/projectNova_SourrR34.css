@@ -466,17 +466,14 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     display: none;
 }
 /* ROLES */
-.roles__74a2b .roleRemoveIcon__7f63d,
-.roleWrapper-2IhvNd .roleRemoveIcon__7f63d{
+.roles__74a2b [class*="roleRemoveIcon_"]{
     left: calc(100% - 10px);
 }
-.roles__74a2b .role__631a3,
-.roleWrapper-2IhvNd .role__631a3{
+.roles__74a2b .role__631a3{
     border: 3px solid rgb(255,255,255,.3);
     padding: 10px 4px;
 }
-.roles__74a2b .role__631a3:hover,
-.roleWrapper-2IhvNd .role__631a3:hover{
+.roles__74a2b .role__631a3:hover{
     border-color: rgb(255,255,255,.5);
 }
 /*-----CHANNEL TEXT AREA-----*/
