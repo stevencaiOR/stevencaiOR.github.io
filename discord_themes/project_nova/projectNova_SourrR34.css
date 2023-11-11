@@ -430,6 +430,11 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     /*About Me Section*/
     -webkit-line-clamp: unset !important;
 }
+[mask*="url(#svg-mask-avatar-status-round"]+circle[style*="opacity:"],
+[mask*="url(#svg-mask-avatar-status-mobile"]+rect[style*="opacity:"]{
+    /* background of status dots are being really weird */
+    fill: none;
+}
 /* WEIRD DISPLAY/NICKNAME AND PRONOUNS SUPPORT */
 [class*="userPopoutOverlayBackground_"] .nickname__3d1d7,
 [class*="userPopoutOverlayBackground_"] .pronouns__8bcdb{
