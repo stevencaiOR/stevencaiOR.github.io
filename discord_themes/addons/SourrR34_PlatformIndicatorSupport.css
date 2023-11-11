@@ -16,7 +16,7 @@
     --dnd-color: your dnd color;
   }
 
-  Note: although I am not associated with ClearVision in any way, this is made to be compatible with any ClearVision
+  Note: although I am not affiliated with ClearVision in any way, this is made to be compatible with any ClearVision
 */
 
 .PI-indicatorContainer > div[aria-label*="Online" i] > svg {
@@ -28,12 +28,15 @@
 .PI-indicatorContainer > [aria-label*="Do Not Disturb" i] > svg {
   color: var(--dnd-color) !important;
 }
+.vc-platform-indicator [fill*="var(--green-360"],
 .platform-indicators [aria-label*="Online" i] svg{
   fill: var(--online-color) !important;
 }
+.vc-platform-indicator [fill*="var(--yellow-300"],
 .platform-indicators [aria-label*="Idle" i] svg{
   fill: var(--idle-color) !important;
 }
+.vc-platform-indicator [fill*="var(--red-400"],
 .platform-indicators [aria-label*="Dnd" i] svg{
   fill: var(--dnd-color) !important;
 }
