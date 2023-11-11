@@ -423,21 +423,31 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 .profilePanel__12596{
     width: var(--profile-panel-width);
 }
-/* WEIRD DISPLAY/NICKNAME SUPPORT */
-/* Character limitations on usernames so no weird usernames*/
-[class*="userPopoutOverlayBackground_"] [class*="nickname_"],
+[style*="-webkit-line-clamp: 6"]{
+    /*About Me Section*/
+    -webkit-line-clamp: unset !important;
+}
+/* WEIRD DISPLAY/NICKNAME AND PRONOUNS SUPPORT */
+[class*="userPopoutOverlayBackground_"] .nickname__3d1d7,
+[class*="userPopoutOverlayBackground_"] .pronouns__8bcdb{
+    max-width: 272px; /*80% of popout width (340px)*/
+}
+[class*="userPanelOverlayBackground_"] .nickname__3d1d7,
+[class*="userPanelOverlayBackground_"] .pronouns__8bcdb{
+    max-width: calc(.8*var(--profile-panel-width));
+}
+.nickname__3d1d7,
 [class*="userProfileModalOverlayBackground_"] [class*="text-lg-semibold_"],
-[class*="userPanelOverlayBackground_"] h2{
+[class*="pronouns_"]{
     line-height: 2.8;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.nickname__3d1d7{
     white-space: nowrap;
 }
-/*Prounouns*/
-[class*="userPopoutOverlayBackground_"] [class*="userTag_"],
-[class*="userProfileModalOverlayBackground_"] [class*="nameTagSmall_"]{
-    font-size: 16px; /*default: 14px*/
-    line-height: 2.8;
+.pronouns_be950a{
+    display: block;
 }
 /* MODAL TABS */
 [aria-label="User Profile Modal"] [class*="tabBar_"]{
