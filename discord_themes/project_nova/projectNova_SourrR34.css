@@ -422,9 +422,9 @@ img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::after{
     background: var(--popout-background);
 }
 .profileColors__2e2f0{
-    /*profile popout preview*/
+    /*user popout preview*/
     --profile-avatar-border-color: #000;
-    /*profile aside panel*/
+    /*profile panel*/
     --profile-gradient-primary-color: var(--popout-color-top);
 	--profile-gradient-secondary-color:var(--popout-color-bottom);
 }
@@ -1484,7 +1484,7 @@ div.sprite__294b3{
     filter: none !important;
 }
 /* DENITROFICATION */
-[href="/store"],
+[href="/shop"],
 [class*="button"][aria-label="Send a gift"]{
     display: none;
 }
