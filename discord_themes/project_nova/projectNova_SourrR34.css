@@ -749,13 +749,20 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     border: 3px solid var(--accent);
 }
 /* OVAL TOGGLE BUTTONS*/
-.container__871ba[style*='background-color: rgb(35, 165, 90)']{
+/* Note: there's some weird "transitional" green that appears if we select by style instead of class*/
+.container__871ba{
+    background: rgb(128, 132, 142) !important;
+}
+.container__871ba[class*="checked_"]{
     background: var(--accent) !important;
 }
 .container__871ba [fill*='white']{
     fill: var(--accent-contrast);
 }
-.container__871ba[style*='background-color: rgb(35, 165, 90)'] [fill*='(35, 165, 90']{
+.container__871ba path[fill]{
+    fill: rgb(128, 132, 142);
+}
+.container__871ba[class*="checked_"] path[fill]{
     fill: var(--accent);
 }
 /* RADIOBAR ITEMS */
