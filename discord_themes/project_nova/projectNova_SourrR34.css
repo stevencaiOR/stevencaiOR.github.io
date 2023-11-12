@@ -729,7 +729,7 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     flex-grow: 0;
     flex-basis: var(--setting-sidebar-width);
 }
-[class*="sidebarRegion_"] .sidebar__9e3e2{
+[class*="sidebarRegion_"] [class*="sidebar_"]{
     width: var(--setting-sidebar-width);
     padding: 20px 10px 10px;
 }
@@ -747,10 +747,6 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     /*found in both nitro preview of profiles and themes in appearance*/
     background: rgb(0,0,0,.3);
     border: 3px solid var(--accent);
-}
-[class*="statusOrange_"]{
-    /*for future reference, move this. belongs in safety setup*/
-    border-color: var(--radio-bar-orange);
 }
 /* OVAL TOGGLE BUTTONS*/
 .container__871ba[style*='background-color: rgb(35, 165, 90)']{
