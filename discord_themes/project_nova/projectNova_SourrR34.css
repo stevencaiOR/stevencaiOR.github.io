@@ -933,17 +933,17 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
 [style*="/assets/cc52988849f86e1c85f5.svg"],
 :has(> [class*="connectionIcon_"][alt="x" i]):before{
     /* X icon replacement*/
-    -webkit-mask-image: url(https://stevencaior.github.io/icons/twitter-x.svg);
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/twitter-x.svg);
 }
 [style*="/assets/0cbfee20a3f2cd0dd313.svg"],
 :has(> [class*="connectionIcon_"][alt="domain" i]):before{
     /* Domain icon replacement */
-    -webkit-mask-image: url(https://stevencaior.github.io/icons/globe-americas.svg);
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/globe-americas.svg);
 }
 [style*="/assets/5617849b51454655bcf1.svg"],
 :has(> [class*="connectionIcon_"][alt="github" i]):before{
     /* GitHub icon replacement*/
-    -webkit-mask-image: url(https://stevencaior.github.io/icons/github.svg);
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/github.svg);
 }
 [style*="/assets/cc52988849f86e1c85f5.svg"]:hover,
 [style*="/assets/0cbfee20a3f2cd0dd313.svg"]:hover,
@@ -1501,32 +1501,32 @@ div.sprite__294b3{
     width: 48px;    
 }
 :has(> [src="/assets/4d526e1c61d719fd39a0.svg"]):before{
-    -webkit-mask: url(https://stevencaior.github.io/icons/key.svg) center / 32px no-repeat;
-    mask: url(https://stevencaior.github.io/icons/key.svg) center / 32px no-repeat;
+    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/key.svg) center / 32px no-repeat;
+    mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/key.svg) center / 32px no-repeat;
 }
 :has(> [src="/assets/5d6dc6ffd6b519acc9a7.svg"]):before{
-    -webkit-mask: url(https://stevencaior.github.io/icons/controller.svg) center / 32px no-repeat;
-    mask: url(https://stevencaior.github.io/icons/controller.svg) center / 32px no-repeat;
+    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/controller.svg) center / 32px no-repeat;
+    mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/controller.svg) center / 32px no-repeat;
 }
 :has(> [src="/assets/5589e8e4717b76315f42.svg"]):before{
-    -webkit-mask: url(https://stevencaior.github.io/icons/book.svg) center / 32px no-repeat;
-    mask: url(https://stevencaior.github.io/icons/book.svg) center / 32px no-repeat;
+    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/book.svg) center / 32px no-repeat;
+    mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/book.svg) center / 32px no-repeat;
 }
 :has(> [src="/assets/c7b02290cc71009a0951.svg"]):before{
-    -webkit-mask: url(https://stevencaior.github.io/icons/backpack.svg) center / 32px no-repeat;
-    mask: url(https://stevencaior.github.io/icons/backpack.svg) center / 32px no-repeat;
+    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/backpack.svg) center / 32px no-repeat;
+    mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/backpack.svg) center / 32px no-repeat;
 }
 :has(> [src="/assets/3a1f9db2a36d64e6483a.svg"]):before{
-    -webkit-mask: url(https://stevencaior.github.io/icons/people.svg) center / 32px no-repeat;
-    mask: url(https://stevencaior.github.io/icons/people.svg) center / 32px no-repeat;
+    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/people.svg) center / 32px no-repeat;
+    mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/people.svg) center / 32px no-repeat;
 }
 :has(> [src="/assets/015eb861ca3bf2b0a536.svg"]):before{
-    -webkit-mask: url(https://stevencaior.github.io/icons/person-video3.svg) center / 32px no-repeat;
-    mask: url(https://stevencaior.github.io/icons/person-video3.svg) center / 32px no-repeat;
+    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/person-video3.svg) center / 32px no-repeat;
+    mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/person-video3.svg) center / 32px no-repeat;
 }
 :has(> [src="/assets/7e7c6b45f2149335c996.svg"]):before{
-    -webkit-mask: url(https://stevencaior.github.io/icons/person-arms-up.svg) center / 32px no-repeat;
-    mask: url(https://stevencaior.github.io/icons/person-arms-up.svg) center / 32px no-repeat;
+    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/person-arms-up.svg) center / 32px no-repeat;
+    mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/person-arms-up.svg) center / 32px no-repeat;
 }
 .footer__89240{
     color: var(--accent);
@@ -1857,8 +1857,8 @@ button.button__4f306.enabled__470f0:hover{
 }
 /* VENCORD TOOLBOX */
 .vc-toolbox-btn{
-    -webkit-mask: url(https://stevencaior.github.io/icons/tools.svg) center / 18px no-repeat;
-    mask: url(https://stevencaior.github.io/icons/tools.svg) center / 18px no-repeat;
+    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/tools.svg) center / 18px no-repeat;
+    mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/tools.svg) center / 18px no-repeat;
     background: var(--accent);
 }
 .vc-toolbox-btn:hover{
