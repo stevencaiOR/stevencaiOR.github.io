@@ -467,7 +467,7 @@ img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::after{
     justify-content: space-evenly;
 }
 .top__592a7 .themed_b957e8.item__48dda:hover,
-.top__592a7 .selected__5711d.themed_b957e8.item__48dda{
+.top__592a7 .themed_b957e8.item__48dda[aria-selected="true"]{
     border-bottom-color: var(--accent);
 }
 /* MUTUAL FRIENDS + SERVERS */
