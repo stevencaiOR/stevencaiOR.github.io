@@ -743,6 +743,10 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 [class*="premiumLabel_"] svg{
     display: none;
 }
+[class*="selectedBackground_"]{
+    /*nitro tab item in sidebar list*/
+    display: none;
+}
 [class*="premiumFeatureBorder_"]{
     /*found in both nitro preview of profiles and themes in appearance*/
     background: rgb(0,0,0,.3);
