@@ -1245,6 +1245,10 @@ rect[mask="url(#svg-mask-status-offline)"]{
 .children__32014:after{
     content: unset;
 }
+.title_b7d661{
+    /* solves issue where this element above emoji picker */
+    z-index: 3;
+}
 .themed_b152d4 .icon__4cb88{
     color: var(--accent);
 }
