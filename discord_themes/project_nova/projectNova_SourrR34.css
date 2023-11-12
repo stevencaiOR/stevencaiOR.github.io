@@ -797,6 +797,17 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 [class*="userSettingsSecurityImage_"]{
     display: none;
 }
+/* Replaces ಠ_ಠ with Edit */
+button[aria-label="Edit username"] [class*="contents_"]{
+    text-indent: -9999px;
+    line-height: 0;
+}
+button[aria-label="Edit username"] [class*="contents_"]:after{
+    text-indent: 0;
+    line-height: 1.14;
+    display: block;
+    content: "Edit";
+}
 /* PROFILES */
 [class*="premiumBackground_"]{
     background: none;
