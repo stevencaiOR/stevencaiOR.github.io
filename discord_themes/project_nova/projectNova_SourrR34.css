@@ -324,7 +324,7 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 .wrapper__7bcde:hover:not([class*="modeSelected_"]) .name__8d1ec,
 [class*="modeUnread_"] .name__8d1ec,
 [class*="modeConnected_"] .name__8d1ec,
-.clickable__17ccb.container__4f20e:hover{
+.clickable__17ccb.container__4f20e:hover [class*="username_"] /*username in memberlist*/{
     text-shadow: 0 0 5px;
 }
 [class*="modeConnected_"] .iconContainer__3f9b0,
