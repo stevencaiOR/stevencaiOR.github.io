@@ -845,9 +845,6 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
 .itemFilled__373d7 [class*="radioBar_"][style*="--radio-bar-accent-color:"]{
     border-radius: 3px;
 }
-[class*="selectedBackground_"]{
-    background: none;
-}
 /* DEVICES */
 [class*="sessionIcon_"]{
     background: var(--accent);
