@@ -1483,6 +1483,7 @@ div.sprite__294b3{
 }
 /* DENITROFICATION */
 [href="/shop"],
+[href="/store"],
 [class*="button"][aria-label="Send a gift"]{
     display: none;
 }
