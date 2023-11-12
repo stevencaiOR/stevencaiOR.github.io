@@ -1735,6 +1735,9 @@ button.button__4f306.enabled__470f0:hover{
     mask: url(https://stevencaior.github.io/discord_themes/icons/tools.svg) center / 18px no-repeat;
     background: var(--accent);
 }
+.vc-toolbox-btn:hover{
+    background: var(--accent-2)
+}
 .vc-toolbox-btn path{
     display: none;
 }
