@@ -770,10 +770,10 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
     background: var(--background-modifier-accent);
 }
 .itemFilled__373d7,
-.itemFilled__373d7:active:not([aria-checked=true]):not(.disabled_af801d){
+.itemFilled__373d7:not([aria-checked=true], .disabled_af801d):active{
     background: rgb(48,48,48,.5);
 }
-.itemFilled__373d7:hover:not([aria-checked=true]):not(.disabled_af801d){
+.itemFilled__373d7:not([aria-checked=true], .disabled_af801d):hover{
     background: rgb(48,48,48,.3);
 }
 .itemFilled__373d7[aria-checked=true]:not(:has([style*="--radio-bar-accent-color:"])){
