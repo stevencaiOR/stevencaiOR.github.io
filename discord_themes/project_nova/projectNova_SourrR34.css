@@ -628,23 +628,23 @@ img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::after{
 .container_b03b4b .cardWrapper__09290 .icon__02e89{
     background: var(--accent) !important;
 }
-.container_b03b4b .cardWrapper__09290:nth-child(2) .icon__02e89{
+.container_b03b4b .cardWrapper__09290 .icon__02e89[style*="c5eb15a73957da1bb6e9"]{
     -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/people.svg) center / 36px no-repeat;
     mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/people.svg) center / 36px no-repeat;
 }
-.container_b03b4b .cardWrapper__09290:nth-child(3) .icon__02e89{
+.container_b03b4b .cardWrapper__09290 .icon__02e89[style*="00bc91145392d3941bf7"]{
     -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/paint-bucket.svg) center / 36px no-repeat;
     mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/paint-bucket.svg) center / 36px no-repeat;
 }
-.container_b03b4b .cardWrapper__09290:nth-child(4) .icon__02e89{
+.container_b03b4b .cardWrapper__09290 .icon__02e89[style*="0160dd25b3ba785c6008"]{
     -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/chat-right-text.svg) center / 36px no-repeat;
     mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/chat-right-text.svg) center / 36px no-repeat;
 }
-.container_b03b4b .cardWrapper__09290:nth-child(5) .icon__02e89{
+.container_b03b4b .cardWrapper__09290 .icon__02e89[style*="141bfc7aec238edeeb60"]{
     -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/download.svg) center / 36px no-repeat;
     mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/download.svg) center / 36px no-repeat;
 }
-.container_b03b4b .cardWrapper__09290:nth-child(6) .icon__02e89{
+.container_b03b4b .cardWrapper__09290 .icon__02e89[style*="c4cf1bcd505f7cc22300"]{
     -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/wrench.svg) center / 36px no-repeat;
     mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/wrench.svg) center / 36px no-repeat;
 }
