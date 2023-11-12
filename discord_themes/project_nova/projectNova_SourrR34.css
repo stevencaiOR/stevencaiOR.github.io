@@ -476,14 +476,15 @@ img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::after{
     display: none;
 }
 /* ROLES */
+/* Note: user popouts only */
 .roles__74a2b [class*="roleRemoveIcon_"]{
     left: calc(100% - 10px);
 }
-.roles__74a2b .role__631a3{
+.roles__74a2b [class*="role_"]{
     border: 3px solid rgb(255,255,255,.3);
     padding: 10px 4px;
 }
-.roles__74a2b .role__631a3:hover{
+.roles__74a2b [class*="role_"]:hover{
     border-color: rgb(255,255,255,.5);
 }
 /*-----CHANNEL TEXT AREA-----*/
