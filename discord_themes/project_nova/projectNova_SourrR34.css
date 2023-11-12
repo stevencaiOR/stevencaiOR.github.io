@@ -150,7 +150,7 @@
     --spotify-color: hsl(141.4 76.1% 47.6%);
 }
 /*-----AUTHOR TRIBUTE-----*/
-img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*="username_"]::after{
+img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::after{
     content: "Nanosuit 2.0";
     text-shadow: 0 0 2px;
     border: 1px solid;
