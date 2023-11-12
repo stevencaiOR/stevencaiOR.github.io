@@ -847,8 +847,9 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
 }
 /* DEVICES */
 [class*="sessionIcon_"]{
-    background: var(--accent);
-    color: var(--accent-contrast);
+    background: rgb(0,0,0,.2);
+    color: var(--accent);
+    box-shadow: 0 0 0 3px;
 }
 [class*="otherSessions_"] [class*="children_"]{
     flex-direction: row;
