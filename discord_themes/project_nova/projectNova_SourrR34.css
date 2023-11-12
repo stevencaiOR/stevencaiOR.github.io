@@ -1398,14 +1398,43 @@ div.sprite__294b3{
 }
 /*-----MISCELLANEOUS MODALS-----*/
 /* ADD SERVER MODAL */
-.header-12n7su{
-    padding: 40px 16px 0;
-}
-.container-x8Y1ix {
-    padding: 20px;
-}
-.container-x8Y1ix [class*="icon_"]{
+.icon__6a8ca{
     display: none;
+}
+:has(> .icon__6a8ca):before{
+    background: var(--accent);
+    content:"";
+    margin: 8px;
+    height: 48px;
+    width: 48px;    
+}
+:has(> [src="/assets/4d526e1c61d719fd39a0.svg"]):before{
+    -webkit-mask: url(https://stevencaior.github.io/discord_themes/icons/key.svg) center / 32px no-repeat;
+    mask: url(https://stevencaior.github.io/discord_themes/icons/key.svg) center / 32px no-repeat;
+}
+:has(> [src="/assets/5d6dc6ffd6b519acc9a7.svg"]):before{
+    -webkit-mask: url(https://stevencaior.github.io/discord_themes/icons/controller.svg) center / 32px no-repeat;
+    mask: url(https://stevencaior.github.io/discord_themes/icons/controller.svg) center / 32px no-repeat;
+}
+:has(> [src="/assets/5589e8e4717b76315f42.svg"]):before{
+    -webkit-mask: url(https://stevencaior.github.io/discord_themes/icons/book.svg) center / 32px no-repeat;
+    mask: url(https://stevencaior.github.io/discord_themes/icons/book.svg) center / 32px no-repeat;
+}
+:has(> [src="/assets/c7b02290cc71009a0951.svg"]):before{
+    -webkit-mask: url(https://stevencaior.github.io/discord_themes/icons/backpack.svg) center / 32px no-repeat;
+    mask: url(https://stevencaior.github.io/discord_themes/icons/backpack.svg) center / 32px no-repeat;
+}
+:has(> [src="/assets/3a1f9db2a36d64e6483a.svg"]):before{
+    -webkit-mask: url(https://stevencaior.github.io/discord_themes/icons/people.svg) center / 32px no-repeat;
+    mask: url(https://stevencaior.github.io/discord_themes/icons/people.svg) center / 32px no-repeat;
+}
+:has(> [src="/assets/015eb861ca3bf2b0a536.svg"]):before{
+    -webkit-mask: url(https://stevencaior.github.io/discord_themes/icons/person-video3.svg) center / 32px no-repeat;
+    mask: url(https://stevencaior.github.io/discord_themes/icons/person-video3.svg) center / 32px no-repeat;
+}
+:has(> [src="/assets/7e7c6b45f2149335c996.svg"]):before{
+    -webkit-mask: url(https://stevencaior.github.io/discord_themes/icons/person-arms-up.svg) center / 32px no-repeat;
+    mask: url(https://stevencaior.github.io/discord_themes/icons/person-arms-up.svg) center / 32px no-repeat;
 }
 .footer__89240{
     color: var(--accent);
