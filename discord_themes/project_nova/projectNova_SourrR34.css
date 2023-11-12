@@ -627,21 +627,24 @@ img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::after{
 }
 .container_b03b4b .cardWrapper__09290 .icon__02e89{
     background: var(--accent) !important;
+    -webkit-mask-position: center;
+    -webkit-mask-size: 36px;
+    -webkit-mask-repeat: no-repeat;
 }
 .container_b03b4b .cardWrapper__09290 .icon__02e89[style*="c5eb15a73957da1bb6e9"]{
-    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/people.svg) center / 36px no-repeat;
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/people.svg);
 }
 .container_b03b4b .cardWrapper__09290 .icon__02e89[style*="00bc91145392d3941bf7"]{
-    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/paint-bucket.svg) center / 36px no-repeat;
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/paint-bucket.svg);
 }
 .container_b03b4b .cardWrapper__09290 .icon__02e89[style*="0160dd25b3ba785c6008"]{
-    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/chat-right-text.svg) center / 36px no-repeat;
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/chat-right-text.svg);
 }
 .container_b03b4b .cardWrapper__09290 .icon__02e89[style*="141bfc7aec238edeeb60"]{
-    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/download.svg) center / 36px no-repeat;
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/download.svg);
 }
 .container_b03b4b .cardWrapper__09290 .icon__02e89[style*="c4cf1bcd505f7cc22300"]{
-    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/wrench.svg) center / 36px no-repeat;
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/wrench.svg);
 }
 /* BUTTON MENU ON RIGHT */
 .message__80c10 .buttonsInner_bca8fa{
@@ -1494,27 +1497,31 @@ div.sprite__294b3{
     margin: 8px;
     height: 48px;
     width: 48px;    
+
+    -webkit-mask-position: center;
+    -webkit-mask-size: 32px;
+    -webkit-mask-repeat: no-repeat;
 }
 :has(> [src="/assets/4d526e1c61d719fd39a0.svg"]):before{
-    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/key.svg) center / 32px no-repeat;
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/key.svg);
 }
 :has(> [src="/assets/5d6dc6ffd6b519acc9a7.svg"]):before{
-    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/controller.svg) center / 32px no-repeat;
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/controller.svg);
 }
 :has(> [src="/assets/5589e8e4717b76315f42.svg"]):before{
-    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/book.svg) center / 32px no-repeat;
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/book.svg);
 }
 :has(> [src="/assets/c7b02290cc71009a0951.svg"]):before{
-    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/backpack.svg) center / 32px no-repeat;
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/backpack.svg);
 }
 :has(> [src="/assets/3a1f9db2a36d64e6483a.svg"]):before{
-    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/people.svg) center / 32px no-repeat;
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/people.svg);
 }
 :has(> [src="/assets/015eb861ca3bf2b0a536.svg"]):before{
-    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/person-video3.svg) center / 32px no-repeat;
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/person-video3.svg);
 }
 :has(> [src="/assets/7e7c6b45f2149335c996.svg"]):before{
-    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/person-arms-up.svg) center / 32px no-repeat;
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/person-arms-up.svg);
 }
 .footer__89240{
     color: var(--accent);
