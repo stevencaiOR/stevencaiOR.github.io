@@ -789,6 +789,8 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 }
 #my-account-tab [class*="accountProfileCard_"]{
     background: var(--popout-background);
+    border: 4px solid;
+    box-shadow: 0 0 0 3px var(--accent);
     width: 660px; /*long user/display name makes width super huge otherwise*/
 }
 .background_b61fcc{
