@@ -816,6 +816,10 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     content: "Edit";
 }
 /* PROFILES */
+.container_d6bff4{
+    /* weird marketing crap */
+    display: none;
+}
 [class*="premiumBackground_"]{
     background: none;
 }
