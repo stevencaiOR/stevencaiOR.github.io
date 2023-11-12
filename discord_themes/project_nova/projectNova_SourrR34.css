@@ -785,6 +785,7 @@ img[src*="947934356880629760"]~.header__39b23 [class*="headerText_"] span[class*
 }
 /* MY ACCOUNT */
 #my-account-tab > div > :first-child [class*="children_"]{
+    /*centers the account profile card*/
     align-items: center;
 }
 #my-account-tab [class*="accountProfileCard_"]{
@@ -843,14 +844,6 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
 }
 .itemFilled__373d7 [class*="radioBar_"][style*="--radio-bar-accent-color:"]{
     border-radius: 3px;
-}
-.itemFilled__373d7[aria-checked=true] [class*="radioBar_"][style*="--radio-bar-accent-color:var(--green-360)"],
-.itemFilled__373d7[aria-checked=true] [class*="radioBar_"][style*="--radio-bar-accent-color:var(--yellow-360)"],
-.itemFilled__373d7[aria-checked=true] [class*="radioBar_"][style*="--radio-bar-accent-color:var(--red-400)"],
-.itemFilled__373d7[aria-checked=true] [class*="radioBar_"][style*="--radio-bar-accent-color:var(--green-360)"] [class*="radioIconForeground_"],
-.itemFilled__373d7[aria-checked=true] [class*="radioBar_"][style*="--radio-bar-accent-color:var(--yellow-360)"] [class*="radioIconForeground_"],
-.itemFilled__373d7[aria-checked=true] [class*="radioBar_"][style*="--radio-bar-accent-color:var(--red-400)"] [class*="radioIconForeground_"]{
-    color: #fff;
 }
 [class*="selectedBackground_"]{
     background: none;
