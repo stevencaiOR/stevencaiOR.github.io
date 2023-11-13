@@ -1,4 +1,4 @@
-@import url(https://stevencaior.github.io/discord_themes/project_nova/projectNova_SourrR34.css);
+@import url(https://stevencaior.github.io/discord_themes/project_nova/projectNova_CrynetTerminal_SourrR34.css);
 @import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@100;300;400;500;600;700;800;900&display=swap);
 
 .theme-amoled,
@@ -6,31 +6,17 @@
 .theme-darker,
 .theme-light
 {
-    --watermark: "CRYNET SYSTEMS";
-
     /**
     --accent-hsl: 192.321 100% 78.039%;
     --accent-2-hsl: 192.321 50% 60%;/**/
 
-    --accent-hue: 192.321;
-    --accent-saturation-base: 100%;
-    --accent-saturation-coefficient: .5; /*.5*/
-    --accent-lightness-base: 78.039%;
-    --accent-lightness-coefficient: .7; /*.769*/
-
-    --accent-contrast: #000;
-
+    /* Fonts */
     --font-global: Orbitron, Noto Sans, gg sans, Trebuchet MS, sans-serif;
 
+    /* Background */
     --background-image: url(https://i.imgur.com/iBb7wwY.png);
-    --background-shading: #0000;
 
-    --home-icon: url(https://i.imgur.com/3KHlCMw.png);
-
-    --popout-color-bottom: #000;
-
-    --modal-background: #080808; /*matches --modal-footer-background*/
-
+    /* Miscellaneous */
     --members-width: 270px;
 }
 
