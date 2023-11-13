@@ -473,8 +473,10 @@
 	}
 
 	/*Found in app file, not shared*/
+	.theme-light ::-moz-placeholder{
+		font-weight: 400;
+	}
 	.theme-light .textArea__74543,
-	.theme-light ::-moz-placeholder,
 	.theme-light select,
 	.theme-light textarea,
 	.theme-light input,
