@@ -471,6 +471,19 @@
 	.theme-light [class*="embedAuthorName_"] {
 		font-weight: 600;
 	}
+
+	/*Found in app file, not shared*/
+	.theme-light .textArea__74543,
+	.theme-light ::-moz-placeholder,
+	.theme-light select,
+	.theme-light textarea,
+	.theme-light input,
+	.theme-light ::placeholder{
+		font-weight: 400;
+	}
+	.theme-light .topic__16ae3{
+		font-weight: 500;
+	}
 }
 @media all and (-webkit-max-device-pixel-ratio: 1.5) {
 	.theme-light {
