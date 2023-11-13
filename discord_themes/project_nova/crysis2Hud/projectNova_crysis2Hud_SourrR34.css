@@ -29,8 +29,7 @@
 
     --popout-color-bottom: #000;
 
-    --modal-background: #080808;
-    --modal-footer-background: var(--modal-background);
+    --modal-background: #080808; /*matches --modal-footer-background*/
 
     --members-width: 270px;
 }
