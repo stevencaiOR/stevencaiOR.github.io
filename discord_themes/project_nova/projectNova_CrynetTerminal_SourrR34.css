@@ -1,0 +1,17 @@
+.theme-amoled,
+.theme-dark,
+.theme-darker,
+.theme-light{
+    --watermark: "CRYNET SYSTEMS";
+    --accent-hue: 192.321;
+    --accent-saturation-base: 100%;
+    --accent-saturation-coefficient: .5; /*.5*/
+    --accent-lightness-base: 78.039%;
+    --accent-lightness-coefficient: .7; /*.769*/
+    --accent-contrast: #000;
+    --background-image: #000;
+    --background-shading: #0000;
+    --home-icon: url(https://i.imgur.com/3KHlCMw.png);
+    --popout-color-bottom: #000;
+    --modal-background: #080808;
+}
