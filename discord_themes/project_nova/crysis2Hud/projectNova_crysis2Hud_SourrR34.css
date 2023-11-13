@@ -44,13 +44,15 @@
 [class*="layers_"] > [class*="layer_"]{
     border: 3px solid var(--accent);
     border-radius: 10px;
-
-    height: 65vh; /*previously 55vh*/
-
     position: fixed;
-    top: 11vh; /*previously 16vh*/
-    /*position: absolute; (default)
-    top: 14.5vh; when position is absolute*/
+}
+.platform-web [class*="layers_"] > [class*="layer_"]{
+    height: 65vh;
+    top: 11vh;
+}
+.platform-win [class*="layers_"] > [class*="layer_"]{
+    height: 55vh;
+    top: 16vh;
 }
 #app-mount > div[class*="titleBar"]{
     background: transparent;
