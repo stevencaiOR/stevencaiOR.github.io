@@ -45,10 +45,10 @@
     border: 3px solid var(--accent);
     border-radius: 10px;
 
-    height: 55vh;
+    height: 65vh; /*previously 55vh*/
 
     position: fixed;
-    top: 16.2vh;
+    top: 11vh; /*previously 16vh*/
     /*position: absolute; (default)
     top: 14.5vh; when position is absolute*/
 }
