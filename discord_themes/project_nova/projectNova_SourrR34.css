@@ -1847,11 +1847,17 @@ button.button__4f306.enabled__470f0:hover{
 }
 /*-----PLUGIN SUPPORT-----*/
 /* VENCORD MEMBER COUNT */
-#vc-membercount [aria-label*="online"] [style*="background-color: var(--green-360"]{
+#vc-membercount [style*="background-color: var(--green-360"]{
     background: var(--online-color) !important;
 }
-#vc-membercount [aria-label*="online"] [style^="color: var(--green-360"]{
+#vc-membercount [style^="color: var(--green-360"]{
     color: var(--online-color) !important;
+}
+#vc-membercount [style*="border: 3px solid var(--primary-400"]{
+    border-color: var(--offline-color) !important;
+}
+#vc-membercount [style^="color: var(--primary-400"]{
+    color: var(--offline-color) !important;
 }
 /* VENCORD TOOLBOX */
 .vc-toolbox-btn{
