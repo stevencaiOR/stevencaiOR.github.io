@@ -68,8 +68,6 @@
     --premium-tier-2-purple-for-gradients-hsl: var(--accent-hsl);
     --premium-tier-2-purple-for-gradients-2-hsl: var(--accent-hsl);
 
-    --watermark: "Nova Squadron";
-
     /* Accent */
     --accent: hsl(var(--accent-hsl));
     --accent-hsl: var(--accent-hue) var(--accent-saturation-base) var(--accent-lightness-base);
@@ -148,6 +146,7 @@
     --profile-panel-width: var(--members-width);
     --setting-sidebar-width: 240px;
     --spotify-color: hsl(141.4 76.1% 47.6%);
+    --watermark: "Nova Squadron";
 }
 /*-----AUTHOR TRIBUTE-----*/
 img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::after{
