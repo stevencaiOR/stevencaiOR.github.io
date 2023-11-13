@@ -472,3 +472,8 @@
 		font-weight: 600;
 	}
 }
+@media all and (-webkit-max-device-pixel-ratio: 1.5) {
+	.theme-light {
+		--font-weight-semibold-1x-light-theme: 500;
+	}
+}
