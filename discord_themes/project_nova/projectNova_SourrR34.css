@@ -706,6 +706,9 @@ img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::after{
     color: var(--accent);
     text-shadow: 0 0 5px;
 }
+.themed_b957e8.item__48dda[aria-selected="false"]:hover:not([class*="addFriend_"]) [class*="numberBadge_"]{
+    text-shadow: none;
+}
 /* ADD FRIEND PILL */
 [class*="addFriend_"]{
     background: #0000 !important;
