@@ -453,22 +453,22 @@
 	.theme-light .markup_a7e664 {
 		font-weight: inherit;
 	}
-	.theme-light .labelSelected__9ef94,
+	.theme-light [class*="labelSelected_"],
 	.theme-light .description__7af71,
 	.theme-light .filename_e129cd,
-	.theme-light .embedProvider_cfa718,
-	.theme-light .embedDescription__33443,
-	.theme-light .ephemeralMessage__6a8ba,
+	.theme-light [class*="embedProvider_"],
+	.theme-light [class*="embedDescription_"],
+	.theme-light [class*="ephemeralMessage_"],
 	.theme-light .content__72fdc,
 	.theme-light .timestamp_c6898e,
-	.theme-light .operations__07224 {
+	.theme-light [class*="operations_"] {
 		font-weight: 400;
 	}
 	.theme-light .username_d30d99,
 	.theme-light .content__72fdc a {
 		font-weight: 500;
 	}
-	.theme-light .embedAuthorName_a1274b {
+	.theme-light [class*="embedAuthorName_"] {
 		font-weight: 600;
 	}
 }
