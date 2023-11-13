@@ -474,6 +474,7 @@
 
 	/*Found in app file, not shared*/
 	.theme-light ::-moz-placeholder{
+		/*if I combine w/ below, then all the below selectors do NOT work*/
 		font-weight: 400;
 	}
 	.theme-light .textArea__74543,
