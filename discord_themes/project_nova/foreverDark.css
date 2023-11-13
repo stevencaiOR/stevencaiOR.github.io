@@ -448,3 +448,9 @@
 	color: #ffdcd7;
 	background-color: #67060c;
 }
+/* Font Normalization */
+@media all and (-webkit-max-device-pixel-ratio: 1) {
+	.theme-light .markup_a7e664 {
+		font-weight: inherit;
+	}
+}
