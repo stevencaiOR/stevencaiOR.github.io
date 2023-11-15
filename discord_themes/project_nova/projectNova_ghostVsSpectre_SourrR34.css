@@ -1,12 +1,11 @@
 @import url(https://stevencaior.github.io/discord_themes/project_nova/projectNova_SourrR34.css);
 
+:root,
 .theme-amoled,
 .theme-dark,
 .theme-darker,
 .theme-light
 {
-    --watermark: "StarCraft II";
-
     /* Accent */
     --accent-hue: 127;
     --accent-saturation-base: 40%;
@@ -21,4 +20,7 @@
 
     /* Home Button */
     --home-icon: url(https://i.imgur.com/QNZ0Vi2.png);
+
+    /* Miscellaneous */
+    --watermark: "StarCraft II";
 }
