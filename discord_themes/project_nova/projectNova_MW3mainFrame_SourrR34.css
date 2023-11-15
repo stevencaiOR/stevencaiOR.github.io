@@ -1,0 +1,104 @@
+@import url(https://stevencaior.github.io/discord_themes/project_nova/projectNova_SourrR34.css);
+.theme-amoled,
+.theme-dark,
+.theme-darker,
+.theme-light{
+    --accent-hue: 33;
+    --accent-saturation-base: 100%;
+    --accent-saturation-coefficient: 1;
+    --accent-lightness-base: 50%;
+    --accent-lightness-coefficient: .8;
+
+    --background-image: radial-gradient(ellipse closest-side, rgb(0,35,38), rgb(0,0,0));
+    --background-shading: 0;
+
+    --popup-color: hsl(203 9% 8%); /*original rgb(40, 45, 48)*/
+    --popup-border-color: #5c6166; /*#545b5e*/
+
+    --background-floating: var(--popup-color);/*affects the search results dropdown*/
+    --background-secondary-alt: var(--popup-color);
+    --popout-color-top: var(--popup-color);
+    --popout-color-bottom: var(--popup-color);
+}
+.container__037ed, /* spacing between server bar and channel list */
+.content__4bf10, /* spacing between channel list and main content */
+.content__1a4fe /* spacing between member list and main content */ {
+    column-gap: 20px;
+}
+.base__3e6af{
+    /*increases visibility of user area. gonna cause a host of issues tho*/
+    overflow: visible;
+}
+.chat__52833{
+    /*72px server bar, 60px for total columns + margin, 2px for border-width of server wrapper*/
+    max-width: calc(100vw - 132px - var(--channels-width));
+}
+.wrapper_a7e7a8 /* Server Bar Wrapper */{
+    background: var(--popup-color);
+    border: 2px solid var(--popup-border-color);
+    border-radius: 5px;
+    height: 87%;
+    margin-left: 20px;
+    top: 3%;
+}
+:root .container__590e2 /* Channel Container */,
+.privateChannels__93473 /* Private Channels */{
+    background: var(--popup-color); 
+    border: 2px solid var(--popup-border-color);
+    border-radius: 5px;
+    flex: 0 1 87%;
+    top: 3%;
+}
+[class*="sidebarRegionScroller_"] /* User Settings Sidebar */{
+    background: var(--popup-color); 
+    border: 2px solid var(--popup-border-color);
+    border-radius: 5px;
+    height: 95%;
+    top: 2%;
+    margin-left: 20px;
+}
+[class*="sidebarRegionScroller_"]::-webkit-scrollbar{
+    /* Disables scrollbar in User Settings Sidebar*/
+    display: none;
+}
+[aria-label="user area" i]{
+    background: var(--popup-color);
+    border: 2px solid var(--popup-border-color);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: -92px;
+    width: calc(var(--channels-width) + 92px);
+}
+[aria-label="user area" i] [class*="container_"]{
+    justify-content: space-between;
+}
+[class*="userProfileOuterUnthemed_"]{
+    border: 4px solid var(--popup-color);
+    box-shadow: 0 0 0 2px var(--popup-border-color);
+}
+:root .title_b7d661 {
+    background: var(--popup-color);
+    border: 2px solid var(--popup-border-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    width: calc(100% - 1px);
+}
+[class*="channelTextArea_"]{
+    background: var(--popup-color);
+    border: 2px solid var(--popup-border-color);
+    border-radius: 5px;
+}
+[class*="channelTextArea_"]:focus-within{
+    box-shadow: none;
+}
+[class*="channelTextArea_"]:focus-within .placeholder_e68c63{
+    text-shadow: 0 0 5px;
+}
+[class*="membersWrap_"]{
+    background: var(--popup-color);
+    border: 2px solid var(--popup-border-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    max-height: calc(100% - 46px); /* lines up with text area*/
+}
