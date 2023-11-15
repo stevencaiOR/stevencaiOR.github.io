@@ -99,12 +99,6 @@
     --streaming-color: hsl(264.13 100% 63.922%);
     --offline-color: hsl(0 0% 53%);
 
-    /* Fonts */
-    --font-global: Jura, Noto Sans, gg sans, Trebuchet MS, sans-serif;
-    --font-primary: var(--font-global);
-    --font-headline: var(--font-global);
-    --font-display: var(--font-global);
-
     /* Background */
     --background-image: url(https://i.imgur.com/RKkWBu0.png);
     --background-position: center;
