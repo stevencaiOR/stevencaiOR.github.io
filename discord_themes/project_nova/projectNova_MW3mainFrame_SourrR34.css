@@ -25,6 +25,10 @@
 .content__1a4fe /* spacing between member list and main content */ {
     column-gap: 20px;
 }
+.wrapper_a7e7a8 /* spacing to left of server bar */,
+[class*="sidebarRegionScroller_"] /* spacing to left of settings sidebar */{
+    margin-left: 20px;
+}
 .base__3e6af{
     /*increases visibility of user area. gonna cause a host of issues tho*/
     overflow: visible;
@@ -33,29 +37,24 @@
     /*72px server bar, 60px for total columns + margin, 2px for border-width of server wrapper*/
     max-width: calc(100vw - 132px - var(--channels-width));
 }
-.wrapper_a7e7a8 /* Server Bar Wrapper */{
-    background: var(--popup-color);
-    border: 2px solid var(--popup-border-color);
-    border-radius: 5px;
-    height: 87%;
-    margin-left: 20px;
-    top: 3%;
-}
 :root .container__590e2 /* Channel Container */,
-.privateChannels__93473 /* Private Channels */{
-    background: var(--popup-color); 
-    border: 2px solid var(--popup-border-color);
-    border-radius: 5px;
-    flex: 0 1 87%;
-    top: 3%;
-}
+.privateChannels__93473 /* Private Channels */,
+.wrapper_a7e7a8 /* Server Bar Wrapper */,
 [class*="sidebarRegionScroller_"] /* User Settings Sidebar */{
     background: var(--popup-color); 
     border: 2px solid var(--popup-border-color);
     border-radius: 5px;
+    top: 20px;
+}
+:root .container__590e2,
+.privateChannels__93473{
+    flex: 0 1 calc(100vh - 112px);
+}
+.wrapper_a7e7a8{
+    height: calc(100vh - 112px);
+}
+[class*="sidebarRegionScroller_"]{
     height: 95%;
-    top: 2%;
-    margin-left: 20px;
 }
 [class*="sidebarRegionScroller_"]::-webkit-scrollbar{
     /* Disables scrollbar in User Settings Sidebar*/
