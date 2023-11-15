@@ -94,10 +94,22 @@
 [class*="channelTextArea_"]:focus-within .placeholder_e68c63{
     text-shadow: 0 0 5px;
 }
-[class*="membersWrap_"]{
+[class*="membersWrap_"],
+.profilePanel__12596{
     background: var(--popup-color);
-    border: 2px solid var(--popup-border-color);
-    border-radius: 5px;
     margin-top: 20px;
     max-height: calc(100% - 46px); /* lines up with text area*/
+}
+[class*="membersWrap_"]{
+    border: 2px solid var(--popup-border-color);
+}
+[class*="membersWrap_"],
+[class*="userProfileOuterUnthemed_"] /*user popout + panel*/{
+    border-radius: 5px;
+}
+.profilePanel__12596{
+    right: 4px;
+}
+.profilePanel__12596 [class*="userProfileOuterUnthemed_"]{
+    box-sizing: border-box;
 }
