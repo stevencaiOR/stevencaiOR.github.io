@@ -33,6 +33,7 @@
 .base__3e6af{
     /*increases visibility of user area. gonna cause a host of issues tho*/
     overflow: visible;
+    max-width: calc(100% - 116px); /*72px server bar, 40px for total columns + margin, 4px for total border width of server wrapper*/
 }
 .chat__52833{
     /*72px server bar, 60px for total columns + margin, 2px for border-width of server wrapper*/
