@@ -49,9 +49,16 @@
 }
 :root .container__590e2,
 .privateChannels__93473{
-    flex: 0 1 calc(100vh - 112px);
+    flex: 0 1 calc(100vh - 134px);
+}
+:root.platform-web .container__590e2,
+.platform-web .privateChannels__93473{
+    flex-basis: calc(100vh - 112px);
 }
 .wrapper_a7e7a8{
+    height: calc(100vh - 134px);
+}
+.platform-web .wrapper_a7e7a8{
     height: calc(100vh - 112px);
 }
 [class*="sidebarRegionScroller_"]{
