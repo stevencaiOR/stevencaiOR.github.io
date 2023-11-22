@@ -1,8 +1,8 @@
 /* This sets your theme to Discord default dark regardless of what you have chosen.
    This is primarily for color standardization for Project Nova. */
-:root.theme-amoled,
-:root.theme-darker,
-:root.theme-light
+.theme-amoled,
+.theme-darker,
+.theme-light
 {
     /* App */
     --legacy-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl) / 0.3);
