@@ -162,10 +162,6 @@ img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::after{
     font-size: .6rem;
     padding: 1px 5px;
 }
-[class*="banner"][style*="rgb(69, 69, 69);"]{
-    background-image: url(https://i.imgur.com/jGwsi13.png) !important;
-    background-position: 55% 15%;
-}
 /*----------*/
 #app-mount{
     background: var(--background-image) var(--background-position) /
