@@ -73,5 +73,5 @@ div:has(~[aria-label="Servers"]) .wrapper_d281dd:hover:after,
 .blobContainer__5ee50:hover:after,
 .listItem_fa7b36>[data-dnd-name]:hover:after,
 .circleIconButton_d8df29:hover:after{
-    color: var(--accent);
+    color: var(--accent,#5562ea);
 }
