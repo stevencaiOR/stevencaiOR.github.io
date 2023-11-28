@@ -1869,3 +1869,14 @@ button.button__4f306.enabled__470f0:hover{
 .vc-toolbox-btn path{
     display: none;
 }
+/* VENCORD SHOW HIDDEN CHANNELS */
+.shc-lock-screen-container:before{
+    content: "";
+    background: var(--accent);
+    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/lock.svg) center / 135px no-repeat;
+    width: 180px;
+    height: 180px;
+}
+.shc-lock-screen-logo{
+    display: none;
+}
