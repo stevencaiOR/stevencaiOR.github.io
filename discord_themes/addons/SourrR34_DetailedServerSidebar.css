@@ -1,0 +1,77 @@
+:root{
+    --server-sidebar-width: 232px;
+}
+.guilds__2b93a{
+    /* server sidebar width */
+    width: var(--server-sidebar-width);
+}
+.listItem_fa7b36{
+    width: max-content;
+}
+div:has(~[aria-label="Servers"]) .svg_ad7356,
+div:has(~[aria-label="Servers"]) foreignObject:has(> .wrapper_d281dd),
+div:has(~[aria-label="Servers"]) .wrapper_d281dd,
+.expandedFolderBackground__1bec6,
+[aria-label="Servers"]~div .svg_ad7356,
+[aria-label="Servers"]~div foreignObject,
+.circleIconButton_d8df29{
+    width: calc(var(--server-sidebar-width) - 24px);
+}
+.circleIcon__428dd{
+    /* makes discover section icons size consistent */
+    padding: 12px;
+}
+/* Separator Lines */
+.listItem_fa7b36:has(.guildSeparator_dcb3cc){
+    width: 100%;
+}
+.guildSeparator_dcb3cc{
+    width: 80%;
+}
+/* Alignment */
+.wrapper__3af0b{
+    margin-left: 12px; 
+}
+div:has(~[aria-label="Servers"]) foreignObject,
+[aria-label="Servers"]~div foreignObject{
+    transform: translateX(calc(50% - (var(--server-sidebar-width) - 24px) / 2));
+}
+div:has(~[aria-label="Servers"]) .wrapper_d281dd,
+.circleIconButton_d8df29{
+    justify-content: start;
+}
+/* Labels */
+.blobContainer__5ee50,
+.listItem_fa7b36>[data-dnd-name]{
+    /* Aligns labels properly */
+    display: flex;
+    align-items: center;
+}
+div:has(~[aria-label="Servers"]) .wrapper_d281dd:after,
+.circleIconButton_d8df29:after{
+    content: attr(aria-label);
+}
+.blobContainer__5ee50:after,
+.listItem_fa7b36>[data-dnd-name]:after{
+    content: attr(data-dnd-name);
+}
+div:has(~[aria-label="Servers"]) .wrapper_d281dd:after,
+.blobContainer__5ee50:after,
+.listItem_fa7b36>[data-dnd-name]:after,
+.circleIconButton_d8df29:after{
+    color: var(--text-normal);
+    
+    position: relative;
+    left: 12px;
+    
+    max-width: calc(var(--server-sidebar-width) - 84px); /*icon size - 48px, margins both sides - 24px - margin left of text - 12px*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+div:has(~[aria-label="Servers"]) .wrapper_d281dd:hover:after,
+.blobContainer__5ee50:hover:after,
+.listItem_fa7b36>[data-dnd-name]:hover:after,
+.circleIconButton_d8df29:hover:after{
+    color: var(--accent);
+}
