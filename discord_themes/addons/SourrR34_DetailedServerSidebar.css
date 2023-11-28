@@ -1,6 +1,8 @@
 :root{
     --server-sidebar-width: 232px;
 }
+/* ^^^ Copy this and customize these values to your liking*/
+
 .guilds__2b93a{
     /* server sidebar width */
     width: var(--server-sidebar-width);
