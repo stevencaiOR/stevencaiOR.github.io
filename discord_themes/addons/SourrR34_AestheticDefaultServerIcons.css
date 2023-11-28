@@ -1,0 +1,31 @@
+/*
+:root{
+    --accent: your color here;
+}
+
+^^^ Put this in your theme file
+*/
+
+.acronym_cd4809{
+    display: none
+}
+.wrapper_d281dd:has(.acronym_cd4809),
+.acronym__439d3{
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/hdd-rack.svg);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    background: var(--text-normal);
+}
+.wrapper_d281dd:has(.acronym_cd4809){
+    -webkit-mask-size: 36px;
+}
+.acronym__439d3{
+    -webkit-mask-size: 12px;
+}
+foreignObject:has(.wrapper_d281dd:hover .acronym_cd4809){
+    color: var(--accent);
+    filter: drop-shadow(0 0 5px);
+}
+.wrapper_d281dd:has(.acronym_cd4809):hover{
+    background: currentColor;
+}
