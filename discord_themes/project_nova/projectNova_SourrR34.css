@@ -153,14 +153,14 @@
     --watermark: "Nova Squadron";
 }
 /*-----AUTHOR TRIBUTE-----*/
-img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::after{
+img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::before{
     content: "Nanosuit 2.0";
-    text-shadow: 0 0 2px;
-    border: 1px solid;
+    text-shadow: 0 0 3px;
+    border: 2px solid;
     border-radius: 8px;
-    margin-left: 8px;
-    font-size: .6rem;
-    padding: 1px 5px;
+    margin-right: 8px;
+    font-size: .8rem;
+    padding: 1px 5px;     
 }
 /*----------*/
 #app-mount{
