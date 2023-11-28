@@ -1390,10 +1390,16 @@ img[alt*="wumpus" i],
     /* Customize your server modal */
     fill: var(--accent);
 }
-.icon__131d1{ /*owner icon bandaid fix*/
+.container_d6dad3 .focused_f9cf2c{
+    /* search dropdown query container */
+    background: none;
+}
+.icon__131d1{
+    /*owner icon bandaid fix*/
     top: 0;
 }
-.popout_a6e77f{ /*"best seen in voice and video" -leafy*/
+.popout_a6e77f{
+    /*"best seen in voice and video" -leafy*/
     background: var(--modal-footer-background);
 }
 [class*="gradientBackground_"]{
