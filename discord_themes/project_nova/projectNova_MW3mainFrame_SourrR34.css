@@ -17,7 +17,11 @@
     --popup-border-color: #5c6166; /*#545b5e*/
 
     --background-floating: var(--popup-color);/*affects the search results dropdown*/
+    --background-modifier-accent: var(--popup-border-color);
     --background-secondary-alt: var(--popup-color);
+    --deprecated-text-input-bg: var(--popup-color);
+    --input-background: var(--popup-color);
+
     --popout-color-top: var(--popup-color);
     --popout-color-bottom: var(--popup-color);
 }
