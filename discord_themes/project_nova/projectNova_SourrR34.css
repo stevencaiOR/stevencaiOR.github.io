@@ -1873,7 +1873,7 @@ button.button__4f306.enabled__470f0:hover{
 .shc-lock-screen-container:before{
     content: "";
     background: var(--accent);
-    -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/lock.svg) center / 135px no-repeat;
+    -webkit-mask: url(https://api.iconify.design/mingcute/lock-fill.svg) center / 135px no-repeat;
     width: 180px;
     height: 180px;
 }
