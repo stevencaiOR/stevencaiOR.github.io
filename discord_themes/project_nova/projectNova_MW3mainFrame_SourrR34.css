@@ -80,7 +80,7 @@
     border-radius: 5px;
     position: absolute;
     bottom: 20px;
-    left: -92px;
+    left: calc(-1 * var(--server-sidebar-width, 72px) - 20px);
     width: calc(var(--channels-width) + var(--server-sidebar-width) + 20px);
 }
 [aria-label="user area" i] [class*="container_"]{
