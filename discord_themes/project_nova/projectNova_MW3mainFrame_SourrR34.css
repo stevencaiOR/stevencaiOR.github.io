@@ -80,7 +80,7 @@
     position: absolute;
     bottom: 20px;
     left: -92px;
-    width: calc(var(--channels-width) + 92px);
+    width: calc(var(--channels-width) + var(--server-sidebar-width, 72px) + 20px);
 }
 [aria-label="user area" i] [class*="container_"]{
     justify-content: space-between;
