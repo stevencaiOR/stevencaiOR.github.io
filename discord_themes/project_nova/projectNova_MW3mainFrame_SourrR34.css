@@ -24,6 +24,7 @@
 
     --popout-color-top: var(--popup-color);
     --popout-color-bottom: var(--popup-color);
+    --server-sidebar-width: 72px;
 }
 .container__037ed, /* spacing between server bar and channel list */
 .content__4bf10, /* spacing between channel list and main content */
@@ -37,11 +38,11 @@
 .base__3e6af{
     /*increases visibility of user area. gonna cause a host of issues tho*/
     overflow: visible;
-    max-width: calc(100% - var(--server-sidebar-width, 72px) - 44px); /*72px server bar, 40px for total columns + margin, 4px for total border width of server wrapper*/
+    max-width: calc(100% - var(--server-sidebar-width) - 44px); /*72px server bar, 40px for total columns + margin, 4px for total border width of server wrapper*/
 }
 .chat__52833{
     /*72px server bar, 60px for total columns + margin*/
-    max-width: calc(100vw - var(--server-sidebar-width, 72px) - var(--channels-width) - 60px);
+    max-width: calc(100vw - var(--server-sidebar-width) - var(--channels-width) - 60px);
 }
 :root .container__590e2 /* Channel Container */,
 .privateChannels__93473 /* Private Channels */,
@@ -80,7 +81,7 @@
     position: absolute;
     bottom: 20px;
     left: -92px;
-    width: calc(var(--channels-width) + var(--server-sidebar-width, 72px) + 20px);
+    width: calc(var(--channels-width) + var(--server-sidebar-width) + 20px);
 }
 [aria-label="user area" i] [class*="container_"]{
     justify-content: space-between;
