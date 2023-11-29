@@ -1858,6 +1858,9 @@ button.button__4f306.enabled__470f0:hover{
 }
 /*-----PLUGIN SUPPORT-----*/
 /* VENCORD MEMBER COUNT */
+#vc-membercount{
+    font-weight: 500;
+}
 #vc-membercount [style*="background-color: var(--green-360"]{
     background: var(--online-color) !important;
 }
