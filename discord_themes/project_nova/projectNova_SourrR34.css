@@ -1895,3 +1895,8 @@ button.button__4f306.enabled__470f0:hover{
 .shc-lock-screen-logo{
     display: none;
 }
+/* VENCORD SHOW ME YOUR NAME */
+.vc-smyn-suffix{
+    color: var(--header-primary);
+    font-size: .8rem;
+}
