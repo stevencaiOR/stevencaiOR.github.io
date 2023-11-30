@@ -32,14 +32,14 @@
 [class*="anchorUnderlineOnHover_"][title="youtube" i]{
     color: var(--youtube-color);    
 }
-[class*="anchorUnderlineOnHover_"][aria-label="twitter" i]:hover path,
-[class*="anchorUnderlineOnHover_"][title="twitter" i]:hover path,
+[class*="anchorUnderlineOnHover_"][aria-label="twitter" i]:hover,
+[class*="anchorUnderlineOnHover_"][title="twitter" i]:hover,
 [class*="anchorUnderlineOnHover_"][aria-label="instagram" i]:hover,
 [class*="anchorUnderlineOnHover_"][title="instagram" i]:hover,
-[class*="anchorUnderlineOnHover_"][aria-label="facebook" i]:hover path,
-[class*="anchorUnderlineOnHover_"][title="facebook" i]:hover path,
-[class*="anchorUnderlineOnHover_"][aria-label="youtube" i]:hover path,
-[class*="anchorUnderlineOnHover_"][title="youtube" i]:hover path{
+[class*="anchorUnderlineOnHover_"][aria-label="facebook" i]:hover,
+[class*="anchorUnderlineOnHover_"][title="facebook" i]:hover,
+[class*="anchorUnderlineOnHover_"][aria-label="youtube" i]:hover,
+[class*="anchorUnderlineOnHover_"][title="youtube" i]:hover{
     filter: brightness(1.2); /* doesn't work well with youtube? */
 }
 [class*="anchorUnderlineOnHover_"][aria-label="tiktok" i] svg,
