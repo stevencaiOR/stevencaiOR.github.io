@@ -8,6 +8,11 @@
 [class*="socialLinks_"]{
     display: flex;
     flex-direction: column;
+    gap: 5px;
+}
+[class*="socialLinks_"] svg{
+    height: 20px;
+    width: 20px;
 }
 [class*="anchorUnderlineOnHover_"][aria-label="twitter" i],
 [class*="anchorUnderlineOnHover_"][title="twitter" i]{
@@ -71,9 +76,10 @@
     filter: brightness(1.2);
 }
 [class*="socialLinks_"] [class*="anchorUnderlineOnHover_"]:after{
-    margin-left: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 1ch;
     vertical-align: top;
-    line-height: 18px;
 }
 [class*="socialLinks_"] [class*="anchorUnderlineOnHover_"]:after{
     color: var(--text-muted);
