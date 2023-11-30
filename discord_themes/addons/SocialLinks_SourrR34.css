@@ -1,7 +1,9 @@
 :root{
     --twitter-color: #1da1f2;   /* Src: https://help.twitter.com/content/dam/help-twitter/brand/logo.png */
+    --instagram-color: #ff0069; /* Src: https://about.instagram.com/brand/gradient */
     --facebook-color: #0866ff;  /* Src: https://about.meta.com/brand/resources/facebook/logo */
     --youtube-color: #f00;
+    --tiktok-color: #00f8f0;    /* Src: https://developers.tiktok.com/ -> https://sf16-muse-va.ibytedtos.com/obj/tiktok-open-platform/ttop_doc_images/3c4e94e4b12fcbe3b123c67e0c96dbdf.png */
 }
 [class*="socialLinks_"]{
     display: flex;
@@ -11,30 +13,46 @@
 [class*="anchorUnderlineOnHover_"][title="twitter" i]{
     color: var(--twitter-color);
 }
+[class*="anchorUnderlineOnHover_"][aria-label="instagram" i],
+[class*="anchorUnderlineOnHover_"][title="instagram" i]{
+    color: var(--instagram-color);
+}
 [class*="anchorUnderlineOnHover_"][aria-label="instagram" i] svg,
 [class*="anchorUnderlineOnHover_"][title="instagram" i] svg {
     background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/tBxa1IFcTQH.png) no-repeat center / 15px;
 }
+[class*="anchorUnderlineOnHover_"][aria-label="facebook" i],
+[class*="anchorUnderlineOnHover_"][title="facebook" i]{
+    color: var(--facebook-color);
+}
 [class*="anchorUnderlineOnHover_"][aria-label="facebook" i] svg,
 [class*="anchorUnderlineOnHover_"][title="facebook" i] svg{
     -webkit-mask: url(https://api.iconify.design/simple-icons/facebook.svg) no-repeat center / contain;
-    background: var(--facebook-color);
+    background: currentColor;
 }
 [class*="anchorUnderlineOnHover_"][aria-label="youtube" i],
 [class*="anchorUnderlineOnHover_"][title="youtube" i]{
     color: var(--youtube-color);    
 }
+[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i],
+[class*="anchorUnderlineOnHover_"][title="tiktok" i]{
+    color: var(--tiktok-color);
+}
 [class*="anchorUnderlineOnHover_"][aria-label="tiktok" i] svg,
 [class*="anchorUnderlineOnHover_"][title="tiktok" i] svg{
     background: url(https://lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/mtact/static/images/logo_144c91a.png) no-repeat center / 15px;
 }
-[class*="anchorUnderlineOnHover_"][aria-label="instagram" i],
-[class*="anchorUnderlineOnHover_"][title="instagram" i],
-[class*="anchorUnderlineOnHover_"][aria-label="facebook" i],
-[class*="anchorUnderlineOnHover_"][title="facebook" i],
-[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i],
-[class*="anchorUnderlineOnHover_"][title="tiktok" i]{
-    color: #0000;
+[class*="anchorUnderlineOnHover_"][aria-label="twitter" i] path,
+[class*="anchorUnderlineOnHover_"][title="twitter" i] path,
+[class*="anchorUnderlineOnHover_"][aria-label="instagram" i] path,
+[class*="anchorUnderlineOnHover_"][title="instagram" i] path,
+[class*="anchorUnderlineOnHover_"][aria-label="facebook" i] path,
+[class*="anchorUnderlineOnHover_"][title="facebook" i] path,
+[class*="anchorUnderlineOnHover_"][aria-label="youtube" i] path,
+[class*="anchorUnderlineOnHover_"][title="youtube" i] path,
+[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i] path,
+[class*="anchorUnderlineOnHover_"][title="tiktok" i] path{
+    fill: none;
 }
 [class*="anchorUnderlineOnHover_"][aria-label="twitter" i]:hover,
 [class*="anchorUnderlineOnHover_"][title="twitter" i]:hover,
@@ -54,23 +72,29 @@
     line-height: 18px;
 }
 [class*="socialLinks_"] [class*="anchorUnderlineOnHover_"]:after{
-    color: var(--text-link);
+    color: var(--text-muted);
+}
+[class*="socialLinks_"] [class*="anchorUnderlineOnHover_"]:hover:after{
+    color: inherit;
+}
+[class*="socialLinks_"] [class*="anchorUnderlineOnHover_"]:hover{
+    text-decoration: none;
 }
 [class*="socialLinks_"] [class*="anchorUnderlineOnHover_"][title="twitter" i]:after{
-    content: "[ Twitter ]";
+    content: "- Twitter";
 }
 [class*="socialLinks_"] [class*="anchorUnderlineOnHover_"][title="instagram" i]:after{
-    content: "[ Instagram ]";
+    content: "- Instagram";
 }
 [class*="socialLinks_"] [class*="anchorUnderlineOnHover_"][title="facebook" i]:after{
-    content: "[ Facebook ]";
+    content: "- Facebook";
 }
 [class*="socialLinks_"] [class*="anchorUnderlineOnHover_"][title="youtube" i]:after{
-    content: "[ YouTube ]";
+    content: "- YouTube";
 }
 [class*="socialLinks_"] [class*="anchorUnderlineOnHover_"][title="tiktok" i]:after{
-    content: "[ TikTok ]";
+    content: "- TikTok";
 }
 [class*="socialLinks_"] [class*="anchorUnderlineOnHover_"][title="BetterDiscord"]:after{
-    content: "[ BetterDiscord ]";
+    content: "- BetterDiscord";
 }
