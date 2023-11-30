@@ -18,8 +18,8 @@
     color: var(--instagram-color);
 }
 [class*="anchorUnderlineOnHover_"][aria-label="instagram" i] svg,
-[class*="anchorUnderlineOnHover_"][title="instagram" i] svg {
-    background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/tBxa1IFcTQH.png) no-repeat center / 15px;
+[class*="anchorUnderlineOnHover_"][title="instagram" i] svg{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/tBxa1IFcTQH.png);
 }
 [class*="anchorUnderlineOnHover_"][aria-label="facebook" i],
 [class*="anchorUnderlineOnHover_"][title="facebook" i]{
@@ -40,7 +40,15 @@
 }
 [class*="anchorUnderlineOnHover_"][aria-label="tiktok" i] svg,
 [class*="anchorUnderlineOnHover_"][title="tiktok" i] svg{
-    background: url(https://lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/mtact/static/images/logo_144c91a.png) no-repeat center / 15px;
+    background-image: url(https://lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/mtact/static/images/logo_144c91a.png);
+}
+[class*="anchorUnderlineOnHover_"][aria-label="instagram" i] svg,
+[class*="anchorUnderlineOnHover_"][title="instagram" i] svg,
+[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i] svg,
+[class*="anchorUnderlineOnHover_"][title="tiktok" i] svg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 [class*="anchorUnderlineOnHover_"][aria-label="instagram" i] path,
 [class*="anchorUnderlineOnHover_"][title="instagram" i] path,
