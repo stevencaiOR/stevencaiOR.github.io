@@ -1,54 +1,55 @@
 :root{
-    --twitter-color: #1d9bf0;
-    --facebook-color: #4267b2;
+    --twitter-color: #1da1f2;   /* Src: https://help.twitter.com/content/dam/help-twitter/brand/logo.png */
+    --facebook-color: #0866ff;  /* Src: https://about.meta.com/brand/resources/facebook/logo */
     --youtube-color: #f00;
 }
 .socialLinks-3ywLUf{
     display: flex;
     flex-direction: column;
 }
-[class*="anchorUnderlineOnHover_"][aria-label="Twitter"] path,
-[class*="anchorUnderlineOnHover_"][title="Twitter"] path{
-    fill: var(--twitter-color);
+[class*="anchorUnderlineOnHover_"][aria-label="twitter" i],
+[class*="anchorUnderlineOnHover_"][title="twitter" i]{
+    color: var(--twitter-color);
 }
-[class*="anchorUnderlineOnHover_"][aria-label="Facebook"] path,
-[class*="anchorUnderlineOnHover_"][title="Facebook"] path{
-    fill:var(--facebook-color);    
+[class*="anchorUnderlineOnHover_"][aria-label="instagram" i],
+[class*="anchorUnderlineOnHover_"][title="instagram" i]{
+    color: #0000;
 }
-[class*="anchorUnderlineOnHover_"][aria-label="youtube" i] path,
-[class*="anchorUnderlineOnHover_"][title="youtube" i] path{
-    fill: var(--youtube-color);    
+[class*="anchorUnderlineOnHover_"][aria-label="instagram" i] svg,
+[class*="anchorUnderlineOnHover_"][title="instagram" i] svg {
+    background: url('https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/tBxa1IFcTQH.png') no-repeat center / 15px;
 }
-[class*="anchorUnderlineOnHover_"][aria-label="Twitter"]:hover path,
-[class*="anchorUnderlineOnHover_"][title="Twitter"]:hover path,
-[class*="anchorUnderlineOnHover_"][aria-label="Facebook"]:hover path,
-[class*="anchorUnderlineOnHover_"][title="Facebook"]:hover path,
+[class*="anchorUnderlineOnHover_"][aria-label="facebook" i],
+[class*="anchorUnderlineOnHover_"][title="facebook" i]{
+    color: var(--facebook-color);    
+}
+[class*="anchorUnderlineOnHover_"][aria-label="youtube" i],
+[class*="anchorUnderlineOnHover_"][title="youtube" i]{
+    color: var(--youtube-color);    
+}
+[class*="anchorUnderlineOnHover_"][aria-label="twitter" i]:hover path,
+[class*="anchorUnderlineOnHover_"][title="twitter" i]:hover path,
+[class*="anchorUnderlineOnHover_"][aria-label="instagram" i]:hover,
+[class*="anchorUnderlineOnHover_"][title="instagram" i]:hover,
+[class*="anchorUnderlineOnHover_"][aria-label="facebook" i]:hover path,
+[class*="anchorUnderlineOnHover_"][title="facebook" i]:hover path,
 [class*="anchorUnderlineOnHover_"][aria-label="youtube" i]:hover path,
 [class*="anchorUnderlineOnHover_"][title="youtube" i]:hover path{
-    filter: brightness(0.8);
-}
-[class*="anchorUnderlineOnHover_"][aria-label="Instagram"] svg,
-[class*="anchorUnderlineOnHover_"][title="Instagram"] svg {
-    background: linear-gradient(45deg, #ffd600 10%, #ff7a00 20%, #ff0069 60%, #d300c5 90%);
-    border-radius: 4px;
+    filter: brightness(1.2); /* doesn't work well with youtube? */
 }
 [class*="anchorUnderlineOnHover_"][aria-label="tiktok" i] svg,
 [class*="anchorUnderlineOnHover_"][title="tiktok" i] svg{
     background: linear-gradient(135deg,#27f4ee,#fe2c55);
     border-radius: 3px;
 }
-[class*="anchorUnderlineOnHover_"][aria-label="Instagram"] path,
-[class*="anchorUnderlineOnHover_"][title="Instagram"] path{
-    color: rgb(255,255,255,0.5);
-}
-[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i] path,
-[class*="anchorUnderlineOnHover_"][title="tiktok" i] path{
+[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i],
+[class*="anchorUnderlineOnHover_"][title="tiktok" i]{
     color: rgb(255,255,255,0.7);
 }
-[class*="anchorUnderlineOnHover_"][aria-label="Instagram"]:hover path,
-[class*="anchorUnderlineOnHover_"][title="Instagram"]:hover path,
-[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i]:hover path,
-[class*="anchorUnderlineOnHover_"][title="tiktok" i]:hover path{
+[class*="anchorUnderlineOnHover_"][aria-label="Instagram"]:hover,
+[class*="anchorUnderlineOnHover_"][title="Instagram"]:hover,
+[class*="anchorUnderlineOnHover_"][aria-label="tiktok" i]:hover,
+[class*="anchorUnderlineOnHover_"][title="tiktok" i]:hover{
     color: rgb(255,255,255,0.3);
 }
 .socialLinks-3ywLUf [class*="anchorUnderlineOnHover_"]:after{
