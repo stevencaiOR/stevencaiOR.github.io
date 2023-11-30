@@ -42,14 +42,10 @@
 [class*="anchorUnderlineOnHover_"][title="tiktok" i] svg{
     background: url(https://lf16-tiktok-common.ttwstatic.com/obj/tiktok-web-common-sg/mtact/static/images/logo_144c91a.png) no-repeat center / 15px;
 }
-[class*="anchorUnderlineOnHover_"][aria-label="twitter" i] path,
-[class*="anchorUnderlineOnHover_"][title="twitter" i] path,
 [class*="anchorUnderlineOnHover_"][aria-label="instagram" i] path,
 [class*="anchorUnderlineOnHover_"][title="instagram" i] path,
 [class*="anchorUnderlineOnHover_"][aria-label="facebook" i] path,
 [class*="anchorUnderlineOnHover_"][title="facebook" i] path,
-[class*="anchorUnderlineOnHover_"][aria-label="youtube" i] path,
-[class*="anchorUnderlineOnHover_"][title="youtube" i] path,
 [class*="anchorUnderlineOnHover_"][aria-label="tiktok" i] path,
 [class*="anchorUnderlineOnHover_"][title="tiktok" i] path{
     fill: none;
