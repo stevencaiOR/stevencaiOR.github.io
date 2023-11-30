@@ -1381,6 +1381,7 @@ img[alt*="graggle" i],
 img[alt*="sparkle"],
 img[alt*="wumpus" i],
 /* specific assets below */
+[src*="/assets/47f29fcff307e852553b.svg"],
 [style*="/assets/4a0bbd7108c55228c0a7.svg"],
 [style*="/assets/db947193d549bd45c3a3.svg"]{
     display: none !important;
