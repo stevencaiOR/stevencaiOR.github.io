@@ -41,6 +41,9 @@
   fill: var(--dnd-color) !important;
 }
 /* Fixes issue where mobile icon shows up as wrong color */
+[fill="#23a55a"]{
+  fill: var(--online-color);
+}
 [fill="#f0b232"]{
   fill: var(--idle-color);
 }
