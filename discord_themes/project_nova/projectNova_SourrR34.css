@@ -1859,8 +1859,17 @@ button.button__4f306.enabled__470f0:hover{
 }
 /*-----VENCORD-----*/
 .vc-plugins-grid {
-    grid-template-columns: repeat(3, 1fr);
-    /*ReadAllNotificationsButton is longest plugin name (?)*/
+    grid-template-columns: repeat(3, 1fr); /*ReadAllNotificationsButton is longest plugin name (?)*/
+}
+@media only screen and (max-width: 1400px){
+    .vc-plugins-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 1050px){
+    .vc-plugins-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 /* PLUGINS */
 /* Member Count */
