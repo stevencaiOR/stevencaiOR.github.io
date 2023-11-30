@@ -40,3 +40,10 @@
 .platform-indicators [aria-label*="Dnd" i] svg{
   fill: var(--dnd-color) !important;
 }
+/* Fixes issue where mobile icon shows up as wrong color */
+[fill="#f0b232"]{
+  fill: var(--idle-color);
+}
+[fill="#f23f43"]{
+  fill: var(--dnd-color);
+}
