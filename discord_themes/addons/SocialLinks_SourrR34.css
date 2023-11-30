@@ -21,7 +21,12 @@
 }
 [class*="anchorUnderlineOnHover_"][aria-label="facebook" i],
 [class*="anchorUnderlineOnHover_"][title="facebook" i]{
-    color: var(--facebook-color);    
+    color: #0000;    
+}
+[class*="anchorUnderlineOnHover_"][aria-label="facebook" i] svg,
+[class*="anchorUnderlineOnHover_"][title="facebook" i] svg{
+    -webkit-mask: url('https://api.iconify.design/simple-icons/facebook.svg') no-repeat center / contain;
+    background: var(--facebook-color);
 }
 [class*="anchorUnderlineOnHover_"][aria-label="youtube" i],
 [class*="anchorUnderlineOnHover_"][title="youtube" i]{
