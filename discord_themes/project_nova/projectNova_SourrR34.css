@@ -1200,7 +1200,7 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     background: #101010;
 }
 /*-----STATUS COLORS-----*/
-rect[mask="url(#svg-mask-status-online-mobile)"],
+[aria-label*="online" i] > svg > rect[mask="url(#svg-mask-status-online-mobile)"], /*there are issues w/ phone icon w/ platform indicators on w/o this lengthy selector*/
 rect[mask="url(#svg-mask-status-online)"]{
     fill: var(--online-color);
 }
