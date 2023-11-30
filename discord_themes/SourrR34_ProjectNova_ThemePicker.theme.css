@@ -1,0 +1,41 @@
+/**
+ * @name Project Nova Theme Picker
+ * @author SourrR34
+ * @description Pick a Project Nova theme and your choice of add-ons
+ * @version 0.0.1
+ */
+
+/*------PROJECT NOVA PRESETS-----*/
+/* SC2/HotS Nova (base) */
+@import url(https://stevencaior.github.io/discord_themes/project_nova/projectNova_SourrR34.css);/**/
+
+/* Call of Duty: Modern Warfare 2 (2009) *
+@import url(https://stevencaior.github.io/discord_themes/project_nova/projectNova_mw2_SourrR34.css);/**/
+
+/* Crysis 2 HUD *
+@import url(https://stevencaior.github.io/discord_themes/project_nova/crysis2Hud/projectNova_crysis2Hud_SourrR34.css);/**/
+
+/* Crysis 2 HUD (Pretty in Pink) *
+@import url(https://stevencaior.github.io/discord_themes/project_nova/crysis2Hud/projectNova_crysis2Hud_prettyInPink_SourrR34.css);/**/
+
+/* Ghost Recon Breakpoint Ambush *
+@import url(https://stevencaior.github.io/discord_themes/project_nova/projectNova_ghostReconAmbush_SourrR34.css);/**/
+
+/* Ghost vs Spectre *
+@import url(https://stevencaior.github.io/discord_themes/project_nova/projectNova_ghostVsSpectre_SourrR34.css);/**/
+
+/* Call of Duty: Modern Warfare 3 (2011) Main Frame *
+@import url(https://stevencaior.github.io/discord_themes/project_nova/projectNova_MW3mainFrame_SourrR34.css);/**/
+
+/*-----ADD ONS-----*/
+/* Detailed Server Sidebar *
+@import url(https://stevencaior.github.io/discord_themes/addons/SourrR34_DetailedServerSidebar.css);/**/
+
+/* Social Links */
+@import url(https://stevencaior.github.io/discord_themes/addons/SocialLinks_SourrR34.css);/**/
+
+/* Spoiled Image Improvements */
+@import url(https://stevencaior.github.io/discord_themes/addons/SpoiledImageImprovements_SourrR34.css);/**/
+
+/* Spoiled Text Blur */
+@import url(https://stevencaior.github.io/discord_themes/addons/SpoiledTextBlur_SourrR34.css);/**/
