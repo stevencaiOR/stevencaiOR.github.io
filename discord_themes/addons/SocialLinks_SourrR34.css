@@ -51,8 +51,6 @@
 [class*="anchorUnderlineOnHover_"][title="tiktok" i]{
     color: rgb(255,255,255,0.7);
 }
-[class*="anchorUnderlineOnHover_"][aria-label="Instagram"]:hover,
-[class*="anchorUnderlineOnHover_"][title="Instagram"]:hover,
 [class*="anchorUnderlineOnHover_"][aria-label="tiktok" i]:hover,
 [class*="anchorUnderlineOnHover_"][title="tiktok" i]:hover{
     color: rgb(255,255,255,0.3);
