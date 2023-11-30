@@ -1857,8 +1857,13 @@ button.button__4f306.enabled__470f0:hover{
 .container__7712a{
     background: var(--input-background);
 }
-/*-----PLUGIN SUPPORT-----*/
-/* VENCORD MEMBER COUNT */
+/*-----VENCORD-----*/
+.vc-plugins-grid {
+    grid-template-columns: repeat(3, 1fr);
+    /*ReadAllNotificationsButton is longest plugin name (?)*/
+}
+/* PLUGINS */
+/* Member Count */
 #vc-membercount{
     font-weight: 500;
 }
@@ -1874,7 +1879,7 @@ button.button__4f306.enabled__470f0:hover{
 #vc-membercount [style^="color: var(--primary-400"]{
     color: var(--offline-color) !important;
 }
-/* VENCORD TOOLBOX */
+/* Toolbox */
 .vc-toolbox-btn{
     -webkit-mask: url(https://raw.githubusercontent.com/twbs/icons/main/icons/tools.svg) center / 18px no-repeat;
     background: var(--accent);
@@ -1885,7 +1890,7 @@ button.button__4f306.enabled__470f0:hover{
 .vc-toolbox-btn path{
     display: none;
 }
-/* VENCORD SHOW HIDDEN CHANNELS */
+/* Show Hidden Channels */
 .shc-lock-screen-container:before{
     content: "";
     background: var(--accent);
@@ -1896,7 +1901,7 @@ button.button__4f306.enabled__470f0:hover{
 .shc-lock-screen-logo{
     display: none;
 }
-/* VENCORD SHOW ME YOUR NAME */
+/* Show Me Your Name */
 .vc-smyn-suffix{
     color: var(--header-primary);
     font-size: .8rem;
