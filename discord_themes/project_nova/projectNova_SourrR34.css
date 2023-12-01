@@ -1181,6 +1181,15 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
 #appearance-tab [class*="itemFilled_"]:last-child [class*="text-md-medium_"]:after{
     content: "Compact: avatars optional, usernames adjacent to messages.";
 }
+/* VOICE & VIDEO */
+[class*="cameraWrapper_"]{
+    background: var(--background-secondary-alt);
+}
+[class*="cameraWrapper_"] [class*="previewImage_"]{
+    -webkit-mask: url(https://api.iconify.design/bi/webcam.svg) no-repeat center / contain;
+    background: var(--accent);
+}
+
 /* LANGUAGE */
 @media only screen and (min-width: 920px) {
     #language-tab [role="radiogroup"]{
