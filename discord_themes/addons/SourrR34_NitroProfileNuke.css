@@ -1,0 +1,14 @@
+[class*="profileColors_"][class*="userProfileOuterThemed_"]{
+    --profile-gradient-primary-color: var(--popout-color-top, var(--background-secondary-alt)) !important;
+    --profile-gradient-secondary-color: var(--popout-color-bottom, var(--background-secondary-alt)) !important;
+    --profile-gradient-button-color: var(--button-secondary-background) !important;
+    --profile-gradient-overlay-color: #0000 !important;
+    --profile-body-background-color: var(--background-floating) !important; /* Change this to rgb(255, 255, 255, .3) if you are using a Project Nova theme */
+    --profile-body-background-hover: var(--background-modifier-hover) !important;
+    --profile-body-divider-color: var(--background-modifier-accent) !important;
+    --profile-avatar-border-color: var(--background-secondary-alt) !important;
+    --profile-message-input-border-color: var(--background-modifier-accent) !important;
+    --profile-note-background-color: var(--background-tertiary) !important; /* Missed by .profileColors__2e2f0 */
+    --profile-role-pill-background-color: var(--background-secondary-alt) !important;
+    --profile-role-pill-border-color: var(--interactive-normal) !important;
+}
