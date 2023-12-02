@@ -1407,6 +1407,7 @@ img[alt*="wumpus" i],
 /* specific assets below */
 [src*="/assets/47f29fcff307e852553b.svg"],
 [style*="/assets/4a0bbd7108c55228c0a7.svg"],
+[style*="/assets/a72746e7108167af95c8.svg"],
 [style*="/assets/db947193d549bd45c3a3.svg"]{
     display: none !important;
 }
