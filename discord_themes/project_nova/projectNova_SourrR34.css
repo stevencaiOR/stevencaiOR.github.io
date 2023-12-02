@@ -416,16 +416,30 @@ img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::before{
 [class*="userProfileInnerThemedNonPremium_"]{
     background: var(--popout-background);
 }
-.profileColors__2e2f0{
+[class*="profileColors_"]{
     /* user popout preview */
     --profile-avatar-border-color: #000;
-    
+
     /* profile panel */
     --profile-gradient-primary-color: var(--popout-color-top);
 	--profile-gradient-secondary-color:var(--popout-color-bottom);
 
     /* profile body */
     --profile-body-background-color: rgb(255,255,255,.03); /* Nitro (light?): hsla(0,0%,100%,0.45);*/
+}
+.theme-light[class*="profileColors_"][class*="userProfileOuterThemed_"]{   
+    /* For themed nitro profiles, compares light theme version and dark theme version, assigns dark theme values */
+    --profile-gradient-overlay-color: rgb(0, 0, 0, .6) !important;
+    --profile-body-background-color: rgb(0, 0, 0, .45) !important;
+    --profile-body-background-hover: rgb(255, 255, 255, .16) !important;
+    --profile-body-divider-color: rgb(255, 255, 255, .24) !important;
+    
+	--profile-avatar-border-color: var(--background-secondary-alt) !important; /* I don't know what to set this too tbh*/
+    --profile-message-input-border-color: color-mix(in srgb, var(--background-modifier-accent) 45%, var(--profile-gradient-secondary-color)) !important; /*I did my best here*/
+    
+	--profile-note-background-color: rgb(0,0,0,.3) !important;
+	--profile-role-pill-background-color: hsla(228, 6.7%, 14.7%, .5) !important;
+	--profile-role-pill-border-color: rgb(255, 255, 255, .2) !important;
 }
 .profilePanel__12596{
     width: var(--profile-panel-width);
