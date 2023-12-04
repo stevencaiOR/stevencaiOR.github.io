@@ -18,7 +18,7 @@
 
     --background-floating: var(--popup-background-color);/*affects the search results dropdown*/
     --background-modifier-accent: var(--popup-border-color);
-    --background-secondary-alt: var(--popup-background-color);
+    /**--background-secondary-alt: var(--popup-background-color);/**/
     --deprecated-text-input-bg: var(--popup-background-color);
     --input-background: var(--popup-background-color);
 
