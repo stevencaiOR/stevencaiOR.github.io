@@ -13,10 +13,10 @@
     --background-image: radial-gradient(ellipse closest-side, rgb(0,35,38), rgb(0,0,0));
     --background-shading: 0;
 
-    --popup-background-color: hsl(203 9% 8%); /*original rgb(40, 45, 48)*/
-    --popup-border-color: #5c6166; /*#545b5e*/
+    --popup-background-color: hsl(203 9% 8%); /* original: rgb(40, 45, 48) */
+    --popup-border-color: hsl(210 5% 38%); /* original: #545b5e */
 
-    --background-floating: var(--popup-background-color);/*affects the search results dropdown*/
+    --background-floating: var(--popup-background-color);/* affects the search results dropdown */
     --background-modifier-accent: var(--popup-border-color);
     /**--background-secondary-alt: var(--popup-background-color);/**/
     --deprecated-text-input-bg: var(--popup-background-color);
