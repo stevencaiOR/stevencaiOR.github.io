@@ -644,26 +644,26 @@ img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::before{
     content: "Below are some steps to help you get this server started.";
     display: block;
 }
-.container_b03b4b .cardWrapper__09290 .icon__02e89{
+[class*="cardWrapper_"] .icon__02e89{
     background: var(--accent) !important;
     -webkit-mask-position: center;
     -webkit-mask-size: 36px;
     -webkit-mask-repeat: no-repeat;
 }
-.container_b03b4b .cardWrapper__09290 .icon__02e89[style*="c5eb15a73957da1bb6e9"]{
+[class*="cardWrapper_"] .icon__02e89[style*="c5eb15a73957da1bb6e9"]{
     -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/people.svg);
 }
-.container_b03b4b .cardWrapper__09290 .icon__02e89[style*="00bc91145392d3941bf7"]{
-    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/paint-bucket.svg);
+[class*="cardWrapper_"] .icon__02e89[style*="00bc91145392d3941bf7"]{
+    -webkit-mask-image: url(https://api.iconify.design/fluent/paint-brush-24-regular.svg);
 }
-.container_b03b4b .cardWrapper__09290 .icon__02e89[style*="0160dd25b3ba785c6008"]{
+[class*="cardWrapper_"] .icon__02e89[style*="0160dd25b3ba785c6008"]{
     -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/chat-right-text.svg);
 }
-.container_b03b4b .cardWrapper__09290 .icon__02e89[style*="141bfc7aec238edeeb60"]{
+[class*="cardWrapper_"] .icon__02e89[style*="141bfc7aec238edeeb60"]{
     -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/download.svg);
 }
-.container_b03b4b .cardWrapper__09290 .icon__02e89[style*="c4cf1bcd505f7cc22300"]{
-    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/wrench.svg);
+[class*="cardWrapper_"] .icon__02e89[style*="c4cf1bcd505f7cc22300"]{
+    -webkit-mask-image: url(https://api.iconify.design/icon-park-outline/application-one.svg);
 }
 /* BUTTON MENU ON RIGHT */
 .message__80c10 .buttonsInner_bca8fa{
