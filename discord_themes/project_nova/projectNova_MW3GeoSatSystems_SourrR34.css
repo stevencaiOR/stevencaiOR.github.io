@@ -127,3 +127,31 @@
 .profilePanel__12596 [class*="userProfileOuterUnthemed_"]{
     box-sizing: border-box;
 }
+/*-----MESSAGE AREA-----*/
+/* DIVIDERS */
+.low-saturation .divider_b9338f,
+.divider_b9338f{
+    --divider-color: var(--popup-border-color);
+}
+.divider_b9338f{
+    border-color: var(--popup-border-color);
+}
+.content_d67847,
+.unreadPill__715fc{
+    background: var(--popup-background-color);
+    border: 1px solid var(--popup-border-color);
+}
+.content_d67847{
+    border: 1px solid var(--popup-border-color);
+    color: var(--accent);
+}
+[class*="unreadPillCap_"]{
+    height: 12px;
+}
+[class*="unreadPillCapStroke_"]{
+    fill: var(--popup-background-color);
+}
+[class*="isUnread_"] .content_d67847,
+.unreadPill__715fc{
+    color: var(--accent);
+}
