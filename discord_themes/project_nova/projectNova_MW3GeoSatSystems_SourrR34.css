@@ -16,7 +16,7 @@
     --popup-background-color: hsl(203 9% 8%); /* original: rgb(40, 45, 48) */
     --popup-border-color: hsl(210 5% 38%); /* original: #545b5e */
 
-    --background-floating: var(--popup-background-color);/* affects the search results dropdown */
+    /*--background-floating: var(--popup-background-color);/* affects the search results dropdown and tooltips. close in color bty default anyways */
     --background-modifier-accent: var(--popup-border-color);
     /**--background-secondary-alt: var(--popup-background-color);/**/
     --deprecated-text-input-bg: var(--popup-background-color);
