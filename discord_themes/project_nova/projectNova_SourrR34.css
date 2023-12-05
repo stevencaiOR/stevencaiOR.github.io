@@ -1289,6 +1289,10 @@ rect[mask="url(#svg-mask-status-offline)"]{
 [class*="messagesPopoutWrap_"]{ /*pinned and mentions dropdown*/
     background: var(--background-floating);
 }
+.iconBadge_cc5031{
+    /* dot that appears for new pins and inbox items */
+    background: var(--interactive-normal);
+}
 /* Plus Button in DM List Header */
 .clickable_d23a1a .icon__4cb88{
     color: var(--accent)
