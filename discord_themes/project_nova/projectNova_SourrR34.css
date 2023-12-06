@@ -620,7 +620,8 @@ img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::before{
 }
 /* CHAT HEADER */
 .iconWrapper__85630,
-.emptyChannelIconSvg__25a2f{
+[class*="emptyChannelIcon_"],
+[class*="emptyChannelIconSvg_"]{
     /* removes unnecessary icons at the top of channels */
     display: none;
 }
