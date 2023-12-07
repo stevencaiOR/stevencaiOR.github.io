@@ -1526,11 +1526,6 @@ div.sprite__294b3{
     background-position: unset !important;
     filter: none !important;
 }
-/* DENITROFICATION */
-[href="/shop"],
-[href="/store"]{
-    display: none;
-}
 /*-----MISCELLANEOUS MODALS-----*/
 /* ADD SERVER MODAL */
 .icon__6a8ca{
