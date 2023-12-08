@@ -1288,6 +1288,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
 }
 .container__8261a, /* thread dropdown */
 .channelHeader__5d30c, /* inbox dropdown channel header */
+.container__23c08, /* inbox too */
 [class*="messagesPopoutWrap_"]{ /* pinned and mentions dropdown */
     background: var(--background-floating); /* --background-floating to match the Notification Settings dropdown */
 }
