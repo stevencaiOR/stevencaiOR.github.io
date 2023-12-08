@@ -80,7 +80,7 @@
     border-radius: 5px;
     position: absolute;
     bottom: 20px;
-    left: calc(-1 * var(--server-sidebar-width, 72px) - 23px); /* -23 px from ??????????????? */
+    left: calc(-1 * var(--server-sidebar-width, 72px) - 24px); /* .container__037ed column gap - 20px; total border-width - 4px; */
     width: calc(var(--channels-width) + var(--server-sidebar-width) + 20px);
 }
 [class*="userProfileOuterUnthemed_"]{
