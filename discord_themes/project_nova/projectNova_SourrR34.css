@@ -1286,9 +1286,10 @@ rect[mask="url(#svg-mask-status-offline)"]{
 .selected_be2668 .icon__4cb88 {
     filter: drop-shadow(0 0 5px)
 }
-.container__8261a, /*thread dropdown*/
-[class*="messagesPopoutWrap_"]{ /*pinned and mentions dropdown*/
-    background: var(--background-floating);
+.container__8261a, /* thread dropdown */
+.channelHeader__5d30c, /* inbox dropdown channel header */
+[class*="messagesPopoutWrap_"]{ /* pinned and mentions dropdown */
+    background: var(--background-secondary-alt);
 }
 .iconBadge_cc5031{
     /* dot that appears for new pins and inbox items */
