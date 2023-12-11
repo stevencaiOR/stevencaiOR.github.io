@@ -98,6 +98,13 @@
     --streaming-color: hsl(264.13 100% 63.922%);
     --offline-color: hsl(0 0% 53%);
 
+    /* Radial Status Support */
+    --rs-online-color: var(--online-color);
+    --rs-idle-color: var(--idle-color);
+    --rs-dnd-color: var(--dnd-color);
+    --rs-streaming-color: var(--streaming-color);
+    --rs-offline-color: var(--offline-color);
+
     /* Background */
     --background-image: url(https://i.imgur.com/RKkWBu0.png);
     --background-position: center;
