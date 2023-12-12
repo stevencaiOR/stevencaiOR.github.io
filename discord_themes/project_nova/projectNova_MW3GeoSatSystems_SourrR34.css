@@ -84,7 +84,7 @@
     width: calc(var(--channels-width) + var(--server-sidebar-width) + 20px);
 }
 .container_ca50b9{
-    justify-content: space-around; /* spacing between user info and buttons */
+    justify-content: space-between; /* spacing between user info and buttons */
 }
 [class*="userProfileOuterUnthemed_"]{
     border: 4px solid var(--popup-background-color);
