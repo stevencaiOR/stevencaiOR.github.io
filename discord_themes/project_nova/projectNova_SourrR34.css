@@ -1414,6 +1414,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
 [class*="perkChallenges_"],
 [class*="perkpreviewimage-" i],
 [class*="perkscardart" i],
+[class*="reactionInner_"][aria-label*="super react"],
 img[class*="roleSubscription"],
 [class*="sparkle_"], /* a sparkleContainer_ class is used for user settings -> profiles -> profile theme*/
 [class*="stars" i],
