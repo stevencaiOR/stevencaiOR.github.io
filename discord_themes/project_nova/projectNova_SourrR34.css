@@ -590,6 +590,12 @@ img[src*="269107694604910593"]~.header__39b23 [class*="username_"]::before{
 .reaction_b90ab0{
     background: hsl(var(--primary-330-hsl) / .1);
 }
+.reaction_fef95b{
+    background: var(--primary-630);
+}
+.reaction_fef95b:hover{
+    background: var(--primary-600);
+}
 /* ATTACHMENTS */
 /* Sound File */
 .container__79822{
