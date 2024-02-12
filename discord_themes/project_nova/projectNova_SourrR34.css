@@ -396,7 +396,7 @@ img[src*="269107694604910593"]~.header__39b23 [class*="username_"]::before{
     content:"No blocked users";
 }
 /* NOW PLAYING COLUMN */
-@media (max-width: 1440px) { 
+@media (max-width: 1080px) { 
 	[class*="nowPlayingColumn_"]{
 		display: none;
 	}
