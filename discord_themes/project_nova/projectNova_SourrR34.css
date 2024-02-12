@@ -1460,6 +1460,9 @@ img[alt*="wumpus" i],
     display: none !important;
 }
 /*-----MISCELLANEOUS-----*/
+.toast_f06316{
+    background: var(--primary-700);
+}
 [fill="#5865f2"]{
     /* Customize your server modal */
     fill: var(--accent);
