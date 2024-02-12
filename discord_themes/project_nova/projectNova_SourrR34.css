@@ -1309,6 +1309,10 @@ rect[mask="url(#svg-mask-status-offline)"]{
     /* dot that appears for new pins and inbox items */
     background: var(--interactive-normal);
 }
+.akaBadge__7df41{
+    /* background*/
+    background: var(--primary-630);
+}
 /* Plus Button in DM List Header */
 .clickable_d23a1a .icon__4cb88{
     color: var(--accent)
