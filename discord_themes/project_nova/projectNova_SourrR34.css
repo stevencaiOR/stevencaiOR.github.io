@@ -1313,6 +1313,28 @@ rect[mask="url(#svg-mask-status-offline)"]{
     /* background*/
     background: var(--primary-630);
 }
+/* Show nicknames for long usernames */
+.children__32014{
+    flex-wrap: wrap;
+    row-gap: 8px;
+}
+.avatar__7c789,
+.akaBadge__7df41{
+    margin-left: 0;
+}
+.titleWrapper__482dc{
+    max-width: calc(100% - 44px);
+}
+.title__9e2b0 div{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.divider_c09b64{
+    display: none;
+}
+.nicknames__7447d{
+    flex-basis: 0;
+}
 /* Plus Button in DM List Header */
 .clickable_d23a1a .icon__4cb88{
     color: var(--accent)
