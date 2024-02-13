@@ -597,6 +597,9 @@ img[src*="269107694604910593"]~.header__39b23 [class*="username_"]::before{
     background: var(--primary-600);
 }
 /* ATTACHMENTS */
+.attachment_f3cf2c{
+    background: var(--primary-630);
+}
 /* Sound File */
 .container__79822{
     background: var(--background-secondary-alt);
