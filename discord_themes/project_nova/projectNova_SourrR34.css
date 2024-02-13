@@ -1472,6 +1472,9 @@ img[alt*="wumpus" i],
 .toast_f06316{
     background: var(--primary-700);
 }
+.emojiPicker_b65ce9{
+    background: var(--primary-630);
+}
 [fill="#5865f2"]{
     /* Customize your server modal */
     fill: var(--accent);
