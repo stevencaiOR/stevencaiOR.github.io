@@ -29,7 +29,7 @@
 .container__037ed, /* spacing between server bar and channel list */
 .content__4bf10, /* spacing between channel list and main content */
 .content__1a4fe /* spacing between member list and main content */ {
-    column-gap: 20px;
+    column-gap: 15px;
 }
 .wrapper_a7e7a8 /* spacing to left of server bar */,
 [class*="sidebarRegionScroller_"] /* spacing to left of settings sidebar */{
