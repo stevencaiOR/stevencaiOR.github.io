@@ -95,7 +95,6 @@
     border: 2px solid var(--popup-border-color);
     border-radius: 5px;
     margin-top: 20px;
-    width: calc(100% - 1px);
 }
 .form__13a2c{
     padding: 0;
