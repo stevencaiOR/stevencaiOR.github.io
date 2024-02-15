@@ -96,6 +96,9 @@
     border-radius: 5px;
     margin-top: 20px;
 }
+.form__13a2c{
+    padding-left: 0;
+}
 [class*="channelTextArea_"]{
     background: var(--popup-background-color);
     border: 2px solid var(--popup-border-color);
