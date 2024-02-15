@@ -545,7 +545,7 @@ img[src*="269107694604910593"]~.header__39b23 [class*="username_"]::before{
     box-shadow: 0 0 0 3px var(--accent);
 }
 /* GIFT/STICKER/EMOJI BUTTONS */
-[class*="channelTextArea_"] button:not([aria-label="Send Message"]) [class*="contents_"] > div{
+[class*="channelTextArea_"] button:not([aria-label="Send Message"]):not([aria-label*="Silent Typing"]) [class*="contents_"] > div{
     display: none;
 }
 [class*="channelTextArea_"] [class*="contents_"]:after{
@@ -553,6 +553,12 @@ img[src*="269107694604910593"]~.header__39b23 [class*="username_"]::before{
 }
 [class*="channelTextArea_"] [class*="contents_"]:hover:after{
     color: var(--accent-2);
+}
+[class*="channelTextArea_"] [aria-label="Send a gift"] [class*="contents_"]:after{
+    content: "[Gift]";
+}
+[class*="channelTextArea_"] [aria-label="Send a gift"] [class*="contents_"]:after{
+    content: "[Gift]";
 }
 [class*="channelTextArea_"] [aria-label="Open GIF picker"] [class*="contents_"]:after{
     content: "[GIF]";
@@ -597,7 +603,8 @@ img[src*="269107694604910593"]~.header__39b23 [class*="username_"]::before{
     background: var(--primary-600);
 }
 /* ATTACHMENTS */
-.attachment_f3cf2c{
+.attachment_f3cf2c,
+.wrapperAudio__555ce{
     background: var(--primary-630);
 }
 /* Sound File */
