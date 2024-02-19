@@ -1,0 +1,17 @@
+@import url(https://stevencaior.github.io/discord_themes/project_nova/projectNova_MW3GeoSatSystems_SourrR34.css);
+
+.theme-amoled,
+.theme-dark,
+.theme-darker,
+.theme-light{
+    --accent-hue: 192.321;
+    --accent-saturation-base: 100%;
+    --accent-saturation-coefficient: .5;
+    --accent-lightness-base: 78.039%;
+    --accent-lightness-coefficient: .7;
+    --accent-contrast: #000;
+
+    --background-image: radial-gradient(ellipse closest-side,
+                                        hsl(var(--accent-hue) var(--accent-saturation-base) calc(var(--accent-lightness-base)/8)),
+                                        rgb(0,0,0));
+}
