@@ -1,0 +1,97 @@
+/*-----Config-----*/
+:root body{
+    --neutralDark: #ddd;
+    --neutralPrimarySurface: hsl(225, 6%, 10%);
+    --neutralSecondarySurface: hsl(225, 6%, 4%);
+    --neutralTertiaryAlt: hsl(225, 6%, 35%);
+}
+.fui-FluentProviderr1{
+    --colorNeutralBackground4: #000;
+}
+body{
+    letter-spacing: .04rem;
+}
+/*-----Top Bar-----*/
+.o365sx-navbar,
+.o365cs-base .o365sx-appName,
+.o365cs-base .o365sx-appName:visited,
+.o365cs-base .o365sx-button{
+    background: var(--neutralPrimarySurface);
+}
+
+/*-----Action Bar-----*/
+#innerRibbonContainer .ribbonOverflowItem{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#innerRibbonContainer .splitPrimaryButton:not([aria-label="New mail"]),
+#innerRibbonContainer .ms-Button:not([aria-label="More options"]){
+    border-color: var(--neutralQuaternary);
+}
+#innerRibbonContainer .splitPrimaryButton:not([aria-label="New mail"]):has(.ms-Button-textContainer) .ms-Button-icon,
+#innerRibbonContainer .ms-Button:has(.ms-Button-textContainer) .ms-Button-icon{
+    position: relative;
+    left: calc(50% - 10px);
+}
+#innerRibbonContainer .splitPrimaryButton:not([aria-label="New mail"]):has(.ms-Button-textContainer):hover .ms-Button-icon,
+#innerRibbonContainer .ms-Button:has(.ms-Button-textContainer):hover .ms-Button-icon{
+    position: unset;
+}
+#innerRibbonContainer .splitPrimaryButton:not([aria-label="New mail"]):has(.ms-Button-icon) .ms-Button-textContainer,
+#innerRibbonContainer .ms-Button:has(.ms-Button-icon) .ms-Button-textContainer{
+    visibility: hidden;
+}
+#innerRibbonContainer .splitPrimaryButton:not([aria-label="New mail"]):has(.ms-Button-icon):hover .ms-Button-textContainer,
+#innerRibbonContainer .ms-Button:has(.ms-Button-icon):hover .ms-Button-textContainer{
+    visibility: unset;
+}
+/*-----Sidebar-----*/
+.u0T8k.LPIso,
+.u0T8k.ORnNd._Ptr3{
+    font-size: 12px;
+}
+/*-----Content Area-----*/
+[aria-label="Sort message list by From"]{
+    padding-left: 38px;
+}
+.jHAG3{
+    /* padding to left of checkbox */
+    padding-left: 14px;
+}
+.NNvCv.Cnnoo{
+    padding-left: 102px;
+}
+.XG5Jd.zItCb.bTxlD,
+.XG5Jd.zItCb.kIwIE,
+.XG5Jd.zItCb.y1E5h{
+    padding-top: 12px; /* originally, we had 10px padding */
+    padding-bottom: 12px;
+}
+.q0f8X{
+    width: 60px;
+}
+.r81b29z{
+    /* avatar positioning */
+    position: absolute;
+    right: 12px;
+}
+.r81b29z.oWYiS{
+    /* avatar still displays upon checkbox appearance */
+    display: flex;
+}
+.q0f8X .ms-Checkbox{
+    position: absolute;
+    left: 0px;
+}
+.W3BHj,
+.lMXAF{
+    font-weight: 600;
+}
+.IjQyD.EhiOs:has([title="Mark as read"]){
+    /* unread highlight */
+    background: color-mix(in srgb, transparent 90%, var(--themePrimary))
+}
+.tRFpc{
+    /* mark as unread button */
+    background: var(--neutralTertiaryAlt);
+}
