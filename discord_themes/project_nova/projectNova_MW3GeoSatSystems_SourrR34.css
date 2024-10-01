@@ -45,7 +45,7 @@ nav[aria-label="Servers sidebar"] /* spacing to left of server bar */,
     max-width: calc(100vw - var(--server-sidebar-width) - var(--channels-width) - 60px);
 }
 :root .container_ee69e0 /* Channel Container */,
-.privateChannels__93473 /* Private Channels */,
+nav[aria-label="Private channels"] /* Private Channels */,
 nav[aria-label="Servers sidebar"] /* Server Bar Wrapper */,
 [class*="sidebarRegionScroller_"] /* User Settings Sidebar */{
     background: var(--popup-background-color); 
@@ -54,11 +54,11 @@ nav[aria-label="Servers sidebar"] /* Server Bar Wrapper */,
     top: 20px;
 }
 :root .container_ee69e0,
-.privateChannels__93473{
+nav[aria-label="Private channels"]{
     flex: 0 1 calc(100vh - 134px);
 }
 :root.platform-web .container_ee69e0,
-.platform-web .privateChannels__93473{
+.platform-web nav[aria-label="Private channels"]{
     flex-basis: calc(100vh - 112px);
 }
 nav[aria-label="Servers sidebar"]{
