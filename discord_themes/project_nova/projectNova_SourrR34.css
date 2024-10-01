@@ -216,26 +216,26 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     background: var(--accent-2);
 }
 /*-----UNREAD BUTTONS-----*/
-.mention__1afd3 /*NEW, NEW MENTIONS*/,
-.unread__75c9f /*NEW UNREAD(S) (in channel list only?)*/,
-.bar__004d9 /*why is this a thing?*/{
+.mention_edf32f /*NEW, NEW MENTIONS*/,
+.unread_edf32f /*NEW UNREAD(S) (in channel list only?)*/,
+.bar_edf32f /*unsure what this is*/{
     opacity: 1;
 }
-.mention__1afd3,
-.mention__1afd3:active,
-.unread__75c9f, 
-.bar__004d9{
+.mention_edf32f,
+.mention_edf32f:active,
+.unread_edf32f, 
+.bar_edf32f{
     background: var(--accent);
 }
-.mention__1afd3,
-.unread__75c9f,
-.bar__004d9 .unreadIcon_efbd40,
-.bar__004d9 [style*="color:"]/*only this one needs !important*/{
+.mention_edf32f,
+.unread_edf32f,
+.bar_edf32f .unreadIcon_efbd40,
+.bar_edf32f [style*="color:"]/*only this one needs !important*/{
     color: var(--accent-contrast) !important;
 }
-.mention__1afd3:hover,
-.unread__75c9f:hover,
-.bar__004d9:hover{
+.mention_edf32f:hover,
+.unread_edf32f:hover,
+.bar_edf32f:hover{
     background: var(--accent-2);
 }
 /*-----SERVER BAR-----*/
