@@ -268,10 +268,10 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     padding-right: 8px !important; /*same padding as .scroller_f0f183 which is a class it has (overwritten by element.style which is dumb)*/
 }
 /*-----MEMBER LIST-----*/
-.members__9f47b{
+.members_cbd271{
     width: var(--members-width);
 }
-.members__9f47b .member_aa4760{
+.member_a31c43{
     max-width: calc(14*var(--members-width)/15);
 }
 /*-----DIRECT MESSAGES, CHANNEL LIST AND MEMBER LIST-----*/
