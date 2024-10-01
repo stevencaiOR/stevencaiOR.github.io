@@ -247,21 +247,21 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 [class*="expandedFolderBackground_"]{
     background: rgb(255,255,255,.1);
 }
-.circleIconButton_d8df29{
+.circleIconButton_db6521{
     color: var(--accent);
 }
-.circleIconButton_d8df29[class*="selected_"]{
+.unreadcircleIconButton_db6521[class*="selected_"]{
     background: var(--accent);
     color: var(--accent-contrast);
 }
 /*-----SIDEBAR-----*/
-.platform-win .sidebar_ded4b5{
+.platform-win .sidebar_a4d4d9{
     border-radius: 8px 8px 0 0;
 }
-.sidebar_ded4b5{
+.sidebar_a4d4d9{
     width: var(--channels-width);
 }
-.sidebar_ded4b5 .channel_c21703{
+.sidebar_a4d4d9 .channel_c91bad{ /*channels in DM's*/
     max-width: calc(14*var(--channels-width)/15);
 }
 #channels{
