@@ -1904,9 +1904,6 @@ button.button_adca65.enabled_adca65:hover{
     border-color: currentColor;
 }
 /*-----DISCOVER PAGE-----*/
-:root .pageWrapper_a3a4ce{
-    background: var(--background-primary);
-}
 .headerImage-2D5D-v{
     display: none;
 }
