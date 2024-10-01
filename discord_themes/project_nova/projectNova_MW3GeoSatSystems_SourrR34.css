@@ -44,7 +44,7 @@ nav[aria-label="Servers sidebar"] /* spacing to left of server bar */,
     /*72px server bar, 60px for total columns + margin*/
     max-width: calc(100vw - var(--server-sidebar-width) - var(--channels-width) - 60px);
 }
-:root .container__590e2 /* Channel Container */,
+:root .container_ee69e0 /* Channel Container */,
 .privateChannels__93473 /* Private Channels */,
 nav[aria-label="Servers sidebar"] /* Server Bar Wrapper */,
 [class*="sidebarRegionScroller_"] /* User Settings Sidebar */{
@@ -53,11 +53,11 @@ nav[aria-label="Servers sidebar"] /* Server Bar Wrapper */,
     border-radius: 5px;
     top: 20px;
 }
-:root .container__590e2,
+:root .container_ee69e0,
 .privateChannels__93473{
     flex: 0 1 calc(100vh - 134px);
 }
-:root.platform-web .container__590e2,
+:root.platform-web .container_ee69e0,
 .platform-web .privateChannels__93473{
     flex-basis: calc(100vh - 112px);
 }
