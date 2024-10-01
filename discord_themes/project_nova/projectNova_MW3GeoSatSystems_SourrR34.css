@@ -31,7 +31,7 @@
 .content__1a4fe /* spacing between member list and main content */ {
     column-gap: 15px;
 }
-.wrapper_a7e7a8 /* spacing to left of server bar */,
+nav[aria-label="Servers sidebar"] /* spacing to left of server bar */,
 [class*="sidebarRegionScroller_"] /* spacing to left of settings sidebar */{
     margin-left: 20px;
 }
@@ -46,7 +46,7 @@
 }
 :root .container__590e2 /* Channel Container */,
 .privateChannels__93473 /* Private Channels */,
-.wrapper_a7e7a8 /* Server Bar Wrapper */,
+nav[aria-label="Servers sidebar"] /* Server Bar Wrapper */,
 [class*="sidebarRegionScroller_"] /* User Settings Sidebar */{
     background: var(--popup-background-color); 
     border: 2px solid var(--popup-border-color);
@@ -61,10 +61,10 @@
 .platform-web .privateChannels__93473{
     flex-basis: calc(100vh - 112px);
 }
-.wrapper_a7e7a8{
+nav[aria-label="Servers sidebar"]{
     height: calc(100vh - 134px);
 }
-.platform-web .wrapper_a7e7a8{
+.platform-web nav[aria-label="Servers sidebar"]{
     height: calc(100vh - 112px);
 }
 [class*="sidebarRegionScroller_"]{
