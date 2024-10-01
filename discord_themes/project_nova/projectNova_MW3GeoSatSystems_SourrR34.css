@@ -26,7 +26,7 @@
     --popout-color-bottom: var(--popup-background-color);
     --server-sidebar-width: 72px;
 }
-.container__037ed, /* spacing between server bar and channel list */
+.container_a4d4d9, /* spacing between server bar and channel list */
 .content__4bf10, /* spacing between channel list and main content */
 .content__1a4fe /* spacing between member list and main content */ {
     column-gap: 15px;
@@ -80,7 +80,7 @@ nav[aria-label="Servers sidebar"]{
     border-radius: 5px;
     position: absolute;
     bottom: 20px;
-    left: calc(-1 * var(--server-sidebar-width, 72px) - 24px); /* .container__037ed column gap - 20px; total border-width - 4px; */
+    left: calc(-1 * var(--server-sidebar-width, 72px) - 24px); /* .container_a4d4d9 column gap - 20px; total border-width - 4px; */
     width: calc(var(--channels-width) + var(--server-sidebar-width) + 20px);
 }
 .container_ca50b9{
