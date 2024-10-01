@@ -2017,6 +2017,6 @@ button.button_adca65.enabled_adca65:hover{
 }
 /* Show Me Your Name */
 .vc-smyn-suffix{
-    color: var(--header-primary);
+    color: inherit; /*inherits color from username*/
     font-size: .8rem;
 }
