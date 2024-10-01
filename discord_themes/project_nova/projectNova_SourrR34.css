@@ -52,9 +52,9 @@
     --guild-boosting-purple-for-gradients-hsl: var(--accent-hsl);
 
     /* Tier 0 Stuff */
-    --premium-tier-0-blue-hsl: var(accent-hsl);
-    --premium-tier-0-blue-for-gradients-hsl: var(accent-hsl);
-    --premium-tier-0-blue-for-gradients-2-hsl: var(accent-hsl);
+    --premium-tier-0-blue-hsl: var(--accent-hsl);
+    --premium-tier-0-blue-for-gradients-hsl: var(--accent-hsl);
+    --premium-tier-0-blue-for-gradients-2-hsl: var(--accent-hsl);
 
     --premium-tier-0-header-gradient-1-hsl: var(--accent-hsl);
     --premium-tier-0-header-gradient-2-hsl: var(--accent-hsl);
@@ -62,8 +62,8 @@
     --premium-tier-0-header-gradient-4-hsl: var(--accent-hsl);
     --premium-tier-0-header-gradient-5-hsl: var(--accent-hsl);
 
-    --premium-tier-0-purple-hsl: var(accent-hsl);
-    --premium-tier-0-purple-for-gradients-hsl: var(accent-hsl);
+    --premium-tier-0-purple-hsl: var(--accent-hsl);
+    --premium-tier-0-purple-for-gradients-hsl: var(--accent-hsl);
 
     /* Tier 1 Stuff */
     --premium-tier-1-blue-hsl: var(--accent-hsl);
