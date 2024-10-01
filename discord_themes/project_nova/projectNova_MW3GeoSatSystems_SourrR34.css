@@ -28,7 +28,7 @@
 }
 .container_a4d4d9, /* spacing between server bar and channel list */
 .content_a4d4d9, /* spacing between channel list and main content */
-.content__1a4fe /* spacing between member list and main content */ {
+.content_a7d72e /* spacing between member list and main content */ {
     column-gap: 15px;
 }
 nav[aria-label="Servers sidebar"] /* spacing to left of server bar */,
