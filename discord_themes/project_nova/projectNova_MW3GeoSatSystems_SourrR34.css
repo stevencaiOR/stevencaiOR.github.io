@@ -35,7 +35,7 @@ nav[aria-label="Servers sidebar"] /* spacing to left of server bar */,
 [class*="sidebarRegionScroller_"] /* spacing to left of settings sidebar */{
     margin-left: 20px;
 }
-.base__3e6af{
+.base_a4d4d9{
     /*increases visibility of user area. gonna cause a host of issues tho*/
     overflow: visible;
     max-width: calc(100% - var(--server-sidebar-width) - 44px); /*72px server bar, 40px for total columns + margin, 4px for total border width of server wrapper*/
