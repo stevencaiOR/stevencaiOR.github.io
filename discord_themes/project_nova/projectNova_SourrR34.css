@@ -156,8 +156,7 @@
     --watermark: "Nova Squadron";
 }
 /*-----AUTHOR TRIBUTE-----*/
-img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::before,
-img[src*="269107694604910593"]~.header__39b23 [class*="username_"]::before{
+img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before{
     text-shadow: 0 0 3px;
     border: 2px solid;
     border-radius: 8px;
@@ -167,9 +166,6 @@ img[src*="269107694604910593"]~.header__39b23 [class*="username_"]::before{
 }
 img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::before{
     content: "Nanosuit 2.0"; 
-}
-img[src*="269107694604910593"]~.header__39b23 [class*="username_"]::before{
-    content: "Big Lactose";
 }
 /*----------*/
 #app-mount{
