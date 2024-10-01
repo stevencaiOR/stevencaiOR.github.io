@@ -164,7 +164,7 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     font-size: .8rem;
     padding: 1px 5px;   
 }
-img[src*="947934356880629760"]~.header__39b23 [class*="username_"]::before{
+img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before{
     content: "Nanosuit 2.0"; 
 }
 /*----------*/
