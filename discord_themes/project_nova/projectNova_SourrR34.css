@@ -239,8 +239,8 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     background: var(--accent-2);
 }
 /*-----SERVER BAR-----*/
-.wrapper_d281dd[class*="selected_"] [class*="childWrapper_"],
-.wrapper_d281dd:hover [class*="childWrapper_"]{
+[aria-label="Direct Messages"][class*="selected_"] [class*="childWrapper_"],
+[aria-label="Direct Messages"]:hover [class*="childWrapper_"]{
     /* home button discord logo, servers w/o avatars */
     color: var(--accent-contrast)
 }
