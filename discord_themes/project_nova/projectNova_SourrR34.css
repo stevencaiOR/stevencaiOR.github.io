@@ -1554,6 +1554,10 @@ div.sprite_d91a75{
     filter: none !important;
 }
 /*-----MISCELLANEOUS MODALS-----*/
+/* REACTIONS MODAL */
+.container_f2bfbb{
+    background: var(--primary-700);
+}
 /* ADD SERVER MODAL */
 .icon_a47d49{
     display: none;
