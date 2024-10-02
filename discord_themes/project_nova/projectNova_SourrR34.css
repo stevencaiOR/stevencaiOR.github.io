@@ -828,6 +828,9 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 .itemFilled_eb92a8[aria-checked=true]:not(:has([style*="--radio-bar-accent-color:"])) [class*="radioIconForeground_"]{
     color: var(--accent-contrast); 
 }
+[class*="fieldList_"]{
+    background: #00f0;
+}
 /* MY ACCOUNT */
 #my-account-tab > div > :first-child [class*="children_"]{
     /*centers the account profile card*/
