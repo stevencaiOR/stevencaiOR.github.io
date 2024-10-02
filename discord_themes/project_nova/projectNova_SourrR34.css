@@ -247,6 +247,9 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 [class*="expandedFolderBackground_"]{
     background: rgb(255,255,255,.1);
 }
+[class*="folder_"]{
+    background: #00f0;
+}
 .circleIconButton_db6521{
     color: var(--accent);
 }
@@ -259,6 +262,7 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     border-radius: 8px 8px 0 0;
 }
 .sidebar_a4d4d9{
+    background: #00f0;
     width: var(--channels-width);
 }
 .sidebar_a4d4d9 .channel_c91bad{ /*channels in DM's*/
