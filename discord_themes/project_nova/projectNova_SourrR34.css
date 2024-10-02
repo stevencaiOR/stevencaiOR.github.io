@@ -147,7 +147,7 @@
     --text-link: var(--accent);
 
     /* Miscellaneous */
-    --code-background: rgb(30,30,30); /*matches that of vs code*/
+    --code-background: rgb(31,31,31); /*matches that of vs code*/
     --channels-width: 240px; /*default: 240px. works well with 125%*/
     --members-width: 300px;
     --profile-panel-width: var(--members-width);
