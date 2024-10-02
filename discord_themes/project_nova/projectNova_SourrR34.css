@@ -126,22 +126,23 @@
     --background-mentioned: hsl(var(--accent-hsl) / .2);
     --background-mentioned-hover:  hsl(var(--accent-hsl) / .14);
     --background-mobile-primary:#101010;
-    --background-primary: #0000;
-    --background-tertiary: #0000; /*default: var(--primary-700) (same as --input-background)*/
+    --background-primary: #00f0;
+    --background-tertiary: #00f0; /*default: var(--primary-700) (same as --input-background)*/
     --channel-icon: var(--channels-default);
     --channeltextarea-background: rgb(0,0,0,.3);
     /**--channels-default: hsl(var(--accent-hsl) / .7);/**/
+    --custom-channel-members-bg: #00f0;
     --focus-primary: var(--accent);
     --header-primary: var(--accent);
-    --home-background: #0000;
+    --home-background: #00f0;
     --input-background: rgb(255,255,255,.1); /*default: var(--primary-700) (same as --background-tertiary)*/
     --input-placeholder-text: var(--accent);
     --modal-background: #101010;
     --modal-footer-background: #080808;
     --scrollbar-auto-scrollbar-color-thumb: var(--accent);
-	--scrollbar-auto-scrollbar-color-track: #0000;
+	--scrollbar-auto-scrollbar-color-track: #00f0;
 	--scrollbar-auto-thumb: var(--accent);
-	--scrollbar-auto-track: #0000;
+	--scrollbar-auto-track: #00f0;
 	--scrollbar-thin-thumb: var(--accent);
     --text-link: var(--accent);
 
@@ -743,7 +744,7 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 }
 /* ADD FRIEND PILL */
 [class*="addFriend_"]{
-    background: #0000 !important;
+    background: #00f0 !important;
     color: var(--interactive-normal) !important;
 }
 [class*="addFriend_"]:hover,
@@ -1325,7 +1326,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
 }
 /* GROUP DM NAME */
 .outer_f8b740 .input_f8b740{
-    border: 2px solid #0000;
+    border: 2px solid #00f0;
 }
 .outer_f8b740:hover .input_f8b740{
     border-color: var(--accent);
@@ -1847,7 +1848,7 @@ button.button_adca65.enabled_adca65:hover{
 }
 /*-----CALL WRAPPER-----*/
 [class*="callContainer_"]{
-    background: #0000;
+    background: #00f0;
 }
 [class*="gradientContainer_"]{
     background: none;
