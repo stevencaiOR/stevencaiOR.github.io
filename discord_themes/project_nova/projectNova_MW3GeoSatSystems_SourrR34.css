@@ -74,13 +74,17 @@ nav[aria-label="Servers sidebar"]{
     /* Disables scrollbar in User Settings Sidebar*/
     display: none;
 }
+.sidebar_a4d4d9:has(> [aria-label="user area" i]){
+	position: relative;
+	overflow: visible;
+}
 [aria-label="user area" i]{
     background: var(--popup-background-color);
     border: 2px solid var(--popup-border-color);
     border-radius: 5px;
     position: absolute;
     bottom: 20px;
-    left: calc(-1 * var(--server-sidebar-width, 72px) - 13px); /* .container_a4d4d9 column gap - 20px; total border-width - 4px; */
+    right: 0;
     width: calc(var(--channels-width) + var(--server-sidebar-width) + 10px);
 }
 .container_b2ca13{
