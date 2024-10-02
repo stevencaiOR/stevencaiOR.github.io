@@ -774,6 +774,9 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 [class*="sidebarRegion_"]+[class*="contentRegion_"]{
     max-width: calc(100% - var(--setting-sidebar-width));
 }
+[class*="sidebarRegionScroller_"]{
+    background: #00f0;
+}
 [class*="contentColumn_"]{
     max-width: 100%;
     padding: 20px 10px 50px 40px;
