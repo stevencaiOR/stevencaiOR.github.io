@@ -1286,12 +1286,6 @@ rect[mask="url(#svg-mask-status-offline)"]{
 .selected_fc4f04 .icon_fc4f04 {
     filter: drop-shadow(0 0 5px)
 }
-.container_e664f3, /* thread dropdown */
-.channelHeader_f3978e, /* inbox dropdown channel header */
-.container__23c08, /* inbox too */
-[class*="messagesPopoutWrap_"]{ /* pinned and mentions dropdown */
-    background: var(--background-floating); /* --background-floating to match the Notification Settings dropdown */
-}
 .iconBadge_fc4f04{
     /* dot that appears for new pins and inbox items */
     background: var(--interactive-normal);
