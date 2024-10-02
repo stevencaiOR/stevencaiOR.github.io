@@ -253,7 +253,7 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 .circleIconButton_db6521{
     color: var(--accent);
 }
-.unreadcircleIconButton_db6521[class*="selected_"]{
+.circleIconButton_db6521[class*="selected_"]{
     background: var(--accent);
     color: var(--accent-contrast);
 }
