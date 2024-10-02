@@ -395,12 +395,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     content:"No blocked users";
 }
 /* NOW PLAYING COLUMN */
-@media (max-width: 1080px) {
-    /* not sure why this is here */
-	[class*="nowPlayingColumn_"]{
-		display: none;
-	}
-}
 [class*="nowPlayingColumn_"] [class*="emptyCard_"] [class*="emptyText_"]{
     display: none;
 }
