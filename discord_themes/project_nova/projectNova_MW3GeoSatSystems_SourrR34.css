@@ -59,15 +59,29 @@ nav[aria-label="Servers sidebar"] /* Server Bar Wrapper */,
 nav[aria-label="Private channels"]{
     flex: 0 1 calc(100vh - 134px);
 }
+:root .container_ee69e0:has(+* .container_adcaac),
+nav[aria-label="Private channels"]:has(+* .container_adcaac){
+    flex: 0 1 calc(100vh - 234px);
+}
 :root.platform-web .container_ee69e0,
 .platform-web nav[aria-label="Private channels"]{
     flex-basis: calc(100vh - 112px);
 }
+:root.platform-web .container_ee69e0:has(+* .container_adcaac),
+.platform-web nav[aria-label="Private channels"]:has(+* .container_adcaac){
+    flex-basis: calc(100vh - 212px);
+}
 nav[aria-label="Servers sidebar"]{
     height: calc(100vh - 134px);
 }
+nav[aria-label="Servers sidebar"]:has(+* .container_adcaac){
+    height: calc(100vh - 234px);
+}
 .platform-web nav[aria-label="Servers sidebar"]{
     height: calc(100vh - 112px);
+}
+.platform-web nav[aria-label="Servers sidebar"]:has(+* .container_adcaac){
+	height: calc(100vh - 212px);
 }
 [class*="sidebarRegionScroller_"]{
     height: 95%;
