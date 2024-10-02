@@ -268,6 +268,9 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 .sidebar_a4d4d9 .channel_c91bad{ /*channels in DM's*/
     max-width: calc(14*var(--channels-width)/15);
 }
+:root .container_ee69e0{
+    background: #00f0;
+}
 #channels{
     padding-right: 8px !important; /*same padding as .scroller_c43953 which is a class it has (overwritten by element.style which is dumb)*/
 }
