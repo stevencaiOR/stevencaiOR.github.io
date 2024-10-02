@@ -127,7 +127,6 @@
     --background-mentioned-hover:  hsl(var(--accent-hsl) / .14);
     --background-mobile-primary:#101010;
     --background-primary: #0000;
-    --background-secondary: #0000;
     --background-tertiary: #0000; /*default: var(--primary-700) (same as --input-background)*/
     --channel-icon: var(--channels-default);
     --channeltextarea-background: rgb(0,0,0,.3);
@@ -415,7 +414,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 }
 /* Item Cards */
 .wrapper_cd82a7{
-    background: var(--primary-630);
     border: none;
 }
 :root .inset_ac5d22{
@@ -592,20 +590,8 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 .reaction_f61c73{
     background: hsl(var(--primary-330-hsl) / .1);
 }
-.reaction_ec6b19{
-    background: var(--primary-630);
-}
 .reaction_ec6b19:hover{
     background: var(--primary-600);
-}
-/* ATTACHMENTS */
-.attachment_b52bef,
-.wrapperAudio_f316dd{
-    background: var(--primary-630);
-}
-/* Sound File */
-.container_d6cb89{
-    background: var(--background-secondary-alt);
 }
 .container_d6cb89:not(.playing_d6cb89) .playButtonContainer_d6cb89 .playIcon_d6cb89{
     color: var(--accent-contrast)
@@ -919,9 +905,6 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     /* 2 columns if there are connections */
     grid-template-columns: repeat(2, 1fr);
 }
-.connection_e2a436{
-    background: var(--background-secondary-alt);
-}
 [class*="connectionHeader_"]{
     background: none;
 }
@@ -1142,10 +1125,6 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><text x='10' y='25' fill='rgb(255,255,255,0.3)' font-family='Consolas' font-size='16'>****-*****-*****-*****</text></svg>");
 }
 /* BILLING */
-:root [class*="paymentPane_"],
-#billing-tab [class*="codeRedemptionRedirect_"]{
-    background: var(--background-secondary-alt);
-}
 :root [class*="paginator_"],
 :root [class*="payment_"]{
     background: none
@@ -1167,9 +1146,6 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     text-indent: 0;
 }
 /* APPEARANCE */
-.preview_a614a7{
-    background: var(--background-secondary-alt);
-}
 #appearance-tab #message-content-0,
 #message-content-1,
 #message-content-2,
@@ -1223,9 +1199,6 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     content: "Compact: avatars optional, usernames adjacent to messages.";
 }
 /* VOICE & VIDEO */
-[class*="cameraWrapper_"]{
-    background: var(--background-secondary-alt);
-}
 [class*="cameraWrapper_"] [class*="previewImage_"]{
     -webkit-mask: url(https://api.iconify.design/bi/webcam.svg) no-repeat center / contain;
     background: var(--accent);
@@ -1321,17 +1294,13 @@ rect[mask="url(#svg-mask-status-offline)"]{
     /* dot that appears for new pins and inbox items */
     background: var(--interactive-normal);
 }
-.akaBadge__27cd4{
-    /* background*/
-    background: var(--primary-630);
-}
 /* Show nicknames for long usernames */
 .children_fc4f04{
     flex-wrap: wrap;
     row-gap: 8px;
 }
 .avatar_a7d72e,
-.akaBadge__27cd4{
+.akaBadge_d6c26f{
     margin-left: 0;
 }
 .titleWrapper_fc4f04{
@@ -1475,9 +1444,6 @@ img[alt*="wumpus" i],
 .toast_f42767{
     background: var(--primary-700);
 }
-.emojiPicker_c6ee36{
-    background: var(--primary-630);
-}
 [fill="#5865f2"]{
     /* Customize your server modal */
     fill: var(--accent);
@@ -1539,10 +1505,6 @@ img[alt*="wumpus" i],
 [class*="embedFull_"]{
     border-color: var(--primary-700);
     background: rgb(0,0,0,.5);
-}
-/* Invites */
-.wrapper_a71a1c{
-    background: var(--background-secondary-alt)
 }
 /* MESSAGE CONTEXT MENU */
 #message [class*="button_"]:hover{
