@@ -25,6 +25,8 @@
     --popout-color-top: var(--popup-background-color);
     --popout-color-bottom: var(--popup-background-color);
     --server-sidebar-width: 72px;
+
+    --watermark: "GEO.SAT SYSTEMS";
 }
 .container_a4d4d9, /* spacing between server bar and channel list */
 .content_a4d4d9, /* spacing between channel list and main content */
