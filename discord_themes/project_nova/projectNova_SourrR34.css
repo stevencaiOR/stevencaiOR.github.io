@@ -1362,10 +1362,6 @@ rect[mask="url(#svg-mask-status-offline)"]{
     border-radius: 8px;
     width: 300px; /*default: 144px*/
 }
-[class*="search_"][class*="focused_"] [class*="searchBar_"],
-[class*="search_"][class*="open_"] [class*="searchBar_"]{
-    width: 350px;
-}
 :root [class*="searchAnswer_"],
 :root [class*="searchFilter_"]{
     background: var(--accent);
