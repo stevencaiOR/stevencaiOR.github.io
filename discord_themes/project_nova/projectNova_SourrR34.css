@@ -263,7 +263,7 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 }
 :root .scroller_c47fa9,
 :root .container_ee69e0,
-.privateChannels_f0963d{
+[class*="privateChannels_"]{
     background: #00f0;
 }
 .sidebar_a4d4d9{
