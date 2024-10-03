@@ -1543,13 +1543,6 @@ img[alt*="wumpus" i],
 [class*="botTagInvert_"]{
 	background: var(--accent-contrast);
 }
-/* DEFAULT EMOJI IN INPUTS */
-div.sprite_d91a75{
-    background-image: var(--home-icon) !important;
-    background-size: 22px 22px !important;
-    background-position: unset !important;
-    filter: none !important;
-}
 /*-----MISCELLANEOUS MODALS-----*/
 /* REACTIONS MODAL */
 .container_f2bfbb{
