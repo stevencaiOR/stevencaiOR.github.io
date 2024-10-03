@@ -1570,26 +1570,26 @@ div.sprite_d91a75{
     -webkit-mask-size: 32px;
     -webkit-mask-repeat: no-repeat;
 }
-:has(> [src="/assets/4d526e1c61d719fd39a0.svg"]):before{
+:has(> [src="/assets/c4b7801fb3f0df337861.svg"]):before{
     -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/key.svg);
 }
-:has(> [src="/assets/5d6dc6ffd6b519acc9a7.svg"]):before{
-    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/controller.svg);
+:has(> [src="/assets/4e83e03c728ff6263b47.svg"]):before{
+    -webkit-mask-image: url("https://raw.githubusercontent.com/ionic-team/ionicons/d55d438ef033e9f8d95cb894214419460c6c2463/src/svg/game-controller-outline.svg");
 }
-:has(> [src="/assets/5589e8e4717b76315f42.svg"]):before{
-    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/book.svg);
+:has(> [src="/assets/1351814d99a389aad23c.svg"]):before{
+	-webkit-mask-image: url(https://raw.githubusercontent.com/microsoft/fluentui-system-icons/fc03f5833a06dee1e74c50c5ad23d235279efb63/assets/Book/SVG/ic_fluent_book_48_regular.svg);
 }
-:has(> [src="/assets/c7b02290cc71009a0951.svg"]):before{
+:has(> [src="/assets/9ab631e1d1a164dc7ef0.svg"]):before{
     -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/backpack.svg);
 }
-:has(> [src="/assets/3a1f9db2a36d64e6483a.svg"]):before{
+:has(> [src="/assets/a740255d036707212416.svg"]):before{
     -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/people.svg);
 }
-:has(> [src="/assets/015eb861ca3bf2b0a536.svg"]):before{
+:has(> [src="/assets/2072f15a7a61e7d69c05.svg"]):before{
     -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/person-video3.svg);
 }
-:has(> [src="/assets/7e7c6b45f2149335c996.svg"]):before{
-    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/person-arms-up.svg);
+:has(> [src="/assets/2ad98741f87bb58786cf.svg"]):before{
+	-webkit-mask-image: url(https://raw.githubusercontent.com/CyCraft/pepicons/77297fe9d132a59440eaca4f8627d3d33b5ff22d/packages/pepicons/svg/pencil/people.svg);
 }
 .footer_f9a4c9{
     color: var(--accent);
