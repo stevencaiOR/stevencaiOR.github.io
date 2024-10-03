@@ -464,22 +464,22 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     fill: none;
 }
 /* WEIRD DISPLAY/NICKNAME AND PRONOUNS SUPPORT */
-[class*="userPopoutOverlayBackground_"] .nickname_c9ccf6,
-[class*="userPopoutOverlayBackground_"] .pronouns_c9ccf6{
+[class*="userPopoutOverlayBackground_"] .nickname_c32acf,
+[class*="userPopoutOverlayBackground_"] .pronouns_c32acf{
     max-width: 272px; /*80% of popout width (340px)*/
 }
-[class*="userPanelOverlayBackground_"] .nickname_c9ccf6,
-[class*="userPanelOverlayBackground_"] .pronouns_c9ccf6{
+[class*="userPanelOverlayBackground_"] .nickname_c32acf,
+[class*="userPanelOverlayBackground_"] .pronouns_c32acf{
     max-width: calc(.8*var(--profile-panel-width));
 }
-.nickname_c9ccf6,
+.nickname_c32acf,
 [class*="userProfileModalOverlayBackground_"] [class*="text-lg-semibold_"],
 [class*="pronouns_"]{
     line-height: 2.8;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.nickname_c9ccf6{
+.nickname_c32acf{
     white-space: nowrap;
 }
 .pronouns_afed89{
