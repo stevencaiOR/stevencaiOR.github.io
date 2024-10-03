@@ -1753,6 +1753,13 @@ button.button_adca65.enabled_adca65:hover{
 .headerContent_d33b18 .searchBox_d33b18{
     background: var(--input-background);
 }
+.headerContent_d33b18 .searchBox_d33b18 .searchBoxInput_d33b18{
+    color: var(--text-normal);
+}
+.theme-light .searchBox_d83b4d .searchBoxInput_d83b4d::placeholder,
+.theme-dark .searchBox_d83b4d .searchBoxInput_d83b4d::placeholder {
+    color: var(--input-placeholder-text);
+}
 /*-----ERROR PAGE-----*/
 :root .wrapper_a2a7b5{
     background: none;
