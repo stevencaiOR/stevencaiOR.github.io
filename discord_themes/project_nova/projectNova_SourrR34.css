@@ -454,9 +454,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 	--profile-role-pill-background-color: hsla(228, 6.7%, 14.7%, .5) !important;
 	--profile-role-pill-border-color: rgb(255, 255, 255, .2) !important;
 }
-.profilePanel_b433b4{
-    width: var(--profile-panel-width);
-}
 [style*="-webkit-line-clamp: 6"]{
     /*About Me Section*/
     -webkit-line-clamp: unset !important;
