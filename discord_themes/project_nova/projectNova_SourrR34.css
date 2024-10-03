@@ -367,7 +367,7 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     border: none;
 }
 /* IMPROVED EMPTY STATE */
-[class*="peopleColumn_"] > [class*="emptyStateContainer_"] .wrapper_f21046{
+[class*="peopleColumn_"] [class*="wrapper_"]{
     max-width: 100%;
 }
 [class*="peopleColumn_"] [class*="image_"]{
