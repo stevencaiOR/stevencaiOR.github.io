@@ -604,8 +604,8 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 [class*="compactButton_"]:hover{
     background: var(--accent-2);
 }
-[class*="compactButton_"] .defaultColor__77578,
-[class*="compactButtonDisabled_"] .defaultColor__77578{
+[class*="compactButton_"] [class*="defaultColor_"],
+[class*="compactButtonDisabled_"] [class*="defaultColor_"]{
     color: var(--accent-contrast);
 }
 /* NEW MEMBER BADGE */
