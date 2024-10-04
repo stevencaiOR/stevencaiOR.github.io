@@ -1899,13 +1899,13 @@ button.button_adca65.enabled_adca65:hover{
     border-color: currentColor;
 }
 /*-----DISCOVER PAGE-----*/
+.container_e462a4,
 .theme-dark .gradientOverlay_b97772,
 .theme-light .gradientOverlay_b97772,
 .theme-dark .gradient_b97772,
 .theme-light .gradient_b97772{
 	background: #00f0;
 }
-
 /*-----FORUM-----*/
 [class*="mainCard_"]{
     background: var(--input-background);
