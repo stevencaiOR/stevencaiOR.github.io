@@ -542,30 +542,7 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     box-shadow: 0 0 0 3px var(--accent);
 }
 /* GIFT/STICKER/EMOJI BUTTONS */
-[class*="channelTextArea_"] button:not([aria-label="Send Message"],[aria-label*="Silent Typing"],[aria-label="Preview Message"]) [class*="contents_"] > div{
-    display: none;
-}
-[class*="channelTextArea_"] [class*="contents_"]:after{
-    color: var(--accent);
-}
-[class*="channelTextArea_"] [class*="contents_"]:hover:after{
-    color: var(--accent-2);
-}
-[class*="channelTextArea_"] [aria-label="Send a gift"] [class*="contents_"]:after{
-    content: "[Gift]";
-}
-[class*="channelTextArea_"] [aria-label="Send a gift"] [class*="contents_"]:after{
-    content: "[Gift]";
-}
-[class*="channelTextArea_"] [aria-label="Open GIF picker"] [class*="contents_"]:after{
-    content: "[GIF]";
-}
-[class*="channelTextArea_"] [aria-label="Open sticker picker"] [class*="contents_"]:after{
-    content: "[Sticker]";
-}
-[class*="channelTextArea_"] [aria-label="Select emoji"] [class*="contents_"]:after{
-    content: "[Emoji]";
-}
+
 /* SEND BUTTON */
 :root button:hover[class*="button_"] [class*="activeButtonChild_"]{
     color: var(--accent-2);
