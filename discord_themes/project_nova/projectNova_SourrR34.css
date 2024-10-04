@@ -542,7 +542,7 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     box-shadow: 0 0 0 3px var(--accent);
 }
 /* GIFT/STICKER/EMOJI BUTTONS */
-[class*="channelTextArea_"] button:not([aria-label="Send Message"]):not([aria-label*="Silent Typing"]) [class*="contents_"] > div{
+[class*="channelTextArea_"] button:not([aria-label="Send Message"],[aria-label*="Silent Typing"],[aria-label="Preview Message"]) [class*="contents_"] > div{
     display: none;
 }
 [class*="channelTextArea_"] [class*="contents_"]:after{
