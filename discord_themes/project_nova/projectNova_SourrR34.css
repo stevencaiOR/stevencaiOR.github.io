@@ -1462,9 +1462,6 @@ img[alt*="wumpus" i],
     /*"best seen in voice and video" -leafy*/
     background: var(--modal-footer-background);
 }
-[class*="gradientBackground_"]{
-    background: var(--background-secondary); /*background of gradient thing in screen share modal matches "input" boxes above*/
-}
 [class*="cardPrimary_"],
 [class*="cardPrimary_"][class*="editable"]{
     border-color: var(--accent);
