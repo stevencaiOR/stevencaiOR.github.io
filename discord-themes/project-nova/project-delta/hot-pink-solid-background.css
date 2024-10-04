@@ -1,0 +1,10 @@
+@import url(https://stevencaior.github.io/discord-themes/project-nova/project-delta/crysis-2-hud-solid-background.css);
+
+.theme-amoled,
+.theme-dark,
+.theme-darker,
+.theme-light{
+    --accent-hue: 330;
+    --accent-saturation-base: 100%;
+    --accent-lightness-base: 70.6%;
+}
