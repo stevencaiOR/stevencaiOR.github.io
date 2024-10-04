@@ -47,7 +47,7 @@ nav[aria-label="Servers sidebar"] /* spacing to left of server bar */,
     max-width: calc(100vw - var(--server-sidebar-width) - var(--channels-width) - 60px);
 }
 :root .container_ee69e0 /* Channel Container */,
-nav[aria-label="Private channels"] /* Private Channels */,
+[class*="privateChannels_"] /* Private Channels */,
 nav[aria-label="Servers sidebar"] /* Server Bar Wrapper */,
 [class*="sidebarRegionScroller_"] /* User Settings Sidebar */{
     background: var(--popup-background-color);
@@ -56,19 +56,19 @@ nav[aria-label="Servers sidebar"] /* Server Bar Wrapper */,
     top: 20px;
 }
 :root .container_ee69e0,
-nav[aria-label="Private channels"]{
+[class*="privateChannels_"]{
     flex: 0 1 calc(100vh - 134px);
 }
 :root .container_ee69e0:has(+* .container_adcaac),
-nav[aria-label="Private channels"]:has(+* .container_adcaac){
+[class*="privateChannels_"]:has(+* .container_adcaac){
     flex: 0 1 calc(100vh - 234px);
 }
 :root.platform-web .container_ee69e0,
-.platform-web nav[aria-label="Private channels"]{
+.platform-web [class*="privateChannels_"]{
     flex-basis: calc(100vh - 112px);
 }
 :root.platform-web .container_ee69e0:has(+* .container_adcaac),
-.platform-web nav[aria-label="Private channels"]:has(+* .container_adcaac){
+.platform-web [class*="privateChannels_"]:has(+* .container_adcaac){
     flex-basis: calc(100vh - 212px);
 }
 nav[aria-label="Servers sidebar"]{
