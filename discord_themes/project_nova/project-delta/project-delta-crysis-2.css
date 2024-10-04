@@ -11,7 +11,5 @@
     --accent-lightness-coefficient: .7;
     --accent-contrast: #000;
 
-    --background-image: radial-gradient(ellipse closest-side,
-                                        hsl(var(--accent-hue) var(--accent-saturation-base) calc(var(--accent-lightness-base)/8)),
-                                        rgb(0,0,0));
+    --background-image: rgb(16, 16, 16);
 }
