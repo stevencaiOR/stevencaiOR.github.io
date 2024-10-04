@@ -1509,7 +1509,7 @@ img[alt*="wumpus" i],
 /* SHORTEN LONG USERNAMES (message area, search results wrap, reply contexts, aperance preview, etc BUT ONLY FOR "COSY" MODE) */
 .cozy_f9f2ca .username_f9f2ca{
     display: inline-block;
-    max-width: 25ch;
+    max-width: 44ch;
 
     text-overflow: ellipsis;
     white-space: pre;
