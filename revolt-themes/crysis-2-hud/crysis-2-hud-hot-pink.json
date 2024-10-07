@@ -26,7 +26,7 @@
 	"status-streaming": "rgb(145, 71, 255)",
 	"status-invisible": "rgb(127,127,127)",
 	"light": false,
-	"css": "@import url(https://stevencaior.github.io/revolt_themes/crysis2Hud/crysis2Hud_prettyInPink/crysis2Hud_prettyInPink.css);",
+	"css": "@import url(https://stevencaior.github.io/revolt-themes/crysis-2-hud/crysis-2-hud-hot-pink.css);",
 	"font": "Roboto",
 	"monospaceFont": "JetBrains Mono"
 }
