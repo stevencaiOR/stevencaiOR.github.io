@@ -1,5 +1,5 @@
 [class*="spoilerAttachment_"][class*="hiddenSpoiler_"],
-.spoiler-_2cX4d,
+.spoiler_f847a3,
 [class*="obscured_"][class*="hiddenAttachment_"],
 [class*="spoilerEmbed_"][class*="hiddenSpoiler_"] [class*="grid_"]{
     filter: blur(30px);
@@ -11,12 +11,12 @@
 	--__current--spoiler-warning-text-color: var(--__spoiler-warning-text-color);
 	--__current--spoiler-warning-background-color: var(--__spoiler-warning-background-color);
 }
-[class*="spoilerContent_"][class*="hidden_"]:hover .obscureWarning-2jkWgh,
-[class*="spoilerContent_"][class*="hidden_"]:hover .spoilerWarning-1JN1Ot{
+[class*="spoilerContent_"][class*="hidden_"]:hover .obscureWarning_aa9639,
+[class*="spoilerContent_"][class*="hidden_"]:hover .spoilerWarning_aa9639{
     opacity: 0.3;
 }
 [class*="spoilerContent_"][class*="hidden_"]:hover [class*="spoilerAttachment_"][class*="hiddenSpoiler_"],
-[class*="spoilerContent_"][class*="hidden_"]:hover .spoiler-_2cX4d,
+[class*="spoilerContent_"][class*="hidden_"]:hover .spoiler_f847a3,
 [class*="spoilerContent_"][class*="hidden_"]:hover [class*="obscured_"][class*="hiddenAttachment_"] ,
 [class*="spoilerContent_"][class*="hidden_"]:hover [class*="spoilerEmbed_"][class*="hiddenSpoiler_"] [class*="grid_"]{
     filter: blur(18px);

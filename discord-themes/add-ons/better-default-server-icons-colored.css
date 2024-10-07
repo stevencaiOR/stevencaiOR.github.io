@@ -8,26 +8,26 @@
 ^^^ Put this in your theme file
 */
 
-foreignObject:has(.wrapper_d281dd[data-list-item-id$="0"] .acronym_cd4809),
-foreignObject:has(.wrapper_d281dd[data-list-item-id$="5"] .acronym_cd4809){
+foreignObject:has(.wrapper__8436d[data-list-item-id$="0"] .acronym_fb7739),
+foreignObject:has(.wrapper__8436d[data-list-item-id$="5"] .acronym_fb7739){
     color: #5865f2;
 }
-foreignObject:has(.wrapper_d281dd[data-list-item-id$="1"] .acronym_cd4809),
-foreignObject:has(.wrapper_d281dd[data-list-item-id$="6"] .acronym_cd4809){
+foreignObject:has(.wrapper__8436d[data-list-item-id$="1"] .acronym_fb7739),
+foreignObject:has(.wrapper__8436d[data-list-item-id$="6"] .acronym_fb7739){
     color: #3ba55c;
 }
-foreignObject:has(.wrapper_d281dd[data-list-item-id$="2"] .acronym_cd4809),
-foreignObject:has(.wrapper_d281dd[data-list-item-id$="7"] .acronym_cd4809){
+foreignObject:has(.wrapper__8436d[data-list-item-id$="2"] .acronym_fb7739),
+foreignObject:has(.wrapper__8436d[data-list-item-id$="7"] .acronym_fb7739){
     color: #757e8a;
 }
-foreignObject:has(.wrapper_d281dd[data-list-item-id$="3"] .acronym_cd4809),
-foreignObject:has(.wrapper_d281dd[data-list-item-id$="8"] .acronym_cd4809){
+foreignObject:has(.wrapper__8436d[data-list-item-id$="3"] .acronym_fb7739),
+foreignObject:has(.wrapper__8436d[data-list-item-id$="8"] .acronym_fb7739){
     color: #ed4245;
 }
-foreignObject:has(.wrapper_d281dd[data-list-item-id$="4"] .acronym_cd4809),
-foreignObject:has(.wrapper_d281dd[data-list-item-id$="9"] .acronym_cd4809){
+foreignObject:has(.wrapper__8436d[data-list-item-id$="4"] .acronym_fb7739),
+foreignObject:has(.wrapper__8436d[data-list-item-id$="9"] .acronym_fb7739){
     color: #faa61a;
 }
-.wrapper_d281dd:has(.acronym_cd4809){
+.wrapper__8436d:has(.acronym_fb7739){
     background: currentColor;
 }

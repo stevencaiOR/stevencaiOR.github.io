@@ -39,7 +39,7 @@
     display: flex;
     justify-content: center;
 }
-#account .submenuPaddingContainer-_k62dJ .menu-1QACrS[aria-activedescendant^="account-status-picker"]{
+#account .submenuPaddingContainer-_k62dJ .menu_d90b3d[aria-activedescendant^="account-status-picker"]{
     background: var(--status-picker-bg-color);
 }
 #account-status-picker--online.focused-3qFvc8  .status-2DiCMd,

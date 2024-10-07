@@ -11,17 +11,17 @@ If you are not using a theme that inherently changes the color scheme of Discord
     margin-bottom: 10px;
 }
 .peopleListItem_u6dGxF,
-.peopleListItem_u6dGxF.active-2UF8Zh,
+.peopleListItem_u6dGxF.active_d51464,
 .peopleListItem_u6dGxF:hover{
     margin-right: 0;
 }
 .peopleListItem_u6dGxF:nth-child(2n),
-.peopleListItem_u6dGxF:nth-child(2n).active-2UF8Zh,
+.peopleListItem_u6dGxF:nth-child(2n).active_d51464,
 .peopleListItem_u6dGxF:nth-child(2n):hover{
     margin-left: 30px;
 }
 .peopleListItem_u6dGxF:nth-child(2n+1),
-.peopleListItem_u6dGxF:nth-child(2n+1).active-2UF8Zh,
+.peopleListItem_u6dGxF:nth-child(2n+1).active_d51464,
 .peopleListItem_u6dGxF:nth-child(2n+1):hover{
     margin-left: 20px;
 }
