@@ -1,0 +1,16 @@
+.item_c4cd66{
+	-webkit-mask-image: url(https://raw.githubusercontent.com/artcoholic/akar-icons/a88023a51bfc3cb86c3bbb3db8fce39b1a58729b/src/svg/hexagon.svg);
+	-webkit-mask-size: 100%;
+	
+	height: 30px !important;
+	width: 30px;
+	
+	margin-left: 0;
+	left: -21px;
+}
+.item_c4cd66:not([style*="height: 8px"]){
+	-webkit-mask-image: url(https://raw.githubusercontent.com/artcoholic/akar-icons/a88023a51bfc3cb86c3bbb3db8fce39b1a58729b/src/svg/hexagon-fill.svg);
+}
+.item_c4cd66[style*="height: 40px"]{
+	transform: scaleY(2) !important;
+}
