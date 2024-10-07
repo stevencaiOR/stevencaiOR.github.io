@@ -1440,6 +1440,9 @@ img[alt*="wumpus" i],
 .toast_f42767{
     background: var(--primary-700);
 }
+[class*="dotBorderBase_"]{
+	fill: var(--primary-130);
+}
 .searchBar_e0840f{ /* role serach bar in server settings, shared with friends tab*/
 	background: var(--input-background);
 }
