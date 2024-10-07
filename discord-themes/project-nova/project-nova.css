@@ -1721,6 +1721,34 @@ button.button_adca65.enabled_adca65:hover{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+[aria-label="User area"] button svg{
+    display: none;
+}
+[aria-label="User area"] button :has(> svg){
+	-webkit-mask-size: cover;
+	background: var(--accent);
+}
+[aria-label="User area"] button [style*="var(--status-danger)"]:has(> svg) {
+	background: var(--status-danger);
+}
+[aria-label="User area"] button:hover :has(> svg) {
+	background: var(--accent-contrast);
+}
+[aria-label="User area"] button[aria-label="Mute"] :has(> svg){
+	-webkit-mask-image: url(https://api.iconify.design/mdi/microphone.svg);
+}
+[aria-label="User area"] button[aria-label="Mute"] [style*="var(--status-danger)"]:has(> svg) {
+	-webkit-mask-image: url(https://api.iconify.design/mdi/microphone-off.svg);
+}
+[aria-label="User area"] button[aria-label="Deafen"] :has(> svg){
+	-webkit-mask-image: url(https://api.iconify.design/mdi/headphones.svg);
+}
+[aria-label="User area"] button[aria-label="Deafen"] [style*="var(--status-danger)"]:has(> svg){
+	-webkit-mask-image: url(https://api.iconify.design/mdi/headphones-off.svg);
+}
+[aria-label="User area"] button[aria-label="User Settings"] :has(> svg){
+	-webkit-mask-image: url(https://api.iconify.design/mdi/cog.svg);
+}
 /* VOICE PANEL */
 .container_adcaac{
     background: none;
