@@ -103,6 +103,10 @@ nav[aria-label="Servers sidebar"]:has(+* .container_adcaac){
     right: 0;
     width: calc(var(--channels-width) + var(--server-sidebar-width) + 10px);
 }
+[class*="accountProfilePopoutWrapper_"]{
+    /*user area profile popout*/
+    left: 0;
+}
 .container_b2ca13{
     justify-content: space-between; /* spacing between user info and buttons */
 }
