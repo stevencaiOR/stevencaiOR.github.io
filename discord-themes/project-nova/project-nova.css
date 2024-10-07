@@ -1944,6 +1944,9 @@ button.button_adca65.enabled_adca65:hover{
 [class*="mainCard_"]{
     background: var(--input-background);
 }
+.container_a6d69a{
+	background: #00f0;
+}
 /*-----EXPRESSION PICKER-----*/
 .contentWrapper_af5dbb{
     background: var(--background-floating);
