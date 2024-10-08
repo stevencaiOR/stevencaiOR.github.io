@@ -1409,7 +1409,6 @@ rect[mask="url(#svg-mask-status-offline)"]{
 [class*="emptyimage-" i],
 [class*="emptystateimage-" i],
 [class*="errorStateIcon_"], /*Group DM modal error state icon (not friends and trying to make group DM)*/
-.footerImage_fab929,
 [class*="guildBoostGemWrapper_"],
 [class*="heroBanner-" i],
 [class*="howItWorksImage_"],
@@ -1431,12 +1430,8 @@ img[alt*="mallow" i],
 img[alt*="graggle" i],
 img[alt*="sparkle"],
 img[alt*="wumpus" i],
-/* specific assets below */
-[src*="/assets/47f29fcff307e852553b.svg"],
-[style*="/assets/4a0bbd7108c55228c0a7.svg"],
-[style*="/assets/a72746e7108167af95c8.svg"],
-[style*="/assets/db947193d549bd45c3a3.svg"],
-[style*="/assets/01864c39871ce619d855.svg"]{
+/* specific assets below (MUST HAVE AT LEAST 1 LOCATION) */
+[style*="/assets/1248c5404ae1ad9c1e18.svg"]/*emoji settings of a server with no emojis*/{
     display: none !important;
 }
 /*-----MISCELLANEOUS-----*/
