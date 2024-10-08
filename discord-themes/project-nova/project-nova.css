@@ -1655,19 +1655,19 @@ img[alt*="wumpus" i],
 	background-image: none;
 }
 .icon_f82819.active_f82819.apple_f82819{
-	-webkit-mask-image: url(/assets/543331b4d79877bce75c.svg);
+	-webkit-mask-image: url(https://discord.com/assets/543331b4d79877bce75c.svg);
 }
 .icon_f82819.active_f82819.windows_f82819{
-	-webkit-mask-image: url(/assets/37e23bfcc73c946c7742.svg);
+	-webkit-mask-image: url(https://discord.com/assets/37e23bfcc73c946c7742.svg);
 }
 .icon_f82819.active_f82819[class*="linux_"]{
-	-webkit-mask-image: url(/assets/cd9c4c5c8b0630e34c34.svg);
+	-webkit-mask-image: url(https://discord.com/assets/cd9c4c5c8b0630e34c34.svg);
 }
 .icon_f82819.active_f82819[class*="ios_"]{
-	-webkit-mask-image: url(/assets/1bf35dbca4be747e6f1d.svg);
+	-webkit-mask-image: url(https://discord.com/assets/1bf35dbca4be747e6f1d.svg);
 }
 .icon_f82819.active_f82819[class*="android_"]{
-	-webkit-mask-image: url(/assets/8cb0243cca07ceea4c6f.svg);
+	-webkit-mask-image: url(https://discord.com/assets/8cb0243cca07ceea4c6f.svg);
 }
 /*-----USER MENTION WRAPPER-----*/
 .interactive:hover{
