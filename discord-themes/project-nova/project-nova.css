@@ -1434,6 +1434,13 @@ img[alt*="wumpus" i],
 [style*="/assets/1248c5404ae1ad9c1e18.svg"]/*emoji settings of a server with no emojis*/{
     display: none !important;
 }
+/* Student hub banner replacement in discovery */
+[src="/assets/0fe043cd8ae1ba7aaec9.svg"]{
+	display: none;
+}
+:has(> [src="/assets/0fe043cd8ae1ba7aaec9.svg"]){
+	background: #808aff;
+}
 /*-----MISCELLANEOUS-----*/
 .toast_f42767{
     background: var(--primary-700);
