@@ -1715,7 +1715,9 @@ button.button_adca65.enabled_adca65:hover{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-[aria-label="User area"] button:hover :has(> svg) {
+[aria-label="User area"] button[aria-label="User Settings"]:hover :has(> svg),
+[aria-label="User area"] button[aria-label="Mute"]:hover :has(> svg),
+[aria-label="User area"] button[aria-label="Deafen"]:hover :has(> svg) {
 	background: var(--accent-contrast);
 }
 /* VOICE PANEL */
