@@ -9,14 +9,16 @@
   > Idle - #FAA61A
   > Do not disturb - #982929
 
-  If you are NOT using CV but still have custom status colors, add the following to your theme file: 
+  If you are NOT using CV or one of my themes but still have custom status colors,
+  add the following to your theme file: 
   :root{
     --online-color: your online color;
     --idle-color: your idle color;
     --dnd-color: your dnd color;
   }
 
-  Note: although I am not affiliated with ClearVision in any way, this is made to be compatible with any ClearVision
+  Note: although I am not affiliated with ClearVision in any way,this is made to
+  be compatible with any ClearVision
 */
 
 .PI-indicatorContainer > div[aria-label*="Online" i] > svg {
