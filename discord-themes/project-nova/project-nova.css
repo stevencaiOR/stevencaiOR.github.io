@@ -1508,6 +1508,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
     vertical-align: middle;
 }
 .badges-everywhere,
+.vc-platform-indicator,
 .platform-indicators{
     vertical-align: middle;
 }
