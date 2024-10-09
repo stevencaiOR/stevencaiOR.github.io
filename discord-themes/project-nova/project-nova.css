@@ -1455,7 +1455,8 @@ img[alt*="graggle" i],
 img[alt*="sparkle"],
 img[alt*="wumpus" i],
 /* specific assets below (MUST HAVE AT LEAST 1 LOCATION) */
-[style*="/assets/1248c5404ae1ad9c1e18.svg"]/*emoji settings of a server with no emojis*/{
+[style*="/assets/1248c5404ae1ad9c1e18.svg"] /*emoji settings of a server with no emojis*/,
+[style*="/assets/04e2c9489e75f5614205.svg"] /*claimed quests in discovery*/{
     display: none !important;
 }
 /* Student hub banner replacement in discovery */
