@@ -604,7 +604,7 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 	visibility: hidden;
 }
 /* SEND BUTTON */
-:root button:hover[class*="button_"] [class*="activeButtonChild_"]{
+.theme-dark [class*="button_"]:hover [class*="activeButtonChild_"]{
     color: var(--accent-2);
 }
 /* COLOR REPLACEMENTS */
