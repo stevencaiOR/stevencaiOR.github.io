@@ -245,6 +245,8 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 [class*="expandedFolderBackground_"]{
     background: rgb(255,255,255,.1);
 }
+.wrapper_fea3ef,
+.footer_aa1bff,
 [class*="folder_"]{
     background: #00f0;
 }
@@ -356,6 +358,12 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     color: var(--accent-2);
 }
 /*-----FRIENDS TAB-----*/
+.container_c2739c,
+/* top bar */
+.theme-dark .themed_fc4f04,
+.theme-light .themed_fc4f0{
+	background: #00f0;
+}
 [class*="peopleListItem_"].active_d51464,
 [class*="peopleListItem_"]:hover{
     background: hsl(var(--accent-hsl) / .2);
@@ -397,7 +405,9 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     content:"No blocked users";
 }
 /* NOW PLAYING COLUMN */
-[class*="nowPlayingColumn_"]{
+[class*="nowPlayingColumn_"],
+.container_bf550a,
+[class*="emptyCard_"]{
     background: #00f0;
 }
 [class*="nowPlayingColumn_"] [class*="emptyCard_"] [class*="emptyText_"]{
@@ -422,6 +432,10 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 }
 :root .inset_ac5d22{
     background: none;
+}
+/*-----FAMILY CENTER TAB-----*/
+[class*="containerSidenav_"]{
+	background: #00f0;
 }
 /*-----USER POPOUTS + MODALS-----*/
 [class*="userProfileInnerThemedNonPremium_"]{
@@ -764,6 +778,10 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 [class*="sidebarRegion_"]+[class*="contentRegion_"]{
     max-width: calc(100% - var(--setting-sidebar-width));
 }
+[class*="contentRegion_"],
+[class*="contentRegionScroller_"],
+.layer_d4b6c5,
+[class*="standardSidebarView_"],
 [class*="sidebarRegionScroller_"]{
     background: #00f0;
 }
@@ -1496,6 +1514,23 @@ img[alt*="wumpus" i],
     background: var(--input-background);
     border-width: 2px;
     box-shadow: none;
+}
+/*discovery section*/
+.backdrop_accde0,
+.scroller_b91a2d{
+	background: #00f0;
+}
+/* GENERAL APP */
+.app_a01fb1{
+	background: #00f0;
+}
+[class*="bg_"]{
+	background: #00f0;
+}
+/* CHAT */
+.chat_a7d72e,
+[class*="chatContent_"]{
+	background: #00f0;
 }
 /* MESSAGE CONTEXT MENU */
 #message [class*="button_"]:hover{
