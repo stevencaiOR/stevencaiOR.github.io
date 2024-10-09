@@ -1252,7 +1252,7 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     }
 }
 /* REGISTERED GAMES */
-:root [class*="addGamePopout_"]{
+[class*="addGamePopout_"]{
     background: #101010;
 }
 /*-----STATUS COLORS-----*/
