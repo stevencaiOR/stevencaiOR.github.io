@@ -123,6 +123,7 @@
     --popout-background: linear-gradient(var(--popout-color-top), var(--popout-top-percent), var(--popout-color-bottom));
 
     /* Discord Vars */
+    --autocomplete-bg: var(--background-floating);
     --background-mentioned: hsl(var(--accent-hsl) / .2);
     --background-mentioned-hover:  hsl(var(--accent-hsl) / .14);
     --background-mobile-primary:#101010;
@@ -608,8 +609,7 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     color: var(--accent-2);
 }
 /* COLOR REPLACEMENTS */
-[class*="jumpToPresentBar_"],
-:root [class*="autocomplete_"] {
+[class*="jumpToPresentBar_"]{
     background: var(--background-floating);
 }
 /* REPLY BAR */
