@@ -1560,6 +1560,9 @@ img[alt*="wumpus" i],
 [class*="botTagRegular_"]{
 	color: var(--accent-contrast);
 }
+[class*="botTagRegular_"] path{
+    fill: currentColor
+}
 [class*="botTagInvert_"]{
 	background: var(--accent-contrast);
 }
