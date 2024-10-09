@@ -209,6 +209,7 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 .inset_ac5d22,
 [class*="nowPlayingColumn_"],
 [class*="paginator_"],
+[class*="payment_"],
 .sidebar_a4d4d9,
 [class*="sidebarRegionScroller_"]{
     background: #00f0;
@@ -1161,9 +1162,6 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><text x='10' y='25' fill='rgb(255,255,255,0.3)' font-family='Consolas' font-size='16'>****-*****-*****-*****</text></svg>");
 }
 /* BILLING */
-:root [class*="payment_"]{
-    background: none
-}
 :root .expandedInfo_a28a08{
     background: rgb(0,0,0,.3);
 }
