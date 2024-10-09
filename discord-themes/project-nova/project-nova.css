@@ -126,8 +126,6 @@
     --background-mentioned: hsl(var(--accent-hsl) / .2);
     --background-mentioned-hover:  hsl(var(--accent-hsl) / .14);
     --background-mobile-primary:#101010;
-    --background-primary: #00f0;
-    --background-tertiary: #00f0; /*default: var(--primary-700) (same as --input-background)*/
     --channel-icon: var(--channels-default);
     --channeltextarea-background: rgb(0,0,0,.3);
     /**--channels-default: hsl(var(--accent-hsl) / .7);/**/
@@ -589,9 +587,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 }
 .reaction_f61c73{
     background: hsl(var(--primary-330-hsl) / .1);
-}
-.reaction_ec6b19:hover{
-    background: var(--primary-600);
 }
 .container_d6cb89:not(.playing_d6cb89) .playButtonContainer_d6cb89 .playIcon_d6cb89{
     color: var(--accent-contrast)
@@ -1442,9 +1437,6 @@ img[alt*="wumpus" i],
 	background: #808aff;
 }
 /*-----MISCELLANEOUS-----*/
-.toast_f42767{
-    background: var(--primary-700);
-}
 [class*="dotBorderBase_"]{
 	fill: var(--primary-130);
 }
@@ -1505,11 +1497,6 @@ img[alt*="wumpus" i],
     border-width: 2px;
     box-shadow: none;
 }
-/* EMBEDS */
-[class*="embedFull_"]{
-    border-color: var(--primary-700);
-    background: rgb(0,0,0,.5);
-}
 /* MESSAGE CONTEXT MENU */
 #message [class*="button_"]:hover{
     transform: scale(1.2);
@@ -1546,10 +1533,6 @@ img[alt*="wumpus" i],
 	background: var(--accent-contrast);
 }
 /*-----MISCELLANEOUS MODALS-----*/
-/* REACTIONS MODAL */
-.container_f2bfbb{
-    background: var(--primary-700);
-}
 /* CREATE YOUR SERVER MODAL */
 .icon_a47d49{
     display: none;
