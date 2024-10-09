@@ -274,24 +274,22 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 /*-----UNREAD BUTTONS-----*/
 .mention_edf32f /*NEW, NEW MENTIONS*/,
 .unread_edf32f /*NEW UNREAD(S) (in channel list only?)*/,
-.bar_edf32f /*unsure what this is*/{
+.bar_eba0ba /*NEW MENTION*/{
     opacity: 1;
 }
+.mentionsBar_eba0ba /*NEW MENTION*/,
 .mention_edf32f,
 .mention_edf32f:active,
-.unread_edf32f, 
-.bar_edf32f{
+.unread_edf32f{
     background: var(--accent);
 }
+.mentionsBar_eba0ba [style*="color:"] /*needs !important*/,
 .mention_edf32f,
-.unread_edf32f,
-.bar_edf32f .unreadIcon_eba0ba,
-.bar_edf32f [style*="color:"]/*only this one needs !important*/{
+.unread_edf32f{
     color: var(--accent-contrast) !important;
 }
 .mention_edf32f:hover,
-.unread_edf32f:hover,
-.bar_edf32f:hover{
+.unread_edf32f:hover{
     background: var(--accent-2);
 }
 /*-----SERVER BAR-----*/
