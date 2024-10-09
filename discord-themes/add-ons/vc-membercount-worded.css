@@ -1,0 +1,33 @@
+/*
+Paste the following code at the top of your CSS file (below imports) for custom colors
+
+:root{
+	--online-color: your color here;
+	--offline-color: your color here;
+}
+*/
+
+.vc-membercount-widget{
+    font-weight: 500;
+
+    flex-wrap: wrap;
+    column-gap: 1em;
+    row-gap: .5em;
+
+	--color-online: var(--online-color, var(--green-360));
+	--color-total: var(--offline-color, var(--primary-400))
+}
+.vc-membercount-widget [aria-label*="total" i] :first-child{
+    margin-left: 0;
+}
+.vc-membercount-widget [aria-label*="online" i]:after{
+	color: var(--color-online);
+    content: " online";
+}
+.vc-membercount-widget [aria-label*="total" i]:after{
+	color: var(--color-total);
+    content: " members";
+}
+.vc-membercount-widget [aria-label^="1 total" i]:after{
+    content: " member";
+}
