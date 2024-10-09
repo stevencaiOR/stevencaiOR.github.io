@@ -1973,7 +1973,7 @@ button.button_adca65.enabled_adca65:hover{
 }
 /*-----APP DIRECTORY PAGE-----*/
 /*yes... this dumb thing*/
-:root [class*="directoryContainer_"]{
+[class*="directoryContainer_"]{
     background: none;
 }
 /*-----COMMUNITY PAGES-----*/
