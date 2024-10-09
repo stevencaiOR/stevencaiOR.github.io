@@ -1382,9 +1382,9 @@ rect[mask="url(#svg-mask-status-offline)"]{
     border-radius: 8px;
     width: 300px; /*default: 144px*/
 }
-:root [class*="searchAnswer_"],
-:root [class*="searchFilter_"]{
-    background: var(--accent);
+[class*="searchAnswer_"],
+[class*="searchFilter_"]{
+    background-color: var(--accent);
     color: var(--accent-contrast);
 }
 [class*="searchFilter_"]{
