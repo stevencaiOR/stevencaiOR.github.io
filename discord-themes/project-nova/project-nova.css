@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap);
 @import url(https://stevencaior.github.io/discord-themes/project-nova/forever-dark.css);
 @import url(https://stevencaior.github.io/discord-themes/add-ons/platform-indicator-support.css);
+@import url(https://stevencaior.github.io/discord-themes/add-ons/dumb-art-purge.css);
 
 :root,
 :root:lang(el),
@@ -1422,50 +1423,6 @@ rect[mask="url(#svg-mask-status-offline)"]{
 }
 .button_ddc613:hover{
     background: var(--accent-2);
-}
-/*-----ANTI DUMB SHIT (work in progress)-----*/
-[class*="activitycharacter" i],
-[class^="art_"],
-[class*="artcontainer" i],
-[class*="bannerArt_"],
-.bannerImage_fc867b /*quests section of discovery*/,
-[class*="backgroundImages_"],
-[class*="bigperkart" i],
-[class*="bottomIllustration_"],
-[class*="confetti" i],
-[class*="emptyimage-" i],
-[class*="emptystateimage-" i],
-[class*="errorStateIcon_"], /*Group DM modal error state icon (not friends and trying to make group DM)*/
-[class*="guildBoostGemWrapper_"],
-[class*="heroBanner-" i],
-[class*="howItWorksImage_"],
-.image_b12c98,
-[class*="noResultsImage_"],
-[class*="perkNewsletter_"],
-[class*="perkBadge_"],
-[class*="perkChallenges_"],
-[class*="perkpreviewimage-" i],
-[class*="perkscardart" i],
-[class*="reactionInner_"][aria-label*="super react"],
-img[class*="roleSubscription"],
-[class*="sparkle_"], /* a sparkleContainer_ class is used for user settings -> profiles -> profile theme*/
-[class*="stars" i],
-[class*="upsellImage_"],
-[class*="wumpus" i],
-img[alt*="clyde" i],
-img[alt*="mallow" i],
-img[alt*="graggle" i],
-img[alt*="sparkle"],
-img[alt*="wumpus" i],
-/* specific assets below (MUST HAVE AT LEAST 1 LOCATION) */
-[style*="/assets/1248c5404ae1ad9c1e18.svg"] /*emoji settings of a server with no emojis*/,
-[style*="/assets/04e2c9489e75f5614205.svg"] /*claimed quests in discovery*/,
-[src="/assets/8cb07feb11b94688667c.svg"] /*dumb logs when no family member connected in family center*/,
-[src="/assets/0fe043cd8ae1ba7aaec9.svg"] /* Student hub banner replacement in discovery */{
-    display: none !important;
-}
-:has(> [src="/assets/0fe043cd8ae1ba7aaec9.svg"]){
-	background: #808aff;
 }
 /*-----MISCELLANEOUS-----*/
 [class*="dotBorderBase_"]{
