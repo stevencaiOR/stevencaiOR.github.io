@@ -1476,6 +1476,10 @@ img[alt*="wumpus" i],
 .searchBar_e0840f{ /* role serach bar in server settings, shared with friends tab*/
 	background: var(--input-background);
 }
+[style*="background-color: var(--brand-500)"] path{
+    /*checkbox in accessibility*/
+	fill: var(--accent-contrast)
+}
 [fill="#5865f2"]{
     /* Customize your server modal */
     fill: var(--accent);
