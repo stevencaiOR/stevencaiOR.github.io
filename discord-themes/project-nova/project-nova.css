@@ -1568,6 +1568,9 @@ img[alt*="wumpus" i],
 }
 /*-----MISCELLANEOUS MODALS-----*/
 /* CREATE YOUR SERVER MODAL */
+.container_a47d49 /*template buttons*/{
+    border-width: 2.5px;
+}
 .icon_a47d49{
     display: none;
 }
