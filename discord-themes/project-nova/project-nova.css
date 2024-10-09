@@ -1162,7 +1162,7 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><text x='10' y='25' fill='rgb(255,255,255,0.3)' font-family='Consolas' font-size='16'>****-*****-*****-*****</text></svg>");
 }
 /* BILLING */
-:root .expandedInfo_a28a08{
+.expandedInfo_a28a08{
     background: rgb(0,0,0,.3);
 }
 #billing-tab [class*="codeRedemptionRedirect_"]{
