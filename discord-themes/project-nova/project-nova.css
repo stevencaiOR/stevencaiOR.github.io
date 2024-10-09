@@ -1153,6 +1153,7 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     display: none;
 }
 /* GIFT INVENTORY */
+.emptyStateImage_e8af36,
 #library-inventory-tab [class*="emptyStateSubtext_"]{
     display: none;
 }
