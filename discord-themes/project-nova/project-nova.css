@@ -1956,6 +1956,8 @@ button.button_adca65.enabled_adca65:hover{
     border-color: currentColor;
 }
 /*-----DISCOVER PAGE-----*/
+.theme-dark .bannerContainer_fc867b,
+.theme-light .bannerGradient_fc867b,
 .theme-dark .gradientOverlay_b97772,
 .theme-light .gradientOverlay_b97772,
 .theme-dark .gradient_b97772,
