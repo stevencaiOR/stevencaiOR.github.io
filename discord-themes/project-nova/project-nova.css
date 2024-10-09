@@ -276,15 +276,18 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 /*-----UNREAD BUTTONS-----*/
 .mention_edf32f /*NEW, NEW MENTIONS*/,
 .unread_edf32f /*NEW UNREAD(S) (in channel list only?)*/,
-.bar_eba0ba /*NEW MENTION*/{
+.bar_eba0ba /*NEW MENTION, NEW UNREADS*/{
     opacity: 1;
 }
+.bar_eba0ba,
 .mentionsBar_eba0ba /*NEW MENTION*/,
 .mention_edf32f,
 .mention_edf32f:active,
 .unread_edf32f{
     background: var(--accent);
 }
+.bar_eba0ba .unreadIcon_eba0ba,
+.bar_eba0ba [style^="color:"],
 .mentionsBar_eba0ba [style*="color:"] /*needs !important*/,
 .mention_edf32f,
 .unread_edf32f{
