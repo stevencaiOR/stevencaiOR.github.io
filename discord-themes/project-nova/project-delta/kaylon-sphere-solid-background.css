@@ -1,0 +1,17 @@
+@import url(https://stevencaior.github.io/discord-themes/project-nova/project-delta/project-delta.css);
+
+.theme-amoled,
+.theme-dark,
+.theme-darker,
+.theme-light{
+    --accent-hue: 355;
+    --accent-saturation-base: 100%;
+	--accent-saturation-coefficient: 1;
+    --accent-lightness-base: 45%;
+    --accent-lightness-coefficient: .7;
+    --accent-contrast: #000;
+
+    --background-image: rgb(16, 16, 16);
+
+	--watermark: "";
+}
