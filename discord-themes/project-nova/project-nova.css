@@ -691,6 +691,10 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     content: "Below are some steps to help you get this server started.";
     display: block;
 }
+.checkmark_f9902b /*checkmark in new server checklist*/{
+	background: var(--accent);
+	color: var(--accent-contrast);
+}
 [class*="cardWrapper_"] .icon_f9902b{
     background: var(--accent) !important;
     -webkit-mask-position: center;
