@@ -206,6 +206,7 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 /* BACKGROUND SECONDARY */
 [class*="folder_"],
 .sidebar_a4d4d9,
+.inset_ac5d22,
 [class*="nowPlayingColumn_"],
 [class*="sidebarRegionScroller_"],
 [class*="fieldList_"]{
@@ -462,9 +463,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 /* Item Cards */
 .wrapper_cd82a7{
     border: none;
-}
-:root .inset_ac5d22{
-    background: none;
 }
 /*-----USER POPOUTS + MODALS-----*/
 [class*="userProfileInnerThemedNonPremium_"]{
