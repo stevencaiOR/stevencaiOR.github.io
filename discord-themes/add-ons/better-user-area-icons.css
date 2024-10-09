@@ -1,7 +1,3 @@
-:root{
-	--user-area-icon-color: var(--interactive-normal);
-	--user-area-icon-color-hover: var(--interactive-hover);
-}
 [aria-label="User area"] button[aria-label="User Settings"] svg,
 [aria-label="User area"] button[aria-label="Mute"] svg,
 [aria-label="User area"] button[aria-label="Deafen"] svg{
@@ -11,12 +7,12 @@
 [aria-label="User area"] button[aria-label="Mute"] :has(> svg),
 [aria-label="User area"] button[aria-label="Deafen"] :has(> svg){
 	-webkit-mask-size: cover;
-	background: var(--user-area-icon-color);
+	background: var(--user-area-icon-color, var(--interactive-normal));
 }
 [aria-label="User area"] button[aria-label="User Settings"]:hover :has(> svg),
 [aria-label="User area"] button[aria-label="Mute"]:hover :has(> svg),
 [aria-label="User area"] button[aria-label="Deafen"]:hover :has(> svg){
-	background: var(--user-area-icon-color-hover);
+	background: var(--user-area-icon-color-hover, var(--interactive-hover));
 }
 [aria-label="User area"] button [style*="--status-danger"]:has(> svg),
 [aria-label="User area"] button:hover [style*="--status-danger"]:has(> svg) {
