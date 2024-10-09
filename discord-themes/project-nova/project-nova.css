@@ -1428,6 +1428,7 @@ rect[mask="url(#svg-mask-status-offline)"]{
 [class^="art_"],
 [class*="artcontainer" i],
 [class*="bannerArt_"],
+.bannerImage_fc867b /*quests section of discovery*/,
 [class*="backgroundImages_"],
 [class*="bigperkart" i],
 [class*="bottomIllustration_"],
@@ -1459,12 +1460,9 @@ img[alt*="wumpus" i],
 /* specific assets below (MUST HAVE AT LEAST 1 LOCATION) */
 [style*="/assets/1248c5404ae1ad9c1e18.svg"] /*emoji settings of a server with no emojis*/,
 [style*="/assets/04e2c9489e75f5614205.svg"] /*claimed quests in discovery*/,
-.bannerImage_fc867b /*quests section of discovery*/{
+[src="/assets/8cb07feb11b94688667c.svg"] /*dumb logs when no family member connected in family center*/,
+[src="/assets/0fe043cd8ae1ba7aaec9.svg"] /* Student hub banner replacement in discovery */{
     display: none !important;
-}
-/* Student hub banner replacement in discovery */
-[src="/assets/0fe043cd8ae1ba7aaec9.svg"]{
-	display: none;
 }
 :has(> [src="/assets/0fe043cd8ae1ba7aaec9.svg"]){
 	background: #808aff;
