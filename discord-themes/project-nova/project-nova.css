@@ -1970,45 +1970,6 @@ button.button_adca65.enabled_adca65:hover{
     }
 }
 /* PLUGINS */
-/* Member Count */
-#vc-membercount{
-    font-weight: 500;
-
-    flex-wrap: wrap;
-    column-gap: 1em !important;
-    row-gap: .5em !important;
-}
-#vc-membercount [aria-label*="total" i] :first-child{
-    margin-left: 0 !important;
-}
-#vc-membercount [aria-label*="online" i],
-#vc-membercount [style*="background-color: var(--green-360"],
-#vc-membercount [style^="color: var(--green-360"]{
-    color: var(--online-color, var(--green-360)) !important; /* !important only for last selector */
-}
-#vc-membercount [style*="background-color: var(--green-360"]{
-    background: currentColor !important;
-}
-#vc-membercount [aria-label*="online" i]:after{
-    content: " online";
-}
-#vc-membercount [aria-label*="total" i],
-#vc-membercount [style*="border: 3px solid var(--primary-400"],
-#vc-membercount [style^="color: var(--primary-400"]{
-    color: var(--offline-color, var(--primary-400)) !important; /* !important only for last selector */
-}
-#vc-membercount [style*="border: 3px solid var(--primary-400"]{
-    border-color: currentColor !important;
-}
-#vc-membercount [style*="margin-left:"]{
-    margin-left: 0 !important;
-}
-#vc-membercount [aria-label*="total" i]:after{
-    content: " members";
-}
-#vc-membercount [aria-label^="1 total" i]:after{
-    content: " member";
-}
 /* Toolbox */
 .vc-toolbox-btn{
     -webkit-mask: url(https://api.iconify.design/fluent/toolbox-24-filled.svg) center / contain no-repeat;
