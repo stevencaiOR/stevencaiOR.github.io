@@ -1756,11 +1756,11 @@ button.button_adca65.enabled_adca65:hover{
     background: var(--accent);
 }
 [class*="colorDefault_"][class*="focused_"],
-[class*="colorDefault_"][class*="focused_"] [class*="userMenuUsername_"] [class*="userMenuDiscriminator_"],
-[class*="colorDefault_"][class*="focused_"] [class*="userMenuUsername_"] [class*="userMenuText_"]{
+[class*="focused_"] [class*="userMenuUsername_"] [class*="userMenuDiscriminator_"],
+[class*="focused_"] [class*="userMenuUsername_"] [class*="userMenuText_"]{
     color: var(--accent-contrast);
 }
-[class*="colorDefault_"] [fill*="var(--white-500)"]{
+[class*="colorDefault_"][class*="focused_"] path{
     fill: var(--accent-contrast);
 }
 /*-----STUDENT HUB-----*/
