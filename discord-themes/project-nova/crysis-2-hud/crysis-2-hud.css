@@ -92,11 +92,11 @@
 	display: none;
 }
 /* Text replacement */
-.verification_cdbc7c .body_cdbc7c {
+[class*="verification_"] .body_cdbc7c {
     line-height: 0;
     text-indent: -9999px
 }
-.verification_cdbc7c .body_cdbc7c:after{
+[class*="verification_"] .body_cdbc7c:after{
 	content: "Unidentified suit wearer. Please start the authentication process by selecting the button below and entering your mobile device number.";
 	display: block;
 	line-height: 1.5;
