@@ -1,6 +1,6 @@
 /* This sets your theme to Discord default dark regardless of what you have chosen.
    This is primarily for color standardization for Project Nova. */
-.theme-amoled,
+.theme-midnight,
 .theme-darker,
 .theme-light
 {
@@ -397,7 +397,7 @@
 	--__spoiler-container-box-shadow-color: hsl(var(--black-500-hsl) / 0.1);
 }
 @supports(color:color-mix(in lch, red, blue))and (top:var(--f)) {
-	.theme-amoled,
+	.theme-midnight,
 	.theme-darker,
 	.theme-light {
 	  --action-sheet-gradient-bg: color-mix(in oklab,
