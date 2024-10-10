@@ -1908,6 +1908,9 @@ button.button_adca65.enabled_adca65:hover{
 	background: #00f0;
 }
 /*-----FORUM-----*/
+.container_a6d69a{
+	background: #00f0; /*default: var(--bg-overlay-chat,var(--bg-base-primary))*/
+}
 [class*="mainCard_"]{
     background: var(--input-background);
 }
