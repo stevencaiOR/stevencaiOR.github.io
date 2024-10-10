@@ -1,13 +1,11 @@
 [aria-label="Select emoji"] [class*="contents_"]{
+	-webkit-mask-image: url(https://api.iconify.design/mingcute/emoji-fill.svg);
 	-webkit-mask-size: 26px; /*works better than 24px for god knows why*/
 	-webkit-mask-position: center;
 	background: var(--interactive-normal);
 }
 [aria-label="Select emoji"] [class*="contents_"]:hover{
 	background: var(--interactive-hover);
-}
-[aria-label="Select emoji"] [class*="contents_"]{
-	-webkit-mask-image: url(https://api.iconify.design/mingcute/emoji-fill.svg);
 }
 [aria-label="Select emoji"] [class*="contents_"] *{
 	visibility: hidden;
