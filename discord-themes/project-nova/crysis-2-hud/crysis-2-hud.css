@@ -35,10 +35,6 @@
     border: 3px solid var(--accent);
     border-radius: 10px;
     position: fixed;
-	opacity: 1 !important; /*border visible on verification page*/
-}
-[class*="notAppAsidePanel_"]:has([class*="verification_"]) [class*="layers_"] > [class*="layer_"] *{
-	display: none; /*all children not visible on verification page*/
 }
 .platform-web [class*="layers_"] > [class*="layer_"]{
     height: 65vh;
@@ -86,6 +82,25 @@
 .bd-toast{
     background: hsl(var(--accent-hsl) / .3); /*not var(--accent-contrast) so we know where it begins and ends. won't blend in with message area since too low anyways*/
     color: var(--accent);
+}
+/*-----VERIFICATION PAGE-----*/
+/* HUD border visibility*/
+[class*="notAppAsidePanel_"]:has([class*="verification_"]) [class*="layers_"] > [class*="layer_"]{
+	opacity: 1 !important;
+}
+[class*="notAppAsidePanel_"]:has([class*="verification_"]) [class*="layers_"] > [class*="layer_"] *{
+	display: none;
+}
+/* Text replacement */
+.verification_cdbc7c .body_cdbc7c {
+    line-height: 0;
+    text-indent: -9999px
+}
+.verification_cdbc7c .body_cdbc7c:after{
+	content: "Unidentified suit wearer. Please start the authentication process by selecting the button below and entering your mobile device number.";
+	display: block;
+	line-height: 1.5;
+	text-indent: 0;
 }
 /*-----MISCELLANEOUS-----*/
 /* EMBEDS */
