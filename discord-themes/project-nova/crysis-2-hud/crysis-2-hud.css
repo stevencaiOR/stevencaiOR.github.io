@@ -35,6 +35,10 @@
     border: 3px solid var(--accent);
     border-radius: 10px;
     position: fixed;
+	opacity: 1 !important; /*border visible on verification page*/
+}
+[class*="notAppAsidePanel_"]:has([class*="verification_"]) [class*="layers_"] > [class*="layer_"] *{
+	display: none; /*all children not visible on verification page*/
 }
 .platform-web [class*="layers_"] > [class*="layer_"]{
     height: 65vh;
