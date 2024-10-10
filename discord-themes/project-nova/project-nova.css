@@ -934,7 +934,7 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
 [class*="sessionIcon_"]{
     background: rgb(0,0,0,.2);
     color: var(--accent);
-    box-shadow: 0 0 0 3px;
+    box-shadow: 0 0 0 3px; /*a border basically*/
 }
 [class*="otherSessions_"] [class*="children_"]{
     flex-direction: row;
