@@ -2,6 +2,7 @@
 @import url(https://stevencaior.github.io/discord-themes/project-nova/forever-dark.css);
 @import url(https://stevencaior.github.io/discord-themes/add-ons/platform-indicator-support.css);
 @import url(https://stevencaior.github.io/discord-themes/add-ons/better-user-area-icons.css);
+@import url(https://stevencaior.github.io/discord-themes/add-ons/static-emoji.css);
 
 :root,
 :root:lang(el),
@@ -586,25 +587,17 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     box-shadow: 0 0 0 3px var(--accent);
 }
 /* GIFT/STICKER/EMOJI BUTTONS */
-[class*="channelTextArea_"] [aria-label="Open sticker picker"] [class*="contents_"],
-[class*="channelTextArea_"] [aria-label="Select emoji"] [class*="contents_"]{
+[aria-label="Open sticker picker"] [class*="contents_"]{
+	-webkit-mask-image: url(https://api.iconify.design/mingcute/sticker-fill.svg);
 	-webkit-mask-size: 26px; /*works better than 24px for god knows why*/
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center;
 	background: var(--interactive-normal);
 }
-[class*="channelTextArea_"] [aria-label="Open sticker picker"] [class*="contents_"]:hover,
-[class*="channelTextArea_"] [aria-label="Select emoji"] [class*="contents_"]:hover{
+[aria-label="Open sticker picker"] [class*="contents_"]:hover{
 	background: var(--interactive-hover);
 }
-[class*="channelTextArea_"] [aria-label="Open sticker picker"] [class*="contents_"]{
-	-webkit-mask-image: url(https://raw.githubusercontent.com/Richard9394/MingCute/206398eecb2430fd33116e08a1e715abc33219d8/svg/design/sticker_fill.svg);
-}
-[class*="channelTextArea_"] [aria-label="Select emoji"] [class*="contents_"]{
-	-webkit-mask-image: url(https://raw.githubusercontent.com/Richard9394/MingCute/206398eecb2430fd33116e08a1e715abc33219d8/svg/emoji/emoji_fill.svg);
-}
-[class*="channelTextArea_"] [aria-label="Open sticker picker"] [class*="contents_"] *,
-[class*="channelTextArea_"] [aria-label="Select emoji"] [class*="contents_"] *{
+[aria-label="Open sticker picker"] [class*="contents_"] *{
 	visibility: hidden;
 }
 /* SEND BUTTON */
