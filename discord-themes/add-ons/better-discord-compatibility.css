@@ -1,0 +1,33 @@
+.bd-sidebar-header h2{
+    color: var(--accent);
+}
+.bd-sidebar-header .bd-icon{
+    fill: var(--accent);
+}
+.bd-button{
+    background: var(--accent);
+    color: var(--accent-contrast)
+}
+.bd-button:hover{
+    background: var(--accent-2);
+}
+.bd-addon-views .bd-view-button.selected{
+    background: var(--accent);
+}
+.bd-addon-views .bd-view-button.selected svg,
+.bd-controls > .bd-button.bd-addon-button:not(.bd-button-danger) svg{
+    fill: var(--accent-contrast)
+}
+.bd-addon-list .bd-addon-card{
+    background: var(--background-secondary-alt);
+}
+.bd-addon-list .bd-addon-header{
+    background: none;
+}
+.bd-search-wrapper{
+    background: var(--input-background);
+}
+.bd-toast{
+    background: var(--accent);
+    color: var(--accent-contrast);
+}
