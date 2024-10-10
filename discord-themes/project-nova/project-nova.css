@@ -204,7 +204,8 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 [class*="emptyCard_"],
 [class*="contentRegion_"],
 [class*="contentRegionScroller_"],
-[class*="standardSidebarView_"]{
+[class*="standardSidebarView_"],
+[class*="verification_"] /* verification required page */ {
     background: #00f0;
 }
 /* BACKGROUND SECONDARY */
