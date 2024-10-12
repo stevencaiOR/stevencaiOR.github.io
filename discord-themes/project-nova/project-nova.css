@@ -582,20 +582,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     background: var(--background-floating); /*matches message utilities*/
     box-shadow: 0 0 0 3px var(--accent);
 }
-/* GIFT/STICKER/EMOJI BUTTONS */
-[aria-label="Open sticker picker"] [class*="contents_"]{
-	-webkit-mask-image: url(https://api.iconify.design/mingcute/sticker-fill.svg);
-	-webkit-mask-size: 26px; /*works better than 24px for god knows why*/
-	-webkit-mask-repeat: no-repeat;
-	-webkit-mask-position: center;
-	background: var(--interactive-normal);
-}
-[aria-label="Open sticker picker"] [class*="contents_"]:hover{
-	background: var(--interactive-hover);
-}
-[aria-label="Open sticker picker"] [class*="contents_"] *{
-	visibility: hidden;
-}
 /* SEND BUTTON */
 .theme-dark [class*="button_"]:hover [class*="activeButtonChild_"]{
     color: var(--accent-2);
