@@ -1,0 +1,23 @@
+/*-----CHAT HEADER-----*/
+/* Affects new servers */
+[class*="cardWrapper_"] .icon_f9902b{
+    background: var(--header-primary) !important;
+    -webkit-mask-position: center;
+    -webkit-mask-size: 36px;
+    -webkit-mask-repeat: no-repeat;
+}
+[class*="cardWrapper_"] [style*="/assets/fea1d92557530364cefd.svg"] {
+    -webkit-mask-image: url(https://raw.githubusercontent.com/twbs/icons/main/icons/people.svg);
+}
+[class*="cardWrapper_"] [style*="/assets/b8566c6e8b65576532c0.svg"] {
+    -webkit-mask-image: url(https://api.iconify.design/fluent/paint-brush-24-regular.svg);
+}
+[class*="cardWrapper_"] [style*="/assets/cf6b9f0ee7c5cee7fb45.svg"] {
+    -webkit-mask-image: url(https://api.iconify.design/uil/comment-alt-message.svg);
+}
+[class*="cardWrapper_"] [style*="/assets/9da6c5317c167faaa3c8.svg"] {
+	-webkit-mask-image: url(https://api.iconify.design/tabler/download.svg);
+}
+[class*="cardWrapper_"] [style*="/assets/9db0c99df4cb2d4dfa87.svg"] {
+    -webkit-mask-image: url(https://api.iconify.design/streamline/application-add.svg);
+}
