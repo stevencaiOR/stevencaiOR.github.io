@@ -691,13 +691,13 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     -webkit-mask-image: url(https://api.iconify.design/fluent/paint-brush-24-regular.svg);
 }
 [class*="cardWrapper_"] .icon_f9902b[style*="cf6b9f0ee7c5cee7fb45"]{
-    -webkit-mask-image: url(https://raw.githubusercontent.com/Iconscout/unicons/9a9c624319dc55170e3a1bdee83618c37844f485/svg/line/comment-alt-message.svg);
+    -webkit-mask-image: url(https://api.iconify.design/uil/comment-alt-message.svg);
 }
 [class*="cardWrapper_"] .icon_f9902b[style*="9da6c5317c167faaa3c8"]{
-	-webkit-mask-image: url(https://raw.githubusercontent.com/tabler/tabler-icons/8d4f23166d708b42bacc5ce4bc73d72ba296057b/icons/outline/download.svg);
+	-webkit-mask-image: url(https://api.iconify.design/tabler/download.svg);
 }
 [class*="cardWrapper_"] .icon_f9902b[style*="9db0c99df4cb2d4dfa87"]{
-    -webkit-mask-image: url(https://raw.githubusercontent.com/Templarian/MaterialDesign/ce55b68ba7308fef54003d5c588343eeac30ff7a/svg/application-import.svg);
+    -webkit-mask-image: url(https://api.iconify.design/streamline/application-add.svg);
 }
 /* BUTTON MENU ON RIGHT */
 .message_d5deea .buttonsInner_d5deea{
