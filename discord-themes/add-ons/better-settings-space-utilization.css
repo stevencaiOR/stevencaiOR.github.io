@@ -3,6 +3,7 @@
 }
 [class*="sidebarRegion_"] [class*="sidebar_"]{
     width: var(--custom-standard-sidebar-view-sidebar-total-width);
+	padding-left: 10px;
 }
 [class*="sidebarRegion_"]+[class*="contentRegion_"]{
     max-width: calc(100% - var(--custom-standard-sidebar-view-sidebar-total-width));
