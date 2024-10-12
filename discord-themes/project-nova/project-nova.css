@@ -156,7 +156,6 @@
     --channels-width: 240px; /*default: 240px. works well with 125%*/
     --members-width: 300px;
     --profile-panel-width: var(--members-width);
-    --setting-sidebar-width: 240px;
     --spotify-color: hsl(141.4 76.1% 47.6%);
     --user-area-icon-color: var(--accent);
 	--user-area-icon-color-hover: var(--accent-contrast);
