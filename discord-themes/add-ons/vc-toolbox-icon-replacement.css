@@ -1,0 +1,10 @@
+.vc-toolbox-btn{
+    -webkit-mask: url(https://api.iconify.design/fluent/toolbox-24-filled.svg) center / contain no-repeat;
+	background: var(--interactive-normal);
+}
+.vc-toolbox-btn:hover{
+	background: var(--interactive-hover);
+}
+.vc-toolbox-btn path{
+    display: none;
+}
