@@ -19,6 +19,7 @@
     /*--background-floating: var(--popup-background-color);/* affects the search results dropdown and tooltips. close in color bty default anyways */
     --background-modifier-accent: var(--popup-border-color);
     /**--background-secondary-alt: var(--popup-background-color);/**/
+	--custom-standard-sidebar-view-sidebar-total-width: 240px;
     --deprecated-text-input-bg: var(--popup-background-color);
     --input-background: var(--popup-background-color);
 
