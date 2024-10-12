@@ -10,6 +10,7 @@
 @import url(https://stevencaior.github.io/discord-themes/add-ons/static-emoji.css);
 @import url(https://stevencaior.github.io/discord-themes/add-ons/custom-status-colors.css);
 @import url(https://stevencaior.github.io/discord-themes/add-ons/better-settings-space-utilization.css);
+@import url(https://stevencaior.github.io/discord-themes/add-ons/vc-toolbox-icon-replacement.css);
 /*----------*/
 
 :root,
@@ -1777,14 +1778,10 @@ button.button_adca65.enabled_adca65:hover{
 /* PLUGINS */
 /* Toolbox */
 .vc-toolbox-btn{
-    -webkit-mask: url(https://api.iconify.design/fluent/toolbox-24-filled.svg) center / contain no-repeat;
     background: var(--accent);
 }
 .vc-toolbox-btn:hover{
     background: var(--accent-2)
-}
-.vc-toolbox-btn path{
-    display: none;
 }
 /* Show Hidden Channels */
 .shc-lock-screen-container:before{
