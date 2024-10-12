@@ -25,3 +25,39 @@
 [class*="cardWrapper_"] [style*="/assets/9db0c99df4cb2d4dfa87.svg"] {
     -webkit-mask-image: url(https://api.iconify.design/streamline/application-add.svg);
 }
+/*-----CREATE YOUR SERVER-----*/
+.icon_a47d49{
+    display: none;
+}
+:has(> .icon_a47d49):before{
+    background: var(--text-normal);
+    content:"";
+    margin: 8px;
+    height: 48px;
+    width: 48px;    
+
+    -webkit-mask-position: center;
+    -webkit-mask-size: 36px;
+    -webkit-mask-repeat: no-repeat;
+}
+:has(> [src="/assets/c4b7801fb3f0df337861.svg"]):before{
+    -webkit-mask-image: url(https://api.iconify.design/bi/key.svg);
+}
+:has(> [src="/assets/4e83e03c728ff6263b47.svg"]):before{
+    -webkit-mask-image: url(https://api.iconify.design/ion/game-controller-outline.svg);
+}
+:has(> [src="/assets/1351814d99a389aad23c.svg"]):before{
+	-webkit-mask-image: url(https://api.iconify.design/icon-park-outline/school.svg);
+}
+:has(> [src="/assets/9ab631e1d1a164dc7ef0.svg"]):before{
+    -webkit-mask-image: url(https://api.iconify.design/lucide/notebook-pen.svg);
+}
+:has(> [src="/assets/a740255d036707212416.svg"]):before{
+    -webkit-mask-image: url(https://api.iconify.design/bi/people.svg);
+}
+:has(> [src="/assets/2072f15a7a61e7d69c05.svg"]):before{
+    -webkit-mask-image: url(https://api.iconify.design/bi/person-video3.svg);
+}
+:has(> [src="/assets/2ad98741f87bb58786cf.svg"]):before{
+	-webkit-mask-image: url(https://api.iconify.design/pepicons-pencil/people.svg);
+}
