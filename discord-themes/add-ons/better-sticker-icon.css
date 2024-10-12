@@ -1,0 +1,17 @@
+/*
+	Replaces sticker icon in message bar with one that doesn't have
+	a stupid fucking face.
+*/
+[aria-label="Open sticker picker"] [class*="contents_"]{
+	-webkit-mask-image: url(https://api.iconify.design/mingcute/sticker-fill.svg);
+	-webkit-mask-size: 26px; /*works better than 24px for god knows why*/
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+	background: var(--interactive-normal);
+}
+[aria-label="Open sticker picker"] [class*="contents_"]:hover{
+	background: var(--interactive-hover);
+}
+[aria-label="Open sticker picker"] [class*="contents_"] *{
+	visibility: hidden;
+}
