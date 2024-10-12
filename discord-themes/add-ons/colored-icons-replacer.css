@@ -37,7 +37,7 @@
     width: 48px;    
 
     -webkit-mask-position: center;
-    -webkit-mask-size: 36px;
+    -webkit-mask-size: 32px; /* Smaller than normal, but also not in your face */
     -webkit-mask-repeat: no-repeat;
 }
 :has(> [src="/assets/c4b7801fb3f0df337861.svg"]):before{
