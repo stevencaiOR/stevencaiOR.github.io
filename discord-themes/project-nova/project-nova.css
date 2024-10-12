@@ -146,6 +146,7 @@
 	--scrollbar-auto-track: #00f0;
 	--scrollbar-thin-thumb: var(--accent);
     --text-link: var(--accent);
+	--__spoiler-background-color--hidden: var(--primary-300);
 
     /* Miscellaneous */
     --code-background: rgb(31,31,31); /*matches that of vs code*/
