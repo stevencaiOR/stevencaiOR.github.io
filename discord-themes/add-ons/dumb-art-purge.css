@@ -53,3 +53,6 @@ img[alt*="wumpus" i],
 :has(> [src="/assets/0fe043cd8ae1ba7aaec9.svg"]){
 	background: #808aff;
 }
+[style*="/assets/2081717236a848985423.png"] /* Stupid banner image in "Try out Nitro!" section of profiles page in user settings */ {
+	background-image: linear-gradient(var(--bg-surface-overlay), var(--bg-surface-overlay)) !important;
+}
