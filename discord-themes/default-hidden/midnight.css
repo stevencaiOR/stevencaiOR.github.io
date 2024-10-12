@@ -1,11 +1,6 @@
 /*
 It is recommended you select dark theme in appearnace. Light theme probably works but is unconfirmed.
 */
-.theme-dark .container_fc4f04,
-.theme-darker .container_fc4f04,
-.theme-light .container_fc4f04 {
-    border-bottom: 1px solid var(--background-modifier-accent);
-}
 .theme-dark,
 .theme-darker,
 .theme-light {
@@ -1166,6 +1161,11 @@ It is recommended you select dark theme in appearnace. Light theme probably work
 	--shadow-top-ledge-filter: drop-shadow(0 -1.5px 0 hsla(0, 0%, 0%, 0.24));
 	--shadow-top-low: 0 -1px 4px 0 hsla(0, 0%, 0%, 0.14);
 	--shadow-top-low-filter: drop-shadow(0 -1px 4px hsla(0, 0%, 0%, 0.14));
+}
+.theme-dark .container_fc4f04,
+.theme-darker .container_fc4f04,
+.theme-light .container_fc4f04 {
+    border-bottom: 1px solid var(--background-modifier-accent);
 }
 .visual-refresh.theme-dark .chat_a7d72e,
 .visual-refresh.theme-darker .chat_a7d72e,
