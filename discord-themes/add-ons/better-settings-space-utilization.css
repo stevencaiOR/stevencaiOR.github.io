@@ -1,0 +1,19 @@
+[class*="sidebarRegion_"]{
+    flex-grow: 0;
+}
+[class*="sidebarRegion_"] [class*="sidebar_"]{
+    width: var(--custom-standard-sidebar-view-sidebar-total-width);
+}
+[class*="sidebarRegion_"]+[class*="contentRegion_"]{
+    max-width: calc(100% - var(--custom-standard-sidebar-view-sidebar-total-width));
+}
+[class*="contentColumn_"]{
+    max-width: 100%;
+}
+[class*="sidebarRegion_"] [class*="sidebar_"],
+[class*="contentColumn_"]{
+	padding-top: 20px;
+}
+#my-account-tab [class*="accountProfileCard_"]{
+	width: 660px;
+}
