@@ -1,0 +1,67 @@
+
+:root{
+    /*
+    For this add-on to work, please place the following code in
+	your custom CSS file. Otherwise, there is no point in using
+	this add-on. Note if you using one of my themes or a
+	ClearVision theme, you do not have to do anything after
+	importing this file.
+
+    --online-color: your color here;
+    --idle-color: your color here;
+    --dnd-color: your color here;
+    --streaming-color: your color here;
+    --offline-color: your color here;
+    */
+
+    --rs-online-color: var(--online-color);
+    --rs-idle-color: var(--idle-color);
+    --rs-dnd-color: var(--dnd-color);
+    --rs-streaming-color: var(--streaming-color);
+    --rs-offline-color: var(--offline-color);
+}
+/*-----GENERAL-----*/
+[aria-label*="online" i] > svg > rect[mask="url(#svg-mask-status-online-mobile)"] /*there are issues w/ phone icon w/ platform indicators on w/o this lengthy selector*/,
+rect[mask="url(#svg-mask-status-online)"]{
+    fill: var(--online-color);
+}
+rect[mask="url(#svg-mask-status-idle)"]{
+    fill: var(--idle-color);
+}
+rect[mask="url(#svg-mask-status-dnd)"]{
+    fill: var(--dnd-color);
+}
+rect[mask="url(#svg-mask-status-streaming)"]{
+    fill: var(--streaming-color);
+}
+[aria-label*="offline" i] rect[fill="#80848e"],
+rect[mask="url(#svg-mask-status-offline)"]{
+    fill: var(--offline-color);
+}
+/*-----USER POPOUT-----*/
+#account-status-picker--online[class*="focused_"]{
+    background: var(--online-color);
+}
+#account-status-picker--idle[class*="focused_"]{
+    background: var(--idle-color);
+}
+#account-status-picker--dnd[class*="focused_"]{
+    background: var(--dnd-color);
+}
+#account-status-picker--invisible[class*="focused_"]{
+    background: var(--offline-color);
+}
+[mask="url(#svg-mask-status-online-mobile)"] [style*="background"],
+[mask="url(#svg-mask-status-online)"] [style*="background"]{
+    background: var(--online-color) !important;
+}
+[mask="url(#svg-mask-status-idle)"] [style*="background"]{
+    background: var(--idle-color) !important;
+}
+[mask="url(#svg-mask-status-dnd)"] [style*="background"]{
+    background: var(--dnd-color) !important;
+}
+[mask="url(#svg-mask-status-invisible)"] [style*="background"],
+[mask="url(#svg-mask-status-offline)"] [style*="background"]{
+    background: var(--offline-color) !important;
+}
