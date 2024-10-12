@@ -34,7 +34,7 @@ img[alt*="mallow" i],
 img[alt*="graggle" i],
 img[alt*="sparkle"],
 img[alt*="wumpus" i],
-/* specific assets below (MUST HAVE AT LEAST 1 LOCATION) */
+/* Specific assets below (MUST HAVE AT LEAST 1 LOCATION) */
 [alt="A character looking excitedly at coins raining from the sky"] /* Hooded guy looking at coins in server subscriptions page of server settings */,
 [alt="Boost progress bar example"] /* Progress bar in overview page of server settings */,
 [src="/assets/0fe043cd8ae1ba7aaec9.svg"] /* Student hub banner in discovery */,
