@@ -542,11 +542,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 .top_a0 .themed_a0.item_a0[aria-selected="true"]{
     border-bottom-color: var(--accent);
 }
-/* MUTUAL FRIENDS + SERVERS */
-[class*="emptyIconFriends_"],
-[class*="emptyIconGuilds_"]{
-    display: none;
-}
 /* ROLES */
 /* Note: user popouts only */
 .roles_fa2f72 [class*="roleRemoveIcon_"]{
