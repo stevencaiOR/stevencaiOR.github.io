@@ -845,9 +845,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 .background_b69b77{
     background: var(--profile-body-background-color);
 }
-[class*="userSettingsSecurityImage_"]{
-    display: none;
-}
 /* Replaces ಠ_ಠ with Edit */
 button[aria-label="Edit username"] [class*="contents_"]{
     text-indent: -9999px;
