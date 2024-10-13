@@ -58,3 +58,8 @@ img[alt*="wumpus" i],
 [style*="/assets/2081717236a848985423.png"] /* Stupid banner image in "Try out Nitro!" section of profiles page in user settings */ {
 	background-image: linear-gradient(var(--bg-surface-overlay), var(--bg-surface-overlay)) !important;
 }
+/* Quest box in gift inventory page of user settings */
+.theme-dark .container_c1cce6,
+.theme-light .container_c1cce6{
+	background-image: none !important;
+}
