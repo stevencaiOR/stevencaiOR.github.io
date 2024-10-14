@@ -426,9 +426,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 [class*="peopleColumn_"] [class*="wrapper_"]{
     max-width: 100%;
 }
-[class*="peopleColumn_"] [class*="image_"]{
-    display: none;
-}
 [class*="peopleColumn_"] [class*="friendsEmpty_"] [class*="text_"]{
     color: var(--accent);
     font-size: 32px;
