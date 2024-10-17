@@ -631,16 +631,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     line-height: 1.9;
 }
 /* CHAT HEADER (NEW SERVERS) */
-.subtitle_f9902b{
-    line-height: 0;
-    text-indent: -9999px;
-}
-.subtitle_f9902b:after{
-    line-height: 1.3;
-    text-indent: 0;
-    content: "Below are some steps to help you get this server started.";
-    display: block;
-}
 .checkmark_f9902b /*checkmark in new server checklist*/{
 	background: var(--accent);
 	color: var(--accent-contrast);

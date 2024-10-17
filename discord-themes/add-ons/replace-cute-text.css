@@ -35,3 +35,15 @@
     line-height: 1.25;
     text-indent: 0;
 }
+/*-----MESSAGE AREA-----*/
+/*---CHAT HEADER (NEW SERVERS)---*/
+.subtitle_f9902b{
+    line-height: 0;
+    text-indent: -9999px;
+}
+.subtitle_f9902b:after{
+    line-height: 1.2857142857142858;
+    text-indent: 0;
+    content: "Below are some steps to help personalize this server.";
+    display: block;
+}
