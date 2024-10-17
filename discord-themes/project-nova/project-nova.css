@@ -9,6 +9,7 @@
 @import url(https://stevencaior.github.io/discord-themes/add-ons/better-user-area-icons.css);
 @import url(https://stevencaior.github.io/discord-themes/add-ons/colored-icons-replacer.css);
 @import url(https://stevencaior.github.io/discord-themes/add-ons/custom-status-colors.css);
+@import url(https://stevencaior.github.io/discord-themes/add-ons/replace-cute-text.css);
 @import url(https://stevencaior.github.io/discord-themes/add-ons/settings-space-utilization.css);
 @import url(https://stevencaior.github.io/discord-themes/add-ons/static-emoji.css);
 @import url(https://stevencaior.github.io/discord-themes/add-ons/vc-toolbox-icon-replacement.css);
@@ -430,26 +431,7 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     color: var(--accent);
     font-size: 32px;
     font-weight: 600;
-    line-height: 0;
     max-width: unset;
-    text-indent: -9999px;
-}
-[class*="peopleColumn_"] [class*="friendsEmpty_"] [class*="text_"]:after{
-    display: block;
-    line-height: 1.25;
-    text-indent: 0;
-}
-#online-tab [class*="friendsEmpty_"] [class*="text_"]:after{
-    content:"No friends currently online";
-}
-#all-tab [class*="friendsEmpty_"] [class*="text_"]:after{
-    content:"No friends added";
-}
-#pending-tab [class*="friendsEmpty_"] [class*="text_"]:after{
-    content:"No outgoing/incoming friend requests";
-}
-#blocked-tab [class*="friendsEmpty_"] [class*="text_"]:after{
-    content:"No blocked users";
 }
 /* NOW PLAYING COLUMN */
 [class*="nowPlayingColumn_"] [class*="emptyCard_"] [class*="emptyText_"]{
