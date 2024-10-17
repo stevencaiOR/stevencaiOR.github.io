@@ -230,3 +230,21 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     text-indent: 0;
     line-height: 1.25;
 }
+/*---SO... YOU BLOCKED THIS PERSON---*/
+[aria-label="Soo... You Blocked This Person"] h2,
+[aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]{
+    line-height: 0;
+	text-indent: -9999px;
+}
+[aria-label="Soo... You Blocked This Person"] h2:after,
+[aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]:after{
+    display: block;
+    line-height: 1.25;
+    text-indent: 0;
+}
+[aria-label="Soo... You Blocked This Person"] h2:after{
+    content: "User Blocked";
+}
+[aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]:after{
+    content: "Unblock this user before jumping to the specified message";
+}
