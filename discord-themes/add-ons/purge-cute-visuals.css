@@ -28,6 +28,7 @@
 img[class*="roleSubscription"],
 [class*="sadImage_"] /* Empty emoji picker panel */,
 [class*="sparkle_"] /* A sparkleContainer_ class is used for user settings -> profiles -> profile theme*/,
+[class*="sparkleStar_"] /* First box of Nitro page in user settings */,
 [class*="sparkles_"] /* Hope this doesn't screw something up*/,
 [class*="stars" i],
 [class*="upsellImage_"],
