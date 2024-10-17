@@ -947,59 +947,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     line-height: 1.3;
     text-indent: 0;
 }
-/* APPEARANCE */
-#appearance-tab #message-content-0,
-#message-content-1,
-#message-content-2,
-#message-content-3,
-#message-content-4{
-    display: inline-block;
-    text-indent: -9999px;
-    line-height: 0;
-    vertical-align: bottom;
-}
-#appearance-tab #message-content-0:after,
-#message-content-1:after,
-#message-content-2:after,
-#message-content-3:after,
-#message-content-4:after{
-    display: block;
-    line-height: 1.4;
-    text-indent: 0;
-}
-#appearance-tab #message-content-0:after{
-    content: "Alpha bravo charlie delta echo";
-}
-#message-content-1:after{
-    content: "Foxtrot golf hotel india jackal kilo";
-}
-#message-content-1 [class*="emojiContainer_"] {
-    display: none;
-}
-#message-content-2:after{
-    content: "Lima mike november oscar papa";
-}
-#message-content-3:after{
-    content: "Quebec razor sierra tango uniform";
-}  
-#message-content-4:after{
-    content: "Victor whiskey x-ray yankee zulu";
-}
-#appearance-tab [class*="itemFilled_"] [class*="text-md-medium_"]{
-    text-indent: -9999px;
-    line-height: 0px;
-}
-#appearance-tab [class*="itemFilled_"] [class*="text-md-medium_"]:after{
-    display: block;
-    text-indent: 0;
-    line-height: 1.25;
-}
-#appearance-tab [class*="itemFilled_"]:first-child [class*="text-md-medium_"]:after{
-    content: "Default: large avatars, usernames above messages";
-}
-#appearance-tab [class*="itemFilled_"]:last-child [class*="text-md-medium_"]:after{
-    content: "Compact: avatars optional, usernames adjacent to messages.";
-}
 /* VOICE & VIDEO */
 [class*="cameraWrapper_"] [class*="previewImage_"]{
     -webkit-mask: url(https://api.iconify.design/bi/webcam.svg) no-repeat center / contain;
