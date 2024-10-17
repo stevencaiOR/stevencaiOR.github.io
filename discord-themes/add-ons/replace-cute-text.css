@@ -42,7 +42,7 @@
     text-indent: -9999px;
 }
 .subtitle_f9902b:after{
-    line-height: 1.2857142857142858;
+    line-height: 1.286;
     text-indent: 0;
     content: "Below are some steps to help personalize this server.";
     display: block;
@@ -56,7 +56,7 @@ button[aria-label="Edit username"] [class*="contents_"]{
 }
 button[aria-label="Edit username"] [class*="contents_"]:after{
     text-indent: 0;
-    line-height: 1.14285714286;
+    line-height: 1.143;
     display: block;
     content: "Edit";
 }
@@ -86,10 +86,10 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
 }
 #discord-nitro-tab [class*="settingsTextContainer_"] h2:after{
     content: "Discord Nitro";
-	line-height: 1.05882352941;
+	line-height: 1.059;
 }
 [class*="perkCard_"]:not(:nth-child(5), :nth-child(8)) [class*="perkCardDescription_"]:after{
-	line-height: 1.2857142857142858;
+	line-height: 1.286;
 }
 [class*="perkCard_"]:first-child [class*="perkCardDescription_"]:after{
     content: "Use custom emojis anywhere.";
