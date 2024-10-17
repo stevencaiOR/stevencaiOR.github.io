@@ -1,7 +1,7 @@
 /*
 It is recommended you select dark theme in appearnace. Light theme probably works but is unconfirmed.
 */
-.theme-amoled,
+.theme-midnight,
 .theme-dark,
 .theme-light {
 	--activity-card-background: var(--primary-700);
