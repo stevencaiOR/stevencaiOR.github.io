@@ -116,6 +116,17 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     content: "Nitro Plans";
     line-height: 1.25;
 }
+/*---BILLING---*/
+#billing-tab [class*="codeRedemptionRedirect_"]{
+    line-height: 0;
+    text-indent: -9999px;
+}
+#billing-tab [class*="codeRedemptionRedirect_"]:after{
+    content: "Discord keys are now located in your gift inventory.";
+    display: block;
+    line-height: 1.286;
+    text-indent: 0;
+}
 /*---APPEARANCE---*/
 /* PREVIEW */
 #appearance-tab #message-content-0,
