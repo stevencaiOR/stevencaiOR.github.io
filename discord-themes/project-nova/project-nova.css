@@ -1059,9 +1059,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
     background: var(--input-background);
 }
 /* PINNED MESSAGES */
-[aria-label="Pinned Messages"] [class*="emptyPlaceholder_"] [class*="image_"]{
-    display: none;
-}
 [aria-label="Pinned Messages"] [class*="emptyPlaceholder_"] [class*="body_"]{
     line-height: 0;
     text-indent: -9999px;
