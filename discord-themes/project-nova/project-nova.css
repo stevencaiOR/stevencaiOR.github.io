@@ -1058,18 +1058,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 .input_f8b740:focus{
     background: var(--input-background);
 }
-/* PINNED MESSAGES */
-[aria-label="Pinned Messages"] [class*="emptyPlaceholder_"] [class*="body_"]{
-    line-height: 0;
-    text-indent: -9999px;
-    white-space: nowrap;
-}
-[aria-label="Pinned Messages"] [class*="emptyPlaceholder_"] [class*="body_"]:after{
-    content: "No pinned messages in this channel.";
-    display: block;
-    line-height: 1.25;
-    text-indent: 0;
-}
 /* HEADER SEARCH BAR */
 [class*="search_"] [class*="searchBar_"]{
     border: 3px solid var(--accent);
