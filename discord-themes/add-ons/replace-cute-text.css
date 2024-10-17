@@ -47,3 +47,16 @@
     content: "Below are some steps to help personalize this server.";
     display: block;
 }
+/*-----USER SETTINGS-----*/
+/*---MY ACCOUNT---*/
+/* Replaces ಠ_ಠ with Edit */
+button[aria-label="Edit username"] [class*="contents_"]{
+    text-indent: -9999px;
+    line-height: 0;
+}
+button[aria-label="Edit username"] [class*="contents_"]:after{
+    text-indent: 0;
+    line-height: 1.14;
+    display: block;
+    content: "Edit";
+}

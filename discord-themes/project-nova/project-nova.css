@@ -779,17 +779,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 .background_b69b77{
     background: var(--profile-body-background-color);
 }
-/* Replaces ಠ_ಠ with Edit */
-button[aria-label="Edit username"] [class*="contents_"]{
-    text-indent: -9999px;
-    line-height: 0;
-}
-button[aria-label="Edit username"] [class*="contents_"]:after{
-    text-indent: 0;
-    line-height: 1.14;
-    display: block;
-    content: "Edit";
-}
 /* PROFILES */
 .container_da1432{
     /* weird marketing crap */
