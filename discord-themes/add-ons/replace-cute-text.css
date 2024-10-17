@@ -1,0 +1,23 @@
+/*-----FRIENDS PAGE-----*/
+/*---EMPTY STATE---*/
+[class*="peopleColumn_"] [class*="friendsEmpty_"] [class*="text_"]{
+    line-height: 0;
+    text-indent: -9999px;
+}
+[class*="peopleColumn_"] [class*="friendsEmpty_"] [class*="text_"]:after{
+    display: block;
+    line-height: 1.25;
+    text-indent: 0;
+}
+#online-tab [class*="friendsEmpty_"] [class*="text_"]:after{
+    content:"No friends currently online";
+}
+#all-tab [class*="friendsEmpty_"] [class*="text_"]:after{
+    content:"No friends added";
+}
+#pending-tab [class*="friendsEmpty_"] [class*="text_"]:after{
+    content:"No outgoing/incoming friend requests";
+}
+#blocked-tab [class*="friendsEmpty_"] [class*="text_"]:after{
+    content:"No blocked users";
+}
