@@ -213,7 +213,7 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     white-space: nowrap;
 }
 [aria-label="Pinned Messages"] [class*="emptyPlaceholder_"] [class*="body_"]:after{
-    content: "No pinned messages in this channel.";
+    content: "No pinned messages.";
     display: block;
     line-height: 1.25;
     text-indent: 0;
