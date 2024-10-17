@@ -1244,24 +1244,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 [class*="quickswitcher_"]{
     border: 3px solid var(--accent);
 }
-/* "Soo... You Blocked This Person" MODAL */
-[aria-label="Soo... You Blocked This Person"] h2,
-[aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]{
-    text-indent: -9999px;
-    line-height: 0;
-}
-[aria-label="Soo... You Blocked This Person"] h2:after,
-[aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]:after{
-    display: block;
-    line-height: 1.25;
-    text-indent: 0;
-}
-[aria-label="Soo... You Blocked This Person"] h2:after{
-    content: "User Blocked";
-}
-[aria-label="Soo... You Blocked This Person"] [data-text-variant="text-md/normal"]:after{
-    content: "Unblock this user to jump to the specified message";
-}
 /* DOWNLOAD APPS MODAL */
 .platform_f82819.active_f82819 .downloadButton_f82819{
 	color: var(--accent-contrast);
