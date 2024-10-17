@@ -71,3 +71,48 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     display: block;
     content: "Nitro Preview";
 }
+/*---NITRO---*/
+#discord-nitro-tab [class*="settingsTextContainer_"] h2,
+[class*="planComparisonTableContainer_"] [class*="titleText_"],
+[class*="perkCard_"]:not(:nth-child(5), :nth-child(8)) [class*="perkCardDescription_"]{
+    text-indent: -9999px;
+    line-height: 0;
+}
+#discord-nitro-tab [class*="settingsTextContainer_"] h2:after,
+[class*="planComparisonTableContainer_"] [class*="titleText_"]:after,
+[class*="perkCard_"]:not(:nth-child(5), :nth-child(8)) [class*="perkCardDescription_"]:after{
+	display: block;
+    text-indent: 0;
+}
+#discord-nitro-tab [class*="settingsTextContainer_"] h2:after{
+    content: "Discord Nitro";
+	line-height: 1.05882352941;
+}
+[class*="perkCard_"]:not(:nth-child(5), :nth-child(8)) [class*="perkCardDescription_"]:after{
+	line-height: 1.2857142857142858;
+}
+[class*="perkCard_"]:first-child [class*="perkCardDescription_"]:after{
+    content: "Use custom emojis anywhere.";
+}
+[class*="perkCard_"]:nth-child(2) [class*="perkCardDescription_"]:after{
+    content: "Stream video games and applications in HD.";
+}
+[class*="perkCard_"]:nth-child(3) [class*="perkCardDescription_"]:after{
+    content: "Upload up to 500 MB of files per message.";
+}
+[class*="perkCard_"]:nth-child(4) [class*="perkCardDescription_"]:after{
+    content: "Select a custom mobile and in-app desktop icon.";
+}
+[class*="perkCard_"]:nth-child(6) [class*="perkCardDescription_"]:after{
+    content: "Choose your own video call background.";
+}
+[class*="perkCard_"]:nth-child(7) [class*="perkCardDescription_"]:after{
+    content: "Use unlimited Super Reactions in chats.";
+}
+[class*="perkCard_"]:last-child [class*="perkCardDescription_"]:after{
+    content: "Earn a restricted badge specific to Nitro subscribers.";
+}
+[class*="planComparisonTableContainer_"] [class*="titleText_"]:after{
+    content: "Nitro Plans";
+    line-height: 1.25;
+}
