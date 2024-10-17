@@ -95,7 +95,7 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     content: "Use custom emojis anywhere.";
 }
 [class*="perkCard_"]:nth-child(2) [class*="perkCardDescription_"]:after{
-    content: "Stream video games and applications in HD.";
+    content: "Stream apps and games in HD.";
 }
 [class*="perkCard_"]:nth-child(3) [class*="perkCardDescription_"]:after{
     content: "Upload up to 500 MB of files per message.";
@@ -110,7 +110,7 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     content: "Use unlimited Super Reactions in chats.";
 }
 [class*="perkCard_"]:last-child [class*="perkCardDescription_"]:after{
-    content: "Earn a restricted badge specific to Nitro subscribers.";
+    content: "Earn an exclusive badge specific to Nitro subscribers.";
 }
 [class*="planComparisonTableContainer_"] [class*="titleText_"]:after{
     content: "Nitro Plans";
