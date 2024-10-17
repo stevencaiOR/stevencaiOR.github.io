@@ -21,3 +21,17 @@
 #blocked-tab [class*="friendsEmpty_"] [class*="text_"]:after{
     content:"No blocked users";
 }
+/*---NOW PLAYING COLUMN---*/
+[class*="nowPlayingColumn_"] [class*="emptyCard_"] [class*="emptyText_"]{
+    display: none;
+}
+[class*="nowPlayingColumn_"] [class*="emptyCard_"] [class*="emptyHeader_"]{
+    line-height: 0;
+    text-indent: -9999px;
+}
+[class*="nowPlayingColumn_"] [class*="emptyCard_"] [class*="emptyHeader_"]:after{
+    content: "No one is currently active";
+    display: block;
+    line-height: 1.25;
+    text-indent: 0;
+}
