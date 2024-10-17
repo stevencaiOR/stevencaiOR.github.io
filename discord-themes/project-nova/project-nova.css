@@ -1475,17 +1475,6 @@ button.button_adca65.enabled_adca65:hover{
     padding: 40px;
     border-radius: 14px;
 }
-.note_a2a7b5 p{
-    color: var(--text-normal);
-    text-align: left;
-}
-.note_a2a7b5 p:after{
-    font-size: 18px;
-}
-.note_a2a7b5 p:after{
-    color: var(--accent);
-    font-weight: 800;
-}
 /*-----VERIFICATION REQUIRED PAGE-----*/
 .image_cdbc7c{
     display: none;
