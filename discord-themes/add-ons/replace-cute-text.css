@@ -116,3 +116,28 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     content: "Nitro Plans";
     line-height: 1.25;
 }
+/*-----CRASH PAGE-----*/
+/* Originally has "Well, this is awkward" */
+.title_a2a7b5,
+.note_a2a7b5 p{
+    line-height: 0;
+    text-indent: -9999px;
+}
+.title_a2a7b5:after,
+.note_a2a7b5 p:after {
+    display: block;
+    text-indent: 0;
+}
+.title_a2a7b5:after{
+    content: "Crash encountered";
+	line-height: 8px;
+}
+.note_a2a7b5 p:after{
+	line-height: 1;
+}
+.note_a2a7b5 p:first-child:after{
+    content: "Possible cause: plugins";
+}
+.note_a2a7b5 p:last-child:after{
+    content: "Recommended course of action: access the terminal (CTRL + Shift + I or CMD + Alt + I) to diagnose the issue.";
+}

@@ -1475,42 +1475,16 @@ button.button_adca65.enabled_adca65:hover{
     padding: 40px;
     border-radius: 14px;
 }
-.title_a2a7b5{
-    line-height: 0;
-    text-indent: -9999px;
-}
-.title_a2a7b5:after{
-    content: "Crash encountered";
-    display: block;
-    line-height: 1.2;
-    text-indent: 0;
-}
 .note_a2a7b5 p{
     color: var(--text-normal);
-    font-size: 0;
-    line-height: 1.2;
     text-align: left;
 }
-.note_a2a7b5 p:before,
 .note_a2a7b5 p:after{
     font-size: 18px;
 }
-.note_a2a7b5 p:before{
+.note_a2a7b5 p:after{
     color: var(--accent);
-    display: block;
     font-weight: 800;
-}
-.note_a2a7b5 p:first-child:before{
-    content: "Possible cause:";
-}
-.note_a2a7b5 p:first-child:after{
-    content: "Plugins";
-}
-.note_a2a7b5 p:last-child:before{
-    content: "Recommended course of action:";
-}
-.note_a2a7b5 p:last-child:after{
-    content: "Access the terminal (CTRL + Shift + I or CMD + Alt + I) to diagnose the issue.";
 }
 /*-----VERIFICATION REQUIRED PAGE-----*/
 .image_cdbc7c{
