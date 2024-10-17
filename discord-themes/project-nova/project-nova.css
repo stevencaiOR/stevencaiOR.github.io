@@ -787,16 +787,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 [class*="premiumBackground_"]{
     background: none;
 }
-#profile-customization-tab [class*="tryItOutSection_"] h3{
-    text-indent: -9999px;
-    line-height: 0;
-}
-#profile-customization-tab [class*="tryItOutSection_"] h3:after{
-    text-indent: 0;
-    line-height: 1.25;
-    display: block;
-    content: "Nitro Preview";
-}
 [class*="bannerUploaderInnerSquare_"][style*='background-image: url("/assets/']{ /*replaces dumb preview placeholder banner that they have*/
     background: var(--background-image) var(--background-position) /
     var(--background-size) var(--background-repeat) !important;
