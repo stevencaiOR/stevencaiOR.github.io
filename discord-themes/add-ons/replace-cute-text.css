@@ -204,3 +204,17 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
 .note_a2a7b5 p:last-child:after{
     content: "Access the terminal (CTRL + Shift + I or CMD + Alt + I) to diagnose the issue.";
 }
+/*-----TOP BAR-----*/
+/*---PINNED MESSAGES---*/
+/* Empty dropdown text */
+[aria-label="Pinned Messages"] [class*="emptyPlaceholder_"] [class*="body_"]{
+    line-height: 0;
+    text-indent: -9999px;
+    white-space: nowrap;
+}
+[aria-label="Pinned Messages"] [class*="emptyPlaceholder_"] [class*="body_"]:after{
+    content: "No pinned messages in this channel.";
+    display: block;
+    line-height: 1.25;
+    text-indent: 0;
+}
