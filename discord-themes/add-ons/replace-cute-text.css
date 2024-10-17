@@ -60,3 +60,14 @@ button[aria-label="Edit username"] [class*="contents_"]:after{
     display: block;
     content: "Edit";
 }
+/*---PROFILES---*/
+#profile-customization-tab [class*="tryItOutSection_"] h3{
+    text-indent: -9999px;
+    line-height: 0;
+}
+#profile-customization-tab [class*="tryItOutSection_"] h3:after{
+    text-indent: 0;
+    line-height: 1.25;
+    display: block;
+    content: "Nitro Preview";
+}
