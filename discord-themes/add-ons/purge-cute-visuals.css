@@ -41,6 +41,8 @@ img[alt*="graggle" i],
 img[alt*="sparkle"],
 img[alt*="wumpus" i],
 /* Specific assets below (MUST HAVE AT LEAST 1 LOCATION) */
+[src="/assets/a221ecd0f9f14fe4d0b1.svg"] /* Overview page in category settings (dark) */,
+[src="/assets/ec411ddc89957ad4437f.svg"] /* Overview page in category settings (light) */,
 [src="/assets/eb3bf32fdaa61a5ecc53.svg"] /* "Have Questions" icon at bottom of application launcher (dark) */,
 [src="/assets/03afde423124b81bde24.svg"] /* "Have Questions" icon at bottom of application launcher (light) */,
 [src="/assets/8cb07feb11b94688667c.svg"] /* Wooden logs in family center if empty */,
