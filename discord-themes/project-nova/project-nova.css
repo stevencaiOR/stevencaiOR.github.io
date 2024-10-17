@@ -1240,17 +1240,6 @@ img[src*="947934356880629760"]~h3[class*="header_"] [class*="username_"]::before
 [class*="unicodeShortcut_"]{
     background: var(--background-floating);
 }
-/* "Friend request failed" MODAL */
-[aria-label="Friend request failed"] [data-text-variant="text-md/normal"]{
-    text-indent: -9999px;
-    line-height: 0;
-}
-[aria-label="Friend request failed"] [data-text-variant="text-md/normal"]:after{
-    content: "User not found. If the username is correct, the user has either blocked you or has prevented certain friend requests in settings.";
-    display: block;
-    text-indent: 0;
-    line-height: 1.25;
-}
 /* QUICKSWITCHER */
 [class*="quickswitcher_"]{
     border: 3px solid var(--accent);
