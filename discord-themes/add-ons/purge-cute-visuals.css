@@ -18,6 +18,7 @@
 [class*="howItWorksImage_"],
 .image_a2a7b5 /* "Well, this is awkward" cat that appears if Discord crashes */,
 .image_b12c98,
+[class*="imageError_"] /* Failed loading of images */,
 [class*="noResultsImage_"],
 [class*="perkNewsletter_"],
 [class*="perkBadge_"],
