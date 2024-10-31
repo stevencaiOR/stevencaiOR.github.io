@@ -1347,9 +1347,6 @@ button.button_adca65.enabled_adca65:hover{
     fill: var(--accent-contrast);
 }
 /*-----STUDENT HUB-----*/
-.headerImage_d33b18{
-    display: none;
-}
 .headerContent_d33b18 .searchBox_d33b18{
     background: var(--input-background);
 }
