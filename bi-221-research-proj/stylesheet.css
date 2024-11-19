@@ -1,0 +1,58 @@
+:root{
+	font-family: Segoe UI, sans-serif;
+
+	--accent-hue: 192.321;
+    --accent-saturation-base: 100%;
+    --accent-saturation-coefficient: .5;
+    --accent-lightness-base: 78.039%;
+    --accent-lightness-coefficient: .7;
+    --accent-contrast: #000;
+	--accent: hsl(var(--accent-hsl));
+    --accent-hsl: var(--accent-hue) var(--accent-saturation-base) var(--accent-lightness-base);
+	
+	--text-color: rgb(221, 221, 221);
+}
+body{
+	background: rgb(16,16,16);
+	color: var(--text-color);
+	height: 100vh;
+	width: 100vw;
+	display: block;
+	padding: 0;
+	margin: 0
+}
+.header{
+	padding: 10px
+}
+h2{
+	font-weight: 600;
+}
+.container{
+	height: 100%;
+	width: 100%;
+	display: block;
+	position: relative;
+	border-top: 1px solid grey;
+}
+.nav-panel {
+	width: 250px;
+	display: block;
+	background: rgb(32, 32, 32);
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	height: 100%;
+	left: 0;
+}
+.nav-panel a{
+	color: var(--text-color);
+	padding: 10px 5px;
+	text-decoration: none;
+	padding-left: 10px;
+}
+.nav-panel a:hover{
+	background: rgb(221, 221, 221, .1)
+}
+.container .body{
+	
+}
