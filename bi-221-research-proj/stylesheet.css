@@ -54,5 +54,7 @@ h2{
 	background: rgb(221, 221, 221, .1)
 }
 .container .body{
-	
+	position: absolute;
+  	width: calc(100% - 250px);
+  	right: 0;
 }
