@@ -58,3 +58,7 @@ h2{
   	width: calc(100% - 250px);
   	right: 0;
 }
+.graph{
+	width: 600px;
+	display: block;
+}
